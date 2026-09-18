@@ -87,7 +87,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 16 課：在 Docker 和 Kubernetes 上部署 OHDSI 堆疊](/storage/uploads/2026/03/ohdsi-bai-16-docker-kubernetes.png)
+![第 16 課：在 Docker 和 Kubernetes 上部署 OHDSI 堆疊](/storage/uploads/2026/03/ohdsi-bai-16-docker-kubernetes.webp)
 
 ## 簡介
 

@@ -94,7 +94,7 @@ locale: en
 
 ## 1. Why is Medical Data Security important?
 
-![HIPAA Technical Safeguards Overview — 5 categories of technical security controls](/storage/uploads/2026/04/healthcare-hipaa-safeguards-overview.png)
+![HIPAA Technical Safeguards Overview — 5 categories of technical security controls](/storage/uploads/2026/04/healthcare-hipaa-safeguards-overview.webp)
 
 Medical data is one of the most sensitive types of data. A medical record contains personal information, medical history, test results, prescriptions, and insurance information — all of which are highly valuable on the black market.
 
@@ -230,7 +230,7 @@ When a data breach occurs involving PHI:
 
 FHIR defines security components:
 
-![Security layers in the FHIR architecture — from Communication Security to Consent Management](/storage/uploads/2026/04/healthcare-fhir-security-layers.png)
+![Security layers in the FHIR architecture — from Communication Security to Consent Management](/storage/uploads/2026/04/healthcare-fhir-security-layers.webp)
 
 - **Communication Security**: HTTPS/TLS
 - **Authentication**: OAuth2, SMART on FHIR
@@ -287,7 +287,7 @@ Regulations on electronic medical records:
 
 ### 6.1. NIST Cybersecurity Framework
 
-![NIST Cybersecurity Framework lifecycle — 5 functions: Identify, Protect, Detect, Respond, Recover](/storage/uploads/2026/04/healthcare-nist-csf-framework.png)
+![NIST Cybersecurity Framework lifecycle — 5 functions: Identify, Protect, Detect, Respond, Recover](/storage/uploads/2026/04/healthcare-nist-csf-framework.webp)
 
 - **IDENTIFY**: Asset Management, Risk Assessment
 - **PROTECT**: Access Control, Data Security, Training

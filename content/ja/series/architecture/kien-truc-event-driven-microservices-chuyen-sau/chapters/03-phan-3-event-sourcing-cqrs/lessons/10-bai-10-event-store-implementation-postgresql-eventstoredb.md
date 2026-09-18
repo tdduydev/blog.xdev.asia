@@ -87,7 +87,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 10: イベント ストアの実装 - PostgreSQL と EventStoreDB](/storage/uploads/2026/03/edm-bai-10-diagram.png)
+![レッスン 10: イベント ストアの実装 - PostgreSQL と EventStoreDB](/storage/uploads/2026/03/edm-bai-10-diagram.webp)
 
 ## はじめに
 

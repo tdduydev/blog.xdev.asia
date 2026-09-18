@@ -6,7 +6,7 @@ excerpt: >-
   Sai lầm phổ biến nhất của BA là nhảy thẳng vào giải pháp trước khi hiểu vấn đề.
   Học cách viết problem statement theo business outcome, phân biệt problem vs symptom vs solution,
   và áp dụng SCQ framework để framing đúng ngay từ đầu.
-featured_image: /images/blog/problem-framing-ba.png
+featured_image: /images/blog/problem-framing-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

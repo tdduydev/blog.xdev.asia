@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai8-bedrock-architecture.png" alt="Amazon Bedrock 架構" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai8-bedrock-architecture.webp" alt="Amazon Bedrock 架構" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Amazon Bedrock 架構——基礎模型、Agents、Guardrails 和 Knowledge Bases</em></p>
 </div>
 

@@ -91,7 +91,7 @@ locale: ja
 フロントエンド用バックエンド (BFF) は、フロントエンド クライアントごとに個別の **バックエンド レイヤー** を配置するパターンです。 BFF は複数のマイクロサービスからデータを集約し、特定のフロントエンドに適した形式に変換します。
 
 
-![BFF パターン - 各クライアントのフロントエンド用に個別のバックエンド](/storage/uploads/2026/04/mfe-ms-diagram-bai17-bff-pattern.png)
+![BFF パターン - 各クライアントのフロントエンド用に個別のバックエンド](/storage/uploads/2026/04/mfe-ms-diagram-bai17-bff-pattern.webp)
 
 ---
 

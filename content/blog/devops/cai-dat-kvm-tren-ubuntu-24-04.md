@@ -7,7 +7,7 @@ excerpt: >-
   24.04 LTS với giao diện quản lý web Cockpit hoặc Kimchi. Tìm hiểu cách thiết
   lập môi trường ảo hóa hoàn chỉnh, cấu hình network bridge, và tạo máy ảo đầu
   tiên của bạn một cách dễ dàng.
-featured_image: /images/blog/kvm-ubuntu-featured.png
+featured_image: /images/blog/kvm-ubuntu-featured.webp
 type: blog
 reading_time: 9
 view_count: 2

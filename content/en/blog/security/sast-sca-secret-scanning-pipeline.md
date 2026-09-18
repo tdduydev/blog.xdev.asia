@@ -6,7 +6,7 @@ excerpt: >-
   Before talking about DAST, IAST or supply chain, every pipeline needs three
   basic layers: SAST for code, SCA for dependencies, secret scanning for
   keys/tokens. Here is how to set them up with Semgrep, Trivy and Gitleaks.
-featured_image: /images/blog/sast-sca-secret-pipeline-featured.png
+featured_image: /images/blog/sast-sca-secret-pipeline-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

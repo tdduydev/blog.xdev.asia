@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai4-feature-store.png" alt="Vertex AI Feature Store" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai4-feature-store.webp" alt="Vertex AI Feature Store" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>特徵工程與Vertex AI Feature Store：為ML建立、儲存與重複使用特徵</em></p>
 </div>
 

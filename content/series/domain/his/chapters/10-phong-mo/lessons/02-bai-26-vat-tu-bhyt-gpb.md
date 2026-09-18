@@ -7,7 +7,7 @@ description: >-
   phẫu bệnh từ phòng mổ → khoa GPB → kết quả.
 duration_minutes: 45
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-26-vat-tu-bhyt-gpb-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-26-vat-tu-bhyt-gpb-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 10: Phòng mổ (Surgery)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Vật tư phòng mổ, BHYT & giải phẫu bệnh](/storage/uploads/2026/05/his/bai-26-vat-tu-bhyt-gpb-banner.png)
+![Vật tư phòng mổ, BHYT & giải phẫu bệnh](/storage/uploads/2026/05/his/bai-26-vat-tu-bhyt-gpb-banner.webp)
 
 ## Vật tư tiêu hao & cấy ghép
 
-![Đếm vật tư surgery và đóng gói mẫu GPB](/storage/uploads/2026/05/his/bai-26-vat-tu-bhyt-gpb-workflow.png)
+![Đếm vật tư surgery và đóng gói mẫu GPB](/storage/uploads/2026/05/his/bai-26-vat-tu-bhyt-gpb-workflow.webp)
 
 
 ## Mục tiêu bài học

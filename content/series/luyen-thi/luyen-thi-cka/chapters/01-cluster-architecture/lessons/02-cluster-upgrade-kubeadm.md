@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai2-upgrade.png" alt="Kubernetes Cluster Upgrade Sequence — Control Plane first, then Workers" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai2-upgrade.webp" alt="Kubernetes Cluster Upgrade Sequence — Control Plane first, then Workers" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="upgrade-overview">1. Upgrade Strategy Overview</h2>
 

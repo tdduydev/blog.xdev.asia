@@ -98,7 +98,7 @@ này, để nó khỏi bị "sửa cho đẹp" khi số liệu đổi.
 
 ## Chạy thử
 
-![Kết quả chạy ep05_decision_tree](/images/blog/ml-nhin-la-hieu/ep05_decision_tree.png)
+![Kết quả chạy ep05_decision_tree](/images/blog/ml-nhin-la-hieu/ep05_decision_tree.webp)
 
 > Ảnh trên là output thật của `python scratch/ep05_decision_tree.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep05_decision_tree.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep05_decision_tree.py) · [`library/ep05_decision_tree.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep05_decision_tree.py)

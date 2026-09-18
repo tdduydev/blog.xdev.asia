@@ -7,7 +7,7 @@ excerpt: >-
   model drift, data poisoning, hallucination cascades, and bias amplification.
   BAs need a proper Risk Register, an incident response plan, and a post-mortem
   template specifically designed for AI incidents.
-featured_image: /images/blog/risk-incident-analysis.png
+featured_image: /images/blog/risk-incident-analysis.webp
 type: blog
 reading_time: 13
 view_count: 0

@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai9-responsible-ai-pillars.png" alt="Responsible AI Pillars" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai9-responsible-ai-pillars.webp" alt="Responsible AI Pillars" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Responsible AI Pillars and Bias Entry Points in the ML Pipeline</em></p>
 </div>
 

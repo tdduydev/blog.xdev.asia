@@ -43,7 +43,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Gộp records thành ERA — từ nhiều sự kiện rời rạc thành đợt liên tục](/storage/uploads/2026/04/omop-cdm-bai19-era-concept.png)
+![Gộp records thành ERA — từ nhiều sự kiện rời rạc thành đợt liên tục](/storage/uploads/2026/04/omop-cdm-bai19-era-concept.webp)
 
 ## Giới thiệu
 

@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai9-responsible-ai-pillars.png" alt="責任あるAIの柱" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai9-responsible-ai-pillars.webp" alt="責任あるAIの柱" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>責任あるAIの柱とMLパイプラインにおけるバイアスの混入ポイント</em></p>
 </div>
 

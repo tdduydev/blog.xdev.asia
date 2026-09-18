@@ -4,7 +4,7 @@ title: "AIBAのポートフォリオ構築：AIプロジェクト経験で際立
 slug: portfolio-building-for-ai-ba
 excerpt: >-
   シニアAI BAポジションやAI PMへの転身を目指すBAには、ツールの列挙だけでなく、実質的なポートフォリオが必要です。AIプロジェクトのケーススタディを構成する方法、どのアーティファクトをショーケースするか、そしてLinkedInとCVでのストーリーテリングのガイドです。
-featured_image: /images/blog/portfolio-ai-ba.png
+featured_image: /images/blog/portfolio-ai-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

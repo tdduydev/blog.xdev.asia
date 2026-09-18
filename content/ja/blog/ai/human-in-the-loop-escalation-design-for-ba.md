@@ -6,7 +6,7 @@ excerpt: >-
   Human-in-the-loop は「confirm ボタンを足す」だけではありません。BA は
   escalation threshold、routing rule、agent review の SLA、feedback loop を設計する
   必要があります。decision matrix と flow template 付きの実践 HITL ガイドです。
-featured_image: /images/blog/human-in-the-loop-design.png
+featured_image: /images/blog/human-in-the-loop-design.webp
 type: blog
 reading_time: 13
 view_count: 0

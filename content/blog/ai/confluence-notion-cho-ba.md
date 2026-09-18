@@ -6,7 +6,7 @@ excerpt: >-
   BA dùng Confluence hay Notion không chỉ để lưu tài liệu — mà để tạo single source
   of truth cho toàn team. Hướng dẫn cấu trúc space, template BRD/FRD, linking
   requirements với Jira tickets, và quản lý assumption log trong dự án AI.
-featured_image: /images/blog/confluence-notion-ba.png
+featured_image: /images/blog/confluence-notion-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

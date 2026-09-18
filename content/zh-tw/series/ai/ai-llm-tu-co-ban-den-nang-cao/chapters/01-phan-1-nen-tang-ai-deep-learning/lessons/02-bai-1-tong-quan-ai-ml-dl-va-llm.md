@@ -117,7 +117,7 @@ locale: zh-tw
 
 許多人可以互換使用這些術語，但它們是嵌套的，而不是同義詞。
 
-![人工智慧、機器學習、深度學習和法學碩士之間的嵌套關係圖](/storage/uploads/2026/03/ai-ml-dl-llm-diagram.png)
+![人工智慧、機器學習、深度學習和法學碩士之間的嵌套關係圖](/storage/uploads/2026/03/ai-ml-dl-llm-diagram.webp)
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -197,7 +197,7 @@ ChatGPT 不只是一個更大的 GPT-3。秘密是**RLHF（人類回饋強化學
 
 ## 5.本系列的路線圖
 
-![從基礎到實際應用的學習路徑](/storage/uploads/2026/03/ai-series-roadmap.png)
+![從基礎到實際應用的學習路徑](/storage/uploads/2026/03/ai-series-roadmap.webp)
 
 本系列分為5個主要部分：
 

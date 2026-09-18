@@ -93,7 +93,7 @@ locale: en
 GraphQL Federation allows each microservice to expose a **subgraph**, and the Router automatically composes it into an **unified supergraph**. Frontend only needs 1 endpoint to query data from every service.
 
 
-![GraphQL Federation — unified graph from multiple subgraphs](/storage/uploads/2026/04/mfe-ms-diagram-bai19-graphql-federation.png)
+![GraphQL Federation — unified graph from multiple subgraphs](/storage/uploads/2026/04/mfe-ms-diagram-bai19-graphql-federation.webp)
 
 ---
 

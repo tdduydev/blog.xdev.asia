@@ -37,7 +37,7 @@ Service này hỗ trợ các hoạt động như:
 
 ### Kiến trúc Tổng quan
 
-![Terminology Service Architecture](/storage/uploads/hl7-r5/handson/image_3_1_.png)
+![Terminology Service Architecture](/storage/uploads/hl7-r5/handson/image_3_1_.webp)
 
 *Terminology Service Architecture*
 

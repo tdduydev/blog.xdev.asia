@@ -7,7 +7,7 @@ description: >-
   cũ, số hoá phim, OCR, gắn metadata, kho lạnh / kho điện tử.
 duration_minutes: 40
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-31-mra-luu-tru-hsba-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-31-mra-luu-tru-hsba-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 12: EMR & lưu trữ HSBA"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![MRA — lưu trữ HSBA hết liệu trình](/storage/uploads/2026/05/his/bai-31-mra-luu-tru-hsba-banner.png)
+![MRA — lưu trữ HSBA hết liệu trình](/storage/uploads/2026/05/his/bai-31-mra-luu-tru-hsba-banner.webp)
 
 ## Vai trò MRA (Medical Records Archive)
 
-![Phòng lưu trữ HSBA giấy + vault điện tử](/storage/uploads/2026/05/his/bai-31-mra-luu-tru-hsba-workflow.png)
+![Phòng lưu trữ HSBA giấy + vault điện tử](/storage/uploads/2026/05/his/bai-31-mra-luu-tru-hsba-workflow.webp)
 
 
 ## Mục tiêu bài học

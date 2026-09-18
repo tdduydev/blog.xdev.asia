@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 12 課：Saga 模式 - 管理分散式事務](/storage/uploads/2026/03/edm-bai-12-diagram.png)
+![第 12 課：Saga 模式 - 管理分散式事務](/storage/uploads/2026/03/edm-bai-12-diagram.webp)
 
 ## 簡介
 

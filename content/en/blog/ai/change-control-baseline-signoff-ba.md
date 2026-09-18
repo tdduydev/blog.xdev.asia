@@ -9,7 +9,7 @@ excerpt: >-
   sprint, scope, testing and release. This article guides BAs in managing
   baselines, change requests, impact analysis, sign-off and traceability in both
   Agile environments and traditional projects.
-featured_image: /images/blog/ba-planning-monitoring-ai-projects.png
+featured_image: /images/blog/ba-planning-monitoring-ai-projects.webp
 type: blog
 reading_time: 16
 view_count: 0

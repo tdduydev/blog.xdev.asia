@@ -4,7 +4,7 @@ title: "UAT & Business Readiness for AI Features: From Test Plan to Go/No-Go Dec
 slug: uat-business-readiness-ai-features
 excerpt: >-
   UAT for AI features isn't like traditional UAT — you test not just business logic but AI output quality, edge cases, bias, and whether users actually trust the AI. Complete guide from UAT plan, business readiness checklist to go/no-go decision framework for BA.
-featured_image: /images/blog/uat-business-readiness-ai.png
+featured_image: /images/blog/uat-business-readiness-ai.webp
 type: blog
 reading_time: 10
 view_count: 0

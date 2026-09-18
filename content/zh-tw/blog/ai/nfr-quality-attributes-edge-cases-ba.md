@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a004-000000000001
 title: NFR、品質屬性與邊緣案例：BA 如何寫開發/QA 進行測試？
 slug: nfr-quality-attributes-edge-cases-ba
 excerpt: 功能需求說明系統做什麼，而 NFR 說明系統做得如何。本文指導 BA 在衝刺之前編寫可衡量的 NFR、品質屬性場景、邊緣案例和審查清單。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 12
 view_count: 0

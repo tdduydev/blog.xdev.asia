@@ -17,7 +17,7 @@ course:
 ---
 <h2>🎯 Mục tiêu bài học</h2><p>Hiểu mô hình mạng Kubernetes từ cơ bản đến nâng cao: tại sao mỗi Pod có IP riêng, 4 loại communication patterns, CNI plugins (Cilium khuyến nghị 2026), và kube-proxy với nftables.</p>
 
-<img src="/storage/uploads/2026/03/k8s-networking-model-2026.png" alt="Kubernetes Networking Model - 4 Communication Patterns" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-networking-model-2026.webp" alt="Kubernetes Networking Model - 4 Communication Patterns" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. Kubernetes Networking Requirements</h2>
 <p>Kubernetes có 3 yêu cầu cốt lõi về networking:</p>

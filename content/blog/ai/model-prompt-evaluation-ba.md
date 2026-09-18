@@ -6,7 +6,7 @@ excerpt: >-
   BA không đánh giá AI bằng cảm tính "output trông có vẻ ổn". Cần một protocol rõ
   ràng: evaluation criteria, scoring rubric, blind test methodology, và go/no-go
   framework. Hướng dẫn đầy đủ từ thiết kế test set đến sign-off decision.
-featured_image: /images/blog/model-evaluation-protocol.png
+featured_image: /images/blog/model-evaluation-protocol.webp
 type: blog
 reading_time: 14
 view_count: 0

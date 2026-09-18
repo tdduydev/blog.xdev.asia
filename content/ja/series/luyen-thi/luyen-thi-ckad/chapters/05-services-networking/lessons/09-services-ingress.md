@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai9-services-ingress.png" alt="ServiceタイプとIngressルーティング — ClusterIP、NodePort、LoadBalancer" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai9-services-ingress.webp" alt="ServiceタイプとIngressルーティング — ClusterIP、NodePort、LoadBalancer" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="service-types">1. Serviceタイプ</h2>
 

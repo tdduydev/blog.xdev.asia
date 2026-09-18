@@ -92,7 +92,7 @@ locale: zh-tw
 原始碼的組織方式決定了開發人員的經驗、CI/CD 複雜性和團隊協作。本文對 Mono-Repo 與 Multi-Repo 進行了比較，並提供瞭如何選擇正確的指南。
 
 
-![Monorepo 與 Multi-repo — 比較程式碼管理策略](/storage/uploads/2026/04/mfe-ms-diagram-bai23-monorepo-vs-multirepo.png)
+![Monorepo 與 Multi-repo — 比較程式碼管理策略](/storage/uploads/2026/04/mfe-ms-diagram-bai23-monorepo-vs-multirepo.webp)
 
 ---
 

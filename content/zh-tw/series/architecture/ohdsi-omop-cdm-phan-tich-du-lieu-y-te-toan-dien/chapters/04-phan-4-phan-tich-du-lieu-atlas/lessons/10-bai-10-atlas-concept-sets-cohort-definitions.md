@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 10 課：ATLAS — 概念集與群組定義](/storage/uploads/2026/03/ohdsi-bai-10-concept-sets-cohorts.png)
+![第 10 課：ATLAS — 概念集與群組定義](/storage/uploads/2026/03/ohdsi-bai-10-concept-sets-cohorts.webp)
 
 ## 簡介
 

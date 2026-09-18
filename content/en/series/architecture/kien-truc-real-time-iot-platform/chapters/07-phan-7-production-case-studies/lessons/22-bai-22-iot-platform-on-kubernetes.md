@@ -86,7 +86,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Lesson 22: IoT Platform on Kubernetes](/storage/uploads/2026/03/iot-bai-22-diagram.png)
+![Lesson 22: IoT Platform on Kubernetes](/storage/uploads/2026/03/iot-bai-22-diagram.webp)
 
 ## Introduction
 

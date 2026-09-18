@@ -7,7 +7,7 @@ excerpt: >-
   article covers schema design, indexing, partitioning by person_id, vacuum,
   backup, security under Vietnam's Personal Data Protection Law 2025
   (effective Jan 1, 2026), audit logging, and vocabulary upgrades.
-featured_image: /images/blog/omop-production-featured.png
+featured_image: /images/blog/omop-production-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -85,7 +85,7 @@ ANALYZE condition_occurrence;
 
 ## 4. Partitioning for large datasets
 
-![Partitioning for large datasets](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d01.png)
+![Partitioning for large datasets](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d01.webp)
 
 ```sql
 CREATE TABLE condition_occurrence (
@@ -134,7 +134,7 @@ ORDER BY dead_ratio DESC;
 
 ## 6. Backup & DR
 
-![Backup & DR](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d02.png)
+![Backup & DR](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d02.webp)
 
 2026 pattern:
 - Streaming replication to one standby in the same DC (failover < 30s)
@@ -224,7 +224,7 @@ GRANT INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA results TO omop_atlas_webap
 
 ## 9. Vocabulary upgrade workflow
 
-![Vocabulary upgrade workflow](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d03.png)
+![Vocabulary upgrade workflow](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d03.webp)
 
 Cadence: quarterly. Keep a version log:
 

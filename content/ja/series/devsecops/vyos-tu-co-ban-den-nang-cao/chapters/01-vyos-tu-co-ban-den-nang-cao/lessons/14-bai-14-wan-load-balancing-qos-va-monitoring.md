@@ -15,7 +15,7 @@ course:
   title: VyOSの基礎から応用まで
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-14-wan-lb-qos.png" alt="WAN Load Balancing、QoS と Monitoring" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-14-wan-lb-qos.webp" alt="WAN Load Balancing、QoS と Monitoring" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS における WAN Load Balancing、QoS と Monitoring</h2>
 <p>安定したインターネット接続、帯域最適化、トラフィック可視化は重要な運用要件です。VyOS は WAN 負荷分散、QoS、monitoring のための強力な機能を提供します。</p>

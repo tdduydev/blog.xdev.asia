@@ -90,7 +90,7 @@ locale: zh-tw
 本文總結了前28篇文章的所有知識，應用於實際的**電子商務平台**。從架構決策→實作→部署→監控。
 
 
-![E-Commerce Platform — Full-Stack Architecture Case Study](/storage/uploads/2026/04/mfe-ms-diagram-bai29-ecommerce-case-study.png)
+![E-Commerce Platform — Full-Stack Architecture Case Study](/storage/uploads/2026/04/mfe-ms-diagram-bai29-ecommerce-case-study.webp)
 
 ---
 

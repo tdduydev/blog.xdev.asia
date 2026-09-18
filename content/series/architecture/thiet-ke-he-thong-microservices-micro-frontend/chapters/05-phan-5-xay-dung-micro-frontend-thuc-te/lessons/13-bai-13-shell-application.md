@@ -90,7 +90,7 @@ course:
 Shell Application (Container App) là **bộ não điều phối** toàn bộ Micro Frontend. Nó quyết định layout, routing, authentication, và cách các MFE giao tiếp với nhau.
 
 
-![Shell Application — orchestrator cho các Micro Frontends](/storage/uploads/2026/04/mfe-ms-diagram-bai13-shell-application.png)
+![Shell Application — orchestrator cho các Micro Frontends](/storage/uploads/2026/04/mfe-ms-diagram-bai13-shell-application.webp)
 
 ---
 

@@ -6,7 +6,7 @@ excerpt: >-
   静的なイメージスキャンでは、コンテナ稼働中の異常な振る舞いは検知できません。アドミッション
   ポリシー（Kyverno）でコンプライアンス違反のワークロードをブロックし、ランタイム
   モニター（Falco）でコンテナ内シェルやラテラルムーブメントを検知する組み合わせが必要です。
-featured_image: /images/blog/k8s-kyverno-falco-featured.png
+featured_image: /images/blog/k8s-kyverno-falco-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

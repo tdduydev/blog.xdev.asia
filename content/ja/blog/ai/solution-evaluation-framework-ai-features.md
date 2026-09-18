@@ -4,7 +4,7 @@ title: "AI 機能向けソリューション評価フレームワーク：何を
 slug: solution-evaluation-framework-ai-features
 excerpt: >-
   多くのチームが AI 機能をローンチしても、機能が成功したかどうかわかりません。このガイドは、BA にローンチ前に評価フレームワークを構築する方法を教えます。ビジネス KPI + 技術 KPI + 経験 KPI を定義し、30/60/90 日のレビュー スケジュール、メトリクスで次のステップを決定。
-featured_image: /images/blog/solution-evaluation-ai.png
+featured_image: /images/blog/solution-evaluation-ai.webp
 type: blog
 reading_time: 9
 view_count: 0

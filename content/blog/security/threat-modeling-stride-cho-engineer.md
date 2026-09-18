@@ -6,7 +6,7 @@ excerpt: >-
   Threat model không cần phải là tài liệu 50 trang. Một buổi 60 phút với DFD
   level 1, STRIDE và risk register đủ để tránh lớp lỗi thiết kế thường xuyên
   thấy trong audit và pentest.
-featured_image: /images/blog/threat-modeling-stride-featured.png
+featured_image: /images/blog/threat-modeling-stride-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

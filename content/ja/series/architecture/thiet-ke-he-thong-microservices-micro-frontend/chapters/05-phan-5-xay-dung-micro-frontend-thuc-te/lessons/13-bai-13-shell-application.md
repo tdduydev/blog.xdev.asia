@@ -90,7 +90,7 @@ locale: ja
 シェル アプリケーション (コンテナ アプリ) は、マイクロ フロントエンド全体の **調整頭脳** です。これにより、レイアウト、ルーティング、認証、および MFE が相互に通信する方法が決まります。
 
 
-![シェル アプリケーション — マイクロ フロントエンドのオーケストレーター](/storage/uploads/2026/04/mfe-ms-diagram-bai13-shell-application.png)
+![シェル アプリケーション — マイクロ フロントエンドのオーケストレーター](/storage/uploads/2026/04/mfe-ms-diagram-bai13-shell-application.webp)
 
 ---
 

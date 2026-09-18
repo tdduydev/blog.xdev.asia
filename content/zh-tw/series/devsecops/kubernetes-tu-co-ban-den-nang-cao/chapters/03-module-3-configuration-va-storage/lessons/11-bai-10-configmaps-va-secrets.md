@@ -18,7 +18,7 @@ locale: zh-tw
 
 <p>在生產環境中，應用程式需要從外部環境讀取配置，而不是將其硬編碼到容器映像中。 Kubernetes 提供了兩種專門的機制：用於通用配置資料的 <strong>ConfigMap</strong> 和用於敏感資料的 <strong>Secret</strong>。本課程將深入探討這兩個問題，包括靜態加密以及與外部秘密管理系統的整合。 </p>
 
-<img src="/storage/uploads/2026/03/k8s-configmaps-secrets-2026.png" alt="ConfigMaps & Secrets trong Kubernetes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-configmaps-secrets-2026.webp" alt="ConfigMaps & Secrets trong Kubernetes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>ConfigMaps：管理設定資料</h2>
 

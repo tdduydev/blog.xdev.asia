@@ -93,7 +93,7 @@ locale: ja
 マイクロ フロントエンド アプリケーションを作成するには、さまざまな方法があります。各アプローチには独自のトレードオフがあります。この記事では、各戦略を詳しく説明し、適切な戦略を選択するのに役立ちます。
 
 
-![4 マイクロ フロントエンド統合戦略](/storage/uploads/2026/04/mfe-ms-diagram-bai11-mfe-integration.png)
+![4 マイクロ フロントエンド統合戦略](/storage/uploads/2026/04/mfe-ms-diagram-bai11-mfe-integration.webp)
 
 ---
 

@@ -7,7 +7,7 @@ excerpt: >-
   sprint starts. This article provides a handoff checklist, Three Amigos agenda,
   examples of converting acceptance criteria into test scenarios and how to
   manage open questions.
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

@@ -94,13 +94,13 @@ locale: en
 
 ## 1. Overview of Encryption for Medical Data
 
-![4 layers of medical data encryption: Disk, TDE, Column, Application](/storage/uploads/2026/04/healthcare-encryption-layers.png)
+![4 layers of medical data encryption: Disk, TDE, Column, Application](/storage/uploads/2026/04/healthcare-encryption-layers.webp)
 
 Medical data (PHI) requires encryption in **two states**: at-rest (when stored) and in-transit (when transmitted). HIPAA Security Rule §164.312(a)(2)(iv) and §164.312(e)(2)(ii) specifically regulate encryption requirements.
 
 ### 1.1. Encryption Layers
 
-![Medical data encryption layers — In-Transit, At-Rest (4 levels), Backup](/storage/uploads/2026/04/healthcare-encryption-layers.png)
+![Medical data encryption layers — In-Transit, At-Rest (4 levels), Backup](/storage/uploads/2026/04/healthcare-encryption-layers.webp)
 
 - **In-Transit**: TLS 1.3 between Application and Database
 - **At-Rest Level 1**: Full Disk Encryption (LUKS/dm-crypt) — protection when disk is stolen
@@ -544,7 +544,7 @@ public class SslVerificationService {
 
 ### 5.1. Vault Transit Secrets Engine
 
-![Envelope Encryption Pattern with Vault Transit — DEK + KEK](/storage/uploads/2026/04/healthcare-vault-envelope-encryption.png)
+![Envelope Encryption Pattern with Vault Transit — DEK + KEK](/storage/uploads/2026/04/healthcare-vault-envelope-encryption.webp)
 
 **Envelope Encryption Process:**
 
@@ -929,7 +929,7 @@ echo "Restore completed from: ${BACKUP_FILE}"
 
 ### 8.1. Key Rotation Process
 
-![Key Rotation Timeline — v1 → v2 → v3 every 90 days with Vault auto-rotation](/storage/uploads/2026/04/healthcare-key-rotation-timeline.png)
+![Key Rotation Timeline — v1 → v2 → v3 every 90 days with Vault auto-rotation](/storage/uploads/2026/04/healthcare-key-rotation-timeline.webp)
 
 - **Day 0–90**: Key v1 active — encrypt new data
 - **Day 90–180**: Key v2 active — re-encrypt old data, v1 can still decrypt

@@ -4,7 +4,7 @@ title: "BAのためのドメイントラック：Fintech、Healthcare、eCommerc
 slug: domain-track-ba-fintech-healthcare-ecommerce
 excerpt: >-
   FintechでAIを扱うBAはAML/KYC規制を理解する必要があります。HealthcareのBAはHIPAAと臨床ワークフローを知る必要があります。eCommerceのBAはパーソナライゼーションと不正に焦点を当てます。各業界のドメイン固有スキル、規制、およびAIユースケースのガイドです。
-featured_image: /images/blog/domain-track-ba.png
+featured_image: /images/blog/domain-track-ba.webp
 type: blog
 reading_time: 15
 view_count: 0

@@ -7,7 +7,7 @@ excerpt: >-
   When escalation is needed, who do we go through? RACI matrix helps BA clearly define
   roles, responsibilities, and decision rights for all AI-related actions — from prompt
   changes to production releases.
-featured_image: /images/blog/ai-governance-raci.png
+featured_image: /images/blog/ai-governance-raci.webp
 type: blog
 reading_time: 9
 view_count: 0

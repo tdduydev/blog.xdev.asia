@@ -7,7 +7,7 @@ excerpt: >-
   (Quyết định 3516/QĐ-BYT, Luật Bảo vệ dữ liệu cá nhân 2025, Luật KCB
   15/2023, HSDT trên VNeID), mapping danh
   mục BYT, custom vocabulary và roadmap data lake nghiên cứu quốc gia.
-featured_image: /images/blog/omop-vietnam-featured.png
+featured_image: /images/blog/omop-vietnam-featured.webp
 type: blog
 reading_time: 15
 view_count: 0
@@ -24,7 +24,7 @@ VN 2026 có 3 yếu tố hội tụ tạo cơ hội lớn cho OMOP: chính sách
 
 ## 1. Bối cảnh chính sách 2026
 
-![1. Bối cảnh chính sách 2026](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d01.png)
+![1. Bối cảnh chính sách 2026](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d01.webp)
 
 ### 1.1 Quyết định 3516/QĐ-BYT (11/2025)
 
@@ -61,7 +61,7 @@ Pseudonymize CCCD/BHYT là yêu cầu bắt buộc trong OMOP `person_source_val
 
 ## 2. Source data VN cho OMOP
 
-![2. Source data VN cho OMOP](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d02.png)
+![2. Source data VN cho OMOP](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d02.webp)
 
 ## 3. Mapping vocabulary VN
 
@@ -119,7 +119,7 @@ Cần làm việc với Cục Quản lý YHCT BYT để chuẩn hoá.
 
 HSDT (Hồ sơ sức khoẻ điện tử) trên VNeID có cấu trúc tương đối FHIR-like:
 
-![4. ETL pattern HSDT (VNeID)](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d03.png)
+![4. ETL pattern HSDT (VNeID)](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d03.webp)
 
 Lưu ý:
 - HSDT chỉ có summary (tóm tắt) — không phải EMR đầy đủ
@@ -128,7 +128,7 @@ Lưu ý:
 
 ## 5. ETL pattern BHYT
 
-![5. ETL pattern BHYT](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d04.png)
+![5. ETL pattern BHYT](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d04.webp)
 
 BHYT data có ưu điểm:
 - Coverage lớn (~95M người)
@@ -156,7 +156,7 @@ Hạn chế:
 
 ## 7. Roadmap data lake quốc gia
 
-![7. Roadmap data lake quốc gia](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d05.png)
+![7. Roadmap data lake quốc gia](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d05.webp)
 
 Pilot pattern:
 1. Chọn 5-10 BV đại diện (vùng, hạng, chuyên khoa)
@@ -167,7 +167,7 @@ Pilot pattern:
 
 ## 8. Governance pattern
 
-![8. Governance pattern](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d06.png)
+![8. Governance pattern](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d06.webp)
 
 VN cần lập **OHDSI Vietnam chapter** — đăng ký working group chính thức trên OHDSI.
 
@@ -221,7 +221,7 @@ Cùng thuật toán hash + secret giữa các BV → **link record được** m�
 
 ## 12. Cộng đồng cần xây
 
-![12. Cộng đồng cần xây](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d07.png)
+![12. Cộng đồng cần xây](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d07.webp)
 
 ## 13. Pitfall đặc thù VN
 

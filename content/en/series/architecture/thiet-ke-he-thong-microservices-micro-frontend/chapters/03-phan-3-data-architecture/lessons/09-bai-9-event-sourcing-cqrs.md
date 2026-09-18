@@ -93,7 +93,7 @@ locale: en
 Event Sourcing and CQRS are two powerful but **often abused** patterns. This article will help you understand its nature, real benefits, and most importantly — **when NOT to use it**.
 
 
-![CQRS and Event Sourcing — separate Command and Query](/storage/uploads/2026/04/mfe-ms-diagram-bai9-cqrs-event-sourcing.png)
+![CQRS and Event Sourcing — separate Command and Query](/storage/uploads/2026/04/mfe-ms-diagram-bai9-cqrs-event-sourcing.webp)
 
 ---
 

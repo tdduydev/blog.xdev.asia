@@ -388,7 +388,7 @@ RAGのためのデータ層：
 
 レッスン別に整理されたプロジェクト構成：
 
-![プロジェクト構成](/images/blog/gemma4-series-demo/01-project-structure.png)
+![プロジェクト構成](/images/blog/gemma4-series-demo/01-project-structure.webp)
 
 ## まとめ
 

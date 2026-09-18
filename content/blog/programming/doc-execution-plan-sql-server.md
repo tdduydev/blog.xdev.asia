@@ -6,7 +6,7 @@ excerpt: >-
   Ba bài trước tôi đều chốt bằng câu "mở execution plan ra mà đọc" mà chưa hề chỉ cách đọc.
   Bài này trả nợ — bắt đầu từ chỗ nhiều người hiểu sai nhất: Query Optimizer chỉ sinh ra một
   kế hoạch duy nhất.
-featured_image: /images/blog/doc-execution-plan/cover.png
+featured_image: /images/blog/doc-execution-plan/cover.webp
 type: blog
 reading_time: 14
 view_count: 0

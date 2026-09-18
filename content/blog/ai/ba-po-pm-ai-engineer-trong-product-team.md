@@ -7,7 +7,7 @@ excerpt: >-
   product team hiện đại. Ai viết acceptance criteria? Ai quyết định roadmap? Ai chịu
   trách nhiệm khi AI feature sai? Hướng dẫn thực tế cho BA muốn định vị đúng trong
   thời AI.
-featured_image: /images/blog/ba-roles-ai-team.png
+featured_image: /images/blog/ba-roles-ai-team.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -3,7 +3,7 @@ id: 01970970-63e1-4389-a405-cc6388623b4e
 title: 'MiniMax: Đánh giá chi tiết nền tảng AI full-stack từ Trung Quốc --- Text, Video, Speech, Music trong một hệ sinh thái'
 slug: minimax-danh-gia-chi-tiet-nen-tang-ai-full-stack-trung-quoc
 excerpt: Đánh giá toàn diện MiniMax --- startup AI Trung Quốc với hệ sinh thái multimodal hoàn chỉnh nhất thế giới. Từ M2.7 (text/code ngang Opus 4.6), Hailuo 2.3 (video), Speech 2.6, đến Music 2.6. Phân tích model, sản phẩm, API, pricing, so sánh với OpenAI, Google, Anthropic, và hướng dẫn bắt đầu sử dụng.
-featured_image: /images/blog/minimax-review-featured.png
+featured_image: /images/blog/minimax-review-featured.webp
 type: blog
 reading_time: 25
 view_count: 0

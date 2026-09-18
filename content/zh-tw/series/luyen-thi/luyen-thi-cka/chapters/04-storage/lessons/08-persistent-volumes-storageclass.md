@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai8-storage.png" alt="PersistentVolume、PVC 與 StorageClass 的關係" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai8-storage.webp" alt="PersistentVolume、PVC 與 StorageClass 的關係" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="pv-pvc">1. PV / PVC 生命週期</h2>
 

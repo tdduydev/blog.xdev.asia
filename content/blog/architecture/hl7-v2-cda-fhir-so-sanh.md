@@ -6,7 +6,7 @@ excerpt: >-
   HL7 v2, CDA và FHIR đều là chuẩn HL7 nhưng khác nhau hoàn toàn về triết lý.
   Bài viết phân tích chi tiết transport, payload, use case của từng chuẩn, kèm
   ví dụ ADT^A01, CCD và FHIR Bundle — giúp bạn chọn đúng chuẩn cho dự án.
-featured_image: /images/blog/hl7-v2-cda-fhir-featured.png
+featured_image: /images/blog/hl7-v2-cda-fhir-featured.webp
 type: blog
 reading_time: 16
 view_count: 0

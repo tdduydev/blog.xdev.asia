@@ -6,7 +6,7 @@ excerpt: >-
   Common Data Model nào phù hợp với tổ chức của bạn? Bài viết so sánh chi tiết
   OMOP, FHIR, i2b2, PCORnet, Sentinel theo schema, vocabulary, governance,
   tooling, use case và đưa decision tree để chọn.
-featured_image: /images/blog/omop-vs-other-cdm-featured.png
+featured_image: /images/blog/omop-vs-other-cdm-featured.webp
 type: blog
 reading_time: 13
 view_count: 0
@@ -23,7 +23,7 @@ comments: []
 
 ## 1. Bản đồ CDM y tế
 
-![1. Bản đồ CDM y tế](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d01.png)
+![1. Bản đồ CDM y tế](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d01.webp)
 
 ## 2. Bảng so sánh
 
@@ -45,7 +45,7 @@ comments: []
 
 ### 3.1 Schema philosophy
 
-![3.1 Schema philosophy](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d02.png)
+![3.1 Schema philosophy](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d02.webp)
 
 OMOP = relational DB chuẩn hoá → tối ưu SQL analytic.
 FHIR = document-oriented Resource → tối ưu API exchange.
@@ -60,23 +60,23 @@ OMOP **bắt buộc** map mọi code về Standard Concept (vd ICD-10 → SNOMED
 
 OMOP cho phép chạy nghiên cứu mà không di chuyển dữ liệu (study package R chạy local mỗi partner, chỉ tổng hợp result). Cực phù hợp cho VN với **Luật Bảo vệ dữ liệu cá nhân 2025** (hiệu lực 1/1/2026, kế thừa và nâng cấp Nghị định 13/2023/NĐ-CP) yêu cầu lưu trữ dữ liệu nhạy cảm trong nước và xin đồng ý xử lý đặc thù.
 
-![3.3 Federated vs centralized](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d03.png)
+![3.3 Federated vs centralized](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d03.webp)
 
 ## 4. Decision tree
 
-![4. Decision tree](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d04.png)
+![4. Decision tree](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d04.webp)
 
 ## 5. Hybrid pattern: FHIR + OMOP
 
 Đây là pattern phổ biến nhất 2026:
 
-![5. Hybrid pattern: FHIR + OMOP](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d05.png)
+![5. Hybrid pattern: FHIR + OMOP](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d05.webp)
 
 → EHR vận hành dùng FHIR (real-time, web/mobile friendly), data lake nghiên cứu dùng OMOP (phân tích federated). Đọc [FHIR ↔ OMOP bridge](/blog/omop-fhir-mapping-bridge).
 
 ## 6. Vì sao OMOP thắng cho RWE
 
-![6. Vì sao OMOP thắng cho RWE](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d06.png)
+![6. Vì sao OMOP thắng cho RWE](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d06.webp)
 
 So sánh: i2b2 cộng đồng nhỏ hơn, ít update; PCORnet đóng hơn cho US; Sentinel chỉ FDA dùng; CDISC chỉ cho trial submission.
 

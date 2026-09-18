@@ -90,7 +90,7 @@ locale: zh-tw
 
 ## 1. Quarkus 安全架構概述
 
-![Quarkus Security Stack — OIDC, JWT Propagation, RBAC cho Healthcare Microservices](/storage/uploads/2026/04/healthcare-quarkus-security-stack.png)
+![Quarkus Security Stack — OIDC, JWT Propagation, RBAC cho Healthcare Microservices](/storage/uploads/2026/04/healthcare-quarkus-security-stack.webp)
 
 Quarkus 提供了一個整合的**安全框架**，其中包含許多支援身份驗證、授權和身分管理的擴充功能。在醫療保健微服務系統中，安全性不是附加功能 - 它是每個請求的**基礎**。
 

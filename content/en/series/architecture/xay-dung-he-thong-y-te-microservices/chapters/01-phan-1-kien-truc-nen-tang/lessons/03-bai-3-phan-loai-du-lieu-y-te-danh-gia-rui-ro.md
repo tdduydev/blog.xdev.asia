@@ -93,7 +93,7 @@ locale: en
 
 ## 1. Data Classification Framework for Healthcare
 
-![Medical data classification pyramid — 4 levels from Public to Restricted](/storage/uploads/2026/04/healthcare-data-classification-pyramid.png)
+![Medical data classification pyramid — 4 levels from Public to Restricted](/storage/uploads/2026/04/healthcare-data-classification-pyramid.webp)
 
 ### 1.1. Why is it necessary to classify data?
 
@@ -106,7 +106,7 @@ Not all data needs the same level of protection. Data classification helps:
 
 ### 1.2. Healthcare Data Classification Levels
 
-![Medical data classification pyramid — 4 levels from Public to Restricted](/storage/uploads/2026/04/healthcare-data-classification-levels.png)
+![Medical data classification pyramid — 4 levels from Public to Restricted](/storage/uploads/2026/04/healthcare-data-classification-levels.webp)
 
 | Level | Name | Example | Encryption | Access | Audit |
 |-------|-----|--------|-------|--------|-------|
@@ -155,7 +155,7 @@ VALUES
 
 ### 2.1. PHI Data Flow in Microservices
 
-![Flow of PHI data across microservices — from Patient Portal through API Gateway, Keycloak to services and databases](/storage/uploads/2026/04/healthcare-phi-data-flow.png)
+![Flow of PHI data across microservices — from Patient Portal through API Gateway, Keycloak to services and databases](/storage/uploads/2026/04/healthcare-phi-data-flow.webp)
 
 ### 2.2. Data Flow Documentation Template
 
@@ -172,7 +172,7 @@ VALUES
 
 ### 3.1. Risk Assessment Methodology
 
-![6 steps to assess risk according to NIST SP 800-30 — from Identifying Threats to Risk Response](/storage/uploads/2026/04/healthcare-risk-assessment-steps.png)
+![6 steps to assess risk according to NIST SP 800-30 — from Identifying Threats to Risk Response](/storage/uploads/2026/04/healthcare-risk-assessment-steps.webp)
 
 ### 3.2. Threat Identification for Healthcare Microservices
 
@@ -224,7 +224,7 @@ public class SecurityVulnerabilityChecklist {
 
 ### 3.4. Risk Matrix
 
-![5x5 risk assessment matrix — Likelihood x Impact from LOW to CRITICAL](/storage/uploads/2026/04/healthcare-risk-matrix-heatmap.png)
+![5x5 risk assessment matrix — Likelihood x Impact from LOW to CRITICAL](/storage/uploads/2026/04/healthcare-risk-matrix-heatmap.webp)
 
 | | Negligible (1) | Low (2) | Medium (3) | High (4) | Critical (5) |
 |-|----------------|---------|-------------|----------|-------------|
@@ -253,7 +253,7 @@ public class SecurityVulnerabilityChecklist {
 
 ### 4.2. Risk Treatment Plan
 
-![4 risk handling strategies — Mitigate, Transfer, Accept, Avoid](/storage/uploads/2026/04/healthcare-risk-response-strategies.png)
+![4 risk handling strategies — Mitigate, Transfer, Accept, Avoid](/storage/uploads/2026/04/healthcare-risk-response-strategies.webp)
 
 - **MITIGATE** ← Preferred for HIGH risks: Implement controls, reduce likelihood/impact
 - **TRANSFER** (Transfer): Cyber insurance, outsourcing to specialist provider

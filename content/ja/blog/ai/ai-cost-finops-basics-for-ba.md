@@ -6,7 +6,7 @@ excerpt: >-
   BA は AI コストを理解し、budget estimation、stakeholder 交渉、make-or-buy 判断に
   参加できる必要があります。本記事では token pricing、latency cost、cloud AI と
   self-hosted の比較、DevOps 知識なしで使える FinOps 実践を解説します。
-featured_image: /images/blog/ai-cost-finops.png
+featured_image: /images/blog/ai-cost-finops.webp
 type: blog
 reading_time: 12
 view_count: 0

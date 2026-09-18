@@ -15,7 +15,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-12-ipsec.png" alt="VPN - IPsec Site-to-Site" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-12-ipsec.webp" alt="VPN - IPsec Site-to-Site" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Introduction to IPsec VPN on VyOS</h2>
 <p><strong>IPsec</strong> is the industry-standard technology for secure VPN connectivity between sites. VyOS provides complete IPsec support with IKEv2, ESP, NAT-T, and VTI. This lesson covers site-to-site configuration, policy-based vs route-based designs, interoperability with other devices, and a BGP overlay lab.</p>

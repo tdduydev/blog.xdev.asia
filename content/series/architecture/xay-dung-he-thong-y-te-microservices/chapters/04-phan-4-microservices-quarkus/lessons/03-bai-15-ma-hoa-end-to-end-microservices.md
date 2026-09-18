@@ -90,13 +90,13 @@ course:
 
 ## 1. Tổng quan End-to-End Encryption cho Healthcare
 
-![Mã hóa End-to-End trong Healthcare Microservices — Envelope Encryption, Vault, Kafka](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.png)
+![Mã hóa End-to-End trong Healthcare Microservices — Envelope Encryption, Vault, Kafka](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.webp)
 
 Trong hệ thống microservices y tế, dữ liệu PHI di chuyển qua **nhiều layers**: từ client → API Gateway → Service → Kafka → Database. Mã hóa end-to-end đảm bảo dữ liệu **luôn được bảo vệ** ở mọi điểm — không chỉ in-transit (TLS) mà cả at-rest và in-use.
 
 ### 1.1. Encryption Architecture
 
-![End-to-End Encryption Architecture — Client → API Gateway → Services → Database với Vault](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.png)
+![End-to-End Encryption Architecture — Client → API Gateway → Services → Database với Vault](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.webp)
 
 **Encryption Flow:**
 
@@ -273,7 +273,7 @@ CREATE INDEX idx_blind_hash ON healthcare.patients_blind_index(field_name, blind
 
 ### 3.1. Envelope Encryption Pattern
 
-![Envelope Encryption Pattern — DEK + KEK với Vault Transit](/storage/uploads/2026/04/healthcare-envelope-encryption.png)
+![Envelope Encryption Pattern — DEK + KEK với Vault Transit](/storage/uploads/2026/04/healthcare-envelope-encryption.webp)
 
 **Quy trình:**
 

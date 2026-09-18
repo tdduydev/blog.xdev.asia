@@ -7,7 +7,7 @@ description: >-
   hỗ trợ chương trình quản lý kháng kháng sinh (Antimicrobial Stewardship).
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-18-vi-sinh-khang-sinh-do-ams-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-18-vi-sinh-khang-sinh-do-ams-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 7: Xét nghiệm (LIS)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Vi sinh, kháng sinh đồ & AMS](/storage/uploads/2026/05/his/bai-18-vi-sinh-khang-sinh-do-ams-banner.png)
+![Vi sinh, kháng sinh đồ & AMS](/storage/uploads/2026/05/his/bai-18-vi-sinh-khang-sinh-do-ams-banner.webp)
 
 ## Đặc thù vi sinh
 
-![Đọc kháng sinh đồ S/I/R và dashboard AMS](/storage/uploads/2026/05/his/bai-18-vi-sinh-khang-sinh-do-ams-workflow.png)
+![Đọc kháng sinh đồ S/I/R và dashboard AMS](/storage/uploads/2026/05/his/bai-18-vi-sinh-khang-sinh-do-ams-workflow.webp)
 
 
 ## Mục tiêu bài học

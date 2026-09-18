@@ -135,7 +135,7 @@ After stabilizing the baseline, you can expand to:
 
 PII detection & masking demo — detecting and hiding sensitive information:
 
-![PII Detector](/images/blog/gemma4-series-demo/08-pii-detector.png)
+![PII Detector](/images/blog/gemma4-series-demo/08-pii-detector.webp)
 
 > Source code: [07-hardening](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/07-hardening)
 

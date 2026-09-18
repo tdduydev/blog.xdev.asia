@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai6-configmap-secret.png" alt="ConfigMap and Secret injection — envFrom, valueFrom and Volume Mount" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai6-configmap-secret.webp" alt="ConfigMap and Secret injection — envFrom, valueFrom and Volume Mount" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="configmap">1. ConfigMap</h2>
 

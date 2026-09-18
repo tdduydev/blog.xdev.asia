@@ -105,7 +105,7 @@ cd ner-nhin-la-hieu
 python3 scratch/ep02_token_vs_span.py
 ```
 
-![Kết quả chạy ep02_token_vs_span](/images/blog/trich-xuat-nhin-la-hieu/ep02_token_vs_span.png)
+![Kết quả chạy ep02_token_vs_span](/images/blog/trich-xuat-nhin-la-hieu/ep02_token_vs_span.webp)
 
 Toàn bộ số của bảy bài: `python3 measure.py`. Khẳng định số không đổi: `python3 run_tests.py`.
 

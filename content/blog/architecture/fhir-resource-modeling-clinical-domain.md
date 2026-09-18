@@ -6,7 +6,7 @@ excerpt: >-
   Mô hình hoá thông tin lâm sàng đúng cách bằng các Resource quan trọng nhất của FHIR.
   Bài viết walk-through Patient, Practitioner, Organization, Encounter, Condition,
   Observation, DiagnosticReport, MedicationRequest, AllergyIntolerance kèm ví dụ thực tế.
-featured_image: /images/blog/fhir-clinical-modeling-featured.png
+featured_image: /images/blog/fhir-clinical-modeling-featured.webp
 type: blog
 reading_time: 22
 view_count: 0

@@ -90,7 +90,7 @@ course:
 GraphQL Federation cho phép mỗi microservice expose một **subgraph**, và Router tự động compose thành **unified supergraph**. Frontend chỉ cần 1 endpoint để query data từ mọi service.
 
 
-![GraphQL Federation — unified graph từ nhiều subgraphs](/storage/uploads/2026/04/mfe-ms-diagram-bai19-graphql-federation.png)
+![GraphQL Federation — unified graph từ nhiều subgraphs](/storage/uploads/2026/04/mfe-ms-diagram-bai19-graphql-federation.webp)
 
 ---
 

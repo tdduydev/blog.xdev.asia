@@ -6,7 +6,7 @@ excerpt: >-
   Software BA không cần code API nhưng cần hiểu endpoint, payload, validation,
   error code, event, data lineage và contract. Bài này đưa template yêu cầu tích
   hợp, ví dụ đặt lịch và checklist giúp BA làm việc tốt hơn với Dev/Data/QA.
-featured_image: /images/blog/rest-api-data-validation-ba.png
+featured_image: /images/blog/rest-api-data-validation-ba.webp
 type: blog
 reading_time: 17
 view_count: 0

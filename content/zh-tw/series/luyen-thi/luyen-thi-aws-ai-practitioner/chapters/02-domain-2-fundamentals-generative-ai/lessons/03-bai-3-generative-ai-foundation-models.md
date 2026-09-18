@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai3-foundation-model-lifecycle.png" alt="基礎模型生命週期" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai3-foundation-model-lifecycle.webp" alt="基礎模型生命週期" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>基礎模型生命週期 — 預訓練、微調、RAG和提示工程</em></p>
 </div>
 

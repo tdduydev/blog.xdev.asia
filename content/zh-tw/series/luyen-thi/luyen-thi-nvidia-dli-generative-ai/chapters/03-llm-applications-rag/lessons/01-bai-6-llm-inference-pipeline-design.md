@@ -27,7 +27,7 @@ course:
 
 <blockquote><p><strong>考試提示：</strong> NVIDIA DLI考試經常考推論參數（temperature、top-k、top-p）以及何時使用NIM而非其他框架。請務必熟記本課末尾的比較表。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai6-llm-inference-pipeline.png" alt="LLM推論管線 — Prompt Template、NIM、LCEL Chain、Gradio UI" loading="lazy" /><figcaption>LLM推論管線 — Prompt Template、NIM、LCEL Chain、Gradio UI</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai6-llm-inference-pipeline.webp" alt="LLM推論管線 — Prompt Template、NIM、LCEL Chain、Gradio UI" loading="lazy" /><figcaption>LLM推論管線 — Prompt Template、NIM、LCEL Chain、Gradio UI</figcaption></figure>
 
 <h2 id="2-llm-inference-fundamentals">2. LLM推論基礎</h2>
 

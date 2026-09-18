@@ -5,7 +5,7 @@ slug: api-data-contracts-software-ba
 excerpt: >-
   軟體 BA 不需要 API 程式碼，但需要了解端點、有效負載、驗證、錯誤代碼、事件、資料沿襲和契約。本文提供整合請求範本、調度範例和清單，以幫助 BA
   更好地與開發/資料/QA 合作。
-featured_image: /images/blog/rest-api-data-validation-ba.png
+featured_image: /images/blog/rest-api-data-validation-ba.webp
 type: blog
 reading_time: 17
 view_count: 0

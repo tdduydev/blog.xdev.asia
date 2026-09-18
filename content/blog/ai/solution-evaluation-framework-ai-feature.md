@@ -7,7 +7,7 @@ excerpt: >-
   Bài này hướng dẫn BA xây dựng evaluation framework trước khi launch — định nghĩa
   KPI business + KPI kỹ thuật + KPI trải nghiệm, lịch đo 30/60/90 ngày, và cách
   dùng số liệu để ra quyết định tiếp theo.
-featured_image: /images/blog/solution-evaluation-ai.png
+featured_image: /images/blog/solution-evaluation-ai.webp
 type: blog
 reading_time: 9
 view_count: 0

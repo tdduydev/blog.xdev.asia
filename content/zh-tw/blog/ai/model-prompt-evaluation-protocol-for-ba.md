@@ -6,7 +6,7 @@ excerpt: >-
   BA 不應該用「看起來還行」來評估 AI。你需要明確 protocol：evaluation criteria、
   scoring rubric、blind test methodology、go/no-go framework。本文從 test set 設計
   到 sign-off decision 提供完整實務流程。
-featured_image: /images/blog/model-evaluation-protocol.png
+featured_image: /images/blog/model-evaluation-protocol.webp
 type: blog
 reading_time: 14
 view_count: 0

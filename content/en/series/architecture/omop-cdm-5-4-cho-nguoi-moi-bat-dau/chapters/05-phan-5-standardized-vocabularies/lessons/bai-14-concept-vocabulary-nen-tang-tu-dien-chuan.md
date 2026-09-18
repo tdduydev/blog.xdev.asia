@@ -44,7 +44,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Vocabulary ecosystem — CONCEPT, VOCABULARY, RELATIONSHIP, ANCESTOR](/storage/uploads/2026/04/omop-cdm-bai14-vocabulary-ecosystem.png)
+![Vocabulary ecosystem — CONCEPT, VOCABULARY, RELATIONSHIP, ANCESTOR](/storage/uploads/2026/04/omop-cdm-bai14-vocabulary-ecosystem.webp)
 
 ## Introduction
 

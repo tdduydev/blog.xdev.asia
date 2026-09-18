@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 4 課：租戶生命週期管理 - 供應和配置](/storage/uploads/2026/03/saas-bai-4-diagram.png)
+![第 4 課：租戶生命週期管理 - 供應和配置](/storage/uploads/2026/03/saas-bai-4-diagram.webp)
 
 ## 簡介
 

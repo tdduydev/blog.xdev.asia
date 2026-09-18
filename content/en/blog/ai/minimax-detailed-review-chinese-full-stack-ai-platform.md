@@ -3,7 +3,7 @@ id: 01970970-63e1-4389-a405-cc6388623b4e
 title: 'MiniMax: A Detailed Review of the Chinese Full-Stack AI Platform — Text, Video, Speech, and Music in One Ecosystem'
 slug: minimax-detailed-review-chinese-full-stack-ai-platform
 excerpt: A comprehensive review of MiniMax — the Chinese AI startup with the world's most complete multimodal ecosystem. From M2.7 (text/code on par with Opus 4.6), Hailuo 2.3 (video), Speech 2.6, to Music 2.6. Analyzes models, products, API, pricing, compares with OpenAI, Google, and Anthropic, and includes a quick-start guide.
-featured_image: /images/blog/minimax-review-featured.png
+featured_image: /images/blog/minimax-review-featured.webp
 type: blog
 reading_time: 25
 view_count: 0

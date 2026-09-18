@@ -113,7 +113,7 @@ Agent Loop — Perception → Reasoning → Action → Observation
 
 <blockquote><p><strong>Exam tip:</strong> "LLM tự chia nhỏ task, gọi nhiều tools, lặp lại khi cần" → <strong>Agent (L2+)</strong>. "Nhiều LLM phối hợp, mỗi cái chuyên một việc" → <strong>Multi-Agent (L3)</strong>. DLI exam thường hỏi: "What differentiates an agent from a chain?" → Agent có <strong>dynamic control flow</strong> (LLM quyết định bước tiếp theo), chain có <strong>fixed control flow</strong>.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai9-multi-agent-system.png" alt="Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine" loading="lazy" /><figcaption>Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai9-multi-agent-system.webp" alt="Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine" loading="lazy" /><figcaption>Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine</figcaption></figure>
 
 <h2 id="2-cognitive-architectures">2. Cognitive Architectures cho LLM Agents</h2>
 

@@ -92,7 +92,7 @@ locale: zh-tw
 將微服務部署到生產中是風險最大的時候。部署策略決定出現錯誤時的**影響範圍** — 影響 100% 的使用者還是僅影響 5%？本文比較了策略並提供了選擇正確策略的指導。
 
 
-![Deployment Strategies — Blue-Green, Canary, Rolling](/storage/uploads/2026/04/mfe-ms-diagram-bai25-deployment-strategies.png)
+![Deployment Strategies — Blue-Green, Canary, Rolling](/storage/uploads/2026/04/mfe-ms-diagram-bai25-deployment-strategies.webp)
 
 ---
 

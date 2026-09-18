@@ -7,7 +7,7 @@ description: >-
   no-show & overbooking, gắn với QMS và BHYT.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-5-lich-hen-appointment-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-5-lich-hen-appointment-banner.webp
 video_url: null
 sort_order: 3
 section_title: "Phần 2: Tiếp nhận, MPI, Lịch hẹn"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Lịch hẹn — đặt khám đa kênh](/storage/uploads/2026/05/his/bai-5-lich-hen-appointment-banner.png)
+![Lịch hẹn — đặt khám đa kênh](/storage/uploads/2026/05/his/bai-5-lich-hen-appointment-banner.webp)
 
 ## Mục tiêu
 
-![Bệnh nhân đặt lịch trên app, slot bác sĩ tự động khớp](/storage/uploads/2026/05/his/bai-5-lich-hen-appointment-workflow.png)
+![Bệnh nhân đặt lịch trên app, slot bác sĩ tự động khớp](/storage/uploads/2026/05/his/bai-5-lich-hen-appointment-workflow.webp)
 
 Đặt lịch hẹn là "lớp mềm" đứng trước REG: BN chưa tới viện nhưng đã chiếm slot của bác sĩ / máy / phòng. Một module Appointment tốt sẽ:
 

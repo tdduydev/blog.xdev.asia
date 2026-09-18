@@ -8,7 +8,7 @@ description: >-
   phòng khám. Bám sát thực tế triển khai ở Việt Nam.
 duration_minutes: 75
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-3-tiep-nhan-benh-nhan-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-3-tiep-nhan-benh-nhan-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 2: Tiếp nhận, MPI, Lịch hẹn"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![Tiếp nhận bệnh nhân — luồng dữ liệu MPI](/storage/uploads/2026/05/his/bai-3-tiep-nhan-benh-nhan-banner.png)
+![Tiếp nhận bệnh nhân — luồng dữ liệu MPI](/storage/uploads/2026/05/his/bai-3-tiep-nhan-benh-nhan-banner.webp)
 
 ## Mục tiêu
 
-![Quầy tiếp nhận: thẻ CCCD/BHYT, định danh số, đăng ký vào HIS](/storage/uploads/2026/05/his/bai-3-tiep-nhan-benh-nhan-workflow.png)
+![Quầy tiếp nhận: thẻ CCCD/BHYT, định danh số, đăng ký vào HIS](/storage/uploads/2026/05/his/bai-3-tiep-nhan-benh-nhan-workflow.webp)
 
 Hiểu trọn vẹn nghiệp vụ **tiếp nhận bệnh nhân (Registration / REG)** — bước cửa ngõ của mọi quy trình lâm sàng trong HIS. Mỗi sai sót ở đây sẽ "đi theo" bệnh nhân suốt chu kỳ điều trị: sai BHYT → từ chối thanh toán; trùng MPI → tách hồ sơ → tai biến điều trị; sai loại khám → sai bảng giá, sai báo cáo TT 32, sai XML giám định BHYT.
 

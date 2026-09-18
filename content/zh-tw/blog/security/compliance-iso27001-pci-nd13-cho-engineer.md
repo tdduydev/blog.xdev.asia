@@ -5,7 +5,7 @@ slug: compliance-iso27001-pci-nd13-cho-engineer
 excerpt: >-
   工程師不必背下每條 control,但要知道如何把 control 對應到管線、並自動產生 evidence。
   本文整理 4 個常見框架,以及如何在 DevSecOps 中落實 compliance-as-code。
-featured_image: /images/blog/compliance-engineer-featured.png
+featured_image: /images/blog/compliance-engineer-featured.webp
 type: blog
 reading_time: 11
 view_count: 0

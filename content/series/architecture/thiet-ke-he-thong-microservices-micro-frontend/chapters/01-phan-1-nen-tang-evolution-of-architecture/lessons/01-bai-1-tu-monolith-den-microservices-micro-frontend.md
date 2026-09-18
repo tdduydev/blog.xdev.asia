@@ -98,7 +98,7 @@ Hầu hết các hệ thống phần mềm đều bắt đầu là **Monolith** 
 
 ### 1.1 Kiến trúc Monolith là gì?
 
-![Kiến trúc Monolith — toàn bộ modules trong 1 block, shared database](/storage/uploads/2026/04/mfe-ms-diagram-bai1-monolith-architecture.png)
+![Kiến trúc Monolith — toàn bộ modules trong 1 block, shared database](/storage/uploads/2026/04/mfe-ms-diagram-bai1-monolith-architecture.webp)
 
 Monolith là kiến trúc mà **toàn bộ ứng dụng** được xây dựng, deploy và scale như **một đơn vị duy nhất**. Tất cả các module (User, Product, Order...) chạy trong cùng một process, chia sẻ cùng database, và deploy cùng nhau.
 
@@ -153,7 +153,7 @@ Timeline:
 
 ### 2.2 SOA (Service-Oriented Architecture)
 
-![SOA với ESB — centralized bus trở thành single point of failure](/storage/uploads/2026/04/mfe-ms-diagram-bai1-soa-architecture.png)
+![SOA với ESB — centralized bus trở thành single point of failure](/storage/uploads/2026/04/mfe-ms-diagram-bai1-soa-architecture.webp)
 
 SOA là bước đầu tiên tách Monolith thành các services. Tuy nhiên, SOA có một số hạn chế:
 
@@ -198,7 +198,7 @@ Microservices kế thừa ý tưởng SOA nhưng với các nguyên tắc cốt 
 
 ### 3.1 Backend đã tách, Frontend vẫn gộp
 
-![Frontend Monolith — Backend đã tách nhưng Frontend vẫn là 1 cục SPA khổng lồ](/storage/uploads/2026/04/mfe-ms-diagram-bai1-frontend-monolith-problem.png)
+![Frontend Monolith — Backend đã tách nhưng Frontend vẫn là 1 cục SPA khổng lồ](/storage/uploads/2026/04/mfe-ms-diagram-bai1-frontend-monolith-problem.webp)
 
 Nhiều tổ chức đã áp dụng Microservices cho backend, nhưng frontend vẫn là **một ứng dụng SPA khổng lồ** (React/Angular/Vue monolith).
 

@@ -90,13 +90,13 @@ course:
 
 ## 1. Chiến lược Multi-tenancy cho Hệ thống Y Tế
 
-![Kiến trúc Keycloak Realm cho hệ thống bệnh viện đa chi nhánh](/storage/uploads/2026/04/healthcare-keycloak-realm-architecture.png)
+![Kiến trúc Keycloak Realm cho hệ thống bệnh viện đa chi nhánh](/storage/uploads/2026/04/healthcare-keycloak-realm-architecture.webp)
 
 ### 1.1. Các mô hình Multi-tenancy với Keycloak
 
 Khi xây dựng hệ thống y tế cho nhiều bệnh viện/phòng khám, có 3 chiến lược:
 
-![3 chiến lược Keycloak Multi-tenancy cho hệ thống đa bệnh viện](/storage/uploads/2026/04/healthcare-keycloak-multitenancy.png)
+![3 chiến lược Keycloak Multi-tenancy cho hệ thống đa bệnh viện](/storage/uploads/2026/04/healthcare-keycloak-multitenancy.webp)
 
 | Strategy | Mô hình | Isolation | Phù hợp |
 |----------|---------|-----------|----------|
@@ -433,7 +433,7 @@ Realm Roles:
 
 Bệnh viện thường có shared workstations — nhiều bác sĩ/y tá dùng chung 1 máy tính. Giải pháp:
 
-![3 phương án xác thực trên shared workstation bệnh viện](/storage/uploads/2026/04/healthcare-shared-workstation-auth.png)
+![3 phương án xác thực trên shared workstation bệnh viện](/storage/uploads/2026/04/healthcare-shared-workstation-auth.webp)
 
 | Option | Cơ chế | Ưu điểm | Hạn chế |
 |--------|---------|---------|----------|

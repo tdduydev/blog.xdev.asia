@@ -18,7 +18,7 @@ locale: zh-tw
 ---
 <h2>🎯 課程目標</h2><p>了解 GitOps 原理、如何設定 ArgoCD 和 Flux、兩種工具之間的差異、CI/CD 管道與 GitOps 以及 GitOps 工作流程中的秘密管理。</p>
 
-<img src="/storage/uploads/2026/03/k8s-gitops-workflow-2026.png" alt="GitOps with ArgoCD & Flux - Workflow Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-gitops-workflow-2026.webp" alt="GitOps with ArgoCD & Flux - Workflow Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1.GitOps原則（OpenGitOps）</h2>
 <p>GitOps 是一種使用 Git 作為「單一事實來源」的部署和操作應用程式的方法：</p>

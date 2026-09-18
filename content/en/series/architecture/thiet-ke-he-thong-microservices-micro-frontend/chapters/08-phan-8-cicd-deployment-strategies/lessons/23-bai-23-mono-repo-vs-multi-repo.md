@@ -93,7 +93,7 @@ locale: en
 The way source code is organized determines developer experience, CI/CD complexity, and team collaboration. This article compares Mono-Repo vs Multi-Repo and provides guidance on choosing the right one.
 
 
-![Monorepo vs Multi-repo — comparing code management strategies](/storage/uploads/2026/04/mfe-ms-diagram-bai23-monorepo-vs-multirepo.png)
+![Monorepo vs Multi-repo — comparing code management strategies](/storage/uploads/2026/04/mfe-ms-diagram-bai23-monorepo-vs-multirepo.webp)
 
 ---
 

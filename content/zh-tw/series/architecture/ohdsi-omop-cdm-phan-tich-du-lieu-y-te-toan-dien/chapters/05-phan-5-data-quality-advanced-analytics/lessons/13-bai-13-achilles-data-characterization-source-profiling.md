@@ -87,7 +87,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 13 課：ACHILLES — 資料表徵與來源分析](/storage/uploads/2026/03/ohdsi-bai-13-achilles.png)
+![第 13 課：ACHILLES — 資料表徵與來源分析](/storage/uploads/2026/03/ohdsi-bai-13-achilles.webp)
 
 ## 簡介
 

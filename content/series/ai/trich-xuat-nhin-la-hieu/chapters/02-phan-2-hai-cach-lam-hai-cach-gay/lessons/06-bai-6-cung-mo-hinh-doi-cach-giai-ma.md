@@ -104,7 +104,7 @@ cd ner-nhin-la-hieu
 python3 scratch/ep06_viterbi.py
 ```
 
-![Kết quả chạy ep06_viterbi](/images/blog/trich-xuat-nhin-la-hieu/ep06_viterbi.png)
+![Kết quả chạy ep06_viterbi](/images/blog/trich-xuat-nhin-la-hieu/ep06_viterbi.webp)
 
 Toàn bộ số của bảy bài: `python3 measure.py`. Khẳng định số không đổi: `python3 run_tests.py`.
 

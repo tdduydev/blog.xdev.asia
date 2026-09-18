@@ -98,7 +98,7 @@ gần nhất" mất hết ý nghĩa, và KNN không còn gì để dựa vào.
 
 ## Chạy thử
 
-![Kết quả chạy ep04_knn](/images/blog/ml-nhin-la-hieu/ep04_knn.png)
+![Kết quả chạy ep04_knn](/images/blog/ml-nhin-la-hieu/ep04_knn.webp)
 
 > Ảnh trên là output thật của `python scratch/ep04_knn.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep04_knn.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep04_knn.py) · [`library/ep04_knn.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep04_knn.py)

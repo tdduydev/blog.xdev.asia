@@ -15,7 +15,7 @@ course:
   slug: vyos-tu-co-ban-den-nang-cao
 locale: zh-tw
 ---
-<img src="/storage/uploads/2026/04/vyos-14-wan-lb-qos.png" alt="WAN負載平衡、QoS和監控" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-14-wan-lb-qos.webp" alt="WAN負載平衡、QoS和監控" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS上的WAN負載平衡、QoS和監控</h2>
 <p>確保穩定的網際網路連接、最佳化頻寬和監控流量是重要要求。VyOS提供強大的WAN負載平衡、QoS和監控功能。</p>

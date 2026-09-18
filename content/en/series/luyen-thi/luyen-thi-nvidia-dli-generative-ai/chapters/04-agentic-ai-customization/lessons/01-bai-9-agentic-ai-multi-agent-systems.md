@@ -113,7 +113,7 @@ Agent Loop — Perception → Reasoning → Action → Observation
 
 <blockquote><p><strong>Exam tip:</strong> "LLM autonomously decomposes tasks, calls multiple tools, retries as needed" → <strong>Agent (L2+)</strong>. "Multiple LLMs coordinate, each specializing in one task" → <strong>Multi-Agent (L3)</strong>. DLI exam often asks: "What differentiates an agent from a chain?" → Agent has <strong>dynamic control flow</strong> (LLM decides the next step), chain has <strong>fixed control flow</strong>.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai9-multi-agent-system.png" alt="Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine" loading="lazy" /><figcaption>Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai9-multi-agent-system.webp" alt="Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine" loading="lazy" /><figcaption>Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine</figcaption></figure>
 
 <h2 id="2-cognitive-architectures">2. Cognitive Architectures for LLM Agents</h2>
 

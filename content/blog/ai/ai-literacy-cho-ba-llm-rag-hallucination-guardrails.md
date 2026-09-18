@@ -6,7 +6,7 @@ excerpt: >-
   BA không cần biết code AI, nhưng cần hiểu đủ để viết yêu cầu đúng và làm việc
   hiệu quả với team kỹ thuật. Giải thích LLM, RAG, hallucination, confidence score
   và guardrails theo ngôn ngữ nghiệp vụ — kèm ví dụ thực tế.
-featured_image: /images/blog/ai-literacy-ba.png
+featured_image: /images/blog/ai-literacy-ba.webp
 type: blog
 reading_time: 15
 view_count: 0

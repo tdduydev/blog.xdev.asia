@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. 醫療保健微服務架構概述
 
-![醫療微服務整體架構－Quarkus、PostgreSQL、Keycloak、Kafka、Istio](/storage/uploads/2026/04/healthcare-ms-architecture-blueprint.png)
+![醫療微服務整體架構－Quarkus、PostgreSQL、Keycloak、Kafka、Istio](/storage/uploads/2026/04/healthcare-ms-architecture-blueprint.webp)
 
 ### 1.1。為什麼選擇醫療保健微服務？
 
@@ -109,7 +109,7 @@ locale: zh-tw
 
 ### 1.2。醫療保健領域服務
 
-![醫療保健微服務概述—醫療保健系統中的 8 個主要領域服務](/storage/uploads/2026/04/healthcare-domain-services-grid.png)
+![醫療保健微服務概述—醫療保健系統中的 8 個主要領域服務](/storage/uploads/2026/04/healthcare-domain-services-grid.webp)
 
 **核心服務：**
 
@@ -128,11 +128,11 @@ locale: zh-tw
 
 ### 2.1。高層架構
 
-![醫療保健平台概述架構 — 從互聯網通過 WAF、DMZ、API 網關到內部網絡](/storage/uploads/2026/04/healthcare-high-level-architecture.png)
+![醫療保健平台概述架構 — 從互聯網通過 WAF、DMZ、API 網關到內部網絡](/storage/uploads/2026/04/healthcare-high-level-architecture.webp)
 
 ### 2.2。網路分段（縱深防禦）
 
-![具有 4 個網路區域的縱深防禦模型 — DMZ、應用程式、資料、管理](/storage/uploads/2026/04/healthcare-network-segmentation.png)
+![具有 4 個網路區域的縱深防禦模型 — DMZ、應用程式、資料、管理](/storage/uploads/2026/04/healthcare-network-segmentation.webp)
 
 |專區 |成分|
 |------|----------|
@@ -287,7 +287,7 @@ public class PatientResource {
 
 ### 4.1。資料隔離策略
 
-![每個服務資料庫模式－每個微服務都有一個獨立的資料庫，並且資料隔離](/storage/uploads/2026/04/healthcare-database-per-service.png)
+![每個服務資料庫模式－每個微服務都有一個獨立的資料庫，並且資料隔離](/storage/uploads/2026/04/healthcare-database-per-service.webp)
 
 |服務 |資料庫|桌子|
 |--------|----------|--------|
@@ -299,7 +299,7 @@ public class PatientResource {
 
 ### 4.2。透過事件共享資料（事件溯源）
 
-![事件驅動架構－病患服務透過 Kafka 將事件發佈到消費服務](/storage/uploads/2026/04/healthcare-event-sourcing-kafka.png)
+![事件驅動架構－病患服務透過 Kafka 將事件發佈到消費服務](/storage/uploads/2026/04/healthcare-event-sourcing-kafka.webp)
 
 > **重要**：包含 PHI 的 Kafka 訊息必須加密。對敏感欄位使用 Kafka 靜態加密和應用程式層級加密。
 

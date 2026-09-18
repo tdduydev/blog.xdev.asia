@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai3-eda-data-analysis.png" alt="Exploratory Data Analysis trên AWS" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai3-eda-data-analysis.webp" alt="Exploratory Data Analysis trên AWS" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>EDA & Data Analysis: thống kê mô tả, phát hiện outliers, feature correlation trên AWS</em></p>
 </div>
 

@@ -7,7 +7,7 @@ excerpt: >-
   This article walks through the OHDSI standard pipeline: WhiteRabbit profiling,
   RabbitInAHat design, USAGI mapping, implementation with SQL/Perseus/dbt, and
   validation with DQD.
-featured_image: /images/blog/omop-etl-featured.png
+featured_image: /images/blog/omop-etl-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -24,7 +24,7 @@ OMOP ETL is the hardest, most time-consuming part of the project. The good news:
 
 ## 1. The OHDSI standard workflow
 
-![The OHDSI standard workflow](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d01.png)
+![The OHDSI standard workflow](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d01.webp)
 
 Seven standard steps:
 1. Profile the source with WhiteRabbit
@@ -119,7 +119,7 @@ Commit it to Git, version it with each data refresh.
 
 Already introduced in the [Vocabulary deep dive](/blog/omop-standardized-vocabularies-athena). A reminder of the workflow:
 
-![USAGI — code mapping](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d02.png)
+![USAGI — code mapping](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d02.webp)
 
 ### 4.1 Best practices
 
@@ -303,7 +303,7 @@ docker compose up
 
 For large HIS datasets, you cannot re-ETL the entire warehouse every night. The incremental pattern:
 
-![Incremental ETL](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d03.png)
+![Incremental ETL](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d03.webp)
 
 Watch out for:
 - Track `updated_at` in the source — if missing, add a trigger or CDC (Debezium)

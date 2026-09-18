@@ -20,7 +20,7 @@ course:
 
 <p>Bài học này sẽ giới thiệu toàn diện về Observability Stack được khuyến nghị cho năm 2026, bao gồm ba trụ cột quan sát, tiêu chuẩn OpenTelemetry, sự đối lập giữa PLG và EFK stack, và vai trò của Grafana Alloy như một unified collector.</p>
 
-<img src="/storage/uploads/2026/03/k8s-observability-stack-2026.png" alt="Kubernetes Observability Stack 2026 - Prometheus, Loki, Tempo, Grafana, OpenTelemetry" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-observability-stack-2026.webp" alt="Kubernetes Observability Stack 2026 - Prometheus, Loki, Tempo, Grafana, OpenTelemetry" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>Ba Trụ Cột Của Observability</h2>
 

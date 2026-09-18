@@ -90,7 +90,7 @@ locale: zh-tw
 在了解了架構和 DDD 演進路線圖之後，本文繪製了全端微服務 + 微前端系統的**總體藍圖**——我們將在整個系列中詳細探討該架構圖。
 
 
-![Full-Stack Architecture Blueprint — Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai3-fullstack-architecture.png)
+![Full-Stack Architecture Blueprint — Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai3-fullstack-architecture.webp)
 
 ---
 

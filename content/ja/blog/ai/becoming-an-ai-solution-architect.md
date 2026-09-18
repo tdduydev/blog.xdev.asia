@@ -3,7 +3,7 @@ id: 01970000-c4d5-9e6f-a7b8-901234567abc
 title: 'AI Solution Architectへの道：ロードマップ、スキル、2026年の現実'
 slug: becoming-an-ai-solution-architect
 excerpt: AI Solution Architectになるための総合ガイド — 技術的基礎、エンドツーエンドのAIシステム設計スキル、クラウドアーキテクチャ、MLOpsから、ステークホルダーコミュニケーションのソフトスキルまで。ロール比較、給与ベンチマーク、必要な認定資格、よくあるキャリアの失敗についても解説。
-featured_image: /images/blog/ai-solution-architect-featured.png
+featured_image: /images/blog/ai-solution-architect-featured.webp
 type: blog
 reading_time: 30
 view_count: 0
@@ -43,7 +43,7 @@ comments: []
 
 AI Solution Architectは、組織内のAI/MLソリューションの**全体的なアーキテクチャを設計する**人物です。ビジネスステークホルダー、データサイエンティスト、MLエンジニア、そしてプラットフォームチームの橋渡し役を担います。
 
-![AI Solution Architectスキル概要 — 6つのコアスキル領域](/storage/uploads/2026/04/ai-architect-skills-overview.png)
+![AI Solution Architectスキル概要 — 6つのコアスキル領域](/storage/uploads/2026/04/ai-architect-skills-overview.webp)
 
 ### コアの責務
 
@@ -112,7 +112,7 @@ AI Solution Architectは、組織内のAI/MLソリューションの**全体的�
 
 ## 3. 4フェーズロードマップ
 
-![基礎からAI Solution Architectまでの4フェーズロードマップ](/storage/uploads/2026/04/ai-architect-career-roadmap.png)
+![基礎からAI Solution Architectまでの4フェーズロードマップ](/storage/uploads/2026/04/ai-architect-career-roadmap.webp)
 
 ### フェーズ1：技術的基礎（6〜12ヶ月）
 
@@ -194,7 +194,7 @@ scikit-learnをブラックボックスとして使うだけでなく、内部�
 
 MLOpsはAIアーキテクトの**DNA**です。MLOpsを知らない = アーキテクトではない。
 
-![MLOpsパイプライン：データパイプライン、モデルパイプライン、デプロイメントパイプライン、オブザーバビリティ](/storage/uploads/2026/04/ai-architect-mlops-pipeline.png)
+![MLOpsパイプライン：データパイプライン、モデルパイプライン、デプロイメントパイプライン、オブザーバビリティ](/storage/uploads/2026/04/ai-architect-mlops-pipeline.webp)
 
 **データパイプライン：**
 
@@ -262,7 +262,7 @@ MLOpsはAIアーキテクトの**DNA**です。MLOpsを知らない = アーキ�
 
 RAGは最も一般的なパターンであり、多くのチームが最も多くの間違いを犯す領域でもあります：
 
-![RAGアーキテクチャ：ドキュメント取り込みから応答生成まで](/storage/uploads/2026/04/ai-architect-rag-architecture.png)
+![RAGアーキテクチャ：ドキュメント取り込みから応答生成まで](/storage/uploads/2026/04/ai-architect-rag-architecture.webp)
 
 **インデックスパイプライン：**
 
@@ -296,7 +296,7 @@ RAGは最も一般的なパターンであり、多くのチームが最も多�
 
 マルチエージェントシステムは2026年の最大のトレンドです：
 
-![マルチエージェントシステム：オーケストレーターがツールを持つ専門エージェントを調整](/storage/uploads/2026/04/ai-architect-agent-architecture.png)
+![マルチエージェントシステム：オーケストレーターがツールを持つ専門エージェントを調整](/storage/uploads/2026/04/ai-architect-agent-architecture.webp)
 
 **AIエージェントの構造：**
 

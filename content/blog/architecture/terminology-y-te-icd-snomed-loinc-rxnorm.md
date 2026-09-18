@@ -6,7 +6,7 @@ excerpt: >-
   Semantic interoperability không chỉ là gửi đúng JSON — phải dùng đúng bộ mã.
   Bài viết giải thích vai trò ICD-10/11, SNOMED CT, LOINC, RxNorm, UCUM trong FHIR
   CodeableConcept, kèm ví dụ mapping danh mục Bộ Y tế Việt Nam (DVKT, thuốc).
-featured_image: /images/blog/fhir-terminology-featured.png
+featured_image: /images/blog/fhir-terminology-featured.webp
 type: blog
 reading_time: 14
 view_count: 0

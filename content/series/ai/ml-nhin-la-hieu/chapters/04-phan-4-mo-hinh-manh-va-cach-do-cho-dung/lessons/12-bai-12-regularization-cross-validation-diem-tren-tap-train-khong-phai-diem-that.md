@@ -134,7 +134,7 @@ không giảm được cả hai cùng lúc. Regularization là cái núm chọn 
 
 ## Chạy thử
 
-![Kết quả chạy ep12_regularization](/images/blog/ml-nhin-la-hieu/ep12_regularization.png)
+![Kết quả chạy ep12_regularization](/images/blog/ml-nhin-la-hieu/ep12_regularization.webp)
 
 > Ảnh trên là output thật của `python scratch/ep12_regularization.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep12_regularization.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep12_regularization.py) · [`library/ep12_regularization.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep12_regularization.py)

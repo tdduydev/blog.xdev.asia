@@ -120,7 +120,7 @@ Before you start writing code or fine-tuning the model, you need to have a **big
 
 Many people use these terms interchangeably, but they are nested, not synonymous.
 
-![Diagram of nested relationships between AI, Machine Learning, Deep Learning and LLM](/storage/uploads/2026/03/ai-ml-dl-llm-diagram.png)
+![Diagram of nested relationships between AI, Machine Learning, Deep Learning and LLM](/storage/uploads/2026/03/ai-ml-dl-llm-diagram.webp)
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -200,7 +200,7 @@ ChatGPT is not just a bigger GPT-3. The secret is **RLHF (Reinforcement Learning
 
 ## 5. Roadmap of this series
 
-![Learning path from Foundation to Practical Application](/storage/uploads/2026/03/ai-series-roadmap.png)
+![Learning path from Foundation to Practical Application](/storage/uploads/2026/03/ai-series-roadmap.webp)
 
 This series is divided into 5 main parts:
 

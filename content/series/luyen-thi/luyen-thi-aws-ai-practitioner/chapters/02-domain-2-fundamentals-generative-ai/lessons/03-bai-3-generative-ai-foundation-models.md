@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai3-foundation-model-lifecycle.png" alt="Foundation Model Lifecycle" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai3-foundation-model-lifecycle.webp" alt="Foundation Model Lifecycle" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Foundation Model Lifecycle — Pre-training, Fine-tuning, RAG và Prompt Engineering</em></p>
 </div>
 

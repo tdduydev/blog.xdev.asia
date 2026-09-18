@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai3-data-pipeline.png" alt="GCP Data Pipeline Architecture" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai3-data-pipeline.webp" alt="GCP Data Pipeline Architecture" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>GCPデータパイプライン：Pub/Sub、Dataflow、Dataproc、Cloud ComposerとML向けデータフロー</em></p>
 </div>
 

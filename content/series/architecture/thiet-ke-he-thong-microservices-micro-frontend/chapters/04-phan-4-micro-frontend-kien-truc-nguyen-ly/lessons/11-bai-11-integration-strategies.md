@@ -90,7 +90,7 @@ course:
 Có nhiều cách để compose Micro Frontend applications. Mỗi approach có trade-offs riêng. Bài này deep-dive vào từng strategy và giúp bạn chọn đúng.
 
 
-![4 chiến lược Integration Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai11-mfe-integration.png)
+![4 chiến lược Integration Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai11-mfe-integration.webp)
 
 ---
 

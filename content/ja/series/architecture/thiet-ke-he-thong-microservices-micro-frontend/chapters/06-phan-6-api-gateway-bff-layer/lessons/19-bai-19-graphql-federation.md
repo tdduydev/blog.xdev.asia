@@ -92,7 +92,7 @@ locale: ja
 GraphQL フェデレーションにより、各マイクロサービスが **サブグラフ**を公開できるようになり、ルーターはそれを **統合スーパーグラフ**に自動的に構成します。フロントエンドでは、すべてのサービスからデータをクエリするために 1 つのエンドポイントのみが必要です。
 
 
-![GraphQL Federation — 複数のサブグラフからの統合グラフ](/storage/uploads/2026/04/mfe-ms-diagram-bai19-graphql-federation.png)
+![GraphQL Federation — 複数のサブグラフからの統合グラフ](/storage/uploads/2026/04/mfe-ms-diagram-bai19-graphql-federation.webp)
 
 ---
 

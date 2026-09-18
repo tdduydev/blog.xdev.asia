@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a009-000000000001
 title: 軟體 BA 的 UAT 和業務準備：從測試計劃到通過/不通過
 slug: uat-business-readiness-software-ba
 excerpt: UAT 不僅僅是讓用戶測試幾個螢幕。本文指導 BA 創建 UAT 計劃、選擇場景、準備測試資料、管理缺陷、培訓、部署並決定繼續/不繼續。
-featured_image: /images/blog/uat-business-readiness-ai.png
+featured_image: /images/blog/uat-business-readiness-ai.webp
 type: blog
 reading_time: 12
 view_count: 0

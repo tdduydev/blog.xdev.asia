@@ -92,7 +92,7 @@ locale: en
 Backend for Frontend (BFF) is a pattern that places a separate **backend layer** for each frontend client. BFF aggregates data from multiple microservices, transforming it into a format suitable for the specific frontend.
 
 
-![BFF Pattern — Separate Backend for Frontend for each client](/storage/uploads/2026/04/mfe-ms-diagram-bai17-bff-pattern.png)
+![BFF Pattern — Separate Backend for Frontend for each client](/storage/uploads/2026/04/mfe-ms-diagram-bai17-bff-pattern.webp)
 
 ---
 

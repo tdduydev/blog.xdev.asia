@@ -14,7 +14,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-04-firewall.png" alt="Firewall cơ bản — Rules, Chains và Groups" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-04-firewall.webp" alt="Firewall cơ bản — Rules, Chains và Groups" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 <h2>Kiến trúc Firewall trên VyOS</h2>
 
 <p>VyOS sử dụng <strong>nftables</strong> làm backend firewall (thay thế iptables từ phiên bản 1.4+). Tuy nhiên, bạn không cần viết nftables rules trực tiếp — VyOS CLI trừu tượng hóa toàn bộ qua configuration tree.</p>

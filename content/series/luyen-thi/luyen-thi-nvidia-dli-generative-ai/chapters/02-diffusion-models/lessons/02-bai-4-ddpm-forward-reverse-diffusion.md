@@ -50,7 +50,7 @@ DDPM Overview — Two Processes
    t = 1000   t = 500    t = 100    t = 0
 </code></pre>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai4-ddpm-diffusion-process.png" alt="DDPM — Forward Diffusion (thêm noise) và Reverse Diffusion (khử noise)" loading="lazy" /><figcaption>DDPM — Forward Diffusion (thêm noise) và Reverse Diffusion (khử noise)</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai4-ddpm-diffusion-process.webp" alt="DDPM — Forward Diffusion (thêm noise) và Reverse Diffusion (khử noise)" loading="lazy" /><figcaption>DDPM — Forward Diffusion (thêm noise) và Reverse Diffusion (khử noise)</figcaption></figure>
 
 <h2 id="forward-diffusion">2. Forward Diffusion Process</h2>
 

@@ -91,7 +91,7 @@ locale: zh-tw
 「每服務資料庫」是微服務的基礎模式。沒有它，您就沒有真正的微服務——只有共享相同資料庫的模組（分散式整體）。本文解釋了原因、如何選擇正確的資料庫以及如何處理資料共享。
 
 
-![每個服務都有資料庫－每個服務都有自己的資料庫](/storage/uploads/2026/04/mfe-ms-diagram-bai7-database-per-service.png)
+![每個服務都有資料庫－每個服務都有自己的資料庫](/storage/uploads/2026/04/mfe-ms-diagram-bai7-database-per-service.webp)
 
 ---
 

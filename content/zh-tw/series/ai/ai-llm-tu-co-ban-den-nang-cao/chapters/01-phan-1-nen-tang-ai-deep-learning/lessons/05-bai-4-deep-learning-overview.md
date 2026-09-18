@@ -115,7 +115,7 @@ locale: zh-tw
 
 **日常生活中的例子：** 你用放大鏡看照片。小放大鏡（3×3公分），將玻璃從左上角滑到右下角。在每個位置，您記錄**一個數字**，總結該區域（亮/暗，是否有邊緣，是否有角...）。結果→「特徵圖」。
 
-![卷積圖解：濾波器在影像上滑動以建立特徵圖](/storage/uploads/2026/03/cnn-convolution-visual.png)
+![卷積圖解：濾波器在影像上滑動以建立特徵圖](/storage/uploads/2026/03/cnn-convolution-visual.webp)
 
 ```
 Input image (6×6):     Filter (3×3):     Feature map (4×4):
@@ -334,7 +334,7 @@ print(f"Sau 50 bước: {0.9**50:.6f} → gần như = 0!")
   - **新增**重要的新資訊（輸入門）—“寫入新頁面”
   - **閱讀**所需資訊（輸出門）—“開啟頁面閱讀”
 
-![比較具有單元狀態和 3 個閘的 RNN 與 LSTM 架構](/storage/uploads/2026/03/rnn-lstm-comparison.png)
+![比較具有單元狀態和 3 個閘的 RNN 與 LSTM 架構](/storage/uploads/2026/03/rnn-lstm-comparison.webp)
 
 ### 4.2 LSTM 的三個門
 

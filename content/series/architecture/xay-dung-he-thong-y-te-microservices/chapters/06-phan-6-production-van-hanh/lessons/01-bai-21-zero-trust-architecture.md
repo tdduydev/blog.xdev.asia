@@ -91,13 +91,13 @@ course:
 
 ## 1. Tổng quan Zero Trust Architecture
 
-![Zero Trust Architecture cho hệ thống y tế — Micro-segmentation, OPA, Keycloak](/storage/uploads/2026/04/healthcare-zero-trust-architecture.png)
+![Zero Trust Architecture cho hệ thống y tế — Micro-segmentation, OPA, Keycloak](/storage/uploads/2026/04/healthcare-zero-trust-architecture.webp)
 
 ### 1.1. Tại sao Healthcare cần Zero Trust?
 
 Mô hình bảo mật truyền thống dựa trên **perimeter security** — "tin tưởng mọi thứ bên trong firewall" — đã không còn phù hợp với hệ thống y tế hiện đại. Với sự gia tăng của telemedicine, IoT medical devices, cloud adoption, và remote access cho bác sĩ, **perimeter không còn tồn tại rõ ràng**.
 
-![Traditional Perimeter Security vs Zero Trust — so sánh mô hình bảo mật](/storage/uploads/2026/04/healthcare-zero-trust-vs-perimeter.png)
+![Traditional Perimeter Security vs Zero Trust — so sánh mô hình bảo mật](/storage/uploads/2026/04/healthcare-zero-trust-vs-perimeter.webp)
 
 **Problems với Perimeter Security:**
 
@@ -154,7 +154,7 @@ NIST Special Publication 800-207 định nghĩa **Zero Trust Architecture** (ZTA
 
 ### 2.1. Healthcare ZTA Overview
 
-![Zero Trust Architecture — Hospital System với PEP, Policy Engine, Micro-segmented Services](/storage/uploads/2026/04/healthcare-zero-trust-architecture.png)
+![Zero Trust Architecture — Hospital System với PEP, Policy Engine, Micro-segmented Services](/storage/uploads/2026/04/healthcare-zero-trust-architecture.webp)
 
 **Layers:**
 
@@ -836,7 +836,7 @@ public class DeviceTrustService {
 
 ### 6.1. OPA Architecture trong Healthcare ZTA
 
-![OPA Policy Architecture — Bundle Server → OPA Server → Healthcare Services](/storage/uploads/2026/04/healthcare-opa-policy-engine.png)
+![OPA Policy Architecture — Bundle Server → OPA Server → Healthcare Services](/storage/uploads/2026/04/healthcare-opa-policy-engine.webp)
 
 **Components:**
 
@@ -1332,7 +1332,7 @@ data:
 
 ### 10.1. Data-Centric Zero Trust
 
-![Zero Trust Data Protection Layers — Classify, Encrypt, Control, Monitor](/storage/uploads/2026/04/healthcare-data-zero-trust-layers.png)
+![Zero Trust Data Protection Layers — Classify, Encrypt, Control, Monitor](/storage/uploads/2026/04/healthcare-data-zero-trust-layers.webp)
 
 **Layer 1: Classify Everything**
 

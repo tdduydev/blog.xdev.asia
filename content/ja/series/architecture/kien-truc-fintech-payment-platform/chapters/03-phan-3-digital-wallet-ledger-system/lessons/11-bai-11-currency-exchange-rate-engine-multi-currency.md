@@ -85,7 +85,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 11: 通貨および為替レート エンジン - 複数通貨のサポート](/storage/uploads/2026/03/fintech-bai-11-diagram.png)
+![レッスン 11: 通貨および為替レート エンジン - 複数通貨のサポート](/storage/uploads/2026/03/fintech-bai-11-diagram.webp)
 
 ## はじめに
 

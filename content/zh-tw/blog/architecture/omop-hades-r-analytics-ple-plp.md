@@ -6,7 +6,7 @@ excerpt: >-
   HADES(Health Analytics Data-to-Evidence Suite)是 OHDSI 的 R 套件集,可執行
   Patient-Level Estimation、Patient-Level Prediction、Characterization、
   Self-Controlled Case Series。本文從安裝到發表網絡研究一一示範。
-featured_image: /images/blog/omop-hades-featured.png
+featured_image: /images/blog/omop-hades-featured.webp
 type: blog
 reading_time: 16
 view_count: 0
@@ -23,7 +23,7 @@ ATLAS 解決了「定義世代」與基礎「characterization」。當你需要�
 
 ## 1. HADES 是什麼
 
-![1. HADES 是什麼](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d01.png)
+![1. HADES 是什麼](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d01.webp)
 
 40+ R 套件,MIT 授權,可從 CRAN 或 GitHub 安裝。
 
@@ -67,7 +67,7 @@ cohortDatabaseSchema <- "results"
 
 **PLE** 回答:「藥物 A 與藥物 B,哪個較少引起副作用 X?」 屬於比較性療效研究。
 
-![4. CohortMethod — Patient-Level Estimation (PLE)](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d02.png)
+![4. CohortMethod — Patient-Level Estimation (PLE)](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d02.webp)
 
 ### 4.1 PLE 工作流程
 
@@ -118,7 +118,7 @@ OHDSI 標準:只發表通過所有診斷的結果。
 
 **PLP** 回答:「病人 X 在未來 T 天內有多少 % 可能罹患 Y?」
 
-![5. PatientLevelPrediction (PLP) — ML](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d03.png)
+![5. PatientLevelPrediction (PLP) — ML](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d03.webp)
 
 ### 5.1 PLP 程式
 
@@ -243,7 +243,7 @@ execute(
 
 ## 9. 網絡研究模式
 
-![9. 網絡研究模式](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d04.png)
+![9. 網絡研究模式](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d04.webp)
 
 越南可以以 Site 角色加入 — 不需高深的程式技能,只需 CDM + 執行 R 套件即可。
 

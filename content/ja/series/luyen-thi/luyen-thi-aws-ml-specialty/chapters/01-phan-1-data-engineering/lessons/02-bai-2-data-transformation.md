@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai2-feature-engineering.png" alt="AWS ML Data Transformation Pipeline" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai2-feature-engineering.webp" alt="AWS ML Data Transformation Pipeline" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>特徴量エンジニアリングとデータ変換：Glue、SageMaker Data Wrangler、欠損値処理</em></p>
 </div>
 

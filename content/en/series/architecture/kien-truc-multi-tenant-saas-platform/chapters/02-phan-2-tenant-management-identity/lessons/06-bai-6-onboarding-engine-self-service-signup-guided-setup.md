@@ -88,7 +88,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Lesson 6: Onboarding Engine - Self-service Signup & Guided Setup](/storage/uploads/2026/03/saas-bai-6-diagram.png)
+![Lesson 6: Onboarding Engine - Self-service Signup & Guided Setup](/storage/uploads/2026/03/saas-bai-6-diagram.webp)
 
 ## Introduction
 

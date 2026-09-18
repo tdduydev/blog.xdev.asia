@@ -6,7 +6,7 @@ excerpt: >-
   OMOP CDM はベトナムにどう適合するのか。本記事では政策（決定 3516/QĐ-BYT、ベトナム個人データ保護法 2025、
   診察治療法 15/2023、VNeID 上の HSDT）、保健省コードのマッピング、カスタム vocabulary、
   および国家研究データレイクのロードマップを分析します。
-featured_image: /images/blog/omop-vietnam-featured.png
+featured_image: /images/blog/omop-vietnam-featured.webp
 type: blog
 reading_time: 15
 view_count: 0
@@ -23,7 +23,7 @@ comments: []
 
 ## 1. 2026 年の政策背景
 
-![1. 2026 年の政策背景](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d01.png)
+![1. 2026 年の政策背景](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d01.webp)
 
 ### 1.1 決定 3516/QĐ-BYT（2025 年 11 月）
 
@@ -60,7 +60,7 @@ CCCD（市民 ID）/BHYT の pseudonymize は OMOP `person_source_value` での�
 
 ## 2. OMOP 向けベトナムソースデータ
 
-![2. OMOP 向けベトナムソースデータ](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d02.png)
+![2. OMOP 向けベトナムソースデータ](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d02.webp)
 
 ## 3. ベトナム vocabulary のマッピング
 
@@ -118,7 +118,7 @@ INSERT INTO concept VALUES
 
 VNeID 上の HSDT（電子健康記録）は比較的 FHIR ライクな構造を持ちます：
 
-![4. HSDT（VNeID）の ETL パターン](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d03.png)
+![4. HSDT（VNeID）の ETL パターン](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d03.webp)
 
 注意点：
 - HSDT はサマリーのみ — フル EMR ではない
@@ -127,7 +127,7 @@ VNeID 上の HSDT（電子健康記録）は比較的 FHIR ライクな構造を
 
 ## 5. BHYT の ETL パターン
 
-![5. BHYT の ETL パターン](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d04.png)
+![5. BHYT の ETL パターン](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d04.webp)
 
 BHYT データの利点：
 - 大規模カバレッジ（約 9,500 万人）
@@ -155,7 +155,7 @@ BHYT データの利点：
 
 ## 7. 国家データレイクのロードマップ
 
-![7. 国家データレイクのロードマップ](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d05.png)
+![7. 国家データレイクのロードマップ](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d05.webp)
 
 パイロットパターン：
 1. 代表的な 5〜10 病院を選定（地域、ランク、専門）
@@ -166,7 +166,7 @@ BHYT データの利点：
 
 ## 8. ガバナンスパターン
 
-![8. ガバナンスパターン](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d06.png)
+![8. ガバナンスパターン](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d06.webp)
 
 ベトナムは **OHDSI Vietnam chapter** を設立する必要 — OHDSI で公式 working group として登録。
 
@@ -220,7 +220,7 @@ person_source_value = encode(
 
 ## 12. 構築すべきコミュニティ
 
-![12. 構築すべきコミュニティ](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d07.png)
+![12. 構築すべきコミュニティ](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d07.webp)
 
 ## 13. ベトナム特有の落とし穴
 

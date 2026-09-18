@@ -3,7 +3,7 @@ id: 05e72d3d-f5d2-4304-8fe1-c29fe5ac8ec6
 title: 'NVIDIA DLI Generative AI: Toàn bộ chứng chỉ, khóa học, bài thi và lộ trình chuẩn bị chi tiết'
 slug: nvidia-dli-generative-ai-chung-chi-va-lo-trinh-hoc
 excerpt: Hướng dẫn chi tiết toàn bộ hệ sinh thái NVIDIA DLI về Generative AI và LLM --- từ khóa Diffusion Models, RAG Agents, Agentic AI đến Transformer NLP. Phân tích nội dung bài thi, độ khó assessment, câu hỏi mẫu, mẹo thi, và lộ trình học từ beginner đến professional.
-featured_image: /images/blog/nvidia-dli-genai-featured.png
+featured_image: /images/blog/nvidia-dli-genai-featured.webp
 type: blog
 reading_time: 30
 view_count: 0

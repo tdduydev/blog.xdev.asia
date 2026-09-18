@@ -94,7 +94,7 @@ locale: en
 Most practical systems start from a Monolith — and a good monolith! Migration to Microservices + Micro Frontend is a **long process**, not a big bang rewrite. This article guides you through a safe, step-by-step migration path.
 
 
-![Strangler Fig Pattern — Migration from Monolith to Microservices](/storage/uploads/2026/04/mfe-ms-diagram-bai30-strangler-fig-migration.png)
+![Strangler Fig Pattern — Migration from Monolith to Microservices](/storage/uploads/2026/04/mfe-ms-diagram-bai30-strangler-fig-migration.webp)
 
 ---
 

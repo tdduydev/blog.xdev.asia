@@ -93,7 +93,7 @@ locale: en
 "Database per Service" is the foundation pattern of Microservices. Without it, you don't have real microservices — only modules sharing the same database (distributed monolith). This article explains why, how to choose the right DB, and how to handle data sharing.
 
 
-![Database per Service — each service owns its own database](/storage/uploads/2026/04/mfe-ms-diagram-bai7-database-per-service.png)
+![Database per Service — each service owns its own database](/storage/uploads/2026/04/mfe-ms-diagram-bai7-database-per-service.webp)
 
 ---
 

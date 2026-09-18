@@ -5,7 +5,7 @@ slug: omop-cdm-tong-quan-vi-sao-can-chuan-hoa
 excerpt: >-
   真實世界證據(RWE)正在改變 FDA、EMA 與各監管機構制定決策的方式。OMOP CDM 是一套資料標準,
   可讓單一研究同時在數百個機構上執行。本文介紹 OHDSI、CDM 5.4 以及越南脈絡。
-featured_image: /images/blog/omop-overview-featured.png
+featured_image: /images/blog/omop-overview-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -33,7 +33,7 @@ RWE 之所以重要,是因為 RCT 只能涵蓋不到 5% 的重要臨床問題。
 
 ## 2. 為何需要 Common Data Model
 
-![2. 為何需要 Common Data Model](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d01.png)
+![2. 為何需要 Common Data Model](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d01.webp)
 
 5 大效益:
 1. **多來源分析**:單一研究可同時在 200 個機構上執行(federated)
@@ -44,13 +44,13 @@ RWE 之所以重要,是因為 RCT 只能涵蓋不到 5% 的重要臨床問題。
 
 ## 3. OMOP 與 OHDSI 歷史
 
-![3. OMOP 與 OHDSI 歷史](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d02.png)
+![3. OMOP 與 OHDSI 歷史](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d02.webp)
 
 OHDSI = Observational Health Data Sciences and Informatics。它不是公司,而是開放社群(Apache 2.0),設有工作小組、網絡研究、年度研討會。
 
 ## 4. 2026 年 OHDSI 技術堆疊
 
-![4. 2026 年 OHDSI 技術堆疊](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d03.png)
+![4. 2026 年 OHDSI 技術堆疊](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d03.webp)
 
 ## 5. CDM 5.4 — 依分組的 37 張資料表
 

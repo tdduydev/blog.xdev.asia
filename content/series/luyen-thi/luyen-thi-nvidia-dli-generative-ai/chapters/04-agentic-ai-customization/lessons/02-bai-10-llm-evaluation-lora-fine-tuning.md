@@ -98,7 +98,7 @@ LLM Evaluation Pipeline — From Data to Decision
 
 <blockquote><p><strong>Exam tip:</strong> DLI assessment thường hỏi "Which evaluation method is best for X?" — nhớ: <strong>BLEU</strong> cho translation, <strong>ROUGE</strong> cho summarization, <strong>F1</strong> cho QA, <strong>LLM-as-a-Judge</strong> cho chất lượng tổng thể. Không tồn tại một metric duy nhất cho mọi task.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai10-lora-fine-tuning.png" alt="LoRA Fine-tuning — Low-Rank Adaptation, QLoRA, Evaluation Metrics Dashboard" loading="lazy" /><figcaption>LoRA Fine-tuning — Low-Rank Adaptation, QLoRA, Evaluation Metrics Dashboard</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai10-lora-fine-tuning.webp" alt="LoRA Fine-tuning — Low-Rank Adaptation, QLoRA, Evaluation Metrics Dashboard" loading="lazy" /><figcaption>LoRA Fine-tuning — Low-Rank Adaptation, QLoRA, Evaluation Metrics Dashboard</figcaption></figure>
 
 <h2 id="2-automated-metrics-deep-dive">2. Automated Metrics Deep-Dive</h2>
 

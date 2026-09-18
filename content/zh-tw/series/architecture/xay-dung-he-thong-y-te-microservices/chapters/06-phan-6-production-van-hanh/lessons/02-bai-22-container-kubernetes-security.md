@@ -90,7 +90,7 @@ locale: zh-tw
 
 ## 1. 醫療保健容器安全基礎知識
 
-![Container Attack Surface — Build, Deploy, Runtime vulnerabilities](/storage/uploads/2026/04/healthcare-container-attack-surface.png)
+![Container Attack Surface — Build, Deploy, Runtime vulnerabilities](/storage/uploads/2026/04/healthcare-container-attack-surface.webp)
 
 ### 1.1。容器攻擊面
 

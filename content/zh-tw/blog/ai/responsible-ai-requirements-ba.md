@@ -4,7 +4,7 @@ title: "負責任的 AI 需求：BA 為安全 AI 功能撰寫需求"
 slug: responsible-ai-requirements-ba
 excerpt: >-
   公平性、可解釋性、隱私和人類覆蓋不只是流行詞——當構建 AI 功能時，這些是 BA 必須擷取的真實需求。本指南教如何將 Responsible AI 需求寫入 BRD/SRS、用檢查清單驗證，並與 EU AI Act 和 NIST AI RMF 等框架對齊。
-featured_image: /images/blog/responsible-ai-requirements.png
+featured_image: /images/blog/responsible-ai-requirements.webp
 type: blog
 reading_time: 11
 view_count: 0

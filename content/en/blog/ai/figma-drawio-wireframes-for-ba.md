@@ -7,7 +7,7 @@ excerpt: >-
   teams to understand and flow diagrams accurate enough so developers do not ask again.
   Practical guidance on using Figma and Draw.io for BA, especially for AI features with
   fallback paths, confidence display, and human override.
-featured_image: /images/blog/figma-draw-io-ba.png
+featured_image: /images/blog/figma-draw-io-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

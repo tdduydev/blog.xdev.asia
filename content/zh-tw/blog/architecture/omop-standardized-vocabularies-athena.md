@@ -6,7 +6,7 @@ excerpt: >-
   詞彙是 OMOP 中最困難卻也最重要的一部分。本文說明 Concept、Standard 與 Source、Domain、
   Vocabulary、ConceptRelationship、ConceptAncestor,以及在 Athena 上下載與查詢的工作流程,
   並針對越南專案提供建議。
-featured_image: /images/blog/omop-vocabulary-featured.png
+featured_image: /images/blog/omop-vocabulary-featured.webp
 type: blog
 reading_time: 16
 view_count: 0
@@ -49,7 +49,7 @@ Concept 是 `CONCEPT` 資料表中的一列:
 
 ## 3. Vocabulary 與 Domain
 
-![3. Vocabulary 與 Domain](/images/blog/diagrams/omop-standardized-vocabularies-athena-d01.png)
+![3. Vocabulary 與 Domain](/images/blog/diagrams/omop-standardized-vocabularies-athena-d01.webp)
 
 | Domain | OMOP 資料表 | 主要 Standard Vocabulary |
 |---|---|---|
@@ -101,7 +101,7 @@ WHERE ca.ancestor_concept_id = 201820  -- Diabetes mellitus
 
 ## 6. Athena — 詞彙入口網
 
-![6. Athena — 詞彙入口網](/images/blog/diagrams/omop-standardized-vocabularies-athena-d02.png)
+![6. Athena — 詞彙入口網](/images/blog/diagrams/omop-standardized-vocabularies-athena-d02.webp)
 
 流程:
 1. 在 athena.ohdsi.org 建立免費帳號
@@ -135,7 +135,7 @@ COPY concept_ancestor FROM '/path/CONCEPT_ANCESTOR.csv' DELIMITER E'\t' CSV HEAD
 
 USAGI 協助將來源代碼(越南 ICD-10、衛生部藥品目錄)對應至 Standard Concept:
 
-![8. USAGI — 代碼對應工具](/images/blog/diagrams/omop-standardized-vocabularies-athena-d03.png)
+![8. USAGI — 代碼對應工具](/images/blog/diagrams/omop-standardized-vocabularies-athena-d03.webp)
 
 工作流程:
 1. 輸入 CSV 檔具有 `source_code, source_name` 欄位
@@ -145,7 +145,7 @@ USAGI 協助將來源代碼(越南 ICD-10、衛生部藥品目錄)對應至 Stan
 
 ## 9. 越南專用詞彙
 
-![9. 越南專用詞彙](/images/blog/diagrams/omop-standardized-vocabularies-athena-d04.png)
+![9. 越南專用詞彙](/images/blog/diagrams/omop-standardized-vocabularies-athena-d04.webp)
 
 ### 9.1 越南 Custom Vocabulary
 
@@ -171,7 +171,7 @@ INSERT INTO concept VALUES
 
 Athena 每月發布詞彙更新。升級流程:
 
-![10. 詞彙升級](/images/blog/diagrams/omop-standardized-vocabularies-athena-d05.png)
+![10. 詞彙升級](/images/blog/diagrams/omop-standardized-vocabularies-athena-d05.webp)
 
 注意:concept_id 在版本間 **穩定**,但 `Maps to` 關係可能變動 → 需重跑 ETL 以更新 `*_concept_id` 欄位。
 

@@ -88,7 +88,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Lesson 17: Network Studies — Multi-center research](/storage/uploads/2026/03/ohdsi-bai-17-network-studies.png)
+![Lesson 17: Network Studies — Multi-center research](/storage/uploads/2026/03/ohdsi-bai-17-network-studies.webp)
 
 ## Introduction
 

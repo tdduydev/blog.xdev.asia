@@ -4,7 +4,7 @@ title: "AI 功能的 UAT 和業務準備：從測試計畫到 Go/No-Go 決定"
 slug: uat-business-readiness-ai-features
 excerpt: >-
   AI 功能的 UAT 與傳統 UAT 不同——你不只測試業務邏輯，還要測試 AI 輸出品質、邊界情況、偏差，和使用者是否真的信任 AI。從 UAT 計畫、業務準備檢查清單到 BA 用 Go/No-Go 決定框架的完整指南。
-featured_image: /images/blog/uat-business-readiness-ai.png
+featured_image: /images/blog/uat-business-readiness-ai.webp
 type: blog
 reading_time: 10
 view_count: 0

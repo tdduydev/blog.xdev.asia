@@ -6,7 +6,7 @@ excerpt: >-
   HTTP là giao thức đồng bộ, dù client có dùng async I/O — tài liệu Microsoft nói thẳng câu đó. Mỗi
   cú gọi đồng bộ là một sợi dây ràng buộc độ sẵn sàng, và phần lớn người ta ký sợi dây đó mà không
   biết mình đang ký.
-featured_image: /images/blog/dong-bo-hay-bat-dong-bo/cover.png
+featured_image: /images/blog/dong-bo-hay-bat-dong-bo/cover.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -4,7 +4,7 @@ title: "医療におけるAI：診断から治療まで——包括的な革命"
 slug: ai-in-healthcare
 excerpt: >-
   医療AIの応用を深く分析——専門医を上回るCNN医療画像・EHR分析のためのNLP・12年を数ヶ月に短縮する創薬・個別化ゲノム治療まで。実際のケーススタディ・技術的課題・倫理問題・ベトナムへの展開ロードマップを含む包括的なガイド。
-featured_image: /images/blog/ai-trong-y-te-featured.png
+featured_image: /images/blog/ai-trong-y-te-featured.webp
 type: blog
 reading_time: 35
 view_count: 0

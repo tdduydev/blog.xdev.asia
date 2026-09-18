@@ -89,13 +89,13 @@ locale: zh-tw
 
 ## 1. 醫療保健系統的多租戶策略
 
-![多分院系統的Keycloak Realm架構](/storage/uploads/2026/04/healthcare-keycloak-realm-architecture.png)
+![多分院系統的Keycloak Realm架構](/storage/uploads/2026/04/healthcare-keycloak-realm-architecture.webp)
 
 ### 1.1。帶有 Keycloak 的多租戶模型
 
 在為許多醫院/診所建立醫療系統時，有3種策略：
 
-![3 Keycloak 多醫院系統的多租戶策略](/storage/uploads/2026/04/healthcare-keycloak-multitenancy.png)
+![3 Keycloak 多醫院系統的多租戶策略](/storage/uploads/2026/04/healthcare-keycloak-multitenancy.webp)
 
 |戰略|型號|隔離|適合|
 |----------|--------|------------|----------|
@@ -432,7 +432,7 @@ Realm Roles:
 
 醫院通常有共享工作站—許多醫生/護士共用一台電腦。解決方案：
 
-![共享醫院工作站上的 3 個身份驗證選項](/storage/uploads/2026/04/healthcare-shared-workstation-auth.png)
+![共享醫院工作站上的 3 個身份驗證選項](/storage/uploads/2026/04/healthcare-shared-workstation-auth.webp)
 
 |選項|機制|優點 |限制 |
 |--------|--------|---------|----------|

@@ -132,7 +132,7 @@ cd ner-nhin-la-hieu
 python3 scratch/ep07_tran_cua_mo_hinh.py
 ```
 
-![Kết quả chạy ep07_tran_cua_mo_hinh](/images/blog/trich-xuat-nhin-la-hieu/ep07_tran_cua_mo_hinh.png)
+![Kết quả chạy ep07_tran_cua_mo_hinh](/images/blog/trich-xuat-nhin-la-hieu/ep07_tran_cua_mo_hinh.webp)
 
 Toàn bộ số của bảy bài: `python3 measure.py`. Khẳng định số không đổi: `python3 run_tests.py`.
 

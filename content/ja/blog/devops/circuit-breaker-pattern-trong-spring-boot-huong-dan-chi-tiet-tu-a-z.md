@@ -6,7 +6,7 @@ excerpt: >-
   Resilience4j を使用して Spring Boot のサーキット ブレーカー パターンを学習します - 動作原理、詳細な構成、実用的な例からベスト
   プラクティスまで。回復力のあるマイクロサービス
   システムを構築し、連鎖的な障害を防ぎ、サービスに問題が発生したときに自動的に回復するのに役立つ完全なガイドです。
-featured_image: /images/blog/circuit-breaker-featured.png
+featured_image: /images/blog/circuit-breaker-featured.webp
 type: blog
 reading_time: 35
 view_count: 1

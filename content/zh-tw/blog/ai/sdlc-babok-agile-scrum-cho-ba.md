@@ -5,7 +5,7 @@ slug: sdlc-babok-agile-scrum-cho-ba
 excerpt: >-
   新的 BA 通常會零散地學習 BABOK、SDLC、Scrum、BRD、SRS
   和使用者故事，因此很容易感到困惑。本文將整個事情映射到從想法到發布的實際工作流程中。
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

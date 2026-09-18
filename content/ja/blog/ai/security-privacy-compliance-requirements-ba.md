@@ -5,7 +5,7 @@ slug: security-privacy-compliance-requirements-ba
 excerpt: >-
   BA はセキュリティ エンジニアである必要はありませんが、仕様の欠落を避けるために、認証、認可、監査ログ、データ
   マスキング、同意、保持、PII/PHI/PCI、およびコンプライアンスに関する要件を記述する方法を知っている必要があります。
-featured_image: /images/blog/responsible-ai-requirements.png
+featured_image: /images/blog/responsible-ai-requirements.webp
 type: blog
 reading_time: 12
 view_count: 0

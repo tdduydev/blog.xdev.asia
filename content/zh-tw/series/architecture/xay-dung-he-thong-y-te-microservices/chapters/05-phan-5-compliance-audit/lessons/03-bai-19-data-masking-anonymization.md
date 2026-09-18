@@ -89,13 +89,13 @@ locale: zh-tw
 
 ## 1. 醫療保健資料去識別化概述
 
-![HIPAA De-identification — Safe Harbor vs Expert Determination](/storage/uploads/2026/04/healthcare-data-deidentification.png)
+![HIPAA De-identification — Safe Harbor vs Expert Determination](/storage/uploads/2026/04/healthcare-data-deidentification.webp)
 
 如果資料已**去識別化**，即無法用於識別患者身份，則 HIPAA 允許在**未經患者同意**的情況下使用和共享醫療資料。這是醫學研究、人口健康分析和醫療保健機器學習的基礎。
 
 ### 1.1。 HIPAA 去識別化標準 — §164.514
 
-![HIPAA De-identification — Safe Harbor vs Expert Determination flow](/storage/uploads/2026/04/healthcare-safe-harbor-flow.png)
+![HIPAA De-identification — Safe Harbor vs Expert Determination flow](/storage/uploads/2026/04/healthcare-safe-harbor-flow.webp)
 
 **PHI（受保護的健康資訊）** 根據 §164.514(a) 有 2 種去識別化方法：
 
@@ -112,7 +112,7 @@ locale: zh-tw
 
 ### 1.2。資料保護範圍
 
-![資料保護範圍 — 從合成資料到原始 PHI](/storage/uploads/2026/04/healthcare-data-protection-spectrum.png)
+![資料保護範圍 — 從合成資料到原始 PHI](/storage/uploads/2026/04/healthcare-data-protection-spectrum.webp)
 
 |水平|描述 |使用案例 |
 |--------|--------|----------|
@@ -659,7 +659,7 @@ COMMIT;
 
 ```
 
-![K-Anonymity Example — Before (k=1) vs After (k=3) Generalization](/storage/uploads/2026/04/healthcare-k-anonymity-example.png)
+![K-Anonymity Example — Before (k=1) vs After (k=3) Generalization](/storage/uploads/2026/04/healthcare-k-anonymity-example.webp)
 
 **BEFORE (k=1, not anonymous):**
 

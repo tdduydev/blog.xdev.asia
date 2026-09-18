@@ -14,7 +14,7 @@ course:
   title: VyOS từ Cơ bản đến Nâng Cao
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-08-routing-pbr.png" alt="Static Routing và Policy-Based Routing" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-08-routing-pbr.webp" alt="Static Routing và Policy-Based Routing" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Giới thiệu về Static Routing và Policy-Based Routing trên VyOS</h2>
 <p>Bài học này hướng dẫn cấu hình <strong>Static Routing</strong> (định tuyến tĩnh) và <strong>Policy-Based Routing</strong> (định tuyến theo chính sách) trên VyOS 1.4.x/1.5 rolling release. Đây là các kỹ thuật quan trọng để kiểm soát đường đi của gói tin trong mạng.</p>

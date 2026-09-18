@@ -94,7 +94,7 @@ locale: en
 
 ## 1. MFA Strategy for Healthcare Environment
 
-![MFA matrix for healthcare workers — Passkeys, TOTP, Emergency Access](/storage/uploads/2026/04/healthcare-mfa-decision-matrix.png)
+![MFA matrix for healthcare workers — Passkeys, TOTP, Emergency Access](/storage/uploads/2026/04/healthcare-mfa-decision-matrix.webp)
 
 ### 1.1. MFA Challenge in Hospitals
 

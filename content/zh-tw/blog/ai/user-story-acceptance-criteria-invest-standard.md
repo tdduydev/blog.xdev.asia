@@ -4,7 +4,7 @@ title: "使用者故事與驗收標準：BA 的 INVEST 標準指南"
 slug: user-story-acceptance-criteria-invest-standard
 excerpt: >-
   寫得不好的使用者故事是 80% 「規格不符」Bug 和衝刺重新工作的根本原因。本指南教 BA 使用 INVEST 標準寫故事、以 BDD Given/When/Then 格式寫驗收標準，並使用 AI 自動偵測遺漏的邊界情況。
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

@@ -4,7 +4,7 @@ title: "BA Certification: Choose ECBA, CBAP, IIBA-AAC or PMI-PBA? Career Roadmap
 slug: ba-certification-ecba-cbap-iiba-aac
 excerpt: >-
   Too many BA certifications — ECBA, CCBA, CBAP, IIBA-AAC, IIBA-CBDA, PMI-PBA, BCS. Which fits you? This guide analyzes each by prerequisites, real-world value, market demand, and helps you plan a 12-month roadmap based on your current level.
-featured_image: /images/blog/ba-certification-roadmap.png
+featured_image: /images/blog/ba-certification-roadmap.webp
 type: blog
 reading_time: 10
 view_count: 0

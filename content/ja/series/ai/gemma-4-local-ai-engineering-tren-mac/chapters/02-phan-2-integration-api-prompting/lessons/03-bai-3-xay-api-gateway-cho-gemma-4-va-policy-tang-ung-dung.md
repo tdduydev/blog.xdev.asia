@@ -149,11 +149,11 @@ PIIが含まれる場合、生の機密データをログに記録しないで�
 
 ゲートウェイ経由のチャットAPIレスポンス：
 
-![チャットレスポンス](/images/blog/gemma4-series-demo/03-chat-response.png)
+![チャットレスポンス](/images/blog/gemma4-series-demo/03-chat-response.webp)
 
 モデルポリシーの強制 — 許可されていないモデルのブロック：
 
-![ポリシー強制](/images/blog/gemma4-series-demo/03-policy-enforcement.png)
+![ポリシー強制](/images/blog/gemma4-series-demo/03-policy-enforcement.webp)
 
 > ソースコード：[02-api-gateway](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/02-api-gateway)
 

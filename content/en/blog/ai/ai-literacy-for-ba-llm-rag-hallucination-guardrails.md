@@ -4,7 +4,7 @@ title: "AI Literacy for BA: LLM, RAG, Hallucination, and Guardrails Explained Wi
 slug: ai-literacy-for-ba-llm-rag-hallucination-guardrails
 excerpt: >-
   BAs don't need to code AI, but they need to understand enough to write correct requirements and work effectively with the technical team. LLM, RAG, hallucination, confidence scores, and guardrails explained in business language — with real-world examples.
-featured_image: /images/blog/ai-literacy-ba.png
+featured_image: /images/blog/ai-literacy-ba.webp
 type: blog
 reading_time: 15
 view_count: 0

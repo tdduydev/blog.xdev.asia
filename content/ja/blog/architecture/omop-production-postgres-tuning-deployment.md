@@ -6,7 +6,7 @@ excerpt: >-
   1 億イベントの実運用 CDM は Eunomia とはまったく別物です。本記事ではスキーマ設計、インデックス、
   person_id によるパーティション、vacuum、バックアップ、ベトナム個人データ保護法 2025
   （2026 年 1 月 1 日施行）に準拠したセキュリティ、監査ログ、Vocabulary アップグレードを解説します。
-featured_image: /images/blog/omop-production-featured.png
+featured_image: /images/blog/omop-production-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -84,7 +84,7 @@ ANALYZE condition_occurrence;
 
 ## 4. 大規模データセット向けパーティション
 
-![4. 大規模データセット向けパーティション](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d01.png)
+![4. 大規模データセット向けパーティション](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d01.webp)
 
 ```sql
 CREATE TABLE condition_occurrence (
@@ -133,7 +133,7 @@ ORDER BY dead_ratio DESC;
 
 ## 6. バックアップと DR
 
-![6. バックアップと DR](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d02.png)
+![6. バックアップと DR](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d02.webp)
 
 2026 年のパターン：
 - 同 DC 内 streaming replication 1 standby（フェイルオーバー < 30 秒）
@@ -223,7 +223,7 @@ GRANT INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA results TO omop_atlas_webap
 
 ## 9. Vocabulary アップグレードのワークフロー
 
-![9. Vocabulary アップグレードのワークフロー](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d03.png)
+![9. Vocabulary アップグレードのワークフロー](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d03.webp)
 
 頻度：四半期。バージョンログを保管：
 

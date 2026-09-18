@@ -15,7 +15,7 @@ course:
   slug: vyos-tu-co-ban-den-nang-cao
 locale: zh-tw
 ---
-<img src="/storage/uploads/2026/04/vyos-13-ha-vrrp.png" alt="高可用性——VRRP和Conntrack Sync" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-13-ha-vrrp.webp" alt="高可用性——VRRP和Conntrack Sync" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS上的高可用性：VRRP和Conntrack Sync</h2>
 <p>確保高可用性是網路系統的重要要求。VyOS支援VRRP（虛擬路由器冗餘協定）和conntrack-sync，以在節點之間同步NAT/連接狀態。</p>

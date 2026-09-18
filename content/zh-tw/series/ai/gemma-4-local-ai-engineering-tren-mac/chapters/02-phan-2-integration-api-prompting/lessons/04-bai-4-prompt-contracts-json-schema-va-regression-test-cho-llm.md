@@ -122,7 +122,7 @@ Prompt contract 包含四個部分：
 
 Prompt contract 測試結果 — 6/6 通過：
 
-![Prompt Contract 測試](/images/blog/gemma4-series-demo/04-prompt-contract-tests.png)
+![Prompt Contract 測試](/images/blog/gemma4-series-demo/04-prompt-contract-tests.webp)
 
 > 原始碼：[03-prompt-contracts](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/03-prompt-contracts)
 

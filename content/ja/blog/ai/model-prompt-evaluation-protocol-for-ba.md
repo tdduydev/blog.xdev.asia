@@ -6,7 +6,7 @@ excerpt: >-
   BA は「出力がそれっぽい」で AI を評価してはいけません。必要なのは、
   evaluation criteria、scoring rubric、blind test methodology、go/no-go framework
   を備えた明確な protocol です。test set 設計から sign-off までを体系的に解説します。
-featured_image: /images/blog/model-evaluation-protocol.png
+featured_image: /images/blog/model-evaluation-protocol.webp
 type: blog
 reading_time: 14
 view_count: 0

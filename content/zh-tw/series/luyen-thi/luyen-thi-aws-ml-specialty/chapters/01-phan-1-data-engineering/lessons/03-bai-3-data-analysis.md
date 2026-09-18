@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai3-eda-data-analysis.png" alt="Exploratory Data Analysis on AWS" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai3-eda-data-analysis.webp" alt="Exploratory Data Analysis on AWS" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>EDA與數據分析：描述性統計、離群值檢測、AWS上的特徵相關性</em></p>
 </div>
 

@@ -8,7 +8,7 @@ description: >-
   phí cuối ngày.
 duration_minutes: 45
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-9-kham-da-chuyen-khoa-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-9-kham-da-chuyen-khoa-banner.webp
 video_url: null
 sort_order: 3
 section_title: "Phần 3: Khám ngoại trú (OPD)"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![Khám đa chuyên khoa & chuyển khoa nội bộ](/storage/uploads/2026/05/his/bai-9-kham-da-chuyen-khoa-banner.png)
+![Khám đa chuyên khoa & chuyển khoa nội bộ](/storage/uploads/2026/05/his/bai-9-kham-da-chuyen-khoa-banner.webp)
 
 ## Mục tiêu
 
-![Bệnh nhân được referral giữa các chuyên khoa](/storage/uploads/2026/05/his/bai-9-kham-da-chuyen-khoa-workflow.png)
+![Bệnh nhân được referral giữa các chuyên khoa](/storage/uploads/2026/05/his/bai-9-kham-da-chuyen-khoa-workflow.webp)
 
 BN đến BV không phải lúc nào cũng chỉ khám 1 chuyên khoa. Người cao tuổi đa bệnh nền có thể đi 3–5 phòng khám trong cùng buổi sáng (Nội tổng quát → Tim mạch → Mắt → Nội tiết). Nếu HIS coi mỗi lần là 1 BN mới → 5 phiếu BHYT, 5 hoá đơn, 5 lần thanh toán → tan nát trải nghiệm.
 

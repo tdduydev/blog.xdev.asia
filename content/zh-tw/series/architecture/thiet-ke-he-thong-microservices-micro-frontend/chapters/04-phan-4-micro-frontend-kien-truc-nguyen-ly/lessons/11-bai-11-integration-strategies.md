@@ -90,7 +90,7 @@ locale: zh-tw
 建立微前端應用程式的方法有很多種。每種方法都有其自身的權衡。本文深入探討了每種策略並幫助您選擇正確的策略。
 
 
-![4 種微前端整合策略](/storage/uploads/2026/04/mfe-ms-diagram-bai11-mfe-integration.png)
+![4 種微前端整合策略](/storage/uploads/2026/04/mfe-ms-diagram-bai11-mfe-integration.webp)
 
 ---
 

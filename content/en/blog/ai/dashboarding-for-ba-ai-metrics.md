@@ -7,7 +7,7 @@ excerpt: >-
   go-live, and report to stakeholders. A guide to building dashboards with Looker
   Studio, Power BI, and Metabase — focused on business metrics and AI quality
   metrics.
-featured_image: /images/blog/dashboarding-ba.png
+featured_image: /images/blog/dashboarding-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

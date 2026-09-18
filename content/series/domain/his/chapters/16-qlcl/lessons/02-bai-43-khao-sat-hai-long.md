@@ -7,7 +7,7 @@ description: >-
   ánh (kiosk, app, hotline), quy trình xử lý khiếu nại đúng pháp luật.
 duration_minutes: 30
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-43-khao-sat-hai-long-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-43-khao-sat-hai-long-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 16: Quản lý chất lượng"
@@ -17,7 +17,7 @@ course:
   slug: his
 ---
 
-![Khảo sát hài lòng & NPS](/storage/uploads/2026/05/his/bai-43-khao-sat-hai-long-banner.png)
+![Khảo sát hài lòng & NPS](/storage/uploads/2026/05/his/bai-43-khao-sat-hai-long-banner.webp)
 
 ## Khảo sát hài lòng
 

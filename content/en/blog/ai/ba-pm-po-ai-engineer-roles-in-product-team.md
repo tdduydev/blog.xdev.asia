@@ -4,7 +4,7 @@ title: "BA, PO, PM and AI Engineer: Who Does What in an AI-Era Product Team?"
 slug: ba-pm-po-ai-engineer-roles-in-product-team
 excerpt: >-
   A clear breakdown of BA, Product Owner, Product Manager, and AI Engineer roles in a modern product team. Who writes acceptance criteria? Who decides the roadmap? Who's accountable when an AI feature goes wrong? A practical guide for BAs looking to position themselves correctly in the age of AI.
-featured_image: /images/blog/ba-roles-ai-team.png
+featured_image: /images/blog/ba-roles-ai-team.webp
 type: blog
 reading_time: 12
 view_count: 0

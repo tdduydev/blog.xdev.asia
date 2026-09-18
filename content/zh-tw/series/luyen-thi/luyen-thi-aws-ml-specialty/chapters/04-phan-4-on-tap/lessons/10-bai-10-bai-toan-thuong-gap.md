@@ -17,7 +17,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai10-ml-patterns.png" alt="AWS ML Problem Patterns" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai10-ml-patterns.webp" alt="AWS ML Problem Patterns" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>ML問題模式：AWS上的欺詐檢測、推薦、NLP、時間序列與電腦視覺</em></p>
 </div>
 

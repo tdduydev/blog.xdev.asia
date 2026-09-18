@@ -14,7 +14,7 @@ course:
   title: VyOS từ Cơ bản đến Nâng Cao
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-13-ha-vrrp.png" alt="High Availability — VRRP và Conntrack Sync" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-13-ha-vrrp.webp" alt="High Availability — VRRP và Conntrack Sync" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>High Availability trên VyOS: VRRP và Conntrack Sync</h2>
 <p>Đảm bảo tính sẵn sàng cao (HA) là yêu cầu quan trọng cho hệ thống mạng. VyOS hỗ trợ VRRP (Virtual Router Redundancy Protocol) và conntrack-sync để đồng bộ trạng thái NAT/connection giữa các node.</p>

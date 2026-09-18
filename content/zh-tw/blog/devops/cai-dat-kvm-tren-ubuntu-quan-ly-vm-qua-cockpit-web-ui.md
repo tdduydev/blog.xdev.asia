@@ -3,7 +3,7 @@ id: 019c9617-fdce-72e3-9cdf-5eaadabfad1d
 title: 在 Ubuntu 上安裝 KVM：透過 Cockpit Web UI 管理虛擬機
 slug: cai-dat-kvm-tren-ubuntu-quan-ly-vm-qua-cockpit-web-ui
 excerpt: 有關在 Ubuntu 上安裝 KVM 以及透過 Cockpit Web UI 管理 VM 的說明。為2節點家庭實驗室配置網橋、NAT虛擬網路、儲存池。
-featured_image: /images/blog/kvm-cockpit-featured.png
+featured_image: /images/blog/kvm-cockpit-featured.webp
 type: blog
 reading_time: 27
 view_count: 2
@@ -421,7 +421,7 @@ sudo ufw allow 9090/tcp
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>使用用户登录 <a href="/zh-tw/tags/linux/">Linux</a> 你的（需要 sudo 许可）。</p><p><strong>KVM 的驾驶舱接口：</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>KVM 的驾驶舱功能：</strong></p>
+<p>使用用户登录 <a href="/zh-tw/tags/linux/">Linux</a> 你的（需要 sudo 许可）。</p><p><strong>KVM 的驾驶舱接口：</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.webp" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>KVM 的驾驶舱功能：</strong></p>
 <!--kg-card-begin: html-->
 <table>
 <thead>

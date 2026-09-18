@@ -6,7 +6,7 @@ excerpt: >-
   Làm thế nào để tìm kiếm trên dữ liệu đã mã hóa? Bài viết này trình bày 3
   approaches và implementation thực tế với Spring Boot + PostgreSQL để bảo vệ
   100,000+ patient records.
-featured_image: /images/blog/ma-hoa-du-lieu-healthcare-featured.png
+featured_image: /images/blog/ma-hoa-du-lieu-healthcare-featured.webp
 type: blog
 reading_time: 15
 view_count: 2

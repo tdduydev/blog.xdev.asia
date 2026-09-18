@@ -6,7 +6,7 @@ excerpt: >-
   Strategy Analysis giúp BA hiểu context tổ chức trước khi viết requirement. Bài này
   hướng dẫn áp dụng SWOT, PESTLE, Impact Mapping và Value Stream Mapping vào phân
   tích chiến lược — đặc biệt khi tổ chức đang triển khai AI feature.
-featured_image: /images/blog/strategy-analysis-swot.png
+featured_image: /images/blog/strategy-analysis-swot.webp
 type: blog
 reading_time: 13
 view_count: 0

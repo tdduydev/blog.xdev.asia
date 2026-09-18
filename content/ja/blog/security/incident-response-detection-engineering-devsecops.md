@@ -6,7 +6,7 @@ excerpt: >-
   優れた防御に必要な3つの要素：構造化ログ、ATT&CKにマッピングされた検知ルール、訓練済みの
   IRランブック。本記事では、DevSecOpsチーム向けにdetection-as-codeとblamelessな
   ポストモーテムを構築する方法をまとめます。
-featured_image: /images/blog/detection-ir-devsecops-featured.png
+featured_image: /images/blog/detection-ir-devsecops-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

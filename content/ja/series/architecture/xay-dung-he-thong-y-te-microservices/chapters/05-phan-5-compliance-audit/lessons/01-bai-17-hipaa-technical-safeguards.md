@@ -90,7 +90,7 @@ locale: ja
 
 ## 1. HIPAA セキュリティ規則 §164.312 の概要
 
-![HIPAA Security Rule — Administrative, Physical, Technical Safeguards](/storage/uploads/2026/04/healthcare-hipaa-security-rule.png)
+![HIPAA Security Rule — Administrative, Physical, Technical Safeguards](/storage/uploads/2026/04/healthcare-hipaa-security-rule.webp)
 
 HIPAA セキュリティ ルールでは、ePHI (電子的保護医療情報) を扱う組織に **技術的安全対策**、つまり電子医療データを保護するための技術的手段を実装することが求められています。これは開発者とエンジニアにとって最も重要な部分です。
 

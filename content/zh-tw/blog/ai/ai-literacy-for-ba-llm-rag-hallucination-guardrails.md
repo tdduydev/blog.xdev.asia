@@ -4,7 +4,7 @@ title: "BA 的 AI 素養：不需要寫程式就能理解 LLM、RAG、幻覺與�
 slug: ai-literacy-for-ba-llm-rag-hallucination-guardrails
 excerpt: >-
   BA 不需要撰寫 AI 程式碼，但需要理解足夠多以撰寫正確的需求並與技術團隊高效合作。以業務語言解釋 LLM、RAG、幻覺、信心分數和防護欄——附實際案例。
-featured_image: /images/blog/ai-literacy-ba.png
+featured_image: /images/blog/ai-literacy-ba.webp
 type: blog
 reading_time: 15
 view_count: 0

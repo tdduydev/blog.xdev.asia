@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai3-rolling-update.png" alt="Rolling UpdateとRollback — maxUnavailable、maxSurge、ReplicaSet history" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai3-rolling-update.webp" alt="Rolling UpdateとRollback — maxUnavailable、maxSurge、ReplicaSet history" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="strategies">1. Deployment戦略</h2>
 

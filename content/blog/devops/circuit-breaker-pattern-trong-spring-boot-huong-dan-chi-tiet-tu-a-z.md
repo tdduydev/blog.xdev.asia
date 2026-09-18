@@ -7,7 +7,7 @@ excerpt: >-
   nguyên lý hoạt động, cấu hình chi tiết, ví dụ thực tế đến best practices.
   Hướng dẫn đầy đủ giúp bạn xây dựng hệ thống microservices resilient, ngăn chặn
   cascading failures và tự động recovery khi service gặp sự cố.
-featured_image: /images/blog/circuit-breaker-featured.png
+featured_image: /images/blog/circuit-breaker-featured.webp
 type: blog
 reading_time: 35
 view_count: 1

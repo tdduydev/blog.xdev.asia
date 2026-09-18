@@ -7,7 +7,7 @@ excerpt: >-
   business goal に結びつけるための visual planning technique です。本記事では
   AI プロジェクト向けの Impact Map の作り方と、それを使った backlog prioritization
   の進め方を解説します。
-featured_image: /images/blog/impact-mapping-ba.png
+featured_image: /images/blog/impact-mapping-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

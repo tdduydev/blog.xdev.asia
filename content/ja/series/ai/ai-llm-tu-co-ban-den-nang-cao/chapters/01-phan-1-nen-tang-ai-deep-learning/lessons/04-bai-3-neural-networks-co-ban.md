@@ -112,7 +112,7 @@ np.random.seed(42)
 2. 細胞体/体細胞における **治療** (すべての意見を考慮)
 3. **十分な刺激がある場合**、軸索を介して**信号を送信します(「はい」または「いいえ」の決定を下します)。
 
-![生物学的ニューロンと人工ニューロンの比較（パーセプトロン）](/storage/uploads/2026/03/neuron-bio-vs-artificial.png)
+![生物学的ニューロンと人工ニューロンの比較（パーセプトロン）](/storage/uploads/2026/03/neuron-bio-vs-artificial.webp)
 
 **実際の例:** 友達とディナーに出かけるかどうかを決めていると想像してください。
 
@@ -268,7 +268,7 @@ def leaky_relu(x, alpha=0.01):
 
 ### 3.1 アーキテクチャ — 「意思決定工場」
 
-![多層パーセプトロン アーキテクチャ: 入力 → 隠れ層 → 出力](/storage/uploads/2026/03/neural-network-architecture.png)
+![多層パーセプトロン アーキテクチャ: 入力 → 隠れ層 → 出力](/storage/uploads/2026/03/neural-network-architecture.webp)
 
 MLP が注文処理 ** 工場 ** であると想像してください。
 

@@ -88,7 +88,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 12: Population-Level Estimation & Patient-Level Prediction](/storage/uploads/2026/03/ohdsi-bai-12-estimation-prediction.png)
+![Bài 12: Population-Level Estimation & Patient-Level Prediction](/storage/uploads/2026/03/ohdsi-bai-12-estimation-prediction.webp)
 
 ## Giới thiệu
 

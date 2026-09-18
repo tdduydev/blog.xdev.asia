@@ -93,7 +93,7 @@ locale: en
 This article summarizes all the knowledge from the previous 28 articles, applied to the actual **E-Commerce Platform**. From architecture decision → implementation → deployment → monitoring.
 
 
-![E-Commerce Platform — Full-Stack Architecture Case Study](/storage/uploads/2026/04/mfe-ms-diagram-bai29-ecommerce-case-study.png)
+![E-Commerce Platform — Full-Stack Architecture Case Study](/storage/uploads/2026/04/mfe-ms-diagram-bai29-ecommerce-case-study.webp)
 
 ---
 

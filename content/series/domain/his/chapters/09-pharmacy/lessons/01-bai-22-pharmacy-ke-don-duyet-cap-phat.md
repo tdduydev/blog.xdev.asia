@@ -8,7 +8,7 @@ description: >-
   (thay TT 52/2017) và Luật KCB 15/2023.
 duration_minutes: 60
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-22-pharmacy-ke-don-duyet-cap-phat-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-22-pharmacy-ke-don-duyet-cap-phat-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 9: Dược (Pharmacy)"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![Pharmacy — kê đơn, duyệt, cấp phát](/storage/uploads/2026/05/his/bai-22-pharmacy-ke-don-duyet-cap-phat-banner.png)
+![Pharmacy — kê đơn, duyệt, cấp phát](/storage/uploads/2026/05/his/bai-22-pharmacy-ke-don-duyet-cap-phat-banner.webp)
 
 ## Phân loại đơn thuốc
 
-![Bác sĩ kê đơn → dược sĩ duyệt → phát thuốc](/storage/uploads/2026/05/his/bai-22-pharmacy-ke-don-duyet-cap-phat-workflow.png)
+![Bác sĩ kê đơn → dược sĩ duyệt → phát thuốc](/storage/uploads/2026/05/his/bai-22-pharmacy-ke-don-duyet-cap-phat-workflow.webp)
 
 
 ## Mục tiêu bài học

@@ -147,7 +147,7 @@ course:
 
 プロンプトコントラクトテスト結果 — 6/6パス：
 
-![プロンプトコントラクトテスト](/images/blog/gemma4-series-demo/04-prompt-contract-tests.png)
+![プロンプトコントラクトテスト](/images/blog/gemma4-series-demo/04-prompt-contract-tests.webp)
 
 > ソースコード：[03-prompt-contracts](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/03-prompt-contracts)
 

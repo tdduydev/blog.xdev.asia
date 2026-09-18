@@ -41,7 +41,7 @@ locale: zh-tw
 </ul>
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/03/keycloak-sso-overview-2026.png" alt="Keycloak IAM/SSO Overview" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/03/keycloak-sso-overview-2026.webp" alt="Keycloak IAM/SSO Overview" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Keycloak IAM/SSO 概述：應用程式 → Keycloak → 身分提供者</em></p>
 </div>
 
@@ -95,7 +95,7 @@ locale: zh-tw
 </ul>
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/03/keycloak-architecture-2026.png" alt="Keycloak Architecture on Quarkus" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/03/keycloak-architecture-2026.webp" alt="Keycloak Architecture on Quarkus" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Keycloak 架構：Quarkus 執行時期、Infinispan 快取、Hibernate ORM、管理/帳戶控制台</em></p>
 </div>
 

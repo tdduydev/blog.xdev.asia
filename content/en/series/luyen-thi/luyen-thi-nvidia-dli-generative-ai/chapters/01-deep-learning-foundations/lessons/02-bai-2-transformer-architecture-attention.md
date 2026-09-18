@@ -26,7 +26,7 @@ course:
 
 <blockquote><p><strong>Exam tip:</strong> The NVIDIA DLI assessment often requires you to complete attention mechanism code or debug dimension mismatch errors in Transformers. Master the <strong>tensor shapes</strong> at each step of attention — this is the key to passing the assessment.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai2-transformer-architecture.png" alt="Transformer Architecture — Encoder-Decoder, Self-Attention, Cross-Attention" loading="lazy" /><figcaption>Transformer Architecture — Encoder-Decoder, Self-Attention, Cross-Attention</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai2-transformer-architecture.webp" alt="Transformer Architecture — Encoder-Decoder, Self-Attention, Cross-Attention" loading="lazy" /><figcaption>Transformer Architecture — Encoder-Decoder, Self-Attention, Cross-Attention</figcaption></figure>
 
 <h2 id="attention-mechanism">2. Attention Mechanism</h2>
 

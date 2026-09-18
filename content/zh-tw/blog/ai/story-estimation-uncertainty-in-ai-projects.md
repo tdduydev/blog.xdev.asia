@@ -4,7 +4,7 @@ title: "故事估算與不確定性：AI功能難以預測時，BA如何估算�
 slug: story-estimation-uncertainty-in-ai-projects
 excerpt: >-
   AI故事比一般功能更難估算，因為它們依賴資料的準備程度、模型迭代和實驗的不確定性。本指南介紹針對AI工作調整的規劃撲克、三點估算、探針故事，以及如何向利害關係人溝通不確定性。
-featured_image: /images/blog/story-estimation-uncertainty.png
+featured_image: /images/blog/story-estimation-uncertainty.webp
 type: blog
 reading_time: 11
 view_count: 0

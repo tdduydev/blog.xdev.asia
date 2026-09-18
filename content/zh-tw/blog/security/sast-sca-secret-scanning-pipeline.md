@@ -6,7 +6,7 @@ excerpt: >-
   在談 DAST、IAST 或供應鏈之前,每條管線都需要三層基礎:程式碼用 SAST、相依套件用
   SCA、金鑰/token 用 secret scanning。本文示範如何用 Semgrep、Trivy 與 Gitleaks
   把這三層建起來。
-featured_image: /images/blog/sast-sca-secret-pipeline-featured.png
+featured_image: /images/blog/sast-sca-secret-pipeline-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

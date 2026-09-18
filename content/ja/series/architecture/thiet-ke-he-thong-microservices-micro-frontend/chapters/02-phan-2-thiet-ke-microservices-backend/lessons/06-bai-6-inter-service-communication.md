@@ -93,7 +93,7 @@ locale: ja
 マイクロサービスが相互に通信する方法によって、システム全体の**結合、信頼性、およびパフォーマンス**が決まります。この記事では、通信パターンを分析し、各ユースケースに適切なパターンを選択するためのガイドを示します。
 
 
-![サービス間通信 - 同期、非同期、イベント ストリーミング](/storage/uploads/2026/04/mfe-ms-diagram-bai6-communication-patterns.png)
+![サービス間通信 - 同期、非同期、イベント ストリーミング](/storage/uploads/2026/04/mfe-ms-diagram-bai6-communication-patterns.webp)
 
 ---
 

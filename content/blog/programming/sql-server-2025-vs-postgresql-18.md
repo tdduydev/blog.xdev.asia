@@ -3,7 +3,7 @@ id: 019cb4a2-3e17-7b44-8c02-91f7d6ea5b38
 title: 'SQL Server 2025 vs PostgreSQL 18: hai triết lý, không phải hai bảng tính năng'
 slug: sql-server-2025-vs-postgresql-18
 excerpt: Hai bản lớn cùng ra cuối 2025. SQL Server 2025 nhét AI vào trong engine; PostgreSQL 18 viết lại tầng I/O. So sánh này không kết luận cái nào hơn — nó chỉ ra hai bên trả lời khác nhau cho câu hỏi "database nên tự làm bao nhiêu".
-featured_image: /images/blog/sql-server-vs-postgresql/cover.png
+featured_image: /images/blog/sql-server-vs-postgresql/cover.webp
 type: blog
 reading_time: 18
 view_count: 0

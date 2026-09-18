@@ -85,7 +85,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 17: イベント駆動型のデータ整合性と競合解決](/storage/uploads/2026/03/edm-bai-17-diagram.png)
+![レッスン 17: イベント駆動型のデータ整合性と競合解決](/storage/uploads/2026/03/edm-bai-17-diagram.webp)
 
 ## はじめに
 

@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai1-kubeadm.png" alt="kubeadm クラスタ初期化シーケンスとkubeconfig" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai1-kubeadm.webp" alt="kubeadm クラスタ初期化シーケンスとkubeconfig" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="architecture">1. Kubernetesアーキテクチャ概要（CKA重点）</h2>
 

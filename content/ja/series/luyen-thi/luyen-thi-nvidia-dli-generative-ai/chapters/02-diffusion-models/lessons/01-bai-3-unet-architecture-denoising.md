@@ -26,7 +26,7 @@ course:
 
 <blockquote><p><strong>試験のヒント：</strong> 評価試験では、U-Netをゼロから実装する必要があります。各レイヤーを通るテンソルの次元を理解することが鍵です。NVIDIA DLIでは、理論を理解するだけでなく、動作するコードを書くことが求められます。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai3-unet-architecture.png" alt="U-Netアーキテクチャ — 画像デノイジングのためのスキップ接続付きエンコーダ・デコーダ" loading="lazy" /><figcaption>U-Netアーキテクチャ — 画像デノイジングのためのスキップ接続付きエンコーダ・デコーダ</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai3-unet-architecture.webp" alt="U-Netアーキテクチャ — 画像デノイジングのためのスキップ接続付きエンコーダ・デコーダ" loading="lazy" /><figcaption>U-Netアーキテクチャ — 画像デノイジングのためのスキップ接続付きエンコーダ・デコーダ</figcaption></figure>
 
 <h2 id="unet-architecture">2. U-Netアーキテクチャ：スキップ接続付きエンコーダ・デコーダ</h2>
 

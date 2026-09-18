@@ -62,7 +62,7 @@ The Problem with "Bare" LLM vs. RAG
 
 <blockquote><p><strong>考試提示：</strong>遇到「LLM 對內部資料回答錯誤」或「需要更新新知識」的題目 → 答案一定是 <strong>RAG</strong>。不是微調（fine-tuning 改變的是風格/行為，而非注入新知識）。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai7-rag-pipeline.png" alt="RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation" loading="lazy" /><figcaption>RAG 管線 — 文件攝取、向量資料庫、檢索、增強生成</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai7-rag-pipeline.webp" alt="RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation" loading="lazy" /><figcaption>RAG 管線 — 文件攝取、向量資料庫、檢索、增強生成</figcaption></figure>
 
 <h2 id="2-rag-architecture">2. RAG 架構 — 檢索 → 增強 → 生成</h2>
 

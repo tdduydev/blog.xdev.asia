@@ -91,7 +91,7 @@ course:
 
 ## 1. Tổng quan Disaster Recovery cho Healthcare
 
-![Disaster Recovery & Business Continuity — RPO/RTO cho hệ thống y tế](/storage/uploads/2026/04/healthcare-disaster-recovery.png)
+![Disaster Recovery & Business Continuity — RPO/RTO cho hệ thống y tế](/storage/uploads/2026/04/healthcare-disaster-recovery.webp)
 
 HIPAA Security Rule §164.308(a)(7) yêu cầu mọi tổ chức xử lý ePHI phải có **Contingency Plan** — kế hoạch dự phòng cho các tình huống khẩn cấp (thiên tai, tấn công ransomware, sự cố phần cứng, lỗi con người). Trong healthcare, **downtime có thể ảnh hưởng trực tiếp đến tính mạng bệnh nhân**.
 
@@ -120,7 +120,7 @@ HIPAA Security Rule §164.308(a)(7) yêu cầu mọi tổ chức xử lý ePHI p
 
 ### 1.2. RTO/RPO Requirements cho Healthcare
 
-![RTO/RPO Timeline cho Healthcare Systems](/storage/uploads/2026/04/healthcare-rto-rpo-timeline.png)
+![RTO/RPO Timeline cho Healthcare Systems](/storage/uploads/2026/04/healthcare-rto-rpo-timeline.webp)
 
 | System | RPO | RTO | Criticality |
 |--------|-----|-----|------------|
@@ -786,7 +786,7 @@ volumes:
 
 ### 5.1. Cross-Region Architecture
 
-![Cross-Region DR Architecture — Singapore (Primary) → Tokyo (DR)](/storage/uploads/2026/04/healthcare-cross-region-dr.png)
+![Cross-Region DR Architecture — Singapore (Primary) → Tokyo (DR)](/storage/uploads/2026/04/healthcare-cross-region-dr.webp)
 
 **PRIMARY REGION** (ap-southeast-1: Singapore):
 

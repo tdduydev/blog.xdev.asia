@@ -6,7 +6,7 @@ excerpt: >-
   運行 1 億事件的 CDM 與 Eunomia 資料集截然不同。本文介紹 schema 設計、索引、依
   person_id 分區、vacuum、備份、依越南個人資料保護法 2025(2026 年 1 月 1 日生效)
   的安全性、稽核紀錄與詞彙升級。
-featured_image: /images/blog/omop-production-featured.png
+featured_image: /images/blog/omop-production-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -84,7 +84,7 @@ ANALYZE condition_occurrence;
 
 ## 4. 大型資料集的 Partition
 
-![4. 大型資料集的 Partition](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d01.png)
+![4. 大型資料集的 Partition](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d01.webp)
 
 ```sql
 CREATE TABLE condition_occurrence (
@@ -133,7 +133,7 @@ ORDER BY dead_ratio DESC;
 
 ## 6. 備份與災難復原
 
-![6. 備份與災難復原](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d02.png)
+![6. 備份與災難復原](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d02.webp)
 
 2026 年的常見模式:
 - 同 DC 串流複寫 1 個 standby(failover < 30 秒)
@@ -223,7 +223,7 @@ GRANT INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA results TO omop_atlas_webap
 
 ## 9. 詞彙升級工作流程
 
-![9. 詞彙升級工作流程](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d03.png)
+![9. 詞彙升級工作流程](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d03.webp)
 
 頻率:每季。保留版本紀錄:
 

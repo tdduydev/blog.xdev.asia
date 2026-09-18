@@ -7,7 +7,7 @@ excerpt: >-
   custom model を build するのか、foundation model を fine-tune するのか、
   それとも API を使うのかという複雑な選択になります。本記事では BA が
   客観的に分析し、適切に判断するための framework を提供します。
-featured_image: /images/blog/make-or-buy-ai-ba.png
+featured_image: /images/blog/make-or-buy-ai-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

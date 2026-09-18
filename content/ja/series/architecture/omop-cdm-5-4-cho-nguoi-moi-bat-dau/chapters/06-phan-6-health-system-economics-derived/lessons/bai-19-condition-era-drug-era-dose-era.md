@@ -43,7 +43,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レコードをERAにマージ — 複数の個別のイベントから連続バッチに](/storage/uploads/2026/04/omop-cdm-bai19-era-concept.png)
+![レコードをERAにマージ — 複数の個別のイベントから連続バッチに](/storage/uploads/2026/04/omop-cdm-bai19-era-concept.webp)
 
 ## はじめに
 

@@ -6,7 +6,7 @@ excerpt: >-
   BA và QA là cặp đôi quan trọng để biến requirement thành test scenarios. Bài này
   hướng dẫn cách phối hợp với QA, phân loại severity/priority, triage defect và quản lý
   regression scope trước release.
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

@@ -100,7 +100,7 @@ bài 13 chỉ ra cách chọn nó theo cái giá của từng loại lỗi.
 
 ## Chạy thử
 
-![Kết quả chạy ep03_logistic_regression](/images/blog/ml-nhin-la-hieu/ep03_logistic_regression.png)
+![Kết quả chạy ep03_logistic_regression](/images/blog/ml-nhin-la-hieu/ep03_logistic_regression.webp)
 
 > Ảnh trên là output thật của `python scratch/ep03_logistic_regression.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep03_logistic_regression.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep03_logistic_regression.py) · [`library/ep03_logistic_regression.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep03_logistic_regression.py)

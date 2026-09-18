@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai4-helm-kustomize.png" alt="Helm vs Kustomize — Chart構造、テンプレートエンジン、overlays" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai4-helm-kustomize.webp" alt="Helm vs Kustomize — Chart構造、テンプレートエンジン、overlays" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="helm-concepts">1. Helmの中核概念</h2>
 

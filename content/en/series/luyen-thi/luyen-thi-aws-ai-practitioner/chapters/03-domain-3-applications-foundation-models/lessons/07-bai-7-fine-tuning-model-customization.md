@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai7-finetuning-spectrum.png" alt="Model Customization Spectrum" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai7-finetuning-spectrum.webp" alt="Model Customization Spectrum" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Model Customization Spectrum: from Prompt Engineering to Pre-training from Scratch</em></p>
 </div>
 

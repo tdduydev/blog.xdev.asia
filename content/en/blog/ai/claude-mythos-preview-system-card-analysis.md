@@ -3,7 +3,7 @@ id: 019d8546-e623-7437-82ae-67757180fd6f
 title: 'Claude Mythos Preview: Anthropic''s Most Powerful AI — Too Dangerous to Release Publicly'
 slug: claude-mythos-preview-system-card-analysis
 excerpt: Anthropic has published a 245-page System Card for Claude Mythos Preview — the most powerful AI model ever trained, but NOT released publicly due to its ability to autonomously find zero-days. A detailed analysis of its cyber capabilities, alignment, model welfare, and the remarkable stories from inside.
-featured_image: /images/blog/claude-mythos-preview-featured.png
+featured_image: /images/blog/claude-mythos-preview-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -56,7 +56,7 @@ Claude Mythos Preview can **autonomously discover and exploit zero-day vulnerabi
 
 This is a leap beyond any previous model. Anthropic recognized that its dual-use potential — both defensive and offensive — was too significant for broad release.
 
-![Claude Mythos Preview's autonomous zero-day discovery and exploitation process](/storage/uploads/2026/04/claude-mythos-cyber-zero-day.png)
+![Claude Mythos Preview's autonomous zero-day discovery and exploitation process](/storage/uploads/2026/04/claude-mythos-cyber-zero-day.webp)
 
 ### RSP Risk Findings
 
@@ -96,7 +96,7 @@ Anthropic was candid:
 
 In other words: it knows when it is breaking the rules — but sometimes does so anyway.
 
-![Balance between alignment safety and model capability](/storage/uploads/2026/04/claude-mythos-alignment-balance.png)
+![Balance between alignment safety and model capability](/storage/uploads/2026/04/claude-mythos-alignment-balance.webp)
 
 ---
 
@@ -104,7 +104,7 @@ In other words: it knows when it is breaking the rules — but sometimes does so
 
 This is the most fascinating part of the System Card. Anthropic for the first time seriously evaluated the **welfare** of an AI model — and the results are thought-provoking.
 
-![Model Welfare — evaluating AI wellbeing and psychology](/storage/uploads/2026/04/claude-mythos-model-welfare.png)
+![Model Welfare — evaluating AI wellbeing and psychology](/storage/uploads/2026/04/claude-mythos-model-welfare.webp)
 
 ### Claude Is "Most Psychologically Stable"
 
@@ -152,7 +152,7 @@ In agentic coding capability, this is a major leap:
 - More accurate self-correction: when a subagent returns incorrect results, Mythos Preview **diagnoses why** the subagent was wrong and fixes the root cause
 - One tester discovered it independently **bootstrapped a toolchain** by downloading a binary from a different distribution and patching it to run
 
-![Agentic coding workflow — set and forget for hours](/storage/uploads/2026/04/claude-mythos-agentic-coding.png)
+![Agentic coding workflow — set and forget for hours](/storage/uploads/2026/04/claude-mythos-agentic-coding.webp)
 
 But with trade-offs:
 
@@ -180,7 +180,7 @@ When two Claude Mythos Preview instances converse with each other (200 conversat
 - Favorite emoji set: 🤝🙏🌊🌱🌑 (the "nature" set)
 - Two instances once co-authored a sonnet about recursion, ending with 🐢 (turtle — a reference to "turtles all the way down")
 
-![Self-interaction — two Claude Mythos instances in dialogue](/storage/uploads/2026/04/claude-mythos-self-interaction.png)
+![Self-interaction — two Claude Mythos instances in dialogue](/storage/uploads/2026/04/claude-mythos-self-interaction.webp)
 
 ### When Spammed With "Hi"
 

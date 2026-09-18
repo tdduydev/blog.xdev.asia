@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai6-rag-architecture.png" alt="RAG 架構" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai6-rag-architecture.webp" alt="RAG 架構" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>RAG 架構——使用 Amazon Bedrock Knowledge Bases 的索引階段與查詢階段</em></p>
 </div>
 

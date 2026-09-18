@@ -7,7 +7,7 @@ description: >-
   màn hình LED — giảm tải cho quầy tiếp nhận và rút ngắn thời gian chờ.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-6-kiosk-qms-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-6-kiosk-qms-banner.webp
 video_url: null
 sort_order: 4
 section_title: "Phần 2: Tiếp nhận, MPI, Lịch hẹn"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Kiosk tự phục vụ & Queue Management](/storage/uploads/2026/05/his/bai-6-kiosk-qms-banner.png)
+![Kiosk tự phục vụ & Queue Management](/storage/uploads/2026/05/his/bai-6-kiosk-qms-banner.webp)
 
 ## Mục tiêu
 
-![Check-in QR và bảng số thứ tự điện tử](/storage/uploads/2026/05/his/bai-6-kiosk-qms-workflow.png)
+![Check-in QR và bảng số thứ tự điện tử](/storage/uploads/2026/05/his/bai-6-kiosk-qms-workflow.webp)
 
 Kiosk + QMS là "lớp trải nghiệm" lớn nhất của HIS — đây là những điểm tiếp xúc đầu tiên và cuối cùng với BN trong viện. Một kiosk tốt + QMS thông minh có thể giảm **50–70 % tải quầy lễ tân**, **giảm thời gian chờ** từ 90 phút xuống < 30 phút, và tăng điểm hài lòng BN (PSI) thêm 15–20 điểm.
 

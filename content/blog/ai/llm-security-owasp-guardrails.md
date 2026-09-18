@@ -5,7 +5,7 @@ slug: llm-security-owasp-guardrails
 excerpt: >-
   LLM app có rủi ro riêng: prompt injection, data leak, insecure output handling,
   excessive agency, poisoning và supply chain. Guardrails cần nằm cả trước và sau model.
-featured_image: /images/blog/llm-security-owasp-guardrails.png
+featured_image: /images/blog/llm-security-owasp-guardrails.webp
 type: blog
 reading_time: 12
 view_count: 0

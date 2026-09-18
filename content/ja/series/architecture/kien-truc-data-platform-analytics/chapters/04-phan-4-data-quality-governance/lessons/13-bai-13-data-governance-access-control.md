@@ -86,7 +86,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 13: データ ガバナンスとアクセス制御](/storage/uploads/2026/03/dp-bai-13-diagram.png)
+![レッスン 13: データ ガバナンスとアクセス制御](/storage/uploads/2026/03/dp-bai-13-diagram.webp)
 
 ## はじめに
 

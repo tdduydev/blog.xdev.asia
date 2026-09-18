@@ -6,7 +6,7 @@ excerpt: >-
   Chia service theo tầng controller / service / repository là chia sai, và tài liệu kiến trúc của
   Microsoft bác bỏ thẳng cách đó trong một câu. Bài này đi từ phân tích miền tới sáu tiêu chí kiểm
   ranh giới, kèm câu chốt mà ít người chịu nghe: khi còn ngờ thì chia thô.
-featured_image: /images/blog/ranh-gioi-microservices-chia-theo-cai-gi/cover.png
+featured_image: /images/blog/ranh-gioi-microservices-chia-theo-cai-gi/cover.webp
 type: blog
 reading_time: 15
 view_count: 0

@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai1-problem-framing.png" alt="ML Problem Framing Framework" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai1-problem-framing.webp" alt="ML Problem Framing Framework" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>ML問題框架：確定問題、選擇模型類型、依照Google標準定義指標</em></p>
 </div>
 

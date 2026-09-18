@@ -20,7 +20,7 @@ locale: ja
 
 <p>このレッスンでは、3 つの可観測性の柱、OpenTelemetry 標準、PLG スタックと EFK スタックの対比、統合コレクターとしての Grafana Alloy の役割を含む、2026 年に推奨される可観測性スタックの包括的な紹介を提供します。</p>
 
-<img src="/storage/uploads/2026/03/k8s-observability-stack-2026.png" alt="Kubernetes Observability Stack 2026 - Prometheus, Loki, Tempo, Grafana, OpenTelemetry" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-observability-stack-2026.webp" alt="Kubernetes Observability Stack 2026 - Prometheus, Loki, Tempo, Grafana, OpenTelemetry" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>可観測性の 3 つの柱__HTMLTAG_10___
 

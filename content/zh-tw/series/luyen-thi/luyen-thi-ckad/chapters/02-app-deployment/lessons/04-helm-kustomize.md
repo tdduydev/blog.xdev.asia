@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai4-helm-kustomize.png" alt="Helm 與 Kustomize — 套件管理與組態客製化" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai4-helm-kustomize.webp" alt="Helm 與 Kustomize — 套件管理與組態客製化" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="helm">1. Helm — Kubernetes 的套件管理工具</h2>
 

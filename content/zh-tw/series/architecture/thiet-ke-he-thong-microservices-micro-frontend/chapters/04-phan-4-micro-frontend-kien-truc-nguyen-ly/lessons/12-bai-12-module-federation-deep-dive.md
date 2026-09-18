@@ -90,7 +90,7 @@ locale: zh-tw
 Module Federation 是 Webpack 5 的一項改變遊戲規則的功能，允許多個構建在**運行時**共享代碼。本文從零開始動手配置。
 
 
-![Module Federation — Host & Remote runtime loading](/storage/uploads/2026/04/mfe-ms-diagram-bai12-module-federation.png)
+![Module Federation — Host & Remote runtime loading](/storage/uploads/2026/04/mfe-ms-diagram-bai12-module-federation.webp)
 
 ---
 

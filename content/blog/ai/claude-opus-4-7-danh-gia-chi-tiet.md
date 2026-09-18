@@ -3,7 +3,7 @@ id: 01970970-c1a4-7001-b001-cc6388624a9f
 title: 'Claude Opus 4.7: Đánh giá chi tiết model AI mạnh nhất của Anthropic --- Bước nhảy vọt về coding, vision và agentic AI'
 slug: claude-opus-4-7-danh-gia-chi-tiet
 excerpt: Anthropic vừa ra mắt Claude Opus 4.7 ngày 16/4/2026 --- model AI flagship mới nhất với khả năng lập trình vượt trội, vision độ phân giải cao hơn 3x, effort level mới xhigh, và hiệu năng agentic hàng đầu thị trường. Đánh giá toàn diện từ benchmark, feedback thực tế, pricing, đến hướng dẫn migration từ Opus 4.6.
-featured_image: /images/blog/claude-opus-4-7-featured.png
+featured_image: /images/blog/claude-opus-4-7-featured.webp
 type: blog
 reading_time: 20
 view_count: 0
@@ -24,7 +24,7 @@ Bài viết này tổng hợp và phân tích chi tiết toàn bộ những gì 
 
 ## 1. Claude Opus 4.7 là gì?
 
-<img src="/images/blog/claude-opus-4-7-featured.png" alt="Giới thiệu Claude Opus 4.7" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-featured.webp" alt="Giới thiệu Claude Opus 4.7" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Claude Opus 4.7 là model **flagship** mới nhất trong dòng Claude 4, được Anthropic định vị là model tốt nhất cho:
 
@@ -78,7 +78,7 @@ Kết quả kiểm thử nội bộ của Anthropic cho thấy Opus 4.7 cải th
 
 ### 3.1 Vision độ phân giải cao hơn 3×
 
-<img src="/images/blog/claude-opus-4-7-vision-upgrade.png" alt="Claude Opus 4.7 vision upgrade --- độ phân giải cao hơn 3×" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-vision-upgrade.webp" alt="Claude Opus 4.7 vision upgrade --- độ phân giải cao hơn 3×" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Đây là một trong những nâng cấp quan trọng nhất. Opus 4.7 có thể xử lý hình ảnh lên đến **2,576 pixels trên cạnh dài** (~3.75 megapixels) --- **hơn 3 lần** so với các model Claude trước đây.
 
@@ -109,7 +109,7 @@ Opus 4.7 sử dụng **file system-based memory** hiệu quả hơn. Model có t
 
 ### 3.4 Effort level mới: `xhigh`
 
-<img src="/images/blog/claude-opus-4-7-effort-levels.png" alt="Claude Opus 4.7 effort levels --- xhigh extra high" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-effort-levels.webp" alt="Claude Opus 4.7 effort levels --- xhigh extra high" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Opus 4.7 giới thiệu effort level **`xhigh`** (extra high) --- nằm giữa `high` và `max`. Điều này cho phép kiểm soát tốt hơn cân bằng giữa:
 - Độ sâu suy luận
@@ -122,7 +122,7 @@ Trong **Claude Code**, Anthropic đã nâng effort level mặc định lên `xhi
 
 ## 4. Phản hồi từ thực tế: Các công ty nói gì?
 
-<img src="/images/blog/claude-opus-4-7-agentic-workflow.png" alt="Claude Opus 4.7 agentic workflow autonomous AI" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-agentic-workflow.webp" alt="Claude Opus 4.7 agentic workflow autonomous AI" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Anthropic thu thập feedback từ hơn **20 công ty công nghệ lớn** trong giai đoạn early access. Dưới đây là những điểm nổi bật nhất:
 
@@ -261,7 +261,7 @@ Xem thêm [Migration Guide chính thức](https://platform.claude.com/docs/en/ab
 
 ## 9. So sánh với các đối thủ
 
-<img src="/images/blog/claude-opus-4-7-coding-benchmark.png" alt="Claude Opus 4.7 coding benchmark so sánh đối thủ" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-coding-benchmark.webp" alt="Claude Opus 4.7 coding benchmark so sánh đối thủ" style="width:100%;border-radius:8px;margin:16px 0" />
 
 | Model | Điểm mạnh | Yếu điểm tương đối |
 |-------|-----------|-------------------|

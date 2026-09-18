@@ -3,7 +3,7 @@ id: 019cb3d1-7a41-7c02-9e15-3d5a0f2b8c41
 title: 'SQL Server 2019 → 2025: từng bản đổi cái gì, và cái gì đã bị khai tử'
 slug: sql-server-2019-2022-2025-tung-ban-doi-gi
 excerpt: Ba bản SQL Server trong sáu năm, mỗi bản một hướng khác nhau — 2019 đi vào truy vấn thông minh và dữ liệu lớn, 2022 đi ra đám mây, 2025 đi vào AI. Bài này điểm lại từng bản đổi gì, cái gì đã bị gỡ, và mốc hết hỗ trợ của từng bản.
-featured_image: /images/blog/sql-server-2019-2025/cover.png
+featured_image: /images/blog/sql-server-2019-2025/cover.webp
 type: blog
 reading_time: 16
 view_count: 0

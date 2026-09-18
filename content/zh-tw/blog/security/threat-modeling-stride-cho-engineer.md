@@ -5,7 +5,7 @@ slug: threat-modeling-stride-cho-engineer
 excerpt: >-
   威脅模型不必是 50 頁的文件。一場 60 分鐘的會議,搭配 DFD level 1、STRIDE 與
   風險登錄表,就足以避開稽核與 pentest 中常見的設計缺陷類型。
-featured_image: /images/blog/threat-modeling-stride-featured.png
+featured_image: /images/blog/threat-modeling-stride-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

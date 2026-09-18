@@ -90,7 +90,7 @@ course:
 Module Federation là tính năng game-changing của Webpack 5, cho phép nhiều builds chia sẻ code tại **runtime**. Bài này hands-on cấu hình từ zero.
 
 
-![Module Federation — Host & Remote runtime loading](/storage/uploads/2026/04/mfe-ms-diagram-bai12-module-federation.png)
+![Module Federation — Host & Remote runtime loading](/storage/uploads/2026/04/mfe-ms-diagram-bai12-module-federation.webp)
 
 ---
 

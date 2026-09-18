@@ -4,7 +4,7 @@ title: "BA 的問題框架：如何撰寫不浪費衝刺的問題陳述"
 slug: problem-framing-ba-writing-problem-statement
 excerpt: >-
   BA 最常見的錯誤是在理解問題之前就直接跳到解決方案。學習如何根據業務成果撰寫問題陳述、區分問題與症狀與解決方案，以及運用 SCQ 框架從一開始就正確定框。
-featured_image: /images/blog/problem-framing-ba.png
+featured_image: /images/blog/problem-framing-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

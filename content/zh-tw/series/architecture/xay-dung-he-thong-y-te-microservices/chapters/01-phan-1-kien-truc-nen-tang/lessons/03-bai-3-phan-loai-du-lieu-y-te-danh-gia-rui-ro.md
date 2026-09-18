@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. 醫療保健資料分類框架
 
-![醫療資料分類金字塔 — 從公開到受限的 4 個級別](/storage/uploads/2026/04/healthcare-data-classification-pyramid.png)
+![醫療資料分類金字塔 — 從公開到受限的 4 個級別](/storage/uploads/2026/04/healthcare-data-classification-pyramid.webp)
 
 ### 1.1。為什麼需要對資料進行分類？
 
@@ -102,7 +102,7 @@ locale: zh-tw
 
 ### 1.2。醫療保健數據分類級別
 
-![醫療資料分類金字塔 — 從公開到受限的 4 個級別](/storage/uploads/2026/04/healthcare-data-classification-levels.png)
+![醫療資料分類金字塔 — 從公開到受限的 4 個級別](/storage/uploads/2026/04/healthcare-data-classification-levels.webp)
 
 |水平|名稱 |範例|加密 |存取 |稽核|
 |--------|-----|--------|--------|--------|--------|
@@ -151,7 +151,7 @@ VALUES
 
 ### 2.1。微服務中的 PHI 資料流
 
-![跨微服務的 PHI 資料流 - 從病患入口網站透過 API 閘道、Keycloak 到服務和資料庫](/storage/uploads/2026/04/healthcare-phi-data-flow.png)
+![跨微服務的 PHI 資料流 - 從病患入口網站透過 API 閘道、Keycloak 到服務和資料庫](/storage/uploads/2026/04/healthcare-phi-data-flow.webp)
 
 ### 2.2。資料流文檔模板
 
@@ -168,7 +168,7 @@ VALUES
 
 ### 3.1。風險評估方法
 
-![根據 NIST SP 800-30 評估風險的 6 個步驟 — 從識別威脅到風險應對](/storage/uploads/2026/04/healthcare-risk-assessment-steps.png)
+![根據 NIST SP 800-30 評估風險的 6 個步驟 — 從識別威脅到風險應對](/storage/uploads/2026/04/healthcare-risk-assessment-steps.webp)
 
 ### 3.2。醫療保健微服務的威脅識別
 
@@ -220,7 +220,7 @@ public class SecurityVulnerabilityChecklist {
 
 ### 3.4。風險矩陣
 
-![5x5 風險評估矩陣 — 可能性 x 影響（從低到嚴重）](/storage/uploads/2026/04/healthcare-risk-matrix-heatmap.png)
+![5x5 風險評估矩陣 — 可能性 x 影響（從低到嚴重）](/storage/uploads/2026/04/healthcare-risk-matrix-heatmap.webp)
 
 | |可以忽略不計 (1) |低 (2) |中 (3) |高 (4) |關鍵 (5) |
 |-|----------------|---------|-------------|---------|-------------|
@@ -249,7 +249,7 @@ public class SecurityVulnerabilityChecklist {
 
 ### 4.2。風險處理計劃
 
-![4 種風險處理策略－緩解、轉移、接受、避免](/storage/uploads/2026/04/healthcare-risk-response-strategies.png)
+![4 種風險處理策略－緩解、轉移、接受、避免](/storage/uploads/2026/04/healthcare-risk-response-strategies.webp)
 
 - **緩解** ← 高風險首選：實施控制，降低可能性/影響
 - **轉移**（轉移）：網路保險，外包給專業提供者

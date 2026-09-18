@@ -7,7 +7,7 @@ description: >-
   chuyển dạ, sinh thường / mổ và hồ sơ mẹ — bé.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-27-san-khoa-thai-san-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-27-san-khoa-thai-san-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 11: Chuyên khoa đặc thù"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Sản khoa & quản lý thai sản](/storage/uploads/2026/05/his/bai-27-san-khoa-thai-san-banner.png)
+![Sản khoa & quản lý thai sản](/storage/uploads/2026/05/his/bai-27-san-khoa-thai-san-banner.webp)
 
 ## Hồ sơ thai phụ
 
-![Khám thai với CTG và siêu âm thai](/storage/uploads/2026/05/his/bai-27-san-khoa-thai-san-workflow.png)
+![Khám thai với CTG và siêu âm thai](/storage/uploads/2026/05/his/bai-27-san-khoa-thai-san-workflow.webp)
 
 
 ## Mục tiêu bài học

@@ -45,7 +45,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Dashboard of medical tests and measurements](/storage/uploads/2026/04/omop-cdm-bai10-measurement-lab.png)
+![Dashboard of medical tests and measurements](/storage/uploads/2026/04/omop-cdm-bai10-measurement-lab.webp)
 
 ## Introduction
 

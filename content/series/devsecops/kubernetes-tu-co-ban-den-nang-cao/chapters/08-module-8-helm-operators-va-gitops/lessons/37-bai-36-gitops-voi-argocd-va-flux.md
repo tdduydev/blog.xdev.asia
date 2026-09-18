@@ -17,7 +17,7 @@ course:
 ---
 <h2>🎯 Mục tiêu bài học</h2><p>Hiểu GitOps principles, cách setup ArgoCD và Flux, sự khác biệt giữa 2 tools, CI/CD pipeline với GitOps, và secrets management trong GitOps workflow.</p>
 
-<img src="/storage/uploads/2026/03/k8s-gitops-workflow-2026.png" alt="GitOps with ArgoCD & Flux - Workflow Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-gitops-workflow-2026.webp" alt="GitOps with ArgoCD & Flux - Workflow Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. GitOps Principles (OpenGitOps)</h2>
 <p>GitOps là phương pháp deploy và operate applications sử dụng Git làm "single source of truth":</p>

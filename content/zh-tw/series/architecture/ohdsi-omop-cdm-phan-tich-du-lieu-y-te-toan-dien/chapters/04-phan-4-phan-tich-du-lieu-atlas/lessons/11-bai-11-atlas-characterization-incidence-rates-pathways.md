@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 11 課：特徵、發生率與途徑](/storage/uploads/2026/03/ohdsi-bai-11-characterization-ir-pathways.png)
+![第 11 課：特徵、發生率與途徑](/storage/uploads/2026/03/ohdsi-bai-11-characterization-ir-pathways.webp)
 
 ## 簡介
 

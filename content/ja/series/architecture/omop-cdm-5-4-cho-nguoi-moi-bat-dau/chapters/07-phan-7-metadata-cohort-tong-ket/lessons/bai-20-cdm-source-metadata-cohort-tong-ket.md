@@ -44,7 +44,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![OMOP CDM 5.4 の完全な概要 — 37 テーブル、7 グループ](/storage/uploads/2026/04/omop-cdm-bai20-complete-overview.png)
+![OMOP CDM 5.4 の完全な概要 — 37 テーブル、7 グループ](/storage/uploads/2026/04/omop-cdm-bai20-complete-overview.webp)
 
 ## はじめに
 

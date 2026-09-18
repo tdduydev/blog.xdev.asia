@@ -3,7 +3,7 @@ id: 01970000-c4d5-9e6f-a7b8-901234567abc
 title: '成為 AI Solution Architect 的路徑：學習路線、技能與 2026 年現實'
 slug: becoming-an-ai-solution-architect
 excerpt: 完整指南，從零到成為 AI Solution Architect：薪資數據、技能路線、認證清單、投資組合專案，以及來自業界的真實見解。涵蓋 2025–2026 年市場需求、4 階段學習路線（Python/ML → Cloud/MLOps → GenAI/RAG → Leadership）與 3 種轉型路徑。
-featured_image: /images/blog/ai-solution-architect-featured.png
+featured_image: /images/blog/ai-solution-architect-featured.webp
 type: blog
 reading_time: 30
 view_count: 0

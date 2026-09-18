@@ -89,7 +89,7 @@ locale: zh-tw
 前端後端 (BFF) 是一種為每個前端客戶端放置單獨的**後端層**的模式。 BFF 聚合來自多個微服務的數據，將其轉換為適合特定前端的格式。
 
 
-![BFF 模式－為每個客戶端提供單獨的後端和前端](/storage/uploads/2026/04/mfe-ms-diagram-bai17-bff-pattern.png)
+![BFF 模式－為每個客戶端提供單獨的後端和前端](/storage/uploads/2026/04/mfe-ms-diagram-bai17-bff-pattern.webp)
 
 ---
 

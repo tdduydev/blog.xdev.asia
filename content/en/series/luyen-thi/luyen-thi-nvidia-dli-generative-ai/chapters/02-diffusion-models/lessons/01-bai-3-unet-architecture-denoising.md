@@ -26,7 +26,7 @@ course:
 
 <blockquote><p><strong>Exam tip:</strong> In the assessment, you will have to implement U-Net from scratch. Understanding tensor dimensions through each layer is the key. NVIDIA DLI requires you to write working code, not just understand theory.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai3-unet-architecture.png" alt="U-Net Architecture — Encoder-Decoder with Skip Connections for Image Denoising" loading="lazy" /><figcaption>U-Net Architecture — Encoder-Decoder with Skip Connections for Image Denoising</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai3-unet-architecture.webp" alt="U-Net Architecture — Encoder-Decoder with Skip Connections for Image Denoising" loading="lazy" /><figcaption>U-Net Architecture — Encoder-Decoder with Skip Connections for Image Denoising</figcaption></figure>
 
 <h2 id="unet-architecture">2. U-Net Architecture: Encoder-Decoder with Skip Connections</h2>
 

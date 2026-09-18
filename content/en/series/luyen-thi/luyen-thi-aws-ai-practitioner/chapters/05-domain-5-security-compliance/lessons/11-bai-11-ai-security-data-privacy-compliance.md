@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai11-ai-security-layers.png" alt="AI Security Layers on AWS" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai11-ai-security-layers.webp" alt="AI Security Layers on AWS" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>AI Security Layers: Network, Identity, Data Protection, and AI-specific Controls on AWS</em></p>
 </div>
 

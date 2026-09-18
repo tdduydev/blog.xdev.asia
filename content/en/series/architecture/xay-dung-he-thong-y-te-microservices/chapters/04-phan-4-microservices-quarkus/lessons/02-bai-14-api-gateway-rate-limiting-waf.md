@@ -94,7 +94,7 @@ locale: en
 
 ## 1. API Gateway Pattern for Healthcare
 
-![API Gateway Reference Architecture — WAF, Nginx, Quarkus Gateway](/storage/uploads/2026/04/healthcare-api-gateway-architecture.png)
+![API Gateway Reference Architecture — WAF, Nginx, Quarkus Gateway](/storage/uploads/2026/04/healthcare-api-gateway-architecture.webp)
 
 
 API Gateway acts as a **single entry point** for the entire medical microservices system. It focuses on cross-cutting concerns: authentication, rate limiting, input validation, audit logging, and security headers — instead of each service implementing its own.

@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai1-ai-ml-dl-hierarchy.png" alt="AI, ML và Deep Learning Hierarchy" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai1-ai-ml-dl-hierarchy.webp" alt="AI, ML và Deep Learning Hierarchy" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>AI, ML và Deep Learning — quan hệ lồng nhau và ba paradigm học máy</em></p>
 </div>
 

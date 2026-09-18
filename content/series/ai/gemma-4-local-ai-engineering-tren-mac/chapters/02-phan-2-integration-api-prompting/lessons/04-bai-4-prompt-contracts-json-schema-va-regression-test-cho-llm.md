@@ -163,7 +163,7 @@ Không chỉnh prompt trực tiếp trên production mà không lưu version.
 
 Kết quả chạy prompt contract tests — 6/6 passed:
 
-![Prompt Contract Tests](/images/blog/gemma4-series-demo/04-prompt-contract-tests.png)
+![Prompt Contract Tests](/images/blog/gemma4-series-demo/04-prompt-contract-tests.webp)
 
 > Source code: [03-prompt-contracts](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/03-prompt-contracts)
 

@@ -90,7 +90,7 @@ course:
 
 ## 1. Tổng quan Quarkus Security Architecture
 
-![Quarkus Security Stack — OIDC, JWT Propagation, RBAC cho Healthcare Microservices](/storage/uploads/2026/04/healthcare-quarkus-security-stack.png)
+![Quarkus Security Stack — OIDC, JWT Propagation, RBAC cho Healthcare Microservices](/storage/uploads/2026/04/healthcare-quarkus-security-stack.webp)
 
 Quarkus cung cấp một **security framework tích hợp** với nhiều extension hỗ trợ authentication, authorization, và identity management. Trong hệ thống healthcare microservices, security không phải là tính năng thêm vào — nó là **foundation** của mọi request.
 

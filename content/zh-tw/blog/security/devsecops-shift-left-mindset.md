@@ -5,7 +5,7 @@ slug: devsecops-shift-left-mindset
 excerpt: >-
   Shift-left 並不是把工作丟給開發者,而是把資安控制自動化到最容易產生缺陷的地方,
   讓團隊能快速修復,並讓資安成為系統的預設屬性。
-featured_image: /images/blog/devsecops-shift-left-featured.png
+featured_image: /images/blog/devsecops-shift-left-featured.webp
 type: blog
 reading_time: 8
 view_count: 0

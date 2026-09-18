@@ -147,11 +147,11 @@ docker run -d \
 
 インストール後、ヘルスチェックエンドポイントを確認：
 
-![ヘルスチェック](/images/blog/gemma4-series-demo/02-health-check.png)
+![ヘルスチェック](/images/blog/gemma4-series-demo/02-health-check.webp)
 
 Swagger UIが自動的にAPIドキュメントを生成：
 
-![Swaggerドキュメント](/images/blog/gemma4-series-demo/02-swagger-docs.png)
+![Swaggerドキュメント](/images/blog/gemma4-series-demo/02-swagger-docs.webp)
 
 > ソースコード：[xdev-asia-labs/gemma-4-local-ai-engineering-on-mac](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac)
 

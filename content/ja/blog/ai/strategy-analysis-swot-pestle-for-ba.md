@@ -6,7 +6,7 @@ excerpt: >-
   Strategy Analysis は、BA が要件を書く前に組織コンテキストを理解するための土台です。
   本記事では SWOT、PESTLE、Impact Mapping、Value Stream Mapping を使った
   戦略分析を、AI 機能導入の文脈で実践的に解説します。
-featured_image: /images/blog/strategy-analysis-swot.png
+featured_image: /images/blog/strategy-analysis-swot.webp
 type: blog
 reading_time: 13
 view_count: 0

@@ -7,7 +7,7 @@ description: >-
   kho chính ↔ kho khoa, dự trù theo Min-Max và sản phẩm thay thế.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-24-kho-duoc-chuoi-cung-ung-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-24-kho-duoc-chuoi-cung-ung-banner.webp
 video_url: null
 sort_order: 3
 section_title: "Phần 9: Dược (Pharmacy)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Kho dược, FEFO & chuỗi cung ứng](/storage/uploads/2026/05/his/bai-24-kho-duoc-chuoi-cung-ung-banner.png)
+![Kho dược, FEFO & chuỗi cung ứng](/storage/uploads/2026/05/his/bai-24-kho-duoc-chuoi-cung-ung-banner.webp)
 
 ## Mô hình kho
 
-![Kho dược với cold-chain và quét barcode hạn dùng](/storage/uploads/2026/05/his/bai-24-kho-duoc-chuoi-cung-ung-workflow.png)
+![Kho dược với cold-chain và quét barcode hạn dùng](/storage/uploads/2026/05/his/bai-24-kho-duoc-chuoi-cung-ung-workflow.webp)
 
 
 ## Mục tiêu bài học

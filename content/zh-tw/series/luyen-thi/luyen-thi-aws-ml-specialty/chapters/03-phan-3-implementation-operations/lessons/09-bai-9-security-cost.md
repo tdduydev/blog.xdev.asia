@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai9-security-architecture.png" alt="AWS ML Security Architecture" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai9-security-architecture.webp" alt="AWS ML Security Architecture" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>AWS ML安全性：IAM角色、VPC隔離、KMS加密與Spot Instances成本最佳化</em></p>
 </div>
 

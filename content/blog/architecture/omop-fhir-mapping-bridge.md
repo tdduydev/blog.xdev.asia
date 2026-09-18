@@ -6,7 +6,7 @@ excerpt: >-
   Tổ chức 2026 thường có cả FHIR (operational) và OMOP (analytics). Bài viết
   hướng dẫn mapping resource ↔ table, FHIR-OMOP-on-FHIR working group, Pathling,
   Bulk Data Export pipeline và pattern triển khai cho VN.
-featured_image: /images/blog/omop-fhir-bridge-featured.png
+featured_image: /images/blog/omop-fhir-bridge-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -23,7 +23,7 @@ FHIR là chuẩn vận hành. OMOP là chuẩn phân tích. Cả hai cùng tồn
 
 ## 1. Vì sao cần cả hai
 
-![1. Vì sao cần cả hai](/images/blog/diagrams/omop-fhir-mapping-bridge-d01.png)
+![1. Vì sao cần cả hai](/images/blog/diagrams/omop-fhir-mapping-bridge-d01.webp)
 
 FHIR mạnh real-time, JSON, REST. OMOP mạnh batch SQL, vocabulary chuẩn, network study. Mỗi cái đứng một mặt trận → bridge chứ không thay thế.
 
@@ -56,7 +56,7 @@ Cộng đồng FHIR-OMOP-on-FHIR (joint HL7 + OHDSI workgroup) duy trì mapping 
 
 ### 2.2 Mapping detail Encounter → Visit_Occurrence
 
-![2.2 Mapping detail Encounter → Visit_Occurrence](/images/blog/diagrams/omop-fhir-mapping-bridge-d02.png)
+![2.2 Mapping detail Encounter → Visit_Occurrence](/images/blog/diagrams/omop-fhir-mapping-bridge-d02.webp)
 
 Code:
 ```python
@@ -107,13 +107,13 @@ Vietnam:
 
 ### 4.1 Bulk Export → ETL → CDM
 
-![4.1 Bulk Export → ETL → CDM](/images/blog/diagrams/omop-fhir-mapping-bridge-d03.png)
+![4.1 Bulk Export → ETL → CDM](/images/blog/diagrams/omop-fhir-mapping-bridge-d03.webp)
 
 Lợi ích: standard FHIR, không cần FHIR backend hỗ trợ custom export. Đọc bài [FHIR Bulk Data Export & CDS Hooks](/blog/fhir-bulk-data-export-cds-hooks).
 
 ### 4.2 Real-time CDC pattern
 
-![4.2 Real-time CDC pattern](/images/blog/diagrams/omop-fhir-mapping-bridge-d04.png)
+![4.2 Real-time CDC pattern](/images/blog/diagrams/omop-fhir-mapping-bridge-d04.webp)
 
 Ưu: FHIR luôn fresh; OMOP nightly aggregate.
 
@@ -156,7 +156,7 @@ Sql On FHIR (SOF) là project mới (2024-2026) cho phép expose FHIR resource a
 
 ### 8.1 Pattern recommended
 
-![8.1 Pattern recommended](/images/blog/diagrams/omop-fhir-mapping-bridge-d05.png)
+![8.1 Pattern recommended](/images/blog/diagrams/omop-fhir-mapping-bridge-d05.webp)
 
 ### 8.2 Adapter cần build
 
@@ -189,7 +189,7 @@ Kiểm tra:
 
 ## 11. Pattern hỗn hợp
 
-![11. Pattern hỗn hợp](/images/blog/diagrams/omop-fhir-mapping-bridge-d06.png)
+![11. Pattern hỗn hợp](/images/blog/diagrams/omop-fhir-mapping-bridge-d06.webp)
 
 Tổ chức bắt đầu nhỏ, scale dần. Không nhất thiết build OMOP từ đầu — có thể dùng Pathling trong giai đoạn 1.
 

@@ -6,7 +6,7 @@ excerpt: >-
   Bảo mật dữ liệu y tế là yêu cầu pháp lý — không phải nice-to-have. Bài viết
   hướng dẫn Consent, AuditEvent, Provenance trong FHIR; ánh xạ HIPAA / GDPR /
   Nghị định 13/2023/NĐ-CP; cùng kỹ thuật de-identify cho AI/Analytics.
-featured_image: /images/blog/fhir-security-featured.png
+featured_image: /images/blog/fhir-security-featured.webp
 type: blog
 reading_time: 17
 view_count: 0

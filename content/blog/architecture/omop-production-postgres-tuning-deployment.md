@@ -7,7 +7,7 @@ excerpt: >-
   schema design, indexing, partition theo person_id, vacuum, backup, security
   theo Luật Bảo vệ dữ liệu cá nhân 2025 (hiệu lực 1/1/2026), audit log,
   vocabulary upgrade.
-featured_image: /images/blog/omop-production-featured.png
+featured_image: /images/blog/omop-production-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -85,7 +85,7 @@ ANALYZE condition_occurrence;
 
 ## 4. Partition cho dataset lớn
 
-![4. Partition cho dataset lớn](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d01.png)
+![4. Partition cho dataset lớn](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d01.webp)
 
 ```sql
 CREATE TABLE condition_occurrence (
@@ -134,7 +134,7 @@ ORDER BY dead_ratio DESC;
 
 ## 6. Backup & DR
 
-![6. Backup & DR](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d02.png)
+![6. Backup & DR](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d02.webp)
 
 Pattern 2026:
 - Streaming replication 1 standby same DC (failover < 30s)
@@ -224,7 +224,7 @@ GRANT INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA results TO omop_atlas_webap
 
 ## 9. Vocabulary upgrade workflow
 
-![9. Vocabulary upgrade workflow](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d03.png)
+![9. Vocabulary upgrade workflow](/images/blog/diagrams/omop-production-postgres-tuning-deployment-d03.webp)
 
 Tần suất: hàng quý. Lưu version log:
 

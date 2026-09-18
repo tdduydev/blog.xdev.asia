@@ -5,7 +5,7 @@ slug: ai-engineer-production-readiness
 excerpt: >-
   AI Engineer không chỉ gọi API model. Vai trò này biến model thành tính năng có
   metric, eval, guardrail, fallback, logging và quy trình vận hành rõ ràng.
-featured_image: /images/blog/ai-engineer-production-readiness.png
+featured_image: /images/blog/ai-engineer-production-readiness.webp
 type: blog
 reading_time: 12
 view_count: 0

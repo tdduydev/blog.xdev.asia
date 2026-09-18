@@ -90,7 +90,7 @@ locale: zh-tw
 
 ## 1. 安全服務間通訊概述
 
-![mTLS 服務網格與 Istio 一起用於醫療保健 — Envoy Sidecar、NetworkPolicies](/storage/uploads/2026/04/healthcare-mtls-service-mesh.png)
+![mTLS 服務網格與 Istio 一起用於醫療保健 — Envoy Sidecar、NetworkPolicies](/storage/uploads/2026/04/healthcare-mtls-service-mesh.webp)
 
 在醫療保健微服務架構中，服務透過網路相互通信，而網路**永遠不值得信任**。即使在內部網路中，攻擊者也可以：
 
@@ -103,7 +103,7 @@ mTLS和Service Mesh解決了上述所有問題。
 
 ### 1.1。服務間通訊的縱深防禦
 
-![5 Security Layers cho Inter-Service Communication — Network → mTLS → AuthZ → JWT → Encryption](/storage/uploads/2026/04/healthcare-service-communication-layers.png)
+![5 Security Layers cho Inter-Service Communication — Network → mTLS → AuthZ → JWT → Encryption](/storage/uploads/2026/04/healthcare-service-communication-layers.webp)
 
 **5層保護：**
 
@@ -115,7 +115,7 @@ mTLS和Service Mesh解決了上述所有問題。
 
 ### 1.2。 mTLS 與單向 TLS
 
-![比較單向 TLS 與雙向 TLS (mTLS)](/storage/uploads/2026/04/healthcare-tls-comparison.png)
+![比較單向 TLS 與雙向 TLS (mTLS)](/storage/uploads/2026/04/healthcare-tls-comparison.webp)
 
 | |單向 TLS |雙向 TLS (mTLS) |
 |---|---|---|
@@ -476,7 +476,7 @@ istioctl analyze -n healthcare
 
 ### 4.2。具有醫療保健服務的 Istio 架構
 
-![Istio Service Mesh Architecture cho Healthcare — istiod + Envoy sidecars](/storage/uploads/2026/04/healthcare-istio-mesh.png)
+![Istio Service Mesh Architecture cho Healthcare — istiod + Envoy sidecars](/storage/uploads/2026/04/healthcare-istio-mesh.webp)
 
 **架構：**
 

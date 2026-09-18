@@ -92,7 +92,7 @@ locale: ja
 アーキテクチャと DDD 進化のロードマップを理解した後、この記事では、フルスタック マイクロサービス + マイクロ フロントエンド システムの **全体的な青写真**を描きます。このアーキテクチャ マップについては、シリーズ全体で詳しく説明します。
 
 
-![Full-Stack Architecture Blueprint — Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai3-fullstack-architecture.png)
+![Full-Stack Architecture Blueprint — Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai3-fullstack-architecture.webp)
 
 ---
 

@@ -388,7 +388,7 @@ All demo source code for this series is organized in the GitHub repo:
 
 Project structure organized by lesson:
 
-![Project Structure](/images/blog/gemma4-series-demo/01-project-structure.png)
+![Project Structure](/images/blog/gemma4-series-demo/01-project-structure.webp)
 
 ## Summary
 

@@ -6,7 +6,7 @@ excerpt: >-
   BRD và SRS là hai artifact quan trọng nhưng hay bị viết lẫn. Bài này giải thích
   khác biệt, cấu trúc template, ví dụ đầy đủ cho một feature đặt lịch và checklist
   review trước khi handoff sang Dev/QA.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 14
 view_count: 0

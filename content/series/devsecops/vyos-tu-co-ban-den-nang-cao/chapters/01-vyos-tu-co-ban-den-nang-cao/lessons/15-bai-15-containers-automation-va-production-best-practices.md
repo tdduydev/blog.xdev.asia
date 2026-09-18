@@ -14,7 +14,7 @@ course:
   title: VyOS từ Cơ bản đến Nâng Cao
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-15-automation.png" alt="Containers, Automation và Production Best Practices" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-15-automation.webp" alt="Containers, Automation và Production Best Practices" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Containers, Automation và Production Best Practices trên VyOS</h2>
 <p>VyOS 1.4/1.5 hỗ trợ container (Podman) cho phép chạy dịch vụ phụ trợ, exporter, monitoring. Ngoài ra, VyOS cung cấp API, hỗ trợ Ansible, backup, upgrade và các best practices cho môi trường production.</p>

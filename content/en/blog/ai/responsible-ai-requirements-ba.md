@@ -4,7 +4,7 @@ title: "Responsible AI Requirements: BA Writes Requirements for Safe AI Features
 slug: responsible-ai-requirements-ba
 excerpt: >-
   Fairness, explainability, privacy, and human override aren't just buzzwords — they're real requirements BA must capture when building AI features. This guide teaches how to write Responsible AI requirements into BRD/SRS, verify with checklists, and align with frameworks like EU AI Act and NIST AI RMF.
-featured_image: /images/blog/responsible-ai-requirements.png
+featured_image: /images/blog/responsible-ai-requirements.webp
 type: blog
 reading_time: 11
 view_count: 0

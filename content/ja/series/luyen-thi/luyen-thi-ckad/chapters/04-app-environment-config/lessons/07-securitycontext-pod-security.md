@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai7-security-context.png" alt="SecurityContext — Podレベル vs Containerレベル、Linux capabilities" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai7-security-context.webp" alt="SecurityContext — Podレベル vs Containerレベル、Linux capabilities" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="securitycontext">1. SecurityContext</h2>
 

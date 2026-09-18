@@ -6,7 +6,7 @@ excerpt: >-
   Human-in-the-loop không phải chỉ là "thêm nút confirm". BA cần thiết kế ngưỡng
   escalation, routing rule, SLA cho agent review, và feedback loop. Hướng dẫn thiết
   kế HITL đầy đủ với decision matrix và escalation flow templates.
-featured_image: /images/blog/human-in-the-loop-design.png
+featured_image: /images/blog/human-in-the-loop-design.webp
 type: blog
 reading_time: 13
 view_count: 0

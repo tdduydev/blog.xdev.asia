@@ -45,7 +45,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![ICD-10 → SNOMED mapping process in CONDITION_OCCURRENCE](/storage/uploads/2026/04/omop-cdm-bai7-condition-mapping.png)
+![ICD-10 → SNOMED mapping process in CONDITION_OCCURRENCE](/storage/uploads/2026/04/omop-cdm-bai7-condition-mapping.webp)
 
 ## Introduction
 

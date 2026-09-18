@@ -147,11 +147,11 @@ When swap spikes, reduce `num_ctx` or model size before attempting deeper optimi
 
 After installation, verify the health check endpoint:
 
-![Health Check](/images/blog/gemma4-series-demo/02-health-check.png)
+![Health Check](/images/blog/gemma4-series-demo/02-health-check.webp)
 
 Swagger UI auto-generates API documentation:
 
-![Swagger Docs](/images/blog/gemma4-series-demo/02-swagger-docs.png)
+![Swagger Docs](/images/blog/gemma4-series-demo/02-swagger-docs.webp)
 
 > Source code: [xdev-asia-labs/gemma-4-local-ai-engineering-on-mac](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac)
 

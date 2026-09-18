@@ -93,7 +93,7 @@ locale: en
 There are many ways to compose Micro Frontend applications. Each approach has its own trade-offs. This article deep-dives into each strategy and helps you choose the right one.
 
 
-![4 Micro Frontend Integration strategies](/storage/uploads/2026/04/mfe-ms-diagram-bai11-mfe-integration.png)
+![4 Micro Frontend Integration strategies](/storage/uploads/2026/04/mfe-ms-diagram-bai11-mfe-integration.webp)
 
 ---
 

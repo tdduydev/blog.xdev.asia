@@ -7,7 +7,7 @@ description: >-
   quả, kê đơn, ra y lệnh — và những bẫy thường gặp với BHYT ngoại trú.
 duration_minutes: 70
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-7-kham-ngoai-tru-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-7-kham-ngoai-tru-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 3: Khám ngoại trú (OPD)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Khám ngoại trú (OPD) — luồng end-to-end](/storage/uploads/2026/05/his/bai-7-kham-ngoai-tru-banner.png)
+![Khám ngoại trú (OPD) — luồng end-to-end](/storage/uploads/2026/05/his/bai-7-kham-ngoai-tru-banner.webp)
 
 ## Mục tiêu
 
-![Bác sĩ khám tại phòng khám, EMR và đơn thuốc số hóa](/storage/uploads/2026/05/his/bai-7-kham-ngoai-tru-workflow.png)
+![Bác sĩ khám tại phòng khám, EMR và đơn thuốc số hóa](/storage/uploads/2026/05/his/bai-7-kham-ngoai-tru-workflow.webp)
 
 OPD (**Outpatient Department**) là module bận nhất của HIS — xử lý 70–90 % lượt khám, sinh ~60 % doanh thu nhưng cũng là nơi BHYT bị **xuất toán nhiều nhất** do thao tác ghi chép vội vàng. Một module OPD tốt cần cân bằng 3 mục tiêu xung đột: nhanh (BS có 5–10 phút/BN), đầy đủ (TT 32, gói dữ liệu BHYT), an toàn (CDS, double-check).
 

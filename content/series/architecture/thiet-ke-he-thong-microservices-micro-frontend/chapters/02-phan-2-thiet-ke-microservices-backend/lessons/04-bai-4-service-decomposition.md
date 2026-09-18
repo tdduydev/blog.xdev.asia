@@ -90,7 +90,7 @@ course:
 Phân tách service là quyết định kiến trúc quan trọng nhất khi chuyển sang Microservices. Chia quá nhỏ → complexity bùng nổ. Chia quá lớn → distributed monolith. Bài này hướng dẫn phương pháp systematic để xác định service boundaries đúng cách.
 
 
-![Service Decomposition — phân tách hệ thống thành các microservices](/storage/uploads/2026/04/mfe-ms-diagram-bai4-service-decomposition.png)
+![Service Decomposition — phân tách hệ thống thành các microservices](/storage/uploads/2026/04/mfe-ms-diagram-bai4-service-decomposition.webp)
 
 ---
 

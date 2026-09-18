@@ -116,7 +116,7 @@ Hãy tưởng tượng bạn muốn nhận dạng chữ số viết tay (ảnh 2
 
 **Ví dụ đời thường:** Bạn soi kính lúp trên bức ảnh. Kính lúp nhỏ (3×3 cm), bạn trượt kính từ góc trái trên xuống góc phải dưới. Tại mỗi vị trí, bạn ghi lại **một con số** tóm tắt vùng đó (sáng/tối, có cạnh không, có góc không...). Kết quả → một "bản đồ đặc trưng" (feature map).
 
-![Minh họa Convolution: bộ lọc trượt qua ảnh tạo feature map](/storage/uploads/2026/03/cnn-convolution-visual.png)
+![Minh họa Convolution: bộ lọc trượt qua ảnh tạo feature map](/storage/uploads/2026/03/cnn-convolution-visual.webp)
 
 ```
 Input image (6×6):     Filter (3×3):     Feature map (4×4):
@@ -335,7 +335,7 @@ print(f"Sau 50 bước: {0.9**50:.6f} → gần như = 0!")
   - **Thêm** thông tin mới quan trọng (input gate) — "viết trang mới"  
   - **Đọc** thông tin cần dùng (output gate) — "mở trang cần đọc"
 
-![So sánh kiến trúc RNN vs LSTM với cell state và 3 gates](/storage/uploads/2026/03/rnn-lstm-comparison.png)
+![So sánh kiến trúc RNN vs LSTM với cell state và 3 gates](/storage/uploads/2026/03/rnn-lstm-comparison.webp)
 
 ### 4.2 Ba cánh cổng (gates) của LSTM
 

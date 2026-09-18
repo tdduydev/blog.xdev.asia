@@ -3,7 +3,7 @@ id: 019c9617-fd50-7374-a2de-b2d2ddf46be9
 title: 醫療保健資料加密
 slug: ma-hoa-du-lieu-healthcare
 excerpt: '如何搜尋加密資料？本文介紹了使用 Spring Boot + PostgreSQL 來保護 100,000 多筆病患記錄的 3 種實用方法和實作。'
-featured_image: /images/blog/ma-hoa-du-lieu-healthcare-featured.png
+featured_image: /images/blog/ma-hoa-du-lieu-healthcare-featured.webp
 type: blog
 reading_time: 15
 view_count: 2

@@ -18,7 +18,7 @@ locale: ja
 
 <h2>1.ポッドとは何ですか?</h2>
 
-<img src="/storage/uploads/2026/03/k8s-pod-lifecycle-2026.png" alt="Kubernetes Pod Lifecycle Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-pod-lifecycle-2026.webp" alt="Kubernetes Pod Lifecycle Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <p>Pod は、Kubernetes の最小のスケジューリング単位です。ポッドは、同じノード上で実行され、共通に共有される<strong>1 つ以上のコンテナ</strong> で構成されます:</p>
 <ul>

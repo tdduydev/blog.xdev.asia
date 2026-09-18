@@ -5,7 +5,7 @@ slug: rest-api-data-validation-ba
 excerpt: >-
   BA 不需要編寫 API，但必須理解請求/回應、錯誤處理、資料合約和驗證規則。
   本指南幫助 BA 閱讀 OpenAPI 規範、審查 API 設計、為 AI 功能撰寫資料品質驗收標準。
-featured_image: /images/blog/rest-api-data-validation-ba.png
+featured_image: /images/blog/rest-api-data-validation-ba.webp
 type: blog
 reading_time: 9
 view_count: 0

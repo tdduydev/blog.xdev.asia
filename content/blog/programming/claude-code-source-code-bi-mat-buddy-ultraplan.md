@@ -3,7 +3,7 @@ id: 01961234-b2c3-7d4e-a5f6-78901abcdef2
 title: 'Đào sâu vào source code Claude Code: Buddy Virtual Pet, UltraPlan Multi-Agent và Kiến trúc ẩn'
 slug: claude-code-source-code-bi-mat-buddy-ultraplan
 excerpt: Phân tích chi tiết source code TypeScript được trích xuất từ npm bundle của Claude Code v2.1.89 --- hé lộ hệ thống thú cưng ảo Buddy với rarity RPG ra mắt ngày 1/4/2026, kiến trúc UltraPlan multi-agent, Bridge remote session system, anti-canary obfuscation và hàng chục tính năng ẩn chưa được document.
-featured_image: /images/blog/claude-code-featured.png
+featured_image: /images/blog/claude-code-featured.webp
 type: blog
 reading_time: 25
 view_count: 0

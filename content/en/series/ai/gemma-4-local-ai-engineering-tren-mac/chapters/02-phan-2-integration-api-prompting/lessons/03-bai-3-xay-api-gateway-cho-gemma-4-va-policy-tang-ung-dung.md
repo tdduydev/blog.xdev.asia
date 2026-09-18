@@ -149,11 +149,11 @@ Design fallback so the system doesn't hard crash:
 
 Chat API response through the gateway:
 
-![Chat Response](/images/blog/gemma4-series-demo/03-chat-response.png)
+![Chat Response](/images/blog/gemma4-series-demo/03-chat-response.webp)
 
 Model policy enforcement — blocking unauthorized models:
 
-![Policy Enforcement](/images/blog/gemma4-series-demo/03-policy-enforcement.png)
+![Policy Enforcement](/images/blog/gemma4-series-demo/03-policy-enforcement.webp)
 
 > Source code: [02-api-gateway](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/02-api-gateway)
 

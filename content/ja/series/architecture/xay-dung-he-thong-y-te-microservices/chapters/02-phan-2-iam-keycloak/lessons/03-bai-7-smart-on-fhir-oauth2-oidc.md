@@ -89,7 +89,7 @@ locale: ja
 
 ## 1. SMART on FHIR の概要
 
-![SMART on FHIR Launch Flow — OAuth2/OIDC qua Keycloak cho EHR](/storage/uploads/2026/04/healthcare-smart-fhir-launch-flow.png)
+![SMART on FHIR Launch Flow — OAuth2/OIDC qua Keycloak cho EHR](/storage/uploads/2026/04/healthcare-smart-fhir-launch-flow.webp)
 
 ＃＃＃１．１．スマートとは何ですか?
 

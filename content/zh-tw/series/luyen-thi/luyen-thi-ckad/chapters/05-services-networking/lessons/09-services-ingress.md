@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai9-services-ingress.png" alt="Services 與 Ingress — ClusterIP、NodePort、Ingress L7 路由" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai9-services-ingress.webp" alt="Services 與 Ingress — ClusterIP、NodePort、Ingress L7 路由" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="service-types">1. 四種 Service 類型</h2>
 

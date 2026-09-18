@@ -6,7 +6,7 @@ excerpt: >-
   Vocabulary は OMOP の中で最も難しく、しかし最も重要な部分です。本記事では Concept、Standard と Source、
   Domain、Vocabulary、ConceptRelationship、ConceptAncestor、そしてベトナムプロジェクト向けの Athena ロード／ルックアップ
   ワークフローを解説します。
-featured_image: /images/blog/omop-vocabulary-featured.png
+featured_image: /images/blog/omop-vocabulary-featured.webp
 type: blog
 reading_time: 16
 view_count: 0
@@ -49,7 +49,7 @@ Concept は `CONCEPT` テーブルの 1 行です：
 
 ## 3. Vocabulary と Domain
 
-![3. Vocabulary と Domain](/images/blog/diagrams/omop-standardized-vocabularies-athena-d01.png)
+![3. Vocabulary と Domain](/images/blog/diagrams/omop-standardized-vocabularies-athena-d01.webp)
 
 | Domain | OMOP テーブル | 主な Standard Vocabulary |
 |---|---|---|
@@ -101,7 +101,7 @@ WHERE ca.ancestor_concept_id = 201820  -- Diabetes mellitus
 
 ## 6. Athena — Vocabulary のポータル
 
-![6. Athena — Vocabulary のポータル](/images/blog/diagrams/omop-standardized-vocabularies-athena-d02.png)
+![6. Athena — Vocabulary のポータル](/images/blog/diagrams/omop-standardized-vocabularies-athena-d02.webp)
 
 手順：
 1. athena.ohdsi.org で無料アカウント作成
@@ -135,7 +135,7 @@ COPY concept_ancestor FROM '/path/CONCEPT_ANCESTOR.csv' DELIMITER E'\t' CSV HEAD
 
 USAGI は source code（ベトナム ICD-10、保健省医薬品リスト）を Standard Concept にマッピングするのを支援します：
 
-![8. USAGI — コードマッピングツール](/images/blog/diagrams/omop-standardized-vocabularies-athena-d03.png)
+![8. USAGI — コードマッピングツール](/images/blog/diagrams/omop-standardized-vocabularies-athena-d03.webp)
 
 ワークフロー：
 1. `source_code, source_name` 列を持つ CSV を入力
@@ -145,7 +145,7 @@ USAGI は source code（ベトナム ICD-10、保健省医薬品リスト）を 
 
 ## 9. ベトナム向け Vocabulary
 
-![9. ベトナム向け Vocabulary](/images/blog/diagrams/omop-standardized-vocabularies-athena-d04.png)
+![9. ベトナム向け Vocabulary](/images/blog/diagrams/omop-standardized-vocabularies-athena-d04.webp)
 
 ### 9.1 ベトナム向け Custom Vocabulary
 
@@ -171,7 +171,7 @@ INSERT INTO concept VALUES
 
 Athena は毎月 vocabulary をリリースします。アップグレード手順：
 
-![10. Vocabulary のアップグレード](/images/blog/diagrams/omop-standardized-vocabularies-athena-d05.png)
+![10. Vocabulary のアップグレード](/images/blog/diagrams/omop-standardized-vocabularies-athena-d05.webp)
 
 注意：concept_id はバージョン間で **stable** ですが、`Maps to` 関係は変わる可能性があるため、`*_concept_id` カラムを更新するため ETL を再実行する必要があります。
 

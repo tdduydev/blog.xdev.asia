@@ -99,7 +99,7 @@ to nhất. Đây không phải phát hiện gì về dữ liệu — nó là ph�
 
 ## Chạy thử
 
-![Kết quả chạy ep09_pca](/images/blog/ml-nhin-la-hieu/ep09_pca.png)
+![Kết quả chạy ep09_pca](/images/blog/ml-nhin-la-hieu/ep09_pca.webp)
 
 > Ảnh trên là output thật của `python scratch/ep09_pca.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep09_pca.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep09_pca.py) · [`library/ep09_pca.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep09_pca.py)

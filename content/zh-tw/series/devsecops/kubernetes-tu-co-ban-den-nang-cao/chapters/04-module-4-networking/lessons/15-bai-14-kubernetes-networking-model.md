@@ -16,7 +16,7 @@ locale: zh-tw
 ---
 <h2>🎯 課程目標___HTMLTAG_1__HTMLTAG_2___了解基本到高階的 Kubernetes 網路模型：為什麼每個 Pod 都有自己的 IP、4 種通訊模式、CNI 外掛程式（Cilium 建議 2026）以及帶有 nftables 的通訊模式、CNI 外掛程式（Cilium 建議 2026）以及帶有 nftables 的 kMLTAG_3___HT
 
-<img src="/storage/uploads/2026/03/k8s-networking-model-2026.png" alt="Kubernetes Networking Model - 4 Communication Patterns" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-networking-model-2026.webp" alt="Kubernetes Networking Model - 4 Communication Patterns" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1。 Kubernetes 網路需求</h2>
 <p>Kubernetes 有 3 個核心網路需求：</p>

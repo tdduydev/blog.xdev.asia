@@ -7,7 +7,7 @@ excerpt: >-
   that surpasses specialist physicians, NLP for EHR analysis, drug discovery
   compressed from 12 years to months, to personalized genomics treatment. Includes
   real case studies, technical challenges, ethical issues, and a deployment roadmap for Vietnam.
-featured_image: /images/blog/ai-trong-y-te-featured.png
+featured_image: /images/blog/ai-trong-y-te-featured.webp
 type: blog
 reading_time: 35
 view_count: 0

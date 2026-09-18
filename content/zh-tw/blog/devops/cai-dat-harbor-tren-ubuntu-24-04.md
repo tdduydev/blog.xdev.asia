@@ -3,7 +3,7 @@ id: 019c9617-fd1b-734f-b44a-7c96d34f532c
 title: 在 Ubuntu 24.04 上安裝 Harbor
 slug: cai-dat-harbor-tren-ubuntu-24-04
 excerpt: 在 Ubuntu 24.04 上安裝 Harbor - 私人 Docker 註冊表的詳細說明，包括 HTTPS、安全性、備份和最佳實踐。
-featured_image: /images/blog/harbor-ubuntu-featured.png
+featured_image: /images/blog/harbor-ubuntu-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

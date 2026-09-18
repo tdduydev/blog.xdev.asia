@@ -6,7 +6,7 @@ excerpt: >-
   Real-World Evidence (RWE) đang thay đổi cách FDA, EMA và các cơ quan quản lý
   ra quyết định. OMOP CDM là chuẩn dữ liệu cho phép chạy 1 nghiên cứu trên
   hàng trăm tổ chức cùng lúc. Bài viết giới thiệu OHDSI, CDM 5.4 và bối cảnh VN.
-featured_image: /images/blog/omop-overview-featured.png
+featured_image: /images/blog/omop-overview-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -34,7 +34,7 @@ RWE quan trọng vì RCT chỉ chiếm <5% câu hỏi lâm sàng quan trọng.
 
 ## 2. Vì sao cần Common Data Model
 
-![2. Vì sao cần Common Data Model](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d01.png)
+![2. Vì sao cần Common Data Model](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d01.webp)
 
 5 lợi ích:
 1. **Phân tích đa nguồn**: 1 nghiên cứu chạy trên 200 tổ chức cùng lúc (federated)
@@ -45,13 +45,13 @@ RWE quan trọng vì RCT chỉ chiếm <5% câu hỏi lâm sàng quan trọng.
 
 ## 3. Lịch sử OMOP và OHDSI
 
-![3. Lịch sử OMOP và OHDSI](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d02.png)
+![3. Lịch sử OMOP và OHDSI](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d02.webp)
 
 OHDSI = Observational Health Data Sciences and Informatics. Không phải công ty — là cộng đồng mở (Apache 2.0), có working group, network studies, annual symposium.
 
 ## 4. Stack OHDSI 2026
 
-![4. Stack OHDSI 2026](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d03.png)
+![4. Stack OHDSI 2026](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d03.webp)
 
 ## 5. CDM 5.4 — 37 bảng theo nhóm
 

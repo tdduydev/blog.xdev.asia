@@ -4,7 +4,7 @@ title: "與 AI 合作的需求蒐集：BA 如何更快蒐集需求而不失去�
 slug: elicitation-with-ai-notes-ba-requirements-gathering
 excerpt: >-
   傳統的需求蒐集花費許多時間在筆記和綜合。本指南教 BA 如何使用 AI 自動總結面試、自動分組洞察、偵測需求缺口並建立行動項目——在節省 60% 處理時間的同時保持品質。
-featured_image: /images/blog/elicitation-ai-notes-ba.png
+featured_image: /images/blog/elicitation-ai-notes-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

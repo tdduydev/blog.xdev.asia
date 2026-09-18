@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai1-multicontainer.png" alt="Multi-Container Pod Patterns — Sidecar, Ambassador, Adapter and Init Containers" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai1-multicontainer.webp" alt="Multi-Container Pod Patterns — Sidecar, Ambassador, Adapter and Init Containers" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="multi-container">1. Multi-container Pod Patterns</h2>
 

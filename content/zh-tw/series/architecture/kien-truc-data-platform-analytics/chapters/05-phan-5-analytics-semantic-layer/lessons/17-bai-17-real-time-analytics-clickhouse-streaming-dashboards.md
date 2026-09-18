@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 17 課：即時分析 - ClickHouse 和串流儀表板](/storage/uploads/2026/03/dp-bai-17-diagram.png)
+![第 17 課：即時分析 - ClickHouse 和串流儀表板](/storage/uploads/2026/03/dp-bai-17-diagram.webp)
 
 ## 簡介
 

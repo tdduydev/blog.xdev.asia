@@ -87,7 +87,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 25 課：秘密管理與容器安全](/storage/uploads/2026/03/cn-bai-25-diagram.png)
+![第 25 課：秘密管理與容器安全](/storage/uploads/2026/03/cn-bai-25-diagram.webp)
 
 ## 簡介
 

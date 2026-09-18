@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 8 課：每個服務的資料庫和多語言持久性](/storage/uploads/2026/03/cn-bai-8-diagram.png)
+![第 8 課：每個服務的資料庫和多語言持久性](/storage/uploads/2026/03/cn-bai-8-diagram.webp)
 
 ## 簡介
 

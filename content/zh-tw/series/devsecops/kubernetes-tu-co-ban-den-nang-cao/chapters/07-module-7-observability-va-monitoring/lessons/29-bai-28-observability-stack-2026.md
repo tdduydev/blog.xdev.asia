@@ -20,7 +20,7 @@ locale: zh-tw
 
 <p>本課程將全面介紹 2026 年推薦的可觀測性堆疊，包括三大可觀測性支柱、OpenTelemetry 標準、PLG 和 EFK 堆疊之間的對比以及 Grafana Alloy 作為統一收集器的角色。 </p>
 
-<img src="/storage/uploads/2026/03/k8s-observability-stack-2026.png" alt="Kubernetes Observability Stack 2026 - Prometheus, Loki, Tempo, Grafana, OpenTelemetry" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-observability-stack-2026.webp" alt="Kubernetes Observability Stack 2026 - Prometheus, Loki, Tempo, Grafana, OpenTelemetry" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>可觀察性的三大支柱__HTMLTAG_10___
 

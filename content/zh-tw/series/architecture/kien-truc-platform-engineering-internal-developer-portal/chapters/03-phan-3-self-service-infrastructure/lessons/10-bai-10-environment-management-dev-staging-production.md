@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 10 課：環境管理 - 開發、登台、生產](/storage/uploads/2026/03/pe-bai-10-diagram.png)
+![第 10 課：環境管理 - 開發、登台、生產](/storage/uploads/2026/03/pe-bai-10-diagram.webp)
 
 ## 簡介
 

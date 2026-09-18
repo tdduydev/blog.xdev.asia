@@ -18,22 +18,22 @@ import Image from "next/image";
 
 const LAYERS = [
     {
-        src: "/storage/uploads/2026/04/hero-layers/layer-1-nebula.png",
+        src: "/storage/uploads/2026/04/hero-layers/layer-1-nebula.webp",
         alt: "Nebula background",
         className: "hero-layer hero-layer-nebula",
     },
     {
-        src: "/storage/uploads/2026/04/hero-layers/layer-2-network.png",
+        src: "/storage/uploads/2026/04/hero-layers/layer-2-network.webp",
         alt: "Neural network",
         className: "hero-layer hero-layer-network",
     },
     {
-        src: "/storage/uploads/2026/04/hero-layers/layer-3-core.png",
+        src: "/storage/uploads/2026/04/hero-layers/layer-3-core.webp",
         alt: "AI Core",
         className: "hero-layer hero-layer-core",
     },
     {
-        src: "/storage/uploads/2026/04/hero-layers/layer-4-particles.png",
+        src: "/storage/uploads/2026/04/hero-layers/layer-4-particles.webp",
         alt: "Particles",
         className: "hero-layer hero-layer-particles",
     },

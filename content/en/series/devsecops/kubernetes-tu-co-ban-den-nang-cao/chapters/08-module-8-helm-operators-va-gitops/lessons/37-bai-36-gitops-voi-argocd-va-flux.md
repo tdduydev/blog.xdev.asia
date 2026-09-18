@@ -16,7 +16,7 @@ locale: en
 ---
 <h2>🎯 Lesson Objective</h2><p>Understand GitOps principles, how to setup ArgoCD and Flux, the difference between the two tools, CI/CD pipeline with GitOps, and secrets management in GitOps workflow.</p>
 
-<img src="/storage/uploads/2026/03/k8s-gitops-workflow-2026.png" alt="GitOps with ArgoCD & Flux - Workflow Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-gitops-workflow-2026.webp" alt="GitOps with ArgoCD & Flux - Workflow Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. GitOps Principles (OpenGitOps)</h2>
 <p>GitOps is a method of deploying and operating applications that uses Git as the "single source of truth":</p>

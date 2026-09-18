@@ -92,7 +92,7 @@ locale: zh-tw
 API 閘道是來自前端的所有 API 呼叫的**單一入口點**。它處理跨領域的問題：身份驗證、速率限制、路由、監控——幫助微服務專注於業務邏輯。
 
 
-![API 閘道 — 所有要求的單一入口點](/storage/uploads/2026/04/mfe-ms-diagram-bai18-api-gateway.png)
+![API 閘道 — 所有要求的單一入口點](/storage/uploads/2026/04/mfe-ms-diagram-bai18-api-gateway.webp)
 
 ---
 

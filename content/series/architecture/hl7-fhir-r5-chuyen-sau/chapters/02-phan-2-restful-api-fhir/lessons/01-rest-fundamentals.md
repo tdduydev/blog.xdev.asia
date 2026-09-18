@@ -15,7 +15,7 @@ course:
 ---
 REST (Representational State Transfer) là một kiến trúc phần mềm dùng để thiết kế các API. Được Roy Fielding giới thiệu năm 2000 trong luận án tiến sĩ của mình, REST đã trở thành tiêu chuẩn de facto cho việc phát triển các web API hiện đại. Dưới đây là phân tích chi tiết về 6 nguyên tắc cơ bản của REST.
 
-![6 Nguyên tắc có bản của REST](/storage/uploads/hl7-r5/root/image_7_.png)
+![6 Nguyên tắc có bản của REST](/storage/uploads/hl7-r5/root/image_7_.webp)
 
 *6 Nguyên tắc có bản của REST*
 

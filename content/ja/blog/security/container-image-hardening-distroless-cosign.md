@@ -6,7 +6,7 @@ excerpt: >-
   優れた本番イメージは小さく、root実行ではなく、シェルを持たず、スキャンと署名がされて
   いるべきです。本記事ではDocker/OCIイメージのハードニング技法と、GitHub OIDCを
   使ったCosignキーレス署名のワークフローをまとめます。
-featured_image: /images/blog/container-hardening-cosign-featured.png
+featured_image: /images/blog/container-hardening-cosign-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

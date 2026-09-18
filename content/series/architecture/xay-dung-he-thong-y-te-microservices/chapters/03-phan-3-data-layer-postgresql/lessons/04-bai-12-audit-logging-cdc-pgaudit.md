@@ -91,7 +91,7 @@ course:
 
 ## 1. Tổng quan Audit Logging cho Healthcare
 
-![Kiến trúc Audit Logging — pgAudit, Debezium CDC, Fluent Bit, ELK](/storage/uploads/2026/04/healthcare-audit-logging-stack.png)
+![Kiến trúc Audit Logging — pgAudit, Debezium CDC, Fluent Bit, ELK](/storage/uploads/2026/04/healthcare-audit-logging-stack.webp)
 
 HIPAA Security Rule §164.312(b) yêu cầu **hardware, software, and/or procedural mechanisms that record and examine activity** trong hệ thống chứa ePHI. Audit logging không chỉ là compliance requirement mà còn là công cụ **phát hiện intrusion, forensics, và accountability**.
 
@@ -117,7 +117,7 @@ HIPAA Security Rule §164.312(b) yêu cầu **hardware, software, and/or procedu
 
 ### 1.2. Audit Architecture
 
-![Audit Stack — Quarkus + pgAudit + Debezium CDC → FluentBit → OpenSearch/S3/PostgreSQL](/storage/uploads/2026/04/healthcare-audit-architecture.png)
+![Audit Stack — Quarkus + pgAudit + Debezium CDC → FluentBit → OpenSearch/S3/PostgreSQL](/storage/uploads/2026/04/healthcare-audit-architecture.webp)
 
 **Audit Sources:**
 
@@ -578,7 +578,7 @@ $$ LANGUAGE plpgsql SECURITY DEFINER;
 
 ### 5.1. CDC Architecture
 
-![CDC Pipeline — PostgreSQL WAL → Debezium → Kafka → OpenSearch/S3/KSQL](/storage/uploads/2026/04/healthcare-cdc-pipeline.png)
+![CDC Pipeline — PostgreSQL WAL → Debezium → Kafka → OpenSearch/S3/KSQL](/storage/uploads/2026/04/healthcare-cdc-pipeline.webp)
 
 **CDC Flow:**
 

@@ -6,7 +6,7 @@ excerpt: >-
   BA にとって Confluence や Notion は単なる文書保管ではなく、チーム全体の
   single source of truth を作るための基盤です。AI プロジェクト向けに、
   space 構造、BRD/FRD テンプレート、Jira 連携、assumption log 管理を解説します。
-featured_image: /images/blog/confluence-notion-ba.png
+featured_image: /images/blog/confluence-notion-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

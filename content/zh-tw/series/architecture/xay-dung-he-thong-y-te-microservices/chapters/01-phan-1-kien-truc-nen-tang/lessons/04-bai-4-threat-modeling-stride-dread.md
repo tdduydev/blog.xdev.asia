@@ -89,13 +89,13 @@ locale: zh-tw
 
 ## 1.什麼是威脅建模？
 
-![微服務醫療系統的威脅建模 STRIDE](/storage/uploads/2026/04/healthcare-threat-model-stride.png)
+![微服務醫療系統的威脅建模 STRIDE](/storage/uploads/2026/04/healthcare-threat-model-stride.webp)
 
 **威脅建模**是識別、評估系統潛在安全威脅並確定其優先順序的系統流程。在醫療保健領域，威脅建模尤其重要，因為攻擊的後果不僅僅是丟失數據，它還可能影響**患者的生活**。
 
 ### 1.1。威脅建模過程
 
-![6 步驟威脅建模流程 — 從定義範圍到驗證和迭代](/storage/uploads/2026/04/healthcare-threat-modeling-process.png)
+![6 步驟威脅建模流程 — 從定義範圍到驗證和迭代](/storage/uploads/2026/04/healthcare-threat-modeling-process.webp)
 
 ### 1.2。什麼時候需要威脅建模？
 
@@ -124,7 +124,7 @@ STRIDE是微軟開發的威脅分類框架：
 
 #### S - 欺騙（身分欺騙）
 
-![欺騙攻擊－欺騙 JWT 令牌存取病患 API 和預防措施](/storage/uploads/2026/04/healthcare-stride-spoofing-attack.png)
+![欺騙攻擊－欺騙 JWT 令牌存取病患 API 和預防措施](/storage/uploads/2026/04/healthcare-stride-spoofing-attack.webp)
 
 **威脅：** 攻擊者偽造 JWT 令牌來存取病患 API
 
@@ -146,7 +146,7 @@ STRIDE是微軟開發的威脅分類框架：
 
 #### T - 篡改（資料篡改）
 
-![篡改攻擊－內部人員篡改測試結果和資料完整性措施](/storage/uploads/2026/04/healthcare-stride-tampering-integrity.png)
+![篡改攻擊－內部人員篡改測試結果和資料完整性措施](/storage/uploads/2026/04/healthcare-stride-tampering-integrity.webp)
 
 **威脅：** 內部人員修改了 lab_db 中的測試結果
 
@@ -271,7 +271,7 @@ public PatientSummaryDTO getPatient(@PathParam("id") UUID id) {
 
 #### D - 拒絕服務
 
-![DoS 緩解 — 為醫療保健系統提供 7 層反 DDoS 保護](/storage/uploads/2026/04/healthcare-stride-dos-mitigation.png)
+![DoS 緩解 — 為醫療保健系統提供 7 層反 DDoS 保護](/storage/uploads/2026/04/healthcare-stride-dos-mitigation.webp)
 
 **威脅：** DDoS 攻擊導致緊急系統停止運作
 
@@ -393,7 +393,7 @@ public class PrescriptionResource {
 
 ### 5.1. Attack Tree: Steal Patient Medical Records
 
-![攻擊樹 — 透過 DREAD 分數竊取受害者記錄的攻擊向量](/storage/uploads/2026/04/healthcare-attack-tree.png)
+![攻擊樹 — 透過 DREAD 分數竊取受害者記錄的攻擊向量](/storage/uploads/2026/04/healthcare-attack-tree.webp)
 
 **Goal: Steal Patient Medical Records**
 

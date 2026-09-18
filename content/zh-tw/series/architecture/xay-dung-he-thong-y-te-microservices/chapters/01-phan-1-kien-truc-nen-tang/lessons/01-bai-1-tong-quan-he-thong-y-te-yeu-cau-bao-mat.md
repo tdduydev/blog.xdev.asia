@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. 為什麼醫療資料安全很重要？
 
-![HIPAA 技術保障概述 — 5 類技術安全控制](/storage/uploads/2026/04/healthcare-hipaa-safeguards-overview.png)
+![HIPAA 技術保障概述 — 5 類技術安全控制](/storage/uploads/2026/04/healthcare-hipaa-safeguards-overview.webp)
 
 醫療資料是最敏感的資料類型之一。醫療記錄包含個人資訊、病史、檢查結果、處方和保險資訊——所有這些在黑市上都非常有價值。
 
@@ -225,7 +225,7 @@ HIPAA 確定了 18 種需要保護的身份資訊：
 
 FHIR 定義安全元件：
 
-![FHIR 架構中的安全層 — 從通訊安全性到同意管理](/storage/uploads/2026/04/healthcare-fhir-security-layers.png)
+![FHIR 架構中的安全層 — 從通訊安全性到同意管理](/storage/uploads/2026/04/healthcare-fhir-security-layers.webp)
 
 - **通訊安全**：HTTPS/TLS
 - **身份驗證**：OAuth2、FHIR 上的 SMART
@@ -282,7 +282,7 @@ Patient/Clinician → SMART App → Authorization Server (Keycloak)
 
 ### 6.1。 NIST 網路安全框架
 
-![NIST 網路安全框架生命週期 — 5 個功能：辨識、保護、偵測、回應、復原](/storage/uploads/2026/04/healthcare-nist-csf-framework.png)
+![NIST 網路安全框架生命週期 — 5 個功能：辨識、保護、偵測、回應、復原](/storage/uploads/2026/04/healthcare-nist-csf-framework.webp)
 
 - **識別**：資產管理、風險評估
 - **保護**：存取控制、資料安全、培訓

@@ -84,7 +84,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 24: データ プラットフォームの可観測性](/storage/uploads/2026/03/dp-bai-24-diagram.png)
+![レッスン 24: データ プラットフォームの可観測性](/storage/uploads/2026/03/dp-bai-24-diagram.webp)
 
 ## はじめに
 

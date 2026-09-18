@@ -7,7 +7,7 @@ excerpt: >-
   where AI can help the most: duplicate detection, story splitting, AC suggestion,
   and dependency mapping. A practical guide to integrating AI into your refinement
   workflow without losing control.
-featured_image: /images/blog/backlog-refinement-ai.png
+featured_image: /images/blog/backlog-refinement-ai.webp
 type: blog
 reading_time: 11
 view_count: 0

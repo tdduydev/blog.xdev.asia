@@ -6,7 +6,7 @@ excerpt: >-
   BA and QA are an important couple to turn requirements into test scenarios.
   This article explains how to coordinate with QA, classify severity/priority,
   triage defects, and manage regression scope before release.
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

@@ -13,7 +13,7 @@ course:
   title: 'HL7 FHIR R5 Chuyên Sâu — Reference & Thực hành'
   slug: hl7-fhir-r5-chuyen-sau
 ---
-![10 Design patterns for FHIR](/storage/uploads/hl7-r5/handson/image_2_.png)
+![10 Design patterns for FHIR](/storage/uploads/hl7-r5/handson/image_2_.webp)
 
 *10 Design patterns for FHIR*
 

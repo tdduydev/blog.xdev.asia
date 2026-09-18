@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai9-responsible-ai-pillars.png" alt="負責任AI支柱" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai9-responsible-ai-pillars.webp" alt="負責任AI支柱" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>負責任AI支柱與ML管線中的偏差進入點</em></p>
 </div>
 

@@ -4,7 +4,7 @@ title: "BA、PO、PM 與 AI 工程師：AI 時代的產品團隊中各自的職�
 slug: ba-pm-po-ai-engineer-roles-in-product-team
 excerpt: >-
   清楚說明現代產品團隊中 BA、產品負責人、產品經理和 AI 工程師的角色。誰來撰寫驗收標準？誰來決定路線圖？AI 功能出錯時誰來負責？給想在 AI 時代正確定位自己的 BA 的實踐指南。
-featured_image: /images/blog/ba-roles-ai-team.png
+featured_image: /images/blog/ba-roles-ai-team.webp
 type: blog
 reading_time: 12
 view_count: 0

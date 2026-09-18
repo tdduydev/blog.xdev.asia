@@ -43,7 +43,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![詞彙生態系統——概念、詞彙、關係、祖先](/storage/uploads/2026/04/omop-cdm-bai14-vocabulary-ecosystem.png)
+![詞彙生態系統——概念、詞彙、關係、祖先](/storage/uploads/2026/04/omop-cdm-bai14-vocabulary-ecosystem.webp)
 
 ## 簡介
 

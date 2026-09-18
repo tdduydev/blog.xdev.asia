@@ -14,7 +14,7 @@ course:
   title: VyOS từ Cơ bản đến Nâng cao
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-10-bgp.png" alt="Dynamic Routing — BGP" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-10-bgp.webp" alt="Dynamic Routing — BGP" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Giới thiệu về BGP trên VyOS</h2>
 <p>Bài học này hướng dẫn cấu hình <strong>BGP</strong> (Border Gateway Protocol) trên VyOS 1.4.x/1.5 rolling release. BGP là giao thức định tuyến động tiêu chuẩn cho các hệ thống mạng lớn, ISP và kết nối đa nhà cung cấp.</p>

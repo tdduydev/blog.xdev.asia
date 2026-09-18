@@ -6,7 +6,7 @@ excerpt: >-
   Có quá nhiều chứng chỉ BA — ECBA, CCBA, CBAP, IIBA-AAC, IIBA-CBDA, PMI-PBA, BCS.
   Cái nào phù hợp với bạn? Bài này phân tích từng chứng chỉ theo điều kiện, giá trị
   thực tế, thị trường và giúp bạn lập lộ trình 12 tháng theo level hiện tại.
-featured_image: /images/blog/ba-certification-roadmap.png
+featured_image: /images/blog/ba-certification-roadmap.webp
 type: blog
 reading_time: 10
 view_count: 0

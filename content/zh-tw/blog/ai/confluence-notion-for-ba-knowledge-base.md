@@ -6,7 +6,7 @@ excerpt: >-
   BA 使用 Confluence 或 Notion，不只是存文件，而是建立團隊 single source of truth。
   本文說明 AI 專案中的 space 結構、BRD/FRD 模板、需求與 Jira ticket 連結，以及
   assumption log 管理方式。
-featured_image: /images/blog/confluence-notion-ba.png
+featured_image: /images/blog/confluence-notion-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

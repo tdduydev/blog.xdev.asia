@@ -6,7 +6,7 @@ excerpt: >-
   2026 年の組織は FHIR（オペレーション）と OMOP（分析）の両方を持つことが一般的です。本記事では
   Resource ↔ Table のマッピング、FHIR-OMOP-on-FHIR ワーキンググループ、Pathling、Bulk Data Export パイプライン、
   そしてベトナム向け実装パターンを解説します。
-featured_image: /images/blog/omop-fhir-bridge-featured.png
+featured_image: /images/blog/omop-fhir-bridge-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -23,7 +23,7 @@ FHIR はオペレーション（業務）の標準。OMOP は分析の標準。2
 
 ## 1. なぜ両方が必要か
 
-![1. なぜ両方が必要か](/images/blog/diagrams/omop-fhir-mapping-bridge-d01.png)
+![1. なぜ両方が必要か](/images/blog/diagrams/omop-fhir-mapping-bridge-d01.webp)
 
 FHIR はリアルタイム、JSON、REST に強い。OMOP はバッチ SQL、標準 vocabulary、ネットワーク研究に強い。それぞれが異なる戦線を担当する → 置き換えではなく橋渡しが必要です。
 
@@ -56,7 +56,7 @@ FHIR-OMOP-on-FHIR コミュニティ（HL7 + OHDSI 共同ワーキンググル�
 
 ### 2.2 Encounter → Visit_Occurrence マッピング詳細
 
-![2.2 Encounter → Visit_Occurrence マッピング詳細](/images/blog/diagrams/omop-fhir-mapping-bridge-d02.png)
+![2.2 Encounter → Visit_Occurrence マッピング詳細](/images/blog/diagrams/omop-fhir-mapping-bridge-d02.webp)
 
 コード：
 ```python
@@ -107,13 +107,13 @@ FHIR コードシステム URL → OMOP vocabulary_id：
 
 ### 4.1 Bulk Export → ETL → CDM
 
-![4.1 Bulk Export → ETL → CDM](/images/blog/diagrams/omop-fhir-mapping-bridge-d03.png)
+![4.1 Bulk Export → ETL → CDM](/images/blog/diagrams/omop-fhir-mapping-bridge-d03.webp)
 
 メリット：標準 FHIR で済み、FHIR バックエンドが custom export をサポートする必要がない。[FHIR Bulk Data Export と CDS Hooks](/blog/fhir-bulk-data-export-cds-hooks) も参照。
 
 ### 4.2 リアルタイム CDC パターン
 
-![4.2 リアルタイム CDC パターン](/images/blog/diagrams/omop-fhir-mapping-bridge-d04.png)
+![4.2 リアルタイム CDC パターン](/images/blog/diagrams/omop-fhir-mapping-bridge-d04.webp)
 
 メリット：FHIR は常に最新、OMOP は夜間に集約。
 
@@ -156,7 +156,7 @@ Sql On FHIR (SOF) は新しいプロジェクト（2024-2026）で、FHIR Resour
 
 ### 8.1 推奨パターン
 
-![8.1 推奨パターン](/images/blog/diagrams/omop-fhir-mapping-bridge-d05.png)
+![8.1 推奨パターン](/images/blog/diagrams/omop-fhir-mapping-bridge-d05.webp)
 
 ### 8.2 構築すべきアダプタ
 
@@ -189,7 +189,7 @@ Sql On FHIR (SOF) は新しいプロジェクト（2024-2026）で、FHIR Resour
 
 ## 11. ハイブリッドパターン
 
-![11. ハイブリッドパターン](/images/blog/diagrams/omop-fhir-mapping-bridge-d06.png)
+![11. ハイブリッドパターン](/images/blog/diagrams/omop-fhir-mapping-bridge-d06.webp)
 
 組織は小さく始めて段階的に拡大できます。最初から OMOP を構築する必要はなく、フェーズ 1 では Pathling を使うこともできます。
 

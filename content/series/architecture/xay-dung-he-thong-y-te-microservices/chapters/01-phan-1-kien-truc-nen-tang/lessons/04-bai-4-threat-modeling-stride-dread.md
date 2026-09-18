@@ -91,13 +91,13 @@ course:
 
 ## 1. Threat Modeling là gì?
 
-![Threat Modeling STRIDE cho hệ thống y tế Microservices](/storage/uploads/2026/04/healthcare-threat-model-stride.png)
+![Threat Modeling STRIDE cho hệ thống y tế Microservices](/storage/uploads/2026/04/healthcare-threat-model-stride.webp)
 
 **Threat Modeling** là quá trình có hệ thống để xác định, đánh giá, và ưu tiên các mối đe dọa bảo mật tiềm ẩn đối với hệ thống. Trong y tế, threat modeling đặc biệt quan trọng vì hậu quả của một cuộc tấn công không chỉ là mất dữ liệu — mà có thể ảnh hưởng đến **tính mạng bệnh nhân**.
 
 ### 1.1. Quy trình Threat Modeling
 
-![Quy trình Threat Modeling 6 bước — từ Define Scope đến Validate & Iterate](/storage/uploads/2026/04/healthcare-threat-modeling-process.png)
+![Quy trình Threat Modeling 6 bước — từ Define Scope đến Validate & Iterate](/storage/uploads/2026/04/healthcare-threat-modeling-process.webp)
 
 ### 1.2. Khi nào cần Threat Modeling?
 
@@ -126,7 +126,7 @@ STRIDE là framework phân loại threats do Microsoft phát triển:
 
 #### S - Spoofing (Giả mạo danh tính)
 
-![Spoofing Attack — giả mạo JWT token để truy cập Patient API và các biện pháp phòng chống](/storage/uploads/2026/04/healthcare-stride-spoofing-attack.png)
+![Spoofing Attack — giả mạo JWT token để truy cập Patient API và các biện pháp phòng chống](/storage/uploads/2026/04/healthcare-stride-spoofing-attack.webp)
 
 **Threat:** Attacker giả mạo JWT token để truy cập Patient API
 
@@ -148,7 +148,7 @@ STRIDE là framework phân loại threats do Microsoft phát triển:
 
 #### T - Tampering (Giả mạo dữ liệu)
 
-![Tampering Attack — insider sửa đổi kết quả xét nghiệm và các biện pháp bảo vệ tính toàn vẹn dữ liệu](/storage/uploads/2026/04/healthcare-stride-tampering-integrity.png)
+![Tampering Attack — insider sửa đổi kết quả xét nghiệm và các biện pháp bảo vệ tính toàn vẹn dữ liệu](/storage/uploads/2026/04/healthcare-stride-tampering-integrity.webp)
 
 **Threat:** Insider sửa đổi kết quả xét nghiệm trong lab_db
 
@@ -273,7 +273,7 @@ public PatientSummaryDTO getPatient(@PathParam("id") UUID id) {
 
 #### D - Denial of Service
 
-![DoS mitigation — 7 lớp bảo vệ chống DDoS cho hệ thống y tế](/storage/uploads/2026/04/healthcare-stride-dos-mitigation.png)
+![DoS mitigation — 7 lớp bảo vệ chống DDoS cho hệ thống y tế](/storage/uploads/2026/04/healthcare-stride-dos-mitigation.webp)
 
 **Threat:** Tấn công DDoS khiến hệ thống cấp cứu ngừng hoạt động
 
@@ -395,7 +395,7 @@ public class PrescriptionResource {
 
 ### 5.1. Attack Tree: Steal Patient Medical Records
 
-![Attack Tree — các vector tấn công đánh cắp hồ sơ bệnh nhân với DREAD scoring](/storage/uploads/2026/04/healthcare-attack-tree.png)
+![Attack Tree — các vector tấn công đánh cắp hồ sơ bệnh nhân với DREAD scoring](/storage/uploads/2026/04/healthcare-attack-tree.webp)
 
 **Goal: Steal Patient Medical Records**
 

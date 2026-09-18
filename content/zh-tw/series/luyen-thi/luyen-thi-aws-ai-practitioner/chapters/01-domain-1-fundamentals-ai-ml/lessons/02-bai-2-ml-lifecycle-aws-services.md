@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai2-ml-lifecycle-pipeline.png" alt="AWS上的ML開發生命週期管線" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai2-ml-lifecycle-pipeline.webp" alt="AWS上的ML開發生命週期管線" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>ML開發生命週期管線與AWS AI/ML服務堆疊</em></p>
 </div>
 

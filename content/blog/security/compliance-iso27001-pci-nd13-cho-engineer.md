@@ -6,7 +6,7 @@ excerpt: >-
   Engineer không cần thuộc lòng từng control, nhưng cần biết cách map control
   vào pipeline và sinh evidence tự động. Bài viết tóm tắt 4 khung phổ biến và
   cách triển khai compliance-as-code trong DevSecOps.
-featured_image: /images/blog/compliance-engineer-featured.png
+featured_image: /images/blog/compliance-engineer-featured.webp
 type: blog
 reading_time: 11
 view_count: 0

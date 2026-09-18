@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a014-000000000001
 title: BA 的變更控制、基線和簽核：在不拖慢團隊速度的情況下管理請求
 slug: change-control-baseline-signoff-ba
 excerpt: 需求變更是正常的，但不受控制的變更會破壞衝刺、範圍、測試和發布。本文指導 BA 在敏捷環境和傳統專案中管理基準、變更要求、影響分析、簽核和可追溯性。
-featured_image: /images/blog/ba-planning-monitoring-ai-projects.png
+featured_image: /images/blog/ba-planning-monitoring-ai-projects.webp
 type: blog
 reading_time: 16
 view_count: 0

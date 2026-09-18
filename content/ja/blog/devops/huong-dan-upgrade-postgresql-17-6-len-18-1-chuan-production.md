@@ -6,7 +6,7 @@ excerpt: >-
   ダウンタイムを最小限に抑えて実稼働環境向けに PostgreSQL 17.6 を 18.1 にアップグレードするための詳細な手順。
   pg_upgrade、論理レプリケーション、ロールバック プラン、非同期 I/O、統計保持、新しい pg_upgrade --swap モードを備えた
   PostgreSQL 18 の更新されたベスト プラクティスが含まれています。
-featured_image: /images/blog/postgresql-upgrade-featured.png
+featured_image: /images/blog/postgresql-upgrade-featured.webp
 type: blog
 reading_time: 15
 view_count: 0

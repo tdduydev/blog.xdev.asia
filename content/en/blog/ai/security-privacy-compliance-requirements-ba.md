@@ -6,7 +6,7 @@ excerpt: >-
   BAs do not need to be a security engineer, but must know how to write
   requirements about authentication, authorization, audit log, data masking,
   consent, retention, PII/PHI/PCI and compliance to avoid missing the spec.
-featured_image: /images/blog/responsible-ai-requirements.png
+featured_image: /images/blog/responsible-ai-requirements.webp
 type: blog
 reading_time: 12
 view_count: 0

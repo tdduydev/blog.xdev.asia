@@ -5,7 +5,7 @@ slug: huong-dan-toan-dien-ve-backup-va-restore-postgresql
 excerpt: >-
   This article will help you master PostgreSQL backup and restore methods from
   basic to advanced, along with practical best practices.
-featured_image: /images/blog/postgresql-backup-featured.png
+featured_image: /images/blog/postgresql-backup-featured.webp
 type: blog
 reading_time: 13
 view_count: 0

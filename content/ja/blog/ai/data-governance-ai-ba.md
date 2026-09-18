@@ -6,7 +6,7 @@ excerpt: >-
   データ ガバナンスは単なる「データを安全に保つ」ではありません。AI 機能については、BA は設定する必要があります：
   データ リネージ（ソースからデータを追跡）、保有ポリシー（保持期間）、PII 分類（機密内容）、プロヴァナンス追跡（誰が使用、いつ）。
   ポリシーから実装チェックリストまでのステップ バイ ステップ ガイド。
-featured_image: /images/blog/data-governance-ai.png
+featured_image: /images/blog/data-governance-ai.webp
 type: blog
 reading_time: 10
 view_count: 0

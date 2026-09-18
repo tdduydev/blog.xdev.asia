@@ -90,13 +90,13 @@ locale: ja
 
 ## 1. 医療向け PostgreSQL セキュリティの概要
 
-![医療データ用の PostgreSQL セキュリティ層 — TLS、pg_hba、RLS、pgcrypto](/storage/uploads/2026/04/healthcare-postgresql-security-layers.png)
+![医療データ用の PostgreSQL セキュリティ層 — TLS、pg_hba、RLS、pgcrypto](/storage/uploads/2026/04/healthcare-postgresql-security-layers.webp)
 
 PostgreSQL は、その柔軟性、オープンソース、強力なセキュリティ機能のおかげで、医療システムによく選ばれています。ただし、PostgreSQL のデフォルト構成は、PHI (保護された医療情報) データに対して **十分に安全ではありません**。このレッスンでは、CIS ベンチマークとヘルスケアのベスト プラクティスに従って PostgreSQL を強化する方法を説明します。
 
 ＃＃＃１．１． PostgreSQL セキュリティ層
 
-![PostgreSQL セキュリティの 7 層 — アプリケーションから OS 層まで](/storage/uploads/2026/04/healthcare-postgresql-security-layers.png)
+![PostgreSQL セキュリティの 7 層 — アプリケーションから OS 層まで](/storage/uploads/2026/04/healthcare-postgresql-security-layers.webp)
 
 |レイヤー |名前 |成分 |
 |----------|-----|----------|
@@ -331,7 +331,7 @@ WHERE usename IS NOT NULL;
 
 ＃＃＃４．１．医療における最小特権原則
 
-![医療システムの PostgreSQL 役割階層](/storage/uploads/2026/04/healthcare-postgresql-role-hierarchy.png)
+![医療システムの PostgreSQL 役割階層](/storage/uploads/2026/04/healthcare-postgresql-role-hierarchy.webp)
 
 - **postgres** (スーパーユーザー) ← メンテナンスのみに使用されます
   - **dba_admin** (CREATEDB、CREATEROLE) — スキーマ管理、バックアップ、監視
@@ -619,7 +619,7 @@ WHERE rolcanlogin = true
 - レート制限
 - 接続ルーティング
 
-![PgBouncer 接続プーリング — 140 の接続を 50 に削減](/storage/uploads/2026/04/healthcare-pgbouncer-connection-pooling.png)
+![PgBouncer 接続プーリング — 140 の接続を 50 に削減](/storage/uploads/2026/04/healthcare-pgbouncer-connection-pooling.webp)
 
 ＃＃＃６．２． PgBouncer の構成
 

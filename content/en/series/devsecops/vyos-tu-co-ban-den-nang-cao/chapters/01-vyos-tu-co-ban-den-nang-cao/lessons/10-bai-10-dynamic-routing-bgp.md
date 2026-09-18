@@ -15,7 +15,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-10-bgp.png" alt="Dynamic Routing - BGP" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-10-bgp.webp" alt="Dynamic Routing - BGP" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Introduction to BGP on VyOS</h2>
 <p>This lesson explains how to configure <strong>BGP</strong> (Border Gateway Protocol) on VyOS 1.4.x/1.5 rolling release. BGP is the standard dynamic routing protocol for large networks, ISPs, and multi-provider connectivity.</p>

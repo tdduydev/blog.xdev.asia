@@ -85,7 +85,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 19: ML Pipeline Integration - Training & Serving Data](/storage/uploads/2026/03/dp-bai-19-diagram.png)
+![Bài 19: ML Pipeline Integration - Training & Serving Data](/storage/uploads/2026/03/dp-bai-19-diagram.webp)
 
 ## Giới thiệu
 

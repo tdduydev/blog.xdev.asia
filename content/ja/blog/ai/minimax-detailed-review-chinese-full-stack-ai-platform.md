@@ -3,7 +3,7 @@ id: 01970970-63e1-4389-a405-cc6388623b4e
 title: 'MiniMax：中国発フルスタックAIプラットフォームの詳細レビュー — テキスト、動画、音声、音楽が一つのエコシステムに'
 slug: minimax-detailed-review-chinese-full-stack-ai-platform
 excerpt: MiniMax の詳細レビュー — 世界で最も完全なマルチモーダルエコシステムを持つ中国のAIスタートアップ。M2.7（Opus 4.6と同等のテキスト/コード）、Hailuo 2.3（動画）、Speech 2.6、Music 2.6まで。モデル、製品、API、価格、OpenAI・Google・Anthropicとの比較、クイックスタートガイドを分析します。
-featured_image: /images/blog/minimax-review-featured.png
+featured_image: /images/blog/minimax-review-featured.webp
 type: blog
 reading_time: 25
 view_count: 0

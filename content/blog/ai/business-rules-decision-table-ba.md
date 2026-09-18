@@ -6,7 +6,7 @@ excerpt: >-
   Business rule là phần dễ gây rework nhất nếu BA viết mơ hồ. Bài này hướng dẫn
   cách phân loại rule, viết rule atomic, dùng decision table, ví dụ duyệt đơn
   vay và checklist review trước khi đưa vào SRS, user story hoặc test case.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 15
 view_count: 0

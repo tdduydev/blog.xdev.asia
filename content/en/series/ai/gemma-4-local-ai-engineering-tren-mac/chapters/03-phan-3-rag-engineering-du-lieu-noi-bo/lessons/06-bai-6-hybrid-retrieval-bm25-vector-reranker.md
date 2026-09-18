@@ -129,7 +129,7 @@ Mandatory practices:
 
 Hybrid retrieval combining BM25 + Vector search with RRF fusion:
 
-![Hybrid Retrieval](/images/blog/gemma4-series-demo/06-hybrid-retrieval.png)
+![Hybrid Retrieval](/images/blog/gemma4-series-demo/06-hybrid-retrieval.webp)
 
 > Source code: [05-hybrid-retrieval](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/05-hybrid-retrieval)
 

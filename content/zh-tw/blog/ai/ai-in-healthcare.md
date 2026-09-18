@@ -4,7 +4,7 @@ title: "醫療領域的AI：從診斷到治療的全面革命"
 slug: ai-in-healthcare
 excerpt: >-
   深入分析AI在醫療領域的應用——從超越專科醫師的CNN醫療影像、EHR分析NLP、將新藥研發從12年壓縮至數月，到個人化基因組治療。涵蓋真實案例研究、技術挑戰、倫理議題，以及越南的部署路線圖。
-featured_image: /images/blog/ai-trong-y-te-featured.png
+featured_image: /images/blog/ai-trong-y-te-featured.webp
 type: blog
 reading_time: 35
 view_count: 0

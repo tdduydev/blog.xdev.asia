@@ -4,7 +4,7 @@ title: "AIニュースダイジェスト 2026年4月6日：Copilotは「娯楽�
 slug: ai-news-digest-06-04-2026
 excerpt: >-
   本日のハイライト：MicrosoftがCopilotの利用規約を「娯楽目的のみ、専門的アドバイスに非ず」に変更し大きな議論を呼んでいます。日本は2040年までにPhysical AI分野で世界シェア30%獲得を目標に63億ドルを拠出。Anthropicが8,100件のGitHubリポジトリをDMCAで誤削除し謝罪。SalesforceがSlack AIを全面刷新、30の新機能にMCPサポートも追加。
-featured_image: /images/blog/ban-tin-ai-06-04-2026.png
+featured_image: /images/blog/ban-tin-ai-06-04-2026.webp
 type: blog
 reading_time: 10
 view_count: 0

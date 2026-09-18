@@ -95,7 +95,7 @@ locale: en
 After understanding the architectural and DDD evolution roadmap, this article draws the **overall blueprint** for the Full-Stack Microservices + Micro Frontend system — an architectural map that we will dive into in detail throughout the series.
 
 
-![Full-Stack Architecture Blueprint — Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai3-fullstack-architecture.png)
+![Full-Stack Architecture Blueprint — Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai3-fullstack-architecture.webp)
 
 ---
 

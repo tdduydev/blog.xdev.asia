@@ -17,7 +17,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai10-ml-patterns.png" alt="AWS ML Problem Patterns" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai10-ml-patterns.webp" alt="AWS ML Problem Patterns" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>ML Problem Patterns: Fraud detection, Recommendation, NLP, Time Series, and Computer Vision on AWS</em></p>
 </div>
 

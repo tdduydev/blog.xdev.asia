@@ -6,7 +6,7 @@ excerpt: >-
   Mastering FHIR REST API là kỹ năng quan trọng nhất khi làm FHIR. Bài viết
   cover CRUD, conditional ops, search params/modifier/prefix, chained search,
   _include/_revinclude, pagination, history, GraphQL — kèm ví dụ HAPI FHIR.
-featured_image: /images/blog/fhir-rest-search-featured.png
+featured_image: /images/blog/fhir-rest-search-featured.webp
 type: blog
 reading_time: 20
 view_count: 0

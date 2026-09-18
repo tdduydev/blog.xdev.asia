@@ -6,7 +6,7 @@ excerpt: >-
   有關在生產環境中以最少的停機時間將 PostgreSQL 17.6 升級到 18.1 的詳細說明。包括
   pg_upgrade、邏輯複製、回滾計劃以及帶有非同步 I/O、統計資料保存和新的 pg_upgrade --swap 模式的 PostgreSQL 18
   更新的最佳實踐。
-featured_image: /images/blog/postgresql-upgrade-featured.png
+featured_image: /images/blog/postgresql-upgrade-featured.webp
 type: blog
 reading_time: 15
 view_count: 0

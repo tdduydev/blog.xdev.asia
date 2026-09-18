@@ -87,7 +87,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 25: ケーススタディ - Spotify、Netflix、Airbnb & Mercado Libre](/storage/uploads/2026/03/pe-bai-25-diagram.png)
+![レッスン 25: ケーススタディ - Spotify、Netflix、Airbnb & Mercado Libre](/storage/uploads/2026/03/pe-bai-25-diagram.webp)
 
 ## はじめに
 

@@ -19,7 +19,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai7-deployment-options.png" alt="SageMaker Model Deployment Options" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai7-deployment-options.webp" alt="SageMaker Model Deployment Options" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>SageMakerデプロイ：リアルタイムエンドポイント、サーバーレス、非同期推論、バッチ変換</em></p>
 </div>
 

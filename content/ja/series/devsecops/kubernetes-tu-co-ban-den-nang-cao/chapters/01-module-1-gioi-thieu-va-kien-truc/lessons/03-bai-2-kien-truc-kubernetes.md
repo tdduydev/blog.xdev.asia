@@ -18,7 +18,7 @@ locale: ja
 
 <p>Kubernetes は、明確なマスター/ワーカー アーキテクチャを備えた分散モデルで設計されています。 Kubernetes を効果的に使用するには、特に問題が発生した場合にデバッグするには、各コンポーネントが何を行うのか、コンポーネントがどのように通信するのか、そしてなぜそのように設計されているのかを理解する必要があります。このレッスンでは、containerd 2.0 の重要な変更、kube-proxy の nftables モード、cgroup v2 ロードマップを含む Kubernetes 1.32 以降のアーキテクチャについて詳しく説明します。</p>
 
-<img src="/storage/uploads/2026/03/k8s-architecture-2026.png" alt="Kubernetes Architecture - Control Plane và Worker Nodes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-architecture-2026.webp" alt="Kubernetes Architecture - Control Plane và Worker Nodes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1.アーキテクチャの概要: コントロール プレーンとワーカー ノード</h2>
 
@@ -193,7 +193,7 @@ ___コードブロック_8___
 
 <p>実際的な方法でアーキテクチャを理解するために、__HTMLTAG_314___kubectl apply -f pod.yaml</code>:</p> を実行するときに発生するフローを追跡しましょう。
 
-<img src="/storage/uploads/2026/03/k8s-pod-creation-flow-2026.png" alt="Pod Creation Flow - từ kubectl đến Container" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-pod-creation-flow-2026.webp" alt="Pod Creation Flow - từ kubectl đến Container" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 ___コードブロック_9___
 

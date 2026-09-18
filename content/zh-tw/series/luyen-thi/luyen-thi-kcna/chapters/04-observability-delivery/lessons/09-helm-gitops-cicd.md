@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-kcna
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai9-helm-gitops.png" alt="GitOps 工作流程與 Helm 和 Argo CD" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai9-helm-gitops.webp" alt="GitOps 工作流程與 Helm 和 Argo CD" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="helm">1. Helm — Kubernetes 套件管理器</h2>
 

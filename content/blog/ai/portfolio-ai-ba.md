@@ -6,7 +6,7 @@ excerpt: >-
   BA muốn vào vị trí AI BA Senior hay chuyển sang AI PM cần portfolio thực chất,
   không chỉ liệt kê tools. Hướng dẫn cách structure case study AI project, chọn
   artifact nào showcase, và cách storytelling trên LinkedIn và CV.
-featured_image: /images/blog/portfolio-ai-ba.png
+featured_image: /images/blog/portfolio-ai-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

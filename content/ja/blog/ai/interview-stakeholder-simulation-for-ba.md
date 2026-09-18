@@ -4,7 +4,7 @@ title: "BAのためのインタビュー＆ステークホルダーシミュレ�
 slug: interview-stakeholder-simulation-for-ba
 excerpt: >-
   BAは難しいステークホルダーを説得し、競争の激しいインタビューを通過する必要があります。AIはあなたのために24時間365日、ステークホルダーシミュレーター、模擬面接官、悪魔の代弁者として機能できます。プロンプトテンプレート、練習シナリオ、そして本当の改善のためのシミュレーション品質評価方法のガイドです。
-featured_image: /images/blog/interview-simulation-ba.png
+featured_image: /images/blog/interview-simulation-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

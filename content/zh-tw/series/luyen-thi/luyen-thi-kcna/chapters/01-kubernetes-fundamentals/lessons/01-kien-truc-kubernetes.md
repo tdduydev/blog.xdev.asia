@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-kcna
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai1-architecture.png" alt="Kubernetes 架構 — Control Plane 與 Worker Node 元件" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai1-architecture.webp" alt="Kubernetes 架構 — Control Plane 與 Worker Node 元件" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="overview">1. Kubernetes 概覽</h2>
 

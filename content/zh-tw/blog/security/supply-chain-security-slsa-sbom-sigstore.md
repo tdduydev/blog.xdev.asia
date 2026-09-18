@@ -6,7 +6,7 @@ excerpt: >-
   在 xz、npm typosquat 與 build poisoning 之後,供應鏈攻擊已成為最常見的攻擊向量。
   SLSA + SBOM + Sigstore 這三個開放標準的組合,能讓你證明 artifact 是從哪、用什麼、
   由誰建置出來的。
-featured_image: /images/blog/supply-chain-slsa-sigstore-featured.png
+featured_image: /images/blog/supply-chain-slsa-sigstore-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

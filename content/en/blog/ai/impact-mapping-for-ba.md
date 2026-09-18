@@ -7,7 +7,7 @@ excerpt: >-
   business goals instead of building features for the sake of features. This
   article shows how to create an Impact Map for AI projects and use it to
   prioritize backlog items with clear rationale.
-featured_image: /images/blog/impact-mapping-ba.png
+featured_image: /images/blog/impact-mapping-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

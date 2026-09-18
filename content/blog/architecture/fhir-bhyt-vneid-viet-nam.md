@@ -6,7 +6,7 @@ excerpt: >-
   Áp dụng FHIR vào bối cảnh Việt Nam: ánh xạ thẻ BHYT vào Coverage, hồ sơ thanh toán
   vào Claim với danh mục DVKT, tích hợp VNeID Sổ Sức Khoẻ Điện tử, theo Quyết định
   3516/QĐ-BYT 2025 — kèm extension và profile khuyến nghị.
-featured_image: /images/blog/fhir-vietnam-featured.png
+featured_image: /images/blog/fhir-vietnam-featured.webp
 type: blog
 reading_time: 17
 view_count: 0

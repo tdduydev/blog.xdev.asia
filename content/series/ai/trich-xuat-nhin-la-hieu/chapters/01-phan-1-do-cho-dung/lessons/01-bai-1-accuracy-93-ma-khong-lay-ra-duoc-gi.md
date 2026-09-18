@@ -101,7 +101,7 @@ cd ner-nhin-la-hieu
 python3 scratch/ep01_accuracy.py
 ```
 
-![Kết quả chạy ep01_accuracy](/images/blog/trich-xuat-nhin-la-hieu/ep01_accuracy.png)
+![Kết quả chạy ep01_accuracy](/images/blog/trich-xuat-nhin-la-hieu/ep01_accuracy.webp)
 
 Toàn bộ số của bảy bài: `python3 measure.py`. Khẳng định số không đổi: `python3 run_tests.py`.
 

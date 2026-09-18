@@ -9,7 +9,7 @@ excerpt: >-
   BPMN, activity diagram, sequence diagram, state diagram and domain model. This
   article shows how to choose a diagram, for example, set a schedule and a
   checklist to review the diagram before handoff.
-featured_image: /images/blog/uml-bpmn-ai-assisted-flows.png
+featured_image: /images/blog/uml-bpmn-ai-assisted-flows.webp
 type: blog
 reading_time: 16
 view_count: 0

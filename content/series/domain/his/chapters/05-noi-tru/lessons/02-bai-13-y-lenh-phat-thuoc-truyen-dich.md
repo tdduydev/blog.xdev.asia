@@ -7,7 +7,7 @@ description: >-
   — ghi nhận. eMAR, 5 đúng (Right) khi phát thuốc, ghi nhận truyền dịch.
 duration_minutes: 60
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-13-y-lenh-phat-thuoc-truyen-dich-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-13-y-lenh-phat-thuoc-truyen-dich-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 5: Nội trú (IPD)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Y lệnh điện tử — eMAR & 5 Right](/storage/uploads/2026/05/his/bai-13-y-lenh-phat-thuoc-truyen-dich-banner.png)
+![Y lệnh điện tử — eMAR & 5 Right](/storage/uploads/2026/05/his/bai-13-y-lenh-phat-thuoc-truyen-dich-banner.webp)
 
 ## Mục tiêu
 
-![Điều dưỡng quét vòng tay BN trước khi cho thuốc](/storage/uploads/2026/05/his/bai-13-y-lenh-phat-thuoc-truyen-dich-workflow.png)
+![Điều dưỡng quét vòng tay BN trước khi cho thuốc](/storage/uploads/2026/05/his/bai-13-y-lenh-phat-thuoc-truyen-dich-workflow.webp)
 
 Y lệnh nội trú (CPOE) + eMAR (electronic Medication Administration Record) là **lớp an toàn lâm sàng quan trọng nhất** của HIS. Sai sót thuốc là nguyên nhân #1 gây tai biến điều trị (Institute of Medicine ước 7.000 tử vong/năm tại Mỹ chỉ riêng vì sai thuốc). Module này phải:
 

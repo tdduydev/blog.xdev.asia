@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai6-bqml-tfx.png" alt="BigQuery ML & TFX Pipeline" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai6-bqml-tfx.webp" alt="BigQuery ML & TFX Pipeline" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>BigQuery ML與TFX管線：使用SQL訓練模型、模型最佳化與生產ML管線</em></p>
 </div>
 

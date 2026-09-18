@@ -6,7 +6,7 @@ excerpt: >-
   Hai service không nên dùng chung một kho dữ liệu. Nhưng chỗ nhiều đội hiểu sai và bị chặn oan:
   dùng chung database server thì an toàn — chung schema hoặc chung bộ bảng mới là chỗ hỏng, vì đó
   là lúc bạn dùng chung lịch trình triển khai.
-featured_image: /images/blog/mot-database-cho-moi-service/cover.png
+featured_image: /images/blog/mot-database-cho-moi-service/cover.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -13,7 +13,7 @@ course:
   title: 'HL7 FHIR R5 Chuyên Sâu — Reference & Thực hành'
   slug: hl7-fhir-r5-chuyen-sau
 ---
-![Exporing FHIR R5 Servers](/storage/uploads/hl7-r5/root/image_13_.png)
+![Exporing FHIR R5 Servers](/storage/uploads/hl7-r5/root/image_13_.webp)
 
 *Exporing FHIR R5 Servers*
 
@@ -105,7 +105,7 @@ curl -X POST -H "Content-Type: application/fhir+json" \
 
 ### Firely Server R5 instances
 
-![Firely Server](/storage/uploads/hl7-r5/root/Screenshot_2025-03-13_111809.png)
+![Firely Server](/storage/uploads/hl7-r5/root/Screenshot_2025-03-13_111809.webp)
 
 *Firely Server*
 
@@ -183,7 +183,7 @@ Firely Server Enterprise cung cấp thêm nhiều tính năng như:
 
 FHIR Browser là các công cụ trực quan giúp bạn khám phá và tương tác với FHIR resources mà không cần phải viết code phức tạp. Dưới đây là một số FHIR Browser hỗ trợ R5:
 
-![FHIR Browser](/storage/uploads/hl7-r5/root/image_15_.png)
+![FHIR Browser](/storage/uploads/hl7-r5/root/image_15_.webp)
 
 *FHIR Browser*
 
@@ -264,7 +264,7 @@ Firely Terminal là một công cụ mạnh mẽ cho các nhà phát triển FHI
 
 ### Tools khám phá R5 resources
 
-![Tools R5 resources](/storage/uploads/hl7-r5/root/image_16_.png)
+![Tools R5 resources](/storage/uploads/hl7-r5/root/image_16_.webp)
 
 *Tools R5 resources*
 

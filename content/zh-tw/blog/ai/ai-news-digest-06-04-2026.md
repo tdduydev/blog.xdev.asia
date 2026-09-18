@@ -4,7 +4,7 @@ title: "AI新聞摘要 2026年4月6日：Copilot被標注「僅供娛樂」、�
 slug: ai-news-digest-06-04-2026
 excerpt: >-
   Microsoft Copilot的「娛樂目的」服務條款風波、日本宣布在Physical AI投入63億美元、Cognichip完成6,000萬美元種子輪、Anthropic誤發DMCA下架8,100個GitHub儲存庫、Salesforce Slack AI全面革新，以及OpenAI完成一筆不尋常的收購。
-featured_image: /images/blog/ban-tin-ai-06-04-2026.png
+featured_image: /images/blog/ban-tin-ai-06-04-2026.webp
 type: blog
 reading_time: 10
 view_count: 0

@@ -5,7 +5,7 @@ slug: khong-gian-trang-thai-tro-choi-8-so
 excerpt: >-
   Trò chơi 8 số có 362 880 cách xếp. Duyệt hết không gian trạng thái thì chỉ chạm được
   181 440 — đúng một nửa. Nửa còn lại không phải khó, mà là không tồn tại đường đi.
-featured_image: /images/blog/khong-gian-trang-thai-tro-choi-8-so.png
+featured_image: /images/blog/khong-gian-trang-thai-tro-choi-8-so.webp
 type: blog
 reading_time: 9
 view_count: 0
@@ -191,7 +191,7 @@ chạy hết hai giây:
 python3 measure.py
 ```
 
-![Kết quả chạy measure.py](/images/blog/khong-gian-trang-thai-tro-choi-8-so-terminal.png)
+![Kết quả chạy measure.py](/images/blog/khong-gian-trang-thai-tro-choi-8-so-terminal.webp)
 
 Không con số nào trong bài chép từ sách. Muốn kiểm thì chạy lại — sẽ ra đúng từng con số.
 

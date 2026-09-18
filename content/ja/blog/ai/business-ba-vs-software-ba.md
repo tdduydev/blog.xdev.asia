@@ -5,7 +5,7 @@ slug: business-ba-vs-software-ba
 excerpt: >-
   ビジネス BA とソフトウェア BA
   には多くの共通点がありますが、同じではありません。この記事では、役割、成果物、スキル、日々の作業例、学習パスについて説明し、どの方向に進む必要があるかを理解します。
-featured_image: /images/blog/roadmap-ba-featured.png
+featured_image: /images/blog/roadmap-ba-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

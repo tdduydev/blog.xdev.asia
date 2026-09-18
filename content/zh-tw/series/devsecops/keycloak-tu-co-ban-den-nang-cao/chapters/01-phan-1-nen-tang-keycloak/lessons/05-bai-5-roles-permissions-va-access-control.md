@@ -15,7 +15,7 @@ course:
 locale: zh-tw
 ---
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/03/keycloak-rbac-permissions-2026.png" alt="Keycloak RBAC & Fine-grained Permissions" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/03/keycloak-rbac-permissions-2026.webp" alt="Keycloak RBAC & Fine-grained Permissions" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Keycloak 中的 RBAC 和細微管理員權限 V2 模型</em></p>
 </div>
 

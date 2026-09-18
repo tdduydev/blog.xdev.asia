@@ -6,7 +6,7 @@ excerpt: >-
   Profile và Implementation Guide là cách bạn ràng buộc FHIR cho ngữ cảnh cụ thể
   (một quốc gia, một bệnh viện, một use case). Bài viết hướng dẫn StructureDefinition,
   ngôn ngữ FSH, công cụ SUSHI, IG Publisher, và CI với GitHub Actions.
-featured_image: /images/blog/fhir-profiling-featured.png
+featured_image: /images/blog/fhir-profiling-featured.webp
 type: blog
 reading_time: 18
 view_count: 0

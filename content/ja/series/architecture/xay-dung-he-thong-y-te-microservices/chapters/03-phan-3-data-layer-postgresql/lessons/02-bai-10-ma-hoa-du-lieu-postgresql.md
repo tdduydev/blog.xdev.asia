@@ -90,13 +90,13 @@ locale: ja
 
 ## 1. 医療データの暗号化の概要
 
-![医療データ暗号化の 4 層: ディスク、TDE、カラム、アプリケーション](/storage/uploads/2026/04/healthcare-encryption-layers.png)
+![医療データ暗号化の 4 層: ディスク、TDE、カラム、アプリケーション](/storage/uploads/2026/04/healthcare-encryption-layers.webp)
 
 医療データ (PHI) は、保存中 (保存時) と転送中 (送信時) の **2 つの状態**で暗号化する必要があります。 HIPAA セキュリティ規則 §164.312(a)(2)(iv) および §164.312(e)(2)(ii) は、暗号化要件を具体的に規制しています。
 
 ＃＃＃１．１．暗号化レイヤー
 
-![医療データ暗号化レイヤー — 転送中、保存中 (4 レベル)、バックアップ](/storage/uploads/2026/04/healthcare-encryption-layers.png)
+![医療データ暗号化レイヤー — 転送中、保存中 (4 レベル)、バックアップ](/storage/uploads/2026/04/healthcare-encryption-layers.webp)
 
 - **転送中**: アプリケーションとデータベース間の TLS 1.3
 - **保存時レベル 1**: フルディスク暗号化 (LUKS/dm-crypt) - ディスク盗難時の保護
@@ -540,7 +540,7 @@ public class SslVerificationService {
 
 ＃＃＃５．１． Vault Transit Secrets エンジン
 
-![Vault Transit を使用したエンベロープ暗号化パターン — DEK + KEK](/storage/uploads/2026/04/healthcare-vault-envelope-encryption.png)
+![Vault Transit を使用したエンベロープ暗号化パターン — DEK + KEK](/storage/uploads/2026/04/healthcare-vault-envelope-encryption.webp)
 
 **エンベロープ暗号化プロセス:**
 
@@ -925,7 +925,7 @@ echo "Restore completed from: ${BACKUP_FILE}"
 
 ### 8.1。キーローテーションプロセス
 
-![キーのローテーション タイムライン — v1 → v2 → v3 90 日ごと (Vault 自動ローテーションあり)](/storage/uploads/2026/04/healthcare-key-rotation-timeline.png)
+![キーのローテーション タイムライン — v1 → v2 → v3 90 日ごと (Vault 自動ローテーションあり)](/storage/uploads/2026/04/healthcare-key-rotation-timeline.webp)
 
 - **0 ～ 90 日目**: キー v1 がアクティブ — 新しいデータを暗号化します
 - **90 ～ 180 日目**: キー v2 がアクティブ — 古いデータを再暗号化します。v1 は引き続き復号化できます

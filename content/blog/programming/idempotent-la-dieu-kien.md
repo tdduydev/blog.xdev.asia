@@ -6,7 +6,7 @@ excerpt: >-
   Cú gọi gốc có thể THÀNH CÔNG mà phản hồi không về được. Từ phía bên gọi, "chưa làm" và "làm rồi mà
   tôi không biết" trông y hệt nhau — nên retry có an toàn hay không là câu hỏi về bên nhận, không
   phải về cấu hình của bên gọi.
-featured_image: /images/blog/idempotent-la-dieu-kien/cover.png
+featured_image: /images/blog/idempotent-la-dieu-kien/cover.webp
 type: blog
 reading_time: 10
 view_count: 0

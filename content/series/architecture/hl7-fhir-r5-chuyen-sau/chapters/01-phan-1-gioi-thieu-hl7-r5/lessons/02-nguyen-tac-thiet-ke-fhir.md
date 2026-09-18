@@ -19,7 +19,7 @@ FHIR (Fast Healthcare Interoperability Resources) đã trở thành tiêu chuẩ
 
 ### 80/20 rule trong thiết kế tài nguyên
 
-![HL7 FHIR R5](/storage/uploads/hl7-r5/root/image_2_1_1_.png)
+![HL7 FHIR R5](/storage/uploads/hl7-r5/root/image_2_1_1_.webp)
 
 Nguyên tắc Pareto (hay quy tắc 80/20) là một trong những nền tảng quan trọng nhất trong thiết kế FHIR. Cách tiếp cận này công nhận rằng:
 

@@ -6,7 +6,7 @@ excerpt: >-
   當 AI 產生錯誤結果時，誰要負責？誰決定安全閾值？
   需要上報時，通過誰？RACI 矩陣幫助 BA 清楚地定義所有 AI 相關操作的角色、責任和決策權——
   從提示變更到生產發布。
-featured_image: /images/blog/ai-governance-raci.png
+featured_image: /images/blog/ai-governance-raci.webp
 type: blog
 reading_time: 9
 view_count: 0

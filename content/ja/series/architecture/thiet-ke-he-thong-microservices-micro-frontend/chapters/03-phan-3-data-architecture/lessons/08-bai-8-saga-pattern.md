@@ -92,7 +92,7 @@ locale: ja
 Monolith では、トランザクションは簡単です。 `BEGIN → INSERT order → UPDATE inventory → COMMIT`。マイクロサービスでは各サービスが独自のDBを持つ→分散ACIDトランザクションが使えない（2PCは遅すぎる、壊れやすい）。 **Saga パターン** が標準ソリューションです。
 
 
-![Saga パターン — 分散トランザクションのコレオグラフィーとオーケストレーション](/storage/uploads/2026/04/mfe-ms-diagram-bai8-saga-pattern.png)
+![Saga パターン — 分散トランザクションのコレオグラフィーとオーケストレーション](/storage/uploads/2026/04/mfe-ms-diagram-bai8-saga-pattern.webp)
 
 ---
 

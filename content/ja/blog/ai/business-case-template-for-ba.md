@@ -6,7 +6,7 @@ excerpt: >-
   Business Case は、AI project への投資を正当化するために BA が作成すべき
   文書です。本記事では、problem statement から financial analysis、risk assessment
   までを含む完全な template と書き方の指針を提供します。
-featured_image: /images/blog/business-case-template-ba.png
+featured_image: /images/blog/business-case-template-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

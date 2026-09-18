@@ -4,7 +4,7 @@ title: "AIニュースダイジェスト 2026年4月5日：Microsoftが3つの�
 slug: ai-news-digest-05-04-2026
 excerpt: >-
   今週のAI業界は特に活発でした：MicrosoftがMAI基盤モデル3種（音声認識・音声生成・画像）を同時発表し、H CompanyのHolo3がOSWorldベンチマークで78.85%のSoTAを達成。Anthropicはバイオテックスタートアップを4億ドルで買収し、Claude CodeのサブスクリプションからOpenClawを締め出す決定を下しました。
-featured_image: /images/blog/ban-tin-ai-05-04-2026.png
+featured_image: /images/blog/ban-tin-ai-05-04-2026.webp
 type: blog
 reading_time: 10
 view_count: 0

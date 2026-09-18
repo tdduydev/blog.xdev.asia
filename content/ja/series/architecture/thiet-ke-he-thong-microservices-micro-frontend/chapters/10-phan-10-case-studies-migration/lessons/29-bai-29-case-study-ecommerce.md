@@ -92,7 +92,7 @@ locale: ja
 この記事は、実際の **E コマース プラットフォーム**に適用された、これまでの 28 の記事から得たすべての知識を要約したものです。アーキテクチャの決定→実装→展開→監視。
 
 
-![E-Commerce Platform — Full-Stack Architecture Case Study](/storage/uploads/2026/04/mfe-ms-diagram-bai29-ecommerce-case-study.png)
+![E-Commerce Platform — Full-Stack Architecture Case Study](/storage/uploads/2026/04/mfe-ms-diagram-bai29-ecommerce-case-study.webp)
 
 ---
 

@@ -26,7 +26,7 @@ course:
 
 <blockquote><p><strong>考試提示：</strong>NVIDIA DLI 評估經常要求你補全 attention 機制的程式碼，或除錯 Transformer 中的維度不匹配錯誤。掌握 attention 每個步驟的 <strong>tensor 形狀</strong>——這是通過評估的關鍵。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai2-transformer-architecture.png" alt="Transformer 架構 — Encoder-Decoder、Self-Attention、Cross-Attention" loading="lazy" /><figcaption>Transformer 架構 — Encoder-Decoder、Self-Attention、Cross-Attention</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai2-transformer-architecture.webp" alt="Transformer 架構 — Encoder-Decoder、Self-Attention、Cross-Attention" loading="lazy" /><figcaption>Transformer 架構 — Encoder-Decoder、Self-Attention、Cross-Attention</figcaption></figure>
 
 <h2 id="attention-mechanism">2. Attention 機制</h2>
 

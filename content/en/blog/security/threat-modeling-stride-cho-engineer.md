@@ -6,7 +6,7 @@ excerpt: >-
   A threat model does not need to be a 50-page document. A 60-minute session
   with a level-1 DFD, STRIDE and a risk register is enough to avoid the design
   flaws that show up repeatedly in audits and pentests.
-featured_image: /images/blog/threat-modeling-stride-featured.png
+featured_image: /images/blog/threat-modeling-stride-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

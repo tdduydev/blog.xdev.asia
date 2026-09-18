@@ -18,7 +18,7 @@ course:
 ---
 <h2>🎯 Mục tiêu bài học</h2><p>Hiểu ReplicaSet đảm bảo số lượng Pod replicas, tại sao Deployment tốt hơn ReplicaSet thuần, cách thực hiện rolling update và rollback an toàn, và các deployment strategies phổ biến.</p>
 
-<img src="/storage/uploads/2026/03/k8s-deployment-rolling-update-2026.png" alt="Kubernetes Deployment & Rolling Update Strategies" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-deployment-rolling-update-2026.webp" alt="Kubernetes Deployment & Rolling Update Strategies" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. ReplicaSet</h2>
 <p>ReplicaSet đảm bảo số lượng Pod replicas được chỉ định luôn chạy. Nếu Pod bị xóa hoặc crash, ReplicaSet tạo Pod mới để bù vào.</p>

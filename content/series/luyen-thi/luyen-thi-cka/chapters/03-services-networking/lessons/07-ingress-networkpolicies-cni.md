@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai7-ingress-network.png" alt="Ingress Routing và NetworkPolicy — L7 routing và network segmentation" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai7-ingress-network.webp" alt="Ingress Routing và NetworkPolicy — L7 routing và network segmentation" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="ingress">1. Ingress</h2>
 

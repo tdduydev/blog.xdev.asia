@@ -3,7 +3,7 @@ id: 05e72d3d-f5d2-4304-8fe1-c29fe5ac8ec6
 title: 'NVIDIA DLI Generative AI: Complete Certificates, Courses, Assessments, and Detailed Learning Path'
 slug: nvidia-dli-generative-ai-certificate-learning-path
 excerpt: A detailed guide to the complete NVIDIA DLI ecosystem for Generative AI and LLMs — from Diffusion Models, RAG Agents, and Agentic AI to Transformer NLP. Analysis of exam content, assessment difficulty, sample questions, exam tips, and a learning roadmap from beginner to professional.
-featured_image: /images/blog/nvidia-dli-genai-featured.png
+featured_image: /images/blog/nvidia-dli-genai-featured.webp
 type: blog
 reading_time: 30
 view_count: 0

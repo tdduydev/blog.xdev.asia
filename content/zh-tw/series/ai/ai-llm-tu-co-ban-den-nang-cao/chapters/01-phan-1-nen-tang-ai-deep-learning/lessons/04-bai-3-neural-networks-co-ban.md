@@ -110,7 +110,7 @@ np.random.seed(42)
 2. **細胞體/體細胞中的治療**（考慮所有意見）
 3. **訊號**透過軸突**如果**足夠的刺激（做出決定：「是」或「否」）
 
-![比較生物神經元和人工神經元（感知器）](/storage/uploads/2026/03/neuron-bio-vs-artificial.png)
+![比較生物神經元和人工神經元（感知器）](/storage/uploads/2026/03/neuron-bio-vs-artificial.webp)
 
 **現實生活中的例子：**想像一下你正在決定是否要和朋友出去吃飯：
 
@@ -266,7 +266,7 @@ def leaky_relu(x, alpha=0.01):
 
 ### 3.1 架構—“決策工廠”
 
-![多層感知器架構：輸入→隱藏層→輸出](/storage/uploads/2026/03/neural-network-architecture.png)
+![多層感知器架構：輸入→隱藏層→輸出](/storage/uploads/2026/03/neural-network-architecture.webp)
 
 想像 MLP 是訂單處理**工廠**：
 

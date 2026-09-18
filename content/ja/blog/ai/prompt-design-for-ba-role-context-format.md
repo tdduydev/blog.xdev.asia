@@ -4,7 +4,7 @@ title: "BA 向けプロンプト設計：役割、目的、コンテキスト、
 slug: prompt-design-for-ba-role-context-format
 excerpt: >-
   BA はファインチューニングや埋め込みを知る必要はありません。しかし、日常業務と AI 機能仕様に対して十分なプロンプトを作成する必要があります。このガイドは、RPCF フレームワーク（役割、目的、コンテキスト、フォーマット）を教えます。BA が再現可能で制御されたプロンプトを設計する方法。
-featured_image: /images/blog/prompt-design-ba.png
+featured_image: /images/blog/prompt-design-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

@@ -7,7 +7,7 @@ description: >-
   bởi BS chẩn đoán hình ảnh, ký số phiếu CĐHA và trả về EMR.
 duration_minutes: 55
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-19-ris-luong-cdha-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-19-ris-luong-cdha-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 8: Chẩn đoán hình ảnh (RIS / PACS)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![RIS — quy trình chẩn đoán hình ảnh](/storage/uploads/2026/05/his/bai-19-ris-luong-cdha-banner.png)
+![RIS — quy trình chẩn đoán hình ảnh](/storage/uploads/2026/05/his/bai-19-ris-luong-cdha-banner.webp)
 
 ## Tổng quan
 
-![Phòng CT/MR và phòng đọc hình của bác sĩ](/storage/uploads/2026/05/his/bai-19-ris-luong-cdha-workflow.png)
+![Phòng CT/MR và phòng đọc hình của bác sĩ](/storage/uploads/2026/05/his/bai-19-ris-luong-cdha-workflow.webp)
 
 
 ## Mục tiêu bài học

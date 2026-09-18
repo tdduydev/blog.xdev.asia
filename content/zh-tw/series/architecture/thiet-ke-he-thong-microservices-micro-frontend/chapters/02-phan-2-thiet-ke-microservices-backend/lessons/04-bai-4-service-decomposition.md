@@ -90,7 +90,7 @@ locale: zh-tw
 遷移到微服務時，服務分離是最重要的架構決策。劃分太小→複雜性爆炸。分太大→分散式整體。本文指導了正確定義服務邊界的系統方法。
 
 
-![服務分解－將系統分解為微服務](/storage/uploads/2026/04/mfe-ms-diagram-bai4-service-decomposition.png)
+![服務分解－將系統分解為微服務](/storage/uploads/2026/04/mfe-ms-diagram-bai4-service-decomposition.webp)
 
 ---
 

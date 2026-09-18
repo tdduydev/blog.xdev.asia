@@ -20,7 +20,7 @@ course:
 
 <h2>1. Pod là gì?</h2>
 
-<img src="/storage/uploads/2026/03/k8s-pod-lifecycle-2026.png" alt="Kubernetes Pod Lifecycle Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-pod-lifecycle-2026.webp" alt="Kubernetes Pod Lifecycle Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <p>Pod là đơn vị scheduling nhỏ nhất trong Kubernetes. Một Pod bao gồm <strong>một hoặc nhiều containers</strong> chạy trên cùng một Node, chia sẻ chung:</p>
 <ul>

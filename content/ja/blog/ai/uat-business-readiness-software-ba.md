@@ -5,7 +5,7 @@ slug: uat-business-readiness-software-ba
 excerpt: >-
   UAT は、ユーザーにいくつかの画面をテストさせるだけではありません。この記事では、BA が UAT 計画を作成し、シナリオを選択し、テスト
   データを準備し、欠陥を管理し、トレーニング、ロールアウトし、継続/中止を決定する方法を説明します。
-featured_image: /images/blog/uat-business-readiness-ai.png
+featured_image: /images/blog/uat-business-readiness-ai.webp
 type: blog
 reading_time: 12
 view_count: 0

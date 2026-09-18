@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. 醫療保健 API 閘道模式
 
-![API Gateway Reference Architecture — WAF, Nginx, Quarkus Gateway](/storage/uploads/2026/04/healthcare-api-gateway-architecture.png)
+![API Gateway Reference Architecture — WAF, Nginx, Quarkus Gateway](/storage/uploads/2026/04/healthcare-api-gateway-architecture.webp)
 
 
 API 閘道可作為整個醫療微服務系統的**單一入口點**。它專注於橫切關注點：身份驗證、速率限制、輸入驗證、審計日誌記錄和安全標頭，而不是每個服務都實現自己的服務。

@@ -6,7 +6,7 @@ excerpt: >-
   シフトレフトとは開発者に作業を押し付けることではありません。欠陥が生まれる場所の近くで
   セキュリティ制御を自動化し、チームが素早く修正でき、セキュリティをシステムの既定の
   プロパティにすることが目的です。
-featured_image: /images/blog/devsecops-shift-left-featured.png
+featured_image: /images/blog/devsecops-shift-left-featured.webp
 type: blog
 reading_time: 8
 view_count: 0

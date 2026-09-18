@@ -94,7 +94,7 @@ locale: en
 Micro Frontend extends the idea of Microservices to **frontend**: dividing the web application into small parts, each part is owned, developed and deployed **independently** by a team. This article explains why Micro Frontend is needed and when it should (or should not) be used.
 
 
-![Micro Frontend Overview — each team owns a vertical slice](/storage/uploads/2026/04/mfe-ms-diagram-bai10-micro-frontend-overview.png)
+![Micro Frontend Overview — each team owns a vertical slice](/storage/uploads/2026/04/mfe-ms-diagram-bai10-micro-frontend-overview.webp)
 
 ---
 

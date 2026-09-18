@@ -87,7 +87,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 7 課：PostgreSQL 上的 OMOP CDM 資料庫](/storage/uploads/2026/03/ohdsi-bai-7-postgresql-cdm-setup.png)
+![第 7 課：PostgreSQL 上的 OMOP CDM 資料庫](/storage/uploads/2026/03/ohdsi-bai-7-postgresql-cdm-setup.webp)
 
 ## 簡介
 

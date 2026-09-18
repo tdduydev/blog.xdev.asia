@@ -4,7 +4,7 @@ title: "BA 認定資格：ECBA、CBAP、IIBA-AAC または PMI-PBA か？ エン
 slug: ba-certification-ecba-cbap-iiba-aac
 excerpt: >-
   多くの BA 認定資格があります。ECBA、CCBA、CBAP、IIBA-AAC、IIBA-CBDA、PMI-PBA、BCS。どれがあなたに合っていますか？このガイドは各資格を前提条件、実際の価値、市場需要で分析し、現在のレベルに基づいて 12 ヶ月のロードマップを計画するのに役立ちます。
-featured_image: /images/blog/ba-certification-roadmap.png
+featured_image: /images/blog/ba-certification-roadmap.webp
 type: blog
 reading_time: 10
 view_count: 0

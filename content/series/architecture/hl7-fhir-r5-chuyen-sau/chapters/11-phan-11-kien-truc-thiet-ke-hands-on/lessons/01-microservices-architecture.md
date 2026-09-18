@@ -13,7 +13,7 @@ course:
   title: 'HL7 FHIR R5 Chuyên Sâu — Reference & Thực hành'
   slug: hl7-fhir-r5-chuyen-sau
 ---
-![FHIR Microservices Overview](/storage/uploads/hl7-r5/handson/image_1_.png)
+![FHIR Microservices Overview](/storage/uploads/hl7-r5/handson/image_1_.webp)
 
 *FHIR Microservices Overview*
 

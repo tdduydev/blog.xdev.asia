@@ -92,7 +92,7 @@ locale: ja
 ほとんどの実用的なシステムはモノリスから始まります。そして、それは優れたモノリスです。マイクロサービス + マイクロ フロントエンドへの移行は、**長いプロセス**であり、ビッグバンの書き換えではありません。この記事では、安全な段階的な移行パスについて説明します。
 
 
-![Strangler Fig パターン — モノリスからマイクロサービスへの移行](/storage/uploads/2026/04/mfe-ms-diagram-bai30-strangler-fig-migration.png)
+![Strangler Fig パターン — モノリスからマイクロサービスへの移行](/storage/uploads/2026/04/mfe-ms-diagram-bai30-strangler-fig-migration.webp)
 
 ---
 

@@ -119,7 +119,7 @@ Trước khi bắt tay vào viết code hay tinh chỉnh mô hình, bạn cần 
 
 Nhiều người dùng các thuật ngữ này thay thế nhau, nhưng chúng có quan hệ **lồng nhau** (nested), không phải đồng nghĩa.
 
-![Sơ đồ quan hệ lồng nhau giữa AI, Machine Learning, Deep Learning và LLM](/storage/uploads/2026/03/ai-ml-dl-llm-diagram.png)
+![Sơ đồ quan hệ lồng nhau giữa AI, Machine Learning, Deep Learning và LLM](/storage/uploads/2026/03/ai-ml-dl-llm-diagram.webp)
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -199,7 +199,7 @@ ChatGPT không chỉ là GPT-3 to hơn. Bí quyết là **RLHF (Reinforcement Le
 
 ## 5. Lộ trình của series này
 
-![Lộ trình học tập từ Nền tảng đến Ứng dụng thực tế](/storage/uploads/2026/03/ai-series-roadmap.png)
+![Lộ trình học tập từ Nền tảng đến Ứng dụng thực tế](/storage/uploads/2026/03/ai-series-roadmap.webp)
 
 Series này được chia thành 5 phần chính:
 

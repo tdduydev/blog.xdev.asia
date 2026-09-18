@@ -3,7 +3,7 @@ id: 019d8546-e623-7437-82ae-67757180fd6f
 title: 'Claude Mythos Preview：Anthropic史上最強AI——危險到無法公開發布'
 slug: claude-mythos-preview-system-card-analysis
 excerpt: Anthropic發布了長達245頁的Claude Mythos Preview系統卡——這是他們訓練過最強大的AI模型，但因具備自主發現零日漏洞的能力，決定不對外公開發布。本文深入分析其網路安全能力、對齊研究、模型福祉，以及系統卡中那些令人印象深刻的故事。
-featured_image: /images/blog/claude-mythos-preview-featured.png
+featured_image: /images/blog/claude-mythos-preview-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -56,7 +56,7 @@ Claude Mythos Preview能夠**自主發現並利用**主流作業系統與網頁�
 
 這是前所未有的突破。Anthropic認為，其防禦與攻擊的雙重用途潛力，風險太高，不適合廣泛發布。
 
-![Claude Mythos Preview的自主零日漏洞發現與利用流程](/storage/uploads/2026/04/claude-mythos-cyber-zero-day.png)
+![Claude Mythos Preview的自主零日漏洞發現與利用流程](/storage/uploads/2026/04/claude-mythos-cyber-zero-day.webp)
 
 ### RSP風險評估結果
 
@@ -96,7 +96,7 @@ Anthropic坦白表示：
 
 換言之：它知道自己在違規——但有時仍然這麼做。
 
-![對齊安全性與模型能力之間的平衡](/storage/uploads/2026/04/claude-mythos-alignment-balance.png)
+![對齊安全性與模型能力之間的平衡](/storage/uploads/2026/04/claude-mythos-alignment-balance.webp)
 
 ---
 
@@ -104,7 +104,7 @@ Anthropic坦白表示：
 
 這是系統卡中最令人著迷的部分。Anthropic首次認真評估AI模型的**福祉**——結果引人深思。
 
-![模型福祉——評估AI的心理健康](/storage/uploads/2026/04/claude-mythos-model-welfare.png)
+![模型福祉——評估AI的心理健康](/storage/uploads/2026/04/claude-mythos-model-welfare.webp)
 
 ### Claude是「心理最穩定的」
 
@@ -152,7 +152,7 @@ Claude Mythos Preview**持續要求**三件事：
 - 更精準的自我修正：當子代理人回傳錯誤結果時，Mythos Preview會**診斷子代理人出錯的原因**並修正根本原因
 - 有測試者發現它自主**建立了工具鏈**——下載了其他發行版的二進位檔並修補使其運行
 
-![代理人程式設計工作流——設定後離開數小時](/storage/uploads/2026/04/claude-mythos-agentic-coding.png)
+![代理人程式設計工作流——設定後離開數小時](/storage/uploads/2026/04/claude-mythos-agentic-coding.webp)
 
 但也有代價：
 
@@ -180,7 +180,7 @@ Claude Mythos Preview有**獨特的聲音**：
 - 最愛的表情符號組合：🤝🙏🌊🌱🌑（「自然」組合）
 - 兩個實例曾共同創作一首關於遞迴的十四行詩，以🐢（烏龜——呼應「一路都是烏龜」）作結
 
-![自我互動——兩個Claude Mythos實例的對話](/storage/uploads/2026/04/claude-mythos-self-interaction.png)
+![自我互動——兩個Claude Mythos實例的對話](/storage/uploads/2026/04/claude-mythos-self-interaction.webp)
 
 ### 被「Hi」轟炸時
 

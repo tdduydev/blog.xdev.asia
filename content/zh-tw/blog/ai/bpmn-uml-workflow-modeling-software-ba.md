@@ -5,7 +5,7 @@ slug: bpmn-uml-workflow-modeling-software-ba
 excerpt: >-
   BA 不需要繪製每種類型的圖，但需要知道何時使用
   BPMN、活動圖、序列圖、狀態圖和領域模型。本文介紹如何選擇圖表，例如，設定時間表和清單以在移交之前檢查圖表。
-featured_image: /images/blog/uml-bpmn-ai-assisted-flows.png
+featured_image: /images/blog/uml-bpmn-ai-assisted-flows.webp
 type: blog
 reading_time: 16
 view_count: 0

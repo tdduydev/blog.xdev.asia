@@ -3,7 +3,7 @@ id: 01970000-a1b2-7c3d-e4f5-678901234abc
 title: 'Ollama + MLX：在 Mac 上透過 Apple Silicon 本地執行 AI，速度提升 3 倍——2026 完整指南'
 slug: ollama-mlx-apple-silicon-run-ai-local-3x-faster
 excerpt: Ollama 0.19 整合 Apple 的 MLX 後端——在 M5 上實現解碼速度提升 93%、預填充速度提升 57%。全面深入分析統一記憶體架構，涵蓋 M1 到 M5 的實測效能數據，以及充分發揮 Apple Silicon 潛力的逐步設定指南。
-featured_image: /images/blog/ollama-mlx-featured.png
+featured_image: /images/blog/ollama-mlx-featured.webp
 type: blog
 reading_time: 18
 view_count: 0

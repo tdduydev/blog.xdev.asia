@@ -4,7 +4,7 @@ title: "BAのためのダッシュボード：SQLなしでAIフィーチャー�
 slug: dashboarding-for-ba-ai-metrics
 excerpt: >-
   BAはAIフィーチャーが価値を提供していることを証明し、ゴーライブ後の健全性を監視し、ステークホルダーに報告するためのダッシュボードが必要です。Looker Studio、Power BI、Metabaseを使ったダッシュボード構築ガイド — ビジネス指標とAI品質指標に焦点を当てています。
-featured_image: /images/blog/dashboarding-ba.png
+featured_image: /images/blog/dashboarding-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

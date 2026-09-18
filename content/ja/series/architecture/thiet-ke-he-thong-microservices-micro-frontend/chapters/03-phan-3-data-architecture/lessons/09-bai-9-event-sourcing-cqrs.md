@@ -93,7 +93,7 @@ locale: ja
 イベント ソーシングと CQRS は 2 つの強力なパターンですが、**悪用されることが多い** パターンです。この記事は、その性質、実際の利点、そして最も重要なことである **使用すべきではない場合** を理解するのに役立ちます。
 
 
-![CQRS とイベント ソーシング — 個別のコマンドとクエリ](/storage/uploads/2026/04/mfe-ms-diagram-bai9-cqrs-event-sourcing.png)
+![CQRS とイベント ソーシング — 個別のコマンドとクエリ](/storage/uploads/2026/04/mfe-ms-diagram-bai9-cqrs-event-sourcing.webp)
 
 ---
 

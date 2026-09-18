@@ -90,7 +90,7 @@ course:
 Micro Frontend mở rộng ý tưởng Microservices lên **frontend**: chia ứng dụng web thành các phần nhỏ, mỗi phần do một team sở hữu, develop và deploy **độc lập**. Bài này giải thích tại sao cần Micro Frontend và khi nào nên (hoặc không nên) áp dụng.
 
 
-![Micro Frontend Overview — mỗi team sở hữu vertical slice](/storage/uploads/2026/04/mfe-ms-diagram-bai10-micro-frontend-overview.png)
+![Micro Frontend Overview — mỗi team sở hữu vertical slice](/storage/uploads/2026/04/mfe-ms-diagram-bai10-micro-frontend-overview.webp)
 
 ---
 

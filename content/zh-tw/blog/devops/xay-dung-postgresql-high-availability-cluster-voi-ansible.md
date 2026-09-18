@@ -3,7 +3,7 @@ id: 019c9617-fd06-7322-b055-2e68380e39b2
 title: 使用 Ansible 建立 PostgreSQL 高可用性叢集
 slug: xay-dung-postgresql-high-availability-cluster-voi-ansible
 excerpt: 分享部署與開源全自動PostgreSQL HA叢集解決方案的經驗
-featured_image: /images/blog/postgresql-ha-featured.png
+featured_image: /images/blog/postgresql-ha-featured.webp
 type: blog
 reading_time: 14
 view_count: 1

@@ -5,7 +5,7 @@ slug: cai-dat-harbor-tren-ubuntu-24-04
 excerpt: >-
   Harbor - プライベート Docker レジストリを Ubuntu 24.04 にインストールするための詳細な手順
   (HTTPS、セキュリティ、バックアップ、ベスト プラクティスなど)。
-featured_image: /images/blog/harbor-ubuntu-featured.png
+featured_image: /images/blog/harbor-ubuntu-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

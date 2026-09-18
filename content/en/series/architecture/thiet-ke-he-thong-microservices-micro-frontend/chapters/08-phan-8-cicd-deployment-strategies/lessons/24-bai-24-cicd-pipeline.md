@@ -93,7 +93,7 @@ locale: en
 With 10+ microservices and 5+ micro frontends, the CI/CD Pipeline is the **backbone** for independent deployment. This article designs an end-to-end pipeline: from commit to production.
 
 
-![CI/CD Pipeline cho Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai24-cicd-pipeline.png)
+![CI/CD Pipeline cho Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai24-cicd-pipeline.webp)
 
 ---
 

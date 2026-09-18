@@ -3,7 +3,7 @@ id: 01970000-c4d5-9e6f-a7b8-901234567abc
 title: 'The Path to Becoming an AI Solution Architect: Roadmap, Skills, and Reality 2026'
 slug: becoming-an-ai-solution-architect
 excerpt: A comprehensive guide to becoming an AI Solution Architect — from technical foundations, end-to-end AI system design skills, cloud architecture, and MLOps, to stakeholder communication soft skills. Includes role comparisons, salary benchmarks, required certifications, and common career mistakes.
-featured_image: /images/blog/ai-solution-architect-featured.png
+featured_image: /images/blog/ai-solution-architect-featured.webp
 type: blog
 reading_time: 30
 view_count: 0
@@ -43,7 +43,7 @@ But the path to this role is not simple. It requires a rare combination of **dee
 
 An AI Solution Architect is someone who **designs the overall architecture** for AI/ML solutions within an organization. They serve as the bridge between business stakeholders, data scientists, ML engineers, and platform teams.
 
-![AI Solution Architect skills overview — 6 core skill areas](/storage/uploads/2026/04/ai-architect-skills-overview.png)
+![AI Solution Architect skills overview — 6 core skill areas](/storage/uploads/2026/04/ai-architect-skills-overview.webp)
 
 ### Core Responsibilities
 
@@ -113,7 +113,7 @@ This is an extremely rare **T-shaped** role: it needs breadth (knowing many thin
 
 ## 3. The 4-Phase Roadmap
 
-![4-phase roadmap from Foundation to AI Solution Architect](/storage/uploads/2026/04/ai-architect-career-roadmap.png)
+![4-phase roadmap from Foundation to AI Solution Architect](/storage/uploads/2026/04/ai-architect-career-roadmap.webp)
 
 ### Phase 1: Technical Foundation (6–12 months)
 
@@ -197,7 +197,7 @@ This is the phase that **differentiates** Data Scientists from Solution Architec
 
 MLOps is the **DNA** of an AI Architect. Not knowing MLOps = not an architect.
 
-![MLOps pipeline end-to-end: Data Pipeline, Model Pipeline, Deployment Pipeline and Observability](/storage/uploads/2026/04/ai-architect-mlops-pipeline.png)
+![MLOps pipeline end-to-end: Data Pipeline, Model Pipeline, Deployment Pipeline and Observability](/storage/uploads/2026/04/ai-architect-mlops-pipeline.webp)
 
 **Data Pipeline:**
 
@@ -288,7 +288,7 @@ Understand deeply enough to make informed decisions:
 
 RAG is the most common pattern and also where most teams make the most mistakes. The architect must know how to design it correctly from the start:
 
-![RAG Architecture: from document ingestion to response generation](/storage/uploads/2026/04/ai-architect-rag-architecture.png)
+![RAG Architecture: from document ingestion to response generation](/storage/uploads/2026/04/ai-architect-rag-architecture.webp)
 
 **Indexing Pipeline:**
 
@@ -331,7 +331,7 @@ RAG is the most common pattern and also where most teams make the most mistakes.
 
 Multi-agent systems are the biggest trend of 2026. Many companies are moving from simple RAG to agent systems.
 
-![Multi-Agent System: Orchestrator coordinates specialized agents with tool access](/storage/uploads/2026/04/ai-architect-agent-architecture.png)
+![Multi-Agent System: Orchestrator coordinates specialized agents with tool access](/storage/uploads/2026/04/ai-architect-agent-architecture.webp)
 
 **Anatomy of an AI Agent:**
 

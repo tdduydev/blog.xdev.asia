@@ -44,7 +44,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![ICD-10 → CONDITION_OCCURRENCE の SNOMED マッピング プロセス](/storage/uploads/2026/04/omop-cdm-bai7-condition-mapping.png)
+![ICD-10 → CONDITION_OCCURRENCE の SNOMED マッピング プロセス](/storage/uploads/2026/04/omop-cdm-bai7-condition-mapping.webp)
 
 ## はじめに
 

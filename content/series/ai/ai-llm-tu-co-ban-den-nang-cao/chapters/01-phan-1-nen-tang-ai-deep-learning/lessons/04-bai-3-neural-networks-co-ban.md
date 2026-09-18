@@ -112,7 +112,7 @@ Não người có ~86 tỷ nơ-ron. Mỗi nơ-ron hoạt động như một **b�
 2. **Xử lý** trong cell body/soma (cân nhắc tất cả ý kiến)
 3. **Phát tín hiệu** qua axon **nếu** đủ kích thích (đưa ra quyết định: "có" hoặc "không")
 
-![So sánh nơ-ron sinh học và nơ-ron nhân tạo (Perceptron)](/storage/uploads/2026/03/neuron-bio-vs-artificial.png)
+![So sánh nơ-ron sinh học và nơ-ron nhân tạo (Perceptron)](/storage/uploads/2026/03/neuron-bio-vs-artificial.webp)
 
 **Ví dụ đời thường:** Hãy tưởng tượng bạn quyết định có đi ăn tối với bạn bè không:
 
@@ -268,7 +268,7 @@ def leaky_relu(x, alpha=0.01):
 
 ### 3.1 Kiến trúc — "Nhà máy quyết định"
 
-![Kiến trúc Multilayer Perceptron: Input → Hidden Layers → Output](/storage/uploads/2026/03/neural-network-architecture.png)
+![Kiến trúc Multilayer Perceptron: Input → Hidden Layers → Output](/storage/uploads/2026/03/neural-network-architecture.webp)
 
 Hãy tưởng tượng MLP là một **nhà máy** xử lý đơn hàng:
 

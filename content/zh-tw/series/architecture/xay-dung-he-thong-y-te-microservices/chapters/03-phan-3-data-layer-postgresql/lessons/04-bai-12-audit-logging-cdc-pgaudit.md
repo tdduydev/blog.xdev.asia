@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. 醫療保健審計日誌概述
 
-![稽核日誌架構 — pgAudit、Debezium CDC、Fluent Bit、ELK](/storage/uploads/2026/04/healthcare-audit-logging-stack.png)
+![稽核日誌架構 — pgAudit、Debezium CDC、Fluent Bit、ELK](/storage/uploads/2026/04/healthcare-audit-logging-stack.webp)
 
 HIPAA 安全規則 §164.312(b) 要求**硬體、軟體和/或程式機制來記錄和檢查包含 ePHI 的系統中的活動**。審核日誌記錄不僅是合規性要求，也是**偵測入侵、取證和問責**的工具。
 
@@ -115,7 +115,7 @@ HIPAA 安全規則 §164.312(b) 要求**硬體、軟體和/或程式機制來記
 
 ### 1.2。稽核架構
 
-![Audit Stack — Quarkus + pgAudit + Debezium CDC → FluentBit → OpenSearch/S3/PostgreSQL](/storage/uploads/2026/04/healthcare-audit-architecture.png)
+![Audit Stack — Quarkus + pgAudit + Debezium CDC → FluentBit → OpenSearch/S3/PostgreSQL](/storage/uploads/2026/04/healthcare-audit-architecture.webp)
 
 **審計來源：**
 
@@ -576,7 +576,7 @@ $$ LANGUAGE plpgsql SECURITY DEFINER;
 
 ### 5.1。 CDC架構
 
-![CDC Pipeline — PostgreSQL WAL → Debezium → Kafka → OpenSearch/S3/KSQL](/storage/uploads/2026/04/healthcare-cdc-pipeline.png)
+![CDC Pipeline — PostgreSQL WAL → Debezium → Kafka → OpenSearch/S3/KSQL](/storage/uploads/2026/04/healthcare-cdc-pipeline.webp)
 
 **CDC 流程：**
 

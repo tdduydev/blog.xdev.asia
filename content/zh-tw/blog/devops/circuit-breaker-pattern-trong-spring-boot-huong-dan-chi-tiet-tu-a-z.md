@@ -5,7 +5,7 @@ slug: circuit-breaker-pattern-trong-spring-boot-huong-dan-chi-tiet-tu-a-z
 excerpt: >-
   使用 Resilience4j 學習 Spring Boot 中的斷路器模式 -
   從操作原理、詳細配置、實際範例到最佳實踐。完整的指南可協助您建立彈性微服務系統，防止級聯故障並在服務遇到問題時自動復原。
-featured_image: /images/blog/circuit-breaker-featured.png
+featured_image: /images/blog/circuit-breaker-featured.webp
 type: blog
 reading_time: 35
 view_count: 1

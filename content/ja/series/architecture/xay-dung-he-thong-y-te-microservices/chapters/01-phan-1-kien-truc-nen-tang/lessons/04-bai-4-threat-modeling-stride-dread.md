@@ -90,13 +90,13 @@ locale: ja
 
 ## 1. 脅威モデリングとは何ですか?
 
-![マイクロサービス医療システム向けの脅威モデリング STRIDE](/storage/uploads/2026/04/healthcare-threat-model-stride.png)
+![マイクロサービス医療システム向けの脅威モデリング STRIDE](/storage/uploads/2026/04/healthcare-threat-model-stride.webp)
 
 **脅威モデリング** は、システムに対する潜在的なセキュリティ脅威を特定、評価し、優先順位を付ける体系的なプロセスです。医療分野では、攻撃の影響はデータの損失だけではなく、**患者の命**に影響を及ぼす可能性があるため、脅威モデリングは特に重要です。
 
 ＃＃＃１．１．脅威モデリングプロセス
 
-![6 段階の脅威モデリング プロセス — 範囲の定義から検証と反復まで](/storage/uploads/2026/04/healthcare-threat-modeling-process.png)
+![6 段階の脅威モデリング プロセス — 範囲の定義から検証と反復まで](/storage/uploads/2026/04/healthcare-threat-modeling-process.webp)
 
 ＃＃＃１．２．脅威モデリングが必要になるのはどのような場合ですか?
 
@@ -125,7 +125,7 @@ STRIDE は、Microsoft によって開発された脅威分類フレームワー
 
 #### S - スプーフィング (ID スプーフィング)
 
-![スプーフィング攻撃 - 患者 API にアクセスするための JWT トークンのスプーフィングと防止策](/storage/uploads/2026/04/healthcare-stride-spoofing-attack.png)
+![スプーフィング攻撃 - 患者 API にアクセスするための JWT トークンのスプーフィングと防止策](/storage/uploads/2026/04/healthcare-stride-spoofing-attack.webp)
 
 **脅威:** 攻撃者は JWT トークンを偽造して患者 API にアクセスします
 
@@ -147,7 +147,7 @@ STRIDE は、Microsoft によって開発された脅威分類フレームワー
 
 #### T - 改ざん (データ改ざん)
 
-![改ざん攻撃 — 内部関係者によるテスト結果とデータ整合性対策の改ざん](/storage/uploads/2026/04/healthcare-stride-tampering-integrity.png)
+![改ざん攻撃 — 内部関係者によるテスト結果とデータ整合性対策の改ざん](/storage/uploads/2026/04/healthcare-stride-tampering-integrity.webp)
 
 **脅威:** 内部関係者が lab_db のテスト結果を変更しました
 
@@ -272,7 +272,7 @@ public PatientSummaryDTO getPatient(@PathParam("id") UUID id) {
 
 #### D - サービス拒否攻撃
 
-![DoS 軽減 — 医療システム向けの 7 層の DDoS 対策保護](/storage/uploads/2026/04/healthcare-stride-dos-mitigation.png)
+![DoS 軽減 — 医療システム向けの 7 層の DDoS 対策保護](/storage/uploads/2026/04/healthcare-stride-dos-mitigation.webp)
 
 **脅威:** DDoS 攻撃により緊急システムが停止します
 
@@ -394,7 +394,7 @@ public class PrescriptionResource {
 
 ### 5.1. Attack Tree: Steal Patient Medical Records
 
-![攻撃ツリー — DREAD スコアリングを使用して患者記録を盗む攻撃ベクトル](/storage/uploads/2026/04/healthcare-attack-tree.png)
+![攻撃ツリー — DREAD スコアリングを使用して患者記録を盗む攻撃ベクトル](/storage/uploads/2026/04/healthcare-attack-tree.webp)
 
 **Goal: Steal Patient Medical Records**
 

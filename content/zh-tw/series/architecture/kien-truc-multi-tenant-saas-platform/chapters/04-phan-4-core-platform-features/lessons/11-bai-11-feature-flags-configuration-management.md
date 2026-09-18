@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 11 課：功能標誌與組態管理](/storage/uploads/2026/03/saas-bai-11-diagram.png)
+![第 11 課：功能標誌與組態管理](/storage/uploads/2026/03/saas-bai-11-diagram.webp)
 
 ## 簡介
 

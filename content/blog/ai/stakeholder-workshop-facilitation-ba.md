@@ -5,7 +5,7 @@ slug: stakeholder-workshop-facilitation-ba
 excerpt: >-
   Workshop tốt không phải cuộc họp đông người. Bài này hướng dẫn BA chuẩn bị mục tiêu,
   agenda, câu hỏi, kỹ thuật facilitation, xử lý conflict và chốt action items sau workshop.
-featured_image: /images/blog/elicitation-ai-notes-ba.png
+featured_image: /images/blog/elicitation-ai-notes-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

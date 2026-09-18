@@ -6,7 +6,7 @@ excerpt: >-
   User Story viết sai là nguồn gốc của 80% bug "sai spec" và rework cuối sprint.
   Bài này hướng dẫn BA viết story theo chuẩn INVEST, acceptance criteria theo BDD
   Given/When/Then, và dùng AI để tự động phát hiện edge case còn thiếu.
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   SMART on FHIR là chuẩn OAuth2 cho healthcare apps. Bài viết hướng dẫn EHR Launch,
   Standalone Launch, scope, PKCE, refresh token, Backend Services với JWT RS384,
   token introspection — kèm flow diagram và code mẫu.
-featured_image: /images/blog/smart-on-fhir-featured.png
+featured_image: /images/blog/smart-on-fhir-featured.webp
 type: blog
 reading_time: 18
 view_count: 0

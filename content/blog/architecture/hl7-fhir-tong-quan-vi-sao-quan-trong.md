@@ -6,7 +6,7 @@ excerpt: >-
   HL7 FHIR là chuẩn dữ liệu y tế hiện đại nhất hiện nay, được 31+ quốc gia áp dụng.
   Bài viết giới thiệu lịch sử HL7 v2 → v3 → CDA → FHIR, lý do FHIR R4 vẫn dominant
   năm 2026, và bối cảnh Việt Nam với Quyết định 3516/QĐ-BYT, VNeID Sổ Sức Khoẻ Điện tử.
-featured_image: /images/blog/fhir-overview-featured.png
+featured_image: /images/blog/fhir-overview-featured.webp
 type: blog
 reading_time: 18
 view_count: 0

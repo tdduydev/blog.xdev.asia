@@ -6,7 +6,7 @@ excerpt: >-
   Human-in-the-loop 不只是「加一個 confirm 按鈕」。BA 需要設計 escalation threshold、
   routing rule、agent review SLA 與 feedback loop。本文提供 decision matrix 與
   escalation flow template 的完整 HITL 設計方法。
-featured_image: /images/blog/human-in-the-loop-design.png
+featured_image: /images/blog/human-in-the-loop-design.webp
 type: blog
 reading_time: 13
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   Engineers do not need to memorise every control, but they need to know how to
   map controls to the pipeline and generate evidence automatically. This is a
   short guide to four common frameworks and compliance-as-code in DevSecOps.
-featured_image: /images/blog/compliance-engineer-featured.png
+featured_image: /images/blog/compliance-engineer-featured.webp
 type: blog
 reading_time: 11
 view_count: 0

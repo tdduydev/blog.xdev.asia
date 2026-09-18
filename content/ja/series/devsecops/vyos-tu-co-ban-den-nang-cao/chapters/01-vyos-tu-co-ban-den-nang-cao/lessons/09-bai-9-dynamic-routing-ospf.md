@@ -15,7 +15,7 @@ course:
   title: VyOSの基礎から応用まで
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-09-ospf.png" alt="Dynamic Routing - OSPF" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-09-ospf.webp" alt="Dynamic Routing - OSPF" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS における OSPF の概要</h2>
 <p>このレッスンでは、VyOS 1.4.x/1.5 rolling release 上で <strong>OSPF</strong>（Open Shortest Path First）を設定する方法を学びます。OSPF は企業ネットワークで広く利用される代表的な動的ルーティングプロトコルです。</p>

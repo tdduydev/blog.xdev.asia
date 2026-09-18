@@ -5,7 +5,7 @@ slug: sdlc-babok-agile-scrum-cho-ba
 excerpt: >-
   BA mới thường học rời rạc BABOK, SDLC, Scrum, BRD, SRS, user story nên rất dễ rối.
   Bài này map toàn bộ vào một luồng làm việc thực tế từ ý tưởng đến release.
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

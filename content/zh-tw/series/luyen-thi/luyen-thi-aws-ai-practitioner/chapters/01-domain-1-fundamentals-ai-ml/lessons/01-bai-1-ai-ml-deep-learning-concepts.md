@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai1-ai-ml-dl-hierarchy.png" alt="AI、ML與深度學習層次結構" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai1-ai-ml-dl-hierarchy.webp" alt="AI、ML與深度學習層次結構" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>AI、ML與深度學習 — 巢狀關係與三大機器學習範式</em></p>
 </div>
 

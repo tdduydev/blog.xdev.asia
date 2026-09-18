@@ -88,7 +88,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 5: Usagi — Mapping Source Codes](/storage/uploads/2026/03/ohdsi-bai-5-usagi-mapping.png)
+![Bài 5: Usagi — Mapping Source Codes](/storage/uploads/2026/03/ohdsi-bai-5-usagi-mapping.webp)
 
 ## Giới thiệu
 

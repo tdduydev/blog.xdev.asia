@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai10-clarify-a2i-guardrails.png" alt="AWS負責任AI工具" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai10-clarify-a2i-guardrails.webp" alt="AWS負責任AI工具" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>AWS負責任AI工具：SageMaker Clarify、Amazon A2I和Bedrock Guardrails</em></p>
 </div>
 

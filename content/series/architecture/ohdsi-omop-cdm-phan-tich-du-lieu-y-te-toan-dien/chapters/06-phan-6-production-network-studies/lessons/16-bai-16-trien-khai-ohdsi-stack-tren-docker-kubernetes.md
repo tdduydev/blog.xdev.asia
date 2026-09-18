@@ -87,7 +87,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 16: Triển khai OHDSI Stack trên Docker & Kubernetes](/storage/uploads/2026/03/ohdsi-bai-16-docker-kubernetes.png)
+![Bài 16: Triển khai OHDSI Stack trên Docker & Kubernetes](/storage/uploads/2026/03/ohdsi-bai-16-docker-kubernetes.webp)
 
 ## Giới thiệu
 

@@ -8,7 +8,7 @@ description: >-
   ID Y tế quốc gia.
 duration_minutes: 60
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-4-master-patient-index-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-4-master-patient-index-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 2: Tiếp nhận, MPI, Lịch hẹn"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![Master Patient Index — bài toán định danh duy nhất](/storage/uploads/2026/05/his/bai-4-master-patient-index-banner.png)
+![Master Patient Index — bài toán định danh duy nhất](/storage/uploads/2026/05/his/bai-4-master-patient-index-banner.webp)
 
 ## Tại sao MPI quan trọng?
 
-![Hợp nhất hồ sơ trùng lặp về một golden record](/storage/uploads/2026/05/his/bai-4-master-patient-index-workflow.png)
+![Hợp nhất hồ sơ trùng lặp về một golden record](/storage/uploads/2026/05/his/bai-4-master-patient-index-workflow.webp)
 
 **Master Patient Index (MPI)** là chỉ mục duy nhất của một con người trong toàn hệ thống y tế. Một bệnh nhân — dù khám 50 lần, ở 5 cơ sở — chỉ nên có **1 MPI**. Nếu MPI bị tách:
 

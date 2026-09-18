@@ -91,7 +91,7 @@ course:
 
 ## 1. Giới thiệu Capstone Project
 
-![Production Deployment — Healthcare Platform trên Kubernetes với HIPAA Compliance](/storage/uploads/2026/04/healthcare-production-deployment.png)
+![Production Deployment — Healthcare Platform trên Kubernetes với HIPAA Compliance](/storage/uploads/2026/04/healthcare-production-deployment.webp)
 
 ### 1.1. Mục tiêu
 
@@ -135,7 +135,7 @@ Chúng ta sẽ xây dựng **Hệ thống Quản lý Bệnh viện** (Hospital M
 
 ### 2.1. System Architecture
 
-![Kiến trúc Capstone Healthcare Platform](/storage/uploads/2026/04/healthcare-capstone-architecture.png)
+![Kiến trúc Capstone Healthcare Platform](/storage/uploads/2026/04/healthcare-capstone-architecture.webp)
 
 **Kiến trúc 3 lớp bảo mật:**
 

@@ -4,7 +4,7 @@ title: "ストーリー見積もりと不確実性：AIフィーチャーが予�
 slug: story-estimation-uncertainty-in-ai-projects
 excerpt: >-
   AIストーリーは、データの準備状況、モデルの反復、実験の不確実性に依存するため、通常のフィーチャーよりも見積もりが困難です。AI作業に適応したPlanning Poker、3点見積もり、スパイクストーリー、そしてステークホルダーへの不確実性の伝え方のガイドです。
-featured_image: /images/blog/story-estimation-uncertainty.png
+featured_image: /images/blog/story-estimation-uncertainty.webp
 type: blog
 reading_time: 11
 view_count: 0

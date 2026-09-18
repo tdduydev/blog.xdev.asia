@@ -45,7 +45,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Complete overview of OMOP CDM 5.4 — 37 tables, 7 groups](/storage/uploads/2026/04/omop-cdm-bai20-complete-overview.png)
+![Complete overview of OMOP CDM 5.4 — 37 tables, 7 groups](/storage/uploads/2026/04/omop-cdm-bai20-complete-overview.webp)
 
 ## Introduction
 

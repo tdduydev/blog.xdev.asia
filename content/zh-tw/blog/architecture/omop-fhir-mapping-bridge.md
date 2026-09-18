@@ -5,7 +5,7 @@ slug: omop-fhir-mapping-bridge
 excerpt: >-
   2026 年的組織通常同時擁有 FHIR(營運)與 OMOP(分析)。本文介紹 resource ↔ table 對應、
   FHIR-OMOP-on-FHIR 工作小組、Pathling、Bulk Data Export pipeline,以及越南的部署模式。
-featured_image: /images/blog/omop-fhir-bridge-featured.png
+featured_image: /images/blog/omop-fhir-bridge-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -22,7 +22,7 @@ FHIR 是營運標準,OMOP 是分析標準。在 2026 年成熟的組織裡兩者
 
 ## 1. 為何兩者都需要
 
-![1. 為何兩者都需要](/images/blog/diagrams/omop-fhir-mapping-bridge-d01.png)
+![1. 為何兩者都需要](/images/blog/diagrams/omop-fhir-mapping-bridge-d01.webp)
 
 FHIR 強於即時、JSON、REST;OMOP 強於批次 SQL、標準詞彙、網絡研究。各擅一面 → 互補而非取代。
 
@@ -55,7 +55,7 @@ FHIR-OMOP-on-FHIR 社群(HL7 + OHDSI 聯合工作小組)維護官方對應。
 
 ### 2.2 詳細對應 Encounter → Visit_Occurrence
 
-![2.2 詳細對應 Encounter → Visit_Occurrence](/images/blog/diagrams/omop-fhir-mapping-bridge-d02.png)
+![2.2 詳細對應 Encounter → Visit_Occurrence](/images/blog/diagrams/omop-fhir-mapping-bridge-d02.webp)
 
 程式:
 ```python
@@ -106,13 +106,13 @@ FHIR code system URL → OMOP vocabulary_id:
 
 ### 4.1 Bulk Export → ETL → CDM
 
-![4.1 Bulk Export → ETL → CDM](/images/blog/diagrams/omop-fhir-mapping-bridge-d03.png)
+![4.1 Bulk Export → ETL → CDM](/images/blog/diagrams/omop-fhir-mapping-bridge-d03.webp)
 
 優點:標準 FHIR,不需 FHIR 後端支援自訂匯出。請參考 [FHIR Bulk Data Export 與 CDS Hooks](/blog/fhir-bulk-data-export-cds-hooks)。
 
 ### 4.2 即時 CDC 模式
 
-![4.2 即時 CDC 模式](/images/blog/diagrams/omop-fhir-mapping-bridge-d04.png)
+![4.2 即時 CDC 模式](/images/blog/diagrams/omop-fhir-mapping-bridge-d04.webp)
 
 優點:FHIR 永遠 fresh;OMOP 每晚彙總。
 
@@ -155,7 +155,7 @@ Sql On FHIR(SOF)是新興專案(2024-2026),允許將 FHIR resource 暴露為 SQL
 
 ### 8.1 建議模式
 
-![8.1 建議模式](/images/blog/diagrams/omop-fhir-mapping-bridge-d05.png)
+![8.1 建議模式](/images/blog/diagrams/omop-fhir-mapping-bridge-d05.webp)
 
 ### 8.2 須建置的轉接層(adapter)
 
@@ -188,7 +188,7 @@ Sql On FHIR(SOF)是新興專案(2024-2026),允許將 FHIR resource 暴露為 SQL
 
 ## 11. 混合模式
 
-![11. 混合模式](/images/blog/diagrams/omop-fhir-mapping-bridge-d06.png)
+![11. 混合模式](/images/blog/diagrams/omop-fhir-mapping-bridge-d06.webp)
 
 組織可從小起步,逐步擴展。不一定要一次建好 OMOP — 第一階段可採用 Pathling。
 

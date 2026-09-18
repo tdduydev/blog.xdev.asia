@@ -7,7 +7,7 @@ description: >-
   BHYT chấp nhận và phục vụ báo cáo dịch tễ Bộ Y tế / WHO.
 duration_minutes: 45
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-16-icd-coding-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-16-icd-coding-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 6: Order Management & ICD coding"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![ICD-10/11 coding & vai trò clinical coder](/storage/uploads/2026/05/his/bai-16-icd-coding-banner.png)
+![ICD-10/11 coding & vai trò clinical coder](/storage/uploads/2026/05/his/bai-16-icd-coding-banner.webp)
 
 ## Vai trò của ICD
 
-![Coder phân loại chẩn đoán theo cây mã ICD](/storage/uploads/2026/05/his/bai-16-icd-coding-workflow.png)
+![Coder phân loại chẩn đoán theo cây mã ICD](/storage/uploads/2026/05/his/bai-16-icd-coding-workflow.webp)
 
 
 ## Mục tiêu bài học

@@ -15,7 +15,7 @@ course:
   title: VyOSの基礎から応用まで
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-13-ha-vrrp.png" alt="High Availability - VRRP と Conntrack Sync" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-13-ha-vrrp.webp" alt="High Availability - VRRP と Conntrack Sync" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS の High Availability: VRRP と Conntrack Sync</h2>
 <p>高可用性（HA）は、ネットワークシステムにおける重要要件です。VyOS は VRRP（Virtual Router Redundancy Protocol）と conntrack-sync を提供し、ノード間で NAT/接続状態を同期できます。</p>

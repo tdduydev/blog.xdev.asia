@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai5-probes.png" alt="Liveness, Readiness and Startup Probes — timeline and probe methods" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai5-probes.webp" alt="Liveness, Readiness and Startup Probes — timeline and probe methods" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="probe-types">1. Three Types of Probes</h2>
 

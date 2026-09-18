@@ -6,7 +6,7 @@ excerpt: >-
   エンジニアは各統制を暗記する必要はありませんが、統制をパイプラインにマッピングし、
   証跡を自動生成する方法を知っておく必要があります。本記事では4つの主要フレームワークと、
   DevSecOpsにおけるcompliance-as-codeの実装方法を要約します。
-featured_image: /images/blog/compliance-engineer-featured.png
+featured_image: /images/blog/compliance-engineer-featured.webp
 type: blog
 reading_time: 11
 view_count: 0

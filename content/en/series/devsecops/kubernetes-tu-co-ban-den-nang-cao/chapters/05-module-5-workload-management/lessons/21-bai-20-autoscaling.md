@@ -18,7 +18,7 @@ locale: en
 
 <p>Autoscaling is one of the main reasons to run workloads on Kubernetes. Instead of having to manually adjust resources as traffic increases or decreases, Kubernetes provides many automatic scaling mechanisms at many different levels. This article will explore the entire autoscaling ecosystem — from traditional HPA to KEDA event-driven scaling, the latest In-Place Pod Resource Updates, and Karpenter for cluster-level scaling.</p>
 
-<img src="/storage/uploads/2026/03/k8s-autoscaling-2026.png" alt="Kubernetes Autoscaling - HPA, VPA, Karpenter, KEDA" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-autoscaling-2026.webp" alt="Kubernetes Autoscaling - HPA, VPA, Karpenter, KEDA" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. HorizontalPodAutoscaler (HPA)</h2>
 

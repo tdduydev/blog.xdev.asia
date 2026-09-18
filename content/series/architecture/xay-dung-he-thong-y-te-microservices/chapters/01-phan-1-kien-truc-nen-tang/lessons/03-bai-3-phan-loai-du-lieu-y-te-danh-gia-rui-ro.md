@@ -90,7 +90,7 @@ course:
 
 ## 1. Data Classification Framework cho Y Tế
 
-![Kim tự tháp phân loại dữ liệu y tế — 4 cấp độ từ Public đến Restricted](/storage/uploads/2026/04/healthcare-data-classification-pyramid.png)
+![Kim tự tháp phân loại dữ liệu y tế — 4 cấp độ từ Public đến Restricted](/storage/uploads/2026/04/healthcare-data-classification-pyramid.webp)
 
 ### 1.1. Tại sao cần phân loại dữ liệu?
 
@@ -103,7 +103,7 @@ Không phải tất cả dữ liệu đều cần cùng mức độ bảo vệ. 
 
 ### 1.2. Healthcare Data Classification Levels
 
-![Kim tự tháp phân loại dữ liệu y tế — 4 mức từ Public đến Restricted](/storage/uploads/2026/04/healthcare-data-classification-levels.png)
+![Kim tự tháp phân loại dữ liệu y tế — 4 mức từ Public đến Restricted](/storage/uploads/2026/04/healthcare-data-classification-levels.webp)
 
 | Level | Tên | Ví dụ | Encryption | Access | Audit |
 |-------|-----|--------|------------|--------|-------|
@@ -152,7 +152,7 @@ VALUES
 
 ### 2.1. PHI Data Flow trong Microservices
 
-![Luồng dữ liệu PHI qua các microservices — từ Patient Portal qua API Gateway, Keycloak đến các services và databases](/storage/uploads/2026/04/healthcare-phi-data-flow.png)
+![Luồng dữ liệu PHI qua các microservices — từ Patient Portal qua API Gateway, Keycloak đến các services và databases](/storage/uploads/2026/04/healthcare-phi-data-flow.webp)
 
 ### 2.2. Data Flow Documentation Template
 
@@ -169,7 +169,7 @@ VALUES
 
 ### 3.1. Risk Assessment Methodology
 
-![6 bước đánh giá rủi ro theo NIST SP 800-30 — từ xác định Threats đến Risk Response](/storage/uploads/2026/04/healthcare-risk-assessment-steps.png)
+![6 bước đánh giá rủi ro theo NIST SP 800-30 — từ xác định Threats đến Risk Response](/storage/uploads/2026/04/healthcare-risk-assessment-steps.webp)
 
 ### 3.2. Threat Identification cho Healthcare Microservices
 
@@ -221,7 +221,7 @@ public class SecurityVulnerabilityChecklist {
 
 ### 3.4. Risk Matrix
 
-![Ma trận đánh giá rủi ro 5x5 — Likelihood x Impact từ LOW đến CRITICAL](/storage/uploads/2026/04/healthcare-risk-matrix-heatmap.png)
+![Ma trận đánh giá rủi ro 5x5 — Likelihood x Impact từ LOW đến CRITICAL](/storage/uploads/2026/04/healthcare-risk-matrix-heatmap.webp)
 
 | | Negligible (1) | Low (2) | Medium (3) | High (4) | Critical (5) |
 |-|----------------|---------|------------|----------|-------------|
@@ -250,7 +250,7 @@ public class SecurityVulnerabilityChecklist {
 
 ### 4.2. Risk Treatment Plan
 
-![4 chiến lược xử lý rủi ro — Mitigate, Transfer, Accept, Avoid](/storage/uploads/2026/04/healthcare-risk-response-strategies.png)
+![4 chiến lược xử lý rủi ro — Mitigate, Transfer, Accept, Avoid](/storage/uploads/2026/04/healthcare-risk-response-strategies.webp)
 
 - **MITIGATE** (Giảm thiểu) ← Preferred cho HIGH risks: Implement controls, giảm likelihood/impact
 - **TRANSFER** (Chuyển giao): Cyber insurance, outsource cho specialist provider

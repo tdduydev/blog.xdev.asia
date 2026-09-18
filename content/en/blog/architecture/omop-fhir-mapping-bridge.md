@@ -7,7 +7,7 @@ excerpt: >-
   (analytics). This article walks through resource ↔ table mapping, the
   FHIR-OMOP-on-FHIR working group, Pathling, the Bulk Data Export pipeline,
   and deployment patterns for Vietnam.
-featured_image: /images/blog/omop-fhir-bridge-featured.png
+featured_image: /images/blog/omop-fhir-bridge-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -24,7 +24,7 @@ FHIR is the operational standard. OMOP is the analytical standard. Both coexist 
 
 ## 1. Why you need both
 
-![Why you need both](/images/blog/diagrams/omop-fhir-mapping-bridge-d01.png)
+![Why you need both](/images/blog/diagrams/omop-fhir-mapping-bridge-d01.webp)
 
 FHIR is strong for real-time, JSON, and REST. OMOP is strong for batch SQL, standardized vocabularies, and network studies. They each own a front — bridge them, don't replace one with the other.
 
@@ -57,7 +57,7 @@ The FHIR-OMOP-on-FHIR community (a joint HL7 + OHDSI working group) maintains th
 
 ### 2.2 Detailed mapping: Encounter → Visit_Occurrence
 
-![Detailed mapping: Encounter → Visit_Occurrence](/images/blog/diagrams/omop-fhir-mapping-bridge-d02.png)
+![Detailed mapping: Encounter → Visit_Occurrence](/images/blog/diagrams/omop-fhir-mapping-bridge-d02.webp)
 
 Code:
 ```python
@@ -108,13 +108,13 @@ Vietnam:
 
 ### 4.1 Bulk Export → ETL → CDM
 
-![Bulk Export → ETL → CDM](/images/blog/diagrams/omop-fhir-mapping-bridge-d03.png)
+![Bulk Export → ETL → CDM](/images/blog/diagrams/omop-fhir-mapping-bridge-d03.webp)
 
 Benefit: standard FHIR; you don't need the FHIR backend to support custom export. See [FHIR Bulk Data Export & CDS Hooks](/blog/fhir-bulk-data-export-cds-hooks).
 
 ### 4.2 Real-time CDC pattern
 
-![Real-time CDC pattern](/images/blog/diagrams/omop-fhir-mapping-bridge-d04.png)
+![Real-time CDC pattern](/images/blog/diagrams/omop-fhir-mapping-bridge-d04.webp)
 
 Pros: FHIR stays fresh; OMOP aggregates nightly.
 
@@ -157,7 +157,7 @@ Sql On FHIR (SOF) is a newer project (2024-2026) that exposes FHIR resources as 
 
 ### 8.1 Recommended pattern
 
-![Recommended pattern](/images/blog/diagrams/omop-fhir-mapping-bridge-d05.png)
+![Recommended pattern](/images/blog/diagrams/omop-fhir-mapping-bridge-d05.webp)
 
 ### 8.2 Adapters you need to build
 
@@ -190,7 +190,7 @@ Checks to run:
 
 ## 11. Hybrid pattern
 
-![Hybrid pattern](/images/blog/diagrams/omop-fhir-mapping-bridge-d06.png)
+![Hybrid pattern](/images/blog/diagrams/omop-fhir-mapping-bridge-d06.webp)
 
 Start small and scale up. You don't have to build OMOP from day one — Pathling can carry phase 1.
 

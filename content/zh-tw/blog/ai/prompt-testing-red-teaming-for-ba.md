@@ -6,7 +6,7 @@ excerpt: >-
   BA 不需要會寫程式也能做 prompt testing。對 AI 功能來說，red-teaming 是 BA 必備技能：
   在上線前找出 edge case、jailbreak 嘗試、bias 與非預期輸出。本文提供可落地的
   test case template 與實作方法。
-featured_image: /images/blog/prompt-testing-red-teaming.png
+featured_image: /images/blog/prompt-testing-red-teaming.webp
 type: blog
 reading_time: 13
 view_count: 0

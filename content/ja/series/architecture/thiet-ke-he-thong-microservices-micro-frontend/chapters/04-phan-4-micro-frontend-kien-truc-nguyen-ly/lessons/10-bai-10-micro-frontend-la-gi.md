@@ -92,7 +92,7 @@ locale: ja
 Micro Frontend は、マイクロサービスの概念を **フロントエンド** に拡張します。つまり、Web アプリケーションを小さな部分に分割し、各部分はチームによって **独立して所有、開発、デプロイされます**。この記事では、Micro Frontend が必要な理由と、いつ使用する必要があるか (または使用すべきでない場合) について説明します。
 
 
-![マイクロ フロントエンドの概要 — 各チームが垂直スライスを所有](/storage/uploads/2026/04/mfe-ms-diagram-bai10-micro-frontend-overview.png)
+![マイクロ フロントエンドの概要 — 各チームが垂直スライスを所有](/storage/uploads/2026/04/mfe-ms-diagram-bai10-micro-frontend-overview.webp)
 
 ---
 

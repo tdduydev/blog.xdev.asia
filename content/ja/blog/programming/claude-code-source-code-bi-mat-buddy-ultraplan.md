@@ -8,7 +8,7 @@ excerpt: >-
   Claude Code v2.1.89 の npm バンドルから抽出された TypeScript ソース コードの詳細な分析 --- 2026 年 4 月
   1 日にリリースされたレアリティ RPG を備えた Buddy 仮想ペット システム、UltraPlan マルチエージェント アーキテクチャ、ブリッジ
   リモート セッション システム、対カナリア難読化、および文書化されていない多数の隠された機能が明らかになりました。
-featured_image: /images/blog/claude-code-featured.png
+featured_image: /images/blog/claude-code-featured.webp
 type: blog
 reading_time: 25
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   Deep dive 7 bảng quan trọng nhất của OMOP CDM 5.4 — schema, FK, ETL convention,
   điểm dễ nhầm (Measurement vs Observation, Drug_Exposure vs Drug_Era) và 10 SQL
   pattern phân tích RWE phổ biến.
-featured_image: /images/blog/omop-core-tables-featured.png
+featured_image: /images/blog/omop-core-tables-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -23,7 +23,7 @@ OMOP CDM 5.4 có 37 bảng nhưng 90% phân tích RWE chỉ chạm 7 bảng core
 
 ## 1. Person-centric architecture
 
-![1. Person-centric architecture](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d01.png)
+![1. Person-centric architecture](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d01.webp)
 
 Mọi clinical event đều có `person_id` và optional `visit_occurrence_id`. Đây là chìa khoá join.
 
@@ -283,7 +283,7 @@ VN: danh mục DVKT (Dịch vụ kỹ thuật) Bộ Y tế → map sang SNOMED p
 
 ## 9. Drug_Era và Condition_Era — derived
 
-![9. Drug_Era và Condition_Era — derived](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d02.png)
+![9. Drug_Era và Condition_Era — derived](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d02.webp)
 
 `DRUG_ERA` gộp các Drug_Exposure liên tục (gap default 30 ngày):
 

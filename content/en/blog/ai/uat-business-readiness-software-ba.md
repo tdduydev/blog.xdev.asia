@@ -6,7 +6,7 @@ excerpt: >-
   UAT is not just about letting users test a few screens. This article guides BA
   to create a UAT plan, select scenarios, prepare test data, manage defects,
   training, rollout and decide to go/no-go.
-featured_image: /images/blog/uat-business-readiness-ai.png
+featured_image: /images/blog/uat-business-readiness-ai.webp
 type: blog
 reading_time: 12
 view_count: 0

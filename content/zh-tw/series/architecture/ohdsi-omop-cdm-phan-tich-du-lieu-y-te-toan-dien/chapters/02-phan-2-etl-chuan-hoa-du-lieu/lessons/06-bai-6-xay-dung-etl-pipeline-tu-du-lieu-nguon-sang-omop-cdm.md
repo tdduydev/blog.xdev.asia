@@ -87,7 +87,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 6 課：ETL 管道 — OMOP CDM 的來源](/storage/uploads/2026/03/ohdsi-bai-6-etl-pipeline.png)
+![第 6 課：ETL 管道 — OMOP CDM 的來源](/storage/uploads/2026/03/ohdsi-bai-6-etl-pipeline.webp)
 
 ## 簡介
 

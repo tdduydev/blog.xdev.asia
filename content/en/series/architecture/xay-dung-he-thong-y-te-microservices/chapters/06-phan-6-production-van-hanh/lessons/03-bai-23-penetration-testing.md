@@ -24,13 +24,13 @@ locale: en
 
 ## 1. Overview of Security Testing for Healthcare
 
-![Penetration Testing Lifecycle — Planning, Discovery, Attack, Reporting, Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.png)
+![Penetration Testing Lifecycle — Planning, Discovery, Attack, Reporting, Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.webp)
 
 ### 1.1. Why is Pentest Healthcare Systems different?
 
 Security testing for medical systems requires a special approach compared to conventional IT systems. Medical data has the **highest value on the dark web** — 10-50 times more than a credit card — because it contains immutable information such as medical history, genetic code, social insurance numbers.
 
-![Healthcare Security Testing — Unique Challenges: Regulatory, Data Sensitivity, System Availability](/storage/uploads/2026/04/healthcare-pentest-constraints.png)
+![Healthcare Security Testing — Unique Challenges: Regulatory, Data Sensitivity, System Availability](/storage/uploads/2026/04/healthcare-pentest-constraints.webp)
 
 | Challenge | Details |
 |----------|--------|
@@ -42,7 +42,7 @@ Security testing for medical systems requires a special approach compared to con
 
 ### 1.2. Healthcare Security Testing Framework
 
-![Healthcare Security Testing Lifecycle — 5 phases: Planning → Discovery → Attack → Reporting → Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.png)
+![Healthcare Security Testing Lifecycle — 5 phases: Planning → Discovery → Attack → Reporting → Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.webp)
 
 **5 Phases:**
 

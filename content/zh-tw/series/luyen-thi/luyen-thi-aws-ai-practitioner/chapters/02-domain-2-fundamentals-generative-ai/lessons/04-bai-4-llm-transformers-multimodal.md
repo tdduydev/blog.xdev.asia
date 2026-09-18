@@ -19,7 +19,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai4-transformer-architecture.png" alt="Transformer架構" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai4-transformer-architecture.webp" alt="Transformer架構" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Transformer架構 — 編碼器堆疊、解碼器堆疊，以及BERT/GPT/T5變體</em></p>
 </div>
 

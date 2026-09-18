@@ -3,7 +3,7 @@ id: 01970000-b2c3-8d4e-f5a6-789012345def
 title: 'Gemma 4：Google 最強大的開源 AI 模型——代理式工作流、端側運行與 Apache 2.0'
 slug: gemma-4-most-powerful-google-open-ai-model-agentic-edge
 excerpt: Google DeepMind 發布 Gemma 4——在 Arena AI 排名全球第三的開源模型系列，支援代理式工作流、視覺、音訊、140 多種語言，可在 Raspberry Pi 到 H100 GPU 等各類設備上端側運行。深度分析四種規格架構（E2B、E4B、26B MoE、31B Dense）、基準測試比較及部署指南。
-featured_image: /images/blog/gemma-4-featured.png
+featured_image: /images/blog/gemma-4-featured.webp
 type: blog
 reading_time: 15
 view_count: 0

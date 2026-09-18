@@ -91,7 +91,7 @@ locale: ja
 
 ## 1. Capstone プロジェクトの紹介
 
-![本番環境への展開 — HIPAA 準拠の Kubernetes 上のヘルスケア プラットフォーム](/storage/uploads/2026/04/healthcare-production-deployment.png)
+![本番環境への展開 — HIPAA 準拠の Kubernetes 上のヘルスケア プラットフォーム](/storage/uploads/2026/04/healthcare-production-deployment.webp)
 
 ＃＃＃１．１．ターゲット
 
@@ -135,7 +135,7 @@ locale: ja
 
 ＃＃＃２．１．システムアーキテクチャ
 
-![Capstone ヘルスケア プラットフォームのアーキテクチャ](/storage/uploads/2026/04/healthcare-capstone-architecture.png)
+![Capstone ヘルスケア プラットフォームのアーキテクチャ](/storage/uploads/2026/04/healthcare-capstone-architecture.webp)
 
 **3 層セキュリティ アーキテクチャ:**
 

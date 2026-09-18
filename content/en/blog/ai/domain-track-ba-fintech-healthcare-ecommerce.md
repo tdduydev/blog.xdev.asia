@@ -7,7 +7,7 @@ excerpt: >-
   Healthcare needs to know HIPAA and clinical workflows. BA in eCommerce focuses
   on personalization and fraud. A guide to domain-specific skills, regulations,
   and AI use cases for each industry.
-featured_image: /images/blog/domain-track-ba.png
+featured_image: /images/blog/domain-track-ba.webp
 type: blog
 reading_time: 15
 view_count: 0

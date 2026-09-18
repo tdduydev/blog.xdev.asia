@@ -6,7 +6,7 @@ excerpt: >-
   BA cần hiểu chi phí AI đủ để estimate budget, negotiate với stakeholder và đưa
   ra quyết định make-or-buy. Giải thích token pricing, latency cost, cloud AI vs
   self-hosted, và FinOps practices thực tế không cần biết DevOps.
-featured_image: /images/blog/ai-cost-finops.png
+featured_image: /images/blog/ai-cost-finops.webp
 type: blog
 reading_time: 12
 view_count: 0

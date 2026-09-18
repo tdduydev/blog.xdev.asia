@@ -4,7 +4,7 @@ title: "BA的領域軌道：AI在金融科技、醫療保健和電子商務有�
 slug: domain-track-ba-fintech-healthcare-ecommerce
 excerpt: >-
   在金融科技處理AI的BA需要了解AML/KYC法規。在醫療保健的BA需要了解HIPAA和臨床工作流程。在電子商務的BA關注個人化和詐欺。各行業的領域專屬技能、法規和AI使用案例指南。
-featured_image: /images/blog/domain-track-ba.png
+featured_image: /images/blog/domain-track-ba.webp
 type: blog
 reading_time: 15
 view_count: 0

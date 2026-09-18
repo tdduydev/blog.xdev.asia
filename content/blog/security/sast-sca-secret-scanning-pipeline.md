@@ -6,7 +6,7 @@ excerpt: >-
   Trước khi nói tới DAST, IAST hay supply chain, mọi pipeline cần ba lớp cơ bản:
   SAST cho code, SCA cho dependency, secret scanning cho key/token. Bài viết
   hướng dẫn dựng đủ ba lớp với Semgrep, Trivy và Gitleaks.
-featured_image: /images/blog/sast-sca-secret-pipeline-featured.png
+featured_image: /images/blog/sast-sca-secret-pipeline-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

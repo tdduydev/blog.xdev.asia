@@ -6,7 +6,7 @@ excerpt: >-
   BA 不需要做出漂亮 UI，但需要畫出團隊看得懂的 wireframe，以及讓開發不必反覆確認的
   flow diagram。本文聚焦 AI 功能常見需求：fallback path、confidence 顯示、
   human override 的設計與標註方式。
-featured_image: /images/blog/figma-draw-io-ba.png
+featured_image: /images/blog/figma-draw-io-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

@@ -60,7 +60,7 @@ course:
 
 <blockquote><p><strong>試験のヒント：</strong>「LLMが内部データについて間違った回答をする」や「新しい知識で更新する必要がある」といった質問 → 答えは常に<strong>RAG</strong>です。ファインチューニングではありません（ファインチューニングはスタイル/動作を変えるもので、新しい知識の注入には使いません）。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai7-rag-pipeline.png" alt="RAGパイプライン — ドキュメント取り込み、ベクトルストア、検索、拡張生成" loading="lazy" /><figcaption>RAGパイプライン — ドキュメント取り込み、ベクトルストア、検索、拡張生成</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai7-rag-pipeline.webp" alt="RAGパイプライン — ドキュメント取り込み、ベクトルストア、検索、拡張生成" loading="lazy" /><figcaption>RAGパイプライン — ドキュメント取り込み、ベクトルストア、検索、拡張生成</figcaption></figure>
 
 <h2 id="2-rag-architecture">2. RAGアーキテクチャ — Retrieve → Augment → Generate</h2>
 

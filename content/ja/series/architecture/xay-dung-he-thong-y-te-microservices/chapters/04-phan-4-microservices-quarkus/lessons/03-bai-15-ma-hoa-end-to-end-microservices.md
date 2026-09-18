@@ -90,13 +90,13 @@ locale: ja
 
 ## 1. 医療向けのエンドツーエンド暗号化の概要
 
-![ヘルスケア マイクロサービスにおけるエンドツーエンド暗号化 — エンベロープ暗号化、Vault、Kafka](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.png)
+![ヘルスケア マイクロサービスにおけるエンドツーエンド暗号化 — エンベロープ暗号化、Vault、Kafka](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.webp)
 
 医療マイクロサービス システムでは、PHI データは、クライアント → API ゲートウェイ → サービス → Kafka → データベースという **多くのレイヤー** を通過します。エンドツーエンドの暗号化により、転送中 (TLS) だけでなく、保存中および使用中のあらゆる時点でデータが**常に保護**されます。
 
 ＃＃＃１．１．暗号化アーキテクチャ
 
-![エンドツーエンドの暗号化アーキテクチャ — クライアント → API ゲートウェイ → サービス → データベースと Vault](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.png)
+![エンドツーエンドの暗号化アーキテクチャ — クライアント → API ゲートウェイ → サービス → データベースと Vault](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.webp)
 
 **暗号化フロー:**
 
@@ -273,7 +273,7 @@ CREATE INDEX idx_blind_hash ON healthcare.patients_blind_index(field_name, blind
 
 ＃＃＃３．１．エンベロープ暗号化パターン
 
-![エンベロープ暗号化パターン — DEK + KEK (Vault Transit を使用)](/storage/uploads/2026/04/healthcare-envelope-encryption.png)
+![エンベロープ暗号化パターン — DEK + KEK (Vault Transit を使用)](/storage/uploads/2026/04/healthcare-envelope-encryption.webp)
 
 **プロセス:**
 

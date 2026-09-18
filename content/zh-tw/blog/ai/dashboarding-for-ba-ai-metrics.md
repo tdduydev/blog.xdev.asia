@@ -4,7 +4,7 @@ title: "BA的儀表板：無需SQL即可建立追蹤AI功能表現的儀表板"
 slug: dashboarding-for-ba-ai-metrics
 excerpt: >-
   BA需要儀表板來證明AI功能正在創造價值、監控上線後的健康狀況，並向利害關係人報告。使用Looker Studio、Power BI和Metabase建立儀表板的指南——聚焦於業務指標和AI品質指標。
-featured_image: /images/blog/dashboarding-ba.png
+featured_image: /images/blog/dashboarding-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

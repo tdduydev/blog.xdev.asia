@@ -85,7 +85,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 12: IoT Data Pipeline - Ingestion, Processing & Storage](/storage/uploads/2026/03/iot-bai-12-diagram.png)
+![Bài 12: IoT Data Pipeline - Ingestion, Processing & Storage](/storage/uploads/2026/03/iot-bai-12-diagram.webp)
 
 ## Giới thiệu
 

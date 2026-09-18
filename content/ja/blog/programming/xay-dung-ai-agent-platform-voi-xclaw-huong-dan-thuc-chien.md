@@ -6,7 +6,7 @@ excerpt: >-
   xClaw を使用して完全な AI エージェント プラットフォームを構築するための詳細な手順 — マルチ LLM、RAG パイプライン、ワークフロー
   エンジン、13 のドメイン パック、マルチテナント RBAC、MCP プロトコル、および 8 つのチャット チャネルをサポートする TypeScript
   モノリポジトリ。デュアルデータベース アーキテクチャから Docker プロダクションのデプロイまで。
-featured_image: /images/blog/xclaw-ai-agent-featured.png
+featured_image: /images/blog/xclaw-ai-agent-featured.webp
 type: blog
 reading_time: 45
 view_count: 0

@@ -5,7 +5,7 @@ slug: ai-observability-cost-deployment
 excerpt: >-
   AI app cần trace prompt, retrieval, model call, tool calls, token usage, cost,
   latency, feedback, rollback, feature flags và incident runbook.
-featured_image: /images/blog/ai-observability-cost-deployment.png
+featured_image: /images/blog/ai-observability-cost-deployment.webp
 type: blog
 reading_time: 12
 view_count: 0

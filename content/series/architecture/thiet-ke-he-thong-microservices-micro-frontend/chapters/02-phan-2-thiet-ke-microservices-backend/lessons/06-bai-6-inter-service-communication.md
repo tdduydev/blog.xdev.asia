@@ -90,7 +90,7 @@ course:
 Cách các microservices giao tiếp với nhau quyết định **coupling, reliability, và performance** của toàn hệ thống. Bài này phân tích các communication patterns và hướng dẫn chọn đúng pattern cho từng use case.
 
 
-![Inter-service Communication — Sync, Async và Event Streaming](/storage/uploads/2026/04/mfe-ms-diagram-bai6-communication-patterns.png)
+![Inter-service Communication — Sync, Async và Event Streaming](/storage/uploads/2026/04/mfe-ms-diagram-bai6-communication-patterns.webp)
 
 ---
 

@@ -5,7 +5,7 @@ slug: stakeholder-workshop-facilitation-ba
 excerpt: >-
   良いワークショップとは、混雑した会議ではありません。この記事は、BA
   が目標、議題、質問、促進テクニック、紛争解決を準備し、ワークショップ後にアクションアイテムを最終決定する際のガイドとなります。
-featured_image: /images/blog/elicitation-ai-notes-ba.png
+featured_image: /images/blog/elicitation-ai-notes-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

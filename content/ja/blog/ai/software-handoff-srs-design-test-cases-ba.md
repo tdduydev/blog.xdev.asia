@@ -5,7 +5,7 @@ slug: software-handoff-srs-design-test-cases-ba
 excerpt: >-
   適切な引き継ぎは、スプリントを開始する前に開発/QA が要件を正しく理解するのに役立ちます。この記事では、引き継ぎチェックリスト、スリー
   アミーゴのアジェンダ、合格基準をテスト シナリオに変換する例、未解決の質問の管理方法について説明します。
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

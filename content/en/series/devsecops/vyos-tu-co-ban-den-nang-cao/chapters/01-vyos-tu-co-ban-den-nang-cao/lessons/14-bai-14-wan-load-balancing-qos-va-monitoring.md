@@ -15,7 +15,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-14-wan-lb-qos.png" alt="WAN Load Balancing, QoS and Monitoring" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-14-wan-lb-qos.webp" alt="WAN Load Balancing, QoS and Monitoring" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>WAN Load Balancing, QoS and Monitoring on VyOS</h2>
 <p>Stable Internet connectivity, bandwidth optimization, and traffic visibility are essential operational requirements. VyOS provides strong capabilities for WAN load balancing, QoS, and monitoring.</p>

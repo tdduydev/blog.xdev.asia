@@ -5,7 +5,7 @@ slug: docker-swarm-hay-kubernetes-chon-the-nao
 excerpt: >-
   Cả hai giải cùng một bài toán. Câu hỏi không phải cái nào mạnh hơn, mà là đội của bạn
   gánh được cái nào — và bạn có định tự vận hành cụm hay không.
-featured_image: /images/blog/docker-swarm-hay-kubernetes.png
+featured_image: /images/blog/docker-swarm-hay-kubernetes.webp
 type: blog
 reading_time: 10
 view_count: 0
@@ -55,7 +55,7 @@ Bạn có nhiều máy và nhiều container. Ai đó phải quyết:
 | Dịch vụ tìm nhau kiểu gì? | tên nội bộ, cân tải |
 | Đổi phiên bản mà không tắt? | cập nhật cuốn chiếu, quay lui được |
 
-![Máy chết thì container đi đâu](/images/blog/swarm-k8s-dieu-phoi.png)
+![Máy chết thì container đi đâu](/images/blog/swarm-k8s-dieu-phoi.webp)
 
 Cả Swarm lẫn Kubernetes đều làm được cả bốn. **Khác nhau không nằm ở chỗ làm được gì** — nó
 nằm ở cái giá phải trả để có chúng.
@@ -78,7 +78,7 @@ services:
 **Kubernetes là một *nền tảng* có API mở rộng được.** Bạn không chỉ dùng các loại tài nguyên có
 sẵn — bạn định nghĩa loại mới rồi viết controller cho nó:
 
-![Một chế độ so với một nền tảng](/images/blog/swarm-k8s-che-do-vs-nen-tang.png)
+![Một chế độ so với một nền tảng](/images/blog/swarm-k8s-che-do-vs-nen-tang.webp)
 
 Một bên là **tính năng của công cụ bạn đã dùng**. Bên kia là **nền tảng bạn xây lên trên**.
 
@@ -116,7 +116,7 @@ cùng ngôn ngữ, càng ít thứ bạn phải tự viết.
 
 **Sự đơn giản.** Cùng một dịch vụ nhỏ, đặt hai cây cạnh nhau:
 
-![Cùng một dịch vụ nhỏ, hai cây đối tượng](/images/blog/swarm-k8s-cay-doi-tuong.png)
+![Cùng một dịch vụ nhỏ, hai cây đối tượng](/images/blog/swarm-k8s-cay-doi-tuong.webp)
 
 Nhiều nút vặn nghĩa là **nhiều chỗ vặn sai**. Theo kinh nghiệm của tôi, phần lớn sự cố trên
 Kubernetes đến từ **cấu hình** chứ không từ mã ứng dụng — quyền RBAC thiếu, probe đặt sai,

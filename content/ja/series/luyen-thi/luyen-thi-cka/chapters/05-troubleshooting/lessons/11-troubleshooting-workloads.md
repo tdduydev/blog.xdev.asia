@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai11-workload-debug.png" alt="Podトラブルシューティングワークフロー — CrashLoopBackOff、ImagePullBackOff、OOMKilled" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai11-workload-debug.webp" alt="Podトラブルシューティングワークフロー — CrashLoopBackOff、ImagePullBackOff、OOMKilled" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="pod-debug-workflow">1. Podデバッグワークフロー</h2>
 

@@ -5,7 +5,7 @@ slug: llm-mental-model-token-context-embedding
 excerpt: >-
   AI Engineer không cần train foundation model từ đầu, nhưng phải hiểu token,
   context window, embeddings, RAG, fine-tuning và trade-off giữa chúng.
-featured_image: /images/blog/llm-mental-model-token-context-embedding.png
+featured_image: /images/blog/llm-mental-model-token-context-embedding.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   RTM giúp BA trace từ business objective đến requirement, user story, test case và release.
   Bài này hướng dẫn tạo RTM tối giản nhưng dùng được trong Agile, Waterfall và dự án
   có compliance.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0

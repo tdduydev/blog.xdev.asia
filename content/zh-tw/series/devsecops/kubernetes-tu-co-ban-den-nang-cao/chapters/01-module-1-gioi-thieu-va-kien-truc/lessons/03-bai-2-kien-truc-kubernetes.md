@@ -18,7 +18,7 @@ locale: zh-tw
 
 <p>Kubernetes 採用分散式模型設計，具有清晰的主從架構。為了有效地使用 Kubernetes，尤其是在出現問題時進行調試，您需要了解每個組件的作用、它們如何相互通信以及為什麼要這樣設計。本課程深入探討 Kubernetes 1.32+ 架構，其中包括 Containerd 2.0、kube-proxy 的 nftables 模式和 cgroup v2 路線圖的重要變化。 </p>
 
-<img src="/storage/uploads/2026/03/k8s-architecture-2026.png" alt="Kubernetes Architecture - Control Plane và Worker Nodes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-architecture-2026.webp" alt="Kubernetes Architecture - Control Plane và Worker Nodes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1。架構概述：控制平面和工作節點</h2>
 
@@ -193,7 +193,7 @@ ___程式碼區塊_8___
 
 <p>為了以實用的方式理解該架構，讓我們追蹤執行 <code>kubectl apply -f pod.yaml</code>:</p> 時發生的流程
 
-<img src="/storage/uploads/2026/03/k8s-pod-creation-flow-2026.png" alt="Pod Creation Flow - từ kubectl đến Container" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-pod-creation-flow-2026.webp" alt="Pod Creation Flow - từ kubectl đến Container" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 ___程式碼區塊_9___
 

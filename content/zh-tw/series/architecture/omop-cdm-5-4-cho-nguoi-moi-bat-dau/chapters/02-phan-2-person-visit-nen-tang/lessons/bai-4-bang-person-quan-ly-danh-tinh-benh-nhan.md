@@ -45,7 +45,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![人員 — OMOP CDM 的核心，連接所有臨床小組](/storage/uploads/2026/04/omop-cdm-bai4-person-centric.png)
+![人員 — OMOP CDM 的核心，連接所有臨床小組](/storage/uploads/2026/04/omop-cdm-bai4-person-centric.webp)
 
 ## 簡介
 

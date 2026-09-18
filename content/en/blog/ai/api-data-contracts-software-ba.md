@@ -9,7 +9,7 @@ excerpt: >-
   validation, error code, events, data lineage and contract. This article
   provides integration request templates, scheduling examples and checklists to
   help BA work better with Dev/Data/QA.
-featured_image: /images/blog/rest-api-data-validation-ba.png
+featured_image: /images/blog/rest-api-data-validation-ba.webp
 type: blog
 reading_time: 17
 view_count: 0

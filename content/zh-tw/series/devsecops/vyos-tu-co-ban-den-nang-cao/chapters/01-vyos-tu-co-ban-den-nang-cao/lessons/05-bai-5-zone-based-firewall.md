@@ -14,7 +14,7 @@ course:
   title: VyOS 從入門到進階
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-05-zone-firewall.png" alt="Zone-based Firewall" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-05-zone-firewall.webp" alt="Zone-based Firewall" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 <h2>Zone-based Firewall là gì?</h2>
 
 <p>Trong bài trước, chúng ta cấu hình firewall theo <strong>interface-based</strong> — gán rules trực tiếp vào từng interface với inbound/outbound direction. Phương pháp này hoạt động tốt nhưng trở nên phức tạp khi mạng có nhiều interfaces.</p>

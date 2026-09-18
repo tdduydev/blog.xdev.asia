@@ -98,7 +98,7 @@ LLM評估流程——從資料到決策
 
 <blockquote><p><strong>考試提示：</strong>DLI評測經常問「哪種評估方法最適合X？」——記住：<strong>BLEU</strong>用於翻譯、<strong>ROUGE</strong>用於摘要、<strong>F1</strong>用於問答、<strong>LLM-as-a-Judge</strong>用於整體品質。沒有單一指標適用於所有任務。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai10-lora-fine-tuning.png" alt="LoRA微調——Low-Rank Adaptation、QLoRA、評估指標儀表板" loading="lazy" /><figcaption>LoRA微調——Low-Rank Adaptation、QLoRA、評估指標儀表板</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai10-lora-fine-tuning.webp" alt="LoRA微調——Low-Rank Adaptation、QLoRA、評估指標儀表板" loading="lazy" /><figcaption>LoRA微調——Low-Rank Adaptation、QLoRA、評估指標儀表板</figcaption></figure>
 
 <h2 id="2-automated-metrics-deep-dive">2. 自動化指標深入探討</h2>
 

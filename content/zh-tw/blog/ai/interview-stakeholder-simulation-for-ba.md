@@ -4,7 +4,7 @@ title: "BA的訪談與利害關係人模擬：與AI一起練習以提升訪談�
 slug: interview-stakeholder-simulation-for-ba
 excerpt: >-
   BA需要說服困難的利害關係人並通過競爭激烈的面試。AI可以24小時365天為你扮演利害關係人模擬器、模擬面試官和魔鬼代言人。提示模板、練習情境，以及如何評估模擬品質以實現真正進步的指南。
-featured_image: /images/blog/interview-simulation-ba.png
+featured_image: /images/blog/interview-simulation-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

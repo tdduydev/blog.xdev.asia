@@ -6,7 +6,7 @@ excerpt: >-
   Human-in-the-loop is not just "adding a confirm button". BA must design escalation
   thresholds, routing rules, SLA for agent review, and feedback loops. A complete HITL
   design guide with decision matrix and escalation flow templates.
-featured_image: /images/blog/human-in-the-loop-design.png
+featured_image: /images/blog/human-in-the-loop-design.webp
 type: blog
 reading_time: 13
 view_count: 0

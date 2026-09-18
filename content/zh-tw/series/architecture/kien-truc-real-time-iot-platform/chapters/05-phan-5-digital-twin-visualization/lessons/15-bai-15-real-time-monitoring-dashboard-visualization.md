@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 15 課：即時監控儀表板和視覺化](/storage/uploads/2026/03/iot-bai-15-diagram.png)
+![第 15 課：即時監控儀表板和視覺化](/storage/uploads/2026/03/iot-bai-15-diagram.webp)
 
 ## 簡介
 

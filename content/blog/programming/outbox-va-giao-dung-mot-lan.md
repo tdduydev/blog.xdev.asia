@@ -6,7 +6,7 @@ excerpt: >-
   Broker chỉ bảo đảm cho message đã vào được nó. Khoảng trống nằm trước đó — giữa lúc database
   commit và lúc broker nhận — và không có tính năng nào của broker che được, vì lúc đó nó chưa biết
   message tồn tại.
-featured_image: /images/blog/outbox-va-giao-dung-mot-lan/cover.png
+featured_image: /images/blog/outbox-va-giao-dung-mot-lan/cover.webp
 type: blog
 reading_time: 11
 view_count: 0

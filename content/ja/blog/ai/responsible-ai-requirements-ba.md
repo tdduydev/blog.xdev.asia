@@ -4,7 +4,7 @@ title: "責任ある AI 要件：BA が安全な AI 機能用の要件を作成"
 slug: responsible-ai-requirements-ba
 excerpt: >-
   公平性、説明可能性、プライバシー、人間のオーバーライドは単なるバズワードではありません。これらは BA が AI 機能を構築するときにキャプチャする必要がある実際の要件です。このガイドは、Responsible AI 要件を BRD/SRS に作成し、チェックリストで検証し、EU AI Act や NIST AI RMF などのフレームワークと整合させる方法を教えます。
-featured_image: /images/blog/responsible-ai-requirements.png
+featured_image: /images/blog/responsible-ai-requirements.webp
 type: blog
 reading_time: 11
 view_count: 0

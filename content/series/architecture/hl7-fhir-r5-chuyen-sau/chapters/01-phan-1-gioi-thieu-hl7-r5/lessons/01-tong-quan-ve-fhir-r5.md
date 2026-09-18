@@ -13,7 +13,7 @@ course:
   title: 'HL7 FHIR R5 Chuyên Sâu — Reference & Thực hành'
   slug: hl7-fhir-r5-chuyen-sau
 ---
-![HL7 FHIR R5](/storage/uploads/hl7-r5/root/image_4_.png)
+![HL7 FHIR R5](/storage/uploads/hl7-r5/root/image_4_.webp)
 
 **FHIR** (Fast Healthcare Interoperability Resources) là tiêu chuẩn trao đổi dữ liệu y tế thế hệ mới được phát triển bởi HL7 International. FHIR được thiết kế để giải quyết các vấn đề tương tác giữa các hệ thống thông tin y tế, giúp dữ liệu y tế có thể được chia sẻ dễ dàng và an toàn.
 

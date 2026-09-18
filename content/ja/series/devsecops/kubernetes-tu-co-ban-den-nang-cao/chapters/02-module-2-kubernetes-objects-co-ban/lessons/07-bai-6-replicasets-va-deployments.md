@@ -16,7 +16,7 @@ locale: ja
 ---
 <h2>🎯 レッスンの目的</h2><p>ReplicaSet が Pod レプリカの数を確保する方法、デプロイメントが純粋な ReplicaSet よりも優れている理由、ローリング アップデートとロールバックを安全に実行する方法、および一般的なデプロイメント戦略を理解します。</p>
 
-<img src="/storage/uploads/2026/03/k8s-deployment-rolling-update-2026.png" alt="Kubernetes Deployment & Rolling Update Strategies" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-deployment-rolling-update-2026.webp" alt="Kubernetes Deployment & Rolling Update Strategies" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1.レプリカセット</h2>
 <p>ReplicaSet は、指定された数のポッド レプリカが常に実行されるようにします。 Pod が削除されたりクラッシュした場合、ReplicaSet は新しい Pod を作成して補います。</p>

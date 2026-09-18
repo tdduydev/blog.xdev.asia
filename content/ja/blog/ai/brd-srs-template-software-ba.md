@@ -5,7 +5,7 @@ slug: brd-srs-template-software-ba
 excerpt: >-
   BRD と SRS は 2 つの重要な成果物ですが、よく混同されます。この記事では、違い、テンプレートの構造、スケジュール機能の完全な例、および開発/QA
   に引き渡す前のレビュー チェックリストについて説明します。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 14
 view_count: 0

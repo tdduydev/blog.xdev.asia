@@ -50,7 +50,7 @@ sections: [{id: section-01, title: '第一部分：Foundation — Gemma 4 本地
 
 > **[xdev-asia-labs/gemma-4-local-ai-engineering-on-mac](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac)**
 
-![專案結構](/images/blog/gemma4-series-demo/01-project-structure.png)
+![專案結構](/images/blog/gemma4-series-demo/01-project-structure.webp)
 
 ## 完成系列後的成果
 

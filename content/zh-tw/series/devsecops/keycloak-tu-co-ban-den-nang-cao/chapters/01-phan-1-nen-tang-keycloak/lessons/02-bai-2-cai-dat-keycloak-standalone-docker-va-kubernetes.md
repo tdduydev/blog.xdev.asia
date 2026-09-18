@@ -15,7 +15,7 @@ course:
 locale: zh-tw
 ---
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/03/keycloak-deployment-options-2026.png" alt="Keycloak Deployment Options" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/03/keycloak-deployment-options-2026.webp" alt="Keycloak Deployment Options" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>3種Keycloak部署方式：Standalone、Docker Compose、Kubernetes Operator</em></p>
 </div>
 

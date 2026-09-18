@@ -6,7 +6,7 @@ excerpt: >-
   BABOK（Business Analysis Body of Knowledge）是 IIBA 定義專業 BA 所需知識、
   技能與技術的標準參考。本篇文章說明 6 個 Knowledge Areas、50+ techniques，
   以及如何把 BABOK 應用在真實 AI 專案中。
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

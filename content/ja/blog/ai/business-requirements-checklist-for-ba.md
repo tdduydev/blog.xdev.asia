@@ -6,7 +6,7 @@ excerpt: >-
   業務要件チェックリストは、BA が dev team に handoff する前に重要な条件の
   抜け漏れを防ぐためのものです。本記事では、functional requirements から
   AI-specific constraints まで、AI プロジェクト向けの完全な checklist を提供します。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0

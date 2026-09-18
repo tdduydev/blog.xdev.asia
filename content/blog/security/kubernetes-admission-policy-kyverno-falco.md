@@ -6,7 +6,7 @@ excerpt: >-
   Image scan tĩnh không bắt được hành vi bất thường khi container đang chạy.
   Kết hợp admission policy (Kyverno) chặn workload không tuân thủ và runtime
   monitor (Falco) để phát hiện shell-in-container, lateral movement.
-featured_image: /images/blog/k8s-kyverno-falco-featured.png
+featured_image: /images/blog/k8s-kyverno-falco-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

@@ -113,7 +113,7 @@ The human brain has ~86 billion neurons. Each neuron acts as a simple **decision
 2. **Treatment** in cell body/soma (consider all opinions)
 3. **Signal** through axon **if** sufficient stimulation (makes decision: "yes" or "no")
 
-![Compare biological neurons and artificial neurons (Perceptron)](/storage/uploads/2026/03/neuron-bio-vs-artificial.png)
+![Compare biological neurons and artificial neurons (Perceptron)](/storage/uploads/2026/03/neuron-bio-vs-artificial.webp)
 
 **Real life example:** Imagine you're deciding whether to go out to dinner with friends:
 
@@ -269,7 +269,7 @@ def leaky_relu(x, alpha=0.01):
 
 ### 3.1 Architecture — "Decision Factory"
 
-![Multilayer Perceptron architecture: Input → Hidden Layers → Output](/storage/uploads/2026/03/neural-network-architecture.png)
+![Multilayer Perceptron architecture: Input → Hidden Layers → Output](/storage/uploads/2026/03/neural-network-architecture.webp)
 
 Imagine MLP is an order processing **factory**:
 

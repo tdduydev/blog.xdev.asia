@@ -6,7 +6,7 @@ excerpt: >-
   Một checklist requirements tốt giúp BA tránh sót thông tin quan trọng trước khi handoff
   sang dev team. Bài viết này tổng hợp checklist đầy đủ cho BA làm dự án AI, từ business
   context, functional requirements đến các AI-specific constraints.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0
@@ -224,7 +224,7 @@ excerpt: >-
   Checklist yêu cầu nghiệp vụ giúp BA đảm bảo không bỏ sót điều kiện quan trọng
   trước khi bàn giao cho dev team. Bài này cung cấp checklist đầy đủ cho BA làm việc
   trong dự án AI — từ functional requirements đến AI-specific constraints.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0

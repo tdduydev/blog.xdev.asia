@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 15 課：語意層 - 儲存指標與業務邏輯](/storage/uploads/2026/03/dp-bai-15-diagram.png)
+![第 15 課：語意層 - 儲存指標與業務邏輯](/storage/uploads/2026/03/dp-bai-15-diagram.webp)
 
 ## 簡介
 

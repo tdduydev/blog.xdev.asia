@@ -92,7 +92,7 @@ locale: ja
 10 個以上のマイクロサービスと 5 個以上のマイクロ フロントエンドを備えた CI/CD パイプラインは、独立したデプロイメントの **バックボーン** です。この記事では、コミットから本番までのエンドツーエンドのパイプラインを設計します。
 
 
-![CI/CD Pipeline cho Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai24-cicd-pipeline.png)
+![CI/CD Pipeline cho Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai24-cicd-pipeline.webp)
 
 ---
 

@@ -6,7 +6,7 @@ excerpt: >-
   ATLAS は OHDSI 公式のコホートビルダー、Data Quality Dashboard は 3000+ ルールでデータ品質を管理、
   ACHILLES は CDM ごとに記述プロファイルを行います。本記事では Broadsea のインストール、コホート定義、
   DQD の読み方、結果対応のワークフローを解説します。
-featured_image: /images/blog/omop-atlas-dqd-featured.png
+featured_image: /images/blog/omop-atlas-dqd-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -23,7 +23,7 @@ CDM が完成しただけではスタート地点に過ぎません。価値を�
 
 ## 1. OHDSI analytics スタック
 
-![1. OHDSI analytics スタック](/images/blog/diagrams/omop-atlas-cohort-data-quality-d01.png)
+![1. OHDSI analytics スタック](/images/blog/diagrams/omop-atlas-cohort-data-quality-d01.webp)
 
 すべて **Broadsea** の Docker compose で動かせます。
 
@@ -52,13 +52,13 @@ Broadsea のサービス：
 
 ### 3.1 主な機能
 
-![3.1 主な機能](/images/blog/diagrams/omop-atlas-cohort-data-quality-d02.png)
+![3.1 主な機能](/images/blog/diagrams/omop-atlas-cohort-data-quality-d02.webp)
 
 ### 3.2 コホート作成のワークフロー
 
 例：「2026 年に新規診断され Metformin を開始した 2 型糖尿病患者」
 
-![3.2 コホート作成のワークフロー](/images/blog/diagrams/omop-atlas-cohort-data-quality-d03.png)
+![3.2 コホート作成のワークフロー](/images/blog/diagrams/omop-atlas-cohort-data-quality-d03.webp)
 
 ATLAS の UI なら SQL なしのクリック&ドラッグで OK → 出力は OMOP 標準の `cohort` テーブル。
 
@@ -156,7 +156,7 @@ viewDqDashboard("dqd_results/results.json")
 - `threshold`：許容しきい値
 - `pass/fail`
 
-![5.2 DQD の読み方](/images/blog/diagrams/omop-atlas-cohort-data-quality-d04.png)
+![5.2 DQD の読み方](/images/blog/diagrams/omop-atlas-cohort-data-quality-d04.webp)
 
 ### 5.3 対応パターン
 
@@ -232,13 +232,13 @@ ATLAS は標準では認証なし → カバーなしで公開しないこと。
 
 ## 9. マルチテナントパターン
 
-![9. マルチテナントパターン](/images/blog/diagrams/omop-atlas-cohort-data-quality-d05.png)
+![9. マルチテナントパターン](/images/blog/diagrams/omop-atlas-cohort-data-quality-d05.webp)
 
 WebAPI はマルチソースをサポート — researcher はドロップダウンでソースを選択。ユーザー／ソースごとに権限。
 
 ## 10. ベトナム向けネットワーク展開
 
-![10. ベトナム向けネットワーク展開](/images/blog/diagrams/omop-atlas-cohort-data-quality-d06.png)
+![10. ベトナム向けネットワーク展開](/images/blog/diagrams/omop-atlas-cohort-data-quality-d06.webp)
 
 Federated パターン：データは病院に残し、集約結果のみ上に送る。
 

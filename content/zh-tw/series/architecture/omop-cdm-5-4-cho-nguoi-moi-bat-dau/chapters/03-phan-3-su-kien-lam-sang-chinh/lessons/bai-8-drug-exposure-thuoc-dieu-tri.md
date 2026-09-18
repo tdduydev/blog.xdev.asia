@@ -42,7 +42,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![藥品層級：成分→臨床藥品→品牌藥](/storage/uploads/2026/04/omop-cdm-bai8-drug-hierarchy.png)
+![藥品層級：成分→臨床藥品→品牌藥](/storage/uploads/2026/04/omop-cdm-bai8-drug-hierarchy.webp)
 
 ## 簡介
 

@@ -6,7 +6,7 @@ excerpt: >-
   Vocabulary là phần khó nhất nhưng quan trọng nhất của OMOP. Bài viết giải
   thích Concept, Standard vs Source, Domain, Vocabulary, ConceptRelationship,
   ConceptAncestor và workflow tải/lookup trên Athena cho dự án Việt Nam.
-featured_image: /images/blog/omop-vocabulary-featured.png
+featured_image: /images/blog/omop-vocabulary-featured.webp
 type: blog
 reading_time: 16
 view_count: 0
@@ -49,7 +49,7 @@ Concept là 1 hàng trong bảng `CONCEPT`:
 
 ## 3. Vocabulary và Domain
 
-![3. Vocabulary và Domain](/images/blog/diagrams/omop-standardized-vocabularies-athena-d01.png)
+![3. Vocabulary và Domain](/images/blog/diagrams/omop-standardized-vocabularies-athena-d01.webp)
 
 | Domain | Bảng OMOP | Standard Vocabulary chính |
 |---|---|---|
@@ -101,7 +101,7 @@ Cực mạnh khi định nghĩa cohort: "bệnh nhân tiểu đường bất k�
 
 ## 6. Athena — portal vocabulary
 
-![6. Athena — portal vocabulary](/images/blog/diagrams/omop-standardized-vocabularies-athena-d02.png)
+![6. Athena — portal vocabulary](/images/blog/diagrams/omop-standardized-vocabularies-athena-d02.webp)
 
 Quy trình:
 1. Tạo account miễn phí trên athena.ohdsi.org
@@ -135,7 +135,7 @@ Sau khi import: ~6M concept (đầy đủ), ~12 GB. Có thể strip xuống bằ
 
 USAGI giúp map code source (ICD-10 VN, danh mục thuốc BYT) sang Standard Concept:
 
-![8. USAGI — code mapping tool](/images/blog/diagrams/omop-standardized-vocabularies-athena-d03.png)
+![8. USAGI — code mapping tool](/images/blog/diagrams/omop-standardized-vocabularies-athena-d03.webp)
 
 Workflow:
 1. File CSV input có cột `source_code, source_name`
@@ -145,7 +145,7 @@ Workflow:
 
 ## 9. Vocabulary cho VN
 
-![9. Vocabulary cho VN](/images/blog/diagrams/omop-standardized-vocabularies-athena-d04.png)
+![9. Vocabulary cho VN](/images/blog/diagrams/omop-standardized-vocabularies-athena-d04.webp)
 
 ### 9.1 Custom vocabulary cho VN
 
@@ -171,7 +171,7 @@ VN là **Member của SNOMED International** (đăng ký 2024 qua MOH). Affiliat
 
 Athena release vocabulary monthly. Quy trình upgrade:
 
-![10. Vocabulary upgrade](/images/blog/diagrams/omop-standardized-vocabularies-athena-d05.png)
+![10. Vocabulary upgrade](/images/blog/diagrams/omop-standardized-vocabularies-athena-d05.webp)
 
 Lưu ý: concept_id **stable** giữa version, nhưng `Maps to` relationship có thể thay đổi → cần re-run ETL để cập nhật `*_concept_id` columns.
 

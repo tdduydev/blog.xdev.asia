@@ -5,7 +5,7 @@ slug: nfr-quality-attributes-edge-cases-ba
 excerpt: >-
   機能要件はシステムが何を行うかを示しますが、NFR はシステムがどの程度うまく機能するかを示します。この記事では、BA が測定可能な
   NFR、品質属性シナリオ、エッジ ケースを作成し、スプリント前にチェックリストを確認する方法を説明します。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 12
 view_count: 0

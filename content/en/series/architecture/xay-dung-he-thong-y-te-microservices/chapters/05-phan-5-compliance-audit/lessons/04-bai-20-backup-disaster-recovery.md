@@ -94,7 +94,7 @@ locale: en
 
 ## 1. Overview of Disaster Recovery for Healthcare
 
-![Disaster Recovery & Business Continuity — RPO/RTO for health systems](/storage/uploads/2026/04/healthcare-disaster-recovery.png)
+![Disaster Recovery & Business Continuity — RPO/RTO for health systems](/storage/uploads/2026/04/healthcare-disaster-recovery.webp)
 
 HIPAA Security Rule §164.308(a)(7) requires every organization that handles ePHI to have a **Contingency Plan** — a contingency plan for emergency situations (natural disasters, ransomware attacks, hardware failures, human error). In healthcare, **downtime can directly affect patient lives**.
 
@@ -123,7 +123,7 @@ HIPAA Security Rule §164.308(a)(7) requires every organization that handles ePH
 
 ### 1.2. RTO/RPO Requirements for Healthcare
 
-![RTO/RPO Timeline cho Healthcare Systems](/storage/uploads/2026/04/healthcare-rto-rpo-timeline.png)
+![RTO/RPO Timeline cho Healthcare Systems](/storage/uploads/2026/04/healthcare-rto-rpo-timeline.webp)
 
 | System | RPO | RTO | Criticality |
 |--------|-----|-----|-----------|
@@ -789,7 +789,7 @@ volumes:
 
 ### 5.1. Cross-Region Architecture
 
-![Cross-Region DR Architecture — Singapore (Primary) → Tokyo (DR)](/storage/uploads/2026/04/healthcare-cross-region-dr.png)
+![Cross-Region DR Architecture — Singapore (Primary) → Tokyo (DR)](/storage/uploads/2026/04/healthcare-cross-region-dr.webp)
 
 **PRIMARY REGION** (ap-southeast-1: Singapore):
 

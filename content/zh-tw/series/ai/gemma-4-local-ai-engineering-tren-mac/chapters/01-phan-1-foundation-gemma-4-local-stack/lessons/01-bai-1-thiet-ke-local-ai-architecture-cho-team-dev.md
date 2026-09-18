@@ -388,7 +388,7 @@ Contract 明確分離後，測試與回滾將容易得多。
 
 按課程組織的專案結構：
 
-![專案結構](/images/blog/gemma4-series-demo/01-project-structure.png)
+![專案結構](/images/blog/gemma4-series-demo/01-project-structure.webp)
 
 ## 總結
 

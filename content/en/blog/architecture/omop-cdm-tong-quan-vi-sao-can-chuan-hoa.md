@@ -7,7 +7,7 @@ excerpt: >-
   make decisions. OMOP CDM is the data standard that lets you run a single
   study across hundreds of organizations at once. This article introduces
   OHDSI, CDM 5.4, and the Vietnam context.
-featured_image: /images/blog/omop-overview-featured.png
+featured_image: /images/blog/omop-overview-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -35,7 +35,7 @@ RWE matters because RCTs cover less than 5% of the clinically important question
 
 ## 2. Why a Common Data Model is needed
 
-![Why a Common Data Model is needed](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d01.png)
+![Why a Common Data Model is needed](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d01.webp)
 
 Five benefits:
 1. **Multi-source analytics**: one study runs across 200 organizations in parallel (federated)
@@ -46,13 +46,13 @@ Five benefits:
 
 ## 3. History of OMOP and OHDSI
 
-![History of OMOP and OHDSI](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d02.png)
+![History of OMOP and OHDSI](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d02.webp)
 
 OHDSI = Observational Health Data Sciences and Informatics. It is not a company — it is an open community (Apache 2.0) with working groups, network studies, and an annual symposium.
 
 ## 4. The 2026 OHDSI stack
 
-![The 2026 OHDSI stack](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d03.png)
+![The 2026 OHDSI stack](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d03.webp)
 
 ## 5. CDM 5.4 — 37 tables grouped by purpose
 

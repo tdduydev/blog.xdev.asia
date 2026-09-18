@@ -6,7 +6,7 @@ excerpt: >-
   BA không cần làm security engineer, nhưng phải biết viết requirement về authentication,
   authorization, audit log, data masking, consent, retention, PII/PHI/PCI và compliance
   để tránh thiếu ngay từ spec.
-featured_image: /images/blog/responsible-ai-requirements.png
+featured_image: /images/blog/responsible-ai-requirements.webp
 type: blog
 reading_time: 12
 view_count: 0

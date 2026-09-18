@@ -92,7 +92,7 @@ locale: en
 Shell Application (Container App) is the **coordinating brain** of the entire Micro Frontend. It determines layout, routing, authentication, and how MFEs communicate with each other.
 
 
-![Shell Application — orchestrator for Micro Frontends](/storage/uploads/2026/04/mfe-ms-diagram-bai13-shell-application.png)
+![Shell Application — orchestrator for Micro Frontends](/storage/uploads/2026/04/mfe-ms-diagram-bai13-shell-application.webp)
 
 ---
 

@@ -7,7 +7,7 @@ excerpt: >-
   data lineage (trace data từ source), retention policy (giữ bao lâu), PII classification
   (cái nào sensitive), provenance tracking (ai dùng data, khi nào). Hướng dẫn từng bước
   từ policy → implementation checklist.
-featured_image: /images/blog/data-governance-ai.png
+featured_image: /images/blog/data-governance-ai.webp
 type: blog
 reading_time: 10
 view_count: 0

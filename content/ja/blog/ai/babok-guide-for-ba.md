@@ -7,7 +7,7 @@ excerpt: >-
   プロフェッショナル BA の知識体系・スキル・技法をまとめた標準リファレンスです。
   本記事では 6 つの Knowledge Areas、50 以上の techniques、そして実際の AI
   プロジェクトで BABOK をどう適用するかを解説します。
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

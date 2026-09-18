@@ -90,7 +90,7 @@ course:
 Trong kiến trúc distributed, debug bằng `console.log` không khả thi. Khi 1 request đi qua 5 services, bạn cần **observability** để biết request đi đâu, mất bao lâu, và fail ở đâu.
 
 
-![3 trụ cột Observability — Logs, Metrics, Traces](/storage/uploads/2026/04/mfe-ms-diagram-bai26-observability.png)
+![3 trụ cột Observability — Logs, Metrics, Traces](/storage/uploads/2026/04/mfe-ms-diagram-bai26-observability.webp)
 
 ---
 

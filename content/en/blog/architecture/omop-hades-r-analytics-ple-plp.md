@@ -7,7 +7,7 @@ excerpt: >-
   packages for Patient-Level Estimation, Patient-Level Prediction,
   Characterization, and Self-Controlled Case Series. This article walks from
   install to publishing a network study.
-featured_image: /images/blog/omop-hades-featured.png
+featured_image: /images/blog/omop-hades-featured.webp
 type: blog
 reading_time: 16
 view_count: 0
@@ -24,7 +24,7 @@ ATLAS handles "cohort definition" and basic "characterization". When you need ad
 
 ## 1. What HADES is
 
-![What HADES is](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d01.png)
+![What HADES is](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d01.webp)
 
 40+ R packages, MIT-licensed, installable from CRAN or GitHub.
 
@@ -68,7 +68,7 @@ cohortDatabaseSchema <- "results"
 
 **PLE** answers: "Drug A vs. Drug B — which causes fewer side effects of type X?" Comparative effectiveness research.
 
-![CohortMethod — Patient-Level Estimation (PLE)](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d02.png)
+![CohortMethod — Patient-Level Estimation (PLE)](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d02.webp)
 
 ### 4.1 PLE workflow
 
@@ -119,7 +119,7 @@ OHDSI standard: only publish results that pass every diagnostic.
 
 **PLP** answers: "What is the probability that patient X develops Y in the next T days?"
 
-![PatientLevelPrediction (PLP) — ML](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d03.png)
+![PatientLevelPrediction (PLP) — ML](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d03.webp)
 
 ### 5.1 PLP code
 
@@ -244,7 +244,7 @@ Output uses a common schema → upload to a central server for meta-analysis.
 
 ## 9. Network studies pattern
 
-![Network studies pattern](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d04.png)
+![Network studies pattern](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d04.webp)
 
 Vietnam can join as a Site — you do not need advanced coding skills, just a CDM and the ability to run an R package.
 

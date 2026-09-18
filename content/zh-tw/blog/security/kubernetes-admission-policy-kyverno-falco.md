@@ -6,7 +6,7 @@ excerpt: >-
   靜態映像檔掃描抓不到容器執行中的異常行為。用 admission policy (Kyverno) 擋下
   不合規 workload,再以 runtime monitor (Falco) 偵測 shell-in-container、
   lateral movement。
-featured_image: /images/blog/k8s-kyverno-falco-featured.png
+featured_image: /images/blog/k8s-kyverno-falco-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

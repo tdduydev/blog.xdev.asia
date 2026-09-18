@@ -4,7 +4,7 @@ title: "AI 支援フロー用の UML と BPMN：BA が AI 支援機能をモデ�
 slug: uml-bpmn-for-ai-assisted-flows
 excerpt: >-
   AI がビジネスプロセスに参加する場合、従来の UML/BPMN 図には AI アクター、フォールバック パス、および human-in-the-loop を表現する方法がありません。このガイドは、BA に AI 支援フローを正しく図化する方法を教えます。ハッピーパス、エラーパス、信頼度閾値、および人間へのエスカレーションを含みます。
-featured_image: /images/blog/uml-bpmn-ai-flow.png
+featured_image: /images/blog/uml-bpmn-ai-flow.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-kcna
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai2-pods-workloads.png" alt="Kubernetes Workload Controllers — Deployment, StatefulSet, DaemonSet, Job" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai2-pods-workloads.webp" alt="Kubernetes Workload Controllers — Deployment, StatefulSet, DaemonSet, Job" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="pod">1. Pod — Đơn vị nhỏ nhất</h2>
 

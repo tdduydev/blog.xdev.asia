@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai2-jobs.png" alt="Jobs and CronJobs — completions, parallelism, concurrencyPolicy" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai2-jobs.webp" alt="Jobs and CronJobs — completions, parallelism, concurrencyPolicy" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="jobs">1. Jobs</h2>
 

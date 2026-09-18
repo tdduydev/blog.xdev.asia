@@ -15,7 +15,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-11-vpn-wireguard.png" alt="VPN - WireGuard and OpenVPN" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-11-vpn-wireguard.webp" alt="VPN - WireGuard and OpenVPN" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Introduction to VPN on VyOS: WireGuard and OpenVPN</h2>
 <p>VPN (Virtual Private Network) is a secure connectivity solution for inter-site links and remote access. VyOS supports several modern VPN types such as WireGuard, OpenVPN, and IPsec. This lesson focuses on WireGuard and OpenVPN, two popular solutions with strong performance, security, and flexible deployment models.</p>

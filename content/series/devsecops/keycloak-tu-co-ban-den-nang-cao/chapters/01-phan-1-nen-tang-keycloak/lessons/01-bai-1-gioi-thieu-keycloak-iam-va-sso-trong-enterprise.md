@@ -44,7 +44,7 @@ course:
 </ul>
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/03/keycloak-sso-overview-2026.png" alt="Keycloak IAM/SSO Overview" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/03/keycloak-sso-overview-2026.webp" alt="Keycloak IAM/SSO Overview" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Tổng quan Keycloak IAM/SSO: Ứng dụng → Keycloak → Identity Providers</em></p>
 </div>
 
@@ -98,7 +98,7 @@ course:
 </ul>
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/03/keycloak-architecture-2026.png" alt="Keycloak Architecture on Quarkus" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/03/keycloak-architecture-2026.webp" alt="Keycloak Architecture on Quarkus" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Kiến trúc Keycloak: Quarkus Runtime, Infinispan Cache, Hibernate ORM, Admin/Account Console</em></p>
 </div>
 

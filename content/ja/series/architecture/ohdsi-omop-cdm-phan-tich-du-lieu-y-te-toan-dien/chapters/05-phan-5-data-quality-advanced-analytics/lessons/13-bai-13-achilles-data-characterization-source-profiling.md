@@ -87,7 +87,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 13: ACHILLES — データの特性評価とソース プロファイリング](/storage/uploads/2026/03/ohdsi-bai-13-achilles.png)
+![レッスン 13: ACHILLES — データの特性評価とソース プロファイリング](/storage/uploads/2026/03/ohdsi-bai-13-achilles.webp)
 
 ## はじめに
 

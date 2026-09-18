@@ -15,7 +15,7 @@ course:
   title: VyOSの基礎から応用まで
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-11-vpn-wireguard.png" alt="VPN - WireGuard と OpenVPN" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-11-vpn-wireguard.webp" alt="VPN - WireGuard と OpenVPN" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS の VPN 入門: WireGuard と OpenVPN</h2>
 <p>VPN（Virtual Private Network）は、拠点間接続やリモートアクセスを安全に実現するためのソリューションです。VyOS は WireGuard、OpenVPN、IPsec などの最新 VPN をサポートしています。本レッスンでは、性能・セキュリティ・柔軟性の観点でよく使われる WireGuard と OpenVPN に焦点を当てます。</p>

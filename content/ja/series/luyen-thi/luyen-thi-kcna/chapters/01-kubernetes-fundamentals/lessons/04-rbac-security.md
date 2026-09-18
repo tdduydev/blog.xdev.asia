@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-kcna
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai4-rbac.png" alt="RBAC認可モデル — Subject、RoleBinding、Role、Rules" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai4-rbac.webp" alt="RBAC認可モデル — Subject、RoleBinding、Role、Rules" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="rbac">1. RBAC — ロールベースアクセス制御</h2>
 

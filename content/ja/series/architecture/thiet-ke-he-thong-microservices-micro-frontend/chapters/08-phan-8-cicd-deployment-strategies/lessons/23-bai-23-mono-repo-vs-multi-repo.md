@@ -92,7 +92,7 @@ locale: ja
 ソース コードの編成方法によって、開発者のエクスペリエンス、CI/CD の複雑さ、チームのコラボレーションが決まります。この記事では、モノリポジトリとマルチリポジトリを比較し、適切なリポジトリを選択するためのガイダンスを提供します。
 
 
-![モノリポジトリとマルチリポジトリ — コード管理戦略の比較](/storage/uploads/2026/04/mfe-ms-diagram-bai23-monorepo-vs-multirepo.png)
+![モノリポジトリとマルチリポジトリ — コード管理戦略の比較](/storage/uploads/2026/04/mfe-ms-diagram-bai23-monorepo-vs-multirepo.webp)
 
 ---
 

@@ -6,7 +6,7 @@ excerpt: >-
   BA nghiệp vụ và Software BA có nhiều điểm giao nhau nhưng không giống nhau. Bài này
   giải thích vai trò, artifact, kỹ năng, ví dụ công việc hằng ngày và lộ trình học để
   bạn biết mình cần đi theo hướng nào.
-featured_image: /images/blog/roadmap-ba-featured.png
+featured_image: /images/blog/roadmap-ba-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

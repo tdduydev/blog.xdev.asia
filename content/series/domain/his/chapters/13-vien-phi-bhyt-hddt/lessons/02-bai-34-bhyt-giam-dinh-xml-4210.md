@@ -8,7 +8,7 @@ description: >-
   toán & quy trình BV phản hồi.
 duration_minutes: 60
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-34-bhyt-giam-dinh-xml-4210-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-34-bhyt-giam-dinh-xml-4210-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 13: Viện phí, BHYT & Hóa đơn điện tử"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![BHYT — giám định & XML 4210](/storage/uploads/2026/05/his/bai-34-bhyt-giam-dinh-xml-4210-banner.png)
+![BHYT — giám định & XML 4210](/storage/uploads/2026/05/his/bai-34-bhyt-giam-dinh-xml-4210-banner.webp)
 
 ## Cổng tiếp nhận BHXH
 
-![Giám định viên BHYT soi từng dòng phí trên claim](/storage/uploads/2026/05/his/bai-34-bhyt-giam-dinh-xml-4210-workflow.png)
+![Giám định viên BHYT soi từng dòng phí trên claim](/storage/uploads/2026/05/his/bai-34-bhyt-giam-dinh-xml-4210-workflow.webp)
 
 
 ## Mục tiêu bài học

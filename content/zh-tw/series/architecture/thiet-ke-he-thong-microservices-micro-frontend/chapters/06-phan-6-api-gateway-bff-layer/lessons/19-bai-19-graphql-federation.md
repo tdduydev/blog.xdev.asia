@@ -90,7 +90,7 @@ locale: zh-tw
 GraphQL Federation允許每個微服務公開一個**子圖**，而Router會自動將其組合成**統一的超級圖**。前端僅需要 1 個端點來查詢每個服務的資料。
 
 
-![GraphQL Federation — 來自多個子圖的統一圖](/storage/uploads/2026/04/mfe-ms-diagram-bai19-graphql-federation.png)
+![GraphQL Federation — 來自多個子圖的統一圖](/storage/uploads/2026/04/mfe-ms-diagram-bai19-graphql-federation.webp)
 
 ---
 

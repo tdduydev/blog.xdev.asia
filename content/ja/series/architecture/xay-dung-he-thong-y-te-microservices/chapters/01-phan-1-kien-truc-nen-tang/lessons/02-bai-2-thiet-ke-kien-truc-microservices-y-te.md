@@ -90,7 +90,7 @@ locale: ja
 
 ## 1. ヘルスケア マイクロサービス アーキテクチャの概要
 
-![ヘルスケア マイクロサービス全体のアーキテクチャ — Quarkus、PostgreSQL、Keycloak、Kafka、Istio](/storage/uploads/2026/04/healthcare-ms-architecture-blueprint.png)
+![ヘルスケア マイクロサービス全体のアーキテクチャ — Quarkus、PostgreSQL、Keycloak、Kafka、Istio](/storage/uploads/2026/04/healthcare-ms-architecture-blueprint.webp)
 
 ＃＃＃１．１．医療にマイクロサービスを使用する理由
 
@@ -110,7 +110,7 @@ locale: ja
 
 ＃＃＃１．２．ヘルスケアドメインサービス
 
-![ヘルスケア マイクロサービスの概要 — ヘルスケア システムの 8 つの主要ドメイン サービス](/storage/uploads/2026/04/healthcare-domain-services-grid.png)
+![ヘルスケア マイクロサービスの概要 — ヘルスケア システムの 8 つの主要ドメイン サービス](/storage/uploads/2026/04/healthcare-domain-services-grid.webp)
 
 **コアサービス:**
 
@@ -129,11 +129,11 @@ locale: ja
 
 ＃＃＃２．１．上位レベルのアーキテクチャ
 
-![ヘルスケア プラットフォームのアーキテクチャの概要 — WAF、DMZ、API ゲートウェイを介したインターネットから内部ネットワークまで](/storage/uploads/2026/04/healthcare-high-level-architecture.png)
+![ヘルスケア プラットフォームのアーキテクチャの概要 — WAF、DMZ、API ゲートウェイを介したインターネットから内部ネットワークまで](/storage/uploads/2026/04/healthcare-high-level-architecture.webp)
 
 ＃＃＃２．２．ネットワークセグメンテーション (多層防御)
 
-![4 つのネットワーク ゾーンを備えた多層防御モデル — DMZ、アプリケーション、データ、管理](/storage/uploads/2026/04/healthcare-network-segmentation.png)
+![4 つのネットワーク ゾーンを備えた多層防御モデル — DMZ、アプリケーション、データ、管理](/storage/uploads/2026/04/healthcare-network-segmentation.webp)
 
 |ゾーン |成分 |
 |------|-----------|
@@ -288,7 +288,7 @@ public class PatientResource {
 
 ＃＃＃４．１．データ分離戦略
 
-![サービスごとのデータベース パターン — 各マイクロサービスには、データが分離された個別のデータベースがあります。](/storage/uploads/2026/04/healthcare-database-per-service.png)
+![サービスごとのデータベース パターン — 各マイクロサービスには、データが分離された個別のデータベースがあります。](/storage/uploads/2026/04/healthcare-database-per-service.webp)
 
 |サービス |データベース |テーブル |
 |----------|----------|----------|
@@ -300,7 +300,7 @@ public class PatientResource {
 
 ＃＃＃４．２．イベントを介したデータの共有 (イベントソーシング)
 
-![イベント駆動型アーキテクチャ — 患者サービスは、Kafka を介して消費サービスにイベントを発行します。](/storage/uploads/2026/04/healthcare-event-sourcing-kafka.png)
+![イベント駆動型アーキテクチャ — 患者サービスは、Kafka を介して消費サービスにイベントを発行します。](/storage/uploads/2026/04/healthcare-event-sourcing-kafka.webp)
 
 > **重要**: PHI を含む Kafka メッセージは暗号化する必要があります。保存時には Kafka 暗号化を使用し、機密フィールドにはアプリケーション レベルの暗号化を使用します。
 

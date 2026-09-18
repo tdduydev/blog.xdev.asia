@@ -6,7 +6,7 @@ excerpt: >-
   RTM helps BA trace from business objective to requirements, user stories, test
   cases and release. This article shows you how to create a minimalistic RTM
   that can be used in Agile, Waterfall, and compliance projects.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   BA doesn't need to code APIs, but must understand request/response, error handling,
   data contracts, and validation rules. This guide helps BA read OpenAPI specs,
   review API design, and write data quality acceptance criteria for AI features.
-featured_image: /images/blog/rest-api-data-validation-ba.png
+featured_image: /images/blog/rest-api-data-validation-ba.webp
 type: blog
 reading_time: 9
 view_count: 0

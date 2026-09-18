@@ -50,7 +50,7 @@ DDPM Overview — Two Processes
    t = 1000   t = 500    t = 100    t = 0
 </code></pre>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai4-ddpm-diffusion-process.png" alt="DDPM — 正向擴散（加入噪聲）與逆向擴散（去噪）" loading="lazy" /><figcaption>DDPM — 正向擴散（加入噪聲）與逆向擴散（去噪）</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai4-ddpm-diffusion-process.webp" alt="DDPM — 正向擴散（加入噪聲）與逆向擴散（去噪）" loading="lazy" /><figcaption>DDPM — 正向擴散（加入噪聲）與逆向擴散（去噪）</figcaption></figure>
 
 <h2 id="forward-diffusion">2. 正向擴散過程</h2>
 

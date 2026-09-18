@@ -5,7 +5,7 @@ slug: backend-ai-apps-python-typescript
 excerpt: >-
   AI app production cần nền tảng backend chắc: timeout, retry, streaming, queue,
   typed config, secret management, request id và logging không làm lộ dữ liệu nhạy cảm.
-featured_image: /images/blog/backend-ai-apps-python-typescript.png
+featured_image: /images/blog/backend-ai-apps-python-typescript.webp
 type: blog
 reading_time: 12
 view_count: 0

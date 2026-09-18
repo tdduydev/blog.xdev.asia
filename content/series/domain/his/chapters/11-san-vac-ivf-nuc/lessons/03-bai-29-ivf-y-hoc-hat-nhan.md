@@ -8,7 +8,7 @@ description: >-
   Iod-131).
 duration_minutes: 45
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-29-ivf-y-hoc-hat-nhan-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-29-ivf-y-hoc-hat-nhan-banner.webp
 video_url: null
 sort_order: 3
 section_title: "Phần 11: Chuyên khoa đặc thù"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![IVF & Y học hạt nhân](/storage/uploads/2026/05/his/bai-29-ivf-y-hoc-hat-nhan-banner.png)
+![IVF & Y học hạt nhân](/storage/uploads/2026/05/his/bai-29-ivf-y-hoc-hat-nhan-banner.webp)
 
 ## IVF — Hỗ trợ sinh sản
 
-![Lab IVF với phôi và phòng PET/SPECT](/storage/uploads/2026/05/his/bai-29-ivf-y-hoc-hat-nhan-workflow.png)
+![Lab IVF với phôi và phòng PET/SPECT](/storage/uploads/2026/05/his/bai-29-ivf-y-hoc-hat-nhan-workflow.webp)
 
 
 ## Mục tiêu bài học

@@ -6,7 +6,7 @@ excerpt: >-
   脅威モデリングは50ページのドキュメントである必要はありません。DFDレベル1、STRIDE、
   リスクレジスタを使う60分のセッションで、監査やペンテストでよく見つかる設計上の
   欠陥クラスを十分に防げます。
-featured_image: /images/blog/threat-modeling-stride-featured.png
+featured_image: /images/blog/threat-modeling-stride-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

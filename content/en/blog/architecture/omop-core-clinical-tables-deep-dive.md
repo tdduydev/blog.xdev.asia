@@ -6,7 +6,7 @@ excerpt: >-
   A deep dive into the seven most important tables in OMOP CDM 5.4 — schema,
   foreign keys, ETL conventions, common pitfalls (Measurement vs. Observation,
   Drug_Exposure vs. Drug_Era), and 10 popular RWE SQL patterns.
-featured_image: /images/blog/omop-core-tables-featured.png
+featured_image: /images/blog/omop-core-tables-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -23,7 +23,7 @@ OMOP CDM 5.4 has 37 tables, but 90% of RWE analytics only touches seven core tab
 
 ## 1. Person-centric architecture
 
-![Person-centric architecture](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d01.png)
+![Person-centric architecture](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d01.webp)
 
 Every clinical event carries a `person_id` and an optional `visit_occurrence_id`. These are your join keys.
 
@@ -283,7 +283,7 @@ For Vietnam, map the Ministry of Health DVKT (Technical Service catalogue) to SN
 
 ## 9. Drug_Era and Condition_Era — derived
 
-![Drug_Era and Condition_Era — derived](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d02.png)
+![Drug_Era and Condition_Era — derived](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d02.webp)
 
 `DRUG_ERA` aggregates contiguous Drug_Exposures (default 30-day gap):
 

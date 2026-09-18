@@ -6,7 +6,7 @@ excerpt: >-
   Shift-left is not about dumping work on developers. It is about automating
   security controls close to where defects are introduced, so teams can fix fast
   and security becomes a default property of the system.
-featured_image: /images/blog/devsecops-shift-left-featured.png
+featured_image: /images/blog/devsecops-shift-left-featured.webp
 type: blog
 reading_time: 8
 view_count: 0

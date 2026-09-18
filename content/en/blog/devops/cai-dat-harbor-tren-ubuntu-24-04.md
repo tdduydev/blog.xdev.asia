@@ -5,7 +5,7 @@ slug: cai-dat-harbor-tren-ubuntu-24-04
 excerpt: >-
   Detailed instructions for installing Harbor - private Docker registry on
   Ubuntu 24.04, including HTTPS, security, backup and best practices.
-featured_image: /images/blog/harbor-ubuntu-featured.png
+featured_image: /images/blog/harbor-ubuntu-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

@@ -99,7 +99,7 @@ cd ner-nhin-la-hieu
 python3 scratch/ep05_chuoi_bat_kha_thi.py
 ```
 
-![Kết quả chạy ep05_chuoi_bat_kha_thi](/images/blog/trich-xuat-nhin-la-hieu/ep05_chuoi_bat_kha_thi.png)
+![Kết quả chạy ep05_chuoi_bat_kha_thi](/images/blog/trich-xuat-nhin-la-hieu/ep05_chuoi_bat_kha_thi.webp)
 
 Toàn bộ số của bảy bài: `python3 measure.py`. Khẳng định số không đổi: `python3 run_tests.py`.
 

@@ -4,7 +4,7 @@ title: "ユーザーストーリーと受け入れ基準：BA のための INVES
 slug: user-story-acceptance-criteria-invest-standard
 excerpt: >-
   不適切なユーザーストーリーは「仕様不一致」バグとスプリント再作業の 80% の原因です。このガイドは、BA が INVEST 標準を使用してストーリーを作成し、BDD Given/When/Then 形式で受け入れ基準を書き、AI を使用して不足しているエッジケースを自動的に検出する方法を教えます。
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

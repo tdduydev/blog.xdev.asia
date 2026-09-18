@@ -89,13 +89,13 @@ locale: zh-tw
 
 ## 1. 醫療資料加密概述
 
-![4層醫療資料加密：磁碟、TDE、列、應用程式](/storage/uploads/2026/04/healthcare-encryption-layers.png)
+![4層醫療資料加密：磁碟、TDE、列、應用程式](/storage/uploads/2026/04/healthcare-encryption-layers.webp)
 
 醫療資料 (PHI) 需要在**兩種狀態**進行加密：靜態（儲存時）和傳輸中（傳輸時）。 HIPAA 安全規則 §164.312(a)(2)(iv) 和 §164.312(e)(2)(ii) 特別規定了加密要求。
 
 ### 1.1。加密層
 
-![醫療資料加密層 - 傳輸中、靜態（4 個層級）、備份](/storage/uploads/2026/04/healthcare-encryption-layers.png)
+![醫療資料加密層 - 傳輸中、靜態（4 個層級）、備份](/storage/uploads/2026/04/healthcare-encryption-layers.webp)
 
 - **傳輸中**：應用程式與資料庫之間的 TLS 1.3
 - **靜態等級 1**：全磁碟加密 (LUKS/dm-crypt) — 磁碟被竊時的保護
@@ -539,7 +539,7 @@ public class SslVerificationService {
 
 ### 5.1。 Vault 傳輸秘密引擎
 
-![帶有 Vault Transit 的信封加密模式 — DEK + KEK](/storage/uploads/2026/04/healthcare-vault-envelope-encryption.png)
+![帶有 Vault Transit 的信封加密模式 — DEK + KEK](/storage/uploads/2026/04/healthcare-vault-envelope-encryption.webp)
 
 **信封加密過程：**
 
@@ -924,7 +924,7 @@ echo "Restore completed from: ${BACKUP_FILE}"
 
 ### 8.1。密鑰輪換過程
 
-![金鑰輪換時間線 — v1 → v2 → v3 每 90 天一次，Vault 自動輪換](/storage/uploads/2026/04/healthcare-key-rotation-timeline.png)
+![金鑰輪換時間線 — v1 → v2 → v3 每 90 天一次，Vault 自動輪換](/storage/uploads/2026/04/healthcare-key-rotation-timeline.webp)
 
 - **第 0–90 天**：密鑰 v1 處於活動狀態 — 加密新數據
 - **第 90–180 天**：密鑰 v2 處於活動狀態 — 重新加密舊數據，v1 仍然可以解密

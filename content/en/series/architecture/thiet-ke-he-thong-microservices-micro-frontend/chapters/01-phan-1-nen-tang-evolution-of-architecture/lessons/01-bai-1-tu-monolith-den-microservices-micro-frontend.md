@@ -101,7 +101,7 @@ Most software systems start out as **Monolith** — and rightly so. But as the s
 
 ### 1.1 What is Monolith Architecture?
 
-![Monolith architecture — all modules in 1 block, shared database](/storage/uploads/2026/04/mfe-ms-diagram-bai1-monolith-architecture.png)
+![Monolith architecture — all modules in 1 block, shared database](/storage/uploads/2026/04/mfe-ms-diagram-bai1-monolith-architecture.webp)
 
 Monolith is an architecture where the **entire application** is built, deployed and scaled as a **single unit**. All modules (User, Product, Order...) run in the same process, share the same database, and deploy together.
 
@@ -156,7 +156,7 @@ Timeline:
 
 ### 2.2 SOA (Service-Oriented Architecture)
 
-![SOA with ESB — centralized bus becomes single point of failure](/storage/uploads/2026/04/mfe-ms-diagram-bai1-soa-architecture.png)
+![SOA with ESB — centralized bus becomes single point of failure](/storage/uploads/2026/04/mfe-ms-diagram-bai1-soa-architecture.webp)
 
 SOA is the first step to separate Monolith into services. However, SOA has some limitations:
 
@@ -201,7 +201,7 @@ Microservices inherit the SOA idea but with core principles:
 
 ### 3.1 Backend has been separated, Frontend is still merged
 
-![Frontend Monolith — Backend has been separated but Frontend is still a giant SPA](/storage/uploads/2026/04/mfe-ms-diagram-bai1-frontend-monolith-problem.png)
+![Frontend Monolith — Backend has been separated but Frontend is still a giant SPA](/storage/uploads/2026/04/mfe-ms-diagram-bai1-frontend-monolith-problem.webp)
 
 Many organizations have adopted Microservices for the backend, but the frontend is still **one giant SPA application** (React/Angular/Vue monolith).
 

@@ -90,7 +90,7 @@ locale: ja
 
 ## 1. 概要 医療向けの一元的な監査証跡
 
-![Centralized Audit Trail — OpenTelemetry, ELK Stack cho Healthcare Compliance](/storage/uploads/2026/04/healthcare-audit-trail-elk.png)
+![Centralized Audit Trail — OpenTelemetry, ELK Stack cho Healthcare Compliance](/storage/uploads/2026/04/healthcare-audit-trail-elk.webp)
 
 医療マイクロサービス システムでは、**リクエスト**は、API ゲートウェイ → 患者サービス → 検査サービス → 通知サービスなど、多くのサービスを通過できます。 PHI データの流れを完全に監査するには、**集中監査証跡**、つまり患者データに関するすべてのアクティビティを記録および分析する集中システムが必要です。
 
@@ -400,7 +400,7 @@ public class PatientService {
 
 ＃＃＃３．１．相関 ID アーキテクチャ
 
-![Distributed Tracing — Patient Data Flow qua API Gateway → Patient Service → DB/Kafka/Lab Service](/storage/uploads/2026/04/healthcare-distributed-tracing-flow.png)
+![Distributed Tracing — Patient Data Flow qua API Gateway → Patient Service → DB/Kafka/Lab Service](/storage/uploads/2026/04/healthcare-distributed-tracing-flow.webp)
 
 **トレース フロー:**
 

@@ -6,7 +6,7 @@ excerpt: >-
   ETL từ source HIS/EHR/claim sang OMOP CDM tốn 3-6 tháng nếu làm từ đầu. Bài
   viết hướng dẫn pipeline chuẩn OHDSI: WhiteRabbit profile, RabbitInAHat thiết
   kế, USAGI mapping, triển khai bằng SQL/Perseus/dbt, validate bằng DQD.
-featured_image: /images/blog/omop-etl-featured.png
+featured_image: /images/blog/omop-etl-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -23,7 +23,7 @@ ETL OMOP là phần khó nhất và tốn thời gian nhất của dự án. Tin
 
 ## 1. Quy trình chuẩn OHDSI
 
-![1. Quy trình chuẩn OHDSI](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d01.png)
+![1. Quy trình chuẩn OHDSI](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d01.webp)
 
 7 bước chuẩn:
 1. Profile source bằng WhiteRabbit
@@ -118,7 +118,7 @@ Lưu vào Git, version với mỗi data refresh.
 
 Đã giới thiệu ở [Vocabulary deep dive](/blog/omop-standardized-vocabularies-athena). Nhắc lại workflow:
 
-![4. USAGI — code mapping](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d02.png)
+![4. USAGI — code mapping](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d02.webp)
 
 ### 4.1 Best practice
 
@@ -302,7 +302,7 @@ docker compose up
 
 Dataset HIS lớn → không re-ETL toàn bộ mỗi đêm. Pattern incremental:
 
-![8. Incremental ETL](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d03.png)
+![8. Incremental ETL](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d03.webp)
 
 Lưu ý:
 - Track `updated_at` ở source — nếu không có → thêm trigger hoặc CDC (Debezium)

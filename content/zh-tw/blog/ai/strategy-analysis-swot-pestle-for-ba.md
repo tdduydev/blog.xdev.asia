@@ -6,7 +6,7 @@ excerpt: >-
   Strategy Analysis 幫助 BA 在撰寫需求前先理解組織情境。本文說明如何把 SWOT、
   PESTLE、Impact Mapping、Value Stream Mapping 用在策略分析上，特別適用於
   正在導入 AI 功能的組織。
-featured_image: /images/blog/strategy-analysis-swot.png
+featured_image: /images/blog/strategy-analysis-swot.webp
 type: blog
 reading_time: 13
 view_count: 0

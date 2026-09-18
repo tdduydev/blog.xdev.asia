@@ -7,7 +7,7 @@ excerpt: >-
   explains Concepts, Standard vs. Source, Domain, Vocabulary,
   ConceptRelationship, and ConceptAncestor — plus the Athena download/lookup
   workflow for Vietnamese projects.
-featured_image: /images/blog/omop-vocabulary-featured.png
+featured_image: /images/blog/omop-vocabulary-featured.webp
 type: blog
 reading_time: 16
 view_count: 0
@@ -50,7 +50,7 @@ A Concept is one row in the `CONCEPT` table:
 
 ## 3. Vocabulary and Domain
 
-![Vocabulary and Domain](/images/blog/diagrams/omop-standardized-vocabularies-athena-d01.png)
+![Vocabulary and Domain](/images/blog/diagrams/omop-standardized-vocabularies-athena-d01.webp)
 
 | Domain | OMOP table | Primary Standard Vocabulary |
 |---|---|---|
@@ -102,7 +102,7 @@ Extremely powerful for cohort definitions: "any patient with diabetes" only need
 
 ## 6. Athena — the vocabulary portal
 
-![Athena — the vocabulary portal](/images/blog/diagrams/omop-standardized-vocabularies-athena-d02.png)
+![Athena — the vocabulary portal](/images/blog/diagrams/omop-standardized-vocabularies-athena-d02.webp)
 
 Workflow:
 1. Create a free account at athena.ohdsi.org
@@ -136,7 +136,7 @@ After import: ~6 million concepts (full set), ~12 GB. You can trim it down by on
 
 USAGI helps you map source codes (Vietnamese ICD-10, Ministry of Health drug catalogue) to Standard Concepts:
 
-![USAGI — the code mapping tool](/images/blog/diagrams/omop-standardized-vocabularies-athena-d03.png)
+![USAGI — the code mapping tool](/images/blog/diagrams/omop-standardized-vocabularies-athena-d03.webp)
 
 Workflow:
 1. Provide an input CSV with `source_code, source_name` columns
@@ -146,7 +146,7 @@ Workflow:
 
 ## 9. Vocabularies for Vietnam
 
-![Vocabularies for Vietnam](/images/blog/diagrams/omop-standardized-vocabularies-athena-d04.png)
+![Vocabularies for Vietnam](/images/blog/diagrams/omop-standardized-vocabularies-athena-d04.webp)
 
 ### 9.1 Custom vocabularies for Vietnam
 
@@ -172,7 +172,7 @@ Vietnam is a **SNOMED International member** (registered in 2024 via the Ministr
 
 Athena releases vocabularies monthly. Upgrade workflow:
 
-![Vocabulary upgrade](/images/blog/diagrams/omop-standardized-vocabularies-athena-d05.png)
+![Vocabulary upgrade](/images/blog/diagrams/omop-standardized-vocabularies-athena-d05.webp)
 
 Note: `concept_id` is **stable** across versions, but `Maps to` relationships can change → you must re-run ETL to update the `*_concept_id` columns.
 

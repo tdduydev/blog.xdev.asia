@@ -6,7 +6,7 @@ excerpt: >-
   RTM は、BA がビジネス目標から要件、ユーザー ストーリー、テスト
   ケース、リリースまでを追跡するのに役立ちます。この記事では、アジャイル、ウォーターフォール、およびコンプライアンスのプロジェクトで使用できる最小限の RTM
   を作成する方法を説明します。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0

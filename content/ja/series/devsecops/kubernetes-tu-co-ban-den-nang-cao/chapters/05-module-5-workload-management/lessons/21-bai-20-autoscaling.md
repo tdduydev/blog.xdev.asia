@@ -18,7 +18,7 @@ locale: ja
 
 <p>自動スケーリングは、Kubernetes でワークロードを実行する主な理由の 1 つです。トラフィックの増減に応じてリソースを手動で調整する代わりに、Kubernetes はさまざまなレベルで多くの自動スケーリング メカニズムを提供します。この記事では、従来の HPA から KEDA イベント駆動型スケーリング、最新のインプレース ポッド リソース更新、クラスター レベルのスケーリング用の Karpenter まで、自動スケーリング エコシステム全体について説明します。</p>
 
-<img src="/storage/uploads/2026/03/k8s-autoscaling-2026.png" alt="Kubernetes Autoscaling - HPA, VPA, Karpenter, KEDA" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-autoscaling-2026.webp" alt="Kubernetes Autoscaling - HPA, VPA, Karpenter, KEDA" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1.水平ポッドオートスケーラー (HPA)</h2>
 

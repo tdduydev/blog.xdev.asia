@@ -7,7 +7,7 @@ excerpt: >-
   biểu diễn AI actor, fallback path và human-in-the-loop. Bài này hướng dẫn BA vẽ
   luồng AI-assisted chuẩn — có happy path, error path, confidence threshold và
   escalation sang người thật.
-featured_image: /images/blog/uml-bpmn-ai-flow.png
+featured_image: /images/blog/uml-bpmn-ai-flow.webp
 type: blog
 reading_time: 12
 view_count: 0

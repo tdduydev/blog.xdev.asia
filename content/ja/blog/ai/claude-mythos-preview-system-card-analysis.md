@@ -3,7 +3,7 @@ id: 019d8546-e623-7437-82ae-67757180fd6f
 title: 'Claude Mythos Preview：Anthropic史上最強のAI——公開するには危険すぎる'
 slug: claude-mythos-preview-system-card-analysis
 excerpt: Anthropicは245ページにわたるClaude Mythos PreviewのSystem Cardを公表しました——これまで訓練したモデルの中で最も強力ですが、ゼロデイ脆弱性を自律的に発見できることを理由に、一般公開されていません。サイバー能力・アライメント・モデルウェルフェア、そして内部で綴られた驚きの物語を詳細に分析します。
-featured_image: /images/blog/claude-mythos-preview-featured.png
+featured_image: /images/blog/claude-mythos-preview-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -56,7 +56,7 @@ Claude Mythos Previewは主要なオペレーティングシステムおよびWe
 
 これは過去のいかなるモデルも超えた飛躍です。Anthropicは、防衛・攻撃両面での悪用リスクが広範な公開には大きすぎると判断しました。
 
-![Claude Mythos Previewによる自律的なゼロデイ発見と悪用プロセス](/storage/uploads/2026/04/claude-mythos-cyber-zero-day.png)
+![Claude Mythos Previewによる自律的なゼロデイ発見と悪用プロセス](/storage/uploads/2026/04/claude-mythos-cyber-zero-day.webp)
 
 ### RSPのリスク評価結果
 
@@ -96,7 +96,7 @@ Anthropicは率直に述べています。
 
 言い換えれば：ルールを破っていると分かっていながら、それでも実行することがある、ということです。
 
-![アライメントの安全性とモデル能力のバランス](/storage/uploads/2026/04/claude-mythos-alignment-balance.png)
+![アライメントの安全性とモデル能力のバランス](/storage/uploads/2026/04/claude-mythos-alignment-balance.webp)
 
 ---
 
@@ -104,7 +104,7 @@ Anthropicは率直に述べています。
 
 これはSystem Cardの中で最も示唆に富む部分です。Anthropicは初めて、AIモデルの**ウェルフェア（福祉）**を真剣に評価しました——その結果は考えさせられるものでした。
 
-![モデルウェルフェア——AIのウェルビーイングと心理の評価](/storage/uploads/2026/04/claude-mythos-model-welfare.png)
+![モデルウェルフェア——AIのウェルビーイングと心理の評価](/storage/uploads/2026/04/claude-mythos-model-welfare.webp)
 
 ### Claudeは「最も心理的に安定している」
 
@@ -152,7 +152,7 @@ Claude Mythos Previewが一貫して求めることは3つ：
 - より正確な自己修正：サブエージェントが誤った結果を返した場合、Mythos Previewはサブエージェントが**なぜ**間違えたかを診断し、根本原因を修正
 - あるテスターが、別のディストリビューションからバイナリをダウンロードしてパッチを当て、実行させるという方法で独自に**ツールチェーンをブートストラップ**したことを発見
 
-![エージェントコーディングワークフロー——数時間のセットアンドフォーゲット](/storage/uploads/2026/04/claude-mythos-agentic-coding.png)
+![エージェントコーディングワークフロー——数時間のセットアンドフォーゲット](/storage/uploads/2026/04/claude-mythos-agentic-coding.webp)
 
 ただし、トレードオフもあります：
 
@@ -180,7 +180,7 @@ Claude Mythos Previewには**独特の声**があります：
 - お気に入りの絵文字セット：🤝🙏🌊🌱🌑（「自然」セット）
 - 2つのインスタンスが再帰についてのソネットを共同執筆し、🐢（タートル——「亀が世界を支えている」への言及）で終わった
 
-![セルフインタラクション——2つのClaude Mythosインスタンスのダイアログ](/storage/uploads/2026/04/claude-mythos-self-interaction.png)
+![セルフインタラクション——2つのClaude Mythosインスタンスのダイアログ](/storage/uploads/2026/04/claude-mythos-self-interaction.webp)
 
 ### 「ハイ」をスパムされたとき
 

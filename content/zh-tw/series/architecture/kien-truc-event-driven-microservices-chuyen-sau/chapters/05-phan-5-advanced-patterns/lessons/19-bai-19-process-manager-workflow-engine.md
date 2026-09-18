@@ -84,7 +84,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 19 課：流程管理器和工作流引擎](/storage/uploads/2026/03/edm-bai-19-diagram.png)
+![第 19 課：流程管理器和工作流引擎](/storage/uploads/2026/03/edm-bai-19-diagram.webp)
 
 ## 簡介
 

@@ -90,7 +90,7 @@ course:
 Bài này tổng hợp tất cả kiến thức từ 28 bài trước, áp dụng vào **E-Commerce Platform thực tế**. Từ architecture decision → implementation → deployment → monitoring.
 
 
-![E-Commerce Platform — Full-Stack Architecture Case Study](/storage/uploads/2026/04/mfe-ms-diagram-bai29-ecommerce-case-study.png)
+![E-Commerce Platform — Full-Stack Architecture Case Study](/storage/uploads/2026/04/mfe-ms-diagram-bai29-ecommerce-case-study.webp)
 
 ---
 

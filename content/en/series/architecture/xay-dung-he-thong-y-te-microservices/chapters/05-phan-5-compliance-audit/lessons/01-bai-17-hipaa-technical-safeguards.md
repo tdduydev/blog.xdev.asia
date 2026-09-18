@@ -94,7 +94,7 @@ locale: en
 
 ## 1. Overview of HIPAA Security Rule §164.312
 
-![HIPAA Security Rule — Administrative, Physical, Technical Safeguards](/storage/uploads/2026/04/healthcare-hipaa-security-rule.png)
+![HIPAA Security Rule — Administrative, Physical, Technical Safeguards](/storage/uploads/2026/04/healthcare-hipaa-security-rule.webp)
 
 HIPAA Security Rule requires organizations that handle ePHI (electronic Protected Health Information) to implement **Technical Safeguards** — technical measures to protect electronic health data. This is the most important part for developers and engineers.
 

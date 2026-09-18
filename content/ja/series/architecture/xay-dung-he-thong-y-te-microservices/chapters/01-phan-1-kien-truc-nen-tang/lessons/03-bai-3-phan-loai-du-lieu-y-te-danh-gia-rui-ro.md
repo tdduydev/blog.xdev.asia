@@ -89,7 +89,7 @@ locale: ja
 
 ## 1. 医療向けのデータ分類フレームワーク
 
-![医療データ分類ピラミッド — 公開から制限付きまでの 4 レベル](/storage/uploads/2026/04/healthcare-data-classification-pyramid.png)
+![医療データ分類ピラミッド — 公開から制限付きまでの 4 レベル](/storage/uploads/2026/04/healthcare-data-classification-pyramid.webp)
 
 ＃＃＃１．１．データを分類する必要があるのはなぜですか?
 
@@ -102,7 +102,7 @@ locale: ja
 
 ＃＃＃１．２．医療データの分類レベル
 
-![医療データ分類ピラミッド — 公開から制限付きまでの 4 レベル](/storage/uploads/2026/04/healthcare-data-classification-levels.png)
+![医療データ分類ピラミッド — 公開から制限付きまでの 4 レベル](/storage/uploads/2026/04/healthcare-data-classification-levels.webp)
 
 |レベル |名前 |例 |暗号化 |アクセス |監査 |
 |----------|-----|----------|----------|--------|----------|
@@ -151,7 +151,7 @@ VALUES
 
 ＃＃＃２．１．マイクロサービスにおける PHI データ フロー
 
-![マイクロサービス間の PHI データの流れ — 患者ポータルから API ゲートウェイ、Keycloak を経て、サービスとデータベースまで](/storage/uploads/2026/04/healthcare-phi-data-flow.png)
+![マイクロサービス間の PHI データの流れ — 患者ポータルから API ゲートウェイ、Keycloak を経て、サービスとデータベースまで](/storage/uploads/2026/04/healthcare-phi-data-flow.webp)
 
 ＃＃＃２．２．データ フロー ドキュメント テンプレート
 
@@ -168,7 +168,7 @@ VALUES
 
 ＃＃＃３．１．リスク評価方法
 
-![NIST SP 800-30 に従ってリスクを評価する 6 つのステップ — 脅威の特定からリスク対応まで](/storage/uploads/2026/04/healthcare-risk-assessment-steps.png)
+![NIST SP 800-30 に従ってリスクを評価する 6 つのステップ — 脅威の特定からリスク対応まで](/storage/uploads/2026/04/healthcare-risk-assessment-steps.webp)
 
 ＃＃＃３．２．医療マイクロサービスの脅威の特定
 
@@ -220,7 +220,7 @@ public class SecurityVulnerabilityChecklist {
 
 ＃＃＃３．４．リスクマトリクス
 
-![5x5 リスク評価マトリックス — 可能性 x 低レベルから重大レベルまでの影響](/storage/uploads/2026/04/healthcare-risk-matrix-heatmap.png)
+![5x5 リスク評価マトリックス — 可能性 x 低レベルから重大レベルまでの影響](/storage/uploads/2026/04/healthcare-risk-matrix-heatmap.webp)
 
 | |無視できる (1) |低 (2) |中 (3) |高 (4) |クリティカル (5) |
 |-|----------------|-----------|---------------|----------|-------------|
@@ -249,7 +249,7 @@ public class SecurityVulnerabilityChecklist {
 
 ＃＃＃４．２．リスク治療計画
 
-![4 つのリスク処理戦略 — 軽減、移転、受け入れ、回避](/storage/uploads/2026/04/healthcare-risk-response-strategies.png)
+![4 つのリスク処理戦略 — 軽減、移転、受け入れ、回避](/storage/uploads/2026/04/healthcare-risk-response-strategies.webp)
 
 - **軽減** ← リスクが高い場合に推奨: コントロールを実装し、可能性/影響を軽減します。
 - **TRANSFER** (転送): サイバー保険、専門プロバイダーへのアウトソーシング

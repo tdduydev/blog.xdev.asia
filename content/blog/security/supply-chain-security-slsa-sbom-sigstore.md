@@ -6,7 +6,7 @@ excerpt: >-
   Sau xz, npm typosquat và build poisoning, supply chain attack đã trở thành
   vector phổ biến nhất. SLSA + SBOM + Sigstore là bộ ba khung tiêu chuẩn mở
   giúp bạn chứng minh artifact được build từ đâu, bằng gì, bởi ai.
-featured_image: /images/blog/supply-chain-slsa-sigstore-featured.png
+featured_image: /images/blog/supply-chain-slsa-sigstore-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

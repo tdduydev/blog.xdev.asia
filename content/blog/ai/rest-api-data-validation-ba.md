@@ -6,7 +6,7 @@ excerpt: >-
   BA không cần code API, nhưng cần hiểu request/response, error handling, data
   contracts và validation rules. Bài này giúp BA đọc OpenAPI spec, review API
   design, viết data quality acceptance criteria cho tính năng có AI.
-featured_image: /images/blog/rest-api-data-validation-ba.png
+featured_image: /images/blog/rest-api-data-validation-ba.webp
 type: blog
 reading_time: 9
 view_count: 0

@@ -404,7 +404,7 @@ Toàn bộ source code demo cho series này được tổ chức trong repo GitH
 
 Cấu trúc project theo từng bài học:
 
-![Project Structure](/images/blog/gemma4-series-demo/01-project-structure.png)
+![Project Structure](/images/blog/gemma4-series-demo/01-project-structure.webp)
 
 ## Tóm tắt
 

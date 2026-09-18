@@ -21,7 +21,7 @@ course:
 
 ## Phân loại ca mổ
 
-![Time-out trước rạch da theo WHO Surgical Safety Checklist](/storage/uploads/2026/05/his/bai-25-phong-mo-lich-mo-checklist-workflow.png)
+![Time-out trước rạch da theo WHO Surgical Safety Checklist](/storage/uploads/2026/05/his/bai-25-phong-mo-lich-mo-checklist-workflow.webp)
 
 
 ## Mục tiêu bài học

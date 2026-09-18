@@ -93,7 +93,7 @@ locale: en
 API Gateway is the **single entry point** for all API calls from the frontend. It handles cross-cutting concerns: authentication, rate limiting, routing, monitoring — helping microservices focus on business logic.
 
 
-![API Gateway — single entry point for all requests](/storage/uploads/2026/04/mfe-ms-diagram-bai18-api-gateway.png)
+![API Gateway — single entry point for all requests](/storage/uploads/2026/04/mfe-ms-diagram-bai18-api-gateway.webp)
 
 ---
 

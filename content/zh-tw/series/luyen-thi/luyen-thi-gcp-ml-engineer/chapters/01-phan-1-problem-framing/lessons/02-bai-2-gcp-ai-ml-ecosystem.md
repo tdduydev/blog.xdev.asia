@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai2-gcp-ecosystem.png" alt="GCP AI/ML Ecosystem" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai2-gcp-ecosystem.webp" alt="GCP AI/ML Ecosystem" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>GCP AI/ML生態系統：Vertex AI、AutoML、BigQuery ML、預訓練API與其使用時機</em></p>
 </div>
 

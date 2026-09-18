@@ -15,7 +15,7 @@ course:
   title: VyOSの基礎から応用まで
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-15-automation.png" alt="Containers、Automation と Production Best Practices" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-15-automation.webp" alt="Containers、Automation と Production Best Practices" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS における Containers、Automation と Production Best Practices</h2>
 <p>VyOS 1.4/1.5 はコンテナ（Podman）をサポートしており、補助サービス、exporter、monitoring を実行できます。さらに、VyOS は API、Ansible、バックアップ、アップグレードに対応し、本番運用向けのベストプラクティスを提供します。</p>

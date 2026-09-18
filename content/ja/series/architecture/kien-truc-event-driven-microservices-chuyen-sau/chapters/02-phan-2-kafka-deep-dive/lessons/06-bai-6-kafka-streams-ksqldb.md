@@ -86,7 +86,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 6: Kafka ストリームと ksqlDB](/storage/uploads/2026/03/edm-bai-6-diagram.png)
+![レッスン 6: Kafka ストリームと ksqlDB](/storage/uploads/2026/03/edm-bai-6-diagram.webp)
 
 ## はじめに
 

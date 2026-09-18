@@ -91,13 +91,13 @@ course:
 
 ## 1. Tổng quan Data De-identification cho Healthcare
 
-![HIPAA De-identification — Safe Harbor vs Expert Determination](/storage/uploads/2026/04/healthcare-data-deidentification.png)
+![HIPAA De-identification — Safe Harbor vs Expert Determination](/storage/uploads/2026/04/healthcare-data-deidentification.webp)
 
 HIPAA cho phép sử dụng và chia sẻ dữ liệu y tế mà **không cần patient consent** nếu dữ liệu đã được **de-identified** — tức là không thể dùng để xác định danh tính bệnh nhân. Đây là nền tảng cho medical research, population health analytics, và machine learning trong healthcare.
 
 ### 1.1. HIPAA De-identification Standards — §164.514
 
-![HIPAA De-identification — Safe Harbor vs Expert Determination flow](/storage/uploads/2026/04/healthcare-safe-harbor-flow.png)
+![HIPAA De-identification — Safe Harbor vs Expert Determination flow](/storage/uploads/2026/04/healthcare-safe-harbor-flow.webp)
 
 **PHI (Protected Health Information)** có 2 phương pháp de-identification theo §164.514(a):
 
@@ -114,7 +114,7 @@ HIPAA cho phép sử dụng và chia sẻ dữ liệu y tế mà **không cần 
 
 ### 1.2. Data Protection Spectrum
 
-![Data Protection Spectrum — từ Synthetic Data đến Original PHI](/storage/uploads/2026/04/healthcare-data-protection-spectrum.png)
+![Data Protection Spectrum — từ Synthetic Data đến Original PHI](/storage/uploads/2026/04/healthcare-data-protection-spectrum.webp)
 
 | Level | Mô tả | Use Cases |
 |-------|--------|----------|
@@ -661,7 +661,7 @@ COMMIT;
 
 ```
 
-![K-Anonymity Example — Before (k=1) vs After (k=3) Generalization](/storage/uploads/2026/04/healthcare-k-anonymity-example.png)
+![K-Anonymity Example — Before (k=1) vs After (k=3) Generalization](/storage/uploads/2026/04/healthcare-k-anonymity-example.webp)
 
 **BEFORE (k=1, not anonymous):**
 

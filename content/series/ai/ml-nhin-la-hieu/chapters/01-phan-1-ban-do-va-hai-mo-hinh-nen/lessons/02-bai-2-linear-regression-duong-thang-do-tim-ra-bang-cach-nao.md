@@ -84,7 +84,7 @@ MSE của đường đã khớp là 0,0010 — nhỏ hơn đường thử **55 l
 
 Mọi con số ở trên đều in ra từ một lệnh:
 
-![Kết quả chạy ep02_linear_regression](/images/blog/ml-nhin-la-hieu/ep02_linear_regression.png)
+![Kết quả chạy ep02_linear_regression](/images/blog/ml-nhin-la-hieu/ep02_linear_regression.webp)
 
 > Ảnh trên là output thật của `python scratch/ep02_linear_regression.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep02_linear_regression.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep02_linear_regression.py) · [`library/ep02_linear_regression.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep02_linear_regression.py)

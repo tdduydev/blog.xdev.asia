@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai8-mlops-pipeline.png" alt="SageMaker MLOps Pipeline" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai8-mlops-pipeline.webp" alt="SageMaker MLOps Pipeline" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>SageMaker MLOps：Model Monitor、SageMaker Pipelines與ML工作流的CI/CD</em></p>
 </div>
 

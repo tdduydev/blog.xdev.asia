@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai11-ai-security-layers.png" alt="AWS上のAIセキュリティレイヤー" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai11-ai-security-layers.webp" alt="AWS上のAIセキュリティレイヤー" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>AIセキュリティレイヤー：AWS上のネットワーク、ID、データ保護、AI固有の制御</em></p>
 </div>
 

@@ -93,7 +93,7 @@ locale: en
 Deploying microservices to production is the riskiest time. Deployment strategy decides **blast radius** when there is a bug — affects 100% of users or only 5%? This article compares strategies and provides guidance on choosing the right one.
 
 
-![Deployment Strategies — Blue-Green, Canary, Rolling](/storage/uploads/2026/04/mfe-ms-diagram-bai25-deployment-strategies.png)
+![Deployment Strategies — Blue-Green, Canary, Rolling](/storage/uploads/2026/04/mfe-ms-diagram-bai25-deployment-strategies.webp)
 
 ---
 

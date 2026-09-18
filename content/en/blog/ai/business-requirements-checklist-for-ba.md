@@ -7,7 +7,7 @@ excerpt: >-
   missed before handoff to the dev team. This article provides a full checklist
   for BA working on AI projects - from functional requirements to AI-specific
   constraints.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0

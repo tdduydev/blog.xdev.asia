@@ -22,7 +22,7 @@ locale: ja
 
 <h2>2.サービスの種類_</h2>
 
-<img src="/storage/uploads/2026/03/k8s-service-types-2026.png" alt="Kubernetes Service Types - ClusterIP, NodePort, LoadBalancer, ExternalName" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-service-types-2026.webp" alt="Kubernetes Service Types - ClusterIP, NodePort, LoadBalancer, ExternalName" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h3>2.1 ClusterIP (デフォルト)</h3>
 <p>クラスター内の内部 IP を使用してサービスを公開します。クラスター内からのみアクセス可能です。</p>

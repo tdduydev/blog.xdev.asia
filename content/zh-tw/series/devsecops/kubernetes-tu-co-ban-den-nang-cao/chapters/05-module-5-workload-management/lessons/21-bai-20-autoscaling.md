@@ -18,7 +18,7 @@ locale: zh-tw
 
 <p>自動擴充功能是在 Kubernetes 上執行工作負載的主要原因之一。 Kubernetes 不必隨著流量的增加或減少而手動調整資源，而是在許多不同層級提供許多自動擴展機制。本文將探討整個自動擴展生態系統 - 從傳統的 HPA 到 KEDA 事件驅動的擴展、最新的就地 Pod 資源更新以及用於叢集級擴展的 Karpenter。 </p>
 
-<img src="/storage/uploads/2026/03/k8s-autoscaling-2026.png" alt="Kubernetes Autoscaling - HPA, VPA, Karpenter, KEDA" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-autoscaling-2026.webp" alt="Kubernetes Autoscaling - HPA, VPA, Karpenter, KEDA" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1。 HorizontalPodAutoscaler (HPA)</h2>
 

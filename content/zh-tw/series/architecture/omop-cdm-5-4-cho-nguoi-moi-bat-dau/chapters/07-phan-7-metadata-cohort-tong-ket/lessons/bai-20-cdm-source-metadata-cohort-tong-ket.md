@@ -42,7 +42,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![OMOP CDM 5.4 的完整概述 — 37 個表格，7 組](/storage/uploads/2026/04/omop-cdm-bai20-complete-overview.png)
+![OMOP CDM 5.4 的完整概述 — 37 個表格，7 組](/storage/uploads/2026/04/omop-cdm-bai20-complete-overview.webp)
 
 ## 簡介
 

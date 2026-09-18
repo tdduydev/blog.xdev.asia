@@ -7,7 +7,7 @@ slug: claude-code-source-code-bi-mat-buddy-ultraplan
 excerpt: >-
   詳細分析從 Claude Code v2.1.89 的 npm 套件中提取的 TypeScript 原始碼——揭示了 2026 年 4 月 1 日發布的稀有
   RPG 的 Buddy 虛擬寵物系統、UltraPlan 多代理架構、Bridge 遠端會話系統、反金絲雀混淆以及數十個尚未記錄的隱藏功能。
-featured_image: /images/blog/claude-code-featured.png
+featured_image: /images/blog/claude-code-featured.webp
 type: blog
 reading_time: 25
 view_count: 0

@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-kcna
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai8-observability.png" alt="可觀測性三大支柱 — Metrics、Logs、Traces" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai8-observability.webp" alt="可觀測性三大支柱 — Metrics、Logs、Traces" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="three-pillars">1. 可觀測性三大支柱</h2>
 

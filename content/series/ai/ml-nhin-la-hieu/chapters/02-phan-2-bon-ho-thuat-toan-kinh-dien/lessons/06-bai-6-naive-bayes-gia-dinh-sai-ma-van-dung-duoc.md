@@ -93,7 +93,7 @@ dữ liệu thật sẽ có ô rỗng, và lúc đó không có gì báo.
 
 ## Chạy thử
 
-![Kết quả chạy ep06_naive_bayes](/images/blog/ml-nhin-la-hieu/ep06_naive_bayes.png)
+![Kết quả chạy ep06_naive_bayes](/images/blog/ml-nhin-la-hieu/ep06_naive_bayes.webp)
 
 > Ảnh trên là output thật của `python scratch/ep06_naive_bayes.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep06_naive_bayes.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep06_naive_bayes.py) · [`library/ep06_naive_bayes.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep06_naive_bayes.py)

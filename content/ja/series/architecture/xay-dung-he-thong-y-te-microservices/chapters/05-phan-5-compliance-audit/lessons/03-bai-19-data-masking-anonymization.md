@@ -89,13 +89,13 @@ locale: ja
 
 ## 1. 医療向けデータ匿名化の概要
 
-![HIPAA De-identification — Safe Harbor vs Expert Determination](/storage/uploads/2026/04/healthcare-data-deidentification.png)
+![HIPAA De-identification — Safe Harbor vs Expert Determination](/storage/uploads/2026/04/healthcare-data-deidentification.webp)
 
 HIPAA では、医療データが **匿名化**されている場合、**患者の同意なし**、つまり患者の特定に使用できない医療データの使用と共有を許可しています。これは、医療研究、人口健康分析、医療における機械学習の基盤です。
 
 ＃＃＃１．１． HIPAA 匿名化標準 — §164.514
 
-![HIPAA De-identification — Safe Harbor vs Expert Determination flow](/storage/uploads/2026/04/healthcare-safe-harbor-flow.png)
+![HIPAA De-identification — Safe Harbor vs Expert Determination flow](/storage/uploads/2026/04/healthcare-safe-harbor-flow.webp)
 
 **PHI (保護された健康情報)** には、§164.514(a) に基づいて 2 つの匿名化方法があります。
 
@@ -112,7 +112,7 @@ HIPAA では、医療データが **匿名化**されている場合、**患者�
 
 ＃＃＃１．２．データ保護のスペクトル
 
-![データ保護のスペクトル — 合成データからオリジナルの PHI まで](/storage/uploads/2026/04/healthcare-data-protection-spectrum.png)
+![データ保護のスペクトル — 合成データからオリジナルの PHI まで](/storage/uploads/2026/04/healthcare-data-protection-spectrum.webp)
 
 |レベル |説明 |使用例 |
 |----------|----------|----------|
@@ -659,7 +659,7 @@ COMMIT;
 
 ```
 
-![K-Anonymity Example — Before (k=1) vs After (k=3) Generalization](/storage/uploads/2026/04/healthcare-k-anonymity-example.png)
+![K-Anonymity Example — Before (k=1) vs After (k=3) Generalization](/storage/uploads/2026/04/healthcare-k-anonymity-example.webp)
 
 **BEFORE (k=1, not anonymous):**
 

@@ -6,7 +6,7 @@ excerpt: >-
   BA は美しい UI を作る必要はありませんが、チームが理解できる wireframe と、
   開発が再確認不要な精度の flow diagram は必要です。fallback path、confidence 表示、
   human override を含む AI 機能に向けた Figma と Draw.io の実践ガイドです。
-featured_image: /images/blog/figma-draw-io-ba.png
+featured_image: /images/blog/figma-draw-io-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

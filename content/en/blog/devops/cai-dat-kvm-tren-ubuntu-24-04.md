@@ -7,7 +7,7 @@ excerpt: >-
   Ubuntu 24.04 LTS with Cockpit or Kimchi web management interface. Learn how to
   set up a complete virtualization environment, configure a network bridge, and
   create your first virtual machine with ease.
-featured_image: /images/blog/kvm-ubuntu-featured.png
+featured_image: /images/blog/kvm-ubuntu-featured.webp
 type: blog
 reading_time: 9
 view_count: 2

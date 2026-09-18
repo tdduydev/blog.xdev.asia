@@ -91,7 +91,7 @@ course:
 
 ## 1. RBAC vs ABAC trong Y Tế
 
-![Kiến trúc 4 lớp kiểm soát truy cập: RBAC, ABAC, RLS, Patient Consent](/storage/uploads/2026/04/healthcare-rbac-abac-layers.png)
+![Kiến trúc 4 lớp kiểm soát truy cập: RBAC, ABAC, RLS, Patient Consent](/storage/uploads/2026/04/healthcare-rbac-abac-layers.webp)
 
 ### 1.1. Role-Based Access Control (RBAC)
 

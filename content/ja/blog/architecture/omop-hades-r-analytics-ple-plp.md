@@ -6,7 +6,7 @@ excerpt: >-
   HADES（Health Analytics Data-to-Evidence Suite）は OHDSI の R パッケージ群で、
   Patient-Level Estimation、Patient-Level Prediction、Characterization、Self-Controlled Case Series を
   実行できます。本記事ではインストールから network study の公開までを解説します。
-featured_image: /images/blog/omop-hades-featured.png
+featured_image: /images/blog/omop-hades-featured.webp
 type: blog
 reading_time: 16
 view_count: 0
@@ -23,7 +23,7 @@ ATLAS は「コホート定義」と基本的な「characterization」を解決�
 
 ## 1. HADES とは
 
-![1. HADES とは](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d01.png)
+![1. HADES とは](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d01.webp)
 
 40+ R パッケージ、MIT ライセンス、CRAN または GitHub からインストール可能。
 
@@ -67,7 +67,7 @@ cohortDatabaseSchema <- "results"
 
 **PLE** が答える問い：「薬 A vs 薬 B、副作用 X が少ないのはどちらか？」Comparative effectiveness research。
 
-![4. CohortMethod — Patient-Level Estimation (PLE)](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d02.png)
+![4. CohortMethod — Patient-Level Estimation (PLE)](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d02.webp)
 
 ### 4.1 PLE ワークフロー
 
@@ -118,7 +118,7 @@ OHDSI 規約：すべての診断にパスした結果のみ公開。
 
 **PLP** が答える問い：「患者 X が今後 T 日以内に Y を発症する確率は何 % か？」
 
-![5. PatientLevelPrediction (PLP) — ML](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d03.png)
+![5. PatientLevelPrediction (PLP) — ML](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d03.webp)
 
 ### 5.1 PLP コード
 
@@ -243,7 +243,7 @@ execute(
 
 ## 9. ネットワーク研究のパターン
 
-![9. ネットワーク研究のパターン](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d04.png)
+![9. ネットワーク研究のパターン](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d04.webp)
 
 ベトナムは Site として参加可能 — 高度なコーディングスキルは不要、CDM + R パッケージ実行のみ。
 

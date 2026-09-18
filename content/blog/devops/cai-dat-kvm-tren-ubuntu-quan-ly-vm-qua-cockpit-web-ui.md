@@ -5,7 +5,7 @@ slug: cai-dat-kvm-tren-ubuntu-quan-ly-vm-qua-cockpit-web-ui
 excerpt: >-
   Hướng dẫn cài đặt KVM trên Ubuntu và quản lý VM qua Cockpit Web UI. Cấu hình
   network bridge, mạng ảo NAT, storage pool cho homelab 2 node.
-featured_image: /images/blog/kvm-cockpit-featured.png
+featured_image: /images/blog/kvm-cockpit-featured.webp
 type: blog
 reading_time: 27
 view_count: 2
@@ -422,7 +422,7 @@ sudo ufw allow 9090/tcp
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>Login bằng user <a href="/tags/linux/">Linux</a> của bạn (cần quyền sudo).</p><p><strong>Giao diện Cockpit cho KVM:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>Tính năng Cockpit cho KVM:</strong></p>
+<p>Login bằng user <a href="/tags/linux/">Linux</a> của bạn (cần quyền sudo).</p><p><strong>Giao diện Cockpit cho KVM:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.webp" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>Tính năng Cockpit cho KVM:</strong></p>
 <!--kg-card-begin: html-->
 <table>
 <thead>

@@ -6,7 +6,7 @@ excerpt: >-
   Make-or-Buy 是 Strategy Analysis 中最重要的決策之一。到了 AI 情境，問題變得更複雜：
   該 build custom model、fine-tune foundation model，還是直接使用 API？本文提供
   一套 framework，協助 BA 分析選項並做出正確判斷。
-featured_image: /images/blog/make-or-buy-ai-ba.png
+featured_image: /images/blog/make-or-buy-ai-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

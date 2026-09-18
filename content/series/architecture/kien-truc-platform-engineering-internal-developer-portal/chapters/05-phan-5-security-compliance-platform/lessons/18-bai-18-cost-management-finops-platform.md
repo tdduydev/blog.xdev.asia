@@ -84,7 +84,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 18: Cost Management & FinOps Platform](/storage/uploads/2026/03/pe-bai-18-diagram.png)
+![Bài 18: Cost Management & FinOps Platform](/storage/uploads/2026/03/pe-bai-18-diagram.webp)
 
 ## Giới thiệu
 

@@ -15,7 +15,7 @@ course:
   title: VyOS 從入門到進階
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-08-routing-pbr.png" alt="Static Routing 與 Policy-Based Routing" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-08-routing-pbr.webp" alt="Static Routing 與 Policy-Based Routing" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS 上的 Static Routing 與 Policy-Based Routing 介紹</h2>
 <p>本課程說明如何在 VyOS 1.4.x/1.5 rolling release 上設定 <strong>Static Routing</strong>（靜態路由）與 <strong>Policy-Based Routing</strong>（依政策路由）。這些技術是控制網路封包路徑的核心能力。</p>

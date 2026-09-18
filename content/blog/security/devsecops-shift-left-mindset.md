@@ -6,7 +6,7 @@ excerpt: >-
   Shift-left không phải là đẩy việc cho dev. Đó là tự động hoá kiểm soát bảo mật
   gần thời điểm sinh lỗi nhất, để team sửa nhanh và security trở thành thuộc
   tính mặc định của hệ thống.
-featured_image: /images/blog/devsecops-shift-left-featured.png
+featured_image: /images/blog/devsecops-shift-left-featured.webp
 type: blog
 reading_time: 8
 view_count: 0

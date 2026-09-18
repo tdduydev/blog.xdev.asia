@@ -46,7 +46,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![PERSON — すべての臨床パネルを接続する OMOP CDM の中心](/storage/uploads/2026/04/omop-cdm-bai4-person-centric.png)
+![PERSON — すべての臨床パネルを接続する OMOP CDM の中心](/storage/uploads/2026/04/omop-cdm-bai4-person-centric.webp)
 
 ## はじめに
 

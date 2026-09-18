@@ -5,7 +5,7 @@ slug: huong-dan-toan-dien-ve-backup-va-restore-postgresql
 excerpt: >-
   Bài viết này sẽ giúp bạn nắm vững các phương pháp backup và restore PostgreSQL
   từ cơ bản đến nâng cao, kèm theo các best practices trong thực tế.
-featured_image: /images/blog/postgresql-backup-featured.png
+featured_image: /images/blog/postgresql-backup-featured.webp
 type: blog
 reading_time: 13
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   OMOP CDM 為何適合越南?本文分析政策脈絡(3516/QĐ-BYT 號決定、越南個人資料保護法 2025、
   第 15/2023 號醫療法、VNeID 上的 HSDT)、衛生部目錄對應、custom vocabulary,
   以及國家研究資料湖的路線圖。
-featured_image: /images/blog/omop-vietnam-featured.png
+featured_image: /images/blog/omop-vietnam-featured.webp
 type: blog
 reading_time: 15
 view_count: 0
@@ -23,7 +23,7 @@ comments: []
 
 ## 1. 2026 年政策脈絡
 
-![1. 2026 年政策脈絡](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d01.png)
+![1. 2026 年政策脈絡](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d01.webp)
 
 ### 1.1 3516/QĐ-BYT 號決定(2025/11)
 
@@ -60,7 +60,7 @@ OMOP `person_source_value` 中假名化身分證字號 / BHYT 號為強制要求
 
 ## 2. 越南可用於 OMOP 的資料來源
 
-![2. 越南可用於 OMOP 的資料來源](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d02.png)
+![2. 越南可用於 OMOP 的資料來源](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d02.webp)
 
 ## 3. 越南詞彙對應
 
@@ -118,7 +118,7 @@ INSERT INTO concept VALUES
 
 VNeID 上的電子病歷(HSDT,Hồ sơ sức khoẻ điện tử)結構與 FHIR 相對接近:
 
-![4. 電子病歷(HSDT,VNeID)的 ETL 模式](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d03.png)
+![4. 電子病歷(HSDT,VNeID)的 ETL 模式](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d03.webp)
 
 注意事項:
 - HSDT 僅為摘要 — 並非完整 EMR
@@ -127,7 +127,7 @@ VNeID 上的電子病歷(HSDT,Hồ sơ sức khoẻ điện tử)結構與 FHIR 
 
 ## 5. 越南全民健保(BHYT)的 ETL 模式
 
-![5. 越南全民健保(BHYT)的 ETL 模式](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d04.png)
+![5. 越南全民健保(BHYT)的 ETL 模式](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d04.webp)
 
 BHYT 資料的優勢:
 - 涵蓋率大(~9,500 萬人)
@@ -155,7 +155,7 @@ BHYT 資料的優勢:
 
 ## 7. 國家資料湖路線圖
 
-![7. 國家資料湖路線圖](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d05.png)
+![7. 國家資料湖路線圖](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d05.webp)
 
 試行模式:
 1. 選 5-10 家代表性醫院(地區、等級、專科)
@@ -166,7 +166,7 @@ BHYT 資料的優勢:
 
 ## 8. 治理模式
 
-![8. 治理模式](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d06.png)
+![8. 治理模式](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d06.webp)
 
 越南需成立 **OHDSI Vietnam chapter** — 在 OHDSI 註冊為官方工作小組。
 
@@ -220,7 +220,7 @@ person_source_value = encode(
 
 ## 12. 待建立的社群
 
-![12. 待建立的社群](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d07.png)
+![12. 待建立的社群](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d07.webp)
 
 ## 13. 越南特有陷阱
 

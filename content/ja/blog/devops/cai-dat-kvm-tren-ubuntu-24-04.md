@@ -5,7 +5,7 @@ slug: cai-dat-kvm-tren-ubuntu-24-04
 excerpt: >-
   Cockpit または Kimchi Web 管理インターフェイスを使用して Ubuntu 24.04 LTS に KVM (カーネルベースの仮想マシン)
   をインストールする方法の詳細な手順。完全な仮想化環境をセットアップし、ネットワーク ブリッジを構成し、最初の仮想マシンを簡単に作成する方法を学びます。
-featured_image: /images/blog/kvm-ubuntu-featured.png
+featured_image: /images/blog/kvm-ubuntu-featured.webp
 type: blog
 reading_time: 9
 view_count: 2

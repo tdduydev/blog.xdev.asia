@@ -6,7 +6,7 @@ excerpt: >-
   HIS/EHR/claim ソースから OMOP CDM への ETL は、ゼロから作ると 3〜6 ヶ月かかります。本記事では
   OHDSI 標準パイプラインを解説します：WhiteRabbit プロファイリング、RabbitInAHat 設計、USAGI マッピング、
   SQL/Perseus/dbt による実装、DQD によるバリデーション。
-featured_image: /images/blog/omop-etl-featured.png
+featured_image: /images/blog/omop-etl-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -23,7 +23,7 @@ OMOP ETL はプロジェクト中で最も難しく、最も時間のかかる�
 
 ## 1. OHDSI 標準プロセス
 
-![1. OHDSI 標準プロセス](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d01.png)
+![1. OHDSI 標準プロセス](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d01.webp)
 
 7 ステップ：
 1. WhiteRabbit でソースをプロファイル
@@ -118,7 +118,7 @@ Git に保存し、データリフレッシュごとにバージョン管理。
 
 [Vocabulary deep dive](/blog/omop-standardized-vocabularies-athena) で紹介済み。ワークフロー再掲：
 
-![4. USAGI — コードマッピング](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d02.png)
+![4. USAGI — コードマッピング](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d02.webp)
 
 ### 4.1 ベストプラクティス
 
@@ -302,7 +302,7 @@ docker compose up
 
 HIS データセットは大規模 → 毎晩フル ETL は非現実的。インクリメンタルパターン：
 
-![8. インクリメンタル ETL](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d03.png)
+![8. インクリメンタル ETL](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d03.webp)
 
 注意：
 - ソースで `updated_at` を追跡 — なければトリガまたは CDC（Debezium）を追加

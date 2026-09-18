@@ -113,7 +113,7 @@ Agent Loop — Perception → Reasoning → Action → Observation
 
 <blockquote><p><strong>試験のヒント：</strong>「LLMが自律的にタスクを分解し、複数のツールを呼び出し、必要に応じてリトライする」→ <strong>Agent（L2以上）</strong>。「複数のLLMが連携し、それぞれが1つのタスクを専門とする」→ <strong>Multi-Agent（L3）</strong>。DLI試験でよく出る問題：「エージェントとチェーンの違いは？」→ エージェントは<strong>動的な制御フロー</strong>（LLMが次のステップを決定）、チェーンは<strong>固定の制御フロー</strong>です。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai9-multi-agent-system.png" alt="Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine" loading="lazy" /><figcaption>マルチエージェントシステム — オーケストレーター、専門エージェント、LangGraph State Machine</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai9-multi-agent-system.webp" alt="Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine" loading="lazy" /><figcaption>マルチエージェントシステム — オーケストレーター、専門エージェント、LangGraph State Machine</figcaption></figure>
 
 <h2 id="2-cognitive-architectures">2. LLMエージェントの認知アーキテクチャ</h2>
 

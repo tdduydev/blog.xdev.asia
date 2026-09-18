@@ -86,7 +86,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 21 課：微服務的 CI/CD 管道](/storage/uploads/2026/03/cn-bai-21-diagram.png)
+![第 21 課：微服務的 CI/CD 管道](/storage/uploads/2026/03/cn-bai-21-diagram.webp)
 
 ## 簡介
 

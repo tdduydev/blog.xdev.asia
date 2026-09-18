@@ -6,7 +6,7 @@ excerpt: >-
   HADES (Health Analytics Data-to-Evidence Suite) là bộ R package OHDSI để chạy
   Patient-Level Estimation, Patient-Level Prediction, Characterization, Self-
   Controlled Case Series. Bài viết hướng dẫn từ install đến publish network study.
-featured_image: /images/blog/omop-hades-featured.png
+featured_image: /images/blog/omop-hades-featured.webp
 type: blog
 reading_time: 16
 view_count: 0
@@ -23,7 +23,7 @@ ATLAS giải quyết phần "định nghĩa cohort" và "characterization" cơ b
 
 ## 1. HADES là gì
 
-![1. HADES là gì](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d01.png)
+![1. HADES là gì](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d01.webp)
 
 40+ R package, MIT licensed, install qua CRAN hoặc GitHub.
 
@@ -67,7 +67,7 @@ cohortDatabaseSchema <- "results"
 
 **PLE** trả lời: "Thuốc A vs Thuốc B, cái nào ít gây side effect X hơn?" Comparative effectiveness research.
 
-![4. CohortMethod — Patient-Level Estimation (PLE)](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d02.png)
+![4. CohortMethod — Patient-Level Estimation (PLE)](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d02.webp)
 
 ### 4.1 Workflow PLE
 
@@ -118,7 +118,7 @@ OHDSI chuẩn: chỉ public kết quả pass mọi diagnostic.
 
 **PLP** trả lời: "Bệnh nhân X có khả năng bao nhiêu % bị Y trong T ngày tới?"
 
-![5. PatientLevelPrediction (PLP) — ML](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d03.png)
+![5. PatientLevelPrediction (PLP) — ML](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d03.webp)
 
 ### 5.1 PLP code
 
@@ -243,7 +243,7 @@ Output cùng schema → upload lên central server cho meta-analysis.
 
 ## 9. Network studies pattern
 
-![9. Network studies pattern](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d04.png)
+![9. Network studies pattern](/images/blog/diagrams/omop-hades-r-analytics-ple-plp-d04.webp)
 
 VN có thể tham gia với vai trò Site — không cần kỹ năng coding cao, chỉ cần CDM + chạy package R.
 

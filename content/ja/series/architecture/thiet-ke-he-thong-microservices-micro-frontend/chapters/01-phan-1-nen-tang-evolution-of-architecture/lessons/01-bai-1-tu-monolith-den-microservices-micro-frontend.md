@@ -98,7 +98,7 @@ locale: ja
 
 ### 1.1 モノリスアーキテクチャとは何ですか?
 
-![モノリス アーキテクチャ — すべてのモジュールを 1 つのブロックにまとめ、データベースを共有](/storage/uploads/2026/04/mfe-ms-diagram-bai1-monolith-architecture.png)
+![モノリス アーキテクチャ — すべてのモジュールを 1 つのブロックにまとめ、データベースを共有](/storage/uploads/2026/04/mfe-ms-diagram-bai1-monolith-architecture.webp)
 
 モノリスは、**アプリケーション全体**が**単一ユニット**として構築、デプロイ、拡張されるアーキテクチャです。すべてのモジュール (ユーザー、製品、注文など) は同じプロセスで実行され、同じデータベースを共有し、一緒にデプロイされます。
 
@@ -153,7 +153,7 @@ Timeline:
 
 ### 2.2 SOA (サービス指向アーキテクチャ)
 
-![ESB を使用した SOA — 集中バスが単一障害点になる](/storage/uploads/2026/04/mfe-ms-diagram-bai1-soa-architecture.png)
+![ESB を使用した SOA — 集中バスが単一障害点になる](/storage/uploads/2026/04/mfe-ms-diagram-bai1-soa-architecture.webp)
 
 SOA は、Monolith をサービスに分離するための最初のステップです。ただし、SOA にはいくつかの制限があります。
 
@@ -198,7 +198,7 @@ SOA は、Monolith をサービスに分離するための最初のステップ�
 
 ### 3.1 バックエンドは分離されましたが、フロントエンドはまだマージされています
 
-![フロントエンド モノリス — バックエンドは分離されましたが、フロントエンドは依然として巨大な SPA です](/storage/uploads/2026/04/mfe-ms-diagram-bai1-frontend-monolith-problem.png)
+![フロントエンド モノリス — バックエンドは分離されましたが、フロントエンドは依然として巨大な SPA です](/storage/uploads/2026/04/mfe-ms-diagram-bai1-frontend-monolith-problem.webp)
 
 多くの組織がバックエンドにマイクロサービスを採用していますが、フロントエンドは依然として **1 つの巨大な SPA アプリケーション** (React/Angular/Vue モノリス) です。
 

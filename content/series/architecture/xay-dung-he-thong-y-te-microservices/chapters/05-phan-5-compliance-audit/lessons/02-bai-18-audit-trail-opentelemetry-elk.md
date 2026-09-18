@@ -91,7 +91,7 @@ course:
 
 ## 1. Tổng quan Centralized Audit Trail cho Healthcare
 
-![Centralized Audit Trail — OpenTelemetry, ELK Stack cho Healthcare Compliance](/storage/uploads/2026/04/healthcare-audit-trail-elk.png)
+![Centralized Audit Trail — OpenTelemetry, ELK Stack cho Healthcare Compliance](/storage/uploads/2026/04/healthcare-audit-trail-elk.webp)
 
 Trong hệ thống microservices y tế, **một request** có thể đi qua nhiều services: API Gateway → Patient Service → Lab Service → Notification Service. Để truy vết (audit) đầy đủ flow dữ liệu PHI, chúng ta cần **centralized audit trail** — một hệ thống tập trung ghi nhận và phân tích mọi hoạt động trên dữ liệu bệnh nhân.
 
@@ -401,7 +401,7 @@ public class PatientService {
 
 ### 3.1. Correlation ID Architecture
 
-![Distributed Tracing — Patient Data Flow qua API Gateway → Patient Service → DB/Kafka/Lab Service](/storage/uploads/2026/04/healthcare-distributed-tracing-flow.png)
+![Distributed Tracing — Patient Data Flow qua API Gateway → Patient Service → DB/Kafka/Lab Service](/storage/uploads/2026/04/healthcare-distributed-tracing-flow.webp)
 
 **Trace Flow:**
 

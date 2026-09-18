@@ -90,7 +90,7 @@ locale: ja
 
 ## 1. 医療データのセキュリティはなぜ重要ですか?
 
-![HIPAA 技術的保護措置の概要 — 技術的セキュリティ管理の 5 つのカテゴリ](/storage/uploads/2026/04/healthcare-hipaa-safeguards-overview.png)
+![HIPAA 技術的保護措置の概要 — 技術的セキュリティ管理の 5 つのカテゴリ](/storage/uploads/2026/04/healthcare-hipaa-safeguards-overview.webp)
 
 医療データは、最も機密性の高いデータの 1 つです。医療記録には、個人情報、病歴、検査結果、処方箋、保険情報が含まれており、これらはすべて闇市場で非常に価値があります。
 
@@ -226,7 +226,7 @@ PHI に関連するデータ侵害が発生した場合:
 
 FHIR はセキュリティ コンポーネントを定義します。
 
-![FHIR アーキテクチャのセキュリティ層 — 通信セキュリティから同意管理まで](/storage/uploads/2026/04/healthcare-fhir-security-layers.png)
+![FHIR アーキテクチャのセキュリティ層 — 通信セキュリティから同意管理まで](/storage/uploads/2026/04/healthcare-fhir-security-layers.webp)
 
 - **通信セキュリティ**: HTTPS/TLS
 - **認証**: OAuth2、SMART on FHIR
@@ -283,7 +283,7 @@ Patient/Clinician → SMART App → Authorization Server (Keycloak)
 
 ＃＃＃６．１． NIST サイバーセキュリティ フレームワーク
 
-![NIST サイバーセキュリティ フレームワークのライフサイクル — 5 つの機能: 識別、保護、検出、対応、回復](/storage/uploads/2026/04/healthcare-nist-csf-framework.png)
+![NIST サイバーセキュリティ フレームワークのライフサイクル — 5 つの機能: 識別、保護、検出、対応、回復](/storage/uploads/2026/04/healthcare-nist-csf-framework.webp)
 
 - **識別**: 資産管理、リスク評価
 - **保護**: アクセス制御、データセキュリティ、トレーニング

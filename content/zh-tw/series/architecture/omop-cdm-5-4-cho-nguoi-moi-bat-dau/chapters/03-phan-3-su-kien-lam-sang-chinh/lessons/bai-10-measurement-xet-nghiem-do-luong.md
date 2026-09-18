@@ -45,7 +45,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![醫學測試和測量儀表板](/storage/uploads/2026/04/omop-cdm-bai10-measurement-lab.png)
+![醫學測試和測量儀表板](/storage/uploads/2026/04/omop-cdm-bai10-measurement-lab.webp)
 
 ## 簡介
 

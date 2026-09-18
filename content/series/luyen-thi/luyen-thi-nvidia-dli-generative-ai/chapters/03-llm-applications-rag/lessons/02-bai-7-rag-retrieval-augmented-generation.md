@@ -62,7 +62,7 @@ Vấn đề của LLM "trần" vs. RAG
 
 <blockquote><p><strong>Exam tip:</strong> Câu hỏi dạng "LLM trả lời sai về dữ liệu nội bộ" hoặc "cần cập nhật kiến thức mới" → đáp án luôn là <strong>RAG</strong>. Không phải fine-tuning (fine-tuning thay đổi style/behavior, không phải để inject knowledge mới).</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai7-rag-pipeline.png" alt="RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation" loading="lazy" /><figcaption>RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai7-rag-pipeline.webp" alt="RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation" loading="lazy" /><figcaption>RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation</figcaption></figure>
 
 <h2 id="2-rag-architecture">2. RAG Architecture — Retrieve → Augment → Generate</h2>
 

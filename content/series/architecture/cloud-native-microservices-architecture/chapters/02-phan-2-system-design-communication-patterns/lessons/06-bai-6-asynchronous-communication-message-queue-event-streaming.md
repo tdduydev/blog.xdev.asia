@@ -87,7 +87,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 6: Asynchronous Communication — Message Queue & Event Streaming](/storage/uploads/2026/03/cn-bai-6-diagram.png)
+![Bài 6: Asynchronous Communication — Message Queue & Event Streaming](/storage/uploads/2026/03/cn-bai-6-diagram.webp)
 
 ## Giới thiệu
 

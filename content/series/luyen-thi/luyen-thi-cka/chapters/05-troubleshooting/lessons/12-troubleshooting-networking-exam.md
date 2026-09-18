@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai12-network-debug.png" alt="Network Troubleshooting Layers — Layer-by-layer debug approach" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai12-network-debug.webp" alt="Network Troubleshooting Layers — Layer-by-layer debug approach" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="network-debug">1. Network Troubleshooting Workflow</h2>
 

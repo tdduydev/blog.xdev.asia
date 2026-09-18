@@ -147,11 +147,11 @@ Swap 急增時，先降低 `num_ctx` 或模型大小，再嘗試更深度的最�
 
 安裝後確認 health check 端點：
 
-![Health Check](/images/blog/gemma4-series-demo/02-health-check.png)
+![Health Check](/images/blog/gemma4-series-demo/02-health-check.webp)
 
 Swagger UI 自動產生 API 文件：
 
-![Swagger 文件](/images/blog/gemma4-series-demo/02-swagger-docs.png)
+![Swagger 文件](/images/blog/gemma4-series-demo/02-swagger-docs.webp)
 
 > 原始碼：[xdev-asia-labs/gemma-4-local-ai-engineering-on-mac](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac)
 

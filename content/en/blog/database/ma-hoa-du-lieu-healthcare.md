@@ -6,7 +6,7 @@ excerpt: >-
   How to search on encrypted data? This article presents 3 practical approaches
   and implementations with Spring Boot + PostgreSQL to protect 100,000+ patient
   records.
-featured_image: /images/blog/ma-hoa-du-lieu-healthcare-featured.png
+featured_image: /images/blog/ma-hoa-du-lieu-healthcare-featured.webp
 type: blog
 reading_time: 15
 view_count: 2

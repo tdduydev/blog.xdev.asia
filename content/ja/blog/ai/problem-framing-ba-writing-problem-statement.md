@@ -4,7 +4,7 @@ title: "BA のための問題フレーミング：スプリントを無駄にし
 slug: problem-framing-ba-writing-problem-statement
 excerpt: >-
   BA が犯す最もよくある間違いは、問題を理解する前にソリューションに飛びつくことです。ビジネスアウトカムに基づいた問題ステートメントの書き方、問題と症状とソリューションの区別、そして SCQ フレームワークを使って最初から正しくフレーミングする方法を学びます。
-featured_image: /images/blog/problem-framing-ba.png
+featured_image: /images/blog/problem-framing-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

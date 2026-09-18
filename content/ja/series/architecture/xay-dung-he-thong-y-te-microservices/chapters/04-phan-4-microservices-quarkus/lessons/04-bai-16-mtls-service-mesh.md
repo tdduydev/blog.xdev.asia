@@ -90,7 +90,7 @@ locale: ja
 
 ## 1. 安全なサービス間通信の概要
 
-![ヘルスケア向け Istio を使用した mTLS サービス メッシュ — Envoy サイドカー、ネットワーク ポリシー](/storage/uploads/2026/04/healthcare-mtls-service-mesh.png)
+![ヘルスケア向け Istio を使用した mTLS サービス メッシュ — Envoy サイドカー、ネットワーク ポリシー](/storage/uploads/2026/04/healthcare-mtls-service-mesh.webp)
 
 ヘルスケア マイクロサービス アーキテクチャでは、サービスはネットワーク経由で相互に通信しますが、そのネットワークは**決して信頼できるものではありません**。内部ネットワーク内であっても、攻撃者は次のことを行うことができます。
 
@@ -103,7 +103,7 @@ mTLS とサービス メッシュは、上記の問題をすべて解決しま�
 
 ＃＃＃１．１．サービス間通信の多層防御
 
-![5 Security Layers cho Inter-Service Communication — Network → mTLS → AuthZ → JWT → Encryption](/storage/uploads/2026/04/healthcare-service-communication-layers.png)
+![5 Security Layers cho Inter-Service Communication — Network → mTLS → AuthZ → JWT → Encryption](/storage/uploads/2026/04/healthcare-service-communication-layers.webp)
 
 **5層の保護:**
 
@@ -115,7 +115,7 @@ mTLS とサービス メッシュは、上記の問題をすべて解決しま�
 
 ＃＃＃１．２． mTLS と一方向 TLS の比較
 
-![一方向 TLS と相互 TLS (mTLS) の比較](/storage/uploads/2026/04/healthcare-tls-comparison.png)
+![一方向 TLS と相互 TLS (mTLS) の比較](/storage/uploads/2026/04/healthcare-tls-comparison.webp)
 
 | |一方向TLS |相互 TLS (mTLS) |
 |---|---|---|
@@ -476,7 +476,7 @@ istioctl analyze -n healthcare
 
 ＃＃＃４．２．ヘルスケア サービスを備えた Istio アーキテクチャ
 
-![Istio Service Mesh Architecture cho Healthcare — istiod + Envoy sidecars](/storage/uploads/2026/04/healthcare-istio-mesh.png)
+![Istio Service Mesh Architecture cho Healthcare — istiod + Envoy sidecars](/storage/uploads/2026/04/healthcare-istio-mesh.webp)
 
 **アーキテクチャ:**
 

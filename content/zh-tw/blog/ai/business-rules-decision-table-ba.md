@@ -5,7 +5,7 @@ slug: business-rules-decision-table-ba
 excerpt: >-
   業務規則是BA如果寫得模糊最有可能導致返工的部分。本文指導如何對規則進行分類、編寫原子規則、使用決策表，例如批准貸款申請並在將其放入
   SRS、使用者故事或測試案例之前審查清單。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 15
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   BA không cần thiết kế UI đẹp — nhưng cần vẽ wireframe đủ rõ để team hiểu, và flow
   diagram đủ chính xác để dev không hỏi lại. Hướng dẫn dùng Figma và Draw.io cho BA
   đặc biệt với AI feature có fallback path, confidence display và human override.
-featured_image: /images/blog/figma-draw-io-ba.png
+featured_image: /images/blog/figma-draw-io-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

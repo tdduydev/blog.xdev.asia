@@ -92,7 +92,7 @@ locale: zh-tw
 在分散式架構中，偵錯等於 `console.log` 不可行。当一个请求经过5个服务时，你需要**可观察性**来知道请求去了哪里，花了多长时间，以及哪里失败了。
 
 
-![可觀察性的 3 個支柱——日誌、指標、跟踪](/storage/uploads/2026/04/mfe-ms-diagram-bai26-observability.png)
+![可觀察性的 3 個支柱——日誌、指標、跟踪](/storage/uploads/2026/04/mfe-ms-diagram-bai26-observability.webp)
 
 ---
 

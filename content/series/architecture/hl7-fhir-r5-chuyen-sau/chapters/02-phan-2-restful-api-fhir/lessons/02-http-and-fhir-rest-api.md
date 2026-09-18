@@ -19,7 +19,7 @@ HIR (Fast Healthcare Interoperability Resources) là tiêu chuẩn trao đổi d
 
 FHIR REST API sử dụng các phương thức HTTP tiêu chuẩn để thao tác với tài nguyên y tế. Mỗi phương thức có vai trò và quy tắc sử dụng riêng.
 
-![HTTP Methods in FHIR](/storage/uploads/hl7-r5/root/image_8_.png)
+![HTTP Methods in FHIR](/storage/uploads/hl7-r5/root/image_8_.webp)
 
 *HTTP Methods in FHIR*
 
@@ -165,7 +165,7 @@ FHIR sử dụng các mã trạng thái HTTP tiêu chuẩn để truyền đạt
 
 ####
 
-![HTTP Status Codes](/storage/uploads/hl7-r5/root/image_9_.png)
+![HTTP Status Codes](/storage/uploads/hl7-r5/root/image_9_.webp)
 
 *HTTP Status Codes*
 
@@ -230,7 +230,7 @@ Khi có lỗi, FHIR thường trả về tài nguyên `OperationOutcome` để c
 
 FHIR sử dụng nhiều HTTP headers để điều khiển hành vi của API và cung cấp metadata.
 
-![HTTP Headers](/storage/uploads/hl7-r5/root/image_11_.png)
+![HTTP Headers](/storage/uploads/hl7-r5/root/image_11_.webp)
 
 *HTTP Headers*
 

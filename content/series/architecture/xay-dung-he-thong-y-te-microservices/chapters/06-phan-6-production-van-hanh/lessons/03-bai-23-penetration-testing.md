@@ -21,13 +21,13 @@ course:
 
 ## 1. Tổng quan Security Testing cho Healthcare
 
-![Penetration Testing Lifecycle — Planning, Discovery, Attack, Reporting, Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.png)
+![Penetration Testing Lifecycle — Planning, Discovery, Attack, Reporting, Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.webp)
 
 ### 1.1. Tại sao Pentest Healthcare Systems khác biệt?
 
 Security testing cho hệ thống y tế đòi hỏi cách tiếp cận đặc biệt so với các hệ thống IT thông thường. Dữ liệu y tế có **giá trị cao nhất trên dark web** — gấp 10-50 lần thẻ tín dụng — vì chứa thông tin không thể thay đổi như tiền sử bệnh, mã gen, số bảo hiểm xã hội.
 
-![Healthcare Security Testing — Unique Challenges: Regulatory, Data Sensitivity, System Availability](/storage/uploads/2026/04/healthcare-pentest-constraints.png)
+![Healthcare Security Testing — Unique Challenges: Regulatory, Data Sensitivity, System Availability](/storage/uploads/2026/04/healthcare-pentest-constraints.webp)
 
 | Thách thức | Chi tiết |
 |----------|--------|
@@ -39,7 +39,7 @@ Security testing cho hệ thống y tế đòi hỏi cách tiếp cận đặc b
 
 ### 1.2. Healthcare Security Testing Framework
 
-![Healthcare Security Testing Lifecycle — 5 phases: Planning → Discovery → Attack → Reporting → Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.png)
+![Healthcare Security Testing Lifecycle — 5 phases: Planning → Discovery → Attack → Reporting → Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.webp)
 
 **5 Phases:**
 

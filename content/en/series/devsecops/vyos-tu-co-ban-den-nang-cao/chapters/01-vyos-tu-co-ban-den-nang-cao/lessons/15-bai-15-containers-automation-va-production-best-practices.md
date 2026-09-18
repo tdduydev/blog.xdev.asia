@@ -15,7 +15,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-15-automation.png" alt="Containers, Automation and Production Best Practices" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-15-automation.webp" alt="Containers, Automation and Production Best Practices" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Containers, Automation and Production Best Practices on VyOS</h2>
 <p>VyOS 1.4/1.5 supports containers (Podman), enabling auxiliary services such as exporters and monitoring components. In addition, VyOS provides API support, Ansible integration, backup, upgrades, and operational best practices for production environments.</p>

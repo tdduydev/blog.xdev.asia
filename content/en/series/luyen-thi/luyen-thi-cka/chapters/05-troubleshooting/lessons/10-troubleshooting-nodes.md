@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai10-node-debug.png" alt="Node Troubleshooting Decision Tree — NotReady debug workflow" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai10-node-debug.webp" alt="Node Troubleshooting Decision Tree — NotReady debug workflow" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="node-conditions">1. Node Conditions</h2>
 

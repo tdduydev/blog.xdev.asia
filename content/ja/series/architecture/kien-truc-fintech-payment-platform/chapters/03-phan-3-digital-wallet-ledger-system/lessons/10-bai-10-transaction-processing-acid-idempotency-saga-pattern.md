@@ -85,7 +85,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 10: トランザクション処理 - ACID、冪等性、および Saga パターン](/storage/uploads/2026/03/fintech-bai-10-diagram.png)
+![レッスン 10: トランザクション処理 - ACID、冪等性、および Saga パターン](/storage/uploads/2026/03/fintech-bai-10-diagram.webp)
 
 ## はじめに
 

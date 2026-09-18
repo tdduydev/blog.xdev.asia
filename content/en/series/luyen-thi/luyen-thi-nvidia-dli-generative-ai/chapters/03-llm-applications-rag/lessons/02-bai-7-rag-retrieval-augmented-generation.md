@@ -62,7 +62,7 @@ The Problem with "Bare" LLM vs. RAG
 
 <blockquote><p><strong>Exam tip:</strong> Questions like "LLM gives wrong answers about internal data" or "need to update with new knowledge" → the answer is always <strong>RAG</strong>. Not fine-tuning (fine-tuning changes style/behavior, not for injecting new knowledge).</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai7-rag-pipeline.png" alt="RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation" loading="lazy" /><figcaption>RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai7-rag-pipeline.webp" alt="RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation" loading="lazy" /><figcaption>RAG Pipeline — Document Ingestion, Vector Store, Retrieval, Augmented Generation</figcaption></figure>
 
 <h2 id="2-rag-architecture">2. RAG Architecture — Retrieve → Augment → Generate</h2>
 

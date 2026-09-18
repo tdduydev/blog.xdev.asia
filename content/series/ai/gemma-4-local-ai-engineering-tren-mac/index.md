@@ -50,7 +50,7 @@ Toàn bộ demo code đi kèm series:
 
 > **[xdev-asia-labs/gemma-4-local-ai-engineering-on-mac](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac)**
 
-![Project Structure](/images/blog/gemma4-series-demo/01-project-structure.png)
+![Project Structure](/images/blog/gemma4-series-demo/01-project-structure.webp)
 
 ## Outcome sau series
 

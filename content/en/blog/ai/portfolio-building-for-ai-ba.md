@@ -7,7 +7,7 @@ excerpt: >-
   portfolio — not just a list of tools. A guide to structuring AI project case
   studies, choosing which artifacts to showcase, and how to tell your story on
   LinkedIn and your CV.
-featured_image: /images/blog/portfolio-ai-ba.png
+featured_image: /images/blog/portfolio-ai-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

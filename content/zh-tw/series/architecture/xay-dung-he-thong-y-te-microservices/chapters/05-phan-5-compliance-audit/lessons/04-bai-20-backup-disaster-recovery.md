@@ -90,7 +90,7 @@ locale: zh-tw
 
 ## 1. 醫療保健災難復原概述
 
-![災難復原和業務連續性 - 衛生系統的 RPO/RTO](/storage/uploads/2026/04/healthcare-disaster-recovery.png)
+![災難復原和業務連續性 - 衛生系統的 RPO/RTO](/storage/uploads/2026/04/healthcare-disaster-recovery.webp)
 
 HIPAA 安全規則 §164.308(a)(7) 要求每個處理 ePHI 的組織都制定**應急計劃** — 針對緊急情況（自然災害、勒索軟體攻擊、硬體故障、人為錯誤）的應急計劃。在醫療保健領域，**停機時間會直接影響病患的生活**。
 
@@ -119,7 +119,7 @@ HIPAA 安全規則 §164.308(a)(7) 要求每個處理 ePHI 的組織都制定**�
 
 ### 1.2。醫療保健領域的 RTO/RPO 要求
 
-![RTO/RPO Timeline cho Healthcare Systems](/storage/uploads/2026/04/healthcare-rto-rpo-timeline.png)
+![RTO/RPO Timeline cho Healthcare Systems](/storage/uploads/2026/04/healthcare-rto-rpo-timeline.webp)
 
 |系統|復原點目標 | RTO |關鍵性|
 |--------|-----|-----|------------|
@@ -785,7 +785,7 @@ volumes:
 
 ### 5.1. Cross-Region Architecture
 
-![Cross-Region DR Architecture — Singapore (Primary) → Tokyo (DR)](/storage/uploads/2026/04/healthcare-cross-region-dr.png)
+![Cross-Region DR Architecture — Singapore (Primary) → Tokyo (DR)](/storage/uploads/2026/04/healthcare-cross-region-dr.webp)
 
 **PRIMARY REGION** (ap-southeast-1: Singapore):
 

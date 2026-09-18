@@ -7,7 +7,7 @@ excerpt: >-
   requirements thực sự mà BA cần capture khi build AI feature. Bài này hướng dẫn cách
   viết yêu cầu Responsible AI vào BRD/SRS, kiểm tra bằng checklist và align với các
   framework như EU AI Act, NIST AI RMF.
-featured_image: /images/blog/responsible-ai-requirements.png
+featured_image: /images/blog/responsible-ai-requirements.webp
 type: blog
 reading_time: 11
 view_count: 0

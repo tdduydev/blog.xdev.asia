@@ -6,7 +6,7 @@ excerpt: >-
   從頭開始將 HIS/EHR/claim 來源 ETL 到 OMOP CDM,通常需 3-6 個月。本文介紹標準的 OHDSI
   pipeline:WhiteRabbit profile、RabbitInAHat 設計、USAGI 對應、以 SQL/Perseus/dbt
   實作,並用 DQD 驗證。
-featured_image: /images/blog/omop-etl-featured.png
+featured_image: /images/blog/omop-etl-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -23,7 +23,7 @@ OMOP ETL 是專案中最困難、最耗時的部分。好消息:OHDSI 社群已�
 
 ## 1. 標準 OHDSI 流程
 
-![1. 標準 OHDSI 流程](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d01.png)
+![1. 標準 OHDSI 流程](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d01.webp)
 
 7 個標準步驟:
 1. 用 WhiteRabbit 對來源做 profile
@@ -118,7 +118,7 @@ OHDSI 標準格式:
 
 已於 [Vocabulary 深入剖析](/blog/omop-standardized-vocabularies-athena) 介紹。重申流程:
 
-![4. USAGI — 代碼對應](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d02.png)
+![4. USAGI — 代碼對應](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d02.webp)
 
 ### 4.1 最佳實務
 
@@ -302,7 +302,7 @@ docker compose up
 
 HIS 資料集大 → 不可能每晚重跑全量。Incremental 模式:
 
-![8. Incremental ETL](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d03.png)
+![8. Incremental ETL](/images/blog/diagrams/omop-etl-whiterabbit-usagi-perseus-d03.webp)
 
 注意事項:
 - 在來源追蹤 `updated_at` — 若沒有 → 加 trigger 或 CDC(Debezium)

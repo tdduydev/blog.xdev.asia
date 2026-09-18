@@ -91,7 +91,7 @@ course:
 
 ## 1. Container Security Fundamentals cho Healthcare
 
-![Container Attack Surface — Build, Deploy, Runtime vulnerabilities](/storage/uploads/2026/04/healthcare-container-attack-surface.png)
+![Container Attack Surface — Build, Deploy, Runtime vulnerabilities](/storage/uploads/2026/04/healthcare-container-attack-surface.webp)
 
 ### 1.1. Container Attack Surface
 

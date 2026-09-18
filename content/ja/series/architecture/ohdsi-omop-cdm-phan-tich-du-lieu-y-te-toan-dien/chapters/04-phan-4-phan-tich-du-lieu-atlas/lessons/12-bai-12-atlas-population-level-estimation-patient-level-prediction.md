@@ -87,7 +87,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 12: 人口レベルの推定と患者レベルの予測](/storage/uploads/2026/03/ohdsi-bai-12-estimation-prediction.png)
+![レッスン 12: 人口レベルの推定と患者レベルの予測](/storage/uploads/2026/03/ohdsi-bai-12-estimation-prediction.webp)
 
 ## はじめに
 

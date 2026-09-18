@@ -18,7 +18,7 @@ locale: en
 
 <p>Kubernetes is designed in a distributed model with a clear master-worker architecture. To use Kubernetes effectively — and especially to debug when things go wrong — you need to understand what each component does, how they communicate with each other, and why they are designed that way. This lesson dives into the Kubernetes 1.32+ architecture with important changes in containerd 2.0, nftables mode for kube-proxy, and the cgroup v2 roadmap.</p>
 
-<img src="/storage/uploads/2026/03/k8s-architecture-2026.png" alt="Kubernetes Architecture - Control Plane và Worker Nodes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-architecture-2026.webp" alt="Kubernetes Architecture - Control Plane và Worker Nodes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. Architecture Overview: Control Plane and Worker Nodes</h2>
 
@@ -301,7 +301,7 @@ cat /sys/fs/cgroup/kubepods.slice/memory.stat</code></pre>
 
 <p>To understand the architecture in a practical way, let's trace the flow that occurs when you run <code>kubectl apply -f pod.yaml</code>:</p>
 
-<img src="/storage/uploads/2026/03/k8s-pod-creation-flow-2026.png" alt="Pod Creation Flow - từ kubectl đến Container" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-pod-creation-flow-2026.webp" alt="Pod Creation Flow - từ kubectl đến Container" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <pre><code class="language-bash">┌──────────┐    1. HTTPS POST /api/v1/pods     ┌────────────────┐
 │ kubectl  │ ─────────────────────────────────► │ kube-apiserver │

@@ -87,7 +87,7 @@ cd ner-nhin-la-hieu
 python3 scratch/ep03_hai_f1.py
 ```
 
-![Kết quả chạy ep03_hai_f1](/images/blog/trich-xuat-nhin-la-hieu/ep03_hai_f1.png)
+![Kết quả chạy ep03_hai_f1](/images/blog/trich-xuat-nhin-la-hieu/ep03_hai_f1.webp)
 
 Toàn bộ số của bảy bài: `python3 measure.py`. Khẳng định số không đổi: `python3 run_tests.py`.
 

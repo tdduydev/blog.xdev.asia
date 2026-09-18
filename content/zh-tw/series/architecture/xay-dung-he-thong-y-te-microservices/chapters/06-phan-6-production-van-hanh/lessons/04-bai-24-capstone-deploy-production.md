@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. Capstone 專案介紹
 
-![生產部署 - Kubernetes 上符合 HIPAA 要求的醫療保健平台](/storage/uploads/2026/04/healthcare-production-deployment.png)
+![生產部署 - Kubernetes 上符合 HIPAA 要求的醫療保健平台](/storage/uploads/2026/04/healthcare-production-deployment.webp)
 
 ### 1.1。目標
 
@@ -133,7 +133,7 @@ locale: zh-tw
 
 ### 2.1。系統架構
 
-![Capstone 醫療保健平台架構](/storage/uploads/2026/04/healthcare-capstone-architecture.png)
+![Capstone 醫療保健平台架構](/storage/uploads/2026/04/healthcare-capstone-architecture.webp)
 
 **3層安全架構：**
 

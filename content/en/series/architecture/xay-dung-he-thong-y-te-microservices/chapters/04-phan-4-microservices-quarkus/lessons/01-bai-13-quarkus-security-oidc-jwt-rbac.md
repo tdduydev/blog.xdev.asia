@@ -94,7 +94,7 @@ locale: en
 
 ## 1. Overview of Quarkus Security Architecture
 
-![Quarkus Security Stack — OIDC, JWT Propagation, RBAC cho Healthcare Microservices](/storage/uploads/2026/04/healthcare-quarkus-security-stack.png)
+![Quarkus Security Stack — OIDC, JWT Propagation, RBAC cho Healthcare Microservices](/storage/uploads/2026/04/healthcare-quarkus-security-stack.webp)
 
 Quarkus provides an integrated **security framework** with many extensions supporting authentication, authorization, and identity management. In a healthcare microservices system, security is not an added feature — it is the **foundation** of every request.
 

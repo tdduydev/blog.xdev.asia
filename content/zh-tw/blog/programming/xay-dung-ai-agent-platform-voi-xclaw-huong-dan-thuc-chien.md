@@ -5,7 +5,7 @@ slug: xay-dung-ai-agent-platform-voi-xclaw-huong-dan-thuc-chien
 excerpt: >-
   使用 xClaw 建立完整 AI 代理平台的詳細說明 — TypeScript monorepo 支援多 LLM、RAG 管道、工作流程引擎、13
   個網域包、多租戶 RBAC、MCP 協定和 8 個聊天通道。從雙資料庫架構到部署Docker生產。
-featured_image: /images/blog/xclaw-ai-agent-featured.png
+featured_image: /images/blog/xclaw-ai-agent-featured.webp
 type: blog
 reading_time: 45
 view_count: 0

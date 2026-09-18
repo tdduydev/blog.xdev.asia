@@ -27,7 +27,7 @@ course:
 
 <blockquote><p><strong>試験のヒント：</strong> NVIDIA DLI試験では、推論パラメータ（temperature、top-k、top-p）やNIMと他のフレームワークの使い分けについて頻繁に出題されます。本レッスン末尾の比較表を必ず押さえてください。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai6-llm-inference-pipeline.png" alt="LLM Inference Pipeline — Prompt Template, NIM, LCEL Chain, Gradio UI" loading="lazy" /><figcaption>LLM推論パイプライン — Prompt Template、NIM、LCEL Chain、Gradio UI</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai6-llm-inference-pipeline.webp" alt="LLM Inference Pipeline — Prompt Template, NIM, LCEL Chain, Gradio UI" loading="lazy" /><figcaption>LLM推論パイプライン — Prompt Template、NIM、LCEL Chain、Gradio UI</figcaption></figure>
 
 <h2 id="2-llm-inference-fundamentals">2. LLM推論の基礎</h2>
 

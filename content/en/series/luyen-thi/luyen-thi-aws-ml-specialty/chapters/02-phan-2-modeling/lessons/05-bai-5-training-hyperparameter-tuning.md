@@ -19,7 +19,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai5-training-hpo.png" alt="SageMaker Training & Hyperparameter Tuning" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai5-training-hpo.webp" alt="SageMaker Training & Hyperparameter Tuning" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>SageMaker Training Jobs & Hyperparameter Tuning: distributed training, Spot Instances, and HPO strategies</em></p>
 </div>
 

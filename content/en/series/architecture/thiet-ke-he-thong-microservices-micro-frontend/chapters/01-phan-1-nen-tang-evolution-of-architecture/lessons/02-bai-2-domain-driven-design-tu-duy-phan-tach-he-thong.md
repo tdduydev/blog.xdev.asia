@@ -93,7 +93,7 @@ locale: en
 Domain-Driven Design (DDD) is more than just a method of writing code — it's **thinking that decomposes complex systems** into parts that make business sense. DDD is the foundation that decides **how to divide Microservices** and **how to divide Micro Frontend**. If divided incorrectly, you will have a "distributed monolith" — worse than the original monolith.
 
 
-![Context Map — Bounded Contexts and relationships between domains in DDD](/storage/uploads/2026/04/mfe-ms-diagram-bai2-bounded-context-map.png)
+![Context Map — Bounded Contexts and relationships between domains in DDD](/storage/uploads/2026/04/mfe-ms-diagram-bai2-bounded-context-map.webp)
 
 ---
 

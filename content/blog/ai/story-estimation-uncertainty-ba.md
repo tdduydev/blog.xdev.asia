@@ -6,7 +6,7 @@ excerpt: >-
   AI story khó estimate hơn feature thường vì phụ thuộc data, model iteration, và
   experiment uncertainty. Hướng dẫn adapted Planning Poker cho AI work, 3-point
   estimation, spike story, và cách communicate uncertainty với stakeholder.
-featured_image: /images/blog/story-estimation-uncertainty.png
+featured_image: /images/blog/story-estimation-uncertainty.webp
 type: blog
 reading_time: 11
 view_count: 0

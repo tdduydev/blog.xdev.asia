@@ -90,7 +90,7 @@ course:
 Event Sourcing và CQRS là hai pattern mạnh mẽ nhưng **thường bị lạm dụng**. Bài này giúp bạn hiểu bản chất, lợi ích thực sự, và quan trọng nhất — **khi nào KHÔNG nên dùng**.
 
 
-![CQRS và Event Sourcing — tách Command và Query](/storage/uploads/2026/04/mfe-ms-diagram-bai9-cqrs-event-sourcing.png)
+![CQRS và Event Sourcing — tách Command và Query](/storage/uploads/2026/04/mfe-ms-diagram-bai9-cqrs-event-sourcing.webp)
 
 ---
 

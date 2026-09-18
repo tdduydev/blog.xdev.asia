@@ -6,7 +6,7 @@ excerpt: >-
   New BAs often learn BABOK, SDLC, Scrum, BRD, SRS, and user stories in pieces,
   so it's easy to get confused. This article maps the whole thing into a
   practical work flow from idea to release.
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

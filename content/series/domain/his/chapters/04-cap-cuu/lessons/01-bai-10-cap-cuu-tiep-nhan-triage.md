@@ -8,7 +8,7 @@ description: >-
   giao nội trú/phẫu thuật.
 duration_minutes: 60
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-10-cap-cuu-tiep-nhan-triage-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-10-cap-cuu-tiep-nhan-triage-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 4: Cấp cứu (Emergency)"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![Cấp cứu — triage ESI & code y khoa](/storage/uploads/2026/05/his/bai-10-cap-cuu-tiep-nhan-triage-banner.png)
+![Cấp cứu — triage ESI & code y khoa](/storage/uploads/2026/05/his/bai-10-cap-cuu-tiep-nhan-triage-banner.webp)
 
 ## Mục tiêu
 
-![Triage tại ER với phân tầng ưu tiên ESI](/storage/uploads/2026/05/his/bai-10-cap-cuu-tiep-nhan-triage-workflow.png)
+![Triage tại ER với phân tầng ưu tiên ESI](/storage/uploads/2026/05/his/bai-10-cap-cuu-tiep-nhan-triage-workflow.webp)
 
 Cấp cứu (ER) là module **đặc biệt nhất** của HIS: nghiệp vụ ngược (làm trước, ghi sau), thời gian tính bằng giây, đa người tham gia đồng thời, dữ liệu sống còn. Một module ER tốt phải:
 

@@ -5,7 +5,7 @@ slug: qa-collaboration-defect-triage-ba
 excerpt: >-
   BA と QA は、要件をテスト シナリオに変えるための重要な組み合わせです。この記事では、リリース前に QA
   と連携し、重大度/優先度を分類し、欠陥をトリアージし、回帰範囲を管理する方法について説明します。
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

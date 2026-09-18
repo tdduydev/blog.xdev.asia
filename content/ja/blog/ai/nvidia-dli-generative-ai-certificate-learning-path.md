@@ -3,7 +3,7 @@ id: 05e72d3d-f5d2-4304-8fe1-c29fe5ac8ec6
 title: 'NVIDIA DLI Generative AI：全認定資格・コース・試験・詳細学習ロードマップ'
 slug: nvidia-dli-generative-ai-certificate-learning-path
 excerpt: NVIDIA DLIのGenerative AIとLLMに関する完全なエコシステムの詳細ガイド — Diffusion Models、RAG Agents、Agentic AIからTransformer NLPまで。試験内容、アセスメントの難易度、サンプル問題、試験のヒント、初心者からプロまでの学習ロードマップを解説します。
-featured_image: /images/blog/nvidia-dli-genai-featured.png
+featured_image: /images/blog/nvidia-dli-genai-featured.webp
 type: blog
 reading_time: 30
 view_count: 0

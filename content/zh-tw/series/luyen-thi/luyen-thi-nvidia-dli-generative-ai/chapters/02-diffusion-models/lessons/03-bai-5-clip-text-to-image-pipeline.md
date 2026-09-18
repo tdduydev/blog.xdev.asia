@@ -50,7 +50,7 @@ Roadmap: Class Label → Text Prompt Conditioning
   └──────────────────────────────────────────────────────────┘
 </code></pre>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai5-clip-text-to-image.png" alt="CLIP與文字到圖像管線——文字編碼器、交叉注意力、U-Net去噪器" loading="lazy" /><figcaption>CLIP與文字到圖像管線——文字編碼器、交叉注意力、U-Net去噪器</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai5-clip-text-to-image.webp" alt="CLIP與文字到圖像管線——文字編碼器、交叉注意力、U-Net去噪器" loading="lazy" /><figcaption>CLIP與文字到圖像管線——文字編碼器、交叉注意力、U-Net去噪器</figcaption></figure>
 
 <h2 id="clip-architecture">2. CLIP — 對比語言-圖像預訓練</h2>
 

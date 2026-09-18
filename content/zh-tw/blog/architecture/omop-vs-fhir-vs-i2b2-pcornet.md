@@ -5,7 +5,7 @@ slug: omop-vs-fhir-vs-i2b2-pcornet
 excerpt: >-
   哪一套 Common Data Model 適合你的組織?本文針對 OMOP、FHIR、i2b2、PCORnet、Sentinel
   的 schema、詞彙、治理、工具、使用情境進行詳細比較,並提供選型決策樹。
-featured_image: /images/blog/omop-vs-other-cdm-featured.png
+featured_image: /images/blog/omop-vs-other-cdm-featured.webp
 type: blog
 reading_time: 13
 view_count: 0
@@ -22,7 +22,7 @@ comments: []
 
 ## 1. 醫療 CDM 全景圖
 
-![1. 醫療 CDM 全景圖](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d01.png)
+![1. 醫療 CDM 全景圖](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d01.webp)
 
 ## 2. 比較表
 
@@ -44,7 +44,7 @@ comments: []
 
 ### 3.1 Schema 哲學
 
-![3.1 Schema 哲學](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d02.png)
+![3.1 Schema 哲學](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d02.webp)
 
 OMOP = 標準化關聯式資料庫 → 為 SQL 分析最佳化。
 FHIR = 文件導向 Resource → 為 API 交換最佳化。
@@ -59,23 +59,23 @@ OMOP **強制**將每個代碼對應到 Standard Concept(例如 ICD-10 → SNOME
 
 OMOP 允許在不移動資料的情況下執行研究(R 研究包在每個夥伴本地執行,僅彙總結果)。對越南而言極為合適 — **越南個人資料保護法 2025**(2026 年 1 月 1 日生效,取代第 13/2023 號政令)要求敏感資料在境內儲存,並針對特定處理目的取得同意。
 
-![3.3 聯邦式 vs 集中式](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d03.png)
+![3.3 聯邦式 vs 集中式](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d03.webp)
 
 ## 4. 決策樹
 
-![4. 決策樹](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d04.png)
+![4. 決策樹](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d04.webp)
 
 ## 5. 混合模式:FHIR + OMOP
 
 這是 2026 年最普遍的模式:
 
-![5. 混合模式:FHIR + OMOP](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d05.png)
+![5. 混合模式:FHIR + OMOP](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d05.webp)
 
 → 營運型 EHR 採用 FHIR(即時、適合 web/行動),研究型資料湖採用 OMOP(聯邦式分析)。請閱讀 [FHIR ↔ OMOP bridge](/blog/omop-fhir-mapping-bridge)。
 
 ## 6. 為何 OMOP 在 RWE 上勝出
 
-![6. 為何 OMOP 在 RWE 上勝出](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d06.png)
+![6. 為何 OMOP 在 RWE 上勝出](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d06.webp)
 
 對比:i2b2 社群較小、更新較少;PCORnet 較封閉於美國;Sentinel 僅 FDA 使用;CDISC 僅供試驗送審。
 

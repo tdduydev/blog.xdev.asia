@@ -96,7 +96,7 @@ locale: zh-tw
 
 ### 1.1 什麼是單體架構？
 
-![整體架構 — 所有模組都在 1 個區塊中，共用資料庫](/storage/uploads/2026/04/mfe-ms-diagram-bai1-monolith-architecture.png)
+![整體架構 — 所有模組都在 1 個區塊中，共用資料庫](/storage/uploads/2026/04/mfe-ms-diagram-bai1-monolith-architecture.webp)
 
 Monolith 是一種架構，其中**整個應用程式**作為**單一單元**進行建置、部署和擴展。所有模組（使用者、產品、訂單...）在同一進程中運行，共享相同資料庫並一起部署。
 
@@ -151,7 +151,7 @@ Timeline:
 
 ### 2.2 SOA（服務導向的架構）
 
-![SOA 與 ESB — 集中式匯流排成為單點故障](/storage/uploads/2026/04/mfe-ms-diagram-bai1-soa-architecture.png)
+![SOA 與 ESB — 集中式匯流排成為單點故障](/storage/uploads/2026/04/mfe-ms-diagram-bai1-soa-architecture.webp)
 
 SOA 是將 Monolith 分開為服務的第一步。然而，SOA 有一些限制：
 
@@ -196,7 +196,7 @@ SOA 是將 Monolith 分開為服務的第一步。然而，SOA 有一些限制�
 
 ### 3.1 Backend已分離，Frontend仍合併
 
-![前端單體－後端已經分離，但前端仍然是一個巨大的 SPA](/storage/uploads/2026/04/mfe-ms-diagram-bai1-frontend-monolith-problem.png)
+![前端單體－後端已經分離，但前端仍然是一個巨大的 SPA](/storage/uploads/2026/04/mfe-ms-diagram-bai1-frontend-monolith-problem.webp)
 
 許多組織已在後端採用微服務，但前端仍然是**一個巨大的 SPA 應用程式**（React/Angular/Vue 單體應用）。
 

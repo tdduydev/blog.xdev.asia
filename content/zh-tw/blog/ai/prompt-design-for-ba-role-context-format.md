@@ -4,7 +4,7 @@ title: "BA 的提示設計：使用角色、目的、脈絡和格式撰寫有效
 slug: prompt-design-for-ba-role-context-format
 excerpt: >-
   BA 無需知道微調或嵌入——但需要為日常工作和 AI 功能規格寫足夠好的提示。本指南教 RPCF 框架：角色、目的、脈絡、格式——BA 如何設計可重現且受控的提示。
-featured_image: /images/blog/prompt-design-ba.png
+featured_image: /images/blog/prompt-design-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

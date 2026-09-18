@@ -6,7 +6,7 @@ excerpt: >-
   BA は API をコード化する必要はありませんが、リクエスト/レスポンス、エラーハンドリング、
   データコントラクト、検証ルールを理解する必要があります。このガイドは BA が OpenAPI 仕様を読み、
   API 設計をレビューし、AI 機能のデータ品質受け入れ基準を作成するのに役立ちます。
-featured_image: /images/blog/rest-api-data-validation-ba.png
+featured_image: /images/blog/rest-api-data-validation-ba.webp
 type: blog
 reading_time: 9
 view_count: 0

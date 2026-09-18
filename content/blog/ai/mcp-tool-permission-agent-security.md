@@ -5,7 +5,7 @@ slug: mcp-tool-permission-agent-security
 excerpt: >-
   Tool là nơi agent chạm vào thế giới thật. Schema, permission, dry-run,
   confirmation, idempotency và audit log quyết định agent có an toàn hay không.
-featured_image: /images/blog/mcp-tool-permission-agent-security.png
+featured_image: /images/blog/mcp-tool-permission-agent-security.webp
 type: blog
 reading_time: 12
 view_count: 0

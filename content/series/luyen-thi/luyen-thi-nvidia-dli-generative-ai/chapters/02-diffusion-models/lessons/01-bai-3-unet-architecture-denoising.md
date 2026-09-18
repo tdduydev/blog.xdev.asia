@@ -26,7 +26,7 @@ course:
 
 <blockquote><p><strong>Exam tip:</strong> Trong assessment, bạn sẽ phải implement U-Net từ đầu. Hiểu rõ chiều tensor qua mỗi layer là chìa khóa. NVIDIA DLI yêu cầu bạn viết code chạy đúng, không chỉ hiểu lý thuyết.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai3-unet-architecture.png" alt="Kiến trúc U-Net — Encoder-Decoder với Skip Connections cho Image Denoising" loading="lazy" /><figcaption>Kiến trúc U-Net — Encoder-Decoder với Skip Connections cho Image Denoising</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai3-unet-architecture.webp" alt="Kiến trúc U-Net — Encoder-Decoder với Skip Connections cho Image Denoising" loading="lazy" /><figcaption>Kiến trúc U-Net — Encoder-Decoder với Skip Connections cho Image Denoising</figcaption></figure>
 
 <h2 id="unet-architecture">2. U-Net Architecture: Encoder-Decoder với Skip Connections</h2>
 

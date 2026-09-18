@@ -90,13 +90,13 @@ course:
 
 ## 1. Tổng quan PostgreSQL Security cho Y Tế
 
-![Các lớp bảo mật PostgreSQL cho dữ liệu y tế — TLS, pg_hba, RLS, pgcrypto](/storage/uploads/2026/04/healthcare-postgresql-security-layers.png)
+![Các lớp bảo mật PostgreSQL cho dữ liệu y tế — TLS, pg_hba, RLS, pgcrypto](/storage/uploads/2026/04/healthcare-postgresql-security-layers.webp)
 
 PostgreSQL là lựa chọn phổ biến cho hệ thống y tế nhờ tính linh hoạt, open-source, và bộ tính năng bảo mật mạnh mẽ. Tuy nhiên, cấu hình mặc định của PostgreSQL **không đủ an toàn** cho dữ liệu PHI (Protected Health Information). Bài học này sẽ hướng dẫn hardening PostgreSQL theo CIS Benchmark và best practices cho healthcare.
 
 ### 1.1. Các lớp bảo mật PostgreSQL
 
-![7 lớp bảo mật PostgreSQL — từ Application đến OS Layer](/storage/uploads/2026/04/healthcare-postgresql-security-layers.png)
+![7 lớp bảo mật PostgreSQL — từ Application đến OS Layer](/storage/uploads/2026/04/healthcare-postgresql-security-layers.webp)
 
 | Layer | Tên | Thành phần |
 |-------|-----|------------|
@@ -331,7 +331,7 @@ WHERE usename IS NOT NULL;
 
 ### 4.1. Nguyên tắc Least Privilege cho Healthcare
 
-![PostgreSQL Role Hierarchy cho hệ thống y tế](/storage/uploads/2026/04/healthcare-postgresql-role-hierarchy.png)
+![PostgreSQL Role Hierarchy cho hệ thống y tế](/storage/uploads/2026/04/healthcare-postgresql-role-hierarchy.webp)
 
 - **postgres** (superuser) ← CHỈ dùng cho maintenance
   - **dba_admin** (CREATEDB, CREATEROLE) — Quản lý schema, backup, monitoring
@@ -619,7 +619,7 @@ Trong hệ thống microservices, mỗi service instance tạo connection pool r
 - Rate limiting
 - Connection routing
 
-![PgBouncer connection pooling — giảm 140 connections xuống 50](/storage/uploads/2026/04/healthcare-pgbouncer-connection-pooling.png)
+![PgBouncer connection pooling — giảm 140 connections xuống 50](/storage/uploads/2026/04/healthcare-pgbouncer-connection-pooling.webp)
 
 ### 6.2. PgBouncer Configuration
 

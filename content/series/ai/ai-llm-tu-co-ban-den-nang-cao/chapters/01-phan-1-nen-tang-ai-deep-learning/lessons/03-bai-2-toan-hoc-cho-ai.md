@@ -93,7 +93,7 @@ Toán học là ngôn ngữ mà các mô hình AI dùng để "suy nghĩ". Nhưn
 
 > **Mẹo học:** Mỗi phần đều có ví dụ thực tế → code minh họa → bài tập nhỏ. Nếu phần nào chưa hiểu, đọc lại ví dụ thực tế trước.
 
-![Tổng quan toán học cho AI: Đại số tuyến tính, Giải tích & Gradient Descent, Xác suất](/storage/uploads/2026/03/math-for-ai.png)
+![Tổng quan toán học cho AI: Đại số tuyến tính, Giải tích & Gradient Descent, Xác suất](/storage/uploads/2026/03/math-for-ai.webp)
 
 Bài học này chia thành 4 phần chính:
 
@@ -401,7 +401,7 @@ print(f"dz/dx tính số:   {numerical:.4f}")     # 300.0000
 
 **Ví dụ đời thường:** Bạn đứng trên ngọn núi trong **sương mù dày đặc** — không nhìn thấy gì. Bạn muốn xuống chân núi (tìm minimum). Cách duy nhất: **sờ mặt đất quanh chân**, tìm hướng dốc nhất, bước xuống một bước nhỏ. Lặp lại.
 
-![Minh họa Gradient Descent: đi xuống bề mặt loss để tìm điểm tối ưu](/storage/uploads/2026/03/gradient-descent-visual.png)
+![Minh họa Gradient Descent: đi xuống bề mặt loss để tìm điểm tối ưu](/storage/uploads/2026/03/gradient-descent-visual.webp)
 
 ```
 θ_new = θ_old - α × ∇L(θ)

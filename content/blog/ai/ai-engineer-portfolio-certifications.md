@@ -5,7 +5,7 @@ slug: ai-engineer-portfolio-certifications
 excerpt: >-
   Portfolio AI Engineer tốt không chỉ có demo. Cần architecture, trade-off,
   eval report, safety review, cost report, incident thinking và roadmap học chứng chỉ hợp lý.
-featured_image: /images/blog/ai-engineer-portfolio-certifications.png
+featured_image: /images/blog/ai-engineer-portfolio-certifications.webp
 type: blog
 reading_time: 12
 view_count: 0

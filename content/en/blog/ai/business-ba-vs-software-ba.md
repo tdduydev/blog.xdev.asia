@@ -8,7 +8,7 @@ excerpt: >-
   Business BA and Software BA have many intersections but are not the same. This
   article explains the role, artifacts, skills, daily work examples, and
   learning paths so you know which direction you need to take.
-featured_image: /images/blog/roadmap-ba-featured.png
+featured_image: /images/blog/roadmap-ba-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

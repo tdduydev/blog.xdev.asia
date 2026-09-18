@@ -6,7 +6,7 @@ excerpt: >-
   Business Case 是 BA 用來 justify AI project 投資的關鍵文件。本文提供完整
   template 與逐段說明，從 problem statement 到 financial analysis，再到 risk
   assessment，幫助你系統化完成。
-featured_image: /images/blog/business-case-template-ba.png
+featured_image: /images/blog/business-case-template-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

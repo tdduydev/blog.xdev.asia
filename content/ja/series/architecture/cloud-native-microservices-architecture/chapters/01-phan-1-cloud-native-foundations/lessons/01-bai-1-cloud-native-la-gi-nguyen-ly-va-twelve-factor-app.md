@@ -87,7 +87,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 1: クラウドネイティブとは何ですか? — 原則と 12 要素アプリ](/storage/uploads/2026/03/cn-bai-1-diagram.png)
+![レッスン 1: クラウドネイティブとは何ですか? — 原則と 12 要素アプリ](/storage/uploads/2026/03/cn-bai-1-diagram.webp)
 
 ## はじめに
 

@@ -3,7 +3,7 @@ id: 01970970-63e1-4389-a405-cc6388623b4e
 title: 'MiniMax：中國全棧 AI 平台詳細評測——文字、影片、語音、音樂盡在一個生態系統'
 slug: minimax-detailed-review-chinese-full-stack-ai-platform
 excerpt: MiniMax 詳細評測——全球最完整多模態生態系統的中國 AI 新創公司。從 M2.7（文字/代碼媲美 Opus 4.6）、Hailuo 2.3（影片）、Speech 2.6 到 Music 2.6，分析其模型、產品、API、定價，並與 OpenAI、Google、Anthropic 進行比較，附快速入門指南。
-featured_image: /images/blog/minimax-review-featured.png
+featured_image: /images/blog/minimax-review-featured.webp
 type: blog
 reading_time: 25
 view_count: 0

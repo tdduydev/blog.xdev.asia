@@ -6,7 +6,7 @@ excerpt: >-
   Bù trừ không đưa hệ thống về trạng thái cũ — nó làm một việc nghiệp vụ mới để trung hoà việc đã
   làm. Và khôi phục trạng thái ban đầu có thể ghi đè lên thay đổi của người khác, tức là sinh ra
   một lỗi thứ hai tệ hơn lỗi đầu.
-featured_image: /images/blog/saga-va-bu-tru/cover.png
+featured_image: /images/blog/saga-va-bu-tru/cover.webp
 type: blog
 reading_time: 12
 view_count: 0

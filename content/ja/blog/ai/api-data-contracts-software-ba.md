@@ -6,7 +6,7 @@ excerpt: >-
   ソフトウェア BA には API コードは必要ありませんが、エンドポイント、ペイロード、検証、エラー コード、イベント、データ
   リネージュ、コントラクトを理解する必要があります。この記事では、BA が開発/データ/QA とより適切に連携できるようにするための統合リクエスト
   テンプレート、スケジュール例、チェックリストを提供します。
-featured_image: /images/blog/rest-api-data-validation-ba.png
+featured_image: /images/blog/rest-api-data-validation-ba.webp
 type: blog
 reading_time: 17
 view_count: 0

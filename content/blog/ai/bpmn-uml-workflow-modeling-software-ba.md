@@ -6,7 +6,7 @@ excerpt: >-
   BA không cần vẽ mọi loại diagram, nhưng cần biết khi nào dùng BPMN, activity
   diagram, sequence diagram, state diagram và domain model. Bài này hướng dẫn
   cách chọn sơ đồ, ví dụ đặt lịch và checklist review diagram trước handoff.
-featured_image: /images/blog/uml-bpmn-ai-assisted-flows.png
+featured_image: /images/blog/uml-bpmn-ai-assisted-flows.webp
 type: blog
 reading_time: 16
 view_count: 0

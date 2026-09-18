@@ -91,7 +91,7 @@ course:
 
 ## 1. Tại sao Bảo mật Dữ liệu Y Tế quan trọng?
 
-![Tổng quan HIPAA Technical Safeguards — 5 danh mục kiểm soát bảo mật kỹ thuật](/storage/uploads/2026/04/healthcare-hipaa-safeguards-overview.png)
+![Tổng quan HIPAA Technical Safeguards — 5 danh mục kiểm soát bảo mật kỹ thuật](/storage/uploads/2026/04/healthcare-hipaa-safeguards-overview.webp)
 
 Dữ liệu y tế là một trong những loại dữ liệu nhạy cảm nhất. Một bản ghi y tế (medical record) chứa thông tin cá nhân, lịch sử bệnh án, kết quả xét nghiệm, đơn thuốc, và thông tin bảo hiểm — tất cả đều có giá trị cao trên thị trường đen.
 
@@ -227,7 +227,7 @@ Khi xảy ra data breach liên quan đến PHI:
 
 FHIR định nghĩa các security components:
 
-![Các lớp bảo mật trong kiến trúc FHIR — từ Communication Security đến Consent Management](/storage/uploads/2026/04/healthcare-fhir-security-layers.png)
+![Các lớp bảo mật trong kiến trúc FHIR — từ Communication Security đến Consent Management](/storage/uploads/2026/04/healthcare-fhir-security-layers.webp)
 
 - **Communication Security**: HTTPS/TLS
 - **Authentication**: OAuth2, SMART on FHIR
@@ -284,7 +284,7 @@ Quy định về hồ sơ bệnh án điện tử:
 
 ### 6.1. NIST Cybersecurity Framework
 
-![Vòng đời NIST Cybersecurity Framework — 5 chức năng: Identify, Protect, Detect, Respond, Recover](/storage/uploads/2026/04/healthcare-nist-csf-framework.png)
+![Vòng đời NIST Cybersecurity Framework — 5 chức năng: Identify, Protect, Detect, Respond, Recover](/storage/uploads/2026/04/healthcare-nist-csf-framework.webp)
 
 - **IDENTIFY**: Asset Management, Risk Assessment
 - **PROTECT**: Access Control, Data Security, Training

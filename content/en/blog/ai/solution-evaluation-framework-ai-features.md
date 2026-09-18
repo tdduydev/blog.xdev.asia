@@ -4,7 +4,7 @@ title: "Solution Evaluation Framework for AI Features: What to Measure, When, an
 slug: solution-evaluation-framework-ai-features
 excerpt: >-
   Many teams launch AI features then don't know if they succeeded. This guide teaches BA to build evaluation framework before launch — define business KPIs + technical KPIs + experience KPIs, 30/60/90-day review schedule, and use metrics to decide next steps.
-featured_image: /images/blog/solution-evaluation-ai.png
+featured_image: /images/blog/solution-evaluation-ai.webp
 type: blog
 reading_time: 9
 view_count: 0

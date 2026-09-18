@@ -5,7 +5,7 @@ slug: xay-dung-postgresql-high-availability-cluster-voi-ansible
 excerpt: >-
   Chia sẻ kinh nghiệm triển khai và open-source giải pháp PostgreSQL HA cluster
   tự động hóa hoàn toàn
-featured_image: /images/blog/postgresql-ha-featured.png
+featured_image: /images/blog/postgresql-ha-featured.webp
 type: blog
 reading_time: 14
 view_count: 1

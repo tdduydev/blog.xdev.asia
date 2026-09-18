@@ -91,7 +91,7 @@ course:
 
 ## 1. MFA Strategy cho Môi trường Y Tế
 
-![Ma trận MFA cho nhân viên y tế — Passkeys, TOTP, Emergency Access](/storage/uploads/2026/04/healthcare-mfa-decision-matrix.png)
+![Ma trận MFA cho nhân viên y tế — Passkeys, TOTP, Emergency Access](/storage/uploads/2026/04/healthcare-mfa-decision-matrix.webp)
 
 ### 1.1. Thách thức MFA trong Bệnh viện
 

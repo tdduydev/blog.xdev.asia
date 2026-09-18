@@ -94,13 +94,13 @@ locale: en
 
 ## 1. Overview of Zero Trust Architecture
 
-![Zero Trust Architecture for healthcare systems — Micro-segmentation, OPA, Keycloak](/storage/uploads/2026/04/healthcare-zero-trust-architecture.png)
+![Zero Trust Architecture for healthcare systems — Micro-segmentation, OPA, Keycloak](/storage/uploads/2026/04/healthcare-zero-trust-architecture.webp)
 
 ### 1.1. Why does Healthcare need Zero Trust?
 
 The traditional security model based on **perimeter security** — "trusting everything inside the firewall" — is no longer suitable for modern healthcare systems. With the rise of telemedicine, IoT medical devices, cloud adoption, and remote access for physicians, **perimeters no longer clearly exist**.
 
-![Traditional Perimeter Security vs Zero Trust — security model comparison](/storage/uploads/2026/04/healthcare-zero-trust-vs-perimeter.png)
+![Traditional Perimeter Security vs Zero Trust — security model comparison](/storage/uploads/2026/04/healthcare-zero-trust-vs-perimeter.webp)
 
 **Problems with Perimeter Security:**
 
@@ -157,7 +157,7 @@ NIST Special Publication 800-207 defines **Zero Trust Architecture** (ZTA) as a 
 
 ### 2.1. Healthcare ZTA Overview
 
-![Zero Trust Architecture — Hospital System with PEP, Policy Engine, Micro-segmented Services](/storage/uploads/2026/04/healthcare-zero-trust-architecture.png)
+![Zero Trust Architecture — Hospital System with PEP, Policy Engine, Micro-segmented Services](/storage/uploads/2026/04/healthcare-zero-trust-architecture.webp)
 
 **Layers:**
 
@@ -839,7 +839,7 @@ public class DeviceTrustService {
 
 ### 6.1. OPA Architecture in Healthcare ZTA
 
-![OPA Policy Architecture — Bundle Server → OPA Server → Healthcare Services](/storage/uploads/2026/04/healthcare-opa-policy-engine.png)
+![OPA Policy Architecture — Bundle Server → OPA Server → Healthcare Services](/storage/uploads/2026/04/healthcare-opa-policy-engine.webp)
 
 **Components:**
 
@@ -1335,7 +1335,7 @@ data:
 
 ### 10.1. Data-Centric Zero Trust
 
-![Zero Trust Data Protection Layers — Classify, Encrypt, Control, Monitor](/storage/uploads/2026/04/healthcare-data-zero-trust-layers.png)
+![Zero Trust Data Protection Layers — Classify, Encrypt, Control, Monitor](/storage/uploads/2026/04/healthcare-data-zero-trust-layers.webp)
 
 **Layer 1: Classify Everything**
 

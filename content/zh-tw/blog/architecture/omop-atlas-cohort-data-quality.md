@@ -6,7 +6,7 @@ excerpt: >-
   ATLAS 是 OHDSI 官方的世代建構工具;Data Quality Dashboard 執行超過 3000 條品質規則;
   ACHILLES 為每個 CDM 做描述性 profile。本文示範 Broadsea 安裝、世代定義、DQD 解讀
   與結果處理。
-featured_image: /images/blog/omop-atlas-dqd-featured.png
+featured_image: /images/blog/omop-atlas-dqd-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -23,7 +23,7 @@ comments: []
 
 ## 1. OHDSI analytics 技術堆疊
 
-![1. OHDSI analytics 技術堆疊](/images/blog/diagrams/omop-atlas-cohort-data-quality-d01.png)
+![1. OHDSI analytics 技術堆疊](/images/blog/diagrams/omop-atlas-cohort-data-quality-d01.webp)
 
 全部都可透過 **Broadsea** 用 Docker compose 部署。
 
@@ -52,13 +52,13 @@ Broadsea 內服務:
 
 ### 3.1 主要功能
 
-![3.1 主要功能](/images/blog/diagrams/omop-atlas-cohort-data-quality-d02.png)
+![3.1 主要功能](/images/blog/diagrams/omop-atlas-cohort-data-quality-d02.webp)
 
 ### 3.2 建立世代的工作流程
 
 範例:「2026 年新診斷為第二型糖尿病並開始服用 Metformin 的病人」
 
-![3.2 建立世代的工作流程](/images/blog/diagrams/omop-atlas-cohort-data-quality-d03.png)
+![3.2 建立世代的工作流程](/images/blog/diagrams/omop-atlas-cohort-data-quality-d03.webp)
 
 ATLAS UI 透過點選拖放即可,無需 SQL → 輸出符合 OMOP 標準的 `cohort` 資料表。
 
@@ -156,7 +156,7 @@ viewDqDashboard("dqd_results/results.json")
 - `threshold`:可接受門檻
 - `pass/fail`
 
-![5.2 解讀 DQD](/images/blog/diagrams/omop-atlas-cohort-data-quality-d04.png)
+![5.2 解讀 DQD](/images/blog/diagrams/omop-atlas-cohort-data-quality-d04.webp)
 
 ### 5.3 處理模式
 
@@ -232,13 +232,13 @@ ATLAS 預設無認證 → **絕對不能**未保護地公開部署。設定方�
 
 ## 9. 多租戶模式
 
-![9. 多租戶模式](/images/blog/diagrams/omop-atlas-cohort-data-quality-d05.png)
+![9. 多租戶模式](/images/blog/diagrams/omop-atlas-cohort-data-quality-d05.webp)
 
 WebAPI 支援多 source — 研究者透過下拉選單切換 source。每使用者/每 source 可設定權限。
 
 ## 10. 越南的網絡部署
 
-![10. 越南的網絡部署](/images/blog/diagrams/omop-atlas-cohort-data-quality-d06.png)
+![10. 越南的網絡部署](/images/blog/diagrams/omop-atlas-cohort-data-quality-d06.webp)
 
 聯邦模式:資料留在醫院,只有彙總結果上傳。
 

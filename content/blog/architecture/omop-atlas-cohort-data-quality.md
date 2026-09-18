@@ -6,7 +6,7 @@ excerpt: >-
   ATLAS là cohort builder chính thức của OHDSI; Data Quality Dashboard chạy hơn
   3000 rule kiểm soát chất lượng; ACHILLES profile descriptive cho mỗi CDM. Bài
   viết hướng dẫn cài Broadsea, định nghĩa cohort, đọc DQD và xử lý kết quả.
-featured_image: /images/blog/omop-atlas-dqd-featured.png
+featured_image: /images/blog/omop-atlas-dqd-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -23,7 +23,7 @@ Có CDM rồi mới chỉ là điểm khởi đầu. Để khai thác giá trị
 
 ## 1. Stack analytics OHDSI
 
-![1. Stack analytics OHDSI](/images/blog/diagrams/omop-atlas-cohort-data-quality-d01.png)
+![1. Stack analytics OHDSI](/images/blog/diagrams/omop-atlas-cohort-data-quality-d01.webp)
 
 Tất cả chạy được trong Docker compose qua **Broadsea**.
 
@@ -52,13 +52,13 @@ Service trong Broadsea:
 
 ### 3.1 Tính năng chính
 
-![3.1 Tính năng chính](/images/blog/diagrams/omop-atlas-cohort-data-quality-d02.png)
+![3.1 Tính năng chính](/images/blog/diagrams/omop-atlas-cohort-data-quality-d02.webp)
 
 ### 3.2 Workflow tạo cohort
 
 Ví dụ: "Bệnh nhân Diabetes Type 2 mới được chẩn đoán năm 2026 và bắt đầu Metformin"
 
-![3.2 Workflow tạo cohort](/images/blog/diagrams/omop-atlas-cohort-data-quality-d03.png)
+![3.2 Workflow tạo cohort](/images/blog/diagrams/omop-atlas-cohort-data-quality-d03.webp)
 
 UI trong ATLAS giúp click drag không cần SQL → output ra `cohort` table chuẩn OMOP.
 
@@ -156,7 +156,7 @@ Mỗi check có:
 - `threshold`: ngưỡng chấp nhận
 - `pass/fail`
 
-![5.2 Đọc DQD](/images/blog/diagrams/omop-atlas-cohort-data-quality-d04.png)
+![5.2 Đọc DQD](/images/blog/diagrams/omop-atlas-cohort-data-quality-d04.webp)
 
 ### 5.3 Pattern xử lý
 
@@ -232,13 +232,13 @@ ATLAS mặc định không có auth → KHÔNG deploy public không che. Setup:
 
 ## 9. Multi-tenant pattern
 
-![9. Multi-tenant pattern](/images/blog/diagrams/omop-atlas-cohort-data-quality-d05.png)
+![9. Multi-tenant pattern](/images/blog/diagrams/omop-atlas-cohort-data-quality-d05.webp)
 
 WebAPI hỗ trợ multi-source — researcher chọn source qua dropdown. Permission per user/source.
 
 ## 10. Network deployment cho VN
 
-![10. Network deployment cho VN](/images/blog/diagrams/omop-atlas-cohort-data-quality-d06.png)
+![10. Network deployment cho VN](/images/blog/diagrams/omop-atlas-cohort-data-quality-d06.webp)
 
 Pattern federated: dữ liệu ở lại BV, chỉ aggregate result đi lên.
 

@@ -117,7 +117,7 @@ Imagine you want to recognize handwritten digits (28×28 pixel image):
 
 **Normal life example:** You look at the photo with a magnifying glass. Small magnifying glass (3×3 cm), you slide the glass from the upper left corner to the lower right corner. At each location, you record **a number** summarizing that area (light/dark, whether there are edges, whether there are corners...). Result → a "feature map".
 
-![Illustration of Convolution: the filter slides over the image to create a feature map](/storage/uploads/2026/03/cnn-convolution-visual.png)
+![Illustration of Convolution: the filter slides over the image to create a feature map](/storage/uploads/2026/03/cnn-convolution-visual.webp)
 
 ```
 Input image (6×6):     Filter (3×3):     Feature map (4×4):
@@ -336,7 +336,7 @@ print(f"Sau 50 bước: {0.9**50:.6f} → gần như = 0!")
   - **Added** important new information (input gate) — "write new page"  
   - **Read** information needed (output gate) — "open page to read"
 
-![Compare RNN vs LSTM architecture with cell state and 3 gates](/storage/uploads/2026/03/rnn-lstm-comparison.png)
+![Compare RNN vs LSTM architecture with cell state and 3 gates](/storage/uploads/2026/03/rnn-lstm-comparison.webp)
 
 ### 4.2 Three gates of LSTM
 

@@ -3,7 +3,7 @@ id: 01970970-c1a4-7001-b001-cc6388624a9f
 title: 'Claude Opus 4.7：Anthropic旗艦AI詳細評測——程式設計、視覺與代理AI的重大躍進'
 slug: claude-opus-4-7-detailed-review
 excerpt: Anthropic於2026年4月16日正式發布Claude Opus 4.7——最新旗艦AI模型，具備卓越的程式設計能力、3倍以上的視覺解析度、全新的xhigh努力等級，以及頂尖的代理AI表現。本文涵蓋基準測試、真實使用回饋、定價，以及從Opus 4.6的遷移指南。
-featured_image: /images/blog/claude-opus-4-7-featured.png
+featured_image: /images/blog/claude-opus-4-7-featured.webp
 type: blog
 reading_time: 20
 view_count: 0
@@ -25,7 +25,7 @@ comments: []
 
 ## 1. Claude Opus 4.7是什麼？
 
-<img src="/images/blog/claude-opus-4-7-featured.png" alt="介紹Claude Opus 4.7" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-featured.webp" alt="介紹Claude Opus 4.7" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Claude Opus 4.7是Claude 4系列中最新的**旗艦**模型，Anthropic將其定位為以下場景的最佳選擇：
 
@@ -79,7 +79,7 @@ Anthropic內部測試顯示，Opus 4.7在以下領域均有顯著提升：
 
 ### 3.1 視覺解析度提升超過3倍
 
-<img src="/images/blog/claude-opus-4-7-vision-upgrade.png" alt="Claude Opus 4.7視覺升級——解析度提升3倍以上" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-vision-upgrade.webp" alt="Claude Opus 4.7視覺升級——解析度提升3倍以上" style="width:100%;border-radius:8px;margin:16px 0" />
 
 這是最重大的升級之一。Opus 4.7能處理長邊最長**2,576像素**（約375萬像素）的圖像——是前代Claude模型的**3倍以上**。
 
@@ -110,7 +110,7 @@ Opus 4.7更有效地運用**以檔案系統為基礎的記憶**。模型能夠�
 
 ### 3.4 全新努力等級：`xhigh`
 
-<img src="/images/blog/claude-opus-4-7-effort-levels.png" alt="Claude Opus 4.7努力等級——超高xhigh" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-effort-levels.webp" alt="Claude Opus 4.7努力等級——超高xhigh" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Opus 4.7引入了**`xhigh`**（超高）努力等級——介於`high`與`max`之間。這能更精細地控制以下三者之間的平衡：
 - 推理深度
@@ -123,7 +123,7 @@ Opus 4.7引入了**`xhigh`**（超高）努力等級——介於`high`與`max`�
 
 ## 4. 真實使用回饋：各公司怎麼說
 
-<img src="/images/blog/claude-opus-4-7-agentic-workflow.png" alt="Claude Opus 4.7代理人工作流程——自主AI" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-agentic-workflow.webp" alt="Claude Opus 4.7代理人工作流程——自主AI" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Anthropic在早期存取階段收集了超過**20家主要科技公司**的使用回饋。以下是重點摘要：
 
@@ -262,7 +262,7 @@ Opus 4.7在高努力等級下「思考」更多，尤其是在代理人設定中
 
 ## 9. 與競爭對手比較
 
-<img src="/images/blog/claude-opus-4-7-coding-benchmark.png" alt="Claude Opus 4.7程式設計基準測試 vs 競爭對手" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-coding-benchmark.webp" alt="Claude Opus 4.7程式設計基準測試 vs 競爭對手" style="width:100%;border-radius:8px;margin:16px 0" />
 
 | 模型 | 優勢 | 相對弱點 |
 |------|------|---------|

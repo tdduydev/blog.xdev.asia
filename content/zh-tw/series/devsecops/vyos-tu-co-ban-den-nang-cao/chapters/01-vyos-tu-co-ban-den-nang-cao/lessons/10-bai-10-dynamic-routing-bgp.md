@@ -15,7 +15,7 @@ course:
   title: VyOS 從入門到進階
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-10-bgp.png" alt="Dynamic Routing - BGP" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-10-bgp.webp" alt="Dynamic Routing - BGP" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS 上的 BGP 介紹</h2>
 <p>本課程將說明如何在 VyOS 1.4.x/1.5 rolling release 上設定 <strong>BGP</strong>（Border Gateway Protocol）。BGP 是大型網路、ISP 與多供應商互聯的標準動態路由協定。</p>

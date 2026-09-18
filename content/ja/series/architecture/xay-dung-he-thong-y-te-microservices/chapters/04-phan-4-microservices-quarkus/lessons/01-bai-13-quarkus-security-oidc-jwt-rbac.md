@@ -89,7 +89,7 @@ locale: ja
 
 ## 1. Quarkus セキュリティ アーキテクチャの概要
 
-![Quarkus Security Stack — OIDC, JWT Propagation, RBAC cho Healthcare Microservices](/storage/uploads/2026/04/healthcare-quarkus-security-stack.png)
+![Quarkus Security Stack — OIDC, JWT Propagation, RBAC cho Healthcare Microservices](/storage/uploads/2026/04/healthcare-quarkus-security-stack.webp)
 
 Quarkus は、認証、認可、アイデンティティ管理をサポートする多くの拡張機能を備えた統合された **セキュリティ フレームワーク** を提供します。ヘルスケア マイクロサービス システムでは、セキュリティは追加機能ではなく、すべてのリクエストの**基礎**です。
 

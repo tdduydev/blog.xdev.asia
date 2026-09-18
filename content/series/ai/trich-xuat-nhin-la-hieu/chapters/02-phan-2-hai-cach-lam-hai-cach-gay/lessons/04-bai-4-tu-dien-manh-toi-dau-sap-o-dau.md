@@ -100,7 +100,7 @@ cd ner-nhin-la-hieu
 python3 scratch/ep04_tu_dien.py
 ```
 
-![Kết quả chạy ep04_tu_dien](/images/blog/trich-xuat-nhin-la-hieu/ep04_tu_dien.png)
+![Kết quả chạy ep04_tu_dien](/images/blog/trich-xuat-nhin-la-hieu/ep04_tu_dien.webp)
 
 Toàn bộ số của bảy bài: `python3 measure.py`. Khẳng định số không đổi: `python3 run_tests.py`.
 

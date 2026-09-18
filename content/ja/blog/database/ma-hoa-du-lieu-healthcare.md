@@ -5,7 +5,7 @@ slug: ma-hoa-du-lieu-healthcare
 excerpt: >-
   暗号化されたデータを検索するにはどうすればよいですか?この記事では、100,000 件を超える患者記録を保護するための Spring Boot +
   PostgreSQL を使用した 3 つの実践的なアプローチと実装を紹介します。
-featured_image: /images/blog/ma-hoa-du-lieu-healthcare-featured.png
+featured_image: /images/blog/ma-hoa-du-lieu-healthcare-featured.webp
 type: blog
 reading_time: 15
 view_count: 2

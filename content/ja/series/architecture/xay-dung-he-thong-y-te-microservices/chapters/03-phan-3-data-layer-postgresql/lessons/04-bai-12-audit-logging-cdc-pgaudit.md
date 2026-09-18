@@ -90,7 +90,7 @@ locale: ja
 
 ## 1. 医療向け監査ログの概要
 
-![監査ログ アーキテクチャ — pgAudit、Debezium CDC、Fluent Bit、ELK](/storage/uploads/2026/04/healthcare-audit-logging-stack.png)
+![監査ログ アーキテクチャ — pgAudit、Debezium CDC、Fluent Bit、ELK](/storage/uploads/2026/04/healthcare-audit-logging-stack.webp)
 
 HIPAA セキュリティ ルール §164.312(b) では、ePHI を含むシステムにおける **アクティビティを記録および検査するためのハードウェア、ソフトウェア、および/または手順メカニズム**が必要です。監査ログはコンプライアンス要件であるだけでなく、**侵入、フォレンジック、アカウンタビリティ**を検出するためのツールでもあります。
 
@@ -116,7 +116,7 @@ HIPAA セキュリティ ルール §164.312(b) では、ePHI を含むシステ
 
 ＃＃＃１．２．監査アーキテクチャ
 
-![Audit Stack — Quarkus + pgAudit + Debezium CDC → FluentBit → OpenSearch/S3/PostgreSQL](/storage/uploads/2026/04/healthcare-audit-architecture.png)
+![Audit Stack — Quarkus + pgAudit + Debezium CDC → FluentBit → OpenSearch/S3/PostgreSQL](/storage/uploads/2026/04/healthcare-audit-architecture.webp)
 
 **監査情報源:**
 
@@ -577,7 +577,7 @@ $$ LANGUAGE plpgsql SECURITY DEFINER;
 
 ＃＃＃５．１． CDC アーキテクチャ
 
-![CDC Pipeline — PostgreSQL WAL → Debezium → Kafka → OpenSearch/S3/KSQL](/storage/uploads/2026/04/healthcare-cdc-pipeline.png)
+![CDC Pipeline — PostgreSQL WAL → Debezium → Kafka → OpenSearch/S3/KSQL](/storage/uploads/2026/04/healthcare-cdc-pipeline.webp)
 
 **CDC フロー:**
 

@@ -20,13 +20,13 @@ locale: zh-tw
 
 ## 1. 醫療保健安全測試概述
 
-![Penetration Testing Lifecycle — Planning, Discovery, Attack, Reporting, Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.png)
+![Penetration Testing Lifecycle — Planning, Discovery, Attack, Reporting, Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.webp)
 
 ### 1.1。為什麼 Pentest 醫療保健系統與眾不同？
 
 與傳統 IT 系統相比，醫療系統的安全測試需要特殊的方法。醫療數據在暗網上具有最高的價值——比信用卡高 10-50 倍——因為它包含不可變的信息，例如病史、遺傳密碼、社會保險號碼。
 
-![Healthcare Security Testing — Unique Challenges: Regulatory, Data Sensitivity, System Availability](/storage/uploads/2026/04/healthcare-pentest-constraints.png)
+![Healthcare Security Testing — Unique Challenges: Regulatory, Data Sensitivity, System Availability](/storage/uploads/2026/04/healthcare-pentest-constraints.webp)
 
 |挑戰|詳情 |
 |----------|--------|
@@ -38,7 +38,7 @@ locale: zh-tw
 
 ### 1.2。醫療保健安全測試框架
 
-![Healthcare Security Testing Lifecycle — 5 phases: Planning → Discovery → Attack → Reporting → Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.png)
+![Healthcare Security Testing Lifecycle — 5 phases: Planning → Discovery → Attack → Reporting → Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.webp)
 
 **5 個階段：**
 

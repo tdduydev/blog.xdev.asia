@@ -92,7 +92,7 @@ locale: ja
 マイクロサービスを本番環境にデプロイするのは最もリスクが高い時期です。バグが発生した場合の**爆発範囲**は展開戦略によって決まります。影響を受けるのはユーザーの 100% ですか、それとも 5% だけですか?この記事では、戦略を比較し、適切な戦略を選択するためのガイダンスを提供します。
 
 
-![Deployment Strategies — Blue-Green, Canary, Rolling](/storage/uploads/2026/04/mfe-ms-diagram-bai25-deployment-strategies.png)
+![Deployment Strategies — Blue-Green, Canary, Rolling](/storage/uploads/2026/04/mfe-ms-diagram-bai25-deployment-strategies.webp)
 
 ---
 

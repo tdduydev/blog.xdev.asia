@@ -7,7 +7,7 @@ excerpt: >-
   TypeScript monorepo supporting Multi-LLM, RAG Pipeline, Workflow Engine, 13
   Domain Packs, Multi-tenant RBAC, MCP Protocol and 8 Chat Channels. From
   Dual-Database architecture to deploying Docker production.
-featured_image: /images/blog/xclaw-ai-agent-featured.png
+featured_image: /images/blog/xclaw-ai-agent-featured.webp
 type: blog
 reading_time: 45
 view_count: 0

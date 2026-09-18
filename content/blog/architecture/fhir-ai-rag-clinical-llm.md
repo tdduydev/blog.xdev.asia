@@ -6,7 +6,7 @@ excerpt: >-
   AI y khoa cần data sạch, có cấu trúc và quản lý consent. Bài viết hướng dẫn pipeline
   từ FHIR Bulk Export sang lakehouse, embedding clinical notes vào vector DB, RAG
   cho LLM y khoa, tích hợp output qua CDS Hooks — kèm pattern privacy/audit.
-featured_image: /images/blog/fhir-ai-rag-featured.png
+featured_image: /images/blog/fhir-ai-rag-featured.webp
 type: blog
 reading_time: 17
 view_count: 0

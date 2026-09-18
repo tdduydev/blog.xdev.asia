@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai5-vertex-training.png" alt="Vertex AI Custom Training" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai5-vertex-training.webp" alt="Vertex AI Custom Training" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Vertex AI自訂訓練：Training Jobs、AutoML、分散式訓練與最佳化</em></p>
 </div>
 

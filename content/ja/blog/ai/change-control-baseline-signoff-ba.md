@@ -5,7 +5,7 @@ slug: change-control-baseline-signoff-ba
 excerpt: >-
   要件の変更は正常ですが、制御されていない変更はスプリント、スコープ、テスト、リリースを破壊します。この記事では、BA
   がアジャイル環境と従来のプロジェクトの両方でベースライン、変更リクエスト、影響分析、サインオフ、トレーサビリティを管理する方法を説明します。
-featured_image: /images/blog/ba-planning-monitoring-ai-projects.png
+featured_image: /images/blog/ba-planning-monitoring-ai-projects.webp
 type: blog
 reading_time: 16
 view_count: 0

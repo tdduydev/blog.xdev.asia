@@ -6,7 +6,7 @@ excerpt: >-
   Phòng thủ tốt cần ba thứ: log có cấu trúc, detection rule map theo ATT&CK, và
   IR runbook đã diễn tập. Bài viết tổng hợp cách build chương trình
   detection-as-code và post-mortem blameless cho team DevSecOps.
-featured_image: /images/blog/detection-ir-devsecops-featured.png
+featured_image: /images/blog/detection-ir-devsecops-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   Backlog refinement tốn nhiều giờ BA nhất nhưng lại là nơi AI có thể hỗ trợ nhiều
   nhất: duplicate detection, story splitting, AC suggestion, và dependency mapping.
   Hướng dẫn thực tế integrate AI vào refinement workflow mà không mất control.
-featured_image: /images/blog/backlog-refinement-ai.png
+featured_image: /images/blog/backlog-refinement-ai.webp
 type: blog
 reading_time: 11
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   Which Common Data Model fits your organization? This article compares OMOP,
   FHIR, i2b2, PCORnet, and Sentinel across schema, vocabulary, governance,
   tooling, and use cases — and provides a decision tree to help you pick.
-featured_image: /images/blog/omop-vs-other-cdm-featured.png
+featured_image: /images/blog/omop-vs-other-cdm-featured.webp
 type: blog
 reading_time: 13
 view_count: 0
@@ -23,7 +23,7 @@ comments: []
 
 ## 1. Map of healthcare CDMs
 
-![Map of healthcare CDMs](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d01.png)
+![Map of healthcare CDMs](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d01.webp)
 
 ## 2. Comparison table
 
@@ -45,7 +45,7 @@ comments: []
 
 ### 3.1 Schema philosophy
 
-![Schema philosophy](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d02.png)
+![Schema philosophy](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d02.webp)
 
 OMOP = a normalized relational DB → optimized for SQL analytics.
 FHIR = document-oriented Resources → optimized for API exchange.
@@ -60,23 +60,23 @@ OMOP **requires** every code to be mapped to a Standard Concept (e.g. ICD-10 →
 
 OMOP lets you run a study without moving data: the R study package runs locally at each partner and only aggregate results are shared. This fits Vietnam very well given **the Personal Data Protection Law 2025** (effective 2026-01-01, replacing Decree 13/2023/NĐ-CP), which requires sensitive data to be stored in-country and demands explicit consent for each new processing purpose.
 
-![Federated vs. centralized](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d03.png)
+![Federated vs. centralized](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d03.webp)
 
 ## 4. Decision tree
 
-![Decision tree](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d04.png)
+![Decision tree](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d04.webp)
 
 ## 5. Hybrid pattern: FHIR + OMOP
 
 This is the most common 2026 pattern:
 
-![Hybrid pattern: FHIR + OMOP](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d05.png)
+![Hybrid pattern: FHIR + OMOP](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d05.webp)
 
 → Operational EHRs use FHIR (real-time, web/mobile-friendly), while the research data lake uses OMOP (federated analytics). Read the [FHIR ↔ OMOP bridge article](/blog/omop-fhir-mapping-bridge).
 
 ## 6. Why OMOP wins for RWE
 
-![Why OMOP wins for RWE](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d06.png)
+![Why OMOP wins for RWE](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d06.webp)
 
 For comparison: i2b2 has a smaller community and fewer updates; PCORnet is more US-centric; Sentinel is FDA-only; CDISC is for trial submissions.
 

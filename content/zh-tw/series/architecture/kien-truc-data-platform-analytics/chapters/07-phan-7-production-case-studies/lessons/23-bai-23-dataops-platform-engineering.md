@@ -84,7 +84,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 23 課：資料營運與平台工程](/storage/uploads/2026/03/dp-bai-23-diagram.png)
+![第 23 課：資料營運與平台工程](/storage/uploads/2026/03/dp-bai-23-diagram.webp)
 
 ## 簡介
 

@@ -7,7 +7,7 @@ excerpt: >-
   bác sĩ chuyên khoa, NLP phân tích EHR, drug discovery rút ngắn từ 12 năm xuống
   vài tháng, đến genomics cá nhân hóa điều trị. Kèm case study thực tế, thách thức
   kỹ thuật, vấn đề đạo đức và lộ trình triển khai tại Việt Nam.
-featured_image: /images/blog/ai-trong-y-te-featured.png
+featured_image: /images/blog/ai-trong-y-te-featured.webp
 type: blog
 reading_time: 35
 view_count: 0

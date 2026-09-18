@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai12-network-debug.png" alt="ネットワークトラブルシューティングレイヤー — レイヤーごとのデバッグアプローチ" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai12-network-debug.webp" alt="ネットワークトラブルシューティングレイヤー — レイヤーごとのデバッグアプローチ" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="network-debug">1. ネットワークトラブルシューティングワークフロー</h2>
 

@@ -92,7 +92,7 @@ locale: zh-tw
 微服務之間如何通訊決定了整個系統的**耦合性、可靠性和性能**。本文分析了通訊模式並指導如何為每個用例選擇正確的模式。
 
 
-![服務間通訊－同步、非同步和事件流](/storage/uploads/2026/04/mfe-ms-diagram-bai6-communication-patterns.png)
+![服務間通訊－同步、非同步和事件流](/storage/uploads/2026/04/mfe-ms-diagram-bai6-communication-patterns.webp)
 
 ---
 

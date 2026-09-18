@@ -4,7 +4,7 @@ title: "BA のための AI リテラシー：コードなしで理解する LLM�
 slug: ai-literacy-for-ba-llm-rag-hallucination-guardrails
 excerpt: >-
   BA は AI をコーディングする必要はありませんが、正確な要件を書き、技術チームと効果的に連携するために十分な理解が必要です。LLM、RAG、ハルシネーション、信頼スコア、ガードレールをビジネス言語で解説 — 実際の事例付きです。
-featured_image: /images/blog/ai-literacy-ba.png
+featured_image: /images/blog/ai-literacy-ba.webp
 type: blog
 reading_time: 15
 view_count: 0

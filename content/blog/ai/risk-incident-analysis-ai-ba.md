@@ -6,7 +6,7 @@ excerpt: >-
   AI feature có risk profile khác hoàn toàn với feature thường: model drift, data
   poisoning, hallucination cascade, và bias amplification. BA cần Risk Register
   chuẩn, incident response plan, và post-mortem template riêng cho AI incidents.
-featured_image: /images/blog/risk-incident-analysis.png
+featured_image: /images/blog/risk-incident-analysis.webp
 type: blog
 reading_time: 13
 view_count: 0

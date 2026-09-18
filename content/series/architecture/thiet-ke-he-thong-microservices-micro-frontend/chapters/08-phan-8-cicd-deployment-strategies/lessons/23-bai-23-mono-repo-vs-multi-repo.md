@@ -90,7 +90,7 @@ course:
 Cách tổ chức source code quyết định developer experience, CI/CD complexity, và team collaboration. Bài này so sánh Mono-Repo vs Multi-Repo và hướng dẫn chọn phù hợp.
 
 
-![Monorepo vs Multi-repo — so sánh chiến lược quản lý code](/storage/uploads/2026/04/mfe-ms-diagram-bai23-monorepo-vs-multirepo.png)
+![Monorepo vs Multi-repo — so sánh chiến lược quản lý code](/storage/uploads/2026/04/mfe-ms-diagram-bai23-monorepo-vs-multirepo.webp)
 
 ---
 

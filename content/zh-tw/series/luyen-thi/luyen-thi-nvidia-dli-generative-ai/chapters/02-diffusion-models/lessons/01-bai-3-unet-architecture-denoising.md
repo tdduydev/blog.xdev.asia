@@ -26,7 +26,7 @@ course:
 
 <blockquote><p><strong>考試提示：</strong>在評估中，你需要從零實作U-Net。理解每一層中張量維度是關鍵。NVIDIA DLI要求你撰寫可運行的程式碼，而不僅僅是理解理論。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai3-unet-architecture.png" alt="U-Net Architecture — Encoder-Decoder with Skip Connections for Image Denoising" loading="lazy" /><figcaption>U-Net架構——用於影像去噪的編碼器-解碼器與跳躍連接</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai3-unet-architecture.webp" alt="U-Net Architecture — Encoder-Decoder with Skip Connections for Image Denoising" loading="lazy" /><figcaption>U-Net架構——用於影像去噪的編碼器-解碼器與跳躍連接</figcaption></figure>
 
 <h2 id="unet-architecture">2. U-Net架構：編碼器-解碼器與跳躍連接</h2>
 

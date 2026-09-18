@@ -6,7 +6,7 @@ excerpt: >-
   xz、npmタイポスクワット、ビルドポイズニングを経て、サプライチェーン攻撃は最も一般的な
   攻撃ベクトルになりました。SLSA + SBOM + Sigstoreは、アーティファクトがどこから、
   何を使い、誰によってビルドされたかを証明するためのオープンスタンダードな三本柱です。
-featured_image: /images/blog/supply-chain-slsa-sigstore-featured.png
+featured_image: /images/blog/supply-chain-slsa-sigstore-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   4 khái niệm cốt lõi của FHIR mà bạn phải nắm chắc trước khi làm bất cứ thứ gì
   khác. Bài viết phân tích anatomy của Resource, các datatype quan trọng,
   cách Reference liên kết, và 4 loại Bundle (searchset/transaction/document/message).
-featured_image: /images/blog/fhir-core-concepts-featured.png
+featured_image: /images/blog/fhir-core-concepts-featured.webp
 type: blog
 reading_time: 18
 view_count: 0

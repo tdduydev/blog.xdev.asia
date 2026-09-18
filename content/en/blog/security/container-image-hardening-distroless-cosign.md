@@ -6,7 +6,7 @@ excerpt: >-
   A good production image is small, non-root, has no shell, is scanned and is
   signed. This article covers Docker/OCI image hardening techniques together
   with a Cosign keyless signing workflow using GitHub OIDC.
-featured_image: /images/blog/container-hardening-cosign-featured.png
+featured_image: /images/blog/container-hardening-cosign-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

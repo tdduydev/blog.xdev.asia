@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. MFA 醫療環境策略
 
-![醫療保健工作者的 MFA 矩陣 — 密鑰、TOTP、緊急訪問](/storage/uploads/2026/04/healthcare-mfa-decision-matrix.png)
+![醫療保健工作者的 MFA 矩陣 — 密鑰、TOTP、緊急訪問](/storage/uploads/2026/04/healthcare-mfa-decision-matrix.webp)
 
 ### 1.1。醫院中的 MFA 挑戰
 

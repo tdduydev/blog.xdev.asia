@@ -91,7 +91,7 @@ course:
 
 ## 1. Tổng quan HIPAA Security Rule §164.312
 
-![HIPAA Security Rule — Administrative, Physical, Technical Safeguards](/storage/uploads/2026/04/healthcare-hipaa-security-rule.png)
+![HIPAA Security Rule — Administrative, Physical, Technical Safeguards](/storage/uploads/2026/04/healthcare-hipaa-security-rule.webp)
 
 HIPAA Security Rule yêu cầu các tổ chức xử lý ePHI (electronic Protected Health Information) phải triển khai **Technical Safeguards** — các biện pháp kỹ thuật bảo vệ dữ liệu y tế điện tử. Đây là phần quan trọng nhất đối với developers và engineers.
 

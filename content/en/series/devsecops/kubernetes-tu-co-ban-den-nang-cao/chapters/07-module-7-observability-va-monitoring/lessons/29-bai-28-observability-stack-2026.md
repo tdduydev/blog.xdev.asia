@@ -20,7 +20,7 @@ locale: en
 
 <p>This lesson will provide a comprehensive introduction to the recommended Observability Stack for 2026, including the three observability pillars, the OpenTelemetry standard, the contrast between the PLG and EFK stacks, and Grafana Alloy's role as a unified collector.</p>
 
-<img src="/storage/uploads/2026/03/k8s-observability-stack-2026.png" alt="Kubernetes Observability Stack 2026 - Prometheus, Loki, Tempo, Grafana, OpenTelemetry" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-observability-stack-2026.webp" alt="Kubernetes Observability Stack 2026 - Prometheus, Loki, Tempo, Grafana, OpenTelemetry" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>The Three Pillars of Observability__HTMLTAG_10___
 

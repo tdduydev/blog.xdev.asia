@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a010-000000000001
 title: BA 利害關係人研討會：如何準備、促進並最終確定決策
 slug: stakeholder-workshop-facilitation-ba
 excerpt: 一個好的研討會不是一個擁擠的會議。本文指導 BA 準備目標、議程、問題、促進技巧、解決衝突以及在研討會結束後確定行動項目。
-featured_image: /images/blog/elicitation-ai-notes-ba.png
+featured_image: /images/blog/elicitation-ai-notes-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

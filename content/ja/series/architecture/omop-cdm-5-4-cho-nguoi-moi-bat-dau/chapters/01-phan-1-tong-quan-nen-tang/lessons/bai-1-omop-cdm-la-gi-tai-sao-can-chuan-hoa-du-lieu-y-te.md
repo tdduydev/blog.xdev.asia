@@ -46,7 +46,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![医療データの断片化の問題とOMOP CDMの標準化への解決策](/storage/uploads/2026/04/omop-cdm-bai1-data-fragmentation.png)
+![医療データの断片化の問題とOMOP CDMの標準化への解決策](/storage/uploads/2026/04/omop-cdm-bai1-data-fragmentation.webp)
 
 ## はじめに
 

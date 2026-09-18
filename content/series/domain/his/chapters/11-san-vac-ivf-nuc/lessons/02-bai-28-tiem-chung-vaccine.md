@@ -7,7 +7,7 @@ description: >-
   hạn — tủ lạnh, ghi nhận phản ứng sau tiêm, đẩy lên hệ thống TCQG.
 duration_minutes: 40
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-28-tiem-chung-vaccine-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-28-tiem-chung-vaccine-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 11: Chuyên khoa đặc thù"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Tiêm chủng & sổ tiêm điện tử](/storage/uploads/2026/05/his/bai-28-tiem-chung-vaccine-banner.png)
+![Tiêm chủng & sổ tiêm điện tử](/storage/uploads/2026/05/his/bai-28-tiem-chung-vaccine-banner.webp)
 
 ## Đối tượng
 
-![Tiêm vaccine và đẩy lên sổ tiêm chủng quốc gia](/storage/uploads/2026/05/his/bai-28-tiem-chung-vaccine-workflow.png)
+![Tiêm vaccine và đẩy lên sổ tiêm chủng quốc gia](/storage/uploads/2026/05/his/bai-28-tiem-chung-vaccine-workflow.webp)
 
 
 ## Mục tiêu bài học

@@ -5,7 +5,7 @@ slug: cai-dat-kvm-tren-ubuntu-24-04
 excerpt: >-
   有關如何使用 Cockpit 或 Kimchi Web 管理介面在 Ubuntu 24.04 LTS 上安裝
   KVM（基於核心的虛擬機器）的詳細說明。了解如何設定完整的虛擬化環境、配置網橋以及輕鬆建立您的第一台虛擬機器。
-featured_image: /images/blog/kvm-ubuntu-featured.png
+featured_image: /images/blog/kvm-ubuntu-featured.webp
 type: blog
 reading_time: 9
 view_count: 2

@@ -25,7 +25,7 @@ course:
 
 <blockquote><p><strong>考試提示：</strong> NVIDIA DLI 評估要求您直接撰寫和除錯 PyTorch 程式碼。確保您能在不查閱文件的情況下撰寫 <strong>training loop</strong>、<strong>nn.Module</strong> 以及執行 <strong>tensor</strong> 操作。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai1-neural-network-architecture.png" alt="Deep Neural Network Architecture — Input Layer, Hidden Layers, Output Layer, Backpropagation" loading="lazy" /><figcaption>深度神經網路架構 — 輸入層、隱藏層、輸出層、反向傳播</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai1-neural-network-architecture.webp" alt="Deep Neural Network Architecture — Input Layer, Hidden Layers, Output Layer, Backpropagation" loading="lazy" /><figcaption>深度神經網路架構 — 輸入層、隱藏層、輸出層、反向傳播</figcaption></figure>
 
 <h2 id="pytorch-tensors-autograd">2. PyTorch Tensors 與 Autograd</h2>
 

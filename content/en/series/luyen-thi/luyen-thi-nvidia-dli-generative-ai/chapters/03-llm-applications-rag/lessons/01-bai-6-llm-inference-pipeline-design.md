@@ -27,7 +27,7 @@ course:
 
 <blockquote><p><strong>Exam tip:</strong> The NVIDIA DLI exam frequently asks about inference parameters (temperature, top-k, top-p) and when to use NIM vs other frameworks. Make sure you know the comparison table at the end of this lesson.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai6-llm-inference-pipeline.png" alt="LLM Inference Pipeline — Prompt Template, NIM, LCEL Chain, Gradio UI" loading="lazy" /><figcaption>LLM Inference Pipeline — Prompt Template, NIM, LCEL Chain, Gradio UI</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai6-llm-inference-pipeline.webp" alt="LLM Inference Pipeline — Prompt Template, NIM, LCEL Chain, Gradio UI" loading="lazy" /><figcaption>LLM Inference Pipeline — Prompt Template, NIM, LCEL Chain, Gradio UI</figcaption></figure>
 
 <h2 id="2-llm-inference-fundamentals">2. LLM Inference Fundamentals</h2>
 

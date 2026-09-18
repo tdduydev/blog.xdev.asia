@@ -127,7 +127,7 @@ Track by day and by release to detect drift quickly.
 
 Eval framework tests and golden set runner:
 
-![Eval Framework](/images/blog/gemma4-series-demo/07-eval-framework.png)
+![Eval Framework](/images/blog/gemma4-series-demo/07-eval-framework.webp)
 
 > Source code: [06-eval-observability](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/06-eval-observability)
 

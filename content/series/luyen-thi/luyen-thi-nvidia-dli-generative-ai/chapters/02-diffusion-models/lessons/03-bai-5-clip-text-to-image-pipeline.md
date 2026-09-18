@@ -50,7 +50,7 @@ Roadmap: Class Label → Text Prompt Conditioning
   └──────────────────────────────────────────────────────────┘
 </code></pre>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai5-clip-text-to-image.png" alt="CLIP và Text-to-Image Pipeline — Text Encoder, Cross-Attention, U-Net Denoiser" loading="lazy" /><figcaption>CLIP và Text-to-Image Pipeline — Text Encoder, Cross-Attention, U-Net Denoiser</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai5-clip-text-to-image.webp" alt="CLIP và Text-to-Image Pipeline — Text Encoder, Cross-Attention, U-Net Denoiser" loading="lazy" /><figcaption>CLIP và Text-to-Image Pipeline — Text Encoder, Cross-Attention, U-Net Denoiser</figcaption></figure>
 
 <h2 id="clip-architecture">2. CLIP — Contrastive Language-Image Pretraining</h2>
 

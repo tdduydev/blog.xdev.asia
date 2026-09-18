@@ -3,7 +3,7 @@ id: 019c9617-fd38-703b-90ac-23190c3f1a08
 title: PostgreSQL のバックアップと復元の総合ガイド
 slug: huong-dan-toan-dien-ve-backup-va-restore-postgresql
 excerpt: この記事は、PostgreSQL のバックアップと復元の基本的な方法から高度な方法まで、実践的なベスト プラクティスを習得するのに役立ちます。
-featured_image: /images/blog/postgresql-backup-featured.png
+featured_image: /images/blog/postgresql-backup-featured.webp
 type: blog
 reading_time: 13
 view_count: 0

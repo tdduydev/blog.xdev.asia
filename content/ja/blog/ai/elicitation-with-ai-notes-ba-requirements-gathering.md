@@ -4,7 +4,7 @@ title: "AIとのエリシテーション：BA がより速く要件を収集し�
 slug: elicitation-with-ai-notes-ba-requirements-gathering
 excerpt: >-
   従来のエリシテーション技法は、ノート取得と統合に多くの時間を消費します。このガイドは、BA が AI を使用してインタビューを自動的に要約し、洞察を自動的にクラスタリングし、要件ギャップを検出し、アクション項目を作成する方法を教えます。処理時間の 60% を節約しながら品質を維持します。
-featured_image: /images/blog/elicitation-ai-notes-ba.png
+featured_image: /images/blog/elicitation-ai-notes-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

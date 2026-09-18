@@ -87,7 +87,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Lesson 20: Multi-region Deployment & Data Residency](/storage/uploads/2026/03/saas-bai-20-diagram.png)
+![Lesson 20: Multi-region Deployment & Data Residency](/storage/uploads/2026/03/saas-bai-20-diagram.webp)
 
 ## Introduction
 

@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai7-deployment.png" alt="Vertex AI Model Deployment" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai7-deployment.webp" alt="Vertex AI Model Deployment" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Vertex AI Deployment: Online Prediction, Batch Prediction, traffic splitting, and edge deployment</em></p>
 </div>
 

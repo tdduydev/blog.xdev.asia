@@ -7,7 +7,7 @@ excerpt: >-
   environments with minimal downtime. Includes pg_upgrade, logical replication,
   rollback plan, and updated best practices for PostgreSQL 18 with Async I/O,
   Statistics Preservation, and new pg_upgrade --swap mode.
-featured_image: /images/blog/postgresql-upgrade-featured.png
+featured_image: /images/blog/postgresql-upgrade-featured.webp
 type: blog
 reading_time: 15
 view_count: 0

@@ -7,7 +7,7 @@ description: >-
   tiên giá; chính sách miễn giảm; phí phát sinh trong đợt điều trị.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-33-vien-phi-kien-truc-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-33-vien-phi-kien-truc-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 13: Viện phí, BHYT & Hóa đơn điện tử"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Viện phí — kiến trúc & nguồn chi trả](/storage/uploads/2026/05/his/bai-33-vien-phi-kien-truc-banner.png)
+![Viện phí — kiến trúc & nguồn chi trả](/storage/uploads/2026/05/his/bai-33-vien-phi-kien-truc-banner.webp)
 
 ## Bảng giá nhiều tầng
 
-![Quầy thu ngân tách BHYT / dịch vụ / BH tư](/storage/uploads/2026/05/his/bai-33-vien-phi-kien-truc-workflow.png)
+![Quầy thu ngân tách BHYT / dịch vụ / BH tư](/storage/uploads/2026/05/his/bai-33-vien-phi-kien-truc-workflow.webp)
 
 
 ## Mục tiêu bài học

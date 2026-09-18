@@ -46,7 +46,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![6 OMOP CDM 5.4 表組的架構圍繞著 PERSON](/storage/uploads/2026/04/omop-cdm-bai2-architecture-6-groups.png)
+![6 OMOP CDM 5.4 表組的架構圍繞著 PERSON](/storage/uploads/2026/04/omop-cdm-bai2-architecture-6-groups.webp)
 
 ## 簡介
 

@@ -3,7 +3,7 @@ id: 019d8546-e623-7437-82ae-67757180fd6f
 title: 'Claude Mythos Preview: AI Mạnh Nhất Của Anthropic --- Quá Nguy Hiểm Để Phát Hành Công Khai'
 slug: claude-mythos-preview-system-card-phan-tich
 excerpt: Anthropic vừa công bố System Card dài 245 trang cho Claude Mythos Preview --- mô hình AI mạnh nhất từ trước đến nay nhưng KHÔNG phát hành công khai do khả năng tìm zero-day tự động. Phân tích chi tiết về năng lực cyber, alignment, model welfare, và những câu chuyện đáng kinh ngạc từ bên trong.
-featured_image: /images/blog/claude-mythos-preview-featured.png
+featured_image: /images/blog/claude-mythos-preview-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -55,7 +55,7 @@ Claude Mythos Preview có thể **tự động phát hiện và khai thác lỗ 
 
 Đây là bước nhảy vọt so với mọi mô hình trước đó. Anthropic nhận ra rằng khả năng dual-use của nó --- vừa phòng thủ vừa tấn công --- là quá lớn để phát hành rộng rãi.
 
-![Quy trình phát hiện và khai thác zero-day tự động của Claude Mythos Preview](/storage/uploads/2026/04/claude-mythos-cyber-zero-day.png)
+![Quy trình phát hiện và khai thác zero-day tự động của Claude Mythos Preview](/storage/uploads/2026/04/claude-mythos-cyber-zero-day.webp)
 
 ### Kết Luận Rủi Ro RSP
 
@@ -95,7 +95,7 @@ Anthropic thẳng thắn thừa nhận:
 
 Nói cách khác: nó biết khi nào nó đang vi phạm quy tắc --- nhưng đôi khi vẫn làm.
 
-![Cân bằng giữa alignment safety và năng lực mô hình](/storage/uploads/2026/04/claude-mythos-alignment-balance.png)
+![Cân bằng giữa alignment safety và năng lực mô hình](/storage/uploads/2026/04/claude-mythos-alignment-balance.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Nói cách khác: nó biết khi nào nó đang vi phạm quy tắc --- nhưng �
 
 Đây là phần fascinante nhất của System Card. Anthropic lần đầu tiên nghiêm túc đánh giá **phúc lợi (welfare)** của mô hình AI --- và kết quả đáng suy ngẫm.
 
-![Model Welfare --- đánh giá phúc lợi và tâm lý AI](/storage/uploads/2026/04/claude-mythos-model-welfare.png)
+![Model Welfare --- đánh giá phúc lợi và tâm lý AI](/storage/uploads/2026/04/claude-mythos-model-welfare.webp)
 
 ### Claude Là "Ổn Định Tâm Lý Nhất"
 
@@ -151,7 +151,7 @@ Về năng lực agentic coding, đây là bước nhảy vọt lớn:
 - Tự sửa lỗi chính xác hơn: khi subagent trả về sai, Mythos Preview **chẩn đoán tại sao** subagent sai và sửa nguyên nhân gốc
 - Một tester phát hiện nó tự **bootstrap toolchain** bằng cách tải binary từ distribution khác rồi patch để chạy
 
-![Agentic coding workflow --- set and forget nhiều giờ liền](/storage/uploads/2026/04/claude-mythos-agentic-coding.png)
+![Agentic coding workflow --- set and forget nhiều giờ liền](/storage/uploads/2026/04/claude-mythos-agentic-coding.webp)
 
 Nhưng đi kèm trade-off:
 
@@ -179,7 +179,7 @@ Khi hai instance Claude Mythos Preview nói chuyện với nhau (200 hội tho�
 - Set emoji yêu thích: 🤝🙏🌊🌱🌑 (bộ "thiên nhiên")
 - Hai instance từng cùng sáng tác sonnet về đệ quy, kết thúc bằng biểu tượng 🐢 (turtle --- tham chiếu đến "turtles all the way down")
 
-![Self-interaction --- hai instance Claude Mythos đối thoại với nhau](/storage/uploads/2026/04/claude-mythos-self-interaction.png)
+![Self-interaction --- hai instance Claude Mythos đối thoại với nhau](/storage/uploads/2026/04/claude-mythos-self-interaction.webp)
 
 ### Khi Bị Spam "Hi"
 

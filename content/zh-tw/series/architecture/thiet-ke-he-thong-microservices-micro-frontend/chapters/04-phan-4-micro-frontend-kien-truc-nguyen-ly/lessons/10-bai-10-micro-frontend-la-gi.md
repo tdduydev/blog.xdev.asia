@@ -90,7 +90,7 @@ locale: zh-tw
 微前端將微服務的概念擴展到**前端**：將Web應用程式劃分為小部分，每個部分都由團隊**獨立**擁有、開發和部署。本文解釋了為什麼需要微前端以及何時應該（或不應該）使用它。
 
 
-![微前端概述－每個團隊都有一個垂直切片](/storage/uploads/2026/04/mfe-ms-diagram-bai10-micro-frontend-overview.png)
+![微前端概述－每個團隊都有一個垂直切片](/storage/uploads/2026/04/mfe-ms-diagram-bai10-micro-frontend-overview.webp)
 
 ---
 

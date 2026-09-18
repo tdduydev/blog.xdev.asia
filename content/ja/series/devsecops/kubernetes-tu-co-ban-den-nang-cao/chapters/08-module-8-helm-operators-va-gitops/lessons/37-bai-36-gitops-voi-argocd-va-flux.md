@@ -16,7 +16,7 @@ locale: ja
 ---
 <h2>🎯 レッスンの目的</h2><p>GitOps の原則、ArgoCD と Flux のセットアップ方法、2 つのツールの違い、GitOps を使用した CI/CD パイプライン、GitOps ワークフローでのシークレット管理を理解します。</p>
 
-<img src="/storage/uploads/2026/03/k8s-gitops-workflow-2026.png" alt="GitOps with ArgoCD & Flux - Workflow Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-gitops-workflow-2026.webp" alt="GitOps with ArgoCD & Flux - Workflow Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. GitOps 原則 (OpenGitOps)</h2>
 <p>GitOps は、Git を「信頼できる唯一の情報源」として使用するアプリケーションのデプロイと操作の方法です:</p>

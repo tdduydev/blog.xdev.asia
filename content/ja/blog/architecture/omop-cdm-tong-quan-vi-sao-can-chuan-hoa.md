@@ -6,7 +6,7 @@ excerpt: >-
   Real-World Evidence（RWE）は FDA、EMA、各国規制当局の意思決定の在り方を変えつつあります。
   OMOP CDM は、1 つの研究を世界中の数百組織で同時に実行できるデータ標準です。
   本記事では OHDSI、CDM 5.4、そしてベトナムにおける文脈を紹介します。
-featured_image: /images/blog/omop-overview-featured.png
+featured_image: /images/blog/omop-overview-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -34,7 +34,7 @@ comments: []
 
 ## 2. なぜ Common Data Model が必要か
 
-![2. なぜ Common Data Model が必要か](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d01.png)
+![2. なぜ Common Data Model が必要か](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d01.webp)
 
 5 つの利点：
 1. **マルチソース解析**：1 つの研究を 200 組織で同時実行（federated）
@@ -45,13 +45,13 @@ comments: []
 
 ## 3. OMOP と OHDSI の歴史
 
-![3. OMOP と OHDSI の歴史](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d02.png)
+![3. OMOP と OHDSI の歴史](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d02.webp)
 
 OHDSI = Observational Health Data Sciences and Informatics。企業ではなく、Apache 2.0 で運営されるオープンコミュニティで、ワーキンググループ、ネットワーク研究、年次シンポジウムを擁します。
 
 ## 4. OHDSI スタック 2026
 
-![4. OHDSI スタック 2026](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d03.png)
+![4. OHDSI スタック 2026](/images/blog/diagrams/omop-cdm-tong-quan-vi-sao-can-chuan-hoa-d03.webp)
 
 ## 5. CDM 5.4 — グループ別 37 テーブル
 

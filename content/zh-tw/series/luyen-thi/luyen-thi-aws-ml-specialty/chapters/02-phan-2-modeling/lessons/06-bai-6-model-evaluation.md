@@ -19,7 +19,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai6-model-evaluation.png" alt="Model Evaluation Metrics" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai6-model-evaluation.webp" alt="Model Evaluation Metrics" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>模型評估：分類指標（AUC-ROC、F1）、迴歸指標（RMSE、MAE）與混淆矩陣</em></p>
 </div>
 

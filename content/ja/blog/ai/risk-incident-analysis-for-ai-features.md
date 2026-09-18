@@ -4,7 +4,7 @@ title: "BAのためのリスク&インシデント分析：AIフィーチャー�
 slug: risk-incident-analysis-for-ai-features
 excerpt: >-
   AIフィーチャーは通常のフィーチャーとはリスクプロファイルが全く異なります：モデルドリフト、データポイズニング、ハルシネーションの連鎖、バイアスの増幅。BAにはAIインシデント専用の適切なリスク登録簿、インシデント対応計画、事後分析テンプレートが必要です。
-featured_image: /images/blog/risk-incident-analysis.png
+featured_image: /images/blog/risk-incident-analysis.webp
 type: blog
 reading_time: 13
 view_count: 0

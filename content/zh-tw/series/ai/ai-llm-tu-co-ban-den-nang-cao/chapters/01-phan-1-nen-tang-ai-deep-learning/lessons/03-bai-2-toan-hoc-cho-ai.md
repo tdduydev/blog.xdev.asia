@@ -91,7 +91,7 @@ locale: zh-tw
 
 > **學習技巧：** 每節都有實際例子→說明性代碼→小練習。如果您不明白任何部分，請先閱讀實際範例。
 
-![人工智慧數學概述：線性代數、微積分和梯度下降、機率](/storage/uploads/2026/03/math-for-ai.png)
+![人工智慧數學概述：線性代數、微積分和梯度下降、機率](/storage/uploads/2026/03/math-for-ai.webp)
 
 本課主要分為4個部分：
 
@@ -399,7 +399,7 @@ print(f"dz/dx tính số:   {numerical:.4f}")     # 300.0000
 
 **正常生活的例子：**你站在**濃霧**中的山上－什麼也看不見。你想去山腳下（找到最小值）。唯一的方法：**感受腳周圍的地面**，找到最陡的方向，向下邁一小步。重複。
 
-![梯度下降圖解：沿著損失面向下尋找最優點](/storage/uploads/2026/03/gradient-descent-visual.png)
+![梯度下降圖解：沿著損失面向下尋找最優點](/storage/uploads/2026/03/gradient-descent-visual.webp)
 
 ```
 θ_new = θ_old - α × ∇L(θ)

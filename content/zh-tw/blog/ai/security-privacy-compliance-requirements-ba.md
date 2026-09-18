@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a007-000000000001
 title: BA 的安全、隱私和合規性要求
 slug: security-privacy-compliance-requirements-ba
 excerpt: BA 不需要是安全工程師，但必須知道如何撰寫有關身份驗證、授權、審核日誌、資料脫敏、同意、保留、PII/PHI/PCI 和合規性的要求，以避免錯過規範。
-featured_image: /images/blog/responsible-ai-requirements.png
+featured_image: /images/blog/responsible-ai-requirements.webp
 type: blog
 reading_time: 12
 view_count: 0

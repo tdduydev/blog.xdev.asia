@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. 醫療保健集中審計追蹤概述
 
-![Centralized Audit Trail — OpenTelemetry, ELK Stack cho Healthcare Compliance](/storage/uploads/2026/04/healthcare-audit-trail-elk.png)
+![Centralized Audit Trail — OpenTelemetry, ELK Stack cho Healthcare Compliance](/storage/uploads/2026/04/healthcare-audit-trail-elk.webp)
 
 在醫療微服務系統中，**一個請求**可以經過許多服務：API網關→病患服務→實驗室服務→通知服務。為了全面審計 PHI 資料流，我們需要一個**集中審計追蹤**—一個記錄和分析病患資料所有活動的集中系統。
 
@@ -399,7 +399,7 @@ public class PatientService {
 
 ### 3.1。關聯 ID 架構
 
-![Distributed Tracing — Patient Data Flow qua API Gateway → Patient Service → DB/Kafka/Lab Service](/storage/uploads/2026/04/healthcare-distributed-tracing-flow.png)
+![Distributed Tracing — Patient Data Flow qua API Gateway → Patient Service → DB/Kafka/Lab Service](/storage/uploads/2026/04/healthcare-distributed-tracing-flow.webp)
 
 **追蹤流量：**
 

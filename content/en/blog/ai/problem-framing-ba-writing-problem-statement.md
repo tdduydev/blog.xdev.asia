@@ -4,7 +4,7 @@ title: "Problem Framing for BA: How to Write a Problem Statement That Doesn't Wa
 slug: problem-framing-ba-writing-problem-statement
 excerpt: >-
   The most common BA mistake is jumping straight to a solution before understanding the problem. Learn how to write problem statements around business outcomes, distinguish problem vs symptom vs solution, and apply the SCQ framework to frame things correctly from day one.
-featured_image: /images/blog/problem-framing-ba.png
+featured_image: /images/blog/problem-framing-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

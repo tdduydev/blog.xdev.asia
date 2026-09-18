@@ -41,7 +41,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![將記錄合併到 ERA — 從多個離散事件合併到連續批次](/storage/uploads/2026/04/omop-cdm-bai19-era-concept.png)
+![將記錄合併到 ERA — 從多個離散事件合併到連續批次](/storage/uploads/2026/04/omop-cdm-bai19-era-concept.webp)
 
 ## 簡介
 

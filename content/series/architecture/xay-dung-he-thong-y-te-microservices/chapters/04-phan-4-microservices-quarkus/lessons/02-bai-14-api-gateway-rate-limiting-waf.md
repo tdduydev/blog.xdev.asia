@@ -91,7 +91,7 @@ course:
 
 ## 1. API Gateway Pattern cho Healthcare
 
-![API Gateway Reference Architecture — WAF, Nginx, Quarkus Gateway](/storage/uploads/2026/04/healthcare-api-gateway-architecture.png)
+![API Gateway Reference Architecture — WAF, Nginx, Quarkus Gateway](/storage/uploads/2026/04/healthcare-api-gateway-architecture.webp)
 
 
 API Gateway đóng vai trò **single entry point** cho toàn bộ hệ thống microservices y tế. Nó tập trung các cross-cutting concerns: authentication, rate limiting, input validation, audit logging, và security headers — thay vì mỗi service tự implement.

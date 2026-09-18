@@ -6,7 +6,7 @@ excerpt: >-
   Static image scanning will not catch abnormal behavior at runtime. Combine
   admission policies (Kyverno) to block non-compliant workloads with runtime
   monitors (Falco) to detect shell-in-container and lateral movement.
-featured_image: /images/blog/k8s-kyverno-falco-featured.png
+featured_image: /images/blog/k8s-kyverno-falco-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

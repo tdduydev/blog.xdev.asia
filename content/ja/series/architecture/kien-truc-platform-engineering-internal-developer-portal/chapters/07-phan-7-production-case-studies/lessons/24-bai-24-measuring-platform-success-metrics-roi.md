@@ -85,7 +85,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 24: プラットフォームの成功の測定 - 指標と ROI](/storage/uploads/2026/03/pe-bai-24-diagram.png)
+![レッスン 24: プラットフォームの成功の測定 - 指標と ROI](/storage/uploads/2026/03/pe-bai-24-diagram.webp)
 
 ## はじめに
 

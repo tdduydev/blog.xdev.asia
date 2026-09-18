@@ -6,7 +6,7 @@ excerpt: >-
   Make-or-Buy là một quyết định quan trọng trong Strategy Analysis. Với AI, bài toán
   không chỉ là build hay buy, mà là cả một spectrum từ custom model đến SaaS AI.
   Bài viết này cung cấp framework để BA đánh giá và ra quyết định có cơ sở.
-featured_image: /images/blog/make-or-buy-ai-ba.png
+featured_image: /images/blog/make-or-buy-ai-ba.webp
 type: blog
 reading_time: 11
 view_count: 0
@@ -198,7 +198,7 @@ excerpt: >-
   Make-or-Buy là một trong những quyết định quan trọng nhất trong Strategy Analysis.
   Với AI, câu hỏi này càng phức tạp hơn: build custom model, fine-tune foundation model,
   hay dùng API? Bài này cung cấp framework để BA phân tích và đưa ra quyết định đúng.
-featured_image: /images/blog/make-or-buy-ai-ba.png
+featured_image: /images/blog/make-or-buy-ai-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

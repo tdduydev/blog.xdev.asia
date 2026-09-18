@@ -96,7 +96,7 @@ tích vô hướng, và đạt 100% trong khi kernel tuyến tính trên một c
 
 ## Chạy thử
 
-![Kết quả chạy ep07_svm](/images/blog/ml-nhin-la-hieu/ep07_svm.png)
+![Kết quả chạy ep07_svm](/images/blog/ml-nhin-la-hieu/ep07_svm.webp)
 
 > Ảnh trên là output thật của `python scratch/ep07_svm.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep07_svm.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep07_svm.py) · [`library/ep07_svm.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep07_svm.py)

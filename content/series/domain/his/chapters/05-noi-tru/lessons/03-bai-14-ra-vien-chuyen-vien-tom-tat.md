@@ -7,7 +7,7 @@ description: >-
   viện, đơn ra viện, tóm tắt bệnh án (CCD), chuyển viện đúng tuyến.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-14-ra-vien-chuyen-vien-tom-tat-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-14-ra-vien-chuyen-vien-tom-tat-banner.webp
 video_url: null
 sort_order: 3
 section_title: "Phần 5: Nội trú (IPD)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Ra viện, chuyển viện & tóm tắt HSBA](/storage/uploads/2026/05/his/bai-14-ra-vien-chuyen-vien-tom-tat-banner.png)
+![Ra viện, chuyển viện & tóm tắt HSBA](/storage/uploads/2026/05/his/bai-14-ra-vien-chuyen-vien-tom-tat-banner.webp)
 
 ## Mục tiêu
 
-![Trao tóm tắt ra viện, ký số và lưu trữ EMR](/storage/uploads/2026/05/his/bai-14-ra-vien-chuyen-vien-tom-tat-workflow.png)
+![Trao tóm tắt ra viện, ký số và lưu trữ EMR](/storage/uploads/2026/05/his/bai-14-ra-vien-chuyen-vien-tom-tat-workflow.webp)
 
 Ra viện là **giai đoạn risk cao thứ 2** sau chuyển ICU — 20 % BN có "adverse event" trong 30 ngày sau ra viện (Forster et al, NEJM). Module này phải:
 

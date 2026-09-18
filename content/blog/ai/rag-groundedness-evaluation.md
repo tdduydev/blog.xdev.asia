@@ -5,7 +5,7 @@ slug: rag-groundedness-evaluation
 excerpt: >-
   RAG không chỉ là lấy top-k rồi hỏi model. Cần citation đúng, no-answer behavior,
   context precision/recall, groundedness rubric và feedback loop từ production.
-featured_image: /images/blog/rag-groundedness-evaluation.png
+featured_image: /images/blog/rag-groundedness-evaluation.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -22,7 +22,7 @@ locale: zh-tw
 
 <h2>2。服務類型</h2>
 
-<img src="/storage/uploads/2026/03/k8s-service-types-2026.png" alt="Kubernetes Service Types - ClusterIP, NodePort, LoadBalancer, ExternalName" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-service-types-2026.webp" alt="Kubernetes Service Types - ClusterIP, NodePort, LoadBalancer, ExternalName" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h3>2.1 ClusterIP（預設）</h3>
 <p>使用叢集中的內部 IP 公開服務。只能從集群內部存取。 </p>

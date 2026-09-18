@@ -4,7 +4,7 @@ title: "BAのためのJira & Azure DevOps自動化：スマートルールとAI�
 slug: jira-azure-devops-automation-for-ba
 excerpt: >-
   BAはチケットの更新、サブタスクの作成、ステータスの手動フォローアップに多くの時間を費やしています。Jira自動化とAzure DevOpsルールがその大部分を処理できます。AIプロジェクトにおけるBAにとって最も重要な自動化ルールの実践ガイドです。
-featured_image: /images/blog/jira-devops-automation.png
+featured_image: /images/blog/jira-devops-automation.webp
 type: blog
 reading_time: 12
 view_count: 0

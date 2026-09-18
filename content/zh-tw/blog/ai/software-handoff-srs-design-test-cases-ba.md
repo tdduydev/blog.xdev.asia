@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a006-000000000001
 title: BA 的軟體移交：從 SRS 到設計、開發和測試案例
 slug: software-handoff-srs-design-test-cases-ba
 excerpt: 良好的交接有助於開發/QA 在衝刺開始之前正確理解需求。本文提供了交接清單、三個朋友議程、將驗收標準轉換為測試場景的範例以及如何管理開放問題。
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

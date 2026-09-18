@@ -9,7 +9,7 @@ excerpt: >-
   writes vaguely. This article guides how to classify rules, write atomic rules,
   use decision tables, for example approving loan applications and review
   checklists before putting them into SRS, user stories or test cases.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 15
 view_count: 0

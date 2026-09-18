@@ -90,7 +90,7 @@ course:
 
 ## 1. Tổng quan Secure Inter-Service Communication
 
-![mTLS Service Mesh với Istio cho Healthcare — Envoy Sidecar, NetworkPolicies](/storage/uploads/2026/04/healthcare-mtls-service-mesh.png)
+![mTLS Service Mesh với Istio cho Healthcare — Envoy Sidecar, NetworkPolicies](/storage/uploads/2026/04/healthcare-mtls-service-mesh.webp)
 
 Trong kiến trúc microservices y tế, services giao tiếp với nhau qua network — và network **không bao giờ đáng tin**. Ngay cả trong internal network, attacker có thể:
 
@@ -103,7 +103,7 @@ mTLS và Service Mesh giải quyết tất cả các vấn đề trên.
 
 ### 1.1. Defense-in-Depth cho Inter-Service Communication
 
-![5 Security Layers cho Inter-Service Communication — Network → mTLS → AuthZ → JWT → Encryption](/storage/uploads/2026/04/healthcare-service-communication-layers.png)
+![5 Security Layers cho Inter-Service Communication — Network → mTLS → AuthZ → JWT → Encryption](/storage/uploads/2026/04/healthcare-service-communication-layers.webp)
 
 **5 lớp bảo vệ:**
 
@@ -115,7 +115,7 @@ mTLS và Service Mesh giải quyết tất cả các vấn đề trên.
 
 ### 1.2. mTLS vs One-Way TLS
 
-![So sánh One-Way TLS vs Mutual TLS (mTLS)](/storage/uploads/2026/04/healthcare-tls-comparison.png)
+![So sánh One-Way TLS vs Mutual TLS (mTLS)](/storage/uploads/2026/04/healthcare-tls-comparison.webp)
 
 | | One-Way TLS | Mutual TLS (mTLS) |
 |---|---|---|
@@ -476,7 +476,7 @@ istioctl analyze -n healthcare
 
 ### 4.2. Istio Architecture với Healthcare Services
 
-![Istio Service Mesh Architecture cho Healthcare — istiod + Envoy sidecars](/storage/uploads/2026/04/healthcare-istio-mesh.png)
+![Istio Service Mesh Architecture cho Healthcare — istiod + Envoy sidecars](/storage/uploads/2026/04/healthcare-istio-mesh.webp)
 
 **Architecture:**
 

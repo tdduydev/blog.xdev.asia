@@ -3,7 +3,7 @@ id: 01970000-b2c3-8d4e-f5a6-789012345def
 title: 'Gemma 4: Mô hình AI mở mạnh nhất Google --- Agentic Workflow, On-Device và Apache 2.0'
 slug: gemma-4-mo-hinh-ai-mo-manh-nhat-google-agentic-edge
 excerpt: Google DeepMind ra mắt Gemma 4 --- gia đình mô hình mở đạt #3 thế giới trên Arena AI, hỗ trợ agentic workflow, vision, audio, 140+ ngôn ngữ, chạy on-device từ Raspberry Pi đến GPU H100. Phân tích kiến trúc 4 kích thước (E2B, E4B, 26B MoE, 31B Dense), benchmark so sánh, và hướng dẫn triển khai.
-featured_image: /images/blog/gemma-4-featured.png
+featured_image: /images/blog/gemma-4-featured.webp
 type: blog
 reading_time: 15
 view_count: 0

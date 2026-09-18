@@ -93,7 +93,7 @@ locale: en
 In Monolith, transactions are simple: `BEGIN → INSERT order → UPDATE inventory → COMMIT`. In Microservices, each service has its own DB → cannot use distributed ACID transactions (2PC is too slow, fragile). **Saga Pattern** is the standard solution.
 
 
-![Saga Pattern — Choreography and Orchestration for distributed transactions](/storage/uploads/2026/04/mfe-ms-diagram-bai8-saga-pattern.png)
+![Saga Pattern — Choreography and Orchestration for distributed transactions](/storage/uploads/2026/04/mfe-ms-diagram-bai8-saga-pattern.webp)
 
 ---
 

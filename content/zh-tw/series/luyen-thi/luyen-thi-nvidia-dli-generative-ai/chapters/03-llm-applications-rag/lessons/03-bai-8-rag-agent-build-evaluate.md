@@ -103,7 +103,7 @@ ReAct Agent Loop — RAG Agent 決策流程
 </tbody>
 </table>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai8-rag-agent-evaluation.png" alt="RAG Agent與評估 — Agent迴圈、工具、LLM-as-Judge指標" loading="lazy" /><figcaption>RAG Agent與評估 — Agent迴圈、工具、LLM-as-Judge指標</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai8-rag-agent-evaluation.webp" alt="RAG Agent與評估 — Agent迴圈、工具、LLM-as-Judge指標" loading="lazy" /><figcaption>RAG Agent與評估 — Agent迴圈、工具、LLM-as-Judge指標</figcaption></figure>
 
 <h2 id="2-build-rag-agent-langchain">2. 使用LangChain建構RAG Agent</h2>
 

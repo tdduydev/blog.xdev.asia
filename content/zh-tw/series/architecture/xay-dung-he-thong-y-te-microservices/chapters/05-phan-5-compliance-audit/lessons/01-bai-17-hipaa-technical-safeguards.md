@@ -89,7 +89,7 @@ locale: zh-tw
 
 ## 1. HIPAA 安全規則概述 §164.312
 
-![HIPAA Security Rule — Administrative, Physical, Technical Safeguards](/storage/uploads/2026/04/healthcare-hipaa-security-rule.png)
+![HIPAA Security Rule — Administrative, Physical, Technical Safeguards](/storage/uploads/2026/04/healthcare-hipaa-security-rule.webp)
 
 HIPAA 安全規則要求處理 ePHI（電子受保護健康資訊）的組織實施**技術保障** — 保護電子健康資料的技術措施。這對於開發人員和工程師來說是最重要的部分。
 

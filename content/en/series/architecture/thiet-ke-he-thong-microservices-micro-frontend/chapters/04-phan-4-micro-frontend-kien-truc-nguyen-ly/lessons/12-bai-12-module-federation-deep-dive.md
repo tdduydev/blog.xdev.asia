@@ -93,7 +93,7 @@ locale: en
 Module Federation is a game-changing feature of Webpack 5, allowing multiple builds to share code at **runtime**. This article hands-on configuration from zero.
 
 
-![Module Federation — Host & Remote runtime loading](/storage/uploads/2026/04/mfe-ms-diagram-bai12-module-federation.png)
+![Module Federation — Host & Remote runtime loading](/storage/uploads/2026/04/mfe-ms-diagram-bai12-module-federation.webp)
 
 ---
 

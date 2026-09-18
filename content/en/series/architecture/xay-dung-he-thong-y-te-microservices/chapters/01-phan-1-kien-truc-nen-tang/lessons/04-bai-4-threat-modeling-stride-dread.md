@@ -94,13 +94,13 @@ locale: en
 
 ## 1. What is Threat Modeling?
 
-![Threat Modeling STRIDE for Microservices Medical Systems](/storage/uploads/2026/04/healthcare-threat-model-stride.png)
+![Threat Modeling STRIDE for Microservices Medical Systems](/storage/uploads/2026/04/healthcare-threat-model-stride.webp)
 
 **Threat Modeling** is the systematic process of identifying, evaluating, and prioritizing potential security threats to a system. In healthcare, threat modeling is especially important because the consequences of an attack go beyond just losing data — it can affect **patients' lives**.
 
 ### 1.1. Threat Modeling Process
 
-![6-step Threat Modeling process — from Define Scope to Validate & Iterate](/storage/uploads/2026/04/healthcare-threat-modeling-process.png)
+![6-step Threat Modeling process — from Define Scope to Validate & Iterate](/storage/uploads/2026/04/healthcare-threat-modeling-process.webp)
 
 ### 1.2. When is Threat Modeling needed?
 
@@ -129,7 +129,7 @@ STRIDE is a threat classification framework developed by Microsoft:
 
 #### S - Spoofing (Identity spoofing)
 
-![Spoofing Attack — spoof JWT token to access Patient API and prevention measures](/storage/uploads/2026/04/healthcare-stride-spoofing-attack.png)
+![Spoofing Attack — spoof JWT token to access Patient API and prevention measures](/storage/uploads/2026/04/healthcare-stride-spoofing-attack.webp)
 
 **Threat:** Attacker fakes JWT token to access Patient API
 
@@ -151,7 +151,7 @@ STRIDE is a threat classification framework developed by Microsoft:
 
 #### T - Tampering (Data tampering)
 
-![Tampering Attack — insider tampering with test results and data integrity measures](/storage/uploads/2026/04/healthcare-stride-tampering-integrity.png)
+![Tampering Attack — insider tampering with test results and data integrity measures](/storage/uploads/2026/04/healthcare-stride-tampering-integrity.webp)
 
 **Threat:** Insider modified test results in lab_db
 
@@ -276,7 +276,7 @@ public PatientSummaryDTO getPatient(@PathParam("id") UUID id) {
 
 #### D - Denial of Service
 
-![DoS mitigation — 7 layers of anti-DDoS protection for healthcare systems](/storage/uploads/2026/04/healthcare-stride-dos-mitigation.png)
+![DoS mitigation — 7 layers of anti-DDoS protection for healthcare systems](/storage/uploads/2026/04/healthcare-stride-dos-mitigation.webp)
 
 **Threat:** DDoS attack causes the emergency system to stop working
 
@@ -398,7 +398,7 @@ public class PrescriptionResource {
 
 ### 5.1. Attack Tree: Steal Patient Medical Records
 
-![Attack Tree — attack vectors to steal patient records with DREAD scoring](/storage/uploads/2026/04/healthcare-attack-tree.png)
+![Attack Tree — attack vectors to steal patient records with DREAD scoring](/storage/uploads/2026/04/healthcare-attack-tree.webp)
 
 **Goal: Steal Patient Medical Records**
 

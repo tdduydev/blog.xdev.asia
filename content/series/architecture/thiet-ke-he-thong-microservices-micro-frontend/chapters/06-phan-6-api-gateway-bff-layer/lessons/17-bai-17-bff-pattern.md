@@ -89,7 +89,7 @@ course:
 Backend for Frontend (BFF) là pattern đặt một **backend layer riêng** cho mỗi frontend client. BFF aggregates data từ nhiều microservices, transform thành format phù hợp cho frontend cụ thể.
 
 
-![BFF Pattern — Backend for Frontend riêng biệt cho mỗi client](/storage/uploads/2026/04/mfe-ms-diagram-bai17-bff-pattern.png)
+![BFF Pattern — Backend for Frontend riêng biệt cho mỗi client](/storage/uploads/2026/04/mfe-ms-diagram-bai17-bff-pattern.webp)
 
 ---
 

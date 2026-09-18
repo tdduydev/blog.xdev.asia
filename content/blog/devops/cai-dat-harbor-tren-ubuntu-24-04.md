@@ -5,7 +5,7 @@ slug: cai-dat-harbor-tren-ubuntu-24-04
 excerpt: >-
   Hướng dẫn chi tiết cài đặt Harbor - private Docker registry trên Ubuntu 24.04,
   bao gồm HTTPS, bảo mật, backup và best practices.
-featured_image: /images/blog/harbor-ubuntu-featured.png
+featured_image: /images/blog/harbor-ubuntu-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

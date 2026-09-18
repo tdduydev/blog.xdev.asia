@@ -7,7 +7,7 @@ description: >-
   máy chủ; chuẩn audit log theo NĐ 13/2023 và HIPAA.
 duration_minutes: 45
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-32-chu-ky-so-audit-log-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-32-chu-ky-so-audit-log-banner.webp
 video_url: null
 sort_order: 3
 section_title: "Phần 12: EMR & lưu trữ HSBA"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Chữ ký số & audit log y khoa](/storage/uploads/2026/05/his/bai-32-chu-ky-so-audit-log-banner.png)
+![Chữ ký số & audit log y khoa](/storage/uploads/2026/05/his/bai-32-chu-ky-so-audit-log-banner.webp)
 
 ## Hạ tầng PKI cho HIS
 
-![Bác sĩ ký số bằng smart-card, timeline audit](/storage/uploads/2026/05/his/bai-32-chu-ky-so-audit-log-workflow.png)
+![Bác sĩ ký số bằng smart-card, timeline audit](/storage/uploads/2026/05/his/bai-32-chu-ky-so-audit-log-workflow.webp)
 
 
 ## Mục tiêu bài học

@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai1-problem-framing.png" alt="ML Problem Framing Framework" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai1-problem-framing.webp" alt="ML Problem Framing Framework" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>ML Problem Framing: xác định bài toán, chọn loại model, và định nghĩa metrics theo chuẩn Google</em></p>
 </div>
 

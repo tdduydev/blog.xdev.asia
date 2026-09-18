@@ -45,7 +45,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![概念體系—來源、標準與分類](/storage/uploads/2026/04/omop-cdm-bai3-concept-system.png)
+![概念體系—來源、標準與分類](/storage/uploads/2026/04/omop-cdm-bai3-concept-system.webp)
 
 ## 簡介
 

@@ -14,7 +14,7 @@ course:
   title: VyOS 從入門到進階
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-07-vlans.png" alt="VLANs, Bonding và Bridge" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-07-vlans.webp" alt="VLANs, Bonding và Bridge" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Giới thiệu về VLANs, Bonding và Bridge trên VyOS</h2>
 <p>Bài học này hướng dẫn cấu hình <strong>VLANs (802.1Q)</strong>, <strong>Bonding</strong> (gộp nhiều interface vật lý) và <strong>Bridge</strong> (cầu nối mạng) trên VyOS 1.4.x/1.5 rolling release. Đây là các kỹ thuật quan trọng để phân đoạn, tối ưu và mở rộng mạng LAN.</p>

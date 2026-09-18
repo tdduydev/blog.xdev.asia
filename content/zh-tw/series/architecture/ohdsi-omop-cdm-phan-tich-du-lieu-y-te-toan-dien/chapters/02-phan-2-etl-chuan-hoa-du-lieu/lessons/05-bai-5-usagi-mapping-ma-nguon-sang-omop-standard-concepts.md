@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 5 課：Usagi — 映射原始碼](/storage/uploads/2026/03/ohdsi-bai-5-usagi-mapping.png)
+![第 5 課：Usagi — 映射原始碼](/storage/uploads/2026/03/ohdsi-bai-5-usagi-mapping.webp)
 
 ## 簡介
 

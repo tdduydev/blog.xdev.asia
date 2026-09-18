@@ -18,7 +18,7 @@ course:
   slug: keycloak-tu-co-ban-den-nang-cao
 ---
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/03/keycloak-rbac-permissions-2026.png" alt="Keycloak RBAC & Fine-grained Permissions" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/03/keycloak-rbac-permissions-2026.webp" alt="Keycloak RBAC & Fine-grained Permissions" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Mô hình RBAC và Fine-grained Admin Permissions V2 trong Keycloak</em></p>
 </div>
 

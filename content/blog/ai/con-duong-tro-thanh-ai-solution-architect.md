@@ -7,7 +7,7 @@ excerpt: >-
   kỹ năng thiết kế hệ thống AI end-to-end, cloud architecture, MLOps, đến kỹ năng
   mềm giao tiếp với stakeholder. Kèm so sánh vai trò, mức lương, chứng chỉ cần thiết,
   và những sai lầm thường gặp trên con đường sự nghiệp.
-featured_image: /images/blog/ai-solution-architect-featured.png
+featured_image: /images/blog/ai-solution-architect-featured.webp
 type: blog
 reading_time: 30
 view_count: 0
@@ -46,7 +46,7 @@ Nhưng con đường đến vị trí này không đơn giản. Nó đòi hỏi 
 
 AI Solution Architect là người **thiết kế kiến trúc tổng thể** cho các giải pháp AI/ML trong doanh nghiệp. Họ là cầu nối giữa business stakeholders, data scientists, ML engineers, và platform teams.
 
-![AI Solution Architect skills overview — 6 lĩnh vực kỹ năng cốt lõi](/storage/uploads/2026/04/ai-architect-skills-overview.png)
+![AI Solution Architect skills overview — 6 lĩnh vực kỹ năng cốt lõi](/storage/uploads/2026/04/ai-architect-skills-overview.webp)
 
 ### Trách nhiệm chính
 
@@ -116,7 +116,7 @@ Dấu hiệu nhận biết:
 
 ## 3. Lộ trình 4 giai đoạn
 
-![Lộ trình 4 giai đoạn từ Foundation đến AI Solution Architect](/storage/uploads/2026/04/ai-architect-career-roadmap.png)
+![Lộ trình 4 giai đoạn từ Foundation đến AI Solution Architect](/storage/uploads/2026/04/ai-architect-career-roadmap.webp)
 
 ### Giai đoạn 1: Nền tảng kỹ thuật (6–12 tháng)
 
@@ -200,7 +200,7 @@ Bạn không cần PhD, nhưng cần **nền tảng vững** để không bị l
 
 MLOps là **DNA** của một AI Architect. Không biết MLOps = không phải architect.
 
-![MLOps pipeline end-to-end: Data Pipeline, Model Pipeline, Deployment Pipeline và Observability](/storage/uploads/2026/04/ai-architect-mlops-pipeline.png)
+![MLOps pipeline end-to-end: Data Pipeline, Model Pipeline, Deployment Pipeline và Observability](/storage/uploads/2026/04/ai-architect-mlops-pipeline.webp)
 
 **Data Pipeline:**
 
@@ -291,7 +291,7 @@ Hiểu đủ sâu để make informed decisions:
 
 RAG là pattern phổ biến nhất và cũng là nơi nhiều team làm sai nhất. Architect phải biết design đúng từ đầu:
 
-![RAG Architecture: từ document ingestion đến response generation](/storage/uploads/2026/04/ai-architect-rag-architecture.png)
+![RAG Architecture: từ document ingestion đến response generation](/storage/uploads/2026/04/ai-architect-rag-architecture.webp)
 
 **Indexing Pipeline:**
 
@@ -334,7 +334,7 @@ RAG là pattern phổ biến nhất và cũng là nơi nhiều team làm sai nh�
 
 Multi-agent systems = xu hướng lớn nhất 2026. Nhiều công ty đang chuyển từ RAG đơn giản sang agent systems.
 
-![Multi-Agent System: Orchestrator điều phối các specialized agents với tool access](/storage/uploads/2026/04/ai-architect-agent-architecture.png)
+![Multi-Agent System: Orchestrator điều phối các specialized agents với tool access](/storage/uploads/2026/04/ai-architect-agent-architecture.webp)
 
 **Anatomy của một AI Agent:**
 

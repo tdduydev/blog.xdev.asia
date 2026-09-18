@@ -43,7 +43,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![医療システムの階層: 場所 → ケアサイト → プロバイダー](/storage/uploads/2026/04/omop-cdm-bai17-health-system.png)
+![医療システムの階層: 場所 → ケアサイト → プロバイダー](/storage/uploads/2026/04/omop-cdm-bai17-health-system.webp)
 
 ## はじめに
 

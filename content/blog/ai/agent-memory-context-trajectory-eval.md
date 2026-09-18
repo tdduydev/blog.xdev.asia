@@ -5,7 +5,7 @@ slug: agent-memory-context-trajectory-eval
 excerpt: >-
   Agent tốt không chỉ cần final answer hay. Cần quản lý memory, state, context budget
   và đánh giá tool trajectory để biết agent đã đi đúng đường hay chưa.
-featured_image: /images/blog/agent-memory-context-trajectory-eval.png
+featured_image: /images/blog/agent-memory-context-trajectory-eval.webp
 type: blog
 reading_time: 12
 view_count: 0

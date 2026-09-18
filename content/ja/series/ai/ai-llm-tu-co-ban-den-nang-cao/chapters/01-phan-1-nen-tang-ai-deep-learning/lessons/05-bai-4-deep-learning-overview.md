@@ -117,7 +117,7 @@ locale: ja
 
 **通常の生活の例:** あなたは虫眼鏡で写真を見ます。小さな虫眼鏡 (3×3 cm) を左上隅から右下隅までスライドさせます。それぞれの場所で、そのエリアを要約する **数値** (明るい/暗い、エッジがあるかどうか、コーナーがあるかどうかなど) を記録します。結果→「特徴マップ」。
 
-![畳み込みの図: フィルターが画像上をスライドして特徴マップを作成します](/storage/uploads/2026/03/cnn-convolution-visual.png)
+![畳み込みの図: フィルターが画像上をスライドして特徴マップを作成します](/storage/uploads/2026/03/cnn-convolution-visual.webp)
 
 ```
 Input image (6×6):     Filter (3×3):     Feature map (4×4):
@@ -336,7 +336,7 @@ print(f"Sau 50 bước: {0.9**50:.6f} → gần như = 0!")
   - **追加** 重要な新しい情報 (入力ゲート) — 「新しいページを書く」  
   - **読み取り** 必要な情報 (出力ゲート) — 「ページを開いて読む」
 
-![セル状態と 3 つのゲートを使用した RNN と LSTM アーキテクチャの比較](/storage/uploads/2026/03/rnn-lstm-comparison.png)
+![セル状態と 3 つのゲートを使用した RNN と LSTM アーキテクチャの比較](/storage/uploads/2026/03/rnn-lstm-comparison.webp)
 
 ### 4.2 LSTM の 3 つのゲート
 

@@ -93,13 +93,13 @@ locale: en
 
 ## 1. Multi-tenancy Strategy for Healthcare Systems
 
-![Keycloak Realm architecture for multi-branch hospital system](/storage/uploads/2026/04/healthcare-keycloak-realm-architecture.png)
+![Keycloak Realm architecture for multi-branch hospital system](/storage/uploads/2026/04/healthcare-keycloak-realm-architecture.webp)
 
 ### 1.1. Multi-tenancy models with Keycloak
 
 When building a medical system for many hospitals/clinics, there are 3 strategies:
 
-![3 Keycloak Multi-tenancy strategies for multi-hospital systems](/storage/uploads/2026/04/healthcare-keycloak-multitenancy.png)
+![3 Keycloak Multi-tenancy strategies for multi-hospital systems](/storage/uploads/2026/04/healthcare-keycloak-multitenancy.webp)
 
 | Strategy | Model | Isolation | Suitable |
 |----------|--------|-----------|----------|
@@ -436,7 +436,7 @@ Realm Roles:
 
 Hospitals often have shared workstations — many doctors/nurses share one computer. Solution:
 
-![3 authentication options on shared hospital workstation](/storage/uploads/2026/04/healthcare-shared-workstation-auth.png)
+![3 authentication options on shared hospital workstation](/storage/uploads/2026/04/healthcare-shared-workstation-auth.webp)
 
 | Options | Mechanism | Advantages | Limitations |
 |--------|--------|---------|----------|

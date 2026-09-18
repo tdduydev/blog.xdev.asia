@@ -15,7 +15,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-09-ospf.png" alt="Dynamic Routing - OSPF" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-09-ospf.webp" alt="Dynamic Routing - OSPF" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Introduction to OSPF on VyOS</h2>
 <p>This lesson walks through configuring <strong>OSPF</strong> (Open Shortest Path First) on VyOS 1.4.x/1.5 rolling release. OSPF is a common dynamic routing protocol in enterprise networks.</p>

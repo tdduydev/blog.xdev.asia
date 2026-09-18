@@ -93,7 +93,7 @@ locale: ja
 分散アーキテクチャでは、デバッグは次のことに相当します。 `console.log` 実現不可能です。リクエストが 5 つのサービスを経由する場合、リクエストがどこに送信されるか、どれくらいの時間がかかるか、どこで失敗するかを知るには**可観測性**が必要です。
 
 
-![可観測性の 3 つの柱 — ログ、メトリクス、トレース](/storage/uploads/2026/04/mfe-ms-diagram-bai26-observability.png)
+![可観測性の 3 つの柱 — ログ、メトリクス、トレース](/storage/uploads/2026/04/mfe-ms-diagram-bai26-observability.webp)
 
 ---
 

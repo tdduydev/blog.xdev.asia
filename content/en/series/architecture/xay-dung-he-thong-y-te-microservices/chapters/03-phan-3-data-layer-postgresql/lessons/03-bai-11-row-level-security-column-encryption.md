@@ -94,7 +94,7 @@ locale: en
 
 ## 1. Row-Level Security (RLS) Overview
 
-![Row-Level Security Pipeline — JWT Claims → SET LOCAL → RLS Policy](/storage/uploads/2026/04/healthcare-rls-request-flow.png)
+![Row-Level Security Pipeline — JWT Claims → SET LOCAL → RLS Policy](/storage/uploads/2026/04/healthcare-rls-request-flow.webp)
 
 Row-Level Security (RLS) allows PostgreSQL to control **which rows** in the table the user can see or manipulate. This is a critical feature for healthcare because:
 
@@ -105,7 +105,7 @@ Row-Level Security (RLS) allows PostgreSQL to control **which rows** in the tabl
 
 ### 1.1. RLS vs Application-Level Filtering
 
-![Compare Application-Level Filtering vs Row-Level Security in PostgreSQL](/storage/uploads/2026/04/healthcare-rls-vs-app-filtering.png)
+![Compare Application-Level Filtering vs Row-Level Security in PostgreSQL](/storage/uploads/2026/04/healthcare-rls-vs-app-filtering.webp)
 
 **Application-Level Filtering (UNSAFE):**
 
@@ -125,7 +125,7 @@ Row-Level Security (RLS) allows PostgreSQL to control **which rows** in the tabl
 
 ### 1.2. RLS Architecture for Healthcare
 
-![RLS Request Flow — JWT → Session Variables → Policy Evaluation → Filtered Results](/storage/uploads/2026/04/healthcare-rls-request-flow.png)
+![RLS Request Flow — JWT → Session Variables → Policy Evaluation → Filtered Results](/storage/uploads/2026/04/healthcare-rls-request-flow.webp)
 
 **Request Flow:**
 

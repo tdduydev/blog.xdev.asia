@@ -50,7 +50,7 @@ DDPM Overview — Two Processes
    t = 1000   t = 500    t = 100    t = 0
 </code></pre>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai4-ddpm-diffusion-process.png" alt="DDPM — 順方向拡散（ノイズ追加）と逆方向拡散（デノイジング）" loading="lazy" /><figcaption>DDPM — 順方向拡散（ノイズ追加）と逆方向拡散（デノイジング）</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai4-ddpm-diffusion-process.webp" alt="DDPM — 順方向拡散（ノイズ追加）と逆方向拡散（デノイジング）" loading="lazy" /><figcaption>DDPM — 順方向拡散（ノイズ追加）と逆方向拡散（デノイジング）</figcaption></figure>
 
 <h2 id="forward-diffusion">2. 順方向拡散プロセス</h2>
 

@@ -26,7 +26,7 @@ course:
 
 <blockquote><p><strong>試験のヒント：</strong> NVIDIA DLIアセスメントでは、Attentionメカニズムのコードを完成させたり、Transformerの次元不一致エラーをデバッグする問題がよく出題されます。Attentionの各ステップでの<strong>テンソルの形状</strong>をマスターすることが、アセスメント合格の鍵です。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai2-transformer-architecture.png" alt="Transformerアーキテクチャ — Encoder-Decoder、Self-Attention、Cross-Attention" loading="lazy" /><figcaption>Transformerアーキテクチャ — Encoder-Decoder、Self-Attention、Cross-Attention</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai2-transformer-architecture.webp" alt="Transformerアーキテクチャ — Encoder-Decoder、Self-Attention、Cross-Attention" loading="lazy" /><figcaption>Transformerアーキテクチャ — Encoder-Decoder、Self-Attention、Cross-Attention</figcaption></figure>
 
 <h2 id="attention-mechanism">2. Attentionメカニズム</h2>
 

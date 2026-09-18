@@ -91,7 +91,7 @@ locale: ja
 
 ## 1. 医療におけるコンテナセキュリティの基礎
 
-![Container Attack Surface — Build, Deploy, Runtime vulnerabilities](/storage/uploads/2026/04/healthcare-container-attack-surface.png)
+![Container Attack Surface — Build, Deploy, Runtime vulnerabilities](/storage/uploads/2026/04/healthcare-container-attack-surface.webp)
 
 ＃＃＃１．１．コンテナの攻撃対象領域
 

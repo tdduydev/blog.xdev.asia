@@ -92,7 +92,7 @@ locale: ja
 モジュール フェデレーションは、Webpack 5 の革新的な機能であり、**実行時**に複数のビルドでコードを共有できるようになります。この記事ではゼロからの実践的な構成を紹介します。
 
 
-![Module Federation — Host & Remote runtime loading](/storage/uploads/2026/04/mfe-ms-diagram-bai12-module-federation.png)
+![Module Federation — Host & Remote runtime loading](/storage/uploads/2026/04/mfe-ms-diagram-bai12-module-federation.webp)
 
 ---
 

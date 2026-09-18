@@ -71,7 +71,7 @@ export function getRoadmapBannerPath(slug?: string): string {
         }
     }
 
-    return "/images/blog/roadmap-overview-featured.png";
+    return "/images/blog/roadmap-overview-featured.webp";
 }
 
 export function getUpcomingRoadmapPreviews(): Array<UpcomingRoadmapPreview & { image: string }> {

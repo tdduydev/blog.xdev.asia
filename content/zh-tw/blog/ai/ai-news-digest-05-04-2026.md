@@ -4,7 +4,7 @@ title: "AI新聞摘要 2026年4月5日：Microsoft發布3款新模型、Holo3刷
 slug: ai-news-digest-05-04-2026
 excerpt: >-
   本週AI業界格外熱鬧：Microsoft同步發表MAI基礎模型三款（語音辨識、語音生成、圖像），H Company的Holo3在OSWorld基準測試以78.85%達成SoTA，Anthropic以4億美元收購生技新創，並決定將OpenClaw從Claude Code訂閱方案中排除。
-featured_image: /images/blog/ban-tin-ai-05-04-2026.png
+featured_image: /images/blog/ban-tin-ai-05-04-2026.webp
 type: blog
 reading_time: 10
 view_count: 0

@@ -4,7 +4,7 @@ title: "用於 AI 輔助流程的 UML 和 BPMN：BA 如何建模 AI 輔助功能
 slug: uml-bpmn-for-ai-assisted-flows
 excerpt: >-
   當 AI 參與業務流程時，傳統的 UML/BPMN 圖缺乏表示 AI 參與者、後備路徑和人類環路的方式。本指南教 BA 如何正確繪製 AI 輔助流程——包含成功路徑、錯誤路徑、信心閾值和升級給人工。
-featured_image: /images/blog/uml-bpmn-ai-flow.png
+featured_image: /images/blog/uml-bpmn-ai-flow.webp
 type: blog
 reading_time: 12
 view_count: 0

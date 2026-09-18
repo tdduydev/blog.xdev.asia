@@ -6,7 +6,7 @@ excerpt: >-
   Impact Mapping là kỹ thuật visual planning giúp BA nối feature với business goal,
   thay vì xây feature chỉ vì có người yêu cầu. Bài viết hướng dẫn cách vẽ Impact Map
   cho dự án AI và dùng nó để ưu tiên backlog có cơ sở.
-featured_image: /images/blog/impact-mapping-ba.png
+featured_image: /images/blog/impact-mapping-ba.webp
 type: blog
 reading_time: 10
 view_count: 0
@@ -199,7 +199,7 @@ excerpt: >-
   Impact Mapping là kỹ thuật visual planning giúp BA kết nối feature với business
   goal thay vì build feature vì feature. Bài này hướng dẫn cách tạo Impact Map
   cho dự án AI và dùng nó để prioritize backlog một cách có căn cứ.
-featured_image: /images/blog/impact-mapping-ba.png
+featured_image: /images/blog/impact-mapping-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

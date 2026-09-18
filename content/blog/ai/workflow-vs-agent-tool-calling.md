@@ -5,7 +5,7 @@ slug: workflow-vs-agent-tool-calling
 excerpt: >-
   Không phải cứ có LLM là phải dùng agent. Workflow deterministic thường rẻ, nhanh,
   dễ test hơn. Agent chỉ nên dùng khi bài toán cần quyết định linh hoạt và tool choice động.
-featured_image: /images/blog/workflow-vs-agent-tool-calling.png
+featured_image: /images/blog/workflow-vs-agent-tool-calling.webp
 type: blog
 reading_time: 12
 view_count: 0

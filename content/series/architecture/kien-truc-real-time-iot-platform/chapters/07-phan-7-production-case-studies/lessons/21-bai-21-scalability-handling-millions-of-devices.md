@@ -85,7 +85,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 21: Scalability - Handling Millions of Devices](/storage/uploads/2026/03/iot-bai-21-diagram.png)
+![Bài 21: Scalability - Handling Millions of Devices](/storage/uploads/2026/03/iot-bai-21-diagram.webp)
 
 ## Giới thiệu
 

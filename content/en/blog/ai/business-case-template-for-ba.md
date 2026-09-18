@@ -6,7 +6,7 @@ excerpt: >-
   A Business Case is the document a BA needs to write to justify investment in an
   AI project. This article provides a full template and section-by-section
   guidance - from problem statement to financial analysis to risk assessment.
-featured_image: /images/blog/business-case-template-ba.png
+featured_image: /images/blog/business-case-template-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

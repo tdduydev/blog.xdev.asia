@@ -16,7 +16,7 @@ locale: en
 ---
 <h2>🎯 Lesson Objective</h2><p>Understand how ReplicaSet ensures the number of Pod replicas, why Deployment is better than pure ReplicaSet, how to perform rolling updates and rollback safely, and common deployment strategies.</p>
 
-<img src="/storage/uploads/2026/03/k8s-deployment-rolling-update-2026.png" alt="Kubernetes Deployment & Rolling Update Strategies" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-deployment-rolling-update-2026.webp" alt="Kubernetes Deployment & Rolling Update Strategies" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. ReplicaSet</h2>
 <p>ReplicaSet ensures the specified number of Pod replicas are always running. If a Pod is deleted or crashes, ReplicaSet creates a new Pod to compensate.</p>

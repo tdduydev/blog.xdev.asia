@@ -4,7 +4,7 @@ title: "AI 功能的解決方案評估框架：測什麼、何時測、誰負責
 slug: solution-evaluation-framework-ai-features
 excerpt: >-
   許多團隊上線 AI 功能後不知道是否成功。本指南教 BA 在上線前構建評估框架——定義業務 KPI + 技術 KPI + 體驗 KPI，30/60/90 天檢視時程，用指標決定下一步。
-featured_image: /images/blog/solution-evaluation-ai.png
+featured_image: /images/blog/solution-evaluation-ai.webp
 type: blog
 reading_time: 9
 view_count: 0

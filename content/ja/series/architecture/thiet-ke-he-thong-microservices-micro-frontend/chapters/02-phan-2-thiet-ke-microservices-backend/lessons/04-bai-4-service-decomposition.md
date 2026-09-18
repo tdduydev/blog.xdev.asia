@@ -92,7 +92,7 @@ locale: ja
 サービスの分離は、マイクロサービスに移行する際のアーキテクチャ上の最も重要な決定事項です。分割が小さすぎる → 複雑さが爆発します。分割が大きすぎる→分散モノリス。この記事では、サービス境界を適切に定義する体系的な方法について説明します。
 
 
-![サービス分解 — システムをマイクロサービスに分解します。](/storage/uploads/2026/04/mfe-ms-diagram-bai4-service-decomposition.png)
+![サービス分解 — システムをマイクロサービスに分解します。](/storage/uploads/2026/04/mfe-ms-diagram-bai4-service-decomposition.webp)
 
 ---
 

@@ -45,7 +45,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Hệ thống Concept — Source, Standard và Classification](/storage/uploads/2026/04/omop-cdm-bai3-concept-system.png)
+![Hệ thống Concept — Source, Standard và Classification](/storage/uploads/2026/04/omop-cdm-bai3-concept-system.webp)
 
 ## Giới thiệu
 

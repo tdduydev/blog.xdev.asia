@@ -90,7 +90,7 @@ course:
 Hầu hết hệ thống thực tế bắt đầu từ Monolith — và monolith tốt! Migration sang Microservices + Micro Frontend là **quá trình dài**, không phải big bang rewrite. Bài này hướng dẫn lộ trình migration an toàn, từng bước.
 
 
-![Strangler Fig Pattern — Migration từ Monolith đến Microservices](/storage/uploads/2026/04/mfe-ms-diagram-bai30-strangler-fig-migration.png)
+![Strangler Fig Pattern — Migration từ Monolith đến Microservices](/storage/uploads/2026/04/mfe-ms-diagram-bai30-strangler-fig-migration.webp)
 
 ---
 

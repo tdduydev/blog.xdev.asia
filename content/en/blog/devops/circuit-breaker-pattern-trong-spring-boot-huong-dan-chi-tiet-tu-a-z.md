@@ -8,7 +8,7 @@ excerpt: >-
   practices. A complete guide to help you build resilient microservices systems,
   prevent cascading failures and automatically recover when services encounter
   problems.
-featured_image: /images/blog/circuit-breaker-featured.png
+featured_image: /images/blog/circuit-breaker-featured.webp
 type: blog
 reading_time: 35
 view_count: 1

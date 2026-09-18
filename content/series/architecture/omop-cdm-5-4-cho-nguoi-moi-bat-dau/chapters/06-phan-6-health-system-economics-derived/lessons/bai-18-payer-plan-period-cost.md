@@ -43,7 +43,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Luồng chi phí y tế và BHYT chi trả](/storage/uploads/2026/04/omop-cdm-bai18-cost-insurance.png)
+![Luồng chi phí y tế và BHYT chi trả](/storage/uploads/2026/04/omop-cdm-bai18-cost-insurance.webp)
 
 ## Giới thiệu
 

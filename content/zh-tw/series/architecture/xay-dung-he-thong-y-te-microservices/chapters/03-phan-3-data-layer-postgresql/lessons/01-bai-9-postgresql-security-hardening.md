@@ -90,13 +90,13 @@ locale: zh-tw
 
 ## 1. PostgreSQL 醫療保健安全性概述
 
-![醫療資料的 PostgreSQL 安全層 — TLS、pg_hba、RLS、pgcrypto](/storage/uploads/2026/04/healthcare-postgresql-security-layers.png)
+![醫療資料的 PostgreSQL 安全層 — TLS、pg_hba、RLS、pgcrypto](/storage/uploads/2026/04/healthcare-postgresql-security-layers.webp)
 
 PostgreSQL 因其靈活性、開源和強大的安全功能而成為醫療保健系統的熱門選擇。然而，PostgreSQL 的預設配置對於 PHI（受保護的健康資訊）資料來說**不夠安全**。本課程將指導您根據 CIS 基準和醫療保健最佳實踐強化 PostgreSQL。
 
 ### 1.1。 PostgreSQL 安全層
 
-![PostgreSQL 的 7 層安全性 — 從應用程式層到作業系統層](/storage/uploads/2026/04/healthcare-postgresql-security-layers.png)
+![PostgreSQL 的 7 層安全性 — 從應用程式層到作業系統層](/storage/uploads/2026/04/healthcare-postgresql-security-layers.webp)
 
 |層 |名稱 |成分|
 |--------|-----|------------|
@@ -331,7 +331,7 @@ WHERE usename IS NOT NULL;
 
 ### 4.1。醫療保健最小特權原則
 
-![醫療保健系統的 PostgreSQL 角色層次結構](/storage/uploads/2026/04/healthcare-postgresql-role-hierarchy.png)
+![醫療保健系統的 PostgreSQL 角色層次結構](/storage/uploads/2026/04/healthcare-postgresql-role-hierarchy.webp)
 
 - **postgres**（超級使用者）← 僅用於維護
   - **dba_admin** (CREATEDB, CREATEROLE) — 模式管理、備份、監控
@@ -619,7 +619,7 @@ WHERE rolcanlogin = true
 - 速率限制
 - 連接路由
 
-![PgBouncer 連線池 — 將 140 個連線減少到 50 個](/storage/uploads/2026/04/healthcare-pgbouncer-connection-pooling.png)
+![PgBouncer 連線池 — 將 140 個連線減少到 50 個](/storage/uploads/2026/04/healthcare-pgbouncer-connection-pooling.webp)
 
 ### 6.2。 PgBouncer 配置
 

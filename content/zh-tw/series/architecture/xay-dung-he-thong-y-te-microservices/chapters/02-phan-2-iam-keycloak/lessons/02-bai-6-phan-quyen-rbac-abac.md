@@ -90,7 +90,7 @@ locale: zh-tw
 
 ## 1. 醫療保健領域的 RBAC 與 ABAC
 
-![4層存取控制架構：RBAC、ABAC、RLS、病患同意](/storage/uploads/2026/04/healthcare-rbac-abac-layers.png)
+![4層存取控制架構：RBAC、ABAC、RLS、病患同意](/storage/uploads/2026/04/healthcare-rbac-abac-layers.webp)
 
 ### 1.1。基於角色的存取控制 (RBAC)
 

@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai7-finetuning-spectrum.png" alt="モデルカスタマイズの範囲" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai7-finetuning-spectrum.webp" alt="モデルカスタマイズの範囲" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>モデルカスタマイズの範囲：プロンプトエンジニアリングからスクラッチでの事前トレーニングまで</em></p>
 </div>
 

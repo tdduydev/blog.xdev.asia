@@ -5,7 +5,7 @@ slug: rag-ingestion-vector-hybrid-retrieval
 excerpt: >-
   RAG tốt bắt đầu từ dữ liệu tốt: ingestion sạch, chunking đúng cấu trúc, metadata
   đủ giàu, vector search có filter và hybrid retrieval khi keyword vẫn quan trọng.
-featured_image: /images/blog/rag-ingestion-vector-hybrid-retrieval.png
+featured_image: /images/blog/rag-ingestion-vector-hybrid-retrieval.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   Strong defense needs three things: structured logs, ATT&CK-mapped detection
   rules and rehearsed IR runbooks. This article summarises how to build a
   detection-as-code program and blameless post-mortems for DevSecOps teams.
-featured_image: /images/blog/detection-ir-devsecops-featured.png
+featured_image: /images/blog/detection-ir-devsecops-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

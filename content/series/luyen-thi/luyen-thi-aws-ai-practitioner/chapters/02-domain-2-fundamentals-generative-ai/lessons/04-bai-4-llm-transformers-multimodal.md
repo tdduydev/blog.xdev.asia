@@ -19,7 +19,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai4-transformer-architecture.png" alt="Transformer Architecture" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai4-transformer-architecture.webp" alt="Transformer Architecture" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Transformer Architecture — Encoder stack, Decoder stack và các biến thể BERT/GPT/T5</em></p>
 </div>
 

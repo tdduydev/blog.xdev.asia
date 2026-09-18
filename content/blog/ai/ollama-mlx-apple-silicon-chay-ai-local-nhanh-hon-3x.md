@@ -3,7 +3,7 @@ id: 01970000-a1b2-7c3d-e4f5-678901234abc
 title: 'Ollama + MLX: Chạy AI Local trên Mac nhanh hơn 3x với Apple Silicon --- Hướng dẫn đầy đủ 2026'
 slug: ollama-mlx-apple-silicon-chay-ai-local-nhanh-hon-3x
 excerpt: Ollama 0.19 tích hợp MLX backend của Apple --- mang lại tốc độ decode nhanh hơn 93%, prefill nhanh hơn 57% trên M5. Phân tích kỹ thuật toàn diện về unified memory architecture, benchmark thực tế trên M1 đến M5, và hướng dẫn setup từng bước để tận dụng tối đa Apple Silicon của bạn.
-featured_image: /images/blog/ollama-mlx-featured.png
+featured_image: /images/blog/ollama-mlx-featured.webp
 type: blog
 reading_time: 18
 view_count: 0

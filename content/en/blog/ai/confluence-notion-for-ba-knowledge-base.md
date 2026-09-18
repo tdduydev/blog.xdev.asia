@@ -6,7 +6,7 @@ excerpt: >-
   BA use Confluence or Notion not just to store documents, but to create a single
   source of truth for the whole team. A guide to structuring spaces, BRD/FRD templates,
   linking requirements with Jira tickets, and managing an assumption log in AI projects.
-featured_image: /images/blog/confluence-notion-ba.png
+featured_image: /images/blog/confluence-notion-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

@@ -90,7 +90,7 @@ locale: zh-tw
 領域驅動設計 (DDD) 不僅僅是一種編寫程式碼的方法 - 它**將複雜的系統**分解為具有業務意義的部分。 DDD是決定**如何劃分微服務**和**如何劃分微前端**的基礎。如果分割不正確，您將擁有一個「分散式整體」—比原始整體更糟。
 
 
-![上下文映射 - DDD 中域之間的有界上下文和關係](/storage/uploads/2026/04/mfe-ms-diagram-bai2-bounded-context-map.png)
+![上下文映射 - DDD 中域之間的有界上下文和關係](/storage/uploads/2026/04/mfe-ms-diagram-bai2-bounded-context-map.webp)
 
 ---
 

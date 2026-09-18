@@ -91,7 +91,7 @@ locale: ja
 
 ## 1. ヘルスケア向けの API ゲートウェイ パターン
 
-![API Gateway Reference Architecture — WAF, Nginx, Quarkus Gateway](/storage/uploads/2026/04/healthcare-api-gateway-architecture.png)
+![API Gateway Reference Architecture — WAF, Nginx, Quarkus Gateway](/storage/uploads/2026/04/healthcare-api-gateway-architecture.webp)
 
 
 API ゲートウェイは、医療マイクロサービス システム全体の **単一のエントリ ポイント**として機能します。各サービスが独自に実装するのではなく、認証、レート制限、入力検証、監査ログ、セキュリティ ヘッダーなどの横断的な問題に焦点を当てています。

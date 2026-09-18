@@ -6,7 +6,7 @@ excerpt: >-
   Functional requirements say what the system does, while NFR says how well the
   system does it. This article guides BAs to write measurable NFRs, quality
   attribute scenarios, edge cases and review checklists before the sprint.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 12
 view_count: 0

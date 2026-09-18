@@ -6,7 +6,7 @@ excerpt: >-
   Functional requirement nói hệ thống làm gì, còn NFR nói hệ thống làm tốt đến mức nào.
   Bài này hướng dẫn BA viết NFR đo được, quality attribute scenario, edge cases và
   checklist review trước sprint.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 12
 view_count: 0

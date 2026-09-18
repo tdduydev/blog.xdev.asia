@@ -18,7 +18,7 @@ locale: ja
 
 <p>実稼働環境では、アプリケーションはコンテナー イメージに設定をハードコーディングするのではなく、外部環境から設定を読み取る必要があります。 Kubernetes は、一般的な構成データ用の <strong>ConfigMap</strong> と機密データ用の <strong>Secret</strong> という 2 つの特殊なメカニズムを提供します。このレッスンでは、保存時の暗号化と外部機密管理システムとの統合など、両方について詳しく説明します。</p>
 
-<img src="/storage/uploads/2026/03/k8s-configmaps-secrets-2026.png" alt="ConfigMaps & Secrets trong Kubernetes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-configmaps-secrets-2026.webp" alt="ConfigMaps & Secrets trong Kubernetes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>ConfigMaps: 構成データの管理</h2>
 

@@ -88,7 +88,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 13: ACHILLES — Data Characterization & Source Profiling](/storage/uploads/2026/03/ohdsi-bai-13-achilles.png)
+![Bài 13: ACHILLES — Data Characterization & Source Profiling](/storage/uploads/2026/03/ohdsi-bai-13-achilles.webp)
 
 ## Giới thiệu
 

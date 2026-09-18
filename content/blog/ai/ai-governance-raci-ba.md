@@ -6,7 +6,7 @@ excerpt: >-
   Khi AI sai, ai chịu trách nhiệm? Ai quyết định safety threshold? Khi cần escalation,
   đi qua ai? RACI matrix giúp BA define rõ roles, responsibilities, và decision rights
   cho mọi action liên quan AI — từ prompt change đến production release.
-featured_image: /images/blog/ai-governance-raci.png
+featured_image: /images/blog/ai-governance-raci.webp
 type: blog
 reading_time: 9
 view_count: 0

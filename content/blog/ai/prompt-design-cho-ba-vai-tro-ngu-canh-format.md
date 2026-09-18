@@ -7,7 +7,7 @@ excerpt: >-
   để dùng AI trong công việc hàng ngày và viết yêu cầu cho AI feature. Bài này hướng
   dẫn framework RPCF: Role, Purpose, Context, Format — cách BA thiết kế prompt có
   kiểm soát và lặp lại được.
-featured_image: /images/blog/prompt-design-ba.png
+featured_image: /images/blog/prompt-design-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

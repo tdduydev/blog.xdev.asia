@@ -7,7 +7,7 @@ excerpt: >-
   can act as a stakeholder simulator, mock interviewer, and devil's advocate for
   you 24/7. A guide to prompt templates, practice scenarios, and how to evaluate
   simulation quality for real improvement.
-featured_image: /images/blog/interview-simulation-ba.png
+featured_image: /images/blog/interview-simulation-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

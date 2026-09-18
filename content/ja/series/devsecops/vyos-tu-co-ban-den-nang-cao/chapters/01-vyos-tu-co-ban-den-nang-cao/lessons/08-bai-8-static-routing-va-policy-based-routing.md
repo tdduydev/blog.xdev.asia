@@ -15,7 +15,7 @@ course:
   title: VyOSの基礎から応用まで
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-08-routing-pbr.png" alt="Static Routing と Policy-Based Routing" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-08-routing-pbr.webp" alt="Static Routing と Policy-Based Routing" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS における Static Routing と Policy-Based Routing の概要</h2>
 <p>このレッスンでは、VyOS 1.4.x/1.5 rolling release での <strong>Static Routing</strong>（静的ルーティング）と <strong>Policy-Based Routing</strong>（ポリシーベースルーティング）の設定を解説します。これらは、ネットワーク内でパケット経路を制御するための重要な技術です。</p>

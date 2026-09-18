@@ -94,7 +94,7 @@ locale: en
 
 ## 1. SMART on FHIR Overview
 
-![SMART on FHIR Launch Flow — OAuth2/OIDC qua Keycloak cho EHR](/storage/uploads/2026/04/healthcare-smart-fhir-launch-flow.png)
+![SMART on FHIR Launch Flow — OAuth2/OIDC qua Keycloak cho EHR](/storage/uploads/2026/04/healthcare-smart-fhir-launch-flow.webp)
 
 ### 1.1. What is SMART?
 

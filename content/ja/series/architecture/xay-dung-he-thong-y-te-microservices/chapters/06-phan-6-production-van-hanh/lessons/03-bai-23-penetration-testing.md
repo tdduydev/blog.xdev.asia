@@ -20,13 +20,13 @@ locale: ja
 
 ## 1. 医療向けセキュリティテストの概要
 
-![Penetration Testing Lifecycle — Planning, Discovery, Attack, Reporting, Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.png)
+![Penetration Testing Lifecycle — Planning, Discovery, Attack, Reporting, Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.webp)
 
 ＃＃＃１．１． Pentest ヘルスケア システムが異なるのはなぜですか?
 
 医療システムのセキュリティテストには、従来のITシステムと比較して特別なアプローチが必要です。医療データには、病歴、遺伝コード、社会保険番号などの不変の情報が含まれているため、**ダークウェブ上で最も高い価値**があり、クレジット カードの 10 ～ 50 倍です。
 
-![Healthcare Security Testing — Unique Challenges: Regulatory, Data Sensitivity, System Availability](/storage/uploads/2026/04/healthcare-pentest-constraints.png)
+![Healthcare Security Testing — Unique Challenges: Regulatory, Data Sensitivity, System Availability](/storage/uploads/2026/04/healthcare-pentest-constraints.webp)
 
 |チャレンジ |詳細 |
 |----------|----------|
@@ -38,7 +38,7 @@ locale: ja
 
 ＃＃＃１．２．医療セキュリティ テスト フレームワーク
 
-![Healthcare Security Testing Lifecycle — 5 phases: Planning → Discovery → Attack → Reporting → Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.png)
+![Healthcare Security Testing Lifecycle — 5 phases: Planning → Discovery → Attack → Reporting → Remediation](/storage/uploads/2026/04/healthcare-pentest-lifecycle.webp)
 
 **5 フェーズ:**
 

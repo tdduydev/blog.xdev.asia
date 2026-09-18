@@ -15,7 +15,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-13-ha-vrrp.png" alt="High Availability - VRRP and Conntrack Sync" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-13-ha-vrrp.webp" alt="High Availability - VRRP and Conntrack Sync" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>High Availability on VyOS: VRRP and Conntrack Sync</h2>
 <p>High availability (HA) is a critical requirement in network systems. VyOS supports VRRP (Virtual Router Redundancy Protocol) and conntrack-sync to synchronize NAT/connection state between nodes.</p>

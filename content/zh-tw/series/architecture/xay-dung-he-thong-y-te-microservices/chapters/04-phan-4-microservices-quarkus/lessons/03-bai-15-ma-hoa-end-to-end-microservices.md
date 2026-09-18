@@ -89,13 +89,13 @@ locale: zh-tw
 
 ## 1. 醫療保健端對端加密概述
 
-![醫療保健微服務中的端對端加密 - 信封加密、Vault、Kafka](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.png)
+![醫療保健微服務中的端對端加密 - 信封加密、Vault、Kafka](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.webp)
 
 在醫療微服務系統中，PHI 資料經過**多層**：從客戶端 → API 閘道 → 服務 → Kafka → 資料庫。端對端加密可確保資料在每個點**始終受到保護** — 不僅是傳輸中 (TLS)，還包括靜態和使用中的資料。
 
 ### 1.1。加密架構
 
-![端對端加密架構 - 客戶端 → API 閘道 → 服務 → 帶有 Vault 的資料庫](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.png)
+![端對端加密架構 - 客戶端 → API 閘道 → 服務 → 帶有 Vault 的資料庫](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.webp)
 
 **加密流程：**
 
@@ -272,7 +272,7 @@ CREATE INDEX idx_blind_hash ON healthcare.patients_blind_index(field_name, blind
 
 ### 3.1。信封加密模式
 
-![信封加密模式 — DEK + KEK 與 Vault Transit](/storage/uploads/2026/04/healthcare-envelope-encryption.png)
+![信封加密模式 — DEK + KEK 與 Vault Transit](/storage/uploads/2026/04/healthcare-envelope-encryption.webp)
 
 **流程：**
 

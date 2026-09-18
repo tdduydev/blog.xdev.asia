@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai2-ml-lifecycle-pipeline.png" alt="AWSにおけるML開発ライフサイクルパイプライン" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai2-ml-lifecycle-pipeline.webp" alt="AWSにおけるML開発ライフサイクルパイプライン" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>ML開発ライフサイクルパイプラインとAWS AI/MLサービススタック</em></p>
 </div>
 

@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-kcna
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai7-cloud-native.png" alt="雲原生架構 — 微服務 vs 單體式、12-Factor App" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai7-cloud-native.webp" alt="雲原生架構 — 微服務 vs 單體式、12-Factor App" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="cloud-native">1. 雲原生 — CNCF 定義</h2>
 

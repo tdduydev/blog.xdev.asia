@@ -6,7 +6,7 @@ excerpt: >-
   BA dành quá nhiều giờ để cập nhật ticket, tạo sub-task, và follow up status
   thủ công. Jira Automation và Azure DevOps Rules có thể lo phần lớn việc đó.
   Hướng dẫn thực tế các rule automation quan trọng nhất cho BA trong dự án AI.
-featured_image: /images/blog/jira-devops-automation.png
+featured_image: /images/blog/jira-devops-automation.webp
 type: blog
 reading_time: 12
 view_count: 0

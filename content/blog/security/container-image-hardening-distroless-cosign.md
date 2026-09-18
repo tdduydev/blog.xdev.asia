@@ -6,7 +6,7 @@ excerpt: >-
   Một image production tốt phải nhỏ, không root, không shell, được scan và sign.
   Bài viết tổng hợp kỹ thuật hardening Docker/OCI image kèm workflow ký Cosign
   keyless với OIDC GitHub.
-featured_image: /images/blog/container-hardening-cosign-featured.png
+featured_image: /images/blog/container-hardening-cosign-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

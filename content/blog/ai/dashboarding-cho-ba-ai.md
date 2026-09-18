@@ -6,7 +6,7 @@ excerpt: >-
   BA cần dashboard để chứng minh AI feature có value, theo dõi sức khỏe sau
   go-live, và report cho stakeholder. Hướng dẫn xây dashboard với Looker Studio,
   Power BI và Metabase — tập trung vào business metrics và AI quality metrics.
-featured_image: /images/blog/dashboarding-ba.png
+featured_image: /images/blog/dashboarding-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

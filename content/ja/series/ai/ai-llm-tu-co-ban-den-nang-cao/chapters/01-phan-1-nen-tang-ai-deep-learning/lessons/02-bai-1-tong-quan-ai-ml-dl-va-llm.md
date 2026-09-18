@@ -119,7 +119,7 @@ locale: ja
 
 多くの人がこれらの用語を同じ意味で使用していますが、これらは入れ子になっており、同義ではありません。
 
-![AI、機械学習、深層学習、LLM の間の入れ子になった関係の図](/storage/uploads/2026/03/ai-ml-dl-llm-diagram.png)
+![AI、機械学習、深層学習、LLM の間の入れ子になった関係の図](/storage/uploads/2026/03/ai-ml-dl-llm-diagram.webp)
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -199,7 +199,7 @@ ChatGPT は単に GPT-3 を大きくしたものではありません。その�
 
 ## 5. このシリーズのロードマップ
 
-![基礎から実践までの学習パス](/storage/uploads/2026/03/ai-series-roadmap.png)
+![基礎から実践までの学習パス](/storage/uploads/2026/03/ai-series-roadmap.webp)
 
 このシリーズは 5 つの主要な部分に分かれています。
 

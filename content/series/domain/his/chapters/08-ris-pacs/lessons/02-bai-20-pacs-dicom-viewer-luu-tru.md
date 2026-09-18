@@ -8,7 +8,7 @@ description: >-
   trữ theo TT 56.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-20-pacs-dicom-viewer-luu-tru-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-20-pacs-dicom-viewer-luu-tru-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 8: Chẩn đoán hình ảnh (RIS / PACS)"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![PACS — lưu trữ và xem DICOM](/storage/uploads/2026/05/his/bai-20-pacs-dicom-viewer-luu-tru-banner.png)
+![PACS — lưu trữ và xem DICOM](/storage/uploads/2026/05/his/bai-20-pacs-dicom-viewer-luu-tru-banner.webp)
 
 ## Vai trò PACS
 
-![Workstation PACS với so sánh prior/current](/storage/uploads/2026/05/his/bai-20-pacs-dicom-viewer-luu-tru-workflow.png)
+![Workstation PACS với so sánh prior/current](/storage/uploads/2026/05/his/bai-20-pacs-dicom-viewer-luu-tru-workflow.webp)
 
 
 ## Mục tiêu bài học

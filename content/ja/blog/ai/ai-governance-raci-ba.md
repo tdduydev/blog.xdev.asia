@@ -6,7 +6,7 @@ excerpt: >-
   AI 機能が誤った結果を生成すると、まず「誰がレビューする？誰が受け入れるか拒否するか決定する？」という質問が生じます。
   最初から明確な RACI がない場合、チームは混乱し、遅延が発生し、最悪の場合は全員が「私の仕事ではない」と思います。
   このガイドは BA が AI 機能のガバナンス フレームワークを構築する方法を教えます。
-featured_image: /images/blog/ai-governance-raci.png
+featured_image: /images/blog/ai-governance-raci.webp
 type: blog
 reading_time: 9
 view_count: 0

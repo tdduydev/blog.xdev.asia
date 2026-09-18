@@ -15,7 +15,7 @@ course:
 ---
 ## Lịch sử phát triển FHIR đến R5: Hành trình của một tiêu chuẩn đột phá
 
-![HL7 FHIR R5](/storage/uploads/hl7-r5/root/image_2_.png)
+![HL7 FHIR R5](/storage/uploads/hl7-r5/root/image_2_.webp)
 
 FHIR (Fast Healthcare Interoperability Resources) đã trải qua một hành trình phát triển đáng kinh ngạc kể từ khi ra đời. Bài viết này sẽ đưa bạn qua quá trình tiến hóa của FHIR từ những ngày đầu cho đến phiên bản R5 hiện tại, đồng thời nhìn về tương lai của tiêu chuẩn này.
 
@@ -88,7 +88,7 @@ R5 được phát hành vào tháng 3/2023, đánh dấu sự trưởng thành �
 
 ### Roadmap tương lai sau R5
 
-![HL7 FHIR R5](/storage/uploads/hl7-r5/root/image_1_1_1_.png)
+![HL7 FHIR R5](/storage/uploads/hl7-r5/root/image_1_1_1_.webp)
 
 Sau R5, cộng đồng FHIR đã vạch ra một lộ trình phát triển đầy tham vọng:
 
@@ -117,7 +117,7 @@ Sau R5, cộng đồng FHIR đã vạch ra một lộ trình phát triển đầ
 
 ### Các phần Normative trong R5
 
-![Đây là danh sách không đầy đủ của một số tài nguyên quan trọng](/storage/uploads/hl7-r5/root/image_2_1_.png)
+![Đây là danh sách không đầy đủ của một số tài nguyên quan trọng](/storage/uploads/hl7-r5/root/image_2_1_.webp)
 
 *Đây là danh sách không đầy đủ của một số tài nguyên quan trọng*
 
@@ -158,7 +158,7 @@ Việc mở rộng phạm vi Normative trong R5 là yếu tố quan trọng tạ
 
 ### Sự chuyển đổi giữa các phiên bản
 
-![FHIR Version Migration](/storage/uploads/hl7-r5/root/image_3_.png)
+![FHIR Version Migration](/storage/uploads/hl7-r5/root/image_3_.webp)
 
 *FHIR Version Migration*
 

@@ -90,13 +90,13 @@ locale: zh-tw
 
 ## 1. 零信任架構概述
 
-![醫療保健系統的零信任架構 - 微分段、OPA、Keycloak](/storage/uploads/2026/04/healthcare-zero-trust-architecture.png)
+![醫療保健系統的零信任架構 - 微分段、OPA、Keycloak](/storage/uploads/2026/04/healthcare-zero-trust-architecture.webp)
 
 ### 1.1。為什麼醫療保健需要零信任？
 
 基於**外圍安全**的傳統安全模型—「信任防火牆內的一切」—不再適合現代醫療保健系統。隨著遠距醫療、物聯網醫療設備、雲端採用和醫生遠端存取的興起，**邊界不再明顯存在**。
 
-![傳統外圍安全與零信任 — 安全模型比較](/storage/uploads/2026/04/healthcare-zero-trust-vs-perimeter.png)
+![傳統外圍安全與零信任 — 安全模型比較](/storage/uploads/2026/04/healthcare-zero-trust-vs-perimeter.webp)
 
 **週邊安全問題：**
 
@@ -153,7 +153,7 @@ NIST 特別出版物 800-207 將**零信任架構** (ZTA) 定義為基於以下�
 
 ### 2.1。醫療保健 ZTA 概述
 
-![零信任架構 — 具有 PE​​P、策略引擎、微分段服務的醫院系統](/storage/uploads/2026/04/healthcare-zero-trust-architecture.png)
+![零信任架構 — 具有 PE​​P、策略引擎、微分段服務的醫院系統](/storage/uploads/2026/04/healthcare-zero-trust-architecture.webp)
 
 **層數：**
 
@@ -835,7 +835,7 @@ public class DeviceTrustService {
 
 ### 6.1。醫療保健中的 OPA 架構 ZTA
 
-![OPA Policy Architecture — Bundle Server → OPA Server → Healthcare Services](/storage/uploads/2026/04/healthcare-opa-policy-engine.png)
+![OPA Policy Architecture — Bundle Server → OPA Server → Healthcare Services](/storage/uploads/2026/04/healthcare-opa-policy-engine.webp)
 
 **組件：**
 
@@ -1331,7 +1331,7 @@ data:
 
 ### 10.1。以資料為中心的零信任
 
-![Zero Trust Data Protection Layers — Classify, Encrypt, Control, Monitor](/storage/uploads/2026/04/healthcare-data-zero-trust-layers.png)
+![Zero Trust Data Protection Layers — Classify, Encrypt, Control, Monitor](/storage/uploads/2026/04/healthcare-data-zero-trust-layers.webp)
 
 **第 1 層：將所有內容分類**
 

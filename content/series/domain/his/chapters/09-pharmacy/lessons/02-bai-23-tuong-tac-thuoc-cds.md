@@ -7,7 +7,7 @@ description: >-
   tránh "alert fatigue" cho bác sĩ.
 duration_minutes: 45
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-23-tuong-tac-thuoc-cds-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-23-tuong-tac-thuoc-cds-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 9: Dược (Pharmacy)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Tương tác thuốc & CDS cảnh báo](/storage/uploads/2026/05/his/bai-23-tuong-tac-thuoc-cds-banner.png)
+![Tương tác thuốc & CDS cảnh báo](/storage/uploads/2026/05/his/bai-23-tuong-tac-thuoc-cds-banner.webp)
 
 ## Các loại tương tác
 
-![Cảnh báo DDI severity nghiêm trọng trên màn hình kê đơn](/storage/uploads/2026/05/his/bai-23-tuong-tac-thuoc-cds-workflow.png)
+![Cảnh báo DDI severity nghiêm trọng trên màn hình kê đơn](/storage/uploads/2026/05/his/bai-23-tuong-tac-thuoc-cds-workflow.webp)
 
 
 ## Mục tiêu bài học

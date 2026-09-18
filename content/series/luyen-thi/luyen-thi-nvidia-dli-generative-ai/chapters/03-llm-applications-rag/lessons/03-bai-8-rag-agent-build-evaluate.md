@@ -101,7 +101,7 @@ ReAct Agent Loop — RAG Agent Decision Flow
 </tbody>
 </table>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai8-rag-agent-evaluation.png" alt="RAG Agent với Evaluation — Agent Loop, Tools, LLM-as-Judge Metrics" loading="lazy" /><figcaption>RAG Agent với Evaluation — Agent Loop, Tools, LLM-as-Judge Metrics</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai8-rag-agent-evaluation.webp" alt="RAG Agent với Evaluation — Agent Loop, Tools, LLM-as-Judge Metrics" loading="lazy" /><figcaption>RAG Agent với Evaluation — Agent Loop, Tools, LLM-as-Judge Metrics</figcaption></figure>
 
 <h2 id="2-build-rag-agent-langchain">2. Build a RAG Agent với LangChain</h2>
 

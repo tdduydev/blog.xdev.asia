@@ -89,7 +89,7 @@ locale: ja
 
 ## 1. 医療環境のための MFA 戦略
 
-![医療従事者向けの MFA マトリックス — パスキー、TOTP、緊急アクセス](/storage/uploads/2026/04/healthcare-mfa-decision-matrix.png)
+![医療従事者向けの MFA マトリックス — パスキー、TOTP、緊急アクセス](/storage/uploads/2026/04/healthcare-mfa-decision-matrix.webp)
 
 ＃＃＃１．１．病院における MFA チャレンジ
 

@@ -7,7 +7,7 @@ excerpt: >-
   requirements. This article shows how to apply SWOT, PESTLE, Impact Mapping, and
   Value Stream Mapping for strategic analysis, especially when organizations are
   implementing AI features.
-featured_image: /images/blog/strategy-analysis-swot.png
+featured_image: /images/blog/strategy-analysis-swot.webp
 type: blog
 reading_time: 13
 view_count: 0

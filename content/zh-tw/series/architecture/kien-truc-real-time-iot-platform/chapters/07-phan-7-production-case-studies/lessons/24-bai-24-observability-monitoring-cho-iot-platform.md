@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 24 課：物聯網平台的可觀測性與監控](/storage/uploads/2026/03/iot-bai-24-diagram.png)
+![第 24 課：物聯網平台的可觀測性與監控](/storage/uploads/2026/03/iot-bai-24-diagram.webp)
 
 ## 簡介
 

@@ -7,7 +7,7 @@ description: >-
   quả, trả về EMR. Critical value & delta check.
 duration_minutes: 60
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-17-lis-luong-xet-nghiem-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-17-lis-luong-xet-nghiem-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 7: Xét nghiệm (LIS)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![LIS — luồng xét nghiệm end-to-end](/storage/uploads/2026/05/his/bai-17-lis-luong-xet-nghiem-banner.png)
+![LIS — luồng xét nghiệm end-to-end](/storage/uploads/2026/05/his/bai-17-lis-luong-xet-nghiem-banner.webp)
 
 ## Tổng quan luồng LIS
 
-![Mẫu máu từ lấy → analyzer → kết quả với critical value](/storage/uploads/2026/05/his/bai-17-lis-luong-xet-nghiem-workflow.png)
+![Mẫu máu từ lấy → analyzer → kết quả với critical value](/storage/uploads/2026/05/his/bai-17-lis-luong-xet-nghiem-workflow.webp)
 
 
 ## Mục tiêu bài học

@@ -89,7 +89,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Lesson 7: OMOP CDM Database on PostgreSQL](/storage/uploads/2026/03/ohdsi-bai-7-postgresql-cdm-setup.png)
+![Lesson 7: OMOP CDM Database on PostgreSQL](/storage/uploads/2026/03/ohdsi-bai-7-postgresql-cdm-setup.webp)
 
 ## Introduction
 

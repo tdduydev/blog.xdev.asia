@@ -6,7 +6,7 @@ excerpt: >-
   良好的防禦需要三件事:結構化日誌、對應到 ATT&CK 的偵測規則,以及演練過的 IR
   runbook。本文整理 DevSecOps 團隊如何打造 detection-as-code 計畫與
   blameless 的 post-mortem。
-featured_image: /images/blog/detection-ir-devsecops-featured.png
+featured_image: /images/blog/detection-ir-devsecops-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

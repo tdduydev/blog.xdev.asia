@@ -15,7 +15,7 @@ course:
   slug: vyos-tu-co-ban-den-nang-cao
 locale: zh-tw
 ---
-<img src="/storage/uploads/2026/04/vyos-15-automation.png" alt="容器、自動化和生產環境最佳實踐" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-15-automation.webp" alt="容器、自動化和生產環境最佳實踐" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS上的容器、自動化和生產環境最佳實踐</h2>
 <p>VyOS 1.4/1.5支援容器（Podman），允許執行輔助服務、exporter、監控。此外，VyOS提供API、支援Ansible、備份、升級以及生產環境的最佳實踐。</p>

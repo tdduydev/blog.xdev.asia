@@ -18,7 +18,7 @@ locale: en
 
 <p>In a production environment, the application needs to read the configuration from the external environment instead of hardcoding it into the container image. Kubernetes provides two specialized mechanisms: <strong>ConfigMap</strong> for common configuration data and <strong>Secret</strong> for sensitive data. This lesson dives into both, including at-rest encryption and integration with external secret management systems.</p>
 
-<img src="/storage/uploads/2026/03/k8s-configmaps-secrets-2026.png" alt="ConfigMaps & Secrets trong Kubernetes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-configmaps-secrets-2026.webp" alt="ConfigMaps & Secrets trong Kubernetes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>ConfigMaps: Managing Configuration Data</h2>
 

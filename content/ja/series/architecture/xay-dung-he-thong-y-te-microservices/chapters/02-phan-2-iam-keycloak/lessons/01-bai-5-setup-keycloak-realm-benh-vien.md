@@ -89,13 +89,13 @@ locale: ja
 
 ## 1. 医療システムのマルチテナント戦略
 
-![複数分院病院システム用のKeycloak Realmアーキテクチャ](/storage/uploads/2026/04/healthcare-keycloak-realm-architecture.png)
+![複数分院病院システム用のKeycloak Realmアーキテクチャ](/storage/uploads/2026/04/healthcare-keycloak-realm-architecture.webp)
 
 ＃＃＃１．１． Keycloakを使用したマルチテナントモデル
 
 多くの病院/診療所の医療システムを構築する場合、次の 3 つの戦略があります。
 
-![3 複数病院システムのための Keycloak マルチテナント戦略](/storage/uploads/2026/04/healthcare-keycloak-multitenancy.png)
+![3 複数病院システムのための Keycloak マルチテナント戦略](/storage/uploads/2026/04/healthcare-keycloak-multitenancy.webp)
 
 |戦略 |モデル |隔離 |適切 |
 |----------|----------|----------|----------|
@@ -432,7 +432,7 @@ Realm Roles:
 
 病院には共有ワークステーションがあることが多く、多くの医師や看護師が 1 台のコンピュータを共有しています。解決策:
 
-![病院の共有ワークステーションでの 3 つの認証オプション](/storage/uploads/2026/04/healthcare-shared-workstation-auth.png)
+![病院の共有ワークステーションでの 3 つの認証オプション](/storage/uploads/2026/04/healthcare-shared-workstation-auth.webp)
 
 |オプション |メカニズム |利点 |制限事項 |
 |----------|----------|----------|----------|

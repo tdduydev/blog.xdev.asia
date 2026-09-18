@@ -7,7 +7,7 @@ description: >-
   ICD-10 thông minh, snippets / phrases để bác sĩ ghi chép nhanh & chuẩn.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-8-sinh-hieu-template-icd10-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-8-sinh-hieu-template-icd10-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 3: Khám ngoại trú (OPD)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Sinh hiệu, template khám & ICD-10](/storage/uploads/2026/05/his/bai-8-sinh-hieu-template-icd10-banner.png)
+![Sinh hiệu, template khám & ICD-10](/storage/uploads/2026/05/his/bai-8-sinh-hieu-template-icd10-banner.webp)
 
 ## Mục tiêu
 
-![Đo sinh hiệu, ghi chú template, gắn mã ICD-10](/storage/uploads/2026/05/his/bai-8-sinh-hieu-template-icd10-workflow.png)
+![Đo sinh hiệu, ghi chú template, gắn mã ICD-10](/storage/uploads/2026/05/his/bai-8-sinh-hieu-template-icd10-workflow.webp)
 
 Đây là 3 lớp kỹ thuật cốt lõi quyết định **tốc độ + chất lượng nhập liệu** của BS OPD: vital signs (đầu vào tự động), template SOAP (cấu trúc văn bản), và ICD-10 (mã chuẩn). Làm tốt 3 lớp này → BS giảm 50 % thời gian gõ phím, tăng 90 % độ đầy đủ hồ sơ, giảm xuất toán BHYT.
 

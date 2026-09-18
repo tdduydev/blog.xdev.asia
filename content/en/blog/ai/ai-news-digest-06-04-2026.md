@@ -4,7 +4,7 @@ title: "AI News Digest 6/4/2026: Copilot Is 'For Entertainment Only', Japan Bets
 slug: ai-news-digest-06-04-2026
 excerpt: >-
   A week of surprising developments: Microsoft admits Copilot is "for entertainment only" in its terms of service, Japan commits $6.3 billion to Physical AI targeting a 30% global market share, Cognichip raises $60M to let AI design chips, and Anthropic accidentally takes down 8,100 GitHub repositories.
-featured_image: /images/blog/ban-tin-ai-06-04-2026.png
+featured_image: /images/blog/ban-tin-ai-06-04-2026.webp
 type: blog
 reading_time: 10
 view_count: 0

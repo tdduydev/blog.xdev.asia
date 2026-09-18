@@ -6,7 +6,7 @@ excerpt: >-
   Business Case là tài liệu giúp BA justify investment cho một AI project. Bài viết này
   cung cấp template đầy đủ và giải thích từng phần, từ problem statement, options analysis,
   benefits, costs đến risk assessment.
-featured_image: /images/blog/business-case-template-ba.png
+featured_image: /images/blog/business-case-template-ba.webp
 type: blog
 reading_time: 12
 view_count: 0
@@ -260,7 +260,7 @@ excerpt: >-
   Business Case là tài liệu BA cần viết để justify investment vào một AI project.
   Bài này cung cấp template đầy đủ và hướng dẫn từng phần — từ problem statement
   đến financial analysis đến risk assessment.
-featured_image: /images/blog/business-case-template-ba.png
+featured_image: /images/blog/business-case-template-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

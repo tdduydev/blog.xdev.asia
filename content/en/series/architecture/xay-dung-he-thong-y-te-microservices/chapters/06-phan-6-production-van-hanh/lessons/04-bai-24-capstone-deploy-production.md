@@ -94,7 +94,7 @@ locale: en
 
 ## 1. Introducing the Capstone Project
 
-![Production Deployment — Healthcare Platform on Kubernetes with HIPAA Compliance](/storage/uploads/2026/04/healthcare-production-deployment.png)
+![Production Deployment — Healthcare Platform on Kubernetes with HIPAA Compliance](/storage/uploads/2026/04/healthcare-production-deployment.webp)
 
 ### 1.1. Target
 
@@ -138,7 +138,7 @@ We will build a **Hospital Management System** (Hospital Management System — H
 
 ### 2.1. System Architecture
 
-![Capstone Healthcare Platform Architecture](/storage/uploads/2026/04/healthcare-capstone-architecture.png)
+![Capstone Healthcare Platform Architecture](/storage/uploads/2026/04/healthcare-capstone-architecture.webp)
 
 **3-layer security architecture:**
 

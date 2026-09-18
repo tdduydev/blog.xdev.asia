@@ -6,7 +6,7 @@ excerpt: >-
   After xz, npm typosquats and build poisoning, supply chain attacks have
   become the most common vector. SLSA + SBOM + Sigstore is the open trio of
   standards that lets you prove where, how and by whom an artifact was built.
-featured_image: /images/blog/supply-chain-slsa-sigstore-featured.png
+featured_image: /images/blog/supply-chain-slsa-sigstore-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

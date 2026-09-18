@@ -4,7 +4,7 @@ title: "BA 認證資格：選擇 ECBA、CBAP、IIBA-AAC 或 PMI-PBA？從入門�
 slug: ba-certification-ecba-cbap-iiba-aac
 excerpt: >-
   太多 BA 認證資格——ECBA、CCBA、CBAP、IIBA-AAC、IIBA-CBDA、PMI-PBA、BCS。哪個適合你？本指南按前置條件、實際價值、市場需求分析各個資格，幫你根據現有等級計畫 12 個月路線圖。
-featured_image: /images/blog/ba-certification-roadmap.png
+featured_image: /images/blog/ba-certification-roadmap.webp
 type: blog
 reading_time: 10
 view_count: 0

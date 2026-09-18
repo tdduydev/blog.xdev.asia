@@ -6,7 +6,7 @@ excerpt: >-
   Tắt parameter sniffing bằng trace flag 4136 là cách chữa dân DBA làm mười mấy năm nay. Nhưng
   tài liệu Microsoft ghi rõ: parameter sniffing bị tắt thì PSPO của bản 2022 cũng tắt theo. Băng
   cũ chặn mất thuốc mới. Bài này cũng đính chính chỗ tôi nói chưa đủ về optimized locking.
-featured_image: /images/blog/chan-nhau-parameter-sniffing/cover.png
+featured_image: /images/blog/chan-nhau-parameter-sniffing/cover.webp
 type: blog
 reading_time: 15
 view_count: 0

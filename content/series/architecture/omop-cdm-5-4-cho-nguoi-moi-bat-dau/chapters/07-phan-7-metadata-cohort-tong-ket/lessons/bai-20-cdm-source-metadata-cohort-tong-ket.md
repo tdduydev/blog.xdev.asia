@@ -44,7 +44,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Tổng quan toàn bộ OMOP CDM 5.4 — 37 bảng, 7 nhóm](/storage/uploads/2026/04/omop-cdm-bai20-complete-overview.png)
+![Tổng quan toàn bộ OMOP CDM 5.4 — 37 bảng, 7 nhóm](/storage/uploads/2026/04/omop-cdm-bai20-complete-overview.webp)
 
 ## Giới thiệu
 

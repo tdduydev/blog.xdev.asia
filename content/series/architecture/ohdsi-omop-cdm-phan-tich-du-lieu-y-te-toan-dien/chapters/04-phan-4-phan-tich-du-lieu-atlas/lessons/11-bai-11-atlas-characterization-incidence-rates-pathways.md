@@ -88,7 +88,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Bài 11: Characterization, Incidence Rates & Pathways](/storage/uploads/2026/03/ohdsi-bai-11-characterization-ir-pathways.png)
+![Bài 11: Characterization, Incidence Rates & Pathways](/storage/uploads/2026/03/ohdsi-bai-11-characterization-ir-pathways.webp)
 
 ## Giới thiệu
 

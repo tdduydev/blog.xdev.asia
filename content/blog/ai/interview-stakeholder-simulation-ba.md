@@ -7,7 +7,7 @@ excerpt: >-
   làm stakeholder simulation, mock interview, và devil's advocate cho bạn 24/7.
   Hướng dẫn prompt templates, practice scenarios, và cách evaluate chất lượng
   simulation để cải thiện thực sự.
-featured_image: /images/blog/interview-simulation-ba.png
+featured_image: /images/blog/interview-simulation-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

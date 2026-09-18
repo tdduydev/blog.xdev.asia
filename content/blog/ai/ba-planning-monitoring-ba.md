@@ -6,7 +6,7 @@ excerpt: >-
   BA Planning không chỉ là ghi scope vào template. Trong dự án AI, kế hoạch BA cần
   tích hợp checkpoint iterative, tracking assumption về data/model, và escalation path
   khi AI feature drift so với yêu cầu. Hướng dẫn thực tế với BA Monitoring Framework.
-featured_image: /images/blog/ba-planning-monitoring.png
+featured_image: /images/blog/ba-planning-monitoring.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -98,7 +98,7 @@ LLM Evaluation Pipeline — From Data to Decision
 
 <blockquote><p><strong>Exam tip:</strong> DLI assessments often ask "Which evaluation method is best for X?" — remember: <strong>BLEU</strong> for translation, <strong>ROUGE</strong> for summarization, <strong>F1</strong> for QA, <strong>LLM-as-a-Judge</strong> for overall quality. No single metric works for every task.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai10-lora-fine-tuning.png" alt="LoRA Fine-tuning — Low-Rank Adaptation, QLoRA, Evaluation Metrics Dashboard" loading="lazy" /><figcaption>LoRA Fine-tuning — Low-Rank Adaptation, QLoRA, Evaluation Metrics Dashboard</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai10-lora-fine-tuning.webp" alt="LoRA Fine-tuning — Low-Rank Adaptation, QLoRA, Evaluation Metrics Dashboard" loading="lazy" /><figcaption>LoRA Fine-tuning — Low-Rank Adaptation, QLoRA, Evaluation Metrics Dashboard</figcaption></figure>
 
 <h2 id="2-automated-metrics-deep-dive">2. Automated Metrics Deep-Dive</h2>
 

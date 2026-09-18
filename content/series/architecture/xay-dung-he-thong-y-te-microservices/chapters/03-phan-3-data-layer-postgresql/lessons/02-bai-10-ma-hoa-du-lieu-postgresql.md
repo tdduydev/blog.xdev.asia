@@ -91,13 +91,13 @@ course:
 
 ## 1. Tổng quan Encryption cho Dữ liệu Y Tế
 
-![4 lớp mã hóa dữ liệu y tế: Disk, TDE, Column, Application](/storage/uploads/2026/04/healthcare-encryption-layers.png)
+![4 lớp mã hóa dữ liệu y tế: Disk, TDE, Column, Application](/storage/uploads/2026/04/healthcare-encryption-layers.webp)
 
 Dữ liệu y tế (PHI) yêu cầu mã hóa ở **hai trạng thái**: at-rest (khi lưu trữ) và in-transit (khi truyền). HIPAA Security Rule §164.312(a)(2)(iv) và §164.312(e)(2)(ii) quy định cụ thể về encryption requirements.
 
 ### 1.1. Encryption Layers
 
-![Các lớp mã hóa dữ liệu y tế — In-Transit, At-Rest (4 levels), Backup](/storage/uploads/2026/04/healthcare-encryption-layers.png)
+![Các lớp mã hóa dữ liệu y tế — In-Transit, At-Rest (4 levels), Backup](/storage/uploads/2026/04/healthcare-encryption-layers.webp)
 
 - **In-Transit**: TLS 1.3 giữa Application và Database
 - **At-Rest Level 1**: Full Disk Encryption (LUKS/dm-crypt) — bảo vệ khi disk bị đánh cắp
@@ -541,7 +541,7 @@ public class SslVerificationService {
 
 ### 5.1. Vault Transit Secrets Engine
 
-![Envelope Encryption Pattern với Vault Transit — DEK + KEK](/storage/uploads/2026/04/healthcare-vault-envelope-encryption.png)
+![Envelope Encryption Pattern với Vault Transit — DEK + KEK](/storage/uploads/2026/04/healthcare-vault-envelope-encryption.webp)
 
 **Quy trình Envelope Encryption:**
 
@@ -926,7 +926,7 @@ echo "Restore completed from: ${BACKUP_FILE}"
 
 ### 8.1. Quy trình Key Rotation
 
-![Key Rotation Timeline — v1 → v2 → v3 mỗi 90 ngày với Vault auto-rotation](/storage/uploads/2026/04/healthcare-key-rotation-timeline.png)
+![Key Rotation Timeline — v1 → v2 → v3 mỗi 90 ngày với Vault auto-rotation](/storage/uploads/2026/04/healthcare-key-rotation-timeline.webp)
 
 - **Day 0–90**: Key v1 active — encrypt new data
 - **Day 90–180**: Key v2 active — re-encrypt old data, v1 vẫn decrypt được

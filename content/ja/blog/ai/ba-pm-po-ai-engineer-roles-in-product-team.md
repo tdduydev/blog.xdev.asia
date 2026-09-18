@@ -4,7 +4,7 @@ title: "BA、PO、PM、AIエンジニア：AI時代のプロダクトチーム�
 slug: ba-pm-po-ai-engineer-roles-in-product-team
 excerpt: >-
   現代のプロダクトチームにおけるBA、プロダクトオーナー、プロダクトマネージャー、AIエンジニアの役割を明確に解説します。受け入れ基準を書くのは誰か？ロードマップを決めるのは誰か？AI機能が失敗したとき誰が責任を負うのか？AI時代に正しくポジショニングしたいBAのための実践ガイドです。
-featured_image: /images/blog/ba-roles-ai-team.png
+featured_image: /images/blog/ba-roles-ai-team.webp
 type: blog
 reading_time: 12
 view_count: 0

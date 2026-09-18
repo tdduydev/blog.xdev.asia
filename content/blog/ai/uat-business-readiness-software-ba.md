@@ -5,7 +5,7 @@ slug: uat-business-readiness-software-ba
 excerpt: >-
   UAT không chỉ là cho user test vài màn hình. Bài này hướng dẫn BA lập UAT plan, chọn
   scenario, chuẩn bị test data, quản lý defect, training, rollout và quyết định go/no-go.
-featured_image: /images/blog/uat-business-readiness-ai.png
+featured_image: /images/blog/uat-business-readiness-ai.webp
 type: blog
 reading_time: 12
 view_count: 0

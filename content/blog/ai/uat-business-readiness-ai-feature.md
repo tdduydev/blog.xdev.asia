@@ -7,7 +7,7 @@ excerpt: >-
   vụ mà còn phải test AI output quality, edge cases, bias, và khả năng người dùng
   thực sự tin tưởng AI. Hướng dẫn đầy đủ từ UAT plan, business readiness checklist
   đến go/no-go decision framework cho BA.
-featured_image: /images/blog/uat-business-readiness-ai.png
+featured_image: /images/blog/uat-business-readiness-ai.webp
 type: blog
 reading_time: 10
 view_count: 0

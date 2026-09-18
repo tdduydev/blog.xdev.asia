@@ -90,7 +90,7 @@ locale: ja
 
 ## 1. ヘルスケアにおける RBAC と ABAC
 
-![4 層のアクセス制御アーキテクチャ: RBAC、ABAC、RLS、患者の同意](/storage/uploads/2026/04/healthcare-rbac-abac-layers.png)
+![4 層のアクセス制御アーキテクチャ: RBAC、ABAC、RLS、患者の同意](/storage/uploads/2026/04/healthcare-rbac-abac-layers.webp)
 
 ＃＃＃１．１．役割ベースのアクセス制御 (RBAC)
 

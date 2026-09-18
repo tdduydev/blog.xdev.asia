@@ -6,7 +6,7 @@ excerpt: >-
   Requirement thay đổi là bình thường, nhưng thay đổi không kiểm soát sẽ phá sprint,
   scope, test và release. Bài này hướng dẫn BA quản trị baseline, change request,
   impact analysis, sign-off và traceability trong môi trường Agile lẫn dự án truyền thống.
-featured_image: /images/blog/ba-planning-monitoring-ai-projects.png
+featured_image: /images/blog/ba-planning-monitoring-ai-projects.webp
 type: blog
 reading_time: 16
 view_count: 0

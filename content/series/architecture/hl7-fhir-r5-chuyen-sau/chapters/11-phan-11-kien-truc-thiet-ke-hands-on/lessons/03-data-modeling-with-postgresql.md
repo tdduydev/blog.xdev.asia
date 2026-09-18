@@ -19,7 +19,7 @@ Bài viết này trình bày cách thiết kế mô hình dữ liệu PostgreSQL
 
 ### Tổng quan về FHIR và PostgreSQL
 
-![Data Modeling with PostgreSQL](/storage/uploads/hl7-r5/handson/image_3_.png)
+![Data Modeling with PostgreSQL](/storage/uploads/hl7-r5/handson/image_3_.webp)
 
 *Data Modeling with PostgreSQL*
 

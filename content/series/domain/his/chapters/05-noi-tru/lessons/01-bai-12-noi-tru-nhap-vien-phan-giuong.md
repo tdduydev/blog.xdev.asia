@@ -7,7 +7,7 @@ description: >-
   giường, tạm ứng viện phí, hồ sơ bệnh án nội trú, theo dõi diễn biến.
 duration_minutes: 60
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-12-noi-tru-nhap-vien-phan-giuong-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-12-noi-tru-nhap-vien-phan-giuong-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 5: Nội trú (IPD)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Nội trú — nhập viện & phân giường](/storage/uploads/2026/05/his/bai-12-noi-tru-nhap-vien-phan-giuong-banner.png)
+![Nội trú — nhập viện & phân giường](/storage/uploads/2026/05/his/bai-12-noi-tru-nhap-vien-phan-giuong-banner.webp)
 
 ## Mục tiêu
 
-![Phân giường theo bản đồ trống/đầy thời gian thực](/storage/uploads/2026/05/his/bai-12-noi-tru-nhap-vien-phan-giuong-workflow.png)
+![Phân giường theo bản đồ trống/đầy thời gian thực](/storage/uploads/2026/05/his/bai-12-noi-tru-nhap-vien-phan-giuong-workflow.webp)
 
 Nội trú (IPD) là module **đắt nhất, phức tạp nhất** của HIS — chiếm 60–70 % chi phí của BV nhưng chỉ 10–15 % lượt KCB. Mỗi BN nội trú trung bình 5–8 ngày, sinh ra 200–500 record (y lệnh, sinh hiệu, lab, thuốc, phí). Module IPD tốt phải:
 

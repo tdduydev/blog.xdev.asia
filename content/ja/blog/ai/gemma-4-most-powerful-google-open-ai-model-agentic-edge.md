@@ -3,7 +3,7 @@ id: 01970000-b2c3-8d4e-f5a6-789012345def
 title: 'Gemma 4：Googleが誇る最強オープンAIモデル — アジェンティックワークフロー、オンデバイス、Apache 2.0'
 slug: gemma-4-most-powerful-google-open-ai-model-agentic-edge
 excerpt: Google DeepMindがGemma 4を発表——Arena AIでオープンモデル世界第3位を獲得したオープンモデルファミリー。アジェンティックワークフロー、ビジョン、オーディオ、140以上の言語をサポートし、Raspberry PiからH100 GPUまでオンデバイスで動作。4サイズ（E2B、E4B、26B MoE、31B Dense）のアーキテクチャ分析、ベンチマーク比較、デプロイガイド。
-featured_image: /images/blog/gemma-4-featured.png
+featured_image: /images/blog/gemma-4-featured.webp
 type: blog
 reading_time: 15
 view_count: 0

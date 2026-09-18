@@ -8,7 +8,7 @@ excerpt: >-
   BRD and SRS are two important artifacts but are often confused. This article
   explains the difference, template structure, full example for a scheduling
   feature and review checklist before handoff to Dev/QA.
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 14
 view_count: 0

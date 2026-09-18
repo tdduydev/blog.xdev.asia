@@ -15,7 +15,7 @@ course:
   title: VyOS 從入門到進階
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-11-vpn-wireguard.png" alt="VPN - WireGuard 與 OpenVPN" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-11-vpn-wireguard.webp" alt="VPN - WireGuard 與 OpenVPN" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS VPN 介紹：WireGuard 與 OpenVPN</h2>
 <p>VPN（Virtual Private Network）可用於站點間安全連線與遠端存取。VyOS 支援多種現代 VPN 類型，如 WireGuard、OpenVPN 與 IPsec。本課重點放在 WireGuard 與 OpenVPN，這兩者在效能、安全與設定彈性上都很常用。</p>

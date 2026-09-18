@@ -5,7 +5,7 @@ slug: eval-driven-ai-engineering
 excerpt: >-
   Evals là cách đưa AI feature từ cảm giác sang kỹ thuật. Học cách tạo objective,
   dataset, rubrics, automated graders, human review và release gate.
-featured_image: /images/blog/eval-driven-ai-engineering.png
+featured_image: /images/blog/eval-driven-ai-engineering.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   Câu hỏi không phải microservices hay monolith, mà là đã hiểu domain đủ để đặt ranh giới chưa.
   Bài này đi qua đủ tám thách thức mà Azure Architecture Center bảo phải cân nhắc trước khi chia,
   trong đó hai cái là điều kiện về người chứ không phải về kỹ thuật.
-featured_image: /images/blog/monolith-truoc-da-tam-thach-thuc/cover.png
+featured_image: /images/blog/monolith-truoc-da-tam-thach-thuc/cover.webp
 type: blog
 reading_time: 13
 view_count: 0

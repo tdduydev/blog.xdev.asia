@@ -3,7 +3,7 @@ id: 05e72d3d-f5d2-4304-8fe1-c29fe5ac8ec6
 title: 'NVIDIA DLI Generative AI：完整認證、課程、考試與詳細學習路線'
 slug: nvidia-dli-generative-ai-certificate-learning-path
 excerpt: NVIDIA DLI Generative AI 與 LLM 完整生態系統詳細指南——從 Diffusion Models、RAG Agents、Agentic AI 到 Transformer NLP。涵蓋考試內容、評估難度、範例題目、考試技巧，以及從初學者到專業人士的完整學習路線。
-featured_image: /images/blog/nvidia-dli-genai-featured.png
+featured_image: /images/blog/nvidia-dli-genai-featured.webp
 type: blog
 reading_time: 30
 view_count: 0

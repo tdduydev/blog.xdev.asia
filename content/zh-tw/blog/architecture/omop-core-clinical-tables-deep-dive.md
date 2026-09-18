@@ -6,7 +6,7 @@ excerpt: >-
   深入剖析 OMOP CDM 5.4 中最重要的 7 張資料表 — schema、FK、ETL convention、
   容易混淆的部分(Measurement vs Observation、Drug_Exposure vs Drug_Era)以及 10 個
   常見 RWE 分析 SQL 模式。
-featured_image: /images/blog/omop-core-tables-featured.png
+featured_image: /images/blog/omop-core-tables-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -23,7 +23,7 @@ OMOP CDM 5.4 共有 37 張資料表,但 90% 的 RWE 分析只會碰到 7 張核�
 
 ## 1. Person 為中心的架構
 
-![1. Person 為中心的架構](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d01.png)
+![1. Person 為中心的架構](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d01.webp)
 
 每筆臨床事件都有 `person_id` 與選用的 `visit_occurrence_id`。這是 join 的關鍵。
 
@@ -283,7 +283,7 @@ CREATE TABLE procedure_occurrence (
 
 ## 9. Drug_Era 與 Condition_Era — 衍生資料表
 
-![9. Drug_Era 與 Condition_Era — 衍生資料表](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d02.png)
+![9. Drug_Era 與 Condition_Era — 衍生資料表](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d02.webp)
 
 `DRUG_ERA` 將連續的 Drug_Exposure 合併(預設間隔 30 天):
 

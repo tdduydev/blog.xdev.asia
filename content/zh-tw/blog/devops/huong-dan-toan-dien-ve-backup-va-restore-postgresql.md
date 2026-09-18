@@ -3,7 +3,7 @@ id: 019c9617-fd38-703b-90ac-23190c3f1a08
 title: 備份和還原 PostgreSQL 綜合指南
 slug: huong-dan-toan-dien-ve-backup-va-restore-postgresql
 excerpt: 本文將協助您掌握從基礎到進階的 PostgreSQL 備份和復原方法，以及實用的最佳實務。
-featured_image: /images/blog/postgresql-backup-featured.png
+featured_image: /images/blog/postgresql-backup-featured.webp
 type: blog
 reading_time: 13
 view_count: 0

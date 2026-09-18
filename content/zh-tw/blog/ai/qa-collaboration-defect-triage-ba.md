@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a008-000000000001
 title: BA 的 QA 協作和缺陷分類：如何減少操作錯誤？
 slug: qa-collaboration-defect-triage-ba
 excerpt: BA 和 QA 是將需求轉化為測試場景的重要組合。本文介紹如何在發布前與 QA 協調、對嚴重性/優先級進行分類、對缺陷進行分類以及管理回歸範圍。
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

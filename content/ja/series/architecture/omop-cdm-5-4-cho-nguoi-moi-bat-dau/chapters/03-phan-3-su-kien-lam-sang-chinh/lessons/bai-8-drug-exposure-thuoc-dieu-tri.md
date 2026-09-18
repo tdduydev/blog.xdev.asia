@@ -44,7 +44,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![医薬品の階層: 成分 → 臨床医薬品 → ブランド医薬品](/storage/uploads/2026/04/omop-cdm-bai8-drug-hierarchy.png)
+![医薬品の階層: 成分 → 臨床医薬品 → ブランド医薬品](/storage/uploads/2026/04/omop-cdm-bai8-drug-hierarchy.webp)
 
 ## はじめに
 

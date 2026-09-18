@@ -6,7 +6,7 @@ excerpt: >-
   ビジネスルールは、BAが曖昧に書くと最も手戻りが発生しやすい部分です。この記事では、ルールの分類方法、アトミック ルールの作成方法、デシジョン
   テーブルの使用方法 (ローン申請の承認など)、およびルールを SRS、ユーザー ストーリー、またはテスト
   ケースに組み込む前にチェックリストを確認する方法について説明します。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 15
 view_count: 0

@@ -124,11 +124,11 @@ def chat(req: ChatReq):
 
 透過閘道的聊天 API 回應：
 
-![聊天回應](/images/blog/gemma4-series-demo/03-chat-response.png)
+![聊天回應](/images/blog/gemma4-series-demo/03-chat-response.webp)
 
 模型策略強制——阻擋未授權的模型：
 
-![策略強制](/images/blog/gemma4-series-demo/03-policy-enforcement.png)
+![策略強制](/images/blog/gemma4-series-demo/03-policy-enforcement.webp)
 
 > 原始碼：[02-api-gateway](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/02-api-gateway)
 

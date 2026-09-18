@@ -93,13 +93,13 @@ locale: en
 
 ## 1. Overview of End-to-End Encryption for Healthcare
 
-![End-to-End Encryption in Healthcare Microservices — Envelope Encryption, Vault, Kafka](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.png)
+![End-to-End Encryption in Healthcare Microservices — Envelope Encryption, Vault, Kafka](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.webp)
 
 In the medical microservices system, PHI data moves through **many layers**: from client → API Gateway → Service → Kafka → Database. End-to-end encryption ensures data is **always protected** at every point — not just in-transit (TLS) but also at-rest and in-use.
 
 ### 1.1. Encryption Architecture
 
-![End-to-End Encryption Architecture — Client → API Gateway → Services → Database with Vault](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.png)
+![End-to-End Encryption Architecture — Client → API Gateway → Services → Database with Vault](/storage/uploads/2026/04/healthcare-e2e-encryption-flow.webp)
 
 **Encryption Flow:**
 
@@ -276,7 +276,7 @@ CREATE INDEX idx_blind_hash ON healthcare.patients_blind_index(field_name, blind
 
 ### 3.1. Envelope Encryption Pattern
 
-![Envelope Encryption Pattern — DEK + KEK with Vault Transit](/storage/uploads/2026/04/healthcare-envelope-encryption.png)
+![Envelope Encryption Pattern — DEK + KEK with Vault Transit](/storage/uploads/2026/04/healthcare-envelope-encryption.webp)
 
 **Process:**
 

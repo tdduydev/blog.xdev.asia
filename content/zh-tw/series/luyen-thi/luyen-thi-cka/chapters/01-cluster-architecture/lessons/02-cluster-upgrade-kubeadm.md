@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai2-upgrade.png" alt="kubeadm 叢集升級流程 — 控制平面與工作節點" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai2-upgrade.webp" alt="kubeadm 叢集升級流程 — 控制平面與工作節點" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="version-skew">1. 版本偏差政策</h2>
 

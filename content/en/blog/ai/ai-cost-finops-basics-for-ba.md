@@ -7,7 +7,7 @@ excerpt: >-
   stakeholders, and make make-or-buy decisions. This article explains token pricing,
   latency cost, cloud AI vs self-hosted options, and practical FinOps practices without
   requiring DevOps expertise.
-featured_image: /images/blog/ai-cost-finops.png
+featured_image: /images/blog/ai-cost-finops.webp
 type: blog
 reading_time: 12
 view_count: 0

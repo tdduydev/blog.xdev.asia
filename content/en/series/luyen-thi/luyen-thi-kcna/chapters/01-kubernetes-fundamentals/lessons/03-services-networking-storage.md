@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-kcna
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai3-services-networking.png" alt="Kubernetes Services & Networking — ClusterIP, NodePort, LoadBalancer, Ingress" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai3-services-networking.webp" alt="Kubernetes Services & Networking — ClusterIP, NodePort, LoadBalancer, Ingress" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="service-types">1. Kubernetes Service Types</h2>
 

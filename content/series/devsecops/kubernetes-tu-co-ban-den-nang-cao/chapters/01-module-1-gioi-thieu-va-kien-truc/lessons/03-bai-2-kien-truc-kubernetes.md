@@ -19,7 +19,7 @@ course:
 
 <p>Kubernetes được thiết kế theo mô hình phân tán với kiến trúc master-worker rõ ràng. Để sử dụng Kubernetes hiệu quả — và đặc biệt để debug khi có sự cố — bạn cần hiểu từng thành phần làm gì, giao tiếp với nhau ra sao, và tại sao chúng được thiết kế theo cách đó. Bài học này đi sâu vào kiến trúc Kubernetes 1.32+ với những thay đổi quan trọng trong containerd 2.0, nftables mode cho kube-proxy, và lộ trình cgroup v2.</p>
 
-<img src="/storage/uploads/2026/03/k8s-architecture-2026.png" alt="Kubernetes Architecture - Control Plane và Worker Nodes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-architecture-2026.webp" alt="Kubernetes Architecture - Control Plane và Worker Nodes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. Tổng Quan Kiến Trúc: Control Plane và Worker Nodes</h2>
 
@@ -310,7 +310,7 @@ cat /sys/fs/cgroup/kubepods.slice/memory.stat</code></pre>
 
 <p>Để hiểu kiến trúc một cách thực tế, hãy trace luồng xảy ra khi bạn chạy <code>kubectl apply -f pod.yaml</code>:</p>
 
-<img src="/storage/uploads/2026/03/k8s-pod-creation-flow-2026.png" alt="Pod Creation Flow - từ kubectl đến Container" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-pod-creation-flow-2026.webp" alt="Pod Creation Flow - từ kubectl đến Container" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <pre><code class="language-bash">┌──────────┐    1. HTTPS POST /api/v1/pods     ┌────────────────┐
 │ kubectl  │ ─────────────────────────────────► │ kube-apiserver │

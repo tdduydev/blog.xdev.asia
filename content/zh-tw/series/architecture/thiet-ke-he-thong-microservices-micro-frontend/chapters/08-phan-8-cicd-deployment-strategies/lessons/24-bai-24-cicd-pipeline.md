@@ -92,7 +92,7 @@ locale: zh-tw
 CI/CD Pipeline 擁有 10 多個微服務和 5 個以上微前端，是獨立部署的**骨幹**。本文設計了一個端到端的管道：從提交到生產。
 
 
-![CI/CD Pipeline cho Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai24-cicd-pipeline.png)
+![CI/CD Pipeline cho Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai24-cicd-pipeline.webp)
 
 ---
 

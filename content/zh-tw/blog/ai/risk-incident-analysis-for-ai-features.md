@@ -4,7 +4,7 @@ title: "BA的風險與事件分析：分析AI功能風險並應對事件"
 slug: risk-incident-analysis-for-ai-features
 excerpt: >-
   AI功能的風險特性與一般功能完全不同：模型漂移、資料中毒、幻覺連鎖和偏差放大。BA需要適當的風險登記冊、事件應對計畫，以及專為AI事件設計的事後分析模板。
-featured_image: /images/blog/risk-incident-analysis.png
+featured_image: /images/blog/risk-incident-analysis.webp
 type: blog
 reading_time: 13
 view_count: 0

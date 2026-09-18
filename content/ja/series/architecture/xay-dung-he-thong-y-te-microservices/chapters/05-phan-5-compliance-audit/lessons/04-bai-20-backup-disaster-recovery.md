@@ -91,7 +91,7 @@ locale: ja
 
 ## 1. 医療における災害復旧の概要
 
-![災害復旧と事業継続 — 医療システムの RPO/RTO](/storage/uploads/2026/04/healthcare-disaster-recovery.png)
+![災害復旧と事業継続 — 医療システムの RPO/RTO](/storage/uploads/2026/04/healthcare-disaster-recovery.webp)
 
 HIPAA セキュリティ規則 §164.308(a)(7) では、ePHI を扱うすべての組織に **緊急時対応計画**、つまり緊急事態 (自然災害、ランサムウェア攻撃、ハードウェア障害、人為的エラー) に対する緊急時対応計画を立てることが求められています。医療業界では、**ダウンタイムは患者の命に直接影響する可能性があります**。
 
@@ -120,7 +120,7 @@ HIPAA セキュリティ規則 §164.308(a)(7) では、ePHI を扱うすべて�
 
 ＃＃＃１．２．ヘルスケアの RTO/RPO 要件
 
-![RTO/RPO Timeline cho Healthcare Systems](/storage/uploads/2026/04/healthcare-rto-rpo-timeline.png)
+![RTO/RPO Timeline cho Healthcare Systems](/storage/uploads/2026/04/healthcare-rto-rpo-timeline.webp)
 
 |システム | RPO | RTO |重要度 |
 |-----|-----|-----|----------|
@@ -786,7 +786,7 @@ volumes:
 
 ### 5.1. Cross-Region Architecture
 
-![Cross-Region DR Architecture — Singapore (Primary) → Tokyo (DR)](/storage/uploads/2026/04/healthcare-cross-region-dr.png)
+![Cross-Region DR Architecture — Singapore (Primary) → Tokyo (DR)](/storage/uploads/2026/04/healthcare-cross-region-dr.webp)
 
 **PRIMARY REGION** (ap-southeast-1: Singapore):
 

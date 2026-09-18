@@ -24,7 +24,7 @@ course:
 
 <h2>2. Service Types</h2>
 
-<img src="/storage/uploads/2026/03/k8s-service-types-2026.png" alt="Kubernetes Service Types - ClusterIP, NodePort, LoadBalancer, ExternalName" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-service-types-2026.webp" alt="Kubernetes Service Types - ClusterIP, NodePort, LoadBalancer, ExternalName" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h3>2.1 ClusterIP (mặc định)</h3>
 <p>Expose service với IP nội bộ trong cluster. Chỉ accessible từ trong cluster.</p>

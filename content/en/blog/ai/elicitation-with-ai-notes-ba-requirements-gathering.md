@@ -4,7 +4,7 @@ title: "Elicitation with AI: How BA Gathers Requirements Faster Without Losing C
 slug: elicitation-with-ai-notes-ba-requirements-gathering
 excerpt: >-
   Traditional Elicitation techniques consume many hours of note-taking and synthesis. This guide teaches BA how to use AI to auto-summarize interviews, automatically cluster insights, detect requirement gaps, and create action items — maintaining quality while saving 60% of processing time.
-featured_image: /images/blog/elicitation-ai-notes-ba.png
+featured_image: /images/blog/elicitation-ai-notes-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

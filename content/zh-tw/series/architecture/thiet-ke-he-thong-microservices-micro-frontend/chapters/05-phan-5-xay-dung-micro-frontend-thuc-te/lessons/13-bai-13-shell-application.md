@@ -90,7 +90,7 @@ locale: zh-tw
 Shell應用程式（容器應用程式）是整個微前端的**協調大腦**。它決定佈局、路由、身份驗證以及 MFE 之間的通訊方式。
 
 
-![Shell 應用程式 — 微前端的編排器](/storage/uploads/2026/04/mfe-ms-diagram-bai13-shell-application.png)
+![Shell 應用程式 — 微前端的編排器](/storage/uploads/2026/04/mfe-ms-diagram-bai13-shell-application.webp)
 
 ---
 

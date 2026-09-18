@@ -85,7 +85,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 14: 通知および通信エンジン](/storage/uploads/2026/03/saas-bai-14-diagram.png)
+![レッスン 14: 通知および通信エンジン](/storage/uploads/2026/03/saas-bai-14-diagram.webp)
 
 ## はじめに
 

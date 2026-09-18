@@ -113,7 +113,7 @@ Agent Loop — Perception → Reasoning → Action → Observation
 
 <blockquote><p><strong>考試提示：</strong>「LLM 自主分解任務、呼叫多個工具、根據需要重試」→ <strong>Agent（L2+）</strong>。「多個 LLM 協調，每個專精一項任務」→ <strong>Multi-Agent（L3）</strong>。DLI 考試常問：「Agent 與 Chain 有何不同？」→ Agent 具有<strong>動態控制流</strong>（LLM 決定下一步），Chain 具有<strong>固定控制流</strong>。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai9-multi-agent-system.png" alt="Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine" loading="lazy" /><figcaption>多代理系統 — 編排器、專業化代理、LangGraph 狀態機</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai9-multi-agent-system.webp" alt="Multi-Agent System — Orchestrator, Specialized Agents, LangGraph State Machine" loading="lazy" /><figcaption>多代理系統 — 編排器、專業化代理、LangGraph 狀態機</figcaption></figure>
 
 <h2 id="2-cognitive-architectures">2. LLM Agent 的認知架構</h2>
 

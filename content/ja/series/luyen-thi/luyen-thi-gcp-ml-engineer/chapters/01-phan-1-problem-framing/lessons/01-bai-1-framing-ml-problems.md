@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai1-problem-framing.png" alt="ML Problem Framing Framework" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai1-problem-framing.webp" alt="ML Problem Framing Framework" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>ML問題のフレーミング：問題の特定、モデルタイプの選択、Google標準に基づくメトリクスの定義</em></p>
 </div>
 

@@ -94,7 +94,7 @@ locale: en
 
 ## 1. RBAC vs ABAC in Healthcare
 
-![4-layer access control architecture: RBAC, ABAC, RLS, Patient Consent](/storage/uploads/2026/04/healthcare-rbac-abac-layers.png)
+![4-layer access control architecture: RBAC, ABAC, RLS, Patient Consent](/storage/uploads/2026/04/healthcare-rbac-abac-layers.webp)
 
 ### 1.1. Role-Based Access Control (RBAC)
 

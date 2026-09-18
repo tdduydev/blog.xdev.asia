@@ -90,13 +90,13 @@ locale: ja
 
 ## 1. ゼロトラストアーキテクチャの概要
 
-![医療システム向けのゼロトラスト アーキテクチャ — マイクロセグメンテーション、OPA、Keycloak](/storage/uploads/2026/04/healthcare-zero-trust-architecture.png)
+![医療システム向けのゼロトラスト アーキテクチャ — マイクロセグメンテーション、OPA、Keycloak](/storage/uploads/2026/04/healthcare-zero-trust-architecture.webp)
 
 ＃＃＃１．１．なぜ医療にゼロトラストが必要なのでしょうか?
 
 **境界セキュリティ**に基づく従来のセキュリティ モデル、つまり「ファイアウォールの内側のすべてを信頼する」は、現代の医療システムにはもはや適していません。遠隔医療、IoT 医療機器、クラウドの導入、医師のリモート アクセスの台頭により、**境界はもはや明確に存在しません**。
 
-![従来の境界セキュリティとゼロトラスト — セキ​​ュリティ モデルの比較](/storage/uploads/2026/04/healthcare-zero-trust-vs-perimeter.png)
+![従来の境界セキュリティとゼロトラスト — セキ​​ュリティ モデルの比較](/storage/uploads/2026/04/healthcare-zero-trust-vs-perimeter.webp)
 
 **境界セキュリティの問題:**
 
@@ -153,7 +153,7 @@ NIST 特別出版物 800-207 では、**ゼロ トラスト アーキテクチ�
 
 ＃＃＃２．１．ヘルスケア ZTA の概要
 
-![ゼロトラスト アーキテクチャ — PEP、ポリシー エンジン、マイクロセグメント化されたサービスを備えた病院システム](/storage/uploads/2026/04/healthcare-zero-trust-architecture.png)
+![ゼロトラスト アーキテクチャ — PEP、ポリシー エンジン、マイクロセグメント化されたサービスを備えた病院システム](/storage/uploads/2026/04/healthcare-zero-trust-architecture.webp)
 
 **レイヤー:**
 
@@ -835,7 +835,7 @@ public class DeviceTrustService {
 
 ＃＃＃６．１．ヘルスケア ZTA の OPA アーキテクチャ
 
-![OPA Policy Architecture — Bundle Server → OPA Server → Healthcare Services](/storage/uploads/2026/04/healthcare-opa-policy-engine.png)
+![OPA Policy Architecture — Bundle Server → OPA Server → Healthcare Services](/storage/uploads/2026/04/healthcare-opa-policy-engine.webp)
 
 **Components:**
 
@@ -1331,7 +1331,7 @@ data:
 
 ### 10.1。データ中心のゼロトラスト
 
-![Zero Trust Data Protection Layers — Classify, Encrypt, Control, Monitor](/storage/uploads/2026/04/healthcare-data-zero-trust-layers.png)
+![Zero Trust Data Protection Layers — Classify, Encrypt, Control, Monitor](/storage/uploads/2026/04/healthcare-data-zero-trust-layers.webp)
 
 **レイヤー 1: すべてを分類**
 

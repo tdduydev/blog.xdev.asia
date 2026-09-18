@@ -8,7 +8,7 @@ excerpt: >-
   Examination and Treatment Law 15/2023, electronic health records on VNeID),
   Ministry of Health catalog mapping, custom vocabularies, and a roadmap for
   a national research data lake.
-featured_image: /images/blog/omop-vietnam-featured.png
+featured_image: /images/blog/omop-vietnam-featured.webp
 type: blog
 reading_time: 15
 view_count: 0
@@ -25,7 +25,7 @@ In 2026, three forces converge in Vietnam to create a major opportunity for OMOP
 
 ## 1. Policy context, 2026
 
-![Policy context, 2026](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d01.png)
+![Policy context, 2026](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d01.webp)
 
 ### 1.1 Decision 3516/QĐ-BYT (Nov 2025)
 
@@ -62,7 +62,7 @@ Pseudonymizing the national ID (CCCD) / BHYT in OMOP `person_source_value` is ma
 
 ## 2. Vietnamese source data for OMOP
 
-![Vietnamese source data for OMOP](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d02.png)
+![Vietnamese source data for OMOP](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d02.webp)
 
 ## 3. Mapping Vietnamese vocabularies
 
@@ -120,7 +120,7 @@ This needs coordination with the MoH Department of Traditional Medicine to stand
 
 The Electronic Medical Record dossier (HSDT) on VNeID has a structure that is roughly FHIR-like:
 
-![ETL pattern for HSDT (VNeID)](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d03.png)
+![ETL pattern for HSDT (VNeID)](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d03.webp)
 
 Notes:
 - HSDT only stores summary data — not a full EMR
@@ -129,7 +129,7 @@ Notes:
 
 ## 5. ETL pattern for BHYT
 
-![ETL pattern for BHYT](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d04.png)
+![ETL pattern for BHYT](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d04.webp)
 
 BHYT data strengths:
 - Wide coverage (~95M people)
@@ -157,7 +157,7 @@ Limitations:
 
 ## 7. National data lake roadmap
 
-![National data lake roadmap](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d05.png)
+![National data lake roadmap](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d05.webp)
 
 Pilot pattern:
 1. Pick 5-10 representative hospitals (region, tier, specialty)
@@ -168,7 +168,7 @@ Pilot pattern:
 
 ## 8. Governance pattern
 
-![Governance pattern](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d06.png)
+![Governance pattern](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d06.webp)
 
 Vietnam needs to launch an **OHDSI Vietnam chapter** — register as an official working group on OHDSI.
 
@@ -222,7 +222,7 @@ When hospitals share the same hash algorithm + secret, **records can be linked a
 
 ## 12. Community to build
 
-![Community to build](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d07.png)
+![Community to build](/images/blog/diagrams/omop-viet-nam-bhyt-hsdt-d07.webp)
 
 ## 13. Vietnam-specific pitfalls
 

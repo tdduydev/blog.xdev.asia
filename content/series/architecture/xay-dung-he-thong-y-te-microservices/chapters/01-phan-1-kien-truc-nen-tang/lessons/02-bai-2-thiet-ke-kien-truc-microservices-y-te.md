@@ -90,7 +90,7 @@ course:
 
 ## 1. Tổng quan Kiến trúc Healthcare Microservices
 
-![Kiến trúc tổng thể Healthcare Microservices — Quarkus, PostgreSQL, Keycloak, Kafka, Istio](/storage/uploads/2026/04/healthcare-ms-architecture-blueprint.png)
+![Kiến trúc tổng thể Healthcare Microservices — Quarkus, PostgreSQL, Keycloak, Kafka, Istio](/storage/uploads/2026/04/healthcare-ms-architecture-blueprint.webp)
 
 ### 1.1. Tại sao Microservices cho Y Tế?
 
@@ -110,7 +110,7 @@ Microservices giải quyết bằng cách:
 
 ### 1.2. Healthcare Domain Services
 
-![Tổng quan các Healthcare Microservices — 8 domain services chính trong hệ thống y tế](/storage/uploads/2026/04/healthcare-domain-services-grid.png)
+![Tổng quan các Healthcare Microservices — 8 domain services chính trong hệ thống y tế](/storage/uploads/2026/04/healthcare-domain-services-grid.webp)
 
 **Core Services:**
 
@@ -129,11 +129,11 @@ Microservices giải quyết bằng cách:
 
 ### 2.1. High-Level Architecture
 
-![Kiến trúc tổng quan Healthcare Platform — từ Internet qua WAF, DMZ, API Gateway đến Internal Network](/storage/uploads/2026/04/healthcare-high-level-architecture.png)
+![Kiến trúc tổng quan Healthcare Platform — từ Internet qua WAF, DMZ, API Gateway đến Internal Network](/storage/uploads/2026/04/healthcare-high-level-architecture.webp)
 
 ### 2.2. Network Segmentation (Defense-in-Depth)
 
-![Mô hình Defense-in-Depth với 4 vùng mạng — DMZ, Application, Data, Management](/storage/uploads/2026/04/healthcare-network-segmentation.png)
+![Mô hình Defense-in-Depth với 4 vùng mạng — DMZ, Application, Data, Management](/storage/uploads/2026/04/healthcare-network-segmentation.webp)
 
 | Zone | Thành phần |
 |------|------------|
@@ -288,7 +288,7 @@ public class PatientResource {
 
 ### 4.1. Data Isolation Strategy
 
-![Database-per-Service pattern — mỗi microservice có database riêng biệt với data isolation](/storage/uploads/2026/04/healthcare-database-per-service.png)
+![Database-per-Service pattern — mỗi microservice có database riêng biệt với data isolation](/storage/uploads/2026/04/healthcare-database-per-service.webp)
 
 | Service | Database | Tables |
 |---------|----------|--------|
@@ -300,7 +300,7 @@ public class PatientResource {
 
 ### 4.2. Shared Data via Events (Event Sourcing)
 
-![Event-driven architecture — Patient Service publish events qua Kafka đến các consuming services](/storage/uploads/2026/04/healthcare-event-sourcing-kafka.png)
+![Event-driven architecture — Patient Service publish events qua Kafka đến các consuming services](/storage/uploads/2026/04/healthcare-event-sourcing-kafka.webp)
 
 > **Quan trọng**: Kafka messages chứa PHI phải được mã hóa. Sử dụng Kafka encryption at-rest và application-level encryption cho sensitive fields.
 

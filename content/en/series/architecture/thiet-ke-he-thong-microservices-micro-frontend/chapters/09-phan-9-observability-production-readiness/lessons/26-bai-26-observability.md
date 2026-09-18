@@ -93,7 +93,7 @@ locale: en
 In distributed architecture, debugging equals `console.log` not feasible. When a request goes through 5 services, you need **observability** to know where the request goes, how long it takes, and where it fails.
 
 
-![3 pillars of Observability — Logs, Metrics, Traces](/storage/uploads/2026/04/mfe-ms-diagram-bai26-observability.png)
+![3 pillars of Observability — Logs, Metrics, Traces](/storage/uploads/2026/04/mfe-ms-diagram-bai26-observability.webp)
 
 ---
 

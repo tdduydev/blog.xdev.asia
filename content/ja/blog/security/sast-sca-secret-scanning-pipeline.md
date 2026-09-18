@@ -6,7 +6,7 @@ excerpt: >-
   DAST、IAST、サプライチェーンを語る前に、すべてのパイプラインには3つの基本レイヤーが
   必要です：コードに対するSAST、依存関係に対するSCA、キー/トークンに対するシークレット
   スキャン。本記事ではSemgrep、Trivy、Gitleaksで3レイヤーを構築する方法を解説します。
-featured_image: /images/blog/sast-sca-secret-pipeline-featured.png
+featured_image: /images/blog/sast-sca-secret-pipeline-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

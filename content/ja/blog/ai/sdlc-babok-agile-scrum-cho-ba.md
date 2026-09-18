@@ -5,7 +5,7 @@ slug: sdlc-babok-agile-scrum-cho-ba
 excerpt: >-
   新しい BA は、BABOK、SDLC、スクラム、BRD、SRS、ユーザー
   ストーリーを断片的に学習することが多いため、混乱しやすいです。この記事では、アイデアからリリースまでの実際的なワークフローに全体をマッピングします。
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

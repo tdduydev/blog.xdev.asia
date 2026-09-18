@@ -5,7 +5,7 @@ slug: prompt-contract-structured-output-ai
 excerpt: >-
   Prompt production cần role, context, policy, examples, schema, validation và
   regression test. Đừng để backend phải parse một đoạn văn tự do rồi cầu may.
-featured_image: /images/blog/prompt-contract-structured-output-ai.png
+featured_image: /images/blog/prompt-contract-structured-output-ai.webp
 type: blog
 reading_time: 12
 view_count: 0

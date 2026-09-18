@@ -7,7 +7,7 @@ excerpt: >-
   than 3,000 quality checks; ACHILLES profiles each CDM. This article walks
   through installing Broadsea, defining cohorts, reading DQD, and acting on
   results.
-featured_image: /images/blog/omop-atlas-dqd-featured.png
+featured_image: /images/blog/omop-atlas-dqd-featured.webp
 type: blog
 reading_time: 14
 view_count: 0
@@ -24,7 +24,7 @@ Having a CDM is only the starting point. To extract value you need the tooling: 
 
 ## 1. The OHDSI analytics stack
 
-![The OHDSI analytics stack](/images/blog/diagrams/omop-atlas-cohort-data-quality-d01.png)
+![The OHDSI analytics stack](/images/blog/diagrams/omop-atlas-cohort-data-quality-d01.webp)
 
 All of it runs in Docker Compose via **Broadsea**.
 
@@ -53,13 +53,13 @@ Broadsea services:
 
 ### 3.1 Key features
 
-![Key features](/images/blog/diagrams/omop-atlas-cohort-data-quality-d02.png)
+![Key features](/images/blog/diagrams/omop-atlas-cohort-data-quality-d02.webp)
 
 ### 3.2 Cohort creation workflow
 
 Example: "Patients newly diagnosed with type 2 diabetes in 2026 who started Metformin"
 
-![Cohort creation workflow](/images/blog/diagrams/omop-atlas-cohort-data-quality-d03.png)
+![Cohort creation workflow](/images/blog/diagrams/omop-atlas-cohort-data-quality-d03.webp)
 
 The ATLAS UI lets you click and drag without writing SQL → produces a `cohort` table that conforms to OMOP.
 
@@ -157,7 +157,7 @@ Each check has:
 - `threshold`: acceptance threshold
 - `pass/fail`
 
-![Reading DQD](/images/blog/diagrams/omop-atlas-cohort-data-quality-d04.png)
+![Reading DQD](/images/blog/diagrams/omop-atlas-cohort-data-quality-d04.webp)
 
 ### 5.3 Triage pattern
 
@@ -233,13 +233,13 @@ ATLAS has no auth by default → DO NOT deploy it publicly without protection. S
 
 ## 9. Multi-tenant pattern
 
-![Multi-tenant pattern](/images/blog/diagrams/omop-atlas-cohort-data-quality-d05.png)
+![Multi-tenant pattern](/images/blog/diagrams/omop-atlas-cohort-data-quality-d05.webp)
 
 WebAPI supports multiple sources — researchers pick a source from a dropdown. Permissions are per user / per source.
 
 ## 10. Network deployment for Vietnam
 
-![Network deployment for Vietnam](/images/blog/diagrams/omop-atlas-cohort-data-quality-d06.png)
+![Network deployment for Vietnam](/images/blog/diagrams/omop-atlas-cohort-data-quality-d06.webp)
 
 Federated pattern: data stays at the hospital, only aggregate results travel up.
 

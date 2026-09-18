@@ -95,7 +95,7 @@ locale: en
 
 ## 1. Healthcare Microservices Architecture Overview
 
-![Healthcare Microservices overall architecture — Quarkus, PostgreSQL, Keycloak, Kafka, Istio](/storage/uploads/2026/04/healthcare-ms-architecture-blueprint.png)
+![Healthcare Microservices overall architecture — Quarkus, PostgreSQL, Keycloak, Kafka, Istio](/storage/uploads/2026/04/healthcare-ms-architecture-blueprint.webp)
 
 ### 1.1. Why Microservices for Healthcare?
 
@@ -115,7 +115,7 @@ Microservices solve it by:
 
 ### 1.2. Healthcare Domain Services
 
-![Overview of Healthcare Microservices — 8 main domain services in the healthcare system](/storage/uploads/2026/04/healthcare-domain-services-grid.png)
+![Overview of Healthcare Microservices — 8 main domain services in the healthcare system](/storage/uploads/2026/04/healthcare-domain-services-grid.webp)
 
 **Core Services:**
 
@@ -134,11 +134,11 @@ Microservices solve it by:
 
 ### 2.1. High-Level Architecture
 
-![Healthcare Platform overview architecture — from Internet via WAF, DMZ, API Gateway to Internal Network](/storage/uploads/2026/04/healthcare-high-level-architecture.png)
+![Healthcare Platform overview architecture — from Internet via WAF, DMZ, API Gateway to Internal Network](/storage/uploads/2026/04/healthcare-high-level-architecture.webp)
 
 ### 2.2. Network Segmentation (Defense-in-Depth)
 
-![Defense-in-Depth model with 4 network zones — DMZ, Application, Data, Management](/storage/uploads/2026/04/healthcare-network-segmentation.png)
+![Defense-in-Depth model with 4 network zones — DMZ, Application, Data, Management](/storage/uploads/2026/04/healthcare-network-segmentation.webp)
 
 | Zone | Ingredients |
 |-------|-----------|
@@ -293,7 +293,7 @@ public class PatientResource {
 
 ### 4.1. Data Isolation Strategy
 
-![Database-per-Service pattern — each microservice has a separate database with data isolation](/storage/uploads/2026/04/healthcare-database-per-service.png)
+![Database-per-Service pattern — each microservice has a separate database with data isolation](/storage/uploads/2026/04/healthcare-database-per-service.webp)
 
 | Service | Database | Tables |
 |--------|----------|--------|
@@ -305,7 +305,7 @@ public class PatientResource {
 
 ### 4.2. Shared Data via Events (Event Sourcing)
 
-![Event-driven architecture — Patient Service publish events via Kafka to consuming services](/storage/uploads/2026/04/healthcare-event-sourcing-kafka.png)
+![Event-driven architecture — Patient Service publish events via Kafka to consuming services](/storage/uploads/2026/04/healthcare-event-sourcing-kafka.webp)
 
 > **Important**: Kafka messages containing PHI must be encrypted. Use Kafka encryption at-rest and application-level encryption for sensitive fields.
 

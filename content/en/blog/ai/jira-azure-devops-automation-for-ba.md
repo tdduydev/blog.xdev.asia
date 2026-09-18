@@ -7,7 +7,7 @@ excerpt: >-
   following up on status. Jira Automation and Azure DevOps Rules can handle most
   of that. A practical guide to the most important automation rules for BA in AI
   projects.
-featured_image: /images/blog/jira-devops-automation.png
+featured_image: /images/blog/jira-devops-automation.webp
 type: blog
 reading_time: 12
 view_count: 0

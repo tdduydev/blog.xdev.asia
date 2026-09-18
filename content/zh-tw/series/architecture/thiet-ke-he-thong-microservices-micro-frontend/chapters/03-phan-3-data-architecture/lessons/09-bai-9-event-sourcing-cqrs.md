@@ -92,7 +92,7 @@ locale: zh-tw
 事件溯源和 CQRS 是兩種強大但**經常被濫用**的模式。本文將幫助您了解它的本質、真正的好處，最重要的是—**何時不使用它**。
 
 
-![CQRS 和事件來源 — 單獨的命令和查詢](/storage/uploads/2026/04/mfe-ms-diagram-bai9-cqrs-event-sourcing.png)
+![CQRS 和事件來源 — 單獨的命令和查詢](/storage/uploads/2026/04/mfe-ms-diagram-bai9-cqrs-event-sourcing.webp)
 
 ---
 

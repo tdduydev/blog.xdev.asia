@@ -18,7 +18,7 @@ locale: en
 
 <h2>1. What is a Pod?</h2>
 
-<img src="/storage/uploads/2026/03/k8s-pod-lifecycle-2026.png" alt="Kubernetes Pod Lifecycle Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-pod-lifecycle-2026.webp" alt="Kubernetes Pod Lifecycle Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <p>Pod is the smallest scheduling unit in Kubernetes. A Pod consists of <strong>one or more containers</strong> running on the same Node, shared in common:</p>
 <ul>

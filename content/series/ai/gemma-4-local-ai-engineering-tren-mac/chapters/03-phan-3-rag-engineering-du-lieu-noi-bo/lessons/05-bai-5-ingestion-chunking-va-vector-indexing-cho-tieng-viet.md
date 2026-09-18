@@ -162,7 +162,7 @@ Khi staging pass eval, swap sang active để giảm rủi ro downtime.
 
 Kết quả query qua RAG endpoint với citation:
 
-![RAG Query](/images/blog/gemma4-series-demo/05-rag-query.png)
+![RAG Query](/images/blog/gemma4-series-demo/05-rag-query.webp)
 
 > Source code: [04-ingestion](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac/tree/main/04-ingestion)
 

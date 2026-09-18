@@ -6,7 +6,7 @@ excerpt: >-
   Kỹ thuật Elicitation truyền thống mất nhiều giờ note-taking và synthesis. Bài này
   hướng dẫn BA dùng AI để tóm tắt interview, tự động nhóm insight, phát hiện gap yêu
   cầu và tạo action items — giữ nguyên chất lượng mà tiết kiệm 60% thời gian xử lý.
-featured_image: /images/blog/elicitation-ai-notes-ba.png
+featured_image: /images/blog/elicitation-ai-notes-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

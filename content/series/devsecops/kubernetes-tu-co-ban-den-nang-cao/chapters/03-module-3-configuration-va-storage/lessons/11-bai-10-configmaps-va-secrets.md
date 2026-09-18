@@ -19,7 +19,7 @@ course:
 
 <p>Trong môi trường production, ứng dụng cần đọc cấu hình từ môi trường bên ngoài thay vì hardcode vào container image. Kubernetes cung cấp hai cơ chế chuyên biệt: <strong>ConfigMap</strong> cho dữ liệu cấu hình thông thường và <strong>Secret</strong> cho dữ liệu nhạy cảm. Bài học này đi sâu vào cả hai, bao gồm mã hóa at-rest và tích hợp với external secret management systems.</p>
 
-<img src="/storage/uploads/2026/03/k8s-configmaps-secrets-2026.png" alt="ConfigMaps & Secrets trong Kubernetes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-configmaps-secrets-2026.webp" alt="ConfigMaps & Secrets trong Kubernetes" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>ConfigMaps: Quản lý Configuration Data</h2>
 

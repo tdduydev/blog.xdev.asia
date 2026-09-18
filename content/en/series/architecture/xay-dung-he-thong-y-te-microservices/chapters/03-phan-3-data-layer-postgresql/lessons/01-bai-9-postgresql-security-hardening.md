@@ -93,13 +93,13 @@ locale: en
 
 ## 1. Overview of PostgreSQL Security for Healthcare
 
-![PostgreSQL security layers for medical data — TLS, pg_hba, RLS, pgcrypto](/storage/uploads/2026/04/healthcare-postgresql-security-layers.png)
+![PostgreSQL security layers for medical data — TLS, pg_hba, RLS, pgcrypto](/storage/uploads/2026/04/healthcare-postgresql-security-layers.webp)
 
 PostgreSQL is a popular choice for healthcare systems thanks to its flexibility, open-source, and strong set of security features. However, PostgreSQL's default configuration is **not secure enough** for PHI (Protected Health Information) data. This lesson will guide you on hardening PostgreSQL according to the CIS Benchmark and best practices for healthcare.
 
 ### 1.1. PostgreSQL security layers
 
-![7 layers of PostgreSQL security — from Application to OS Layer](/storage/uploads/2026/04/healthcare-postgresql-security-layers.png)
+![7 layers of PostgreSQL security — from Application to OS Layer](/storage/uploads/2026/04/healthcare-postgresql-security-layers.webp)
 
 | Layers | Name | Ingredients |
 |-------|-----|-----------|
@@ -334,7 +334,7 @@ WHERE usename IS NOT NULL;
 
 ### 4.1. Least Privilege Principle for Healthcare
 
-![PostgreSQL Role Hierarchy for healthcare systems](/storage/uploads/2026/04/healthcare-postgresql-role-hierarchy.png)
+![PostgreSQL Role Hierarchy for healthcare systems](/storage/uploads/2026/04/healthcare-postgresql-role-hierarchy.webp)
 
 - **postgres** (superuser) ← ONLY used for maintenance
   - **dba_admin** (CREATEDB, CREATEROLE) — Schema management, backup, monitoring
@@ -622,7 +622,7 @@ In a microservices system, each service instance creates its own connection pool
 - Rate limiting
 - Connection routing
 
-![PgBouncer connection pooling — reduce 140 connections to 50](/storage/uploads/2026/04/healthcare-pgbouncer-connection-pooling.png)
+![PgBouncer connection pooling — reduce 140 connections to 50](/storage/uploads/2026/04/healthcare-pgbouncer-connection-pooling.webp)
 
 ### 6.2. PgBouncer Configuration
 

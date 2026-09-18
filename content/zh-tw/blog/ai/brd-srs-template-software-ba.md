@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a003-000000000001
 title: 軟體 BA 的 BRD 和 SRS：模板、範例和易於理解的寫作
 slug: brd-srs-template-software-ba
 excerpt: BRD 和 SRS 是兩個重要的工件，但經常被混淆。本文解釋了差異、模板結構、調度功能的完整範例以及移交給開發/品質檢查之前的檢查清單。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 14
 view_count: 0

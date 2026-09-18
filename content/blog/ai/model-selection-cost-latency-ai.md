@@ -5,7 +5,7 @@ slug: model-selection-cost-latency-ai
 excerpt: >-
   Model mạnh nhất không phải lúc nào cũng là model đúng. AI Engineer cần benchmark
   chất lượng, latency, token usage và cost per successful task.
-featured_image: /images/blog/model-selection-cost-latency-ai.png
+featured_image: /images/blog/model-selection-cost-latency-ai.webp
 type: blog
 reading_time: 12
 view_count: 0

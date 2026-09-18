@@ -90,7 +90,7 @@ course:
 Sau khi hiểu lộ trình tiến hóa kiến trúc và DDD, bài này vẽ ra **blueprint tổng quan** cho hệ thống Full-Stack Microservices + Micro Frontend — bản đồ kiến trúc mà chúng ta sẽ đi sâu vào từng phần trong suốt series.
 
 
-![Full-Stack Architecture Blueprint — Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai3-fullstack-architecture.png)
+![Full-Stack Architecture Blueprint — Microservices + Micro Frontend](/storage/uploads/2026/04/mfe-ms-diagram-bai3-fullstack-architecture.webp)
 
 ---
 

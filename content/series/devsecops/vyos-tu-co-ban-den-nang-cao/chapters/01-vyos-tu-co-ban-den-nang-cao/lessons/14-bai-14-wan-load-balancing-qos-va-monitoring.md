@@ -14,7 +14,7 @@ course:
   title: VyOS từ Cơ bản đến Nâng Cao
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-14-wan-lb-qos.png" alt="WAN Load Balancing, QoS và Monitoring" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-14-wan-lb-qos.webp" alt="WAN Load Balancing, QoS và Monitoring" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>WAN Load Balancing, QoS và Monitoring trên VyOS</h2>
 <p>Đảm bảo kết nối Internet ổn định, tối ưu hóa băng thông và giám sát lưu lượng là yêu cầu quan trọng. VyOS cung cấp các tính năng mạnh mẽ cho cân bằng tải WAN, QoS và monitoring.</p>

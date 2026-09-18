@@ -90,7 +90,7 @@ course:
 "Database per Service" là pattern nền tảng của Microservices. Không có nó, bạn không có real microservices — chỉ có modules chia sẻ cùng database (distributed monolith). Bài này giải thích tại sao, cách chọn DB đúng, và xử lý data sharing.
 
 
-![Database per Service — mỗi service sở hữu database riêng](/storage/uploads/2026/04/mfe-ms-diagram-bai7-database-per-service.png)
+![Database per Service — mỗi service sở hữu database riêng](/storage/uploads/2026/04/mfe-ms-diagram-bai7-database-per-service.webp)
 
 ---
 

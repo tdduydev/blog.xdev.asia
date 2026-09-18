@@ -163,11 +163,11 @@ Khi swap tăng mạnh, giảm `num_ctx` hoặc model size trước khi tối ưu
 
 Sau khi cài đặt xong, kiểm tra health check endpoint:
 
-![Health Check](/images/blog/gemma4-series-demo/02-health-check.png)
+![Health Check](/images/blog/gemma4-series-demo/02-health-check.webp)
 
 Swagger UI tự động tạo documentation cho API:
 
-![Swagger Docs](/images/blog/gemma4-series-demo/02-swagger-docs.png)
+![Swagger Docs](/images/blog/gemma4-series-demo/02-swagger-docs.webp)
 
 > Source code: [xdev-asia-labs/gemma-4-local-ai-engineering-on-mac](https://github.com/xdev-asia-labs/gemma-4-local-ai-engineering-on-mac)
 

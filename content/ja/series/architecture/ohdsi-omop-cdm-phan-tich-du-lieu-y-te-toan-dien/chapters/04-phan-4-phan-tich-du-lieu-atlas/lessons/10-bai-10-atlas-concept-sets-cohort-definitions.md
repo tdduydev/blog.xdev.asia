@@ -87,7 +87,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![レッスン 10: ATLAS — 概念セットとコホートの定義](/storage/uploads/2026/03/ohdsi-bai-10-concept-sets-cohorts.png)
+![レッスン 10: ATLAS — 概念セットとコホートの定義](/storage/uploads/2026/03/ohdsi-bai-10-concept-sets-cohorts.webp)
 
 ## はじめに
 

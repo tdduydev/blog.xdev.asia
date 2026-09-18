@@ -87,7 +87,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 1 課：OHDSI — 生態系概述](/storage/uploads/2026/03/ohdsi-bai-1-ecosystem-overview.png)
+![第 1 課：OHDSI — 生態系概述](/storage/uploads/2026/03/ohdsi-bai-1-ecosystem-overview.webp)
 
 ## 簡介
 

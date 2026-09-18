@@ -8,7 +8,7 @@ description: >-
   phiếu thực hiện.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-15-order-management-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-15-order-management-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 6: Order Management & ICD coding"
@@ -18,11 +18,11 @@ course:
   slug: his
 ---
 
-![Order Management — vòng đời y lệnh](/storage/uploads/2026/05/his/bai-15-order-management-banner.png)
+![Order Management — vòng đời y lệnh](/storage/uploads/2026/05/his/bai-15-order-management-banner.webp)
 
 ## Vì sao cần Order Management thống nhất
 
-![Trung tâm điều phối order tới LIS, RIS, PHA](/storage/uploads/2026/05/his/bai-15-order-management-workflow.png)
+![Trung tâm điều phối order tới LIS, RIS, PHA](/storage/uploads/2026/05/his/bai-15-order-management-workflow.webp)
 
 
 ## Mục tiêu bài học

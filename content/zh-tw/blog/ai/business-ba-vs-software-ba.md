@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a001-000000000001
 title: 商業 BA 與軟體 BA：有什麼區別以及您需要學習什麼？
 slug: business-ba-vs-software-ba
 excerpt: 商業BA和軟體BA有很多交集但又不一樣。本文解釋了角色、工件、技能、日常工作範例和學習路徑，以便您知道需要採取哪個方向。
-featured_image: /images/blog/roadmap-ba-featured.png
+featured_image: /images/blog/roadmap-ba-featured.webp
 type: blog
 reading_time: 10
 view_count: 0

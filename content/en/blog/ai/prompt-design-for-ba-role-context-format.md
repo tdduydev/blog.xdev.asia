@@ -4,7 +4,7 @@ title: "Prompt Design for BA: Write Effective Prompts Using Role, Purpose, Conte
 slug: prompt-design-for-ba-role-context-format
 excerpt: >-
   BA doesn't need to know fine-tuning or embeddings — but needs to write good prompts for daily work and to specify AI features. This guide teaches the RPCF framework: Role, Purpose, Context, Format — how BA designs reproducible, controlled prompts.
-featured_image: /images/blog/prompt-design-ba.png
+featured_image: /images/blog/prompt-design-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

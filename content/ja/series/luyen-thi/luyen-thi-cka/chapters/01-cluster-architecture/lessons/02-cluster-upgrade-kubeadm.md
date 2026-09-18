@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-cka
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-cka-bai2-upgrade.png" alt="kubeadmクラスタアップグレードフロー — コントロールプレーンとワーカー" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-cka-bai2-upgrade.webp" alt="kubeadmクラスタアップグレードフロー — コントロールプレーンとワーカー" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="version-skew">1. バージョンスキューポリシー</h2>
 

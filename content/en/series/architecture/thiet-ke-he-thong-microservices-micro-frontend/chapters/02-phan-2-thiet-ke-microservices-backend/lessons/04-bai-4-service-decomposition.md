@@ -93,7 +93,7 @@ locale: en
 Service separation is the most important architectural decision when moving to Microservices. Divided too small → complexity explodes. Divided too large → distributed monolith. This article guides a systematic method to properly define service boundaries.
 
 
-![Service Decomposition — decomposes the system into microservices](/storage/uploads/2026/04/mfe-ms-diagram-bai4-service-decomposition.png)
+![Service Decomposition — decomposes the system into microservices](/storage/uploads/2026/04/mfe-ms-diagram-bai4-service-decomposition.webp)
 
 ---
 

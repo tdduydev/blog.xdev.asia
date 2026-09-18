@@ -25,7 +25,7 @@ course:
 
 <blockquote><p><strong>Exam tip:</strong> The NVIDIA DLI assessment requires you to write and debug PyTorch code directly. Make sure you can write a <strong>training loop</strong>, <strong>nn.Module</strong>, and perform <strong>tensor</strong> operations without referring to documentation.</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai1-neural-network-architecture.png" alt="Deep Neural Network Architecture — Input Layer, Hidden Layers, Output Layer, Backpropagation" loading="lazy" /><figcaption>Deep Neural Network Architecture — Input Layer, Hidden Layers, Output Layer, Backpropagation</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai1-neural-network-architecture.webp" alt="Deep Neural Network Architecture — Input Layer, Hidden Layers, Output Layer, Backpropagation" loading="lazy" /><figcaption>Deep Neural Network Architecture — Input Layer, Hidden Layers, Output Layer, Backpropagation</figcaption></figure>
 
 <h2 id="pytorch-tensors-autograd">2. PyTorch Tensors & Autograd</h2>
 

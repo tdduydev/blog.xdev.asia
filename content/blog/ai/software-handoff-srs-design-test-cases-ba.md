@@ -6,7 +6,7 @@ excerpt: >-
   Handoff tốt giúp Dev/QA hiểu đúng requirement trước khi sprint bắt đầu. Bài này đưa
   ra checklist handoff, agenda Three Amigos, ví dụ chuyển acceptance criteria thành
   test scenarios và cách quản lý open questions.
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

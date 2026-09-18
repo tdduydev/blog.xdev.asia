@@ -15,7 +15,7 @@ course:
   slug: vyos-tu-co-ban-den-nang-cao
 locale: zh-tw
 ---
-<img src="/storage/uploads/2026/04/vyos-12-ipsec.png" alt="VPN——IPsec 站點間連接" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-12-ipsec.webp" alt="VPN——IPsec 站點間連接" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS上的IPsec VPN簡介</h2>
 <p><strong>IPsec</strong>是站點間安全VPN的業界標準。VyOS全面支援IPsec，包括IKEv2、ESP、NAT-T、VTI。本課程指導您設定站點間連接，區分基於政策和基於路由的方式，與其他設備整合，以及使用BGP疊層的實驗室練習。</p>

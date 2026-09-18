@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai5-prompt-engineering.png" alt="Prompt Engineering Techniques" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai5-prompt-engineering.webp" alt="Prompt Engineering Techniques" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Prompt Engineering Techniques: Zero-shot, Few-shot, and Chain-of-Thought</em></p>
 </div>
 

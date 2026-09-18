@@ -93,7 +93,7 @@ locale: en
 
 ## 1. Overview of Secure Inter-Service Communication
 
-![mTLS Service Mesh with Istio for Healthcare — Envoy Sidecar, NetworkPolicies](/storage/uploads/2026/04/healthcare-mtls-service-mesh.png)
+![mTLS Service Mesh with Istio for Healthcare — Envoy Sidecar, NetworkPolicies](/storage/uploads/2026/04/healthcare-mtls-service-mesh.webp)
 
 In a healthcare microservices architecture, services communicate with each other over the network — and the network is **never trustworthy**. Even within the internal network, attackers can:
 
@@ -106,7 +106,7 @@ mTLS and Service Mesh solve all of the above problems.
 
 ### 1.1. Defense-in-Depth for Inter-Service Communication
 
-![5 Security Layers cho Inter-Service Communication — Network → mTLS → AuthZ → JWT → Encryption](/storage/uploads/2026/04/healthcare-service-communication-layers.png)
+![5 Security Layers cho Inter-Service Communication — Network → mTLS → AuthZ → JWT → Encryption](/storage/uploads/2026/04/healthcare-service-communication-layers.webp)
 
 **5 layers of protection:**
 
@@ -118,7 +118,7 @@ mTLS and Service Mesh solve all of the above problems.
 
 ### 1.2. mTLS vs One-Way TLS
 
-![Compare One-Way TLS vs Mutual TLS (mTLS)](/storage/uploads/2026/04/healthcare-tls-comparison.png)
+![Compare One-Way TLS vs Mutual TLS (mTLS)](/storage/uploads/2026/04/healthcare-tls-comparison.webp)
 
 | | One-Way TLS | Mutual TLS (mTLS) |
 |---|---|---|
@@ -479,7 +479,7 @@ istioctl analyze -n healthcare
 
 ### 4.2. Istio Architecture with Healthcare Services
 
-![Istio Service Mesh Architecture cho Healthcare — istiod + Envoy sidecars](/storage/uploads/2026/04/healthcare-istio-mesh.png)
+![Istio Service Mesh Architecture cho Healthcare — istiod + Envoy sidecars](/storage/uploads/2026/04/healthcare-istio-mesh.webp)
 
 **Architecture:**
 

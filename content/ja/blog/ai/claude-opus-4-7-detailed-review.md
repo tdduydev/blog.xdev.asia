@@ -3,7 +3,7 @@ id: 01970970-c1a4-7001-b001-cc6388624a9f
 title: 'Claude Opus 4.7：AnthropicのフラッグシップAI詳細レビュー——コーディング・ビジョン・エージェンティックAIの大躍進'
 slug: claude-opus-4-7-detailed-review
 excerpt: Anthropicは2026年4月16日にClaude Opus 4.7をリリースしました——優れたプログラミング能力、3倍以上の視覚解像度、新しいxhighエフォートレベル、そしてリードするエージェンティック性能を持つ最新フラッグシップAIモデルです。ベンチマーク・実企業フィードバック・価格・Opus 4.6からの移行ガイドを網羅した包括的なレビュー。
-featured_image: /images/blog/claude-opus-4-7-featured.png
+featured_image: /images/blog/claude-opus-4-7-featured.webp
 type: blog
 reading_time: 20
 view_count: 0
@@ -25,7 +25,7 @@ comments: []
 
 ## 1. Claude Opus 4.7とは？
 
-<img src="/images/blog/claude-opus-4-7-featured.png" alt="Claude Opus 4.7の紹介" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-featured.webp" alt="Claude Opus 4.7の紹介" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Claude Opus 4.7はClaude 4シリーズ最新の**フラッグシップ**モデルで、Anthropicが以下の用途に最適なモデルとして位置づけています：
 
@@ -79,7 +79,7 @@ Anthropicの内部テストでは、Opus 4.7が以下の領域で大幅に改善
 
 ### 3.1 視覚解像度が3倍以上に向上
 
-<img src="/images/blog/claude-opus-4-7-vision-upgrade.png" alt="Claude Opus 4.7のビジョンアップグレード——3倍の高解像度" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-vision-upgrade.webp" alt="Claude Opus 4.7のビジョンアップグレード——3倍の高解像度" style="width:100%;border-radius:8px;margin:16px 0" />
 
 これは最も重要なアップグレードの一つです。Opus 4.7は**長辺2,576ピクセル**（約375万ピクセル）までの画像を処理できます——これは以前のClaudeモデルの**3倍以上**です。
 
@@ -110,7 +110,7 @@ Opus 4.7は**ファイルシステムベースのメモリ**をより効果的�
 
 ### 3.4 新エフォートレベル：`xhigh`
 
-<img src="/images/blog/claude-opus-4-7-effort-levels.png" alt="Claude Opus 4.7のエフォートレベル——xhigh超高" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-effort-levels.webp" alt="Claude Opus 4.7のエフォートレベル——xhigh超高" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Opus 4.7は**`xhigh`**（超高）エフォートレベルを導入しました——`high`と`max`の間に位置します。これにより、以下のバランスをより細かく制御できます：
 - 推論の深さ
@@ -123,7 +123,7 @@ Opus 4.7は**`xhigh`**（超高）エフォートレベルを導入しました�
 
 ## 4. 実際のフィードバック：企業各社の声
 
-<img src="/images/blog/claude-opus-4-7-agentic-workflow.png" alt="Claude Opus 4.7のエージェントワークフロー——自律AI" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-agentic-workflow.webp" alt="Claude Opus 4.7のエージェントワークフロー——自律AI" style="width:100%;border-radius:8px;margin:16px 0" />
 
 Anthropicはアーリーアクセス期間中に**20社以上の主要テクノロジー企業**からフィードバックを収集しました。ハイライトは以下の通りです：
 
@@ -262,7 +262,7 @@ Opus 4.7は高エフォートレベルで「より多く考え」ます。特に
 
 ## 9. 競合との比較
 
-<img src="/images/blog/claude-opus-4-7-coding-benchmark.png" alt="競合とのClaude Opus 4.7コーディングベンチマーク" style="width:100%;border-radius:8px;margin:16px 0" />
+<img src="/images/blog/claude-opus-4-7-coding-benchmark.webp" alt="競合とのClaude Opus 4.7コーディングベンチマーク" style="width:100%;border-radius:8px;margin:16px 0" />
 
 | モデル | 強み | 相対的な弱み |
 |-------|------|-------------|

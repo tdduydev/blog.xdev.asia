@@ -102,7 +102,7 @@ thấy boosting thích cây **rất** nông:
 
 ## Chạy thử
 
-![Kết quả chạy ep10_gradient_boosting](/images/blog/ml-nhin-la-hieu/ep10_gradient_boosting.png)
+![Kết quả chạy ep10_gradient_boosting](/images/blog/ml-nhin-la-hieu/ep10_gradient_boosting.webp)
 
 > Ảnh trên là output thật của `python scratch/ep10_gradient_boosting.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep10_gradient_boosting.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep10_gradient_boosting.py) · [`library/ep10_gradient_boosting.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep10_gradient_boosting.py)

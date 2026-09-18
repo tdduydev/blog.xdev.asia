@@ -10,7 +10,7 @@ excerpt: >-
   released on April 1, 2026, UltraPlan multi-agent architecture, Bridge remote
   session system, anti-canary obfuscation and dozens of hidden features that
   have not been documented.
-featured_image: /images/blog/claude-code-featured.png
+featured_image: /images/blog/claude-code-featured.webp
 type: blog
 reading_time: 25
 view_count: 0

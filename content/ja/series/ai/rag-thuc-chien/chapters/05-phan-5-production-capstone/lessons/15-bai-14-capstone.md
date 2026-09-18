@@ -87,7 +87,7 @@ locale: ja
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Capstone: Chat with Documents — Full-stack Architecture](/storage/uploads/2026/04/rag-bai-14-capstone.png)
+![Capstone: Chat with Documents — Full-stack Architecture](/storage/uploads/2026/04/rag-bai-14-capstone.webp)
 
 ## はじめに
 

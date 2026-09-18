@@ -6,7 +6,7 @@ excerpt: >-
   Impact Mapping 是一種 visual planning technique，幫助 BA 把 feature 連結到
   business goal，而不是為了做 feature 而做 feature。本文會說明如何為 AI 專案
   建立 Impact Map，並用它有根據地進行 backlog prioritization。
-featured_image: /images/blog/impact-mapping-ba.png
+featured_image: /images/blog/impact-mapping-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

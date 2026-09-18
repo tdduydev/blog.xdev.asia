@@ -6,7 +6,7 @@ excerpt: >-
   So sánh HAPI FHIR self-hosted với Azure Health Data Services, GCP Healthcare API,
   AWS HealthLake, Smile CDR. Bài viết cover indexing/partition Postgres, interceptor,
   scaling, observability, cost — kèm checklist production-ready.
-featured_image: /images/blog/hapi-fhir-production-featured.png
+featured_image: /images/blog/hapi-fhir-production-featured.webp
 type: blog
 reading_time: 19
 view_count: 0

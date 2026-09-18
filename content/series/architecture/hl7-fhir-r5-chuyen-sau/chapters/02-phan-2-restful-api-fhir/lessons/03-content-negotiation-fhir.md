@@ -13,7 +13,7 @@ course:
   title: 'HL7 FHIR R5 Chuyên Sâu — Reference & Thực hành'
   slug: hl7-fhir-r5-chuyen-sau
 ---
-![Content Negotiation for FHIR](/storage/uploads/hl7-r5/root/image_1_1_.png)
+![Content Negotiation for FHIR](/storage/uploads/hl7-r5/root/image_1_1_.webp)
 
 *Content Negotiation for FHIR*
 

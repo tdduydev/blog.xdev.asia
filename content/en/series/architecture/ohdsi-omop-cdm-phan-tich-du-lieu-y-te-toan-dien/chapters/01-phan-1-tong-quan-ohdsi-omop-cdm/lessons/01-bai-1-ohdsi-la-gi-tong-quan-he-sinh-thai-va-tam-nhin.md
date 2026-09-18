@@ -89,7 +89,7 @@ locale: en
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Lesson 1: OHDSI — Overview of the ecosystem](/storage/uploads/2026/03/ohdsi-bai-1-ecosystem-overview.png)
+![Lesson 1: OHDSI — Overview of the ecosystem](/storage/uploads/2026/03/ohdsi-bai-1-ecosystem-overview.webp)
 
 ## Introduction
 

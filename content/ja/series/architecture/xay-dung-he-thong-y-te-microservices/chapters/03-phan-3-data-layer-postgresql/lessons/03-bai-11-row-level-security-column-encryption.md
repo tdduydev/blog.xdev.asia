@@ -90,7 +90,7 @@ locale: ja
 
 ## 1. 行レベルセキュリティ (RLS) の概要
 
-![Row-Level Security Pipeline — JWT Claims → SET LOCAL → RLS Policy](/storage/uploads/2026/04/healthcare-rls-request-flow.png)
+![Row-Level Security Pipeline — JWT Claims → SET LOCAL → RLS Policy](/storage/uploads/2026/04/healthcare-rls-request-flow.webp)
 
 行レベル セキュリティ (RLS) を使用すると、PostgreSQL はテーブル内の **どの行** をユーザーが表示または操作できるかを制御できます。これは、次の理由から医療にとって重要な機能です。
 
@@ -101,7 +101,7 @@ locale: ja
 
 ＃＃＃１．１． RLS とアプリケーションレベルのフィルタリング
 
-![PostgreSQL のアプリケーション レベルのフィルタリングと行レベルのセキュリティの比較](/storage/uploads/2026/04/healthcare-rls-vs-app-filtering.png)
+![PostgreSQL のアプリケーション レベルのフィルタリングと行レベルのセキュリティの比較](/storage/uploads/2026/04/healthcare-rls-vs-app-filtering.webp)
 
 **アプリケーションレベルのフィルタリング (危険):**
 
@@ -121,7 +121,7 @@ locale: ja
 
 ＃＃＃１．２．ヘルスケア向けの RLS アーキテクチャ
 
-![RLS Request Flow — JWT → Session Variables → Policy Evaluation → Filtered Results](/storage/uploads/2026/04/healthcare-rls-request-flow.png)
+![RLS Request Flow — JWT → Session Variables → Policy Evaluation → Filtered Results](/storage/uploads/2026/04/healthcare-rls-request-flow.webp)
 
 **リクエストの流れ:**
 

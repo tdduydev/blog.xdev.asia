@@ -45,7 +45,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Quy trình mapping ICD-10 → SNOMED trong CONDITION_OCCURRENCE](/storage/uploads/2026/04/omop-cdm-bai7-condition-mapping.png)
+![Quy trình mapping ICD-10 → SNOMED trong CONDITION_OCCURRENCE](/storage/uploads/2026/04/omop-cdm-bai7-condition-mapping.webp)
 
 ## Giới thiệu
 

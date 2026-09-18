@@ -90,7 +90,7 @@ locale: zh-tw
 
 ## 1. 行級安全性 (RLS) 概述
 
-![Row-Level Security Pipeline — JWT Claims → SET LOCAL → RLS Policy](/storage/uploads/2026/04/healthcare-rls-request-flow.png)
+![Row-Level Security Pipeline — JWT Claims → SET LOCAL → RLS Policy](/storage/uploads/2026/04/healthcare-rls-request-flow.webp)
 
 行級安全性 (RLS) 允許 PostgreSQL 控制使用者可以查看或操作表中的**哪些行**。這是醫療保健的關鍵功能，因為：
 
@@ -101,7 +101,7 @@ locale: zh-tw
 
 ### 1.1。 RLS 與應用程式層級過濾
 
-![比較 PostgreSQL 中的應用程式級過濾與行級安全性](/storage/uploads/2026/04/healthcare-rls-vs-app-filtering.png)
+![比較 PostgreSQL 中的應用程式級過濾與行級安全性](/storage/uploads/2026/04/healthcare-rls-vs-app-filtering.webp)
 
 **應用程式級過濾（不安全）：**
 
@@ -121,7 +121,7 @@ locale: zh-tw
 
 ### 1.2。醫療保健 RLS 架構
 
-![RLS Request Flow — JWT → Session Variables → Policy Evaluation → Filtered Results](/storage/uploads/2026/04/healthcare-rls-request-flow.png)
+![RLS Request Flow — JWT → Session Variables → Policy Evaluation → Filtered Results](/storage/uploads/2026/04/healthcare-rls-request-flow.webp)
 
 **請求流程：**
 

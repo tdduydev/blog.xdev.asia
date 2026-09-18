@@ -16,7 +16,7 @@ locale: ja
 ---
 <h2>🎯 レッスンの目的</h2><p>基本から高度な Kubernetes ネットワーク モデルを理解します。各ポッドが独自の IP を持つ理由、4 種類の通信パターン、CNI プラグイン (Cilium 2026 推奨)、nftable を使用した kube-proxy です。</p>
 
-<img src="/storage/uploads/2026/03/k8s-networking-model-2026.png" alt="Kubernetes Networking Model - 4 Communication Patterns" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-networking-model-2026.webp" alt="Kubernetes Networking Model - 4 Communication Patterns" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. Kubernetes ネットワーク要件</h2>
 <p>Kubernetes には 3 つの主要なネットワーク要件があります:</p>

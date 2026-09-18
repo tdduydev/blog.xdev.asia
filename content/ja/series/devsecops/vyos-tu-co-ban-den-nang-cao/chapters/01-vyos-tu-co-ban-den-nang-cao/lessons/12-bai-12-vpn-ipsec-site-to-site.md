@@ -15,7 +15,7 @@ course:
   title: VyOSの基礎から応用まで
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-12-ipsec.png" alt="VPN - IPsec Site-to-Site" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-12-ipsec.webp" alt="VPN - IPsec Site-to-Site" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>VyOS における IPsec VPN の概要</h2>
 <p><strong>IPsec</strong> は、拠点間 VPN を安全に構築するための業界標準です。VyOS は IKEv2、ESP、NAT-T、VTI を含む IPsec 機能を幅広くサポートしています。本レッスンでは site-to-site 構成、policy-based と route-based の違い、他ベンダー機器連携、BGP overlay ラボを扱います。</p>

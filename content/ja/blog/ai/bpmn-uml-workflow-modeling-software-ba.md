@@ -5,7 +5,7 @@ slug: bpmn-uml-workflow-modeling-software-ba
 excerpt: >-
   BA はあらゆる種類の図を描く必要はありませんが、BPMN、アクティビティ図、シーケンス図、状態図、ドメイン
   モデルをいつ使用するかを知っておく必要があります。この記事では、図を選択する方法、たとえば、引き継ぎ前に図を確認するためのスケジュールとチェックリストを設定する方法について説明します。
-featured_image: /images/blog/uml-bpmn-ai-assisted-flows.png
+featured_image: /images/blog/uml-bpmn-ai-assisted-flows.webp
 type: blog
 reading_time: 16
 view_count: 0

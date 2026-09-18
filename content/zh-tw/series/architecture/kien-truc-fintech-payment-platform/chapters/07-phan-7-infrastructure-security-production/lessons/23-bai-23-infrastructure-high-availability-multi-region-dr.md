@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 23 課：基礎設施和高可用性 - 多區域和災難復原](/storage/uploads/2026/03/fintech-bai-23-diagram.png)
+![第 23 課：基礎設施和高可用性 - 多區域和災難復原](/storage/uploads/2026/03/fintech-bai-23-diagram.webp)
 
 ## 簡介
 

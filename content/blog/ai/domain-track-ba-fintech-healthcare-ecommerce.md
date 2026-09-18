@@ -6,7 +6,7 @@ excerpt: >-
   BA làm AI trong Fintech phải hiểu regulation AML/KYC. BA trong Healthcare cần
   biết HIPAA và clinical workflow. BA trong eCommerce tập trung vào personalization
   và fraud. Hướng dẫn domain-specific skills, regulations, và AI use cases cho từng ngành.
-featured_image: /images/blog/domain-track-ba.png
+featured_image: /images/blog/domain-track-ba.webp
 type: blog
 reading_time: 15
 view_count: 0

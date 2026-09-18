@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-ckad
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai8-qos-classes.png" alt="Resource Requests, Limits and QoS Classes — Guaranteed, Burstable, BestEffort" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-ckad-bai8-qos-classes.webp" alt="Resource Requests, Limits and QoS Classes — Guaranteed, Burstable, BestEffort" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="requests-limits">1. Requests vs Limits</h2>
 

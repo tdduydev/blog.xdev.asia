@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 11 課：貨幣和匯率引擎 - 多貨幣支持](/storage/uploads/2026/03/fintech-bai-11-diagram.png)
+![第 11 課：貨幣和匯率引擎 - 多貨幣支持](/storage/uploads/2026/03/fintech-bai-11-diagram.webp)
 
 ## 簡介
 

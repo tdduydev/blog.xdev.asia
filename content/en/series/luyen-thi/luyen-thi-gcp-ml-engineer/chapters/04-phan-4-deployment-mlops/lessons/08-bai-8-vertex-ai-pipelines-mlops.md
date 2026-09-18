@@ -19,7 +19,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai8-mlops-cicd.png" alt="Vertex AI Pipelines & MLOps" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai8-mlops-cicd.webp" alt="Vertex AI Pipelines & MLOps" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Vertex AI MLOps: Pipelines, CI/CD, Model Registry, and monitoring for production ML</em></p>
 </div>
 

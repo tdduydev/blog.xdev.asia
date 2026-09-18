@@ -7,7 +7,7 @@ description: >-
   trình tích hợp AI vào RIS/PACS và kiểm soát chất lượng / pháp lý.
 duration_minutes: 40
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-21-ai-trong-cdha-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-21-ai-trong-cdha-banner.webp
 video_url: null
 sort_order: 3
 section_title: "Phần 8: Chẩn đoán hình ảnh (RIS / PACS)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![AI trong chẩn đoán hình ảnh](/storage/uploads/2026/05/his/bai-21-ai-trong-cdha-banner.png)
+![AI trong chẩn đoán hình ảnh](/storage/uploads/2026/05/his/bai-21-ai-trong-cdha-banner.webp)
 
 ## Các use case phổ biến
 
-![Heatmap AI gợi ý vùng bất thường trên ảnh](/storage/uploads/2026/05/his/bai-21-ai-trong-cdha-workflow.png)
+![Heatmap AI gợi ý vùng bất thường trên ảnh](/storage/uploads/2026/05/his/bai-21-ai-trong-cdha-workflow.webp)
 
 
 ## Mục tiêu bài học

@@ -91,7 +91,7 @@ course:
 
 ## 1. Tổng quan Row-Level Security (RLS)
 
-![Row-Level Security Pipeline — JWT Claims → SET LOCAL → RLS Policy](/storage/uploads/2026/04/healthcare-rls-request-flow.png)
+![Row-Level Security Pipeline — JWT Claims → SET LOCAL → RLS Policy](/storage/uploads/2026/04/healthcare-rls-request-flow.webp)
 
 Row-Level Security (RLS) cho phép PostgreSQL kiểm soát **hàng nào** trong bảng mà user có thể nhìn thấy hoặc thao tác. Đây là tính năng critical cho healthcare vì:
 
@@ -102,7 +102,7 @@ Row-Level Security (RLS) cho phép PostgreSQL kiểm soát **hàng nào** trong 
 
 ### 1.1. RLS vs Application-Level Filtering
 
-![So sánh Application-Level Filtering vs Row-Level Security trong PostgreSQL](/storage/uploads/2026/04/healthcare-rls-vs-app-filtering.png)
+![So sánh Application-Level Filtering vs Row-Level Security trong PostgreSQL](/storage/uploads/2026/04/healthcare-rls-vs-app-filtering.webp)
 
 **Application-Level Filtering (KHÔNG AN TOÀN):**
 
@@ -122,7 +122,7 @@ Row-Level Security (RLS) cho phép PostgreSQL kiểm soát **hàng nào** trong 
 
 ### 1.2. RLS Architecture cho Healthcare
 
-![RLS Request Flow — JWT → Session Variables → Policy Evaluation → Filtered Results](/storage/uploads/2026/04/healthcare-rls-request-flow.png)
+![RLS Request Flow — JWT → Session Variables → Policy Evaluation → Filtered Results](/storage/uploads/2026/04/healthcare-rls-request-flow.webp)
 
 **Request Flow:**
 

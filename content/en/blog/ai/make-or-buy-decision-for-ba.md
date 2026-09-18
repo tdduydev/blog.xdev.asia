@@ -7,7 +7,7 @@ excerpt: >-
   AI, the question becomes even more complex: build a custom model, fine-tune a
   foundation model, or use an API? This article provides a framework to help BA
   analyze the options and make the right decision.
-featured_image: /images/blog/make-or-buy-ai-ba.png
+featured_image: /images/blog/make-or-buy-ai-ba.webp
 type: blog
 reading_time: 11
 view_count: 0

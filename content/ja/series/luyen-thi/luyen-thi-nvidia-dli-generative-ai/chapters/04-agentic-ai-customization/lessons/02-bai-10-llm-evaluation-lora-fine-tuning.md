@@ -98,7 +98,7 @@ LLM評価パイプライン — データから判断まで
 
 <blockquote><p><strong>試験のヒント：</strong> DLIの評価では「Xに最適な評価方法はどれか？」という質問がよく出されます — 覚えておきましょう：<strong>BLEU</strong>は翻訳用、<strong>ROUGE</strong>は要約用、<strong>F1</strong>はQA用、<strong>LLM-as-a-Judge</strong>は全体的な品質用。すべてのタスクに対応する単一のメトリクスは存在しません。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai10-lora-fine-tuning.png" alt="LoRAファインチューニング — Low-Rank Adaptation、QLoRA、評価メトリクスダッシュボード" loading="lazy" /><figcaption>LoRAファインチューニング — Low-Rank Adaptation、QLoRA、評価メトリクスダッシュボード</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai10-lora-fine-tuning.webp" alt="LoRAファインチューニング — Low-Rank Adaptation、QLoRA、評価メトリクスダッシュボード" loading="lazy" /><figcaption>LoRAファインチューニング — Low-Rank Adaptation、QLoRA、評価メトリクスダッシュボード</figcaption></figure>
 
 <h2 id="2-automated-metrics-deep-dive">2. 自動メトリクスの詳細</h2>
 

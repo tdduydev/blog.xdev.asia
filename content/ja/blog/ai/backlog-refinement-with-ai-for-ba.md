@@ -4,7 +4,7 @@ title: "AIを活用したバックログリファインメント：AIツール�
 slug: backlog-refinement-with-ai-for-ba
 excerpt: >-
   バックログリファインメントはBAが最も多くの時間を費やす作業ですが、AIが最も支援できる領域でもあります：重複検出、ストーリー分割、AC提案、依存関係マッピング。コントロールを失わずにAIをリファインメントワークフローに統合するための実践ガイドです。
-featured_image: /images/blog/backlog-refinement-ai.png
+featured_image: /images/blog/backlog-refinement-ai.webp
 type: blog
 reading_time: 11
 view_count: 0

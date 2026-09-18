@@ -6,7 +6,7 @@ excerpt: >-
   BA should not evaluate AI by intuition like "the output looks okay". You need a
   clear protocol: evaluation criteria, scoring rubric, blind test methodology, and a
   go/no-go framework. A full guide from test set design to sign-off decisions.
-featured_image: /images/blog/model-evaluation-protocol.png
+featured_image: /images/blog/model-evaluation-protocol.webp
 type: blog
 reading_time: 14
 view_count: 0

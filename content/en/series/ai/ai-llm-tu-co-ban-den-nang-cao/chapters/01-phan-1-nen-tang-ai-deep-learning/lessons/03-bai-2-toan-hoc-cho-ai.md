@@ -94,7 +94,7 @@ Mathematics is the language that AI models use to "think". But don't worry — y
 
 > **Study tips:** Each section has practical examples → illustrative code → small exercises. If you don't understand any part, read the practical example first.
 
-![Mathematics Overview for AI: Linear Algebra, Calculus & Gradient Descent, Probability](/storage/uploads/2026/03/math-for-ai.png)
+![Mathematics Overview for AI: Linear Algebra, Calculus & Gradient Descent, Probability](/storage/uploads/2026/03/math-for-ai.webp)
 
 This lesson is divided into 4 main parts:
 
@@ -402,7 +402,7 @@ print(f"dz/dx tính số:   {numerical:.4f}")     # 300.0000
 
 **Normal life example:** You stand on a mountain in **dense fog** — unable to see anything. You want to go to the foot of the mountain (find the minimum). The only way: **feel the ground around your feet**, find the steepest direction, take a small step down. Repeat.
 
-![Illustration of Gradient Descent: going down the loss surface to find the optimal point](/storage/uploads/2026/03/gradient-descent-visual.png)
+![Illustration of Gradient Descent: going down the loss surface to find the optimal point](/storage/uploads/2026/03/gradient-descent-visual.webp)
 
 ```
 θ_new = θ_old - α × ∇L(θ)

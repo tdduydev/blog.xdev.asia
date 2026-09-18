@@ -6,7 +6,7 @@ excerpt: >-
   Bulk Data Export ($export) đưa hàng triệu Resource sang data lake dạng NDJSON,
   còn CDS Hooks tích hợp decision support real-time vào workflow EHR. Bài viết
   giải thích flow, scope, NDJSON ingest, và Card structure với ví dụ thực tế.
-featured_image: /images/blog/fhir-bulk-cds-featured.png
+featured_image: /images/blog/fhir-bulk-cds-featured.webp
 type: blog
 reading_time: 16
 view_count: 0

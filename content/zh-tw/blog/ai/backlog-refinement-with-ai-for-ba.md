@@ -4,7 +4,7 @@ title: "AI輔助待辦清單精煉：BA如何用AI工具更聰明地整理待辦
 slug: backlog-refinement-with-ai-for-ba
 excerpt: >-
   待辦清單精煉是BA耗時最多的工作，但也是AI最能發揮支援的地方：重複偵測、故事拆分、驗收條件建議，以及相依性對應。這份實務指南教你如何在不失去掌控的情況下，將AI整合進精煉工作流程。
-featured_image: /images/blog/backlog-refinement-ai.png
+featured_image: /images/blog/backlog-refinement-ai.webp
 type: blog
 reading_time: 11
 view_count: 0

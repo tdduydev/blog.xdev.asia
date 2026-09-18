@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 2 課：容器和 Docker — 應用程式打包平台](/storage/uploads/2026/03/cn-bai-2-diagram.png)
+![第 2 課：容器和 Docker — 應用程式打包平台](/storage/uploads/2026/03/cn-bai-2-diagram.webp)
 
 ## 簡介
 

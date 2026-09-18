@@ -7,7 +7,7 @@ excerpt: >-
   BA 計画に反復チェックポイント、データ/モデルに関する仮説トラッキング、
   AI 機能の出力が要件からドリフトした場合のエスカレーション経路を組み込む必要があります。
   BA Monitoring Framework を使った実践ガイドです。
-featured_image: /images/blog/ba-planning-monitoring.png
+featured_image: /images/blog/ba-planning-monitoring.webp
 type: blog
 reading_time: 12
 view_count: 0

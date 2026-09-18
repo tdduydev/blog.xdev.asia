@@ -16,7 +16,7 @@ locale: zh-tw
 ---
 <h2>🎯 課程目標___HTMLTAG_1__HTMLTAG_2___了解 ReplicaSet 如何保證 Pod 副本數量、為什麼 Deployment 比純 ReplicaSet 更好、如何安全地執行滾動更新和回滾以及常見的部署策略。 </p>
 
-<img src="/storage/uploads/2026/03/k8s-deployment-rolling-update-2026.png" alt="Kubernetes Deployment & Rolling Update Strategies" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-deployment-rolling-update-2026.webp" alt="Kubernetes Deployment & Rolling Update Strategies" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1。副本集</h2>
 <p>ReplicaSet 確保指定數量的 Pod 副本始終運作。如果 Pod 被刪除或崩潰，ReplicaSet 會建立一個新的 Pod 來補償。 </p>

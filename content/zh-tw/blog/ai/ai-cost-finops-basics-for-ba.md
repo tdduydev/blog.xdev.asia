@@ -6,7 +6,7 @@ excerpt: >-
   BA 需要理解 AI 成本，才能做 budget estimation、與 stakeholder 談判，並判斷
   make-or-buy。本文解釋 token pricing、latency 成本、cloud AI vs self-hosted，
   以及不需要 DevOps 背景也能執行的 FinOps 實務。
-featured_image: /images/blog/ai-cost-finops.png
+featured_image: /images/blog/ai-cost-finops.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 18 課：學習分析 - 追蹤與見解](/storage/uploads/2026/03/edtech-bai-18-diagram.png)
+![第 18 課：學習分析 - 追蹤與見解](/storage/uploads/2026/03/edtech-bai-18-diagram.webp)
 
 ## 簡介
 

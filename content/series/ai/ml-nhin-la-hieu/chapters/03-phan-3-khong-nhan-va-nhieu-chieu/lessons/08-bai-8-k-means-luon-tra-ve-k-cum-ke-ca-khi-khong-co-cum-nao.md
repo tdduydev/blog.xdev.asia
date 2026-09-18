@@ -99,7 +99,7 @@ hệt một mảnh của cụm to bị xé. Phải đối chiếu theo **nguồn
 
 ## Chạy thử
 
-![Kết quả chạy ep08_kmeans](/images/blog/ml-nhin-la-hieu/ep08_kmeans.png)
+![Kết quả chạy ep08_kmeans](/images/blog/ml-nhin-la-hieu/ep08_kmeans.webp)
 
 > Ảnh trên là output thật của `python scratch/ep08_kmeans.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep08_kmeans.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep08_kmeans.py) · [`library/ep08_kmeans.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep08_kmeans.py)

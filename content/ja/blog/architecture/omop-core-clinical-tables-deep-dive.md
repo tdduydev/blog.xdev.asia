@@ -6,7 +6,7 @@ excerpt: >-
   OMOP CDM 5.4 の最重要 7 テーブルを深掘り — スキーマ、FK、ETL 規約、混同しやすいポイント
   （Measurement vs Observation、Drug_Exposure vs Drug_Era）、そして RWE 解析でよく使う
   10 個の SQL パターンを紹介します。
-featured_image: /images/blog/omop-core-tables-featured.png
+featured_image: /images/blog/omop-core-tables-featured.webp
 type: blog
 reading_time: 18
 view_count: 0
@@ -23,7 +23,7 @@ OMOP CDM 5.4 には 37 テーブルありますが、RWE 解析の 90% は 7 つ
 
 ## 1. Person 中心アーキテクチャ
 
-![1. Person 中心アーキテクチャ](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d01.png)
+![1. Person 中心アーキテクチャ](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d01.webp)
 
 すべての臨床イベントは `person_id` を持ち、任意で `visit_occurrence_id` を持ちます。これが join のキーです。
 
@@ -283,7 +283,7 @@ CREATE TABLE procedure_occurrence (
 
 ## 9. Drug_Era と Condition_Era — derived
 
-![9. Drug_Era と Condition_Era — derived](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d02.png)
+![9. Drug_Era と Condition_Era — derived](/images/blog/diagrams/omop-core-clinical-tables-deep-dive-d02.webp)
 
 `DRUG_ERA` は連続する Drug_Exposure を集約します（デフォルトのギャップは 30 日）：
 

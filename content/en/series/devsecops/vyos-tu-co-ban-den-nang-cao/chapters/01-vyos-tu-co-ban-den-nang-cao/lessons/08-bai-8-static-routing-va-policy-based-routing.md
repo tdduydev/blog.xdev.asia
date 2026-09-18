@@ -15,7 +15,7 @@ course:
   title: VyOS from Basics to Advanced
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-08-routing-pbr.png" alt="Static Routing and Policy-Based Routing" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-08-routing-pbr.webp" alt="Static Routing and Policy-Based Routing" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Introduction to Static Routing and Policy-Based Routing on VyOS</h2>
 <p>This lesson explains how to configure <strong>Static Routing</strong> and <strong>Policy-Based Routing</strong> on VyOS 1.4.x/1.5 rolling release. These are essential techniques for controlling packet paths in a network.</p>

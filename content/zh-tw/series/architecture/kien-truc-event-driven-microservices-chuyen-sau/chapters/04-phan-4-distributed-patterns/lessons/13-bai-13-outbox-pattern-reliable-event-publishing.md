@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 13 課：寄件匣模式和可靠的事件發布](/storage/uploads/2026/03/edm-bai-13-diagram.png)
+![第 13 課：寄件匣模式和可靠的事件發布](/storage/uploads/2026/03/edm-bai-13-diagram.webp)
 
 ## 簡介
 

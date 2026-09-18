@@ -15,7 +15,7 @@ course:
   slug: vyos-tu-co-ban-den-nang-cao
 ---
 
-<img src="/storage/uploads/2026/04/vyos-02-interface-ip.png" alt="介面設定 và IP cơ bản" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-02-interface-ip.webp" alt="介面設定 và IP cơ bản" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Cấu hình Ethernet Interfaces</h2>
 
@@ -52,7 +52,7 @@ set interfaces ethernet eth1 address 10.0.0.1/24</code></pre>
 # Xem IP được cấp
 show interfaces ethernet eth0</code></pre>
 
-<img src="/storage/uploads/2026/04/vyos-02-interface-ip.png" alt="介面設定 và IP cơ bản" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-02-interface-ip.webp" alt="介面設定 và IP cơ bản" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <pre><code class="language-bash"># Disable interface
 set interfaces ethernet eth2 disable

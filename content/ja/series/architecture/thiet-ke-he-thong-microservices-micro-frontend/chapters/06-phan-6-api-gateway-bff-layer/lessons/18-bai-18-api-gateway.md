@@ -92,7 +92,7 @@ locale: ja
 API ゲートウェイは、フロントエンドからのすべての API 呼び出しに対する **単一のエントリ ポイント**です。認証、レート制限、ルーティング、監視などの横断的な問題に対応し、マイクロサービスがビジネス ロジックに集中できるように支援します。
 
 
-![API ゲートウェイ — すべてのリクエストに対する単一のエントリ ポイント](/storage/uploads/2026/04/mfe-ms-diagram-bai18-api-gateway.png)
+![API ゲートウェイ — すべてのリクエストに対する単一のエントリ ポイント](/storage/uploads/2026/04/mfe-ms-diagram-bai18-api-gateway.webp)
 
 ---
 

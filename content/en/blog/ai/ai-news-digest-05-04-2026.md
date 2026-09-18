@@ -7,7 +7,7 @@ excerpt: >-
   foundational models (speech, voice, image); H Company's Holo3 achieves 78.85%
   SoTA on the OSWorld computer use benchmark; Anthropic spends $400M acquiring
   biotech startup Coefficient Bio and locks OpenClaw out of Claude Code subscription plans.
-featured_image: /images/blog/ban-tin-ai-05-04-2026.png
+featured_image: /images/blog/ban-tin-ai-05-04-2026.webp
 type: blog
 reading_time: 10
 view_count: 0

@@ -3,7 +3,7 @@ id: 02760001-ba02-4001-a005-000000000001
 title: BA 的需求可追溯性矩陣：什麼是 RTM 以及如何對其進行建模？
 slug: requirements-traceability-matrix-ba
 excerpt: RTM 幫助 BA 追蹤從業務目標到需求、使用者故事、測試案例和發布。本文向您展示如何建立可在敏捷、瀑布和合規性專案中使用的簡約 RTM。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0

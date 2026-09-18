@@ -4,7 +4,7 @@ title: "BA的Jira與Azure DevOps自動化：用智慧規則和AI加速工作流�
 slug: jira-azure-devops-automation-for-ba
 excerpt: >-
   BA花費太多時間更新票務、建立子任務和手動追蹤狀態。Jira自動化和Azure DevOps規則可以處理大部分這些工作。這是AI專案中BA最重要的自動化規則實務指南。
-featured_image: /images/blog/jira-devops-automation.png
+featured_image: /images/blog/jira-devops-automation.webp
 type: blog
 reading_time: 12
 view_count: 0

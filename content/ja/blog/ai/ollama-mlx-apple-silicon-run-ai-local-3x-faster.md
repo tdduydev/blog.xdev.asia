@@ -3,7 +3,7 @@ id: 01970000-a1b2-7c3d-e4f5-678901234abc
 title: 'Ollama + MLX：Apple SiliconでローカルAIを3倍速く実行する方法 — 完全ガイド 2026'
 slug: ollama-mlx-apple-silicon-run-ai-local-3x-faster
 excerpt: Ollama 0.19がAppleのMLXバックエンドを統合——M5でデコード速度93%向上、プリフィル速度57%向上を実現。ユニファイドメモリアーキテクチャの包括的な技術分析、M1からM5までの実測ベンチマーク、Apple Siliconを最大限に活用するためのステップバイステップ設定ガイド。
-featured_image: /images/blog/ollama-mlx-featured.png
+featured_image: /images/blog/ollama-mlx-featured.webp
 type: blog
 reading_time: 18
 view_count: 0

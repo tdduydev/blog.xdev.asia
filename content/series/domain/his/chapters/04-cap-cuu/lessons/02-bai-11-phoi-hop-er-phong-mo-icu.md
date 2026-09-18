@@ -7,7 +7,7 @@ description: >-
   HIS đảm bảo y lệnh không "rơi" và bàn giao điều dưỡng (handover) đầy đủ.
 duration_minutes: 45
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-11-phoi-hop-er-phong-mo-icu-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-11-phoi-hop-er-phong-mo-icu-banner.webp
 video_url: null
 sort_order: 2
 section_title: "Phần 4: Cấp cứu (Emergency)"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![Handover ER ↔ Phòng mổ ↔ ICU](/storage/uploads/2026/05/his/bai-11-phoi-hop-er-phong-mo-icu-banner.png)
+![Handover ER ↔ Phòng mổ ↔ ICU](/storage/uploads/2026/05/his/bai-11-phoi-hop-er-phong-mo-icu-banner.webp)
 
 ## Mục tiêu
 
-![Bệnh nhân được chuyển nhanh giữa ER, OR, ICU](/storage/uploads/2026/05/his/bai-11-phoi-hop-er-phong-mo-icu-workflow.png)
+![Bệnh nhân được chuyển nhanh giữa ER, OR, ICU](/storage/uploads/2026/05/his/bai-11-phoi-hop-er-phong-mo-icu-workflow.webp)
 
 Khi BN cần can thiệp khẩn (mổ, ICU, can thiệp mạch), việc **bàn giao** giữa các đơn vị là điểm yếu nhất của BV — Joint Commission từng thống kê **70 % sai sót y khoa nghiêm trọng** xảy ra ở handover. Module này phải:
 

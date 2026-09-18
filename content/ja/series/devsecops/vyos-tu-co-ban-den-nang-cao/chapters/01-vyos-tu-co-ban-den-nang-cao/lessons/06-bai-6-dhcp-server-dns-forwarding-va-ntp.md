@@ -15,7 +15,7 @@ course:
   slug: vyos-tu-co-ban-den-nang-cao
 ---
 
-<img src="/storage/uploads/2026/04/vyos-06-dhcp-dns.png" alt="DHCP Server, DNS Forwarding và NTP" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-06-dhcp-dns.webp" alt="DHCP Server, DNS Forwarding và NTP" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Giới thiệu về DHCP Server, DNS Forwarding và NTP trên VyOS</h2>
 <p>Trong bài học này, bạn sẽ tìm hiểu cách cấu hình <strong>DHCP Server</strong>, <strong>DNS Forwarding</strong> và <strong>NTP</strong> trên VyOS phiên bản 1.4.x/1.5 rolling release. Đây là các dịch vụ nền tảng giúp tự động cấp phát địa chỉ IP, chuyển tiếp truy vấn DNS và đồng bộ thời gian cho hệ thống mạng.</p>

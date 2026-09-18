@@ -6,7 +6,7 @@ excerpt: >-
   一個好的 production 映像檔必須小、不以 root 執行、沒有 shell、經過掃描並被簽署。
   本文整理 Docker/OCI 映像檔的 hardening 技巧,並附上以 GitHub OIDC 進行
   Cosign keyless 簽署的 workflow。
-featured_image: /images/blog/container-hardening-cosign-featured.png
+featured_image: /images/blog/container-hardening-cosign-featured.webp
 type: blog
 reading_time: 9
 view_count: 0

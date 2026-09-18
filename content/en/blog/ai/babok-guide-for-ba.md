@@ -7,7 +7,7 @@ excerpt: >-
   that defines the full body of knowledge, skills, and techniques of a professional
   BA. This article explains the 6 Knowledge Areas, 50+ techniques, and how to
   apply BABOK in real AI projects.
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

@@ -6,7 +6,7 @@ excerpt: >-
   業務需求檢查清單可幫助 BA 在 handoff 給 dev team 前，避免遺漏關鍵條件。
   本文提供一份適用於 AI 專案的完整 checklist，從 functional requirements
   到 AI-specific constraints 全面涵蓋。
-featured_image: /images/blog/business-requirements-checklist.png
+featured_image: /images/blog/business-requirements-checklist.webp
 type: blog
 reading_time: 10
 view_count: 0

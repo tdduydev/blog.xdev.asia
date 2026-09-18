@@ -94,7 +94,7 @@ locale: en
 How microservices communicate with each other determines the **coupling, reliability, and performance** of the entire system. This article analyzes communication patterns and guides on choosing the right pattern for each use case.
 
 
-![Inter-service Communication — Sync, Async and Event Streaming](/storage/uploads/2026/04/mfe-ms-diagram-bai6-communication-patterns.png)
+![Inter-service Communication — Sync, Async and Event Streaming](/storage/uploads/2026/04/mfe-ms-diagram-bai6-communication-patterns.webp)
 
 ---
 

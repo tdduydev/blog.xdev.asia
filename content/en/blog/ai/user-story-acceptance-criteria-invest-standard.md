@@ -4,7 +4,7 @@ title: "User Story & Acceptance Criteria: Guide to Writing Standard INVEST for B
 slug: user-story-acceptance-criteria-invest-standard
 excerpt: >-
   Poorly written user stories are the root cause of 80% of "spec mismatch" bugs and sprint rework. This guide teaches BA to write stories using the INVEST standard, acceptance criteria in BDD Given/When/Then format, and use AI to automatically detect missing edge cases.
-featured_image: /images/blog/user-story-acceptance-criteria.png
+featured_image: /images/blog/user-story-acceptance-criteria.webp
 type: blog
 reading_time: 11
 view_count: 0

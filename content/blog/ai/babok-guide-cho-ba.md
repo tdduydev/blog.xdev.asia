@@ -6,7 +6,7 @@ excerpt: >-
   BABOK (Business Analysis Body of Knowledge) là tài liệu chuẩn của IIBA, định nghĩa
   đầy đủ kiến thức, kỹ năng và kỹ thuật cốt lõi của nghề BA. Bài viết này tóm lược 6
   knowledge areas, hơn 50 techniques và cách áp dụng BABOK vào các dự án AI thực tế.
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0
@@ -214,7 +214,7 @@ excerpt: >-
   BABOK (Business Analysis Body of Knowledge) là tài liệu chuẩn của IIBA định nghĩa
   toàn bộ kiến thức, kỹ năng và kỹ thuật của một BA chuyên nghiệp. Bài này giải thích
   6 Knowledge Areas, 50+ kỹ thuật và cách áp dụng BABOK vào dự án AI thực tế.
-featured_image: /images/blog/babok-guide-ba.png
+featured_image: /images/blog/babok-guide-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

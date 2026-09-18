@@ -6,7 +6,7 @@ excerpt: >-
   BA Planning 不只是把 scope 填進模板。在 AI 專案中，BA 計畫必須整合迭代檢查點、
   data/model 假設追蹤，以及當 AI 功能輸出偏離需求時的 escalation path。
   本文提供可落地的 BA Monitoring Framework。
-featured_image: /images/blog/ba-planning-monitoring.png
+featured_image: /images/blog/ba-planning-monitoring.webp
 type: blog
 reading_time: 12
 view_count: 0

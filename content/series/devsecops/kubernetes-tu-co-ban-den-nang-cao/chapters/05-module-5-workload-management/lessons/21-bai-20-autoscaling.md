@@ -19,7 +19,7 @@ course:
 
 <p>Autoscaling là một trong những lý do chính để chạy workloads trên Kubernetes. Thay vì phải manually điều chỉnh resources khi traffic tăng hoặc giảm, Kubernetes cung cấp nhiều cơ chế scaling tự động ở nhiều cấp độ khác nhau. Bài này sẽ khám phá toàn bộ autoscaling ecosystem — từ HPA truyền thống đến KEDA event-driven scaling, In-Place Pod Resource Updates mới nhất, và Karpenter cho cluster-level scaling.</p>
 
-<img src="/storage/uploads/2026/03/k8s-autoscaling-2026.png" alt="Kubernetes Autoscaling - HPA, VPA, Karpenter, KEDA" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-autoscaling-2026.webp" alt="Kubernetes Autoscaling - HPA, VPA, Karpenter, KEDA" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <h2>1. HorizontalPodAutoscaler (HPA)</h2>
 

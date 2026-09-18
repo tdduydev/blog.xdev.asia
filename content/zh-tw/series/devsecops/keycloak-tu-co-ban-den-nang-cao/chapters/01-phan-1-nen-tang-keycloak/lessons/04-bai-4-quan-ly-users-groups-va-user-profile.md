@@ -15,7 +15,7 @@ course:
 locale: zh-tw
 ---
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/03/keycloak-users-groups-roles-2026.png" alt="Keycloak Users, Groups, Roles Hierarchy" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/03/keycloak-users-groups-roles-2026.webp" alt="Keycloak Users, Groups, Roles Hierarchy" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Keycloak領域中使用者、群組和角色的分層模型</em></p>
 </div>
 

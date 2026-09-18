@@ -46,7 +46,7 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
-![Vấn đề phân mảnh dữ liệu y tế và giải pháp chuẩn hóa OMOP CDM](/storage/uploads/2026/04/omop-cdm-bai1-data-fragmentation.png)
+![Vấn đề phân mảnh dữ liệu y tế và giải pháp chuẩn hóa OMOP CDM](/storage/uploads/2026/04/omop-cdm-bai1-data-fragmentation.webp)
 
 ## Giới thiệu
 

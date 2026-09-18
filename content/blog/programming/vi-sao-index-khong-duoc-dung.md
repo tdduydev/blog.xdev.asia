@@ -6,7 +6,7 @@ excerpt: >-
   Có index hẳn hoi trên đúng cột đang lọc, mà execution plan vẫn hiện Scan. Ba lý do phổ biến
   nhất: thứ tự cột đặt sai, câu truy vấn bọc hàm quanh cột, và index thiếu cột để trả về. Không
   phải optimizer dở.
-featured_image: /images/blog/vi-sao-index-khong-duoc-dung/cover.png
+featured_image: /images/blog/vi-sao-index-khong-duoc-dung/cover.webp
 type: blog
 reading_time: 13
 view_count: 0

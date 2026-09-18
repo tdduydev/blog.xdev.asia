@@ -4,7 +4,7 @@ title: "UML & BPMN for AI-Assisted Flows: How BA Models AI-Assisted Features"
 slug: uml-bpmn-for-ai-assisted-flows
 excerpt: >-
   When AI participates in business processes, traditional UML/BPMN diagrams lack ways to represent AI actors, fallback paths, and human-in-the-loop. This guide teaches BA to diagram AI-assisted flows correctly — with happy path, error path, confidence threshold, and escalation to human.
-featured_image: /images/blog/uml-bpmn-ai-flow.png
+featured_image: /images/blog/uml-bpmn-ai-flow.webp
 type: blog
 reading_time: 12
 view_count: 0

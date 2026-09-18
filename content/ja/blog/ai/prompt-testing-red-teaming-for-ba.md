@@ -6,7 +6,7 @@ excerpt: >-
   BA はコードを書けなくても prompt testing を実施できます。AI 機能における
   red-teaming は BA の必須スキルです。edge case、jailbreak、bias、望ましくない
   出力をリリース前に見つけるための実践手法を、テストケーステンプレート付きで解説します。
-featured_image: /images/blog/prompt-testing-red-teaming.png
+featured_image: /images/blog/prompt-testing-red-teaming.webp
 type: blog
 reading_time: 13
 view_count: 0

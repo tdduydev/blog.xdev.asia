@@ -6,7 +6,7 @@ excerpt: >-
   資料治理不只是「保護資料安全」。對於 AI 功能，BA 必須設定：
   資料譜系（從來源追蹤資料）、保留政策（保留多久）、PII 分類（哪些敏感）、來源追蹤（誰使用資料、何時）。
   從政策到實施檢查清單的分步指南。
-featured_image: /images/blog/data-governance-ai.png
+featured_image: /images/blog/data-governance-ai.webp
 type: blog
 reading_time: 10
 view_count: 0

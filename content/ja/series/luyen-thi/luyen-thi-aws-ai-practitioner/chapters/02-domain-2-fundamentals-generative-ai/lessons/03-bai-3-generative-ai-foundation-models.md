@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai3-foundation-model-lifecycle.png" alt="基盤モデルのライフサイクル" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai3-foundation-model-lifecycle.webp" alt="基盤モデルのライフサイクル" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>基盤モデルのライフサイクル — 事前学習、ファインチューニング、RAG、プロンプトエンジニアリング</em></p>
 </div>
 

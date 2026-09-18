@@ -90,7 +90,7 @@ locale: zh-tw
 在 Monolith 中，交易很簡單： `BEGIN → INSERT order → UPDATE inventory → COMMIT`。在微服務中，每個服務都有自己的DB→無法使用分散式ACID事務（2PC太慢、脆弱）。 **傳奇模式**是標準解決方案。
 
 
-![Saga 模式－分散式事務的編排與編排](/storage/uploads/2026/04/mfe-ms-diagram-bai8-saga-pattern.png)
+![Saga 模式－分散式事務的編排與編排](/storage/uploads/2026/04/mfe-ms-diagram-bai8-saga-pattern.webp)
 
 ---
 

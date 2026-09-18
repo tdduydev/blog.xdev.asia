@@ -7,7 +7,7 @@ excerpt: >-
   data readiness, model iterations, and experiment uncertainty. A guide to adapted
   Planning Poker for AI work, 3-point estimation, spike stories, and how to
   communicate uncertainty to stakeholders.
-featured_image: /images/blog/story-estimation-uncertainty.png
+featured_image: /images/blog/story-estimation-uncertainty.webp
 type: blog
 reading_time: 11
 view_count: 0

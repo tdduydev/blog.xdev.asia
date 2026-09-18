@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第 19 課：可觀測性平台 - 指標、日誌和追蹤](/storage/uploads/2026/03/pe-bai-19-diagram.png)
+![第 19 課：可觀測性平台 - 指標、日誌和追蹤](/storage/uploads/2026/03/pe-bai-19-diagram.webp)
 
 ## 簡介
 

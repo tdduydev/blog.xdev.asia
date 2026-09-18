@@ -18,7 +18,7 @@ locale: zh-tw
 
 <h2>1。什麼是 Pod？ </h2>
 
-<img src="/storage/uploads/2026/03/k8s-pod-lifecycle-2026.png" alt="Kubernetes Pod Lifecycle Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
+<img src="/storage/uploads/2026/03/k8s-pod-lifecycle-2026.webp" alt="Kubernetes Pod Lifecycle Diagram" style="width:100%;max-width:800px;margin:24px auto;display:block;border-radius:12px;" />
 
 <p>Pod 是 Kubernetes 中最小的調度單元。 Pod 由 <strong> 一個或多個容器 </strong> 在同一節點上運行，共享：</p>
 <ul>

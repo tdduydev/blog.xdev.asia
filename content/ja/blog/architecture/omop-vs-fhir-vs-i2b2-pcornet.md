@@ -5,7 +5,7 @@ slug: omop-vs-fhir-vs-i2b2-pcornet
 excerpt: >-
   あなたの組織にはどの Common Data Model が適していますか？本記事では OMOP、FHIR、i2b2、PCORnet、Sentinel を
   Schema、Vocabulary、ガバナンス、ツール、Use case の観点から詳しく比較し、選定のためのデシジョンツリーを提示します。
-featured_image: /images/blog/omop-vs-other-cdm-featured.png
+featured_image: /images/blog/omop-vs-other-cdm-featured.webp
 type: blog
 reading_time: 13
 view_count: 0
@@ -22,7 +22,7 @@ comments: []
 
 ## 1. 医療 CDM のマップ
 
-![1. 医療 CDM のマップ](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d01.png)
+![1. 医療 CDM のマップ](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d01.webp)
 
 ## 2. 比較表
 
@@ -44,7 +44,7 @@ comments: []
 
 ### 3.1 Schema の思想
 
-![3.1 Schema の思想](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d02.png)
+![3.1 Schema の思想](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d02.webp)
 
 OMOP = 正規化されたリレーショナル DB → SQL 解析に最適。
 FHIR = ドキュメント指向の Resource → API 交換に最適。
@@ -59,23 +59,23 @@ OMOP はあらゆるコードを Standard Concept にマッピングすること
 
 OMOP では、データを移動させずに研究を実行できます（R 製の study package を各パートナーがローカル実行し、結果のみ集約）。**ベトナム個人データ保護法 2025**（2026 年 1 月 1 日施行、政令 13/2023/NĐ-CP を継承・強化）が機微データの国内保管と特別な処理同意を要求するベトナムの状況に極めて適しています。
 
-![3.3 Federated と Centralized](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d03.png)
+![3.3 Federated と Centralized](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d03.webp)
 
 ## 4. デシジョンツリー
 
-![4. デシジョンツリー](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d04.png)
+![4. デシジョンツリー](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d04.webp)
 
 ## 5. ハイブリッドパターン：FHIR + OMOP
 
 これは 2026 年で最も一般的なパターンです：
 
-![5. ハイブリッドパターン：FHIR + OMOP](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d05.png)
+![5. ハイブリッドパターン：FHIR + OMOP](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d05.webp)
 
 → EHR の業務系には FHIR（リアルタイム、Web／モバイルに優しい）、研究データレイクには OMOP（federated 解析）。詳細は [FHIR ↔ OMOP ブリッジ](/blog/omop-fhir-mapping-bridge) を参照。
 
 ## 6. なぜ OMOP が RWE で勝つのか
 
-![6. なぜ OMOP が RWE で勝つのか](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d06.png)
+![6. なぜ OMOP が RWE で勝つのか](/images/blog/diagrams/omop-vs-fhir-vs-i2b2-pcornet-d06.webp)
 
 比較のポイント：i2b2 はコミュニティが小さく更新も少ない、PCORnet はより米国向けのクローズド寄り、Sentinel は FDA のみ、CDISC は試験申請専用。
 

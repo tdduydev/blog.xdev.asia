@@ -19,7 +19,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-mls-bai6-model-evaluation.png" alt="Model Evaluation Metrics" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-mls-bai6-model-evaluation.webp" alt="Model Evaluation Metrics" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>Model Evaluation: Classification metrics (AUC-ROC, F1), Regression metrics (RMSE, MAE), và Confusion Matrix</em></p>
 </div>
 

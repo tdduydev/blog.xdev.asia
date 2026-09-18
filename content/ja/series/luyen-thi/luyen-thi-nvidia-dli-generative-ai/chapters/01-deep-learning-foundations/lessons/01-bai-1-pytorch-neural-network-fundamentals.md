@@ -25,7 +25,7 @@ course:
 
 <blockquote><p><strong>試験のヒント：</strong> NVIDIA DLI の評価試験では、PyTorch コードを直接書いてデバッグする必要があります。ドキュメントを参照せずに <strong>トレーニングループ</strong>、<strong>nn.Module</strong>、<strong>テンソル</strong>操作を書けるようにしておきましょう。</p></blockquote>
 
-<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai1-neural-network-architecture.png" alt="ディープニューラルネットワークアーキテクチャ — 入力層、隠れ層、出力層、バックプロパゲーション" loading="lazy" /><figcaption>ディープニューラルネットワークアーキテクチャ — 入力層、隠れ層、出力層、バックプロパゲーション</figcaption></figure>
+<figure><img src="/storage/uploads/2026/04/nvidia-dli-bai1-neural-network-architecture.webp" alt="ディープニューラルネットワークアーキテクチャ — 入力層、隠れ層、出力層、バックプロパゲーション" loading="lazy" /><figcaption>ディープニューラルネットワークアーキテクチャ — 入力層、隠れ層、出力層、バックプロパゲーション</figcaption></figure>
 
 <h2 id="pytorch-tensors-autograd">2. PyTorch テンソルと Autograd</h2>
 

@@ -149,7 +149,7 @@ Cân bằng tập huấn luyện. **Không bao giờ** cân bằng tập đo.
 
 ## Chạy thử
 
-![Kết quả chạy ep13_metrics](/images/blog/ml-nhin-la-hieu/ep13_metrics.png)
+![Kết quả chạy ep13_metrics](/images/blog/ml-nhin-la-hieu/ep13_metrics.webp)
 
 > Ảnh trên là output thật của `python scratch/ep13_metrics.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep13_metrics.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep13_metrics.py) · [`library/ep13_metrics.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep13_metrics.py)

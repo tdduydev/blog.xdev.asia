@@ -16,7 +16,7 @@ course:
   slug: luyen-thi-kcna
 ---
 
-<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai6-scheduling.png" alt="Kubernetes Scheduling Pipeline và Autoscaling (HPA, VPA, Cluster Autoscaler)" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/k8s-cert-kcna-bai6-scheduling.webp" alt="Kubernetes Scheduling Pipeline và Autoscaling (HPA, VPA, Cluster Autoscaler)" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 
 <h2 id="scheduling">1. Kubernetes Scheduling</h2>
 

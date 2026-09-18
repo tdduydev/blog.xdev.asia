@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/aws-aif-bai7-finetuning-spectrum.png" alt="模型自訂範圍" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/aws-aif-bai7-finetuning-spectrum.webp" alt="模型自訂範圍" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>模型自訂範圍：從提示工程到從零開始預訓練</em></p>
 </div>
 

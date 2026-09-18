@@ -8,7 +8,7 @@ excerpt: >-
   A good workshop is not a crowded meeting. This article guides BAs in preparing
   goals, agendas, questions, facilitation techniques, conflict resolution, and
   finalizing action items after the workshop.
-featured_image: /images/blog/elicitation-ai-notes-ba.png
+featured_image: /images/blog/elicitation-ai-notes-ba.webp
 type: blog
 reading_time: 10
 view_count: 0

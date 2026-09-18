@@ -92,7 +92,7 @@ locale: zh-tw
 大多數實用的系統都是從一個整體開始的－而且是一個好的整體！遷移到微服務+微前端是一個**漫長的過程**，而不是一次大爆炸重寫。本文將引導您完成安全、逐步的遷移路徑。
 
 
-![Strangler Fig 模式 — 從整體遷移到微服務](/storage/uploads/2026/04/mfe-ms-diagram-bai30-strangler-fig-migration.png)
+![Strangler Fig 模式 — 從整體遷移到微服務](/storage/uploads/2026/04/mfe-ms-diagram-bai30-strangler-fig-migration.webp)
 
 ---
 

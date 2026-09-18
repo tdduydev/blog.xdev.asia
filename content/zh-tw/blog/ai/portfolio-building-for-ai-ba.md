@@ -4,7 +4,7 @@ title: "AI BA的作品集建置：如何以AI專案經驗打造亮眼的作品�
 slug: portfolio-building-for-ai-ba
 excerpt: >-
   想晉升為資深AI BA或轉型為AI PM的BA，需要的不只是列出工具——而是實質性的作品集。如何組織AI專案案例研究、展示哪些文件、以及如何在LinkedIn和CV上說故事的指南。
-featured_image: /images/blog/portfolio-ai-ba.png
+featured_image: /images/blog/portfolio-ai-ba.webp
 type: blog
 reading_time: 12
 view_count: 0

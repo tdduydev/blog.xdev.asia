@@ -5,7 +5,7 @@ slug: cai-dat-kvm-tren-ubuntu-quan-ly-vm-qua-cockpit-web-ui
 excerpt: >-
   Ubuntu に KVM をインストールし、Cockpit Web UI を介して VM を管理する手順。 2 ノード ホームラボのネットワーク
   ブリッジ、NAT 仮想ネットワーク、ストレージ プールを構成します。
-featured_image: /images/blog/kvm-cockpit-featured.png
+featured_image: /images/blog/kvm-cockpit-featured.webp
 type: blog
 reading_time: 27
 view_count: 2
@@ -423,7 +423,7 @@ sudo ufw allow 9090/tcp
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>ユーザーを使用してログインする <a href="/ja/tags/linux/">Linux</a> あなたのものです（sudo許可が必要です）。</p><p><strong>KVM 用コックピット インターフェイス:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>KVM のコックピット機能:</strong></p>
+<p>ユーザーを使用してログインする <a href="/ja/tags/linux/">Linux</a> あなたのものです（sudo許可が必要です）。</p><p><strong>KVM 用コックピット インターフェイス:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.webp" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>KVM のコックピット機能:</strong></p>
 <!--kg-card-begin: html-->
 <table>
 <thead>

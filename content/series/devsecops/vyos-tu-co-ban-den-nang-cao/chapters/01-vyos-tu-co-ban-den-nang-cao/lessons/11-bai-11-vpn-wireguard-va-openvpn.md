@@ -14,7 +14,7 @@ course:
   title: VyOS từ Cơ bản đến Nâng Cao
   slug: vyos-tu-co-ban-den-nang-cao
 ---
-<img src="/storage/uploads/2026/04/vyos-11-vpn-wireguard.png" alt="VPN — WireGuard và OpenVPN" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
+<img src="/storage/uploads/2026/04/vyos-11-vpn-wireguard.webp" alt="VPN — WireGuard và OpenVPN" style="display:block;margin:24px auto 32px auto;max-width:700px;width:100%;border-radius:18px;box-shadow:0 4px 32px #0002" loading="lazy" />
 
 <h2>Giới thiệu VPN trên VyOS: WireGuard và OpenVPN</h2>
 <p>VPN (Virtual Private Network) là giải pháp bảo mật kết nối giữa các site hoặc truy cập từ xa. VyOS hỗ trợ nhiều loại VPN hiện đại như WireGuard, OpenVPN và IPsec. Bài này tập trung vào WireGuard và OpenVPN, hai giải pháp phổ biến với ưu điểm về hiệu năng, bảo mật và cấu hình linh hoạt.</p>

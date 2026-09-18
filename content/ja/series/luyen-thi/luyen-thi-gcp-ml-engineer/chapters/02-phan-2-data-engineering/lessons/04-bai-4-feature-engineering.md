@@ -18,7 +18,7 @@ course:
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="/storage/uploads/2026/04/gcp-mle-bai4-feature-store.png" alt="Vertex AI Feature Store" style="max-width: 800px; width: 100%; border-radius: 12px;" />
+<img src="/storage/uploads/2026/04/gcp-mle-bai4-feature-store.webp" alt="Vertex AI Feature Store" style="max-width: 800px; width: 100%; border-radius: 12px;" />
 <p><em>特徴量エンジニアリングとVertex AI Feature Store：ML向け特徴量の作成、保存、再利用</em></p>
 </div>
 

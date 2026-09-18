@@ -107,7 +107,7 @@ số thật, không phải số minh hoạ.
 
 ## Chạy thử
 
-![Kết quả chạy ep11_neural_network](/images/blog/ml-nhin-la-hieu/ep11_neural_network.png)
+![Kết quả chạy ep11_neural_network](/images/blog/ml-nhin-la-hieu/ep11_neural_network.webp)
 
 > Ảnh trên là output thật của `python scratch/ep11_neural_network.py`, không phải bảng vẽ lại.
 > Code: [`scratch/ep11_neural_network.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/scratch/ep11_neural_network.py) · [`library/ep11_neural_network.py`](https://github.com/tdduydev/ml-nhin-la-hieu/blob/main/library/ep11_neural_network.py)

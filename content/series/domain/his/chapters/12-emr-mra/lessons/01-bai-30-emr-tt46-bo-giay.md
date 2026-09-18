@@ -7,7 +7,7 @@ description: >-
   chuyển đổi từ HSBA giấy sang điện tử và những bài học pháp lý.
 duration_minutes: 50
 is_free: true
-featured_image: /storage/uploads/2026/05/his/bai-30-emr-tt46-bo-giay-banner.png
+featured_image: /storage/uploads/2026/05/his/bai-30-emr-tt46-bo-giay-banner.webp
 video_url: null
 sort_order: 1
 section_title: "Phần 12: EMR & lưu trữ HSBA"
@@ -17,11 +17,11 @@ course:
   slug: his
 ---
 
-![EMR — chuyển đổi từ HSBA giấy sang điện tử](/storage/uploads/2026/05/his/bai-30-emr-tt46-bo-giay-banner.png)
+![EMR — chuyển đổi từ HSBA giấy sang điện tử](/storage/uploads/2026/05/his/bai-30-emr-tt46-bo-giay-banner.webp)
 
 ## TT 46/2018 — khung pháp lý EMR Việt Nam *(cập nhật 2026)*
 
-![Bác sĩ đóng hồ sơ giấy, mở EMR trên tablet](/storage/uploads/2026/05/his/bai-30-emr-tt46-bo-giay-workflow.png)
+![Bác sĩ đóng hồ sơ giấy, mở EMR trên tablet](/storage/uploads/2026/05/his/bai-30-emr-tt46-bo-giay-workflow.webp)
 
 
 ## Mục tiêu bài học

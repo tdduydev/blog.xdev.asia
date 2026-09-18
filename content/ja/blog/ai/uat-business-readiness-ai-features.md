@@ -4,7 +4,7 @@ title: "AI 機能用 UAT とビジネスレディネス：テストプランか�
 slug: uat-business-readiness-ai-features
 excerpt: >-
   AI 機能用 UAT は従来の UAT とは異なります。ビジネスロジックだけでなく、AI 出力品質、エッジケース、バイアス、ユーザーが実際に AI を信頼するかをテストします。UAT プラン、ビジネスレディネスチェックリスト、BA 向けの Go/No-Go 決定フレームワークの完全なガイド。
-featured_image: /images/blog/uat-business-readiness-ai.png
+featured_image: /images/blog/uat-business-readiness-ai.webp
 type: blog
 reading_time: 10
 view_count: 0

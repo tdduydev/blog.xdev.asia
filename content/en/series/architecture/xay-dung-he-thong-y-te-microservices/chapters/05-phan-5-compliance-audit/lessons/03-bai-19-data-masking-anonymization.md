@@ -94,13 +94,13 @@ locale: en
 
 ## 1. Overview of Data De-identification for Healthcare
 
-![HIPAA De-identification — Safe Harbor vs Expert Determination](/storage/uploads/2026/04/healthcare-data-deidentification.png)
+![HIPAA De-identification — Safe Harbor vs Expert Determination](/storage/uploads/2026/04/healthcare-data-deidentification.webp)
 
 HIPAA allows the use and sharing of medical data **without patient consent** if the data has been **de-identified** — that is, it cannot be used to identify the patient. This is the foundation for medical research, population health analytics, and machine learning in healthcare.
 
 ### 1.1. HIPAA De-identification Standards — §164.514
 
-![HIPAA De-identification — Safe Harbor vs Expert Determination flow](/storage/uploads/2026/04/healthcare-safe-harbor-flow.png)
+![HIPAA De-identification — Safe Harbor vs Expert Determination flow](/storage/uploads/2026/04/healthcare-safe-harbor-flow.webp)
 
 **PHI (Protected Health Information)** has 2 de-identification methods under §164.514(a):
 
@@ -117,7 +117,7 @@ HIPAA allows the use and sharing of medical data **without patient consent** if 
 
 ### 1.2. Data Protection Spectrum
 
-![Data Protection Spectrum — from Synthetic Data to Original PHI](/storage/uploads/2026/04/healthcare-data-protection-spectrum.png)
+![Data Protection Spectrum — from Synthetic Data to Original PHI](/storage/uploads/2026/04/healthcare-data-protection-spectrum.webp)
 
 | Level | Description | Use Cases |
 |-------|--------|----------|
@@ -664,7 +664,7 @@ COMMIT;
 
 ```
 
-![K-Anonymity Example — Before (k=1) vs After (k=3) Generalization](/storage/uploads/2026/04/healthcare-k-anonymity-example.png)
+![K-Anonymity Example — Before (k=1) vs After (k=3) Generalization](/storage/uploads/2026/04/healthcare-k-anonymity-example.webp)
 
 **BEFORE (k=1, not anonymous):**
 

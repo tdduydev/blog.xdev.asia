@@ -7,7 +7,7 @@ excerpt: >-
   data lineage (trace data from source), retention policy (how long to keep), PII
   classification (what's sensitive), and provenance tracking (who uses data, when).
   Step-by-step guide from policy to implementation checklist.
-featured_image: /images/blog/data-governance-ai.png
+featured_image: /images/blog/data-governance-ai.webp
 type: blog
 reading_time: 10
 view_count: 0

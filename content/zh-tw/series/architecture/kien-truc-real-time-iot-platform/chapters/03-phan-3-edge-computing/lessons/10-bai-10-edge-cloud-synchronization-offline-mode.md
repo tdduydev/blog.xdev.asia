@@ -85,7 +85,7 @@ locale: zh-tw
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">亞洲開發網</text>
 </svg>
 
-![第10課：邊雲同步與離線模式](/storage/uploads/2026/03/iot-bai-10-diagram.png)
+![第10課：邊雲同步與離線模式](/storage/uploads/2026/03/iot-bai-10-diagram.webp)
 
 ## 簡介
 
