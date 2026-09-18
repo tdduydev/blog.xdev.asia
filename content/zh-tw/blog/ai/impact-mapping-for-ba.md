@@ -210,6 +210,7 @@ Impact Mapping 通常在 project 一開始 **做一次**，但 BA 應該：
 | **Sticky notes** | 用於 stakeholder workshop |
 
 **Mermaid template：**
+
 ```mermaid
 mindmap
   root((Tăng CSAT 4.5))

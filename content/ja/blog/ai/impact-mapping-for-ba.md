@@ -211,6 +211,7 @@ Impact Mapping は project の最初に **一度だけ** 行うことが多い�
 | **Sticky notes** | Stakeholders との workshop |
 
 **Mermaid template:**
+
 ```mermaid
 mindmap
   root((Tăng CSAT 4.5))

@@ -204,6 +204,7 @@ Impact Mapping is often done **once** at the beginning of a project, but BA shou
 | **Sticky notes** | Workshops with stakeholders |
 
 **Mermaid template:**
+
 ```mermaid
 mindmap
   root((Tăng CSAT 4.5))

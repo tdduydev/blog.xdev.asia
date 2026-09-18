@@ -103,6 +103,7 @@ course:
 <h2 id="phan-1-postgresql-replication">PHẦN 1: POSTGRESQL REPLICATION</h2>
 
 <h3 id="11-streaming-replication">1.1. Streaming Replication</h3>
+
 ```mermaid
 graph TD
     APP["🖥️ APPLICATION"] --> PGB["🔀 PgBouncer<br/>port 6432<br/>Connection Pool"]
@@ -279,6 +280,7 @@ graph TB
 ```
 
 <h3 id="31-failover-flow">3.1. Failover Flow</h3>
+
 ```mermaid
 sequenceDiagram
     participant PG1 as pg-1 (PRIMARY)

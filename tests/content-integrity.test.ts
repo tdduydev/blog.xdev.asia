@@ -144,3 +144,35 @@ describe("link chết sang xdev.asia", () => {
     expect(fhirUris.length).toBe(16);
   });
 });
+
+describe("khối mermaid", () => {
+  // Phát hiện ngày 2026-09-18 khi xem app trên simulator: sơ đồ mermaid không
+  // hiện, và HTML thô phía trên nó bị nuốt vào cùng một khối.
+  //
+  // Nguyên nhân là CommonMark, không phải trình render: một khối HTML kéo dài
+  // cho tới khi gặp DÒNG TRỐNG. Nội dung ở đây hay viết
+  //
+  //     <h3 id="...">Tiêu đề</h3>
+  //     ```mermaid
+  //
+  // không có dòng trống ở giữa, nên fence bị hút vào khối HTML và không bao giờ
+  // được nhận là code block. Hỏng trên CẢ website lẫn app — không phải lỗi riêng
+  // của app.
+  //
+  // Đo lúc phát hiện: 120 fence đúng chuẩn, 28 fence thiếu dòng trống trong 10 file.
+  it("mọi fence ```mermaid đều có dòng trống phía trước", () => {
+    const offenders: string[] = [];
+
+    for (const filePath of markdownFiles) {
+      const lines = fs.readFileSync(filePath, "utf-8").split("\n");
+      lines.forEach((line, index) => {
+        if (!line.trim().startsWith("```mermaid")) return;
+        if (index === 0) return;
+        if (lines[index - 1]!.trim() === "") return;
+        offenders.push(`${path.relative(process.cwd(), filePath)}:${index + 1}`);
+      });
+    }
+
+    expect(offenders).toEqual([]);
+  });
+});

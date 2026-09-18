@@ -102,6 +102,7 @@ course:
 <h2 id="phan-1-kien-truc">PHẦN 1: KIẾN TRÚC RABBITMQ CLUSTER</h2>
 
 <h3 id="11-overview">1.1. Messaging Patterns</h3>
+
 ```mermaid
 graph LR
     subgraph P2P["1️⃣ Point-to-Point"]
@@ -126,6 +127,7 @@ graph LR
 ```
 
 <h3 id="12-cluster-arch">1.2. RabbitMQ Cluster Architecture</h3>
+
 ```mermaid
 graph TD
     SVC["🌐 K8s Service ClusterIP<br/>rabbitmq.messaging:5672"]

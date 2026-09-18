@@ -103,6 +103,7 @@ course:
 <h2 id="phan-1-ceph-architecture">PHẦN 1: CEPH ARCHITECTURE OVERVIEW</h2>
 
 <h3 id="11-cac-thanh-phan-ceph">1.1. Các thành phần Ceph</h3>
+
 ```mermaid
 graph TB
     subgraph CLIENT["🖥️ CLIENT ACCESS"]
@@ -181,6 +182,7 @@ graph TB
 <!--kg-card-end: html-->
 
 <h3 id="12-crush-algorithm">1.2. CRUSH Algorithm</h3>
+
 ```mermaid
 graph TD
     subgraph STEP1["1️⃣ Object → Pool → PG"]
@@ -219,6 +221,7 @@ graph TD
 <h2 id="phan-2-rook-la-gi">PHẦN 2: ROOK — CEPH OPERATOR CHO KUBERNETES</h2>
 
 <h3 id="21-rook-architecture">2.1. Rook Architecture</h3>
+
 ```mermaid
 graph TB
     subgraph K8S["☸ Kubernetes Cluster"]
@@ -342,6 +345,7 @@ graph TB
 <h2 id="phan-3-planning-ceph">PHẦN 3: PLANNING HARDWARE CHO CEPH</h2>
 
 <h3 id="31-osd-node-sizing">3.1. OSD Node Sizing</h3>
+
 ```mermaid
 graph LR
     subgraph OSD_REQ["💾 Per-OSD Requirements"]
@@ -378,6 +382,7 @@ graph LR
 </code></pre>
 
 <h3 id="33-network-planning">3.3. Network Planning</h3>
+
 ```mermaid
 graph LR
     subgraph NODE1["💻 OSD Node 1"]
@@ -418,6 +423,7 @@ graph LR
 <h2 id="phan-4-storage-types">PHẦN 4: 3 LOẠI STORAGE</h2>
 
 <h3 id="41-block-rbd">4.1. Block Storage (RBD)</h3>
+
 ```mermaid
 graph LR
     POD["🟢 Pod"] -->|mount| PVC["📋 PVC<br/>ReadWriteOnce"]
@@ -432,6 +438,7 @@ graph LR
 > ⚠️ ReadWriteOnce — chỉ 1 pod mount cùng lúc
 
 <h3 id="42-filesystem-cephfs">4.2. Filesystem Storage (CephFS)</h3>
+
 ```mermaid
 graph LR
     P1["🟢 Pod 1"] --> PVC["📋 PVC<br/>ReadWriteMany"]
@@ -449,6 +456,7 @@ graph LR
 > ✅ Shared file storage (nhiều pods cùng đọc/ghi) · ✅ Content management · ✅ AI/ML training data
 
 <h3 id="43-object-rgw">4.3. Object Storage (RGW)</h3>
+
 ```mermaid
 graph LR
     APP["🟢 App"] -->|"PUT/GET/DELETE"| S3["🌐 S3 API<br/>s3://bucket/key"]

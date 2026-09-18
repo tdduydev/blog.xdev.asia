@@ -396,6 +396,7 @@ Impact Mapping thường được làm **một lần** ở đầu project, nhưn
 | **Sticky notes** | Workshop với stakeholders |
 
 **Mermaid template:**
+
 ```mermaid
 mindmap
   root((Tăng CSAT 4.5))
