@@ -147,6 +147,19 @@ URL tuyệt đối (`http://`/`https://`) — không bao giờ là chuỗi bare 
 tường minh khi không có ảnh — không bao giờ bị lược khỏi object — nên schema
 phía app nên khai `featuredImage` là `nullable`, không phải `optional`.
 
+`publishedAt` (trong `index.json`), và `level`/`lessonCount` (trong
+`series.json`, trước đây khai bắt buộc) đều `nullable`, cùng lý do và cùng
+mức độ bắt buộc như `featuredImage` ở trên: field LUÔN CÓ MẶT trong object,
+mang `null` khi frontmatter không khai giá trị đó, không bao giờ bị lược
+khỏi object. Đo trên artifact build thật ở commit `e00e1853` (trước khi sửa):
+frontmatter series "luyen-thi-ckad" (`ja`, `zh-tw`) và
+"docker-tu-co-ban-den-nang-cao" (`zh-tw`) không khai `published_at`/`level`/
+`lesson_count` — `index.json` thiếu hẳn key `publishedAt` ở 10 entry `ja` +
+30 entry `zh-tw` (mọi lesson thuộc "luyen-thi-ckad", field này kế thừa từ
+`series.published_at`); `series.json` thiếu hẳn `level` và `lessonCount` ở
+1 node `ja` + 2 node `zh-tw`. App nên khai cả ba field này `nullable`, không
+phải `optional`.
+
 `path` là đường dẫn tương đối so với base API: app fetch
 `{API_BASE}/{path}` để lấy markdown. Mọi `path` phải trỏ tới file có thật —
 đây là invariant được test.

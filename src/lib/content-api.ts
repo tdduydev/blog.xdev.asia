@@ -68,6 +68,36 @@ function normalizeAssetPath(value: string | null | undefined): string | null {
 }
 
 /**
+ * Chuẩn hoá MỘT field vô hướng (chuỗi, số, ...) khai kiểu `T | null` về
+ * `null` tường minh, thay vì để `undefined` (frontmatter thiếu hẳn field đó)
+ * lọt tới điểm phát sinh object.
+ *
+ * Lý do cần hàm này: gán trực tiếp `publishedAt: post.published_at` vào một
+ * object literal KHÔNG làm property biến mất — `"publishedAt" in obj` vẫn
+ * `true` dù giá trị là `undefined`. Chỉ `JSON.stringify` (dùng bởi
+ * `Response.json()` ở mọi route handler) mới thật sự xoá property có giá trị
+ * `undefined` khỏi JSON phát ra. Đo lại ngày 2026-09-18 bằng cách rebuild
+ * artifact thật ở commit `e00e1853` (trước khi sửa): `{locale}/index.json`
+ * thiếu hẳn key `publishedAt` ở 10 entry `ja` + 30 entry `zh-tw` (toàn bộ
+ * lesson của series "luyen-thi-ckad", locale đó không khai `published_at`
+ * trong frontmatter — field đó vốn thuộc `series`, lesson kế thừa nguyên
+ * `series.published_at`); `{locale}/series.json` thiếu hẳn `level` và
+ * `lessonCount` ở 1 node `ja` ("luyen-thi-ckad") + 2 node `zh-tw`
+ * ("luyen-thi-ckad" và "docker-tu-co-ban-den-nang-cao") — cả hai file
+ * frontmatter đó không khai `level`/`lesson_count`.
+ *
+ * Áp dụng hàm này tại MỌI điểm phát sinh field vô hướng nullable trong file
+ * này — kể cả những field hôm nay chưa đo được entry nào bị thiếu (vd
+ * `excerpt`/`readingTime` của bài blog, `description` của series) — vì
+ * nguyên nhân giống hệt nhau (frontmatter có thể thiếu field, TypeScript
+ * không kiểm tra runtime) và một frontmatter mới thiếu field vẫn có thể tái
+ * tạo đúng lỗi này bất cứ lúc nào.
+ */
+function orNull<T>(value: T | null | undefined): T | null {
+  return value ?? null;
+}
+
+/**
  * Trường frontmatter → đường dẫn tuyệt đối, dựng từ frontmatter.
  *
  * KHÔNG dùng `getMdxFilePath` ở đây. Nó tra qua `buildSlugMap`, mà map đó chỉ
@@ -191,10 +221,10 @@ function buildPostEntries(locale: Locale): ApiIndexEntry[] {
       locale,
       slug: post.slug,
       title: post.title,
-      excerpt: post.excerpt,
+      excerpt: orNull(post.excerpt),
       featuredImage: normalizeAssetPath(post.featured_image),
-      readingTime: post.reading_time,
-      publishedAt: post.published_at,
+      readingTime: orNull(post.reading_time),
+      publishedAt: orNull(post.published_at),
       author: buildAuthorRef(post.author),
       tags: buildTagSlugs(post.tags),
       category: buildCategoryRef(post.category),
@@ -235,9 +265,13 @@ function buildLessonEntries(locale: Locale): ApiIndexEntry[] {
     );
 
     for (const section of series.sections) {
-      for (const lesson of section.lessons) {
+      // `lessonIndex` chỉ dùng làm fallback cuối cho `order` bên dưới — xem
+      // comment ở `buildSeriesTree` (cùng file) giải thích vì sao `order`
+      // không khai nullable dù cùng rủi ro "frontmatter thiếu field" với mọi
+      // field khác trong file này.
+      section.lessons.forEach((lesson, lessonIndex) => {
         const filePath = pathById.get(lesson.id);
-        if (!filePath) continue;
+        if (!filePath) return;
 
         entries.push({
           id: lesson.id,
@@ -245,22 +279,22 @@ function buildLessonEntries(locale: Locale): ApiIndexEntry[] {
           locale,
           slug: lesson.slug,
           title: lesson.title,
-          excerpt: lesson.description ?? null,
+          excerpt: orNull(lesson.description),
           featuredImage: normalizeAssetPath(series.featured_image),
-          readingTime: lesson.duration_minutes ?? null,
-          publishedAt: series.published_at,
+          readingTime: orNull(lesson.duration_minutes),
+          publishedAt: orNull(series.published_at),
           author: buildAuthorRef(series.author),
           tags: buildTagSlugs(series.tags),
           category: buildCategoryRef(series.category),
           series: {
             slug: series.slug,
             chapter: section.title,
-            order: lesson.sort_order ?? section.sort_order,
+            order: lesson.sort_order ?? section.sort_order ?? lessonIndex,
           },
           path: toApiPath(filePath),
           url: `${SITE_URL}${localePrefix(locale)}/lessons/${series.slug}/${lesson.slug}/`,
         });
-      }
+      });
     }
   }
 
@@ -280,8 +314,17 @@ export interface ApiSeriesNode {
   title: string;
   description: string | null;
   featuredImage: string | null;
-  level: string;
-  lessonCount: number;
+  // `level`/`lessonCount` khai `| null` (trước đây bắt buộc): đo ngày
+  // 2026-09-18 trên artifact build thật ở commit `e00e1853` — frontmatter
+  // series "luyen-thi-ckad" (`ja`, `zh-tw`) và
+  // "docker-tu-co-ban-den-nang-cao" (`zh-tw`) không khai `level`/
+  // `lesson_count`, `series.level`/`series.lesson_count` là `undefined` lúc
+  // runtime dù type cũ khai bắt buộc, và `JSON.stringify` xoá hẳn key thay vì
+  // phát `null` — 1 node `ja` + 2 node `zh-tw` thiếu cả hai key này trong
+  // `series.json`. Khai `| null` để type khớp với giá trị thật app có thể
+  // nhận, cùng nguyên tắc với `featuredImage` ở trên.
+  level: string | null;
+  lessonCount: number | null;
   category: { slug: string; name: string } | null;
   url: string;
   chapters: {
@@ -319,22 +362,35 @@ export function buildSeriesTree(locale: Locale): ApiSeriesNode[] {
     nodes.push({
       slug: series.slug,
       title: series.title,
-      description: series.description,
+      description: orNull(series.description),
       featuredImage: normalizeAssetPath(series.featured_image),
-      level: series.level,
-      lessonCount: series.lesson_count,
+      level: orNull(series.level),
+      lessonCount: orNull(series.lesson_count),
       category: buildCategoryRef(series.category),
       url: `${SITE_URL}${localePrefix(locale)}/series/${
         series.category?.slug ?? "uncategorized"
       }/${series.slug}/`,
-      chapters: series.sections.map((section) => ({
+      // `order` KHÔNG khai nullable — đây là khoá sắp xếp, `null` không có ý
+      // nghĩa gì với một app cần vẽ chương/bài theo thứ tự. Vẫn cùng rủi ro
+      // "frontmatter thiếu field" như mọi field khác trong file này:
+      // `normalizeSeries()` (`src/lib/data.ts:357`) dùng nguyên `sections` từ
+      // frontmatter (không qua chuẩn hoá) khi series không có file lesson
+      // trên đĩa lẫn `sections` rỗng — nhánh đó chưa từng bị kích hoạt bởi dữ
+      // liệu thật (đã đo: 0/1655+1431+1451+1451 entry index và 0 chapter/lesson
+      // trong series.json ở cả 4 locale thiếu `order` tại commit `e00e1853`),
+      // nhưng vẫn là đường dẫn còn sống trong code. Dùng vị trí trong mảng
+      // (`sectionIndex`/`lessonIndex`) làm fallback cuối — cùng cách
+      // `buildSectionsFromLessonFiles`/`createFallbackSections` trong
+      // `data.ts` đã tự gán `sort_order` khi frontmatter không có, thay vì
+      // để `undefined` lọt tới `JSON.stringify`.
+      chapters: series.sections.map((section, sectionIndex) => ({
         title: section.title,
-        order: section.sort_order,
-        lessons: section.lessons.map((lesson) => ({
+        order: section.sort_order ?? sectionIndex,
+        lessons: section.lessons.map((lesson, lessonIndex) => ({
           id: lesson.id,
           slug: lesson.slug,
           title: lesson.title,
-          order: lesson.sort_order ?? section.sort_order,
+          order: lesson.sort_order ?? section.sort_order ?? lessonIndex,
         })),
       })),
     });
