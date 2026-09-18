@@ -14,8 +14,11 @@ máy đọc được hiện nay: `/feed.xml`, `/llms.txt`, `/llms-full.txt`, `/n
 Đã xác minh `https://blog.xdev.asia/llms.txt` phục vụ thật trong production, nên
 pattern route handler + static export chạy được cho API.
 
-Nội dung: 6480 file markdown, 101 MB (92 MB markdown), 4 locale — vi (130 blog +
-1603 lesson), en/ja/zh-tw mỗi locale ~1525. 274 series. Series lớn nhất 75 bài /
+Nội dung: 6480 file markdown, 101 MB (92 MB markdown), 4 locale. Đếm theo FILE:
+vi có 130 blog + 1603 file dưới `content/series`. Đếm theo ENTRY trong index thì vi
+có **130 blog + 1525 lesson = 1655**; chênh 78 là các `index.md` của series và
+chapter, chúng là metadata chứ không phải bài học. en/ja/zh-tw lần lượt 1431, 1451,
+1451 entry. 274 series. Series lớn nhất 75 bài /
 2.2 MB. Trung bình ~14 KB/bài.
 
 Firebase project `xdev-asia` đã tồn tại và đang dùng ở web (`src/lib/firebase.ts`):
@@ -86,7 +89,7 @@ Base: `https://blog.xdev.asia/api/v1/`
   "version": "<git sha ngắn>",
   "generatedAt": "2026-09-18T10:00:00.000Z",
   "locales": ["vi", "en", "ja", "zh-tw"],
-  "counts": { "vi": { "posts": 130, "lessons": 1603, "series": 73 } }
+  "counts": { "vi": { "posts": 130, "lessons": 1525, "series": 73 } }
 }
 ```
 
