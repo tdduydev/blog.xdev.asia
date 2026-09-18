@@ -459,12 +459,37 @@ API hiện **không phơi gì trong số đó**.
 **Phạm vi:** repo app. Chạy trên Expo Go. Dùng chung Firebase project `xdev-asia`.
 
 `firestore.rules` đã viết sẵn cho `users/{uid}/progress`, `users/{uid}/bookmarks`,
-`quizResults/{uid}/attempts`, `reviews` — **không cần sửa rules**.
+`users/{uid}/roadmapProgress`, `quizResults/{uid}/attempts`, `reviews`, `comments`,
+`fcmTokens` — **không cần sửa rules**. Firebase project: `xdev-asia`, dùng chung với web.
+
+**Luồng đăng nhập của web KHÔNG tái sử dụng được.** Đã đọc
+`node_modules/@firebase/auth/dist/index.rn.d.ts`: nó chỉ gồm `export * from
+'./index.shared'`, phone auth, TOTP, `getReactNativePersistence`, và bản `getAuth`/
+`initializeAuth` riêng cho RN. Nó **không** re-export `signInWithPopup` hay
+`signInWithRedirect` — hai hàm đó nằm ở `platform_browser`, chỉ có trong `index.d.ts`
+của web. Mà `src/components/AuthProvider.tsx` của web gọi đúng `signInWithPopup`.
+
+Những hàm RN **có** (qua `index.shared` → `src/core/index.d.ts`): `signInWithCredential`,
+`GoogleAuthProvider`, `GithubAuthProvider`, `OAuthProvider`, `onAuthStateChanged`,
+`signOut`, email/password, `signInAnonymously`.
+
+Nên luồng đúng là: lấy ID token bằng cơ chế của nền tảng, rồi đổi lấy phiên Firebase
+bằng `signInWithCredential(auth, GoogleAuthProvider.credential(idToken))`.
 
 - [ ] `initializeAuth(app, { persistence: getReactNativePersistence(AsyncStorage) })`
       — bản `getAuth()` thường sẽ cảnh báo và không giữ phiên qua lần mở app sau
-- [ ] Đăng nhập Google, và Apple trên iOS (App Store yêu cầu Sign in with Apple nếu
-      app có đăng nhập bên thứ ba)
+- [ ] **Xác minh trước khi chọn thư viện**: `@react-native-google-signin/google-signin`
+      là native module, dùng nó là rời Expo Go ngay ở task này — đúng cái mà thứ tự
+      Task 10→14 đang cố tránh. Kiểm xem `expo-auth-session` có đủ lấy ID token Google
+      trên Expo Go không; nếu có thì dùng nó
+- [ ] **GitHub: kiểm tính khả thi trước, đừng hứa.** Web đăng nhập được GitHub vì popup
+      chạy trong trình duyệt. Trên app, `GithubAuthProvider.credential()` cần access
+      token, mà đổi code lấy token với GitHub cần client secret — thứ không được nhúng
+      vào app. Nếu không có đường an toàn, **bỏ GitHub trên app** và nói rõ, chứ đừng
+      nhúng secret
+- [ ] Apple trên iOS: App Store yêu cầu Sign in with Apple nếu app có đăng nhập bên thứ
+      ba. Dùng `OAuthProvider('apple.com')` + `signInWithCredential`. Kiểm xem
+      `expo-apple-authentication` có chạy trên Expo Go không trước khi cam kết
 - [ ] Sau khi đăng nhập: đồng bộ bookmark, tiến độ đọc, kết quả thi thử lên Firestore
 - [ ] Đăng xuất phải xoá cache cục bộ của dữ liệu cá nhân, không chỉ xoá phiên
 - [ ] Test: phiên còn sau khi khởi động lại app; rules từ chối đúng khi uid không khớp
