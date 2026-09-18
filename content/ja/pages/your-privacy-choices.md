@@ -51,4 +51,4 @@ Google Analytics オプトアウト ブラウザ アドオンをインストー�
 **電子メール:** duy@xdev.asia
 
 - 
-**ウェブサイト:** https://xdev.asia
+**ウェブサイト:** https://blog.xdev.asia

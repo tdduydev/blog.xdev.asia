@@ -55,6 +55,6 @@ You can delete local gameplay data by uninstalling the app from your device. For
 
 ## Contact
 
-Website: [https://xdev.asia](https://xdev.asia)
+Website: [https://blog.xdev.asia](https://blog.xdev.asia)
 
 Email: duy@xdev.asia

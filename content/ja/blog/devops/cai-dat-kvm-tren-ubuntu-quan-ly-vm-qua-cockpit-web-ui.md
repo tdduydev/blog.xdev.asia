@@ -40,7 +40,7 @@ tags:
 comments: []
 locale: ja
 ---
-<p>強力で無料の直接統合された仮想化ソリューションをお探しの場合 <a href="https://xdev.asia/tag/linux/">Linux</a> カーネル、その後 <a href="https://xdev.asia/tag/kvm/"><strong>KVM (カーネルベースの仮想マシン)</strong></a> が答えです。 <a href="https://xdev.asia/tag/kvm/">KVM</a> Linux を Type-1 に変える <a href="https://xdev.asia/tag/hypervisor/">ハイパーバイザー</a>、たくさん走れるようになります <a href="https://xdev.asia/tag/virtual-machines/">仮想マシン (VM)</a> ほぼネイティブのパフォーマンスを実現します。</p><p>この記事では、インストール方法を説明します <a href="https://xdev.asia/tag/kvm/">KVM</a> 上のAからZまで <strong>物理サーバー 2 台</strong> 特定の構成の場合:</p>
+<p>強力で無料の直接統合された仮想化ソリューションをお探しの場合 <a href="/ja/tags/linux/">Linux</a> カーネル、その後 <a href="/ja/tags/kvm/"><strong>KVM (カーネルベースの仮想マシン)</strong></a> が答えです。 <a href="/ja/tags/kvm/">KVM</a> Linux を Type-1 に変える <a href="/ja/tags/hypervisor/">ハイパーバイザー</a>、たくさん走れるようになります <a href="/ja/tags/virtual-machines/">仮想マシン (VM)</a> ほぼネイティブのパフォーマンスを実現します。</p><p>この記事では、インストール方法を説明します <a href="/ja/tags/kvm/">KVM</a> 上のAからZまで <strong>物理サーバー 2 台</strong> 特定の構成の場合:</p>
 <!--kg-card-begin: html-->
 <table>
 <thead>
@@ -64,7 +64,7 @@ locale: ja
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>この構成は、ホームラボの構築、Kubernetes クラスターの実行、または開発/テスト環境に適しています。</p><h2 id="t%E1%BA%A1i-sao-ch%E1%BB%8Dn-kvm">KVM を選択する理由</h2><p>インストールに入る前に、その理由を理解しましょう <a href="https://xdev.asia/tag/kvm/">KVM</a> は一般的な選択肢です:</p><p><strong>仮想化ソリューションを比較します。</strong></p><pre><code>┌─────────────────┬──────────────┬─────────────┬──────────────┐
+<p>この構成は、ホームラボの構築、Kubernetes クラスターの実行、または開発/テスト環境に適しています。</p><h2 id="t%E1%BA%A1i-sao-ch%E1%BB%8Dn-kvm">KVM を選択する理由</h2><p>インストールに入る前に、その理由を理解しましょう <a href="/ja/tags/kvm/">KVM</a> は一般的な選択肢です:</p><p><strong>仮想化ソリューションを比較します。</strong></p><pre><code>┌─────────────────┬──────────────┬─────────────┬──────────────┐
 │     Tiêu chí    │     KVM      │   VMware    │  VirtualBox  │
 ├─────────────────┼──────────────┼─────────────┼──────────────┤
 │ Chi phí         │ Miễn phí     │ Có phí      │ Miễn phí     │
@@ -74,7 +74,7 @@ locale: ja
 │ Cloud providers │ AWS, GCP...  │ VMware Cloud│ Không        │
 │ Nested Virt     │ Tốt          │ Tốt         │ Hạn chế      │
 └─────────────────┴──────────────┴─────────────┴──────────────┘
-</code></pre><p><a href="https://xdev.asia/tag/kvm/">KVM</a> AWS、Google Cloud、DigitalOcean などの主要なクラウド プロバイダーによって使用されており、OpenStack、Proxmox VE の基盤です。</p><h2 id="y%C3%AAu-c%E1%BA%A7u-h%E1%BB%87-th%E1%BB%91ng">システム要件</h2><p><strong>2 つのサーバーの構成:</strong></p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/storage/uploads/2025/12/2aa8b659-cdb2-4840-b171-4a1459111f9a-1-201-a-e074b0df.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1091" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">システム要件</span></figcaption></figure><p><strong>ノードごとの最小要件:</strong></p><ul><li>ハードウェア対応CPU <a href="https://xdev.asia/tag/virtualization/">仮想化</a> (インテル VT-x または AMD-V)</li><li>RAM: 8GB以上 (16GB以上を推奨)</li><li><a href="https://xdev.asia/tag/storage/">ストレージ</a>: 100GB以上のSSD</li><li><a href="https://xdev.asia/tag/ubuntu/">Ubuntu</a> サーバー 22.04 LTS または <a href="https://xdev.asia/tag/ubuntu-24-04/">24.04LTS</a></li><li><a href="https://xdev.asia/tag/networking/">ネットワーク</a>: 1 NIC (ストレージネットワーク用にNICを追加可能)</li></ul><h2 id="b%C6%B0%E1%BB%9Bc-1-ki%E1%BB%83m-tra-hardware-virtualization-support">ステップ 1: ハードウェア仮想化サポートを確認する</h2><blockquote>📚 上記を実行します <strong>両方のノード</strong>: kvm-node01 および kvm-node02</blockquote><p>まず、CPU がハードウェア仮想化をサポートしていることを確認する必要があります。これは最も重要なステップです。CPU がサポートしていない場合は使用できません。 <a href="https://xdev.asia/tag/kvm/">KVM</a>。</p><p><strong>CPU フラグを確認します。</strong></p><pre><code class="language-bash"># Kiểm tra số lượng CPU cores hỗ trợ virtualization
+</code></pre><p><a href="/ja/tags/kvm/">KVM</a> AWS、Google Cloud、DigitalOcean などの主要なクラウド プロバイダーによって使用されており、OpenStack、Proxmox VE の基盤です。</p><h2 id="y%C3%AAu-c%E1%BA%A7u-h%E1%BB%87-th%E1%BB%91ng">システム要件</h2><p><strong>2 つのサーバーの構成:</strong></p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/storage/uploads/2025/12/2aa8b659-cdb2-4840-b171-4a1459111f9a-1-201-a-e074b0df.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1091" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">システム要件</span></figcaption></figure><p><strong>ノードごとの最小要件:</strong></p><ul><li>ハードウェア対応CPU <a href="/ja/tags/virtualization/">仮想化</a> (インテル VT-x または AMD-V)</li><li>RAM: 8GB以上 (16GB以上を推奨)</li><li><a href="/ja/tags/storage/">ストレージ</a>: 100GB以上のSSD</li><li><a href="/ja/tags/ubuntu/">Ubuntu</a> サーバー 22.04 LTS または <a href="/ja/tags/ubuntu/">24.04LTS</a></li><li><a href="/ja/tags/networking/">ネットワーク</a>: 1 NIC (ストレージネットワーク用にNICを追加可能)</li></ul><h2 id="b%C6%B0%E1%BB%9Bc-1-ki%E1%BB%83m-tra-hardware-virtualization-support">ステップ 1: ハードウェア仮想化サポートを確認する</h2><blockquote>📚 上記を実行します <strong>両方のノード</strong>: kvm-node01 および kvm-node02</blockquote><p>まず、CPU がハードウェア仮想化をサポートしていることを確認する必要があります。これは最も重要なステップです。CPU がサポートしていない場合は使用できません。 <a href="/ja/tags/kvm/">KVM</a>。</p><p><strong>CPU フラグを確認します。</strong></p><pre><code class="language-bash"># Kiểm tra số lượng CPU cores hỗ trợ virtualization
 egrep -c '(vmx|svm)' /proc/cpuinfo
 </code></pre><p>0 より大きい数値を返す結果は、CPU が以下をサポートしていることを意味します。</p><ul><li><code>vmx</code> - インテル VT-x</li><li><code>SVM</code> - AMD-V</li></ul><p><strong>詳細を確認してください:</strong></p><pre><code class="language-bash"># Xem loại virtualization
 lscpu | grep Virtualization
@@ -90,7 +90,7 @@ sudo apt install -y cpu-checker
 sudo kvm-ok
 </code></pre><p>望ましい結果:</p><pre><code>INFO: /dev/kvm exists
 KVM acceleration can be used
-</code></pre><blockquote>⚠️ <strong>注:</strong> 結果に「KVM アクセラレーションは使用できません」と表示された場合は、BIOS/UEFI を確認し、Intel VT-x または AMD-V オプションを有効にしてください。</blockquote><h2 id="b%C6%B0%E1%BB%9Bc-2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-v%C3%A0-c%C3%A1c-packages">ステップ 2: KVM とパッケージをインストールする</h2><blockquote>📚 上記を実行します <strong>両方のノード</strong></blockquote><p>インストールを続行します <a href="https://xdev.asia/tag/kvm/">KVM</a> および必要なパッケージ:</p><pre><code class="language-bash"># Update hệ thống
+</code></pre><blockquote>⚠️ <strong>注:</strong> 結果に「KVM アクセラレーションは使用できません」と表示された場合は、BIOS/UEFI を確認し、Intel VT-x または AMD-V オプションを有効にしてください。</blockquote><h2 id="b%C6%B0%E1%BB%9Bc-2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-v%C3%A0-c%C3%A1c-packages">ステップ 2: KVM とパッケージをインストールする</h2><blockquote>📚 上記を実行します <strong>両方のノード</strong></blockquote><p>インストールを続行します <a href="/ja/tags/kvm/">KVM</a> および必要なパッケージ:</p><pre><code class="language-bash"># Update hệ thống
 sudo apt update &amp;&amp; sudo apt upgrade -y
 
 # Cài đặt KVM và toàn bộ dependencies
@@ -116,11 +116,11 @@ sudo apt install -y \
 <tbody>
 <tr>
 <td><code>qemu-kvm</code></td>
-<td><a href="https://xdev.asia/tag/qemu/">QEMU</a> エミュレータ付き <a href="https://xdev.asia/tag/kvm/">KVM</a> 加速.加速</td>
+<td><a href="/ja/tags/qemu/">QEMU</a> エミュレータ付き <a href="/ja/tags/kvm/">KVM</a> 加速.加速</td>
 </tr>
 <tr>
 <td><code>libvirt デーモン システム</code></td>
-<td><a href="https://xdev.asia/tag/libvirt/">リブバート</a> デーモンは VM を管理します</td>
+<td><a href="/ja/tags/libvirt/">リブバート</a> デーモンは VM を管理します</td>
 </tr>
 <tr>
 <td><code>libvirtクライアント</code></td>
@@ -128,7 +128,7 @@ sudo apt install -y \
 </tr>
 <tr>
 <td><code>ブリッジユーティリティ</code></td>
-<td>作成と管理 <a href="https://xdev.asia/tag/networking/">ネットワーク</a> 橋。橋</td>
+<td>作成と管理 <a href="/ja/tags/networking/">ネットワーク</a> 橋。橋</td>
 </tr>
 <tr>
 <td><code>バーティンスト</code></td>
@@ -136,7 +136,7 @@ sudo apt install -y \
 </tr>
 <tr>
 <td><code>仮想マネージャー</code></td>
-<td>VM を管理するための GUI (オプション) <a href="https://xdev.asia/tag/server/">サーバー。サーバー</a>）</td>
+<td>VM を管理するための GUI (オプション) <a href="/ja/tags/server/">サーバー。サーバー</a>）</td>
 </tr>
 <tr>
 <td><code>libguestfs-tools</code></td>
@@ -163,7 +163,7 @@ lsmod | grep kvm
 # Output mẫu (AMD):
 # kvm_amd               139264  0
 # kvm                  1028096  1 kvm_amd
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-3-c%E1%BA%A5u-h%C3%ACnh-user-v%C3%A0-services">ステップ 3: ユーザーとサービスを構成する</h2><blockquote>📚 上記を実行します <strong>両方のノード</strong></blockquote><p>使用するには <a href="https://xdev.asia/tag/kvm/">KVM</a> コマンドごとに sudo を必要とせずに、ユーザーを必要なグループに追加します。</p><pre><code class="language-bash"># Thêm user hiện tại vào group libvirt và kvm
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-3-c%E1%BA%A5u-h%C3%ACnh-user-v%C3%A0-services">ステップ 3: ユーザーとサービスを構成する</h2><blockquote>📚 上記を実行します <strong>両方のノード</strong></blockquote><p>使用するには <a href="/ja/tags/kvm/">KVM</a> コマンドごとに sudo を必要とせずに、ユーザーを必要なグループに追加します。</p><pre><code class="language-bash"># Thêm user hiện tại vào group libvirt và kvm
 sudo usermod -aG libvirt $USER
 sudo usermod -aG kvm $USER
 
@@ -391,7 +391,7 @@ EOF
 sudo virsh net-define /tmp/vm-private-network.xml
 sudo virsh net-start vm-private
 sudo virsh net-autostart vm-private
-</code></pre><h3 id="c%C3%A0i-%C4%91%E1%BA%B7t-cockpit-%C4%91%E1%BB%83-qu%E1%BA%A3n-l%C3%BD-kvm-qua-web-ui">Web UI 経由で KVM を管理するには、Cockpit をインストールします</h3><p><a href="https://xdev.asia/tag/cockpit/">コックピット</a> 管理に役立つWeb UIです <a href="https://xdev.asia/tag/kvm/">KVM</a> 直感的で簡単です。上にインストールします <strong>両方のノード</strong>:</p><pre><code class="language-bash"># Cài đặt Cockpit và module KVM
+</code></pre><h3 id="c%C3%A0i-%C4%91%E1%BA%B7t-cockpit-%C4%91%E1%BB%83-qu%E1%BA%A3n-l%C3%BD-kvm-qua-web-ui">Web UI 経由で KVM を管理するには、Cockpit をインストールします</h3><p><a href="/ja/tags/cockpit/">コックピット</a> 管理に役立つWeb UIです <a href="/ja/tags/kvm/">KVM</a> 直感的で簡単です。上にインストールします <strong>両方のノード</strong>:</p><pre><code class="language-bash"># Cài đặt Cockpit và module KVM
 sudo apt install -y cockpit cockpit-machines
 
 # Enable và start Cockpit
@@ -423,7 +423,7 @@ sudo ufw allow 9090/tcp
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>ユーザーを使用してログインする <a href="https://xdev.asia/tag/linux/">Linux</a> あなたのものです（sudo許可が必要です）。</p><p><strong>KVM 用コックピット インターフェイス:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>KVM のコックピット機能:</strong></p>
+<p>ユーザーを使用してログインする <a href="/ja/tags/linux/">Linux</a> あなたのものです（sudo許可が必要です）。</p><p><strong>KVM 用コックピット インターフェイス:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>KVM のコックピット機能:</strong></p>
 <!--kg-card-begin: html-->
 <table>
 <thead>
@@ -615,7 +615,7 @@ sudo virsh pool-info default
 </code></pre><p>望ましい出力:</p><pre><code> Name      State    Autostart
 -------------------------------
  default   active   yes
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-6-c%E1%BA%A5u-h%C3%ACnh-hostname-v%C3%A0-etchosts">ステップ 6: ホスト名と /etc/hosts を構成する</h2><p>2 つのノードがホスト名で相互に通信できるようにするには、構成が必要です <a href="https://xdev.asia/tag/ssh/">SSH</a> およびホスト名:</p><p><strong>kvm-node01 上:</strong></p><pre><code class="language-bash"># Set hostname
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-6-c%E1%BA%A5u-h%C3%ACnh-hostname-v%C3%A0-etchosts">ステップ 6: ホスト名と /etc/hosts を構成する</h2><p>2 つのノードがホスト名で相互に通信できるようにするには、構成が必要です <a href="/ja/tags/linux/">SSH</a> およびホスト名:</p><p><strong>kvm-node01 上:</strong></p><pre><code class="language-bash"># Set hostname
 sudo hostnamectl set-hostname kvm-node01
 
 # Cập nhật /etc/hosts
@@ -636,7 +636,7 @@ ping -c 3 kvm-node02
 
 # Từ kvm-node02
 ping -c 3 kvm-node01
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-7-t%E1%BA%A1o-virtual-machine-%C4%91%E1%BA%A7u-ti%C3%AAn">ステップ 7: 最初の仮想マシンを作成する</h2><p>インストール後 <a href="https://xdev.asia/tag/kvm/">KVM</a> 完了したら、使用する最初の VM を作成します <strong>vm-プライベート仮想ネットワーク</strong>。</p><h3 id="ph%C6%B0%C6%A1ng-ph%C3%A1p-1-s%E1%BB%AD-d%E1%BB%A5ng-cloud-image-nhanh">方法 1: クラウド イメージを使用する (高速)</h3><p>クラウド イメージは OS がプレインストールされたディスク イメージであり、設定して起動するだけで済みます。</p><p><strong>kvm-node01 上:</strong></p><pre><code class="language-bash"># Download Ubuntu Cloud Image
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-7-t%E1%BA%A1o-virtual-machine-%C4%91%E1%BA%A7u-ti%C3%AAn">ステップ 7: 最初の仮想マシンを作成する</h2><p>インストール後 <a href="/ja/tags/kvm/">KVM</a> 完了したら、使用する最初の VM を作成します <strong>vm-プライベート仮想ネットワーク</strong>。</p><h3 id="ph%C6%B0%C6%A1ng-ph%C3%A1p-1-s%E1%BB%AD-d%E1%BB%A5ng-cloud-image-nhanh">方法 1: クラウド イメージを使用する (高速)</h3><p>クラウド イメージは OS がプレインストールされたディスク イメージであり、設定して起動するだけで済みます。</p><p><strong>kvm-node01 上:</strong></p><pre><code class="language-bash"># Download Ubuntu Cloud Image
 cd /var/lib/libvirt/images
 sudo wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 
@@ -789,7 +789,7 @@ sudo virsh vncdisplay vm-ubuntu-01
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<h2 id="b%C6%B0%E1%BB%9Bc-8-qu%E1%BA%A3n-l%C3%BD-virtual-machines-v%E1%BB%9Bi-virsh">ステップ 8: virsh を使用して仮想マシンを管理する</h2><p>上記のVMを作成した後 <a href="https://xdev.asia/tag/kvm/">KVM</a>、次のようにして管理します。 <code>バーシュ</code> コマンド。</p><h3 id="qu%E1%BA%A3n-l%C3%BD-virtual-networks">仮想ネットワークの管理</h3><pre><code class="language-bash"># Liệt kê tất cả networks
+<h2 id="b%C6%B0%E1%BB%9Bc-8-qu%E1%BA%A3n-l%C3%BD-virtual-machines-v%E1%BB%9Bi-virsh">ステップ 8: virsh を使用して仮想マシンを管理する</h2><p>上記のVMを作成した後 <a href="/ja/tags/kvm/">KVM</a>、次のようにして管理します。 <code>バーシュ</code> コマンド。</p><h3 id="qu%E1%BA%A3n-l%C3%BD-virtual-networks">仮想ネットワークの管理</h3><pre><code class="language-bash"># Liệt kê tất cả networks
 virsh net-list --all
 
 # Xem thông tin network
@@ -873,7 +873,7 @@ virsh shutdown vm-test-01
 
 # Xóa VM definition và storage
 virsh undefine vm-test-01 --remove-all-storage
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-9-c%E1%BA%A5u-h%C3%ACnh-nested-virtualization-optional">ステップ 9: ネストされた仮想化の構成 (オプション)</h2><p>入れ子になった <a href="https://xdev.asia/tag/virtualization/">仮想化</a> VM 内で VM を実行できる - テストする場合に便利 <a href="https://xdev.asia/tag/kubernetes/">Kubernetes</a> または <a href="https://xdev.asia/tag/docker/">ドッカー</a> VMで。</p><p><strong>インテル CPU の場合:</strong></p><pre><code class="language-bash"># Tạo file config
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-9-c%E1%BA%A5u-h%C3%ACnh-nested-virtualization-optional">ステップ 9: ネストされた仮想化の構成 (オプション)</h2><p>入れ子になった <a href="/ja/tags/virtualization/">仮想化</a> VM 内で VM を実行できる - テストする場合に便利 <a href="/ja/tags/kubernetes/">Kubernetes</a> または <a href="/ja/tags/docker/">ドッカー</a> VMで。</p><p><strong>インテル CPU の場合:</strong></p><pre><code class="language-bash"># Tạo file config
 echo "options kvm_intel nested=1" | sudo tee /etc/modprobe.d/kvm-intel.conf
 
 # Reload module
@@ -913,4 +913,4 @@ sudo journalctl -u libvirtd -f
 
 # QEMU logs cho specific VM
 sudo tail -f /var/log/libvirt/qemu/vm-test-01.log
-</code></pre><h2 id="t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o">参考文献</h2><ul><li><a href="https://xdev.asia/tag/kvm/">KVM に関するすべての記事</a></li><li><a href="https://xdev.asia/tag/cockpit/">xdev.asia のコックピット</a></li><li><a href="https://xdev.asia/tag/virtualization/">xdev.asia の仮想化</a></li><li><a href="https://xdev.asia/tag/networking/">xdev.asia でのネットワーキング</a></li><li><a href="https://xdev.asia/tag/qemu/">QEMU ドキュメント</a></li><li><a href="https://xdev.asia/tag/libvirt/">xdev.asia の Libvirt</a></li><li><a href="https://xdev.asia/tag/ubuntu/">Ubuntuサーバーガイド</a></li><li><a href="https://www.linux-kvm.org/page/Documents">KVM 公式ドキュメント</a></li><li><a href="https://www.kernel.org/doc/Documentation/networking/vxlan.txt">VXLAN - Linux カーネルのドキュメント</a></li></ul><hr><p><em>インストール中に問題が発生した場合は、以下にコメントを残してください。</em></p>
+</code></pre><h2 id="t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o">参考文献</h2><ul><li><a href="/ja/tags/kvm/">KVM に関するすべての記事</a></li><li><a href="/ja/tags/cockpit/">xdev.asia のコックピット</a></li><li><a href="/ja/tags/virtualization/">xdev.asia の仮想化</a></li><li><a href="/ja/tags/networking/">xdev.asia でのネットワーキング</a></li><li><a href="/ja/tags/qemu/">QEMU ドキュメント</a></li><li><a href="/ja/tags/libvirt/">xdev.asia の Libvirt</a></li><li><a href="/ja/tags/ubuntu/">Ubuntuサーバーガイド</a></li><li><a href="https://www.linux-kvm.org/page/Documents">KVM 公式ドキュメント</a></li><li><a href="https://www.kernel.org/doc/Documentation/networking/vxlan.txt">VXLAN - Linux カーネルのドキュメント</a></li></ul><hr><p><em>インストール中に問題が発生した場合は、以下にコメントを残してください。</em></p>

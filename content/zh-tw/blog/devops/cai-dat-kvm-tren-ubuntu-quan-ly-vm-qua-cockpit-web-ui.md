@@ -38,7 +38,7 @@ tags:
 comments: []
 locale: zh-tw
 ---
-<p>如果您正在尋找功能強大、免費且直接整合的虛擬化解決方案 <a href="https://xdev.asia/tag/linux/">Linux</a> 內核，那麼 <a href="https://xdev.asia/tag/kvm/"><strong>KVM（基於核心的虛擬機器）</strong></a> 就是答案。 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 將 Linux 變成 Type-1 <a href="https://xdev.asia/tag/hypervisor/">管理程式</a>，讓你跑很多 <a href="https://xdev.asia/tag/virtual-machines/">虛擬機器 (VM)</a> 具有幾乎本機的性能。</p><p>在這篇文章中，我將引導您完成安裝 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 從上面的 A-Z <strong>2台實體伺服器</strong> 具體配置：</p>
+<p>如果您正在尋找功能強大、免費且直接整合的虛擬化解決方案 <a href="/zh-tw/tags/linux/">Linux</a> 內核，那麼 <a href="/zh-tw/tags/kvm/"><strong>KVM（基於核心的虛擬機器）</strong></a> 就是答案。 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 將 Linux 變成 Type-1 <a href="/zh-tw/tags/hypervisor/">管理程式</a>，讓你跑很多 <a href="/zh-tw/tags/virtual-machines/">虛擬機器 (VM)</a> 具有幾乎本機的性能。</p><p>在這篇文章中，我將引導您完成安裝 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 從上面的 A-Z <strong>2台實體伺服器</strong> 具體配置：</p>
 <!--kg-card-begin: html-->
 <table>
 <thead>
@@ -62,7 +62,7 @@ locale: zh-tw
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>此配置適合建置家庭實驗室、運行 Kubernetes 叢集或開發/測試環境。</p><h2 id="t%E1%BA%A1i-sao-ch%E1%BB%8Dn-kvm">為什麼選擇KVM？</h2><p>在開始安裝之前，讓我們先了解一下原因 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 是一個流行的選擇：</p><p><strong>比較虛擬化解決方案：</strong></p><pre><code>┌─────────────────┬──────────────┬─────────────┬──────────────┐
+<p>此配置適合建置家庭實驗室、運行 Kubernetes 叢集或開發/測試環境。</p><h2 id="t%E1%BA%A1i-sao-ch%E1%BB%8Dn-kvm">為什麼選擇KVM？</h2><p>在開始安裝之前，讓我們先了解一下原因 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 是一個流行的選擇：</p><p><strong>比較虛擬化解決方案：</strong></p><pre><code>┌─────────────────┬──────────────┬─────────────┬──────────────┐
 │     Tiêu chí    │     KVM      │   VMware    │  VirtualBox  │
 ├─────────────────┼──────────────┼─────────────┼──────────────┤
 │ Chi phí         │ Miễn phí     │ Có phí      │ Miễn phí     │
@@ -72,7 +72,7 @@ locale: zh-tw
 │ Cloud providers │ AWS, GCP...  │ VMware Cloud│ Không        │
 │ Nested Virt     │ Tốt          │ Tốt         │ Hạn chế      │
 └─────────────────┴──────────────┴─────────────┴──────────────┘
-</code></pre><p><a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 被 AWS、Google Cloud、DigitalOcean 等主要雲端供應商使用，並且是 OpenStack、Proxmox VE 的基礎。</p><h2 id="y%C3%AAu-c%E1%BA%A7u-h%E1%BB%87-th%E1%BB%91ng">系統需求</h2><p><strong>配置我們的 2 台伺服器：</strong></p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/storage/uploads/2025/12/2aa8b659-cdb2-4840-b171-4a1459111f9a-1-201-a-e074b0df.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1091" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">系統需求</span></figcaption></figure><p><strong>每個節點的最低要求：</strong></p><ul><li>硬體支援CPU <a href="https://xdev.asia/tag/virtualization/">虛擬化</a> （英特爾 VT-x 或 AMD-V）</li><li>記憶體：8GB+（建議16GB+）</li><li><a href="https://xdev.asia/tag/storage/">儲存</a>: 100GB+ 固態硬碟</li><li><a href="https://xdev.asia/tag/ubuntu/">烏班圖</a> 伺服器 22.04 LTS 或 <a href="https://xdev.asia/tag/ubuntu-24-04/">24.04 長期支持</a></li><li><a href="https://xdev.asia/tag/networking/">網路</a>：1個網路卡（可新增網路卡用於儲存網路）</li></ul><h2 id="b%C6%B0%E1%BB%9Bc-1-ki%E1%BB%83m-tra-hardware-virtualization-support">第 1 步：檢查硬體虛擬化支援</h2><blockquote>📚 執行以上操作 <strong>兩個節點</strong>：kvm-node01 和 kvm-node02</blockquote><p>首先，需要確認CPU支援硬體虛擬化。這是最重要的一步──如果CPU不支持，就不能使用 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a>。</p><p><strong>檢查CPU標誌：</strong></p><pre><code class="language-bash"># Kiểm tra số lượng CPU cores hỗ trợ virtualization
+</code></pre><p><a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 被 AWS、Google Cloud、DigitalOcean 等主要雲端供應商使用，並且是 OpenStack、Proxmox VE 的基礎。</p><h2 id="y%C3%AAu-c%E1%BA%A7u-h%E1%BB%87-th%E1%BB%91ng">系統需求</h2><p><strong>配置我們的 2 台伺服器：</strong></p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/storage/uploads/2025/12/2aa8b659-cdb2-4840-b171-4a1459111f9a-1-201-a-e074b0df.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1091" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">系統需求</span></figcaption></figure><p><strong>每個節點的最低要求：</strong></p><ul><li>硬體支援CPU <a href="/zh-tw/tags/virtualization/">虛擬化</a> （英特爾 VT-x 或 AMD-V）</li><li>記憶體：8GB+（建議16GB+）</li><li><a href="/zh-tw/tags/storage/">儲存</a>: 100GB+ 固態硬碟</li><li><a href="/zh-tw/tags/ubuntu/">烏班圖</a> 伺服器 22.04 LTS 或 <a href="/zh-tw/tags/ubuntu/">24.04 長期支持</a></li><li><a href="/zh-tw/tags/networking/">網路</a>：1個網路卡（可新增網路卡用於儲存網路）</li></ul><h2 id="b%C6%B0%E1%BB%9Bc-1-ki%E1%BB%83m-tra-hardware-virtualization-support">第 1 步：檢查硬體虛擬化支援</h2><blockquote>📚 執行以上操作 <strong>兩個節點</strong>：kvm-node01 和 kvm-node02</blockquote><p>首先，需要確認CPU支援硬體虛擬化。這是最重要的一步──如果CPU不支持，就不能使用 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a>。</p><p><strong>檢查CPU標誌：</strong></p><pre><code class="language-bash"># Kiểm tra số lượng CPU cores hỗ trợ virtualization
 egrep -c '(vmx|svm)' /proc/cpuinfo
 </code></pre><p>傳回大於 0 的數字表示 CPU 支援：</p><ul><li><code>虛擬機</code> - 英特爾VT-x</li><li><code>支援向量機</code> -AMD-V</li></ul><p><strong>查看更多詳細資訊：</strong></p><pre><code class="language-bash"># Xem loại virtualization
 lscpu | grep Virtualization
@@ -88,7 +88,7 @@ sudo apt install -y cpu-checker
 sudo kvm-ok
 </code></pre><p>期望的結果：</p><pre><code>INFO: /dev/kvm exists
 KVM acceleration can be used
-</code></pre><blockquote>⚠️ <strong>注意：</strong> 如果結果顯示“KVM 加速無法使用”，請檢查 BIOS/UEFI 並啟用 Intel VT-x 或 AMD-V 選項。</blockquote><h2 id="b%C6%B0%E1%BB%9Bc-2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-v%C3%A0-c%C3%A1c-packages">步驟2：安裝KVM和軟體包</h2><blockquote>📚 執行以上操作 <strong>兩個節點</strong></blockquote><p>繼續安裝 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 以及必要的包裝：</p><pre><code class="language-bash"># Update hệ thống
+</code></pre><blockquote>⚠️ <strong>注意：</strong> 如果結果顯示“KVM 加速無法使用”，請檢查 BIOS/UEFI 並啟用 Intel VT-x 或 AMD-V 選項。</blockquote><h2 id="b%C6%B0%E1%BB%9Bc-2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-v%C3%A0-c%C3%A1c-packages">步驟2：安裝KVM和軟體包</h2><blockquote>📚 執行以上操作 <strong>兩個節點</strong></blockquote><p>繼續安裝 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 以及必要的包裝：</p><pre><code class="language-bash"># Update hệ thống
 sudo apt update &amp;&amp; sudo apt upgrade -y
 
 # Cài đặt KVM và toàn bộ dependencies
@@ -114,11 +114,11 @@ sudo apt install -y \
 <tbody>
 <tr>
 <td><code>qemu-kvm</code></td>
-<td><a href="https://xdev.asia/tag/qemu/">QEMU</a> 模擬器與 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 加速度.加速度</td>
+<td><a href="/zh-tw/tags/qemu/">QEMU</a> 模擬器與 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 加速度.加速度</td>
 </tr>
 <tr>
 <td><code>libvirt 守護程式系統</code></td>
-<td><a href="https://xdev.asia/tag/libvirt/">利布維爾特</a> 守護程式管理虛擬機</td>
+<td><a href="/zh-tw/tags/libvirt/">利布維爾特</a> 守護程式管理虛擬機</td>
 </tr>
 <tr>
 <td><code>libvirt 用戶端</code></td>
@@ -126,7 +126,7 @@ sudo apt install -y \
 </tr>
 <tr>
 <td><code>橋接工具</code></td>
-<td>創建和管理 <a href="https://xdev.asia/tag/networking/">網路</a> 橋樑。橋樑</td>
+<td>創建和管理 <a href="/zh-tw/tags/networking/">網路</a> 橋樑。橋樑</td>
 </tr>
 <tr>
 <td><code>維廷斯特</code></td>
@@ -134,7 +134,7 @@ sudo apt install -y \
 </tr>
 <tr>
 <td><code>虛擬管理器</code></td>
-<td>用於管理虛擬機器的 GUI（對於 <a href="https://xdev.asia/tag/server/">伺服器。伺服器</a>）</td>
+<td>用於管理虛擬機器的 GUI（對於 <a href="/zh-tw/tags/server/">伺服器。伺服器</a>）</td>
 </tr>
 <tr>
 <td><code>libguestfs 工具</code></td>
@@ -161,7 +161,7 @@ lsmod | grep kvm
 # Output mẫu (AMD):
 # kvm_amd               139264  0
 # kvm                  1028096  1 kvm_amd
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-3-c%E1%BA%A5u-h%C3%ACnh-user-v%C3%A0-services">步驟 3：設定使用者和服務</h2><blockquote>📚 執行以上操作 <strong>兩個節點</strong></blockquote><p>使用 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 不需要每個命令都使用 sudo，將用戶添加到必要的群組中：</p><pre><code class="language-bash"># Thêm user hiện tại vào group libvirt và kvm
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-3-c%E1%BA%A5u-h%C3%ACnh-user-v%C3%A0-services">步驟 3：設定使用者和服務</h2><blockquote>📚 執行以上操作 <strong>兩個節點</strong></blockquote><p>使用 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 不需要每個命令都使用 sudo，將用戶添加到必要的群組中：</p><pre><code class="language-bash"># Thêm user hiện tại vào group libvirt và kvm
 sudo usermod -aG libvirt $USER
 sudo usermod -aG kvm $USER
 
@@ -389,7 +389,7 @@ EOF
 sudo virsh net-define /tmp/vm-private-network.xml
 sudo virsh net-start vm-private
 sudo virsh net-autostart vm-private
-</code></pre><h3 id="c%C3%A0i-%C4%91%E1%BA%B7t-cockpit-%C4%91%E1%BB%83-qu%E1%BA%A3n-l%C3%BD-kvm-qua-web-ui">安装 Cockpit 以通过 Web UI 管理 KVM</h3><p><a href="https://xdev.asia/tag/cockpit/">駕駛艙</a> 是一个有助于管理的 Web UI <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 直观且简单。安装上面 <strong>兩個節點</strong>:</p><pre><code class="language-bash"># Cài đặt Cockpit và module KVM
+</code></pre><h3 id="c%C3%A0i-%C4%91%E1%BA%B7t-cockpit-%C4%91%E1%BB%83-qu%E1%BA%A3n-l%C3%BD-kvm-qua-web-ui">安装 Cockpit 以通过 Web UI 管理 KVM</h3><p><a href="/zh-tw/tags/cockpit/">駕駛艙</a> 是一个有助于管理的 Web UI <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 直观且简单。安装上面 <strong>兩個節點</strong>:</p><pre><code class="language-bash"># Cài đặt Cockpit và module KVM
 sudo apt install -y cockpit cockpit-machines
 
 # Enable và start Cockpit
@@ -421,7 +421,7 @@ sudo ufw allow 9090/tcp
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>使用用户登录 <a href="https://xdev.asia/tag/linux/">Linux</a> 你的（需要 sudo 许可）。</p><p><strong>KVM 的驾驶舱接口：</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>KVM 的驾驶舱功能：</strong></p>
+<p>使用用户登录 <a href="/zh-tw/tags/linux/">Linux</a> 你的（需要 sudo 许可）。</p><p><strong>KVM 的驾驶舱接口：</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>KVM 的驾驶舱功能：</strong></p>
 <!--kg-card-begin: html-->
 <table>
 <thead>
@@ -613,7 +613,7 @@ sudo virsh pool-info default
 </code></pre><p>期望的輸出：</p><pre><code> Name      State    Autostart
 -------------------------------
  default   active   yes
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-6-c%E1%BA%A5u-h%C3%ACnh-hostname-v%C3%A0-etchosts">步驟 6：設定主機名稱和 /etc/hosts</h2><p>為了使兩個節點能夠透過主機名稱相互通信，需要進行配置 <a href="https://xdev.asia/tag/ssh/">SSH</a> 和主機名稱：</p><p><strong>在 kvm-node01 上：</strong></p><pre><code class="language-bash"># Set hostname
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-6-c%E1%BA%A5u-h%C3%ACnh-hostname-v%C3%A0-etchosts">步驟 6：設定主機名稱和 /etc/hosts</h2><p>為了使兩個節點能夠透過主機名稱相互通信，需要進行配置 <a href="/zh-tw/tags/linux/">SSH</a> 和主機名稱：</p><p><strong>在 kvm-node01 上：</strong></p><pre><code class="language-bash"># Set hostname
 sudo hostnamectl set-hostname kvm-node01
 
 # Cập nhật /etc/hosts
@@ -634,7 +634,7 @@ ping -c 3 kvm-node02
 
 # Từ kvm-node02
 ping -c 3 kvm-node01
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-7-t%E1%BA%A1o-virtual-machine-%C4%91%E1%BA%A7u-ti%C3%AAn">第 7 步：建立第一個虛擬機</h2><p>安裝後 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a> 完成後，我們將建立第一個要使用的虛擬機 <strong>vm-私有虛擬網絡</strong>。</p><h3 id="ph%C6%B0%C6%A1ng-ph%C3%A1p-1-s%E1%BB%AD-d%E1%BB%A5ng-cloud-image-nhanh">方法一：使用雲鏡像（快速）</h3><p>雲端鏡像是預先安裝作業系統的磁碟鏡像，只需配置並啟動即可：</p><p><strong>在 kvm-node01 上：</strong></p><pre><code class="language-bash"># Download Ubuntu Cloud Image
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-7-t%E1%BA%A1o-virtual-machine-%C4%91%E1%BA%A7u-ti%C3%AAn">第 7 步：建立第一個虛擬機</h2><p>安裝後 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a> 完成後，我們將建立第一個要使用的虛擬機 <strong>vm-私有虛擬網絡</strong>。</p><h3 id="ph%C6%B0%C6%A1ng-ph%C3%A1p-1-s%E1%BB%AD-d%E1%BB%A5ng-cloud-image-nhanh">方法一：使用雲鏡像（快速）</h3><p>雲端鏡像是預先安裝作業系統的磁碟鏡像，只需配置並啟動即可：</p><p><strong>在 kvm-node01 上：</strong></p><pre><code class="language-bash"># Download Ubuntu Cloud Image
 cd /var/lib/libvirt/images
 sudo wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 
@@ -787,7 +787,7 @@ sudo virsh vncdisplay vm-ubuntu-01
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<h2 id="b%C6%B0%E1%BB%9Bc-8-qu%E1%BA%A3n-l%C3%BD-virtual-machines-v%E1%BB%9Bi-virsh">步驟 8：使用 virsh 管理虛擬機</h2><p>創建完上述虛擬機器後 <a href="https://xdev.asia/tag/kvm/">鍵盤虛擬機</a>，你將管理它們 <code>維爾什</code> 命令。</p><h3 id="qu%E1%BA%A3n-l%C3%BD-virtual-networks">管理虛擬網絡</h3><pre><code class="language-bash"># Liệt kê tất cả networks
+<h2 id="b%C6%B0%E1%BB%9Bc-8-qu%E1%BA%A3n-l%C3%BD-virtual-machines-v%E1%BB%9Bi-virsh">步驟 8：使用 virsh 管理虛擬機</h2><p>創建完上述虛擬機器後 <a href="/zh-tw/tags/kvm/">鍵盤虛擬機</a>，你將管理它們 <code>維爾什</code> 命令。</p><h3 id="qu%E1%BA%A3n-l%C3%BD-virtual-networks">管理虛擬網絡</h3><pre><code class="language-bash"># Liệt kê tất cả networks
 virsh net-list --all
 
 # Xem thông tin network
@@ -871,7 +871,7 @@ virsh shutdown vm-test-01
 
 # Xóa VM definition và storage
 virsh undefine vm-test-01 --remove-all-storage
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-9-c%E1%BA%A5u-h%C3%ACnh-nested-virtualization-optional">步驟 9：配置嵌套虛擬化（可選）</h2><p>嵌套 <a href="https://xdev.asia/tag/virtualization/">虛擬化</a> 允許在虛擬機器內運行虛擬機器 - 當您想要測試時很有用 <a href="https://xdev.asia/tag/kubernetes/">庫伯內斯</a> 或 <a href="https://xdev.asia/tag/docker/">碼頭工人</a> 在虛擬機器中。</p><p><strong>對於英特爾 CPU：</strong></p><pre><code class="language-bash"># Tạo file config
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-9-c%E1%BA%A5u-h%C3%ACnh-nested-virtualization-optional">步驟 9：配置嵌套虛擬化（可選）</h2><p>嵌套 <a href="/zh-tw/tags/virtualization/">虛擬化</a> 允許在虛擬機器內運行虛擬機器 - 當您想要測試時很有用 <a href="/zh-tw/tags/kubernetes/">庫伯內斯</a> 或 <a href="/zh-tw/tags/docker/">碼頭工人</a> 在虛擬機器中。</p><p><strong>對於英特爾 CPU：</strong></p><pre><code class="language-bash"># Tạo file config
 echo "options kvm_intel nested=1" | sudo tee /etc/modprobe.d/kvm-intel.conf
 
 # Reload module
@@ -911,4 +911,4 @@ sudo journalctl -u libvirtd -f
 
 # QEMU logs cho specific VM
 sudo tail -f /var/log/libvirt/qemu/vm-test-01.log
-</code></pre><h2 id="t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o">參考文獻</h2><ul><li><a href="https://xdev.asia/tag/kvm/">所有關於 KVM 的文章</a></li><li><a href="https://xdev.asia/tag/cockpit/">xdev.asia 上的駕駛艙</a></li><li><a href="https://xdev.asia/tag/virtualization/">xdev.asia 上的虛擬化</a></li><li><a href="https://xdev.asia/tag/networking/">xdev.asia 上的網絡</a></li><li><a href="https://xdev.asia/tag/qemu/">QEMU 文檔</a></li><li><a href="https://xdev.asia/tag/libvirt/">xdev.asia 上的 Libvirt</a></li><li><a href="https://xdev.asia/tag/ubuntu/">Ubuntu 伺服器指南</a></li><li><a href="https://www.linux-kvm.org/page/Documents">KVM官方文檔</a></li><li><a href="https://www.kernel.org/doc/Documentation/networking/vxlan.txt">VXLAN - Linux 核心文檔</a></li></ul><hr><p><em>如果您在安裝過程中遇到問題，請在下方留言！</em></p>
+</code></pre><h2 id="t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o">參考文獻</h2><ul><li><a href="/zh-tw/tags/kvm/">所有關於 KVM 的文章</a></li><li><a href="/zh-tw/tags/cockpit/">xdev.asia 上的駕駛艙</a></li><li><a href="/zh-tw/tags/virtualization/">xdev.asia 上的虛擬化</a></li><li><a href="/zh-tw/tags/networking/">xdev.asia 上的網絡</a></li><li><a href="/zh-tw/tags/qemu/">QEMU 文檔</a></li><li><a href="/zh-tw/tags/libvirt/">xdev.asia 上的 Libvirt</a></li><li><a href="/zh-tw/tags/ubuntu/">Ubuntu 伺服器指南</a></li><li><a href="https://www.linux-kvm.org/page/Documents">KVM官方文檔</a></li><li><a href="https://www.kernel.org/doc/Documentation/networking/vxlan.txt">VXLAN - Linux 核心文檔</a></li></ul><hr><p><em>如果您在安裝過程中遇到問題，請在下方留言！</em></p>

@@ -95,5 +95,5 @@ xDev (「当社」、「弊社」、または「当社」) は、xDev モバイ�
 
 ## 11. お問い合わせ
 このプライバシー ポリシーについてご質問がある場合は、以下までお問い合わせください。
-- **ウェブサイト:** [https://xdev.asia](https://xdev.asia)
+- **ウェブサイト:** [https://blog.xdev.asia](https://blog.xdev.asia)
 - **電子メール:** duy@xdev.asia

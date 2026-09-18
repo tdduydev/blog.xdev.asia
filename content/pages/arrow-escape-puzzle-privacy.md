@@ -55,6 +55,6 @@ Ban co the xoa du lieu gameplay cuc bo bang cach go cai dat ung dung khoi thiet 
 
 ## Lien he
 
-Website: [https://xdev.asia](https://xdev.asia)
+Website: [https://blog.xdev.asia](https://blog.xdev.asia)
 
 Email: duy@xdev.asia

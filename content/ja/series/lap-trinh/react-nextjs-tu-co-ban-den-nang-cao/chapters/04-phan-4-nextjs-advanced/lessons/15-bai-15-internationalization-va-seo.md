@@ -246,10 +246,10 @@ export default async function sitemap(): Promise&lt;MetadataRoute.Sitemap&gt; {
   });
 
   return [
-    { url: 'https://xdev.asia', lastModified: new Date(), priority: 1 },
-    { url: 'https://xdev.asia/blog', lastModified: new Date(), priority: 0.8 },
+    { url: 'https://blog.xdev.asia', lastModified: new Date(), priority: 1 },
+    { url: 'https://blog.xdev.asia/blog', lastModified: new Date(), priority: 0.8 },
     ...posts.map(post => ({
-      url: `https://xdev.asia/blog/${post.slug}`,
+      url: `https://blog.xdev.asia/blog/${post.slug}`,
       lastModified: post.updatedAt,
       priority: 0.6,
     })),
@@ -264,7 +264,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       { userAgent: '*', allow: '/', disallow: '/api/' },
     ],
-    sitemap: 'https://xdev.asia/sitemap.xml',
+    sitemap: 'https://blog.xdev.asia/sitemap.xml',
   };
 }
 </code></pre>

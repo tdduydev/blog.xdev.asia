@@ -90,7 +90,7 @@ xClaw/
 
 ## License
 
-MIT © [xDev Asia](https://xdev.asia/)
+MIT © [xDev Asia](https://blog.xdev.asia/)
 
 ## Tính năng chính
 

@@ -197,7 +197,7 @@ Trade-off: TTL ngắn = fresh hơn nhưng nhiều origin hits
 ### 3.2 Cache Purge
 
 ```
-CDN API: DELETE /cache?url=https://xdev.asia/images/logo.png
+CDN API: DELETE /cache?url=https://blog.xdev.asia/images/logo.png
 → Xóa content khỏi tất cả edge servers
 
 Use case: Cập nhật logo, fix typo trong hình ảnh

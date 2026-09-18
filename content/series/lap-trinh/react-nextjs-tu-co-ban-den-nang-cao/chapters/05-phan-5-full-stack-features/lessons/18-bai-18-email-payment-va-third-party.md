@@ -123,7 +123,7 @@ export async function sendWelcomeEmail(email: string, name: string) {
     from: 'noreply@xdev.asia',
     to: email,
     subject: `Chào mừng ${name} đến với xDev!`,
-    react: WelcomeEmail({ name, url: `https://xdev.asia/verify?email=${email}` }),
+    react: WelcomeEmail({ name, url: `https://blog.xdev.asia/verify?email=${email}` }),
   });
 }
 </code></pre>

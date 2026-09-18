@@ -206,7 +206,7 @@ export default defineNuxtConfig({
     sources: ['/api/__sitemap__/urls'],
   },
   site: {
-    url: 'https://xdev.asia',
+    url: 'https://blog.xdev.asia',
   },
 })
 

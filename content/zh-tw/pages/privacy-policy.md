@@ -95,5 +95,5 @@ xDev（「我們」、「我們的」或「我們的」）經營 xDev 行動應�
 
 ## 11. 聯絡我們
 如果您對本隱私權政策有任何疑問，請與我們聯絡：
-- **網址：** [https://xdev.asia](https://xdev.asia)
+- **網址：** [https://blog.xdev.asia](https://blog.xdev.asia)
 - **電子郵件：** duy@xdev.asia

@@ -39,7 +39,7 @@ tags:
     slug: homelab
 comments: []
 ---
-<p>Nếu bạn đang tìm kiếm giải pháp ảo hóa mạnh mẽ, miễn phí và được tích hợp trực tiếp vào <a href="https://xdev.asia/tag/linux/">Linux</a> kernel, thì <a href="https://xdev.asia/tag/kvm/"><strong>KVM (Kernel-based Virtual Machine)</strong></a> chính là câu trả lời. <a href="https://xdev.asia/tag/kvm/">KVM</a> biến Linux thành một Type-1 <a href="https://xdev.asia/tag/hypervisor/">hypervisor</a>, cho phép bạn chạy nhiều <a href="https://xdev.asia/tag/virtual-machines/">máy ảo (VMs)</a> với hiệu năng gần như native.</p><p>Trong bài viết này, mình sẽ hướng dẫn bạn cài đặt <a href="https://xdev.asia/tag/kvm/">KVM</a> từ A-Z trên <strong>2 máy chủ vật lý</strong> với cấu hình cụ thể:</p>
+<p>Nếu bạn đang tìm kiếm giải pháp ảo hóa mạnh mẽ, miễn phí và được tích hợp trực tiếp vào <a href="/tags/linux/">Linux</a> kernel, thì <a href="/tags/kvm/"><strong>KVM (Kernel-based Virtual Machine)</strong></a> chính là câu trả lời. <a href="/tags/kvm/">KVM</a> biến Linux thành một Type-1 <a href="/tags/hypervisor/">hypervisor</a>, cho phép bạn chạy nhiều <a href="/tags/virtual-machines/">máy ảo (VMs)</a> với hiệu năng gần như native.</p><p>Trong bài viết này, mình sẽ hướng dẫn bạn cài đặt <a href="/tags/kvm/">KVM</a> từ A-Z trên <strong>2 máy chủ vật lý</strong> với cấu hình cụ thể:</p>
 <!--kg-card-begin: html-->
 <table>
 <thead>
@@ -63,7 +63,7 @@ comments: []
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>Cấu hình này phù hợp cho việc xây dựng homelab, chạy Kubernetes cluster, hoặc môi trường development/testing.</p><h2 id="t%E1%BA%A1i-sao-ch%E1%BB%8Dn-kvm">Tại sao chọn KVM?</h2><p>Trước khi bắt tay vào cài đặt, hãy hiểu tại sao <a href="https://xdev.asia/tag/kvm/">KVM</a> là lựa chọn phổ biến:</p><p><strong>So sánh các giải pháp ảo hóa:</strong></p><pre><code>┌─────────────────┬──────────────┬─────────────┬──────────────┐
+<p>Cấu hình này phù hợp cho việc xây dựng homelab, chạy Kubernetes cluster, hoặc môi trường development/testing.</p><h2 id="t%E1%BA%A1i-sao-ch%E1%BB%8Dn-kvm">Tại sao chọn KVM?</h2><p>Trước khi bắt tay vào cài đặt, hãy hiểu tại sao <a href="/tags/kvm/">KVM</a> là lựa chọn phổ biến:</p><p><strong>So sánh các giải pháp ảo hóa:</strong></p><pre><code>┌─────────────────┬──────────────┬─────────────┬──────────────┐
 │     Tiêu chí    │     KVM      │   VMware    │  VirtualBox  │
 ├─────────────────┼──────────────┼─────────────┼──────────────┤
 │ Chi phí         │ Miễn phí     │ Có phí      │ Miễn phí     │
@@ -73,7 +73,7 @@ comments: []
 │ Cloud providers │ AWS, GCP...  │ VMware Cloud│ Không        │
 │ Nested Virt     │ Tốt          │ Tốt         │ Hạn chế      │
 └─────────────────┴──────────────┴─────────────┴──────────────┘
-</code></pre><p><a href="https://xdev.asia/tag/kvm/">KVM</a> được sử dụng bởi các cloud providers lớn như AWS, Google Cloud, DigitalOcean, và là nền tảng cho OpenStack, Proxmox VE.</p><h2 id="y%C3%AAu-c%E1%BA%A7u-h%E1%BB%87-th%E1%BB%91ng">Yêu cầu hệ thống</h2><p><strong>Cấu hình 2 máy chủ của chúng ta:</strong></p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/storage/uploads/2025/12/2aa8b659-cdb2-4840-b171-4a1459111f9a-1-201-a-e074b0df.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1091" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">Yêu cầu hệ thống</span></figcaption></figure><p><strong>Yêu cầu tối thiểu mỗi node:</strong></p><ul><li>CPU hỗ trợ Hardware <a href="https://xdev.asia/tag/virtualization/">Virtualization</a> (Intel VT-x hoặc AMD-V)</li><li>RAM: 8GB+ (khuyến nghị 16GB+)</li><li><a href="https://xdev.asia/tag/storage/">Storage</a>: 100GB+ SSD</li><li><a href="https://xdev.asia/tag/ubuntu/">Ubuntu</a> Server 22.04 LTS hoặc <a href="https://xdev.asia/tag/ubuntu-24-04/">24.04 LTS</a></li><li><a href="https://xdev.asia/tag/networking/">Network</a>: 1 NIC (có thể thêm NIC cho storage network)</li></ul><h2 id="b%C6%B0%E1%BB%9Bc-1-ki%E1%BB%83m-tra-hardware-virtualization-support">Bước 1: Kiểm tra Hardware Virtualization Support</h2><blockquote>📚 Thực hiện trên <strong>cả 2 node</strong>: kvm-node01 và kvm-node02</blockquote><p>Đầu tiên, bạn cần xác nhận CPU hỗ trợ ảo hóa phần cứng. Đây là bước quan trọng nhất - nếu CPU không hỗ trợ, bạn không thể sử dụng <a href="https://xdev.asia/tag/kvm/">KVM</a>.</p><p><strong>Kiểm tra CPU flags:</strong></p><pre><code class="language-bash"># Kiểm tra số lượng CPU cores hỗ trợ virtualization
+</code></pre><p><a href="/tags/kvm/">KVM</a> được sử dụng bởi các cloud providers lớn như AWS, Google Cloud, DigitalOcean, và là nền tảng cho OpenStack, Proxmox VE.</p><h2 id="y%C3%AAu-c%E1%BA%A7u-h%E1%BB%87-th%E1%BB%91ng">Yêu cầu hệ thống</h2><p><strong>Cấu hình 2 máy chủ của chúng ta:</strong></p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/storage/uploads/2025/12/2aa8b659-cdb2-4840-b171-4a1459111f9a-1-201-a-e074b0df.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1091" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">Yêu cầu hệ thống</span></figcaption></figure><p><strong>Yêu cầu tối thiểu mỗi node:</strong></p><ul><li>CPU hỗ trợ Hardware <a href="/tags/virtualization/">Virtualization</a> (Intel VT-x hoặc AMD-V)</li><li>RAM: 8GB+ (khuyến nghị 16GB+)</li><li><a href="/tags/storage/">Storage</a>: 100GB+ SSD</li><li><a href="/tags/ubuntu/">Ubuntu</a> Server 22.04 LTS hoặc <a href="/tags/ubuntu/">24.04 LTS</a></li><li><a href="/tags/networking/">Network</a>: 1 NIC (có thể thêm NIC cho storage network)</li></ul><h2 id="b%C6%B0%E1%BB%9Bc-1-ki%E1%BB%83m-tra-hardware-virtualization-support">Bước 1: Kiểm tra Hardware Virtualization Support</h2><blockquote>📚 Thực hiện trên <strong>cả 2 node</strong>: kvm-node01 và kvm-node02</blockquote><p>Đầu tiên, bạn cần xác nhận CPU hỗ trợ ảo hóa phần cứng. Đây là bước quan trọng nhất - nếu CPU không hỗ trợ, bạn không thể sử dụng <a href="/tags/kvm/">KVM</a>.</p><p><strong>Kiểm tra CPU flags:</strong></p><pre><code class="language-bash"># Kiểm tra số lượng CPU cores hỗ trợ virtualization
 egrep -c '(vmx|svm)' /proc/cpuinfo
 </code></pre><p>Kết quả trả về số lớn hơn 0 nghĩa là CPU hỗ trợ:</p><ul><li><code>vmx</code> - Intel VT-x</li><li><code>svm</code> - AMD-V</li></ul><p><strong>Kiểm tra chi tiết hơn:</strong></p><pre><code class="language-bash"># Xem loại virtualization
 lscpu | grep Virtualization
@@ -89,7 +89,7 @@ sudo apt install -y cpu-checker
 sudo kvm-ok
 </code></pre><p>Kết quả mong muốn:</p><pre><code>INFO: /dev/kvm exists
 KVM acceleration can be used
-</code></pre><blockquote>⚠️ <strong>Lưu ý:</strong> Nếu kết quả báo "KVM acceleration can NOT be used", hãy kiểm tra BIOS/UEFI và enable tùy chọn Intel VT-x hoặc AMD-V.</blockquote><h2 id="b%C6%B0%E1%BB%9Bc-2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-v%C3%A0-c%C3%A1c-packages">Bước 2: Cài đặt KVM và các Packages</h2><blockquote>📚 Thực hiện trên <strong>cả 2 node</strong></blockquote><p>Tiến hành cài đặt <a href="https://xdev.asia/tag/kvm/">KVM</a> và các packages cần thiết:</p><pre><code class="language-bash"># Update hệ thống
+</code></pre><blockquote>⚠️ <strong>Lưu ý:</strong> Nếu kết quả báo "KVM acceleration can NOT be used", hãy kiểm tra BIOS/UEFI và enable tùy chọn Intel VT-x hoặc AMD-V.</blockquote><h2 id="b%C6%B0%E1%BB%9Bc-2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-v%C3%A0-c%C3%A1c-packages">Bước 2: Cài đặt KVM và các Packages</h2><blockquote>📚 Thực hiện trên <strong>cả 2 node</strong></blockquote><p>Tiến hành cài đặt <a href="/tags/kvm/">KVM</a> và các packages cần thiết:</p><pre><code class="language-bash"># Update hệ thống
 sudo apt update &amp;&amp; sudo apt upgrade -y
 
 # Cài đặt KVM và toàn bộ dependencies
@@ -115,11 +115,11 @@ sudo apt install -y \
 <tbody>
 <tr>
 <td><code>qemu-kvm</code></td>
-<td><a href="https://xdev.asia/tag/qemu/">QEMU</a> emulator với <a href="https://xdev.asia/tag/kvm/">KVM</a> acceleration</td>
+<td><a href="/tags/qemu/">QEMU</a> emulator với <a href="/tags/kvm/">KVM</a> acceleration</td>
 </tr>
 <tr>
 <td><code>libvirt-daemon-system</code></td>
-<td><a href="https://xdev.asia/tag/libvirt/">Libvirt</a> daemon quản lý VMs</td>
+<td><a href="/tags/libvirt/">Libvirt</a> daemon quản lý VMs</td>
 </tr>
 <tr>
 <td><code>libvirt-clients</code></td>
@@ -127,7 +127,7 @@ sudo apt install -y \
 </tr>
 <tr>
 <td><code>bridge-utils</code></td>
-<td>Tạo và quản lý <a href="https://xdev.asia/tag/networking/">network</a> bridges</td>
+<td>Tạo và quản lý <a href="/tags/networking/">network</a> bridges</td>
 </tr>
 <tr>
 <td><code>virtinst</code></td>
@@ -135,7 +135,7 @@ sudo apt install -y \
 </tr>
 <tr>
 <td><code>virt-manager</code></td>
-<td>GUI quản lý VMs (optional cho <a href="https://xdev.asia/tag/server/">server</a>)</td>
+<td>GUI quản lý VMs (optional cho <a href="/tags/server/">server</a>)</td>
 </tr>
 <tr>
 <td><code>libguestfs-tools</code></td>
@@ -162,7 +162,7 @@ lsmod | grep kvm
 # Output mẫu (AMD):
 # kvm_amd               139264  0
 # kvm                  1028096  1 kvm_amd
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-3-c%E1%BA%A5u-h%C3%ACnh-user-v%C3%A0-services">Bước 3: Cấu hình User và Services</h2><blockquote>📚 Thực hiện trên <strong>cả 2 node</strong></blockquote><p>Để sử dụng <a href="https://xdev.asia/tag/kvm/">KVM</a> mà không cần sudo cho mọi lệnh, thêm user vào các groups cần thiết:</p><pre><code class="language-bash"># Thêm user hiện tại vào group libvirt và kvm
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-3-c%E1%BA%A5u-h%C3%ACnh-user-v%C3%A0-services">Bước 3: Cấu hình User và Services</h2><blockquote>📚 Thực hiện trên <strong>cả 2 node</strong></blockquote><p>Để sử dụng <a href="/tags/kvm/">KVM</a> mà không cần sudo cho mọi lệnh, thêm user vào các groups cần thiết:</p><pre><code class="language-bash"># Thêm user hiện tại vào group libvirt và kvm
 sudo usermod -aG libvirt $USER
 sudo usermod -aG kvm $USER
 
@@ -390,7 +390,7 @@ EOF
 sudo virsh net-define /tmp/vm-private-network.xml
 sudo virsh net-start vm-private
 sudo virsh net-autostart vm-private
-</code></pre><h3 id="c%C3%A0i-%C4%91%E1%BA%B7t-cockpit-%C4%91%E1%BB%83-qu%E1%BA%A3n-l%C3%BD-kvm-qua-web-ui">Cài đặt Cockpit để quản lý KVM qua Web UI</h3><p><a href="https://xdev.asia/tag/cockpit/">Cockpit</a> là web UI giúp quản lý <a href="https://xdev.asia/tag/kvm/">KVM</a> trực quan và dễ dàng. Cài đặt trên <strong>cả 2 node</strong>:</p><pre><code class="language-bash"># Cài đặt Cockpit và module KVM
+</code></pre><h3 id="c%C3%A0i-%C4%91%E1%BA%B7t-cockpit-%C4%91%E1%BB%83-qu%E1%BA%A3n-l%C3%BD-kvm-qua-web-ui">Cài đặt Cockpit để quản lý KVM qua Web UI</h3><p><a href="/tags/cockpit/">Cockpit</a> là web UI giúp quản lý <a href="/tags/kvm/">KVM</a> trực quan và dễ dàng. Cài đặt trên <strong>cả 2 node</strong>:</p><pre><code class="language-bash"># Cài đặt Cockpit và module KVM
 sudo apt install -y cockpit cockpit-machines
 
 # Enable và start Cockpit
@@ -422,7 +422,7 @@ sudo ufw allow 9090/tcp
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>Login bằng user <a href="https://xdev.asia/tag/linux/">Linux</a> của bạn (cần quyền sudo).</p><p><strong>Giao diện Cockpit cho KVM:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>Tính năng Cockpit cho KVM:</strong></p>
+<p>Login bằng user <a href="/tags/linux/">Linux</a> của bạn (cần quyền sudo).</p><p><strong>Giao diện Cockpit cho KVM:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>Tính năng Cockpit cho KVM:</strong></p>
 <!--kg-card-begin: html-->
 <table>
 <thead>
@@ -614,7 +614,7 @@ sudo virsh pool-info default
 </code></pre><p>Output mong muốn:</p><pre><code> Name      State    Autostart
 -------------------------------
  default   active   yes
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-6-c%E1%BA%A5u-h%C3%ACnh-hostname-v%C3%A0-etchosts">Bước 6: Cấu hình Hostname và /etc/hosts</h2><p>Để 2 node có thể giao tiếp với nhau bằng hostname, cần cấu hình <a href="https://xdev.asia/tag/ssh/">SSH</a> và hostname:</p><p><strong>Trên kvm-node01:</strong></p><pre><code class="language-bash"># Set hostname
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-6-c%E1%BA%A5u-h%C3%ACnh-hostname-v%C3%A0-etchosts">Bước 6: Cấu hình Hostname và /etc/hosts</h2><p>Để 2 node có thể giao tiếp với nhau bằng hostname, cần cấu hình <a href="/tags/linux/">SSH</a> và hostname:</p><p><strong>Trên kvm-node01:</strong></p><pre><code class="language-bash"># Set hostname
 sudo hostnamectl set-hostname kvm-node01
 
 # Cập nhật /etc/hosts
@@ -635,7 +635,7 @@ ping -c 3 kvm-node02
 
 # Từ kvm-node02
 ping -c 3 kvm-node01
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-7-t%E1%BA%A1o-virtual-machine-%C4%91%E1%BA%A7u-ti%C3%AAn">Bước 7: Tạo Virtual Machine đầu tiên</h2><p>Sau khi cài đặt <a href="https://xdev.asia/tag/kvm/">KVM</a> xong, chúng ta sẽ tạo VM đầu tiên sử dụng <strong>mạng ảo vm-private</strong>.</p><h3 id="ph%C6%B0%C6%A1ng-ph%C3%A1p-1-s%E1%BB%AD-d%E1%BB%A5ng-cloud-image-nhanh">Phương pháp 1: Sử dụng Cloud Image (Nhanh)</h3><p>Cloud images là disk images đã cài đặt sẵn OS, chỉ cần configure và boot:</p><p><strong>Trên kvm-node01:</strong></p><pre><code class="language-bash"># Download Ubuntu Cloud Image
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-7-t%E1%BA%A1o-virtual-machine-%C4%91%E1%BA%A7u-ti%C3%AAn">Bước 7: Tạo Virtual Machine đầu tiên</h2><p>Sau khi cài đặt <a href="/tags/kvm/">KVM</a> xong, chúng ta sẽ tạo VM đầu tiên sử dụng <strong>mạng ảo vm-private</strong>.</p><h3 id="ph%C6%B0%C6%A1ng-ph%C3%A1p-1-s%E1%BB%AD-d%E1%BB%A5ng-cloud-image-nhanh">Phương pháp 1: Sử dụng Cloud Image (Nhanh)</h3><p>Cloud images là disk images đã cài đặt sẵn OS, chỉ cần configure và boot:</p><p><strong>Trên kvm-node01:</strong></p><pre><code class="language-bash"># Download Ubuntu Cloud Image
 cd /var/lib/libvirt/images
 sudo wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 
@@ -788,7 +788,7 @@ sudo virsh vncdisplay vm-ubuntu-01
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<h2 id="b%C6%B0%E1%BB%9Bc-8-qu%E1%BA%A3n-l%C3%BD-virtual-machines-v%E1%BB%9Bi-virsh">Bước 8: Quản lý Virtual Machines với virsh</h2><p>Sau khi tạo VM trên <a href="https://xdev.asia/tag/kvm/">KVM</a>, bạn sẽ quản lý chúng bằng <code>virsh</code> command.</p><h3 id="qu%E1%BA%A3n-l%C3%BD-virtual-networks">Quản lý Virtual Networks</h3><pre><code class="language-bash"># Liệt kê tất cả networks
+<h2 id="b%C6%B0%E1%BB%9Bc-8-qu%E1%BA%A3n-l%C3%BD-virtual-machines-v%E1%BB%9Bi-virsh">Bước 8: Quản lý Virtual Machines với virsh</h2><p>Sau khi tạo VM trên <a href="/tags/kvm/">KVM</a>, bạn sẽ quản lý chúng bằng <code>virsh</code> command.</p><h3 id="qu%E1%BA%A3n-l%C3%BD-virtual-networks">Quản lý Virtual Networks</h3><pre><code class="language-bash"># Liệt kê tất cả networks
 virsh net-list --all
 
 # Xem thông tin network
@@ -872,7 +872,7 @@ virsh shutdown vm-test-01
 
 # Xóa VM definition và storage
 virsh undefine vm-test-01 --remove-all-storage
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-9-c%E1%BA%A5u-h%C3%ACnh-nested-virtualization-optional">Bước 9: Cấu hình Nested Virtualization (Optional)</h2><p>Nested <a href="https://xdev.asia/tag/virtualization/">virtualization</a> cho phép chạy VMs bên trong VMs - hữu ích khi bạn muốn test <a href="https://xdev.asia/tag/kubernetes/">Kubernetes</a> hoặc <a href="https://xdev.asia/tag/docker/">Docker</a> trong VM.</p><p><strong>Cho Intel CPU:</strong></p><pre><code class="language-bash"># Tạo file config
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-9-c%E1%BA%A5u-h%C3%ACnh-nested-virtualization-optional">Bước 9: Cấu hình Nested Virtualization (Optional)</h2><p>Nested <a href="/tags/virtualization/">virtualization</a> cho phép chạy VMs bên trong VMs - hữu ích khi bạn muốn test <a href="/tags/kubernetes/">Kubernetes</a> hoặc <a href="/tags/docker/">Docker</a> trong VM.</p><p><strong>Cho Intel CPU:</strong></p><pre><code class="language-bash"># Tạo file config
 echo "options kvm_intel nested=1" | sudo tee /etc/modprobe.d/kvm-intel.conf
 
 # Reload module
@@ -912,4 +912,4 @@ sudo journalctl -u libvirtd -f
 
 # QEMU logs cho specific VM
 sudo tail -f /var/log/libvirt/qemu/vm-test-01.log
-</code></pre><h2 id="t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o">Tài liệu tham khảo</h2><ul><li><a href="https://xdev.asia/tag/kvm/">Tất cả bài viết về KVM</a></li><li><a href="https://xdev.asia/tag/cockpit/">Cockpit trên xdev.asia</a></li><li><a href="https://xdev.asia/tag/virtualization/">Virtualization trên xdev.asia</a></li><li><a href="https://xdev.asia/tag/networking/">Networking trên xdev.asia</a></li><li><a href="https://xdev.asia/tag/qemu/">QEMU Documentation</a></li><li><a href="https://xdev.asia/tag/libvirt/">Libvirt trên xdev.asia</a></li><li><a href="https://xdev.asia/tag/ubuntu/">Ubuntu Server Guides</a></li><li><a href="https://www.linux-kvm.org/page/Documents">KVM Official Documentation</a></li><li><a href="https://www.kernel.org/doc/Documentation/networking/vxlan.txt">VXLAN - Linux Kernel Documentation</a></li></ul><hr><p><em>Nếu bạn gặp vấn đề trong quá trình cài đặt, hãy để lại comment bên dưới!</em></p>
+</code></pre><h2 id="t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o">Tài liệu tham khảo</h2><ul><li><a href="/tags/kvm/">Tất cả bài viết về KVM</a></li><li><a href="/tags/cockpit/">Cockpit trên xdev.asia</a></li><li><a href="/tags/virtualization/">Virtualization trên xdev.asia</a></li><li><a href="/tags/networking/">Networking trên xdev.asia</a></li><li><a href="/tags/qemu/">QEMU Documentation</a></li><li><a href="/tags/libvirt/">Libvirt trên xdev.asia</a></li><li><a href="/tags/ubuntu/">Ubuntu Server Guides</a></li><li><a href="https://www.linux-kvm.org/page/Documents">KVM Official Documentation</a></li><li><a href="https://www.kernel.org/doc/Documentation/networking/vxlan.txt">VXLAN - Linux Kernel Documentation</a></li></ul><hr><p><em>Nếu bạn gặp vấn đề trong quá trình cài đặt, hãy để lại comment bên dưới!</em></p>

@@ -80,7 +80,7 @@ def preprocess_text(text: str) -> str:
     return text
 
 # Demo
-raw = "  Check out https://xdev.asia! It's <b>AMAZING</b>... 🚀  "
+raw = "  Check out https://blog.xdev.asia! It's <b>AMAZING</b>... 🚀  "
 print(preprocess_text(raw))
 # Output: "check out its amazing"
 ```

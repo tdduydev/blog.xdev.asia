@@ -313,7 +313,7 @@ quarkus.smallrye-openapi.info-title=Product Service API
 quarkus.smallrye-openapi.info-version=1.0.0
 quarkus.smallrye-openapi.info-description=API quản lý sản phẩm E-Commerce
 quarkus.smallrye-openapi.info-contact-name=xdev.asia
-quarkus.smallrye-openapi.info-contact-url=https://xdev.asia
+quarkus.smallrye-openapi.info-contact-url=https://blog.xdev.asia
 
 # Cho phép Swagger UI ở production (tùy chọn)
 quarkus.swagger-ui.always-include=true

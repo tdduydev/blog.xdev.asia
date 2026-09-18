@@ -18,7 +18,7 @@ published_at: '2026-05-22T00:00:00.000000Z'
 
 **Last updated:** May 22, 2026
 
-xDev Asia ("xDev", "we", "our", or "us") operates the website [https://xdev.asia](https://xdev.asia), related online services, and mobile applications published by xDev Asia, including educational apps and games. This Privacy Policy explains what information may be collected, how it is used, and what choices you have.
+xDev Asia ("xDev", "we", "our", or "us") operates the website [https://blog.xdev.asia](https://blog.xdev.asia), related online services, and mobile applications published by xDev Asia, including educational apps and games. This Privacy Policy explains what information may be collected, how it is used, and what choices you have.
 
 ## 1. Information We Collect
 
@@ -125,5 +125,5 @@ We may update this Privacy Policy from time to time. The latest version will be 
 
 If you have questions about this Privacy Policy or want to make a privacy request, please contact us:
 
-- **Website:** [https://xdev.asia](https://xdev.asia)
+- **Website:** [https://blog.xdev.asia](https://blog.xdev.asia)
 - **Email:** duy@xdev.asia

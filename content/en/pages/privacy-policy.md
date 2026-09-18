@@ -97,5 +97,5 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## 11. Contact Us
 If you have any questions about this Privacy Policy, please contact us:
-- **Website:** [https://xdev.asia](https://xdev.asia)
+- **Website:** [https://blog.xdev.asia](https://blog.xdev.asia)
 - **Email:** duy@xdev.asia

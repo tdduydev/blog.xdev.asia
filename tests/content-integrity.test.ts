@@ -110,3 +110,42 @@ describe("slug lesson trong cùng một series", () => {
     expect(matches.length).toBe(2);
   });
 });
+
+describe("link chết sang xdev.asia", () => {
+  // Đo ngày 2026-09-18 bằng curl: https://xdev.asia/ trả 404 cho MỌI đường dẫn,
+  // kể cả trang chủ. Site phục vụ ở blog.xdev.asia. Nên mọi link trỏ sang
+  // xdev.asia trong bài viết đều là link chết.
+  //
+  // NGOẠI LỆ DUY NHẤT: URI định danh FHIR. Trong FHIR, `system` của một
+  // identifier và `url` của một SearchParameter là URI định danh namespace,
+  // KHÔNG phải URL để truy cập. Đổi chúng là đổi ngữ nghĩa dữ liệu — hai
+  // Patient.identifier khác `system` là hai định danh khác nhau. Chúng dùng
+  // http:// cũng đúng quy ước FHIR, không phải nhầm lẫn.
+  const FHIR_URI = /https?:\/\/xdev\.asia\/fhir\//;
+
+  it("không còn link xdev.asia trong content, trừ URI định danh FHIR", () => {
+    const offenders: string[] = [];
+
+    for (const filePath of markdownFiles) {
+      const source = fs.readFileSync(filePath, "utf-8");
+      const matches = source.match(/https?:\/\/xdev\.asia[^\s)"'>,]*/g);
+      if (!matches) continue;
+
+      for (const match of matches) {
+        if (FHIR_URI.test(match)) continue;
+        offenders.push(`${path.relative(process.cwd(), filePath)} — ${match}`);
+      }
+    }
+
+    expect(offenders).toEqual([]);
+  });
+
+  it("URI định danh FHIR vẫn còn nguyên — đừng ai 'dọn' chúng đi", () => {
+    const fhirUris = markdownFiles.flatMap((filePath) => {
+      const source = fs.readFileSync(filePath, "utf-8");
+      return source.match(/https?:\/\/xdev\.asia\/fhir\/[^\s)"'>,]*/g) ?? [];
+    });
+
+    expect(fhirUris.length).toBe(16);
+  });
+});

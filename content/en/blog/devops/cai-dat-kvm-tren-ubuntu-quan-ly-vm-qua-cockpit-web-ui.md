@@ -41,7 +41,7 @@ tags:
 comments: []
 locale: en
 ---
-<p>If you're looking for a powerful, free, and directly integrated virtualization solution <a href="https://xdev.asia/tag/linux/">Linux</a> kernel, then <a href="https://xdev.asia/tag/kvm/"><strong>KVM (Kernel-based Virtual Machine)</strong></a> is the answer. <a href="https://xdev.asia/tag/kvm/">KVM</a> turns Linux into a Type-1 <a href="https://xdev.asia/tag/hypervisor/">hypervisor</a>, allowing you to run a lot <a href="https://xdev.asia/tag/virtual-machines/">virtual machines (VMs)</a> with almost native performance.</p><p>In this article, I will guide you through the installation <a href="https://xdev.asia/tag/kvm/">KVM</a> from A-Z above <strong>2 physical servers</strong> with specific configuration:</p>
+<p>If you're looking for a powerful, free, and directly integrated virtualization solution <a href="/en/tags/linux/">Linux</a> kernel, then <a href="/en/tags/kvm/"><strong>KVM (Kernel-based Virtual Machine)</strong></a> is the answer. <a href="/en/tags/kvm/">KVM</a> turns Linux into a Type-1 <a href="/en/tags/hypervisor/">hypervisor</a>, allowing you to run a lot <a href="/en/tags/virtual-machines/">virtual machines (VMs)</a> with almost native performance.</p><p>In this article, I will guide you through the installation <a href="/en/tags/kvm/">KVM</a> from A-Z above <strong>2 physical servers</strong> with specific configuration:</p>
 <!--kg-card-begin: html-->
 <table>
 <thead>
@@ -65,7 +65,7 @@ locale: en
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>This configuration is suitable for building a homelab, running a Kubernetes cluster, or a development/testing environment.</p><h2 id="t%E1%BA%A1i-sao-ch%E1%BB%8Dn-kvm">Why choose KVM?</h2><p>Before jumping into the installation, let's understand why <a href="https://xdev.asia/tag/kvm/">KVM</a> is a popular choice:</p><p><strong>Compare virtualization solutions:</strong></p><pre><code>┌─────────────────┬──────────────┬─────────────┬──────────────┐
+<p>This configuration is suitable for building a homelab, running a Kubernetes cluster, or a development/testing environment.</p><h2 id="t%E1%BA%A1i-sao-ch%E1%BB%8Dn-kvm">Why choose KVM?</h2><p>Before jumping into the installation, let's understand why <a href="/en/tags/kvm/">KVM</a> is a popular choice:</p><p><strong>Compare virtualization solutions:</strong></p><pre><code>┌─────────────────┬──────────────┬─────────────┬──────────────┐
 │     Tiêu chí    │     KVM      │   VMware    │  VirtualBox  │
 ├─────────────────┼──────────────┼─────────────┼──────────────┤
 │ Chi phí         │ Miễn phí     │ Có phí      │ Miễn phí     │
@@ -75,7 +75,7 @@ locale: en
 │ Cloud providers │ AWS, GCP...  │ VMware Cloud│ Không        │
 │ Nested Virt     │ Tốt          │ Tốt         │ Hạn chế      │
 └─────────────────┴──────────────┴─────────────┴──────────────┘
-</code></pre><p><a href="https://xdev.asia/tag/kvm/">KVM</a> used by major cloud providers such as AWS, Google Cloud, DigitalOcean, and is the foundation for OpenStack, Proxmox VE.</p><h2 id="y%C3%AAu-c%E1%BA%A7u-h%E1%BB%87-th%E1%BB%91ng">System requirements</h2><p><strong>Configuring our 2 servers:</strong></p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/storage/uploads/2025/12/2aa8b659-cdb2-4840-b171-4a1459111f9a-1-201-a-e074b0df.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1091" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">System requirements</span></figcaption></figure><p><strong>Minimum requirements per node:</strong></p><ul><li>Hardware supported CPU <a href="https://xdev.asia/tag/virtualization/">Virtualization</a> (Intel VT-x or AMD-V)</li><li>RAM: 8GB+ (16GB+ recommended)</li><li><a href="https://xdev.asia/tag/storage/">Storage</a>: 100GB+ SSD</li><li><a href="https://xdev.asia/tag/ubuntu/">Ubuntu</a> Server 22.04 LTS or <a href="https://xdev.asia/tag/ubuntu-24-04/">24.04 LTS</a></li><li><a href="https://xdev.asia/tag/networking/">Network</a>: 1 NIC (can add NIC for storage network)</li></ul><h2 id="b%C6%B0%E1%BB%9Bc-1-ki%E1%BB%83m-tra-hardware-virtualization-support">Step 1: Check Hardware Virtualization Support</h2><blockquote>📚 Do the above <strong>both nodes</strong>: kvm-node01 and kvm-node02</blockquote><p>First, you need to confirm that the CPU supports hardware virtualization. This is the most important step - if the CPU doesn't support it, you can't use it <a href="https://xdev.asia/tag/kvm/">KVM</a>.</p><p><strong>Check CPU flags:</strong></p><pre><code class="language-bash"># Kiểm tra số lượng CPU cores hỗ trợ virtualization
+</code></pre><p><a href="/en/tags/kvm/">KVM</a> used by major cloud providers such as AWS, Google Cloud, DigitalOcean, and is the foundation for OpenStack, Proxmox VE.</p><h2 id="y%C3%AAu-c%E1%BA%A7u-h%E1%BB%87-th%E1%BB%91ng">System requirements</h2><p><strong>Configuring our 2 servers:</strong></p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/storage/uploads/2025/12/2aa8b659-cdb2-4840-b171-4a1459111f9a-1-201-a-e074b0df.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1091" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">System requirements</span></figcaption></figure><p><strong>Minimum requirements per node:</strong></p><ul><li>Hardware supported CPU <a href="/en/tags/virtualization/">Virtualization</a> (Intel VT-x or AMD-V)</li><li>RAM: 8GB+ (16GB+ recommended)</li><li><a href="/en/tags/storage/">Storage</a>: 100GB+ SSD</li><li><a href="/en/tags/ubuntu/">Ubuntu</a> Server 22.04 LTS or <a href="/en/tags/ubuntu/">24.04 LTS</a></li><li><a href="/en/tags/networking/">Network</a>: 1 NIC (can add NIC for storage network)</li></ul><h2 id="b%C6%B0%E1%BB%9Bc-1-ki%E1%BB%83m-tra-hardware-virtualization-support">Step 1: Check Hardware Virtualization Support</h2><blockquote>📚 Do the above <strong>both nodes</strong>: kvm-node01 and kvm-node02</blockquote><p>First, you need to confirm that the CPU supports hardware virtualization. This is the most important step - if the CPU doesn't support it, you can't use it <a href="/en/tags/kvm/">KVM</a>.</p><p><strong>Check CPU flags:</strong></p><pre><code class="language-bash"># Kiểm tra số lượng CPU cores hỗ trợ virtualization
 egrep -c '(vmx|svm)' /proc/cpuinfo
 </code></pre><p>A result that returns a number greater than 0 means the CPU supports:</p><ul><li><code>vmx</code> - Intel VT-x</li><li><code>svm</code> - AMD-V</li></ul><p><strong>Check out more details:</strong></p><pre><code class="language-bash"># Xem loại virtualization
 lscpu | grep Virtualization
@@ -91,7 +91,7 @@ sudo apt install -y cpu-checker
 sudo kvm-ok
 </code></pre><p>Desired results:</p><pre><code>INFO: /dev/kvm exists
 KVM acceleration can be used
-</code></pre><blockquote>⚠️ <strong>Note:</strong> If the result says "KVM acceleration can NOT be used", check BIOS/UEFI and enable the Intel VT-x or AMD-V option.</blockquote><h2 id="b%C6%B0%E1%BB%9Bc-2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-v%C3%A0-c%C3%A1c-packages">Step 2: Install KVM and Packages</h2><blockquote>📚 Do the above <strong>both nodes</strong></blockquote><p>Proceed with installation <a href="https://xdev.asia/tag/kvm/">KVM</a> and necessary packages:</p><pre><code class="language-bash"># Update hệ thống
+</code></pre><blockquote>⚠️ <strong>Note:</strong> If the result says "KVM acceleration can NOT be used", check BIOS/UEFI and enable the Intel VT-x or AMD-V option.</blockquote><h2 id="b%C6%B0%E1%BB%9Bc-2-c%C3%A0i-%C4%91%E1%BA%B7t-kvm-v%C3%A0-c%C3%A1c-packages">Step 2: Install KVM and Packages</h2><blockquote>📚 Do the above <strong>both nodes</strong></blockquote><p>Proceed with installation <a href="/en/tags/kvm/">KVM</a> and necessary packages:</p><pre><code class="language-bash"># Update hệ thống
 sudo apt update &amp;&amp; sudo apt upgrade -y
 
 # Cài đặt KVM và toàn bộ dependencies
@@ -117,11 +117,11 @@ sudo apt install -y \
 <tbody>
 <tr>
 <td><code>qemu-kvm</code></td>
-<td><a href="https://xdev.asia/tag/qemu/">QEMU</a> emulator with <a href="https://xdev.asia/tag/kvm/">KVM</a> acceleration.acceleration</td>
+<td><a href="/en/tags/qemu/">QEMU</a> emulator with <a href="/en/tags/kvm/">KVM</a> acceleration.acceleration</td>
 </tr>
 <tr>
 <td><code>libvirt-daemon-system</code></td>
-<td><a href="https://xdev.asia/tag/libvirt/">Libvirt</a> daemon manages VMs</td>
+<td><a href="/en/tags/libvirt/">Libvirt</a> daemon manages VMs</td>
 </tr>
 <tr>
 <td><code>libvirt-clients</code></td>
@@ -129,7 +129,7 @@ sudo apt install -y \
 </tr>
 <tr>
 <td><code>bridge-utils</code></td>
-<td>Create and manage <a href="https://xdev.asia/tag/networking/">network</a> bridges. bridges</td>
+<td>Create and manage <a href="/en/tags/networking/">network</a> bridges. bridges</td>
 </tr>
 <tr>
 <td><code>virtinst</code></td>
@@ -137,7 +137,7 @@ sudo apt install -y \
 </tr>
 <tr>
 <td><code>virt-manager</code></td>
-<td>GUI for managing VMs (optional for <a href="https://xdev.asia/tag/server/">server. server</a>)</td>
+<td>GUI for managing VMs (optional for <a href="/en/tags/server/">server. server</a>)</td>
 </tr>
 <tr>
 <td><code>libguestfs-tools</code></td>
@@ -164,7 +164,7 @@ lsmod | grep kvm
 # Output mẫu (AMD):
 # kvm_amd               139264  0
 # kvm                  1028096  1 kvm_amd
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-3-c%E1%BA%A5u-h%C3%ACnh-user-v%C3%A0-services">Step 3: Configure Users and Services</h2><blockquote>📚 Do the above <strong>both nodes</strong></blockquote><p>To use <a href="https://xdev.asia/tag/kvm/">KVM</a> without needing sudo for every command, add the user to the necessary groups:</p><pre><code class="language-bash"># Thêm user hiện tại vào group libvirt và kvm
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-3-c%E1%BA%A5u-h%C3%ACnh-user-v%C3%A0-services">Step 3: Configure Users and Services</h2><blockquote>📚 Do the above <strong>both nodes</strong></blockquote><p>To use <a href="/en/tags/kvm/">KVM</a> without needing sudo for every command, add the user to the necessary groups:</p><pre><code class="language-bash"># Thêm user hiện tại vào group libvirt và kvm
 sudo usermod -aG libvirt $USER
 sudo usermod -aG kvm $USER
 
@@ -392,7 +392,7 @@ EOF
 sudo virsh net-define /tmp/vm-private-network.xml
 sudo virsh net-start vm-private
 sudo virsh net-autostart vm-private
-</code></pre><h3 id="c%C3%A0i-%C4%91%E1%BA%B7t-cockpit-%C4%91%E1%BB%83-qu%E1%BA%A3n-l%C3%BD-kvm-qua-web-ui">Install Cockpit to manage KVM via Web UI</h3><p><a href="https://xdev.asia/tag/cockpit/">Cockpit</a> is a web UI that helps with management <a href="https://xdev.asia/tag/kvm/">KVM</a> intuitive and easy. Install above <strong>both nodes</strong>:</p><pre><code class="language-bash"># Cài đặt Cockpit và module KVM
+</code></pre><h3 id="c%C3%A0i-%C4%91%E1%BA%B7t-cockpit-%C4%91%E1%BB%83-qu%E1%BA%A3n-l%C3%BD-kvm-qua-web-ui">Install Cockpit to manage KVM via Web UI</h3><p><a href="/en/tags/cockpit/">Cockpit</a> is a web UI that helps with management <a href="/en/tags/kvm/">KVM</a> intuitive and easy. Install above <strong>both nodes</strong>:</p><pre><code class="language-bash"># Cài đặt Cockpit và module KVM
 sudo apt install -y cockpit cockpit-machines
 
 # Enable và start Cockpit
@@ -424,7 +424,7 @@ sudo ufw allow 9090/tcp
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<p>Login using user <a href="https://xdev.asia/tag/linux/">Linux</a> yours (needs sudo permission).</p><p><strong>Cockpit interface for KVM:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>Cockpit features for KVM:</strong></p>
+<p>Login using user <a href="/en/tags/linux/">Linux</a> yours (needs sudo permission).</p><p><strong>Cockpit interface for KVM:</strong></p><figure class="kg-card kg-image-card"><img src="/storage/uploads/2025/12/screenshot-2025-12-25-at-200341-f51721fe.png" class="kg-image" alt="" loading="lazy" width="2000" height="1159" sizes="(min-width: 720px) 720px"></figure><p><strong>Cockpit features for KVM:</strong></p>
 <!--kg-card-begin: html-->
 <table>
 <thead>
@@ -616,7 +616,7 @@ sudo virsh pool-info default
 </code></pre><p>Desired output:</p><pre><code> Name      State    Autostart
 -------------------------------
  default   active   yes
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-6-c%E1%BA%A5u-h%C3%ACnh-hostname-v%C3%A0-etchosts">Step 6: Configure Hostname and /etc/hosts</h2><p>In order for two nodes to be able to communicate with each other by hostname, configuration is needed <a href="https://xdev.asia/tag/ssh/">SSH</a> and hostname:</p><p><strong>On kvm-node01:</strong></p><pre><code class="language-bash"># Set hostname
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-6-c%E1%BA%A5u-h%C3%ACnh-hostname-v%C3%A0-etchosts">Step 6: Configure Hostname and /etc/hosts</h2><p>In order for two nodes to be able to communicate with each other by hostname, configuration is needed <a href="/en/tags/linux/">SSH</a> and hostname:</p><p><strong>On kvm-node01:</strong></p><pre><code class="language-bash"># Set hostname
 sudo hostnamectl set-hostname kvm-node01
 
 # Cập nhật /etc/hosts
@@ -637,7 +637,7 @@ ping -c 3 kvm-node02
 
 # Từ kvm-node02
 ping -c 3 kvm-node01
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-7-t%E1%BA%A1o-virtual-machine-%C4%91%E1%BA%A7u-ti%C3%AAn">Step 7: Create the first Virtual Machine</h2><p>After installation <a href="https://xdev.asia/tag/kvm/">KVM</a> done, we will create the first VM to use <strong>vm-private virtual network</strong>.</p><h3 id="ph%C6%B0%C6%A1ng-ph%C3%A1p-1-s%E1%BB%AD-d%E1%BB%A5ng-cloud-image-nhanh">Method 1: Use Cloud Image (Fast)</h3><p>Cloud images are disk images with pre-installed OS, just need to configure and boot:</p><p><strong>On kvm-node01:</strong></p><pre><code class="language-bash"># Download Ubuntu Cloud Image
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-7-t%E1%BA%A1o-virtual-machine-%C4%91%E1%BA%A7u-ti%C3%AAn">Step 7: Create the first Virtual Machine</h2><p>After installation <a href="/en/tags/kvm/">KVM</a> done, we will create the first VM to use <strong>vm-private virtual network</strong>.</p><h3 id="ph%C6%B0%C6%A1ng-ph%C3%A1p-1-s%E1%BB%AD-d%E1%BB%A5ng-cloud-image-nhanh">Method 1: Use Cloud Image (Fast)</h3><p>Cloud images are disk images with pre-installed OS, just need to configure and boot:</p><p><strong>On kvm-node01:</strong></p><pre><code class="language-bash"># Download Ubuntu Cloud Image
 cd /var/lib/libvirt/images
 sudo wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 
@@ -790,7 +790,7 @@ sudo virsh vncdisplay vm-ubuntu-01
 </tbody>
 </table>
 <!--kg-card-end: html-->
-<h2 id="b%C6%B0%E1%BB%9Bc-8-qu%E1%BA%A3n-l%C3%BD-virtual-machines-v%E1%BB%9Bi-virsh">Step 8: Manage Virtual Machines with virsh</h2><p>After creating the above VM <a href="https://xdev.asia/tag/kvm/">KVM</a>, you will manage them with <code>virsh</code> command.</p><h3 id="qu%E1%BA%A3n-l%C3%BD-virtual-networks">Managing Virtual Networks</h3><pre><code class="language-bash"># Liệt kê tất cả networks
+<h2 id="b%C6%B0%E1%BB%9Bc-8-qu%E1%BA%A3n-l%C3%BD-virtual-machines-v%E1%BB%9Bi-virsh">Step 8: Manage Virtual Machines with virsh</h2><p>After creating the above VM <a href="/en/tags/kvm/">KVM</a>, you will manage them with <code>virsh</code> command.</p><h3 id="qu%E1%BA%A3n-l%C3%BD-virtual-networks">Managing Virtual Networks</h3><pre><code class="language-bash"># Liệt kê tất cả networks
 virsh net-list --all
 
 # Xem thông tin network
@@ -874,7 +874,7 @@ virsh shutdown vm-test-01
 
 # Xóa VM definition và storage
 virsh undefine vm-test-01 --remove-all-storage
-</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-9-c%E1%BA%A5u-h%C3%ACnh-nested-virtualization-optional">Step 9: Configure Nested Virtualization (Optional)</h2><p>Nested <a href="https://xdev.asia/tag/virtualization/">virtualization</a> allows running VMs inside VMs - useful when you want to test <a href="https://xdev.asia/tag/kubernetes/">Kubernetes</a> or <a href="https://xdev.asia/tag/docker/">Docker</a> in VM.</p><p><strong>For Intel CPUs:</strong></p><pre><code class="language-bash"># Tạo file config
+</code></pre><h2 id="b%C6%B0%E1%BB%9Bc-9-c%E1%BA%A5u-h%C3%ACnh-nested-virtualization-optional">Step 9: Configure Nested Virtualization (Optional)</h2><p>Nested <a href="/en/tags/virtualization/">virtualization</a> allows running VMs inside VMs - useful when you want to test <a href="/en/tags/kubernetes/">Kubernetes</a> or <a href="/en/tags/docker/">Docker</a> in VM.</p><p><strong>For Intel CPUs:</strong></p><pre><code class="language-bash"># Tạo file config
 echo "options kvm_intel nested=1" | sudo tee /etc/modprobe.d/kvm-intel.conf
 
 # Reload module
@@ -914,4 +914,4 @@ sudo journalctl -u libvirtd -f
 
 # QEMU logs cho specific VM
 sudo tail -f /var/log/libvirt/qemu/vm-test-01.log
-</code></pre><h2 id="t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o">References</h2><ul><li><a href="https://xdev.asia/tag/kvm/">All articles about KVM</a></li><li><a href="https://xdev.asia/tag/cockpit/">Cockpit on xdev.asia</a></li><li><a href="https://xdev.asia/tag/virtualization/">Virtualization on xdev.asia</a></li><li><a href="https://xdev.asia/tag/networking/">Networking on xdev.asia</a></li><li><a href="https://xdev.asia/tag/qemu/">QEMU Documentation</a></li><li><a href="https://xdev.asia/tag/libvirt/">Libvirt on xdev.asia</a></li><li><a href="https://xdev.asia/tag/ubuntu/">Ubuntu Server Guides</a></li><li><a href="https://www.linux-kvm.org/page/Documents">KVM Official Documentation</a></li><li><a href="https://www.kernel.org/doc/Documentation/networking/vxlan.txt">VXLAN - Linux Kernel Documentation</a></li></ul><hr><p><em>If you encounter problems during the installation process, please leave a comment below!</em></p>
+</code></pre><h2 id="t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o">References</h2><ul><li><a href="/en/tags/kvm/">All articles about KVM</a></li><li><a href="/en/tags/cockpit/">Cockpit on xdev.asia</a></li><li><a href="/en/tags/virtualization/">Virtualization on xdev.asia</a></li><li><a href="/en/tags/networking/">Networking on xdev.asia</a></li><li><a href="/en/tags/qemu/">QEMU Documentation</a></li><li><a href="/en/tags/libvirt/">Libvirt on xdev.asia</a></li><li><a href="/en/tags/ubuntu/">Ubuntu Server Guides</a></li><li><a href="https://www.linux-kvm.org/page/Documents">KVM Official Documentation</a></li><li><a href="https://www.kernel.org/doc/Documentation/networking/vxlan.txt">VXLAN - Linux Kernel Documentation</a></li></ul><hr><p><em>If you encounter problems during the installation process, please leave a comment below!</em></p>

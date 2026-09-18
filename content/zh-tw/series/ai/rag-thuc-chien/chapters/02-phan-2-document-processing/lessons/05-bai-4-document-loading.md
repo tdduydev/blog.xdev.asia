@@ -192,7 +192,7 @@ for elem in elements[:10]:
 from langchain_community.document_loaders import WebBaseLoader
 
 # Load 1 trang
-loader = WebBaseLoader("https://xdev.asia/ai/")
+loader = WebBaseLoader("https://blog.xdev.asia/ai/")
 docs = loader.load()
 
 print(f"Content length: {len(docs[0].page_content)} chars")
@@ -200,9 +200,9 @@ print(docs[0].page_content[:500])
 
 # Load nhiều trang
 urls = [
-    "https://xdev.asia/blog/post-1",
-    "https://xdev.asia/blog/post-2",
-    "https://xdev.asia/blog/post-3",
+    "https://blog.xdev.asia/blog/post-1",
+    "https://blog.xdev.asia/blog/post-2",
+    "https://blog.xdev.asia/blog/post-3",
 ]
 loader = WebBaseLoader(urls)
 docs = loader.load()
@@ -216,8 +216,8 @@ print(f"Loaded {len(docs)} pages")
 from langchain_community.document_loaders.sitemap import SitemapLoader
 
 loader = SitemapLoader(
-    web_path="https://xdev.asia/sitemap.xml",
-    filter_urls=["https://xdev.asia/blog/"],  # Chỉ blog
+    web_path="https://blog.xdev.asia/sitemap.xml",
+    filter_urls=["https://blog.xdev.asia/blog/"],  # Chỉ blog
 )
 docs = loader.load()
 print(f"Crawled {len(docs)} pages from blog")

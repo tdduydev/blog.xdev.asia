@@ -51,4 +51,4 @@ locale: zh-tw
 **電子郵件：** duy@xdev.asia
 
 -
-**網址：** https://xdev.asia
+**網址：** https://blog.xdev.asia

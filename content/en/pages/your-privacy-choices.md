@@ -51,4 +51,4 @@ We will respond to your request within 30 days. We may need to verify your ident
 **Email:** duy@xdev.asia
 
 - 
-**Website:** https://xdev.asia
+**Website:** https://blog.xdev.asia
