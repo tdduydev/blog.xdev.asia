@@ -151,23 +151,31 @@ describe("tags và category trong buildIndex", () => {
   // như `getAllPosts()` đã làm cho blog. `(tag) => tag.slug` trên một chuỗi
   // ra `undefined`, và `JSON.stringify` biến mỗi phần tử `undefined` trong
   // mảng thành `null`. `z.array(z.string())` phía app từ chối thẳng `[null]`.
+  // Gom vấn đề của cả 4 locale vào MỘT mảng rồi assert một lần ở cuối — thay
+  // vì assert ngay trong vòng lặp. Nếu assert ngay trong lặp, `expect` ném
+  // lỗi ở locale hỏng ĐẦU TIÊN và vòng lặp dừng luôn, nên nếu có từ 2 locale
+  // hỏng trở lên (đúng tình huống thật: `ja` VÀ `zh-tw`), locale thứ hai
+  // không bao giờ được kiểm và không bao giờ xuất hiện trong assertion diff.
+  // Gom trước rồi assert một lần đảm bảo message lỗi luôn nêu tên MỌI locale
+  // đang hỏng kèm số đếm, không chỉ locale đầu tiên.
   it("mọi phần tử tags đều là chuỗi khác rỗng, ở cả 4 locale", () => {
+    const problems: string[] = [];
     for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
       const entries = buildIndex(locale);
       const bad = entries.filter(
         (entry) => !entry.tags.every((tag) => typeof tag === "string" && tag.length > 0)
       );
       if (bad.length > 0) {
-        console.log(
-          `[${locale}] tags chứa phần tử không phải chuỗi non-empty: ${bad.length}/${entries.length}, ví dụ: ` +
+        problems.push(
+          `${locale}: ${bad.length}/${entries.length} entry có tags hỏng, ví dụ: ` +
             bad
               .slice(0, 3)
               .map((e) => `${e.id}:${JSON.stringify(e.tags)}`)
               .join(" | ")
         );
       }
-      expect(bad.length).toBe(0);
     }
+    expect(problems).toEqual([]);
   });
 
   // Cùng nguyên nhân với tags ở trên nhưng cho `category`: `series.category`
@@ -178,7 +186,11 @@ describe("tags và category trong buildIndex", () => {
   // property có giá trị `undefined`, nên object phát ra là `{}` thay vì
   // `null`. `z.object({slug, name})` phía app từ chối `{}` vì thiếu field
   // bắt buộc.
+  // Cùng lý do gom-rồi-assert-một-lần như test tags ở trên — tình huống thật
+  // có cả `ja` lẫn `zh-tw` cùng hỏng category, và assert-trong-lặp sẽ chỉ báo
+  // tên locale đầu tiên.
   it("mọi category đều là null hoặc đủ cả slug lẫn name, ở cả 4 locale", () => {
+    const problems: string[] = [];
     for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
       const entries = buildIndex(locale);
       const bad = entries.filter((entry) => {
@@ -192,15 +204,15 @@ describe("tags và category trong buildIndex", () => {
         );
       });
       if (bad.length > 0) {
-        console.log(
-          `[${locale}] category thiếu slug/name: ${bad.length}/${entries.length}, ví dụ: ` +
+        problems.push(
+          `${locale}: ${bad.length}/${entries.length} entry có category hỏng, ví dụ: ` +
             bad
               .slice(0, 3)
               .map((e) => `${e.id}:${JSON.stringify(e.category)}`)
               .join(" | ")
         );
       }
-      expect(bad.length).toBe(0);
     }
+    expect(problems).toEqual([]);
   });
 });
