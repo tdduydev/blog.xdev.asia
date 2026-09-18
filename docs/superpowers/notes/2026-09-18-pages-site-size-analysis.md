@@ -176,7 +176,6 @@ nhận — **chưa làm**.
   được. Tài liệu GitHub không nói.
 - Có tắt được việc sinh `__next.*.txt` bằng cấu hình Next hay không. Docs đi kèm
   Next 16.2.1 không tài liệu hoá các file này.
-- Xoá `__next._full.txt` có làm hỏng điều hướng client-side hay không (mục 6A).
 - Nguyên nhân `out/tags` phình (mục 6E) — mới thấy triệu chứng, chưa đọc code.
 - Mức nén thực tế đạt được trên bộ ảnh này (mục 6C).
 

@@ -103,7 +103,7 @@ Một entry trong `{locale}/index.json`:
   "featuredImage": "/images/blog/ai-trong-y-te-featured.png",
   "readingTime": 35,
   "publishedAt": "2026-04-01T08:00:00.000000Z",
-  "author": { "name": "Duy Tran", "avatar": "avatars/....jpeg" },
+  "author": { "id": "019c9616-d2b4-713f-9b2c-40e2e92a05cf", "name": "Duy Tran", "avatar": "/avatars/....jpeg" },
   "tags": ["ai", "healthcare"],
   "category": { "slug": "ai-machine-learning", "name": "AI & Machine Learning" },
   "series": null,
@@ -113,6 +113,17 @@ Một entry trong `{locale}/index.json`:
 ```
 
 Với `type: "lesson"`, `series` là `{ "slug": "...", "chapter": "...", "order": 12 }`.
+
+`author` nối theo `id`, không theo `name` — slug/tên hiển thị không đảm bảo
+duy nhất hay ổn định giữa các nguồn dữ liệu (xem `taxonomy.authors[]` ở
+mục 4.2). `author` có thể là `null` khi entry không có tác giả trong
+frontmatter, thay vì một object tác giả rỗng giả (`{ id: "", ... }`).
+
+Mọi trường đường dẫn asset (`featuredImage`, `avatar`) luôn ở một trong hai
+dạng: root-relative bắt đầu bằng `/` (vd `/images/blog/....png`), hoặc một
+URL tuyệt đối (`http://`/`https://`) — không bao giờ là chuỗi bare không dấu
+`/` đầu. App ghép `SITE_URL + value` cho dạng root-relative; dùng nguyên
+`value` khi đã là URL tuyệt đối.
 
 `path` là đường dẫn tương đối so với base API: app fetch
 `{API_BASE}/{path}` để lấy markdown. Mọi `path` phải trỏ tới file có thật —
@@ -146,7 +157,14 @@ Artifact GitHub Pages tăng khoảng 100 MB mỗi lần deploy. Phải đo thờ
 thời gian upload ở lần chạy CI đầu tiên.
 
 Nếu vượt ngưỡng chịu được: chuyển phần markdown sang branch hoặc repo phục vụ riêng.
-Contract của app không đổi vì base URL nằm trong một biến môi trường duy nhất.
+**Không đúng khi nói contract của app không đổi vì base URL nằm trong một
+biến môi trường duy nhất.** `path` trong mỗi entry (vd `content/blog/ai/foo.md`)
+được resolve tương đối so với CÙNG một base API mà `index.json`/`series.json`/
+`taxonomy.json` cũng được fetch từ đó (`{API_BASE}/{path}`, xem mục 4.3) — JSON
+và markdown không phải hai thứ độc lập, chúng chia sẻ một base URL. Vì vậy JSON
+và markdown chỉ có thể di chuyển CÙNG NHAU dưới một biến môi trường duy nhất;
+tách markdown sang host/repo riêng trong khi JSON vẫn ở `blog.xdev.asia` sẽ phá
+mọi `path` hiện có, tức là phá contract, không phải giữ nguyên nó.
 
 ## 5. S0.5 — Canonical domain
 

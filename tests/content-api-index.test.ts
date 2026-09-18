@@ -97,3 +97,46 @@ describe("buildIndex", () => {
     }
   });
 });
+
+describe("url trong buildIndex", () => {
+  // `url` không đảm bảo duy nhất toàn cục, khác với `id`/`path`. Đo ngày
+  // 2026-09-18: đúng một cặp trùng trong `vi` — 2 lesson "terminology-service"
+  // khác chương trong series "hl7-fhir-r5-chuyen-sau" (xem comment trong
+  // `buildLessonEntries`, content-api.ts) dùng chung `series.slug + lesson.slug`
+  // để dựng url, nên phát ra CÙNG một url dù `id` và `path` đúng và khác nhau.
+  // Đây là lỗi định tuyến ở tầng site (một trong hai lesson không truy cập
+  // được qua URL của nó) — theo README của Task 4, việc đổi slug để sửa thuộc
+  // về chủ sở hữu vì nó phá URL đang sống, nên KHÔNG tự sửa ở đây.
+  //
+  // Mẫu miễn trừ giống hệt `KNOWN_DUPLICATES` trong
+  // tests/content-integrity.test.ts:74-107: liệt kê cặp trùng đã biết để test
+  // vẫn chặn được cặp trùng MỚI, thay vì tắt hẳn assertion.
+  const KNOWN_DUPLICATE_URLS = [
+    "https://blog.xdev.asia/lessons/hl7-fhir-r5-chuyen-sau/terminology-service/",
+  ];
+
+  it("không có cặp url trùng MỚI trong index của mỗi locale", () => {
+    for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
+      const entries = buildIndex(locale);
+      const idsByUrl = new Map<string, string[]>();
+      for (const entry of entries) {
+        if (!idsByUrl.has(entry.url)) idsByUrl.set(entry.url, []);
+        idsByUrl.get(entry.url)!.push(entry.id);
+      }
+
+      const duplicates = [...idsByUrl.entries()]
+        .filter(([url, ids]) => ids.length > 1 && !KNOWN_DUPLICATE_URLS.includes(url))
+        .map(([url, ids]) => `${locale}: ${url} — id ${ids.join(", ")}`);
+
+      expect(duplicates).toEqual([]);
+    }
+  });
+
+  it("cặp url trùng đã biết vẫn còn đó — xoá khỏi KNOWN_DUPLICATE_URLS khi sửa xong", () => {
+    const entries = buildIndex("vi");
+    for (const url of KNOWN_DUPLICATE_URLS) {
+      const matches = entries.filter((entry) => entry.url === url);
+      expect(matches.length).toBe(2);
+    }
+  });
+});

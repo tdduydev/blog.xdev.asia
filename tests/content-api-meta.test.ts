@@ -44,13 +44,53 @@ describe("buildTaxonomy", () => {
   });
 
   it("mọi avatar đều cùng một dạng đường dẫn", () => {
-    const fromIndex = buildIndex("vi").map((entry) => entry.author.avatar);
+    const fromIndex = buildIndex("vi").map((entry) => entry.author?.avatar ?? null);
     const fromTaxonomy = buildTaxonomy("vi").authors.map((author) => author.avatar);
 
     for (const avatar of [...fromIndex, ...fromTaxonomy]) {
       if (avatar === null) continue;
       expect(avatar.startsWith("/")).toBe(true);
     }
+  });
+
+  // Cùng lỗi hợp đồng với avatar (xem `normalizeAssetPath` trong
+  // content-api.ts) nhưng ở trường `featuredImage`: bài blog phát ra
+  // "/images/blog/...", còn lesson (đọc từ `series.featured_image`) và series
+  // node phát ra "images/blog/..." — không dấu `/` đầu. Kiểm cả ba nơi phát
+  // sinh featuredImage (`buildPostEntries`, `buildLessonEntries`,
+  // `buildSeriesTree`) trong cùng một assertion.
+  it("mọi featuredImage đều cùng một dạng đường dẫn (buildIndex và buildSeriesTree)", () => {
+    const fromIndex = buildIndex("vi").map((entry) => entry.featuredImage);
+    const fromSeriesTree = buildSeriesTree("vi").map((node) => node.featuredImage);
+    const all = [...fromIndex, ...fromSeriesTree];
+
+    const bad = all.filter(
+      (image): image is string =>
+        image !== null && !image.startsWith("/") && !/^https?:\/\//.test(image)
+    );
+    if (bad.length > 0) {
+      console.log(
+        `featuredImage không có dấu "/" đầu: ${bad.length}/${all.length}, ví dụ: ${bad.slice(0, 5).join(", ")}`
+      );
+    }
+
+    expect(bad.length).toBe(0);
+  });
+
+  // Ruling 15: nối theo `id`, không theo `name` — `data/authors.json` lưu
+  // "DUY TRAN", frontmatter lưu "Duy Tran", cùng một author thật. Nếu
+  // `taxonomy.authors[]` không mang `id` thì app không có cách nào đối chiếu
+  // nó với `index.json` author ngoài tên hiển thị, vốn không ổn định. Test
+  // này khẳng định mọi `id` phát ra trong taxonomy đều thực sự xuất hiện
+  // trong index của cùng locale — tức là join theo `id` thực hiện được.
+  it("mọi taxonomy.authors[].id đều xuất hiện trong index của cùng locale", () => {
+    const entryAuthorIds = new Set(
+      buildIndex("vi")
+        .map((entry) => entry.author?.id)
+        .filter((id): id is string => Boolean(id))
+    );
+    const missing = taxonomy.authors.filter((author) => !entryAuthorIds.has(author.id));
+    expect(missing).toEqual([]);
   });
 });
 

@@ -28,7 +28,7 @@ export interface ApiIndexEntry {
   featuredImage: string | null;
   readingTime: number | null;
   publishedAt: string | null;
-  author: { id: string; name: string; avatar: string | null };
+  author: { id: string; name: string; avatar: string | null } | null;
   tags: string[];
   category: { slug: string; name: string } | null;
   series: { slug: string; chapter: string; order: number } | null;
@@ -42,20 +42,29 @@ export function toApiPath(absoluteFilePath: string): string {
 }
 
 /**
- * Chuẩn hoá avatar path về một dạng duy nhất — luôn có dấu `/` đầu.
+ * Chuẩn hoá một đường dẫn asset (avatar, featuredImage, ...) về một dạng
+ * duy nhất — luôn có dấu `/` đầu, trừ khi đã là URL tuyệt đối.
  *
  * Đã đo ngày 2026-09-18: frontmatter (blog lẫn series) lưu avatar KHÔNG có
  * dấu `/` đầu (vd "avatars/7e8eb5c6-....jpeg"), còn `getAuthors()`
- * (`src/lib/data.ts:527`) tự thêm dấu `/`. Hai nguồn cùng nuôi API này
- * (`buildIndex` đọc frontmatter, `buildTaxonomy` đọc `getAuthors()`) mà phát
- * ra hai dạng khác nhau cho cùng một tấm ảnh là lỗi hợp đồng của chính API —
- * app ghép `SITE_URL + avatar` sẽ ra URL hỏng cho một trong hai. Dùng chung
- * một hàm ở cả hai nơi để đường dẫn phát ra luôn nhất quán, thay vì chuẩn hoá
- * rời rạc mỗi nơi một kiểu.
+ * (`src/lib/data.ts:527`) tự thêm dấu `/`. Cùng lỗi đó lặp lại ở
+ * `featuredImage`: bài blog phát ra "/images/blog/...", còn lesson và series
+ * node phát ra "images/blog/..." (đo trên artifact build: 89% số entry rơi
+ * vào phía không có dấu `/`). Hai nguồn cùng nuôi API này mà phát ra hai dạng
+ * khác nhau cho cùng một loại giá trị là lỗi hợp đồng của chính API — app
+ * ghép `SITE_URL + value` sẽ ra URL hỏng cho một trong hai. Dùng chung một
+ * hàm ở mọi nơi phát sinh đường dẫn asset để giá trị phát ra luôn nhất quán,
+ * thay vì chuẩn hoá rời rạc mỗi nơi một kiểu.
+ *
+ * Một giá trị đã là URL tuyệt đối (`http://` hoặc `https://`) được giữ
+ * nguyên — thêm `/` đầu vào đó sẽ phá URL thay vì chuẩn hoá nó. `null` và
+ * `undefined` (frontmatter thiếu field dù type khai `string | null`) đều
+ * gộp về `null`.
  */
-function normalizeAvatarPath(avatar: string | null | undefined): string | null {
-  if (!avatar) return null;
-  return avatar.startsWith("/") ? avatar : `/${avatar}`;
+function normalizeAssetPath(value: string | null | undefined): string | null {
+  if (!value) return null;
+  if (/^(\/|https?:)/.test(value)) return value;
+  return `/${value}`;
 }
 
 /**
@@ -101,6 +110,25 @@ function slugToFilePath(
   return frontmatterFieldToFilePath(collection, "slug", relativePathFilter);
 }
 
+/**
+ * Post/series không phải lúc nào cũng có `author` — frontmatter của series
+ * "luyen-thi-ckad" (ja, zh-tw) không khai field này dù type khai
+ * `author: Author` bắt buộc, nên giá trị thật lúc runtime là `undefined`.
+ *
+ * Trước đây chỗ gọi dùng `post.author?.id ?? ""` cho từng field riêng lẻ,
+ * phát ra `{ id: "", name: "", avatar: null }` — một "tác giả rỗng" giả,
+ * trong khi type khai `author` không thể null. Đo ngày 2026-09-18: 10 entry
+ * `ja` + 10 entry `zh-tw` (series "luyen-thi-ckad") lãnh đúng sentinel này.
+ * Phát `null` cho cả object thay vì bịa ra một tác giả rỗng — đúng với thực
+ * tế là entry đó không có tác giả.
+ */
+function buildAuthorRef(
+  author: { id: string; name: string; avatar: string | null } | null | undefined
+): { id: string; name: string; avatar: string | null } | null {
+  if (!author) return null;
+  return { id: author.id, name: author.name, avatar: normalizeAssetPath(author.avatar) };
+}
+
 function buildPostEntries(locale: Locale): ApiIndexEntry[] {
   const collection = localizedCollection("blog", locale);
   const pathBySlug = slugToFilePath(collection);
@@ -117,14 +145,10 @@ function buildPostEntries(locale: Locale): ApiIndexEntry[] {
       slug: post.slug,
       title: post.title,
       excerpt: post.excerpt,
-      featuredImage: post.featured_image,
+      featuredImage: normalizeAssetPath(post.featured_image),
       readingTime: post.reading_time,
       publishedAt: post.published_at,
-      author: {
-        id: post.author?.id ?? "",
-        name: post.author?.name ?? "",
-        avatar: normalizeAvatarPath(post.author?.avatar),
-      },
+      author: buildAuthorRef(post.author),
       tags: (post.tags ?? []).map((tag) => tag.slug),
       category: post.category ? { slug: post.category.slug, name: post.category.name } : null,
       series: null,
@@ -175,14 +199,10 @@ function buildLessonEntries(locale: Locale): ApiIndexEntry[] {
           slug: lesson.slug,
           title: lesson.title,
           excerpt: lesson.description ?? null,
-          featuredImage: series.featured_image,
+          featuredImage: normalizeAssetPath(series.featured_image),
           readingTime: lesson.duration_minutes ?? null,
           publishedAt: series.published_at,
-          author: {
-            id: series.author?.id ?? "",
-            name: series.author?.name ?? "",
-            avatar: normalizeAvatarPath(series.author?.avatar),
-          },
+          author: buildAuthorRef(series.author),
           tags: (series.tags ?? []).map((tag) => tag.slug),
           category: series.category
             ? { slug: series.category.slug, name: series.category.name }
@@ -222,14 +242,19 @@ export interface ApiSeriesNode {
   chapters: {
     title: string;
     order: number;
-    lessons: { slug: string; title: string; order: number }[];
+    // `id` bên cạnh `slug`: slug lesson không đảm bảo duy nhất trong một
+    // series (xem lý do đầy đủ ở `buildLessonEntries` — vd 2 lesson
+    // "terminology-service" khác chương trong "hl7-fhir-r5-chuyen-sau"). Một
+    // app đi từ series.json → index.json → path mà tra theo `slug` có thể
+    // trúng nhầm lesson. `id` đã sẵn có ở đây, không cần đo/tra thêm gì.
+    lessons: { id: string; slug: string; title: string; order: number }[];
   }[];
 }
 
 export interface ApiTaxonomy {
   categories: { slug: string; name: string }[];
   tags: { slug: string; name: string }[];
-  authors: { name: string; avatar: string | null }[];
+  authors: { id: string; name: string; avatar: string | null }[];
 }
 
 export interface ApiManifest {
@@ -250,7 +275,7 @@ export function buildSeriesTree(locale: Locale): ApiSeriesNode[] {
       slug: series.slug,
       title: series.title,
       description: series.description,
-      featuredImage: series.featured_image,
+      featuredImage: normalizeAssetPath(series.featured_image),
       level: series.level,
       lessonCount: series.lesson_count,
       category: series.category
@@ -263,6 +288,7 @@ export function buildSeriesTree(locale: Locale): ApiSeriesNode[] {
         title: section.title,
         order: section.sort_order,
         lessons: section.lessons.map((lesson) => ({
+          id: lesson.id,
           slug: lesson.slug,
           title: lesson.title,
           order: lesson.sort_order ?? section.sort_order,
@@ -294,7 +320,7 @@ export function buildTaxonomy(locale: Locale): ApiTaxonomy {
   // không phân biệt hoa/thường) sẽ gộp nhầm hai tác giả khác nhau trót trùng
   // tên, và vỡ ngay khi một tác giả đổi tên hiển thị; `id` không có rủi ro đó.
   const usedAuthorIds = new Set(
-    entries.map((entry) => entry.author.id).filter((id) => id.length > 0)
+    entries.map((entry) => entry.author?.id).filter((id): id is string => Boolean(id))
   );
 
   return {
@@ -304,9 +330,18 @@ export function buildTaxonomy(locale: Locale): ApiTaxonomy {
     tags: getTags()
       .filter((tag) => usedTags.has(tag.slug))
       .map((tag) => ({ slug: tag.slug, name: tag.name })),
+    // `id` phải có mặt ở đây, không chỉ `name`/`avatar`: nếu không, đây là
+    // document duy nhất trong API không mang khoá định danh của author, nên
+    // app không có cách nào nối `taxonomy.authors[]` với `index.json`
+    // `author` ngoài tên hiển thị — đúng phép nối mà comment `usedAuthorIds`
+    // phía trên vừa từ chối áp dụng cho chính document này.
     authors: getAuthors()
       .filter((author) => usedAuthorIds.has(author.id))
-      .map((author) => ({ name: author.name, avatar: normalizeAvatarPath(author.avatar) })),
+      .map((author) => ({
+        id: author.id,
+        name: author.name,
+        avatar: normalizeAssetPath(author.avatar),
+      })),
   };
 }
 

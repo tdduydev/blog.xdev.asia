@@ -483,7 +483,7 @@ export interface ApiIndexEntry {
   featuredImage: string | null;
   readingTime: number | null;
   publishedAt: string | null;
-  author: { name: string; avatar: string | null };
+  author: { id: string; name: string; avatar: string | null };
   tags: string[];
   category: { slug: string; name: string } | null;
   series: { slug: string; chapter: string; order: number } | null;
@@ -763,7 +763,7 @@ export interface ApiSeriesNode {
 export interface ApiTaxonomy {
   categories: { slug: string; name: string }[];
   tags: { slug: string; name: string }[];
-  authors: { name: string; avatar: string | null }[];
+  authors: { id: string; name: string; avatar: string | null }[];
 }
 
 export interface ApiManifest {
