@@ -413,8 +413,17 @@ Dữ liệu đã có sẵn: `series.json` cho cây `chapters[].lessons[]` kèm `
 
 **Phạm vi:** chỉ repo blog. Chặn Task 12.
 
-Dữ liệu đã có: `data/quizzes.json` (10 đề, 110 câu), 7 file trong `data/quizzes/`, và
-`data/roadmaps.json`. API hiện **không phơi gì trong số đó**.
+Nguồn dữ liệu — đã đo, đừng tin lại con số cũ:
+
+- **`data/quizzes/*.json` là nguồn thật**: 7 đề, 165 câu. `data.ts` chỉ đọc thư mục này.
+- **`data/quizzes.json` là file chết, ĐỪNG dùng**: 10 mục nhưng chỉ 7 slug (kcna, cka,
+  ckad mỗi cái lặp 2 lần), 5 trong 7 có 0 câu hỏi hoặc ít hơn bản trong thư mục
+  (gcp-ml-engineer: 15 ở đây vs 50 ở thư mục), và `grep` toàn repo không thấy file nào
+  đọc nó. Nó là rác còn sót lại.
+- `data/roadmaps.json`: 5 roadmap, đã có `src/lib/roadmaps.ts` với `getRoadmapList()`,
+  `getRoadmap(slug)`, `getAllRoadmapSlugs()`.
+
+API hiện **không phơi gì trong số đó**.
 
 - [ ] `src/app/api/v1/quizzes.json/route.ts` — danh sách đề, KHÔNG kèm câu hỏi
 - [ ] `src/app/api/v1/quiz/[slug].json/route.ts` — một đề đầy đủ kèm câu hỏi, qua
@@ -422,11 +431,16 @@ Dữ liệu đã có: `data/quizzes.json` (10 đề, 110 câu), 7 file trong `da
 - [ ] `src/app/api/v1/roadmaps.json/route.ts`
 - [ ] Tách danh sách khỏi nội dung vì cùng lý do như `index.json` với markdown: app
       không nên tải 98 KB câu hỏi chỉ để hiện danh sách đề
-- [ ] `data.ts` đã có `getAllQuizzes()`, `getQuiz(slug)`, `getQuizSlugs()` — dùng lại,
-      đừng parse lại JSON
+- [ ] `data.ts` đã có `getAllQuizzes()`, `getQuiz(slug)`, `getQuizSlugs()`, và
+      `roadmaps.ts` có `getRoadmapList()`, `getRoadmap(slug)`, `getAllRoadmapSlugs()` —
+      dùng lại, đừng parse lại JSON, và tuyệt đối đừng đọc `data/quizzes.json`
 - [ ] Cập nhật `manifest.json` thêm số lượng quiz và roadmap
-- [ ] Test: mọi slug trong danh sách đều fetch được đề đầy đủ; số câu hỏi khớp
-      `questions_count` mà danh sách khai
+- [ ] Test: mọi slug trong danh sách đều fetch được đề đầy đủ; số câu hỏi thật khớp
+      `questions_count` mà danh sách khai — nếu không khớp thì đó là lỗi dữ liệu có sẵn,
+      báo lại chứ đừng sửa `questions_count` cho khớp
+- [ ] Test: `undefined` không lọt vào JSON. `aws-ml-specialty` KHÔNG có `domains` trong
+      khi 6 đề kia có. `JSON.stringify` nuốt `undefined` im lặng — lỗi này đã cắn một
+      lần ở Task 2 với `publishedAt`
 
 ### Task 12: Màn thi thử
 
