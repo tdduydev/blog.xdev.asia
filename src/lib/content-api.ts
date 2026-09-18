@@ -129,6 +129,53 @@ function buildAuthorRef(
   return { id: author.id, name: author.name, avatar: normalizeAssetPath(author.avatar) };
 }
 
+/**
+ * Tag[] → slug[], chỉ giữ chuỗi khác rỗng.
+ *
+ * Đo ngày 2026-09-18: `getSeries()` (dùng bởi `buildLessonEntries` và, qua
+ * `series.category` bên dưới, `buildSeriesTree`) trả `tags` y nguyên từ
+ * frontmatter thay vì qua `normalizeTags()` như `getAllPosts()`/
+ * `getAllSeries()` đã làm. Với 2 series — "luyen-thi-ckad" (ja, zh-tw) và
+ * "docker-tu-co-ban-den-nang-cao" (zh-tw) — frontmatter `tags` là mảng chuỗi
+ * thô ("kubernetes", "ckad", ...), không phải object `{slug, name}`, nên
+ * `tag.slug` ra `undefined` và `JSON.stringify` biến mỗi phần tử `undefined`
+ * trong mảng thành `null`: 10 entry `ja` + 30 entry `zh-tw` phát `tags` chứa
+ * `null`, dù type khai `string[]`. Lọc bỏ phần tử không phải chuỗi non-empty
+ * thay vì phát `null` vào một mảng khai kiểu `string[]` — entry không còn
+ * tag hợp lệ nào thì phát `[]`, không phải `[null, null, ...]`.
+ */
+function buildTagSlugs(tags: { slug: string }[] | null | undefined): string[] {
+  return (tags ?? [])
+    .map((tag) => tag?.slug)
+    .filter((slug): slug is string => typeof slug === "string" && slug.length > 0);
+}
+
+/**
+ * Category → { slug, name } | null, chỉ khi cả hai trường đều là chuỗi khác
+ * rỗng.
+ *
+ * Cùng nguyên nhân với `buildTagSlugs` ở trên: `getSeries()` trả `category`
+ * y nguyên frontmatter — với "luyen-thi-ckad" (ja) và
+ * "docker-tu-co-ban-den-nang-cao" (zh-tw), đó là một chuỗi thô truthy (vd
+ * "luyen-thi"), không phải object `{slug, name}`. Nhánh cũ
+ * `series.category ? { slug: ..., name: ... } : null` vẫn rẽ vào nhánh
+ * truthy (chuỗi khác rỗng luôn truthy), nhưng `.slug`/`.name` trên một chuỗi
+ * đều ra `undefined` — `JSON.stringify` bỏ hẳn property có giá trị
+ * `undefined`, nên phát ra `{}` thay vì `null`: 10 entry `ja` + 20 entry
+ * `zh-tw` (kể cả 1 node series/locale trong series.json) lãnh đúng lỗi này.
+ * Một category thiếu 1 trong 2 trường không phải là category hợp lệ — phát
+ * `null` thay vì một object rỗng giả, mirror `buildAuthorRef()` ở trên.
+ */
+function buildCategoryRef(
+  category: { slug: string; name: string } | null | undefined
+): { slug: string; name: string } | null {
+  if (!category) return null;
+  const { slug, name } = category;
+  if (typeof slug !== "string" || slug.length === 0) return null;
+  if (typeof name !== "string" || name.length === 0) return null;
+  return { slug, name };
+}
+
 function buildPostEntries(locale: Locale): ApiIndexEntry[] {
   const collection = localizedCollection("blog", locale);
   const pathBySlug = slugToFilePath(collection);
@@ -149,8 +196,8 @@ function buildPostEntries(locale: Locale): ApiIndexEntry[] {
       readingTime: post.reading_time,
       publishedAt: post.published_at,
       author: buildAuthorRef(post.author),
-      tags: (post.tags ?? []).map((tag) => tag.slug),
-      category: post.category ? { slug: post.category.slug, name: post.category.name } : null,
+      tags: buildTagSlugs(post.tags),
+      category: buildCategoryRef(post.category),
       series: null,
       path: toApiPath(filePath),
       url: `${SITE_URL}${localePrefix(locale)}/blog/${post.slug}/`,
@@ -203,10 +250,8 @@ function buildLessonEntries(locale: Locale): ApiIndexEntry[] {
           readingTime: lesson.duration_minutes ?? null,
           publishedAt: series.published_at,
           author: buildAuthorRef(series.author),
-          tags: (series.tags ?? []).map((tag) => tag.slug),
-          category: series.category
-            ? { slug: series.category.slug, name: series.category.name }
-            : null,
+          tags: buildTagSlugs(series.tags),
+          category: buildCategoryRef(series.category),
           series: {
             slug: series.slug,
             chapter: section.title,
@@ -278,9 +323,7 @@ export function buildSeriesTree(locale: Locale): ApiSeriesNode[] {
       featuredImage: normalizeAssetPath(series.featured_image),
       level: series.level,
       lessonCount: series.lesson_count,
-      category: series.category
-        ? { slug: series.category.slug, name: series.category.name }
-        : null,
+      category: buildCategoryRef(series.category),
       url: `${SITE_URL}${localePrefix(locale)}/series/${
         series.category?.slug ?? "uncategorized"
       }/${series.slug}/`,

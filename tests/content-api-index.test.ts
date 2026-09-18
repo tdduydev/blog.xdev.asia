@@ -140,3 +140,67 @@ describe("url trong buildIndex", () => {
     }
   });
 });
+
+describe("tags và category trong buildIndex", () => {
+  // Đo ngày 2026-09-18 trên artifact build thật (out/api/v1/): `tags` khai
+  // kiểu `string[]` nhưng phát ra phần tử `null` — 10 entry `ja` + 30 entry
+  // `zh-tw`, toàn bộ là lesson của series "luyen-thi-ckad" (ja, zh-tw) và
+  // "docker-tu-co-ban-den-nang-cao" (zh-tw). Nguyên nhân: `getSeries()` (dùng
+  // bởi `buildLessonEntries`) trả `tags` y nguyên frontmatter — một mảng
+  // chuỗi thô ("kubernetes", "ckad", ...) — thay vì đi qua `normalizeTags()`
+  // như `getAllPosts()` đã làm cho blog. `(tag) => tag.slug` trên một chuỗi
+  // ra `undefined`, và `JSON.stringify` biến mỗi phần tử `undefined` trong
+  // mảng thành `null`. `z.array(z.string())` phía app từ chối thẳng `[null]`.
+  it("mọi phần tử tags đều là chuỗi khác rỗng, ở cả 4 locale", () => {
+    for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
+      const entries = buildIndex(locale);
+      const bad = entries.filter(
+        (entry) => !entry.tags.every((tag) => typeof tag === "string" && tag.length > 0)
+      );
+      if (bad.length > 0) {
+        console.log(
+          `[${locale}] tags chứa phần tử không phải chuỗi non-empty: ${bad.length}/${entries.length}, ví dụ: ` +
+            bad
+              .slice(0, 3)
+              .map((e) => `${e.id}:${JSON.stringify(e.tags)}`)
+              .join(" | ")
+        );
+      }
+      expect(bad.length).toBe(0);
+    }
+  });
+
+  // Cùng nguyên nhân với tags ở trên nhưng cho `category`: `series.category`
+  // trong frontmatter là một chuỗi thô truthy (vd "luyen-thi"), không phải
+  // đối tượng `{slug, name}`. Nhánh `series.category ? {...} : null` cũ vẫn
+  // rẽ vào nhánh truthy vì chuỗi khác rỗng là truthy, nhưng `category.slug`/
+  // `.name` trên một chuỗi đều ra `undefined` — `JSON.stringify` bỏ hẳn
+  // property có giá trị `undefined`, nên object phát ra là `{}` thay vì
+  // `null`. `z.object({slug, name})` phía app từ chối `{}` vì thiếu field
+  // bắt buộc.
+  it("mọi category đều là null hoặc đủ cả slug lẫn name, ở cả 4 locale", () => {
+    for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
+      const entries = buildIndex(locale);
+      const bad = entries.filter((entry) => {
+        if (entry.category === null) return false;
+        const { slug, name } = entry.category as { slug?: unknown; name?: unknown };
+        return (
+          typeof slug !== "string" ||
+          slug.length === 0 ||
+          typeof name !== "string" ||
+          name.length === 0
+        );
+      });
+      if (bad.length > 0) {
+        console.log(
+          `[${locale}] category thiếu slug/name: ${bad.length}/${entries.length}, ví dụ: ` +
+            bad
+              .slice(0, 3)
+              .map((e) => `${e.id}:${JSON.stringify(e.category)}`)
+              .join(" | ")
+        );
+      }
+      expect(bad.length).toBe(0);
+    }
+  });
+});

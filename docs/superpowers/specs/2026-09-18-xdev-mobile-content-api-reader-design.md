@@ -122,6 +122,23 @@ duy nhất hay ổn định giữa các nguồn dữ liệu (xem `taxonomy.autho
 mục 4.2). `author` có thể là `null` khi entry không có tác giả trong
 frontmatter, thay vì một object tác giả rỗng giả (`{ id: "", ... }`).
 
+`tags` luôn là một mảng các chuỗi khác rỗng — không bao giờ chứa `null`
+hay bất kỳ phần tử nào không phải chuỗi. Một entry không có tag hợp lệ nào
+phát ra mảng rỗng `[]`, không phải một mảng có phần tử hỏng. `category` luôn
+là `null` hoặc một object đầy đủ cả `slug` lẫn `name` (cả hai đều chuỗi khác
+rỗng) — không bao giờ là một object rỗng hay thiếu field (`{}` hay
+`{ slug: "..." }` không phải giá trị hợp lệ cho trường này). App nên khai
+`tags: z.array(z.string())` (chấp nhận mảng rỗng) và
+`category: z.object({ slug: z.string(), name: z.string() }).nullable()`.
+
+Đo ngày 2026-09-18 trên artifact build thật: trước khi sửa, `getSeries()`
+(nguồn của `buildLessonEntries` và `buildSeriesTree`) trả `tags`/`category`
+y nguyên frontmatter cho một số series (mảng chuỗi thô và chuỗi slug thô,
+không phải object `{slug, name}`) thay vì qua cùng bước chuẩn hoá mà
+`getAllPosts()` áp dụng cho blog — khiến `tags` phát ra phần tử `null`
+(10 entry `ja`, 30 entry `zh-tw`) và `category` phát ra `{}`
+(10 entry `ja`, 20 entry `zh-tw`, cả trong `index.json` lẫn `series.json`).
+
 Mọi trường đường dẫn asset (`featuredImage`, `avatar`) luôn ở một trong hai
 dạng: root-relative bắt đầu bằng `/` (vd `/images/blog/....png`), hoặc một
 URL tuyệt đối (`http://`/`https://`) — không bao giờ là chuỗi bare không dấu

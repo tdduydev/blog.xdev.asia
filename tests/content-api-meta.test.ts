@@ -23,6 +23,39 @@ describe("buildSeriesTree", () => {
     }
     expect(missing).toEqual([]);
   });
+
+  // Cùng lỗi hợp đồng với `category` trong buildIndex (xem
+  // tests/content-api-index.test.ts) nhưng đo ở series tree: `series.category`
+  // là chuỗi thô truthy cho series "luyen-thi-ckad" (ja) và
+  // "docker-tu-co-ban-den-nang-cao" (zh-tw) — `.slug`/`.name` trên chuỗi ra
+  // `undefined`, JSON.stringify phát `{}` thay vì `null`. Đo ngày 2026-09-18
+  // trên artifact thật: 1 series/locale bị (`luyen-thi-ckad` ở `ja`,
+  // `docker-tu-co-ban-den-nang-cao` ở `zh-tw`).
+  it("mọi category trong series tree đều là null hoặc đủ cả slug lẫn name, ở cả 4 locale", () => {
+    for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
+      const nodes = buildSeriesTree(locale);
+      const bad = nodes.filter((node) => {
+        if (node.category === null) return false;
+        const { slug, name } = node.category as { slug?: unknown; name?: unknown };
+        return (
+          typeof slug !== "string" ||
+          slug.length === 0 ||
+          typeof name !== "string" ||
+          name.length === 0
+        );
+      });
+      if (bad.length > 0) {
+        console.log(
+          `[${locale}] series category thiếu slug/name: ${bad.length}/${nodes.length}, ví dụ: ` +
+            bad
+              .slice(0, 3)
+              .map((n) => `${n.slug}:${JSON.stringify(n.category)}`)
+              .join(" | ")
+        );
+      }
+      expect(bad.length).toBe(0);
+    }
+  });
 });
 
 describe("buildTaxonomy", () => {
