@@ -89,12 +89,12 @@ Commit message ghi rõ Expo SDK version và RN version thực tế từ Step 1.
 **Files:**
 - Create: `src/api/config.ts` — base URL, đọc `EXPO_PUBLIC_API_BASE`
 - Create: `src/api/schema.ts` — schema zod cho manifest, index entry, series tree, taxonomy
-- Create: `src/api/client.ts` — fetch + validate + cache
-- Create: `src/api/storage.ts` — AsyncStorage cho index, expo-file-system cho markdown
-- Test: `tests/contract.test.ts`, `tests/client.test.ts`
+- Create: `src/api/client.ts` — fetch + validate
+- Create: `src/api/cache.ts` — AsyncStorage cho index, file system cho markdown
+- Test: `tests/contract.test.ts`, `tests/cache.test.ts`
 
 **Interfaces:**
-- Consumes: Content API của plan A
+- Consumes: Content API tại `https://blog.xdev.asia/api/v1` (đang sống, đã xác minh)
 - Produces: `fetchManifest()`, `fetchIndex(locale)`, `fetchMarkdown(path)`, `getCachedIndex(locale)`
 
 - [ ] **Step 1: Cài phụ thuộc**
@@ -102,25 +102,80 @@ Commit message ghi rõ Expo SDK version và RN version thực tế từ Step 1.
 ```bash
 npx expo install @react-native-async-storage/async-storage expo-file-system
 npm install zod@latest fuse.js@latest
-npm install -D vitest@latest
 ```
 
-- [ ] **Step 2: Viết schema zod trước, từ shape trong spec mục 4.3**
+Vitest đã có sẵn từ Task 1, không cần cài lại.
 
-Trường bắt buộc của một entry: `id`, `type` (`"blog" | "lesson"`), `locale`, `slug`, `title`, `excerpt`, `featuredImage`, `readingTime`, `publishedAt`, `author {name, avatar}`, `tags`, `category`, `series`, `path`, `url`.
+**BẪY của Expo SDK 57 — đọc trước khi viết code file system.** `expo-file-system` đã đổi sang API class-based; API cũ nằm ở `expo-file-system/legacy` và đã deprecated:
 
-- [ ] **Step 3: Contract test — fetch API THẬT**
+```ts
+import { File, Directory, Paths } from "expo-file-system";
+
+const file = new File(Paths.cache, "example.txt");
+file.create();
+file.write("Hello");
+file.textSync();
+```
+
+`Paths.cache` là nơi hệ thống có thể xoá khi máy thiếu dung lượng — đúng cho cache markdown. `Paths.document` là nơi không bị xoá. **Dùng API mới, không dùng `expo-file-system/legacy`.** Kiến thức sẵn có nhiều khả năng sẽ dẫn tới API cũ; `AGENTS.md` của repo yêu cầu đọc https://docs.expo.dev/versions/v57.0.0/ trước khi viết code.
+
+- [ ] **Step 2: Viết schema zod từ shape ĐO THẬT trên API sống**
+
+Đây là shape thật, lấy từ `https://blog.xdev.asia/api/v1/vi/index.json` ngày 2026-09-18 — không phải từ trí nhớ hay từ bản spec cũ:
+
+```json
+{
+  "id": "019fefa0-60af-7818-8473-9d42ce7cdc28",
+  "type": "blog",
+  "locale": "vi",
+  "slug": "idempotent-la-dieu-kien",
+  "title": "Idempotent là điều kiện, không phải trang trí",
+  "excerpt": "Cú gọi gốc có thể THÀNH CÔNG mà phản hồi không về được...",
+  "featuredImage": "/images/blog/idempotent-la-dieu-kien/cover.png",
+  "readingTime": 10,
+  "publishedAt": "2026-08-11T08:00:00.000000Z",
+  "author": { "id": "019c9616-...", "name": "Duy Tran", "avatar": "/avatars/....jpeg" },
+  "tags": ["microservices", "kien-truc", "messaging", "architecture"],
+  "category": { "slug": "programming", "name": "Lập trình" },
+  "series": null,
+  "path": "content/blog/programming/idempotent-la-dieu-kien.md",
+  "url": "https://blog.xdev.asia/blog/idempotent-la-dieu-kien/"
+}
+```
+
+Quy tắc mà schema phải phản ánh, mỗi cái đều là kết quả của một lỗi đã sửa ở phía API:
+
+| Trường | Quy tắc |
+|---|---|
+| `author` | `{ id, name, avatar } \| null` — **nullable**. Nối theo `id`, không theo `name` |
+| `featuredImage`, `avatar` | luôn bắt đầu bằng `/` hoặc là URL tuyệt đối, không bao giờ bare. Luôn CÓ MẶT với `null` tường minh → dùng `.nullable()`, không phải `.optional()` |
+| `tags` | `string[]` gồm chuỗi khác rỗng; có thể là `[]`, không bao giờ chứa `null` |
+| `category` | `{ slug, name } \| null` — đủ cả hai trường hoặc `null`, không bao giờ một nửa |
+| `series` | `null` với `type: "blog"`; `{ slug, chapter, order }` với `type: "lesson"` |
+| `path` | tương đối so với base API. Fetch `{API_BASE}/{path}` |
+
+- [ ] **Step 3: Contract test — fetch API THẬT, và phải chạm nhánh nullable**
+
+Số đo ngày 2026-09-18 cho locale `vi`: **0 author null, 0 category null, 0 tags rỗng**. Nghĩa là **contract test chỉ chạy `vi` sẽ không bao giờ đi qua một nhánh nullable nào** — schema có thể sai ở đó mà test vẫn xanh.
+
+Các giá trị null nằm ở `ja` và `zh-tw` (10 entry mỗi locale có `author: null`, `category: null`, `tags: []`). Test **bắt buộc** phải chạy cả bốn locale.
 
 ```ts
 const BASE = process.env.EXPO_PUBLIC_API_BASE ?? "https://blog.xdev.asia/api/v1";
+const LOCALES = ["vi", "en", "ja", "zh-tw"] as const;
 
-it("manifest khớp schema", async () => {
-  const res = await fetch(`${BASE}/manifest.json`);
+it.each(LOCALES)("index %s khớp schema", async (locale) => {
+  const res = await fetch(`${BASE}/${locale}/index.json`);
   expect(res.status).toBe(200);
-  expect(() => ManifestSchema.parse(await res.json())).not.toThrow();
+  expect(() => IndexSchema.parse(await res.json())).not.toThrow();
 });
 
-it("mọi path trong index fetch được qua HTTP", async () => {
+it("ja và zh-tw thật sự có entry author null — nếu không, test này vô nghĩa", async () => {
+  const ja = IndexSchema.parse(await (await fetch(`${BASE}/ja/index.json`)).json());
+  expect(ja.filter((e) => e.author === null).length).toBeGreaterThan(0);
+});
+
+it("mọi path fetch được qua HTTP", async () => {
   const index = IndexSchema.parse(await (await fetch(`${BASE}/vi/index.json`)).json());
   for (const entry of sample(index, 20)) {
     const head = await fetch(`${BASE}/${entry.path}`, { method: "HEAD" });
@@ -129,13 +184,17 @@ it("mọi path trong index fetch được qua HTTP", async () => {
 });
 ```
 
-Test thứ hai là thứ bắt được lỗi slug tiếng Việt sống trên đĩa nhưng hỏng thành URL. Lấy mẫu 20 entry chứ không quét cả 1655 — đủ để phát hiện lỗi hệ thống, không đủ chậm để người ta tắt test đi.
+Test thứ hai là loại test canh chính bài test khác: nó đỏ nếu dữ liệu đổi tới mức nhánh nullable không còn được phủ, thay vì để test đầu tiên âm thầm mất tác dụng.
 
-**Nếu plan A chưa push:** chạy `npm run build` ở repo blog rồi `npx serve out` và đặt `EXPO_PUBLIC_API_BASE=http://localhost:3000/api/v1`. Ghi cách này vào README.
+Lấy mẫu 20 entry cho test path, không quét cả 1655 — đủ phát hiện lỗi hệ thống, không đủ chậm để người ta tắt đi.
 
-- [ ] **Step 4-6:** implement client + storage cho tới khi test xanh; commit.
+- [ ] **Step 4: Kích thước — ảnh hưởng thiết kế, không phải chuyện bên lề**
 
----
+Đo thật: `vi/index.json` là **2,07 MB thô, 283 KB sau gzip**. GitHub Pages chỉ nén khi client gửi `Accept-Encoding: gzip`.
+
+Hệ quả: chỉ tải index của **một** locale đang chọn. Tải cả bốn là hơn 1 MB. Xác minh trong test rằng client có yêu cầu nén.
+
+- [ ] **Step 5-7:** implement client + cache cho tới khi test xanh; commit.
 
 ### Task 3: Màn hình và điều hướng
 
