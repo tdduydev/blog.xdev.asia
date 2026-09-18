@@ -23,6 +23,22 @@ describe("buildIndex", () => {
     expect(bad).toEqual([]);
   });
 
+  // Bug đã xảy ra thật (xem task-4-report.md): trước khi buildLessonEntries
+  // tra path theo `id`, hai lesson "terminology-service" khác chương trong
+  // series "hl7-fhir-r5-chuyen-sau" từng bị tra theo `slug` — map ghi đè, cả
+  // hai entry nhận CÙNG một path (path của chương sau), một trong hai bị gán
+  // sai file. Test "path có thật" ở trên vẫn xanh trong tình huống đó (file
+  // đích vẫn tồn tại, chỉ sai file). Test uniqueness theo `id` cũng xanh (id
+  // vẫn khác nhau, không liên quan gì tới việc path có đúng hay không).
+  //
+  // Assertion dưới đây không phụ thuộc join theo field nào — nó chỉ khẳng
+  // định không có hai entry nào (bất kể type/id/slug) trỏ chung một file vật
+  // lý. Đây là lưới an toàn sống sót qua việc Task 5 refactor lại module này.
+  it("path là duy nhất trên toàn index — hai entry không được trỏ cùng một file", () => {
+    const paths = entries.map((entry) => entry.path);
+    expect(new Set(paths).size).toBe(paths.length);
+  });
+
   it("url dùng canonical domain", () => {
     const bad = entries.filter((e) => !e.url.startsWith("https://blog.xdev.asia/"));
     expect(bad).toEqual([]);
@@ -69,9 +85,15 @@ describe("buildIndex", () => {
     expect(blog.series).toBeNull();
   });
 
-  it("sinh được index cho cả 4 locale", () => {
+  it("sinh được index cho cả 4 locale, đủ cả blog lẫn lesson", () => {
     for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
-      expect(buildIndex(locale).length).toBeGreaterThan(0);
+      const localeEntries = buildIndex(locale);
+      expect(localeEntries.length).toBeGreaterThan(0);
+      // Chỉ kiểm độ dài > 0 sẽ không bắt được trường hợp toàn bộ blog (hoặc
+      // toàn bộ lesson) của một locale bị rơi im lặng trong khi loại còn lại
+      // vẫn còn — đúng kiểu lỗi module này được dựng ra để tránh.
+      expect(localeEntries.some((entry) => entry.type === "blog")).toBe(true);
+      expect(localeEntries.some((entry) => entry.type === "lesson")).toBe(true);
     }
   });
 });

@@ -11,7 +11,7 @@ import {
   listMdxRelativePaths,
   readMdxDocumentByRelativePath,
 } from "@/lib/content";
-import { DEFAULT_LOCALE, type Locale } from "@/lib/i18n/config";
+import { localePrefix, type Locale } from "@/lib/i18n/config";
 import { SITE_URL } from "@/lib/seo";
 
 export interface ApiIndexEntry {
@@ -35,10 +35,6 @@ export interface ApiIndexEntry {
 /** Đường dẫn tuyệt đối → đường dẫn tương đối kiểu "content/blog/ai/foo.md". */
 export function toApiPath(absoluteFilePath: string): string {
   return path.relative(process.cwd(), absoluteFilePath).split(path.sep).join("/");
-}
-
-function localePrefix(locale: Locale): string {
-  return locale === DEFAULT_LOCALE ? "" : `/${locale}`;
 }
 
 /**
