@@ -59,22 +59,31 @@ describe("buildTaxonomy", () => {
   // node phát ra "images/blog/..." — không dấu `/` đầu. Kiểm cả ba nơi phát
   // sinh featuredImage (`buildPostEntries`, `buildLessonEntries`,
   // `buildSeriesTree`) trong cùng một assertion.
-  it("mọi featuredImage đều cùng một dạng đường dẫn (buildIndex và buildSeriesTree)", () => {
-    const fromIndex = buildIndex("vi").map((entry) => entry.featuredImage);
-    const fromSeriesTree = buildSeriesTree("vi").map((node) => node.featuredImage);
-    const all = [...fromIndex, ...fromSeriesTree];
+  //
+  // Chạy trên cả 4 locale, không chỉ `vi`: đo ngày 2026-09-18, `vi` có 0
+  // frontmatter thiếu `featured_image` (toàn `null` tường minh), trong khi
+  // `ja`/`zh-tw` có field bị thiếu hẳn (giá trị thật là `undefined` dù type
+  // khai `string | null`) — `undefined` khiến JSON.stringify XOÁ LUÔN key
+  // `featuredImage` thay vì phát `null`. Nếu chỉ test `vi`, phần lỗi nghiêm
+  // trọng hơn (key biến mất) không được assertion nào bắt được.
+  it("mọi featuredImage đều cùng một dạng đường dẫn, ở cả 4 locale", () => {
+    for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
+      const fromIndex = buildIndex(locale).map((entry) => entry.featuredImage);
+      const fromSeriesTree = buildSeriesTree(locale).map((node) => node.featuredImage);
+      const all = [...fromIndex, ...fromSeriesTree];
 
-    const bad = all.filter(
-      (image): image is string =>
-        image !== null && !image.startsWith("/") && !/^https?:\/\//.test(image)
-    );
-    if (bad.length > 0) {
-      console.log(
-        `featuredImage không có dấu "/" đầu: ${bad.length}/${all.length}, ví dụ: ${bad.slice(0, 5).join(", ")}`
+      const bad = all.filter(
+        (image): image is string =>
+          image !== null && !image.startsWith("/") && !/^https?:\/\//.test(image)
       );
-    }
+      if (bad.length > 0) {
+        console.log(
+          `[${locale}] featuredImage không có dấu "/" đầu: ${bad.length}/${all.length}, ví dụ: ${bad.slice(0, 5).join(", ")}`
+        );
+      }
 
-    expect(bad.length).toBe(0);
+      expect(bad.length).toBe(0);
+    }
   });
 
   // Ruling 15: nối theo `id`, không theo `name` — `data/authors.json` lưu
@@ -83,14 +92,24 @@ describe("buildTaxonomy", () => {
   // nó với `index.json` author ngoài tên hiển thị, vốn không ổn định. Test
   // này khẳng định mọi `id` phát ra trong taxonomy đều thực sự xuất hiện
   // trong index của cùng locale — tức là join theo `id` thực hiện được.
-  it("mọi taxonomy.authors[].id đều xuất hiện trong index của cùng locale", () => {
-    const entryAuthorIds = new Set(
-      buildIndex("vi")
-        .map((entry) => entry.author?.id)
-        .filter((id): id is string => Boolean(id))
-    );
-    const missing = taxonomy.authors.filter((author) => !entryAuthorIds.has(author.id));
-    expect(missing).toEqual([]);
+  //
+  // Chạy trên cả 4 locale: `entry.author` chỉ thực sự là `null` ở `ja`/`zh-tw`
+  // (series "luyen-thi-ckad" không khai `author` trong frontmatter — 10 entry
+  // mỗi locale). `vi`/`en` có 0 entry `author: null`, nên chỉ test `vi` sẽ
+  // không bao giờ đi qua nhánh `.filter((id) => Boolean(id))` loại bỏ id
+  // rỗng/null — đúng nhánh mà Minor 6 vừa sửa.
+  it("mọi taxonomy.authors[].id đều xuất hiện trong index của cùng locale, ở cả 4 locale", () => {
+    for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
+      const entryAuthorIds = new Set(
+        buildIndex(locale)
+          .map((entry) => entry.author?.id)
+          .filter((id): id is string => Boolean(id))
+      );
+      const missing = buildTaxonomy(locale).authors.filter(
+        (author) => !entryAuthorIds.has(author.id)
+      );
+      expect(missing).toEqual([]);
+    }
   });
 });
 

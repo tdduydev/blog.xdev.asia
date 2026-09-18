@@ -123,7 +123,9 @@ Mọi trường đường dẫn asset (`featuredImage`, `avatar`) luôn ở mộ
 dạng: root-relative bắt đầu bằng `/` (vd `/images/blog/....png`), hoặc một
 URL tuyệt đối (`http://`/`https://`) — không bao giờ là chuỗi bare không dấu
 `/` đầu. App ghép `SITE_URL + value` cho dạng root-relative; dùng nguyên
-`value` khi đã là URL tuyệt đối.
+`value` khi đã là URL tuyệt đối. Field cũng luôn CÓ MẶT với giá trị `null`
+tường minh khi không có ảnh — không bao giờ bị lược khỏi object — nên schema
+phía app nên khai `featuredImage` là `nullable`, không phải `optional`.
 
 `path` là đường dẫn tương đối so với base API: app fetch
 `{API_BASE}/{path}` để lấy markdown. Mọi `path` phải trỏ tới file có thật —
