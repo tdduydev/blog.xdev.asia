@@ -1,4 +1,4 @@
-ba---
+---
 id: 019d8b40-c401-7001-b004-django00000401
 title: 'Bài 13: Django Admin Customization'
 slug: bai-13-django-admin-customization
