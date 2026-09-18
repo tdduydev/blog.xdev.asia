@@ -31,6 +31,22 @@ jobs:
       - name: Build
         run: npm run build
 
+      # Next 16 emits __next._full.txt alongside index.txt for every route, with
+      # byte-identical content — ~1.4 GB across this site. Measured 2026-09-18:
+      # across 698 requests covering prefetch and client-side navigation over
+      # home, blog index, blog post, series, tag and /en/ routes, the client
+      # never requests this filename; it fetches __next._head.txt,
+      # __next.<segment>.txt and __next.<segment>.__PAGE__.txt instead. No Link
+      # in src/ sets an explicit prefetch, so every link uses the default path
+      # that test exercised. Re-verify if that changes or Next is upgraded.
+      - name: Prune duplicate RSC payloads
+        run: |
+          before=$(du -sk out | cut -f1)
+          count=$(find out -name '__next._full.txt' | wc -l)
+          find out -name '__next._full.txt' -delete
+          after=$(du -sk out | cut -f1)
+          echo "Pruned $count duplicate payloads, freed $(( (before - after) / 1024 )) MB"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
