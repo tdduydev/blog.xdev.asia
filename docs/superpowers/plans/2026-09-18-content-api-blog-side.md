@@ -274,12 +274,28 @@ Generator ở Task 4 cần biết mỗi bài nằm ở file nào. `content.ts` �
 ```ts
 import fs from "node:fs";
 import { describe, expect, it } from "vitest";
-import { getMdxFilePath, getMdxFilePathByRelativePath } from "@/lib/content";
+import {
+  getMdxFilePath,
+  getMdxFilePathByRelativePath,
+  listMdxRelativePaths,
+  listMdxSlugs,
+} from "@/lib/content";
 import { localizedCollection } from "@/lib/data";
 
 describe("content file paths", () => {
-  it("trả đường dẫn tuyệt đối tới file có thật của một bài blog", () => {
-    const filePath = getMdxFilePath("blog", "ai-trong-y-te-healthcare");
+  // Contract thật, đã đo ngày 2026-09-18: buildSlugMap chỉ đăng ký file phẳng và
+  // file `/index`. Bài blog nằm ở `<category>/<slug>.md` — lồng nhau, không phải
+  // index — nên KHÔNG tra được theo slug. Collection `blog` có 130 relativePath
+  // nhưng 0 slug. Đây là cái bẫy im lặng, nên phải có test ghi lại.
+  it("KHÔNG tra được bài blog theo slug, dù file có thật trên đĩa", () => {
+    expect(fs.existsSync("content/blog/ai/ai-trong-y-te-healthcare.md")).toBe(true);
+    expect(listMdxSlugs("blog")).toEqual([]);
+    expect(getMdxFilePath("blog", "ai-trong-y-te-healthcare")).toBeNull();
+  });
+
+  it("tra được theo slug trên collection có file /index", () => {
+    const collection = localizedCollection("series/architecture/hl7-fhir-r5-chuyen-sau", "vi");
+    const filePath = getMdxFilePathByRelativePath(collection, "index");
     expect(filePath).toBeTruthy();
     expect(fs.existsSync(filePath!)).toBe(true);
     expect(filePath!.endsWith(".md")).toBe(true);
@@ -287,6 +303,15 @@ describe("content file paths", () => {
 
   it("trả null với slug không tồn tại", () => {
     expect(getMdxFilePath("blog", "khong-ton-tai-dau")).toBeNull();
+  });
+
+  // Đây là đường Task 4 thực sự dùng cho bài blog.
+  it("getMdxFilePathByRelativePath hoạt động trên collection blog", () => {
+    const relativePath = listMdxRelativePaths("blog")[0];
+    const filePath = getMdxFilePathByRelativePath("blog", relativePath);
+    expect(filePath).toBeTruthy();
+    expect(fs.existsSync(filePath!)).toBe(true);
+    expect(filePath!.endsWith(".md")).toBe(true);
   });
 
   it("localizedCollection thêm prefix cho locale khác vi", () => {
@@ -352,7 +377,7 @@ Content API cần biết mỗi bài nằm ở file nào để sinh field path tr
 - Test: `tests/content-api-index.test.ts`
 
 **Interfaces:**
-- Consumes: `getMdxFilePath`, `getMdxFilePathByRelativePath` (Task 3); `localizedCollection` (Task 3); `getAllPosts`, `getAllSeries`, `getSeries`, `resolveSeriesCompoundSlug` từ `@/lib/data`; `SITE_URL` từ `@/lib/seo`
+- Consumes: `getMdxFilePathByRelativePath`, `listMdxRelativePaths`, `readMdxDocumentByRelativePath` (Task 3 + có sẵn); `localizedCollection` (Task 3); `getAllPosts`, `getAllSeries`, `getSeries`, `resolveSeriesCompoundSlug` từ `@/lib/data`; `SITE_URL` từ `@/lib/seo`. **Không** dùng `getMdxFilePath` — đã đo là luôn trả `null` cho bài blog và lesson.
 - Produces:
   - `interface ApiIndexEntry` (shape bên dưới)
   - `buildIndex(locale: Locale): ApiIndexEntry[]`
@@ -440,7 +465,11 @@ import {
   localizedCollection,
   resolveSeriesCompoundSlug,
 } from "@/lib/data";
-import { getMdxFilePath, getMdxFilePathByRelativePath } from "@/lib/content";
+import {
+  getMdxFilePathByRelativePath,
+  listMdxRelativePaths,
+  readMdxDocumentByRelativePath,
+} from "@/lib/content";
 import { DEFAULT_LOCALE, type Locale } from "@/lib/i18n/config";
 import { SITE_URL } from "@/lib/seo";
 
@@ -471,12 +500,45 @@ function localePrefix(locale: Locale): string {
   return locale === DEFAULT_LOCALE ? "" : `/${locale}`;
 }
 
+/**
+ * slug → đường dẫn tuyệt đối, dựng từ frontmatter.
+ *
+ * KHÔNG dùng `getMdxFilePath` ở đây. Nó tra qua `buildSlugMap`, mà map đó chỉ
+ * đăng ký file phẳng và file `/index`. Bài blog nằm ở `<category>/<slug>.md` và
+ * lesson nằm ở `chapters/<NN>/lessons/<NN-slug>` — đều là file lồng nhau không
+ * phải `/index` — nên `getMdxFilePath` trả `null` cho cả hai. Đã đo ngày
+ * 2026-09-18: collection `blog` có 130 relativePath nhưng 0 slug.
+ *
+ * Slug thật nằm trong frontmatter, đúng cách `getPostFromMdx`
+ * (`src/lib/data.ts:258`) đang làm.
+ */
+function slugToFilePath(
+  collection: string,
+  relativePathFilter?: (relativePath: string) => boolean
+): Map<string, string> {
+  const map = new Map<string, string>();
+
+  for (const relativePath of listMdxRelativePaths(collection)) {
+    if (relativePathFilter && !relativePathFilter(relativePath)) continue;
+
+    const document = readMdxDocumentByRelativePath<{ slug?: string }>(collection, relativePath);
+    const slug = document?.data?.slug;
+    if (!slug) continue;
+
+    const filePath = getMdxFilePathByRelativePath(collection, relativePath);
+    if (filePath) map.set(slug, filePath);
+  }
+
+  return map;
+}
+
 function buildPostEntries(locale: Locale): ApiIndexEntry[] {
   const collection = localizedCollection("blog", locale);
+  const pathBySlug = slugToFilePath(collection);
   const entries: ApiIndexEntry[] = [];
 
   for (const post of getAllPosts(locale)) {
-    const filePath = getMdxFilePath(collection, post.slug);
+    const filePath = pathBySlug.get(post.slug);
     if (!filePath) continue;
 
     entries.push({
@@ -511,11 +573,19 @@ function buildLessonEntries(locale: Locale): ApiIndexEntry[] {
     const compoundSlug = resolveSeriesCompoundSlug(series.slug, locale);
     const collection = localizedCollection(`series/${compoundSlug}`, locale);
 
+    // Lesson relativePath có dạng `chapters/<NN-chapter>/lessons/<NN-slug>` —
+    // tiền tố số khiến nó không khớp `lesson.slug`, nên phải tra qua frontmatter
+    // chứ không ghép chuỗi đường dẫn. Đã đo: relPath
+    // "chapters/01-hai-nghia-cua-chu-translation/lessons/01-linq-di-xuong-sql-server"
+    // ứng với frontmatter.slug "linq-di-xuong-sql-server".
+    const pathBySlug = slugToFilePath(
+      collection,
+      (relativePath) => relativePath.includes("/lessons/") && !relativePath.endsWith("/index")
+    );
+
     for (const section of series.sections) {
       for (const lesson of section.lessons) {
-        const filePath =
-          getMdxFilePath(collection, lesson.slug) ??
-          getMdxFilePathByRelativePath(collection, `lessons/${lesson.slug}`);
+        const filePath = pathBySlug.get(lesson.slug);
         if (!filePath) continue;
 
         entries.push({
@@ -558,7 +628,7 @@ export function buildIndex(locale: Locale): ApiIndexEntry[] {
 Run: `npx vitest run tests/content-api-index.test.ts`
 Expected: PASS cả 7 test.
 
-Nếu test "mọi path trỏ tới file có thật" fail: in ra vài `path` bị thiếu và đối chiếu bằng `getMdxFilePathByRelativePath` — cấu trúc lesson có hai dạng (`<slug>` và `lessons/<slug>`), fallback trong code đã xử lý dạng thứ hai. Nếu còn dạng thứ ba thì thêm nhánh, đừng nới lỏng test.
+Nếu test "có cả bài blog lẫn lesson" fail vì 0 bài blog: `slugToFilePath` không khớp được slug nào. Kiểm bằng cách in `listMdxRelativePaths(collection).length` và kích thước map — relativePath có mà map rỗng nghĩa là frontmatter thiếu trường `slug`. Đừng quay lại `getMdxFilePath`, nó đã được đo là luôn trả `null` cho collection blog.
 
 - [ ] **Step 5: Commit**
 
@@ -1149,27 +1219,37 @@ không nặng thêm. output: export sẽ đưa nguyên public/ sang out/."
 
 Spec mục 4.5 nói rõ đây là rủi ro **phải đo, không đoán**. Task này tồn tại để không ai bỏ qua bước đó.
 
-- [ ] **Step 1: Đo build sạch trước khi có API**
+- [ ] **Step 1: Lấy baseline đã đo sẵn — KHÔNG đo lại**
 
-```bash
-git stash list  # đảm bảo cây sạch
-git checkout 0282c58d -- . 2>/dev/null || true
-rm -rf .next out public/api
-time npm run build
-du -sh out
-```
+Bản gốc của plan bảo `git checkout 0282c58d -- .` rồi checkout ngược lại. **Đừng làm thế**: nó ghi đè toàn bộ cây làm việc hai lần và có thể để lại cây bẩn mà không ai nhận ra.
 
-Ghi lại thời gian và dung lượng. Rồi `git checkout HEAD -- .` để quay lại.
+Baseline đã được đo sẵn ngày 2026-09-18 tại commit `cbe2868b`, trước Task 1, trên cây sạch:
+
+| | |
+|---|---|
+| Thời gian build | **102 giây** |
+| `out/` apparent size | **7,44 GB** |
+| `out/` theo `du -sh` (allocated) | 9,2 GB |
+| Số file | **95.477** |
+| Số thư mục | 9.381 |
+
+Dùng đúng những con số này làm mốc so sánh. Lưu ý phân biệt hai cách đo: `du` báo allocated blocks, `find -exec stat` báo apparent size. GitHub Pages tính apparent size, nên **so sánh phải dùng apparent**.
+
+Sau baseline này đã có thêm commit `494984f7` (xoá `__next._full.txt` trong workflow) làm `out/` giảm còn **6,02 GB / 86.502 file** — nhưng đó là bước prune chạy trong CI sau `next build`, không ảnh hưởng `out/` khi build local. Khi so sánh local, dùng 7,44 GB.
 
 - [ ] **Step 2: Đo build có API**
 
 ```bash
 rm -rf .next out public/api
 time npm run build
+find out -type f -exec stat -f '%z' {} + | awk '{s+=$1;n++} END {printf "%d file, %.2f GB apparent\n", n, s/1073741824}'
 du -sh out
 find out/api/v1 -name '*.md' | wc -l
 du -sh out/api/v1/content
+find out/api/v1 -name '*.json' | sort
 ```
+
+Dòng `awk` là con số dùng để so với baseline. Dòng `find ... *.json` phải liệt kê đúng 13 file.
 
 - [ ] **Step 3: Ghi kết quả**
 
@@ -1177,11 +1257,29 @@ Tạo `docs/superpowers/notes/2026-09-18-content-api-build-cost.md` với bảng
 
 - [ ] **Step 4: Đối chiếu ngưỡng và quyết định**
 
-Ngưỡng: nếu `out/` vượt **700 MB** hoặc thời gian build tăng quá **50%**, thì phương án copy markdown vào GitHub Pages không dùng được — ghi kết luận đó vào note và dừng, mở một spec mới cho phương án phục vụ markdown từ nơi khác. Contract của app không đổi vì base URL nằm trong một biến môi trường.
+Ngưỡng tuyệt đối "700 MB" trong bản gốc của plan được viết khi chưa biết baseline, và vô nghĩa khi baseline đã là 7,44 GB. Ngưỡng thay thế là **tương đối**, so với bảng ở Step 1:
 
-Nếu dưới ngưỡng: ghi "đạt" vào note và đi tiếp.
+- apparent size tăng **dưới 10%** (tức dưới ~0,74 GB, khớp ước tính ~100 MB markdown)
+- thời gian build tăng **dưới 50%** (tức dưới ~153 giây)
+
+Nếu vượt một trong hai: ghi kết luận vào note và **dừng lại**, mở spec mới cho phương án phục vụ markdown từ nơi khác. Contract của app không đổi, vì base URL nằm trong một biến môi trường duy nhất.
+
+Nếu dưới cả hai: ghi "đạt" vào note kèm con số thật và đi tiếp.
+
+Ghi cả con số tuyệt đối vào note dù đạt hay không — người đọc sau cần số, không cần chữ "đạt".
 
 - [ ] **Step 5: Đẩy lên và xác minh trên production**
+
+**Đây là lần `git push` duy nhất của cả plan.** Task 1-7 chỉ commit local. Lý do: `.github/workflows/deploy.yml` chạy `on: push: branches: [main]` với `cancel-in-progress: false`, và mỗi lần deploy mất 17-21 phút (build ~13 phút, deploy ~7 phút). Push từng task sẽ xếp hàng khoảng năm tiếng deploy code dở dang. Người dùng đã chọn commit thẳng vào `main` sau khi biết điều này; commit và push là hai việc khác nhau, nên gom push về đây.
+
+Trước khi push, kiểm lại toàn bộ chuỗi commit một lượt:
+
+```bash
+git log --oneline cbe2868b..HEAD
+git status --short   # phải sạch; public/api/ không được xuất hiện
+```
+
+Rồi push:
 
 ```bash
 git add docs/superpowers/notes/2026-09-18-content-api-build-cost.md
@@ -1189,7 +1287,9 @@ git commit -m "docs: số đo chi phí build của Content API"
 git push
 ```
 
-Đợi workflow `Deploy to GitHub Pages` xong, rồi kiểm bằng URL thật:
+Đợi workflow `Deploy to GitHub Pages` xong — khoảng 20 phút, theo dõi bằng `gh run watch`. Lưu ý job `deploy` có timeout cứng **10 phút** và lần đo gần nhất đã mất **7 phút 02**; nếu Content API đẩy nó qua 10 phút thì deploy fail và đó là một phát hiện phải ghi vào note, không phải lỗi vặt.
+
+Rồi kiểm bằng URL thật:
 
 ```bash
 curl -sSf https://blog.xdev.asia/api/v1/manifest.json | head -c 300
