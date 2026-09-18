@@ -1050,7 +1050,7 @@ out/api/v1/zh-tw/taxonomy.json
 ```
 
 Run: `node -e "const a=require('./out/api/v1/vi/index.json'); console.log(a.length, a[0].path, a[0].url)"`
-Expected: số entry > 1700, `path` bắt đầu bằng `content/`, `url` bắt đầu bằng `https://blog.xdev.asia/`.
+Expected: **1655 entry** cho locale `vi` (130 blog + 1525 lesson, đo ngày 2026-09-18), `path` bắt đầu bằng `content/`, `url` bắt đầu bằng `https://blog.xdev.asia/`. Con số "> 1700" ở bản plan gốc là ước lượng viết trước khi đo, và nó sai.
 
 - [ ] **Step 7: Commit**
 
