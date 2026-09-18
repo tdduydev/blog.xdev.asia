@@ -1,8 +1,12 @@
+import { execSync } from "node:child_process";
 import path from "node:path";
 import {
   getAllPosts,
   getAllSeries,
+  getAuthors,
+  getCategories,
   getSeries,
+  getTags,
   localizedCollection,
   resolveSeriesCompoundSlug,
 } from "@/lib/data";
@@ -11,7 +15,7 @@ import {
   listMdxRelativePaths,
   readMdxDocumentByRelativePath,
 } from "@/lib/content";
-import { localePrefix, type Locale } from "@/lib/i18n/config";
+import { LOCALES, localePrefix, type Locale } from "@/lib/i18n/config";
 import { SITE_URL } from "@/lib/seo";
 
 export interface ApiIndexEntry {
@@ -175,4 +179,140 @@ function buildLessonEntries(locale: Locale): ApiIndexEntry[] {
 
 export function buildIndex(locale: Locale): ApiIndexEntry[] {
   return [...buildPostEntries(locale), ...buildLessonEntries(locale)];
+}
+
+// ---------------------------------------------------------------------------
+// Series tree, taxonomy, manifest (Task 5)
+// ---------------------------------------------------------------------------
+
+export interface ApiSeriesNode {
+  slug: string;
+  title: string;
+  description: string | null;
+  featuredImage: string | null;
+  level: string;
+  lessonCount: number;
+  category: { slug: string; name: string } | null;
+  url: string;
+  chapters: {
+    title: string;
+    order: number;
+    lessons: { slug: string; title: string; order: number }[];
+  }[];
+}
+
+export interface ApiTaxonomy {
+  categories: { slug: string; name: string }[];
+  tags: { slug: string; name: string }[];
+  authors: { name: string; avatar: string | null }[];
+}
+
+export interface ApiManifest {
+  version: string;
+  generatedAt: string;
+  locales: readonly Locale[];
+  counts: Record<Locale, { posts: number; lessons: number; series: number }>;
+}
+
+export function buildSeriesTree(locale: Locale): ApiSeriesNode[] {
+  const nodes: ApiSeriesNode[] = [];
+
+  for (const seriesIndex of getAllSeries(locale)) {
+    const series = getSeries(seriesIndex.slug, locale);
+    if (!series) continue;
+
+    nodes.push({
+      slug: series.slug,
+      title: series.title,
+      description: series.description,
+      featuredImage: series.featured_image,
+      level: series.level,
+      lessonCount: series.lesson_count,
+      category: series.category
+        ? { slug: series.category.slug, name: series.category.name }
+        : null,
+      url: `${SITE_URL}${localePrefix(locale)}/series/${
+        series.category?.slug ?? "uncategorized"
+      }/${series.slug}/`,
+      chapters: series.sections.map((section) => ({
+        title: section.title,
+        order: section.sort_order,
+        lessons: section.lessons.map((lesson) => ({
+          slug: lesson.slug,
+          title: lesson.title,
+          order: lesson.sort_order ?? section.sort_order,
+        })),
+      })),
+    });
+  }
+
+  return nodes;
+}
+
+/**
+ * `getCategories()`, `getTags()` và `getAuthors()` đều KHÔNG nhận locale —
+ * dữ liệu gốc (`data/*.json`) không dịch theo ngôn ngữ. Nếu trả nguyên si thì
+ * bốn file taxonomy.json giống hệt nhau và app tưởng phải tải lại theo locale.
+ * Nên lọc xuống đúng những gì locale đó thực sự dùng.
+ */
+export function buildTaxonomy(locale: Locale): ApiTaxonomy {
+  const entries = buildIndex(locale);
+  const usedTags = new Set(entries.flatMap((entry) => entry.tags));
+  const usedCategories = new Set(
+    entries.map((entry) => entry.category?.slug).filter((slug): slug is string => Boolean(slug))
+  );
+  // Nối theo tên phải không phân biệt hoa/thường: đã đo ngày 2026-09-18 —
+  // `data/authors.json` lưu "DUY TRAN" (viết hoa toàn bộ), còn frontmatter
+  // (blog lẫn series) lưu "Duy Tran" — cùng một author (cùng id
+  // 019c9616-d2b4-713f-9b2c-40e2e92a05cf), chỉ khác cách viết hoa. Nối phân
+  // biệt hoa/thường sẽ khiến usedAuthors và getAuthors() không bao giờ khớp,
+  // taxonomy.authors luôn rỗng. `ApiIndexEntry.author` (Task 4) không mang
+  // `id` nên không nối theo id được ở đây; đổi shape của Task 4 nằm ngoài
+  // phạm vi Task 5.
+  const usedAuthors = new Set(
+    entries
+      .map((entry) => entry.author.name.trim().toLowerCase())
+      .filter((name) => name.length > 0)
+  );
+
+  return {
+    categories: getCategories()
+      .filter((category) => usedCategories.has(category.slug))
+      .map((category) => ({ slug: category.slug, name: category.name })),
+    tags: getTags()
+      .filter((tag) => usedTags.has(tag.slug))
+      .map((tag) => ({ slug: tag.slug, name: tag.name })),
+    authors: getAuthors()
+      .filter((author) => usedAuthors.has(author.name.trim().toLowerCase()))
+      .map((author) => ({ name: author.name, avatar: author.avatar ?? null })),
+  };
+}
+
+function resolveVersion(): string {
+  if (process.env.CONTENT_API_VERSION) return process.env.CONTENT_API_VERSION;
+  try {
+    return execSync("git rev-parse --short HEAD", { encoding: "utf-8" }).trim();
+  } catch {
+    return "unknown";
+  }
+}
+
+export function buildManifest(): ApiManifest {
+  const counts = {} as ApiManifest["counts"];
+
+  for (const locale of LOCALES) {
+    const entries = buildIndex(locale);
+    counts[locale] = {
+      posts: entries.filter((entry) => entry.type === "blog").length,
+      lessons: entries.filter((entry) => entry.type === "lesson").length,
+      series: buildSeriesTree(locale).length,
+    };
+  }
+
+  return {
+    version: resolveVersion(),
+    generatedAt: new Date().toISOString(),
+    locales: LOCALES,
+    counts,
+  };
 }
