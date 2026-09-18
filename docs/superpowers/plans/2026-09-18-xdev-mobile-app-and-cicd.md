@@ -199,21 +199,56 @@ Hệ quả: chỉ tải index của **một** locale đang chọn. Tải cả b�
 ### Task 3: Màn hình và điều hướng
 
 **Files:**
-- Create: `app/(tabs)/index.tsx` (feed), `app/(tabs)/series.tsx`, `app/(tabs)/search.tsx`, `app/(tabs)/settings.tsx`
-- Create: `app/post/[slug].tsx` — màn đọc bài
+- Create: `src/app/(tabs)/index.tsx` (feed), `series.tsx`, `search.tsx`, `settings.tsx`
+- Create: `src/app/post/[slug].tsx` — màn đọc bài
 - Create: `src/components/ArticleWebView.tsx`
+- Create: `src/state/locale.tsx` — locale đang chọn, lưu lại giữa các lần mở app
+- Modify: `src/api/cache.ts` — xem quyết định về lưu trữ bên dưới
 
-**Interfaces:**
-- Consumes: Task 2
-- Produces: app đọc được bài thật
+**Interfaces có sẵn từ Task 2** (đọc code trước, đây là bản tóm tắt):
 
-- [ ] Feed: danh sách từ index đã cache, kéo để tải lại
-- [ ] Tìm kiếm offline bằng fuse.js trên index của locale đang chọn
-- [ ] Cài đặt: đổi locale (vi/en/ja/zh-tw), dark mode
-- [ ] Màn đọc bài: `ArticleWebView` nhận markdown, chuyển sang HTML, nhúng CSS của blog, dùng lại highlight.js và mermaid
-- [ ] Trạng thái lỗi theo spec mục 8: mất mạng chưa cache, cache cũ, markdown 404, manifest đổi version
+Từ `@/api/config`: `API_BASE`, `LOCALES`, `Locale`
+Từ `@/api/client`: `fetchManifest()`, `fetchIndex(locale)`, `fetchSeriesList(locale)`, `fetchTaxonomy(locale)`, `fetchMarkdown(path)`
+Từ `@/api/cache`: `getCachedIndex(locale)`, `getCachedMarkdown(path)`
+Từ `@/api/schema`: `IndexEntry` (discriminated union theo `type`), `Manifest`, `Series`, `Taxonomy`, `Author`, `Category`, `SeriesRef`
 
----
+**Quyết định thiết kế bắt buộc: index KHÔNG được lưu trong AsyncStorage**
+
+`getCachedIndex` hiện lưu cả mảng vào AsyncStorage bằng một `JSON.stringify` duy nhất. Đo thật: index `vi` là **2.069.928 byte**. AsyncStorage trên Android dựa trên SQLite và dính giới hạn CursorWindow khoảng **2 MB cho một hàng** — tức kích thước hiện tại nằm ngay trên ngưỡng, và mỗi bài viết mới sẽ đẩy nó qua.
+
+Hỏng kiểu này không phải chậm mà là **lỗi**, và chỉ xuất hiện trên máy Android thật chứ không phải trong test chạy ở Node.
+
+Chuyển index sang lưu bằng file qua `expo-file-system`, cùng cơ chế mà markdown đang dùng (`Paths.cache`). Không có giới hạn kích thước, và markdown đã chứng minh cơ chế đó chạy được. Giữ AsyncStorage cho những giá trị nhỏ như locale đang chọn hay theme.
+
+**Rủi ro tiềm ẩn đã ghi nhận, chưa cần sửa:** `markdownCacheFile` làm phẳng path thành tên file bằng `replace(/[^a-zA-Z0-9._-]/g, "_")`. Hai path khác nhau có thể cho cùng một tên. Đã đo trên toàn bộ 5988 path của cả 4 locale: **0 va chạm** hôm nay. Nếu đụng vào `cache.ts` thì đổi sang băm path cho chắc; nếu không thì để nguyên và ghi chú.
+
+- [ ] **Step 1: State locale**
+
+Locale đang chọn lưu bằng AsyncStorage (giá trị nhỏ, đúng chỗ dùng). Mặc định `vi`. Đổi locale thì tải index của locale mới, không tải sẵn cả bốn — mỗi index khoảng 283 KB sau gzip, bốn cái là hơn 1 MB.
+
+- [ ] **Step 2: Feed**
+
+Danh sách từ `getCachedIndex(locale)`, lọc `type === "blog"`, sắp theo `publishedAt` giảm dần. Kéo để tải lại. Nhớ `publishedAt` có thể `null`.
+
+- [ ] **Step 3: Series**
+
+Cây từ `fetchSeriesList(locale)`. Mở một series ra danh sách chapter và lesson.
+
+- [ ] **Step 4: Tìm kiếm offline**
+
+`fuse.js` trên index của locale đang chọn. Khoảng 1655 entry với `vi` — vừa sức, nhưng dựng Fuse một lần rồi dùng lại chứ không dựng mỗi lần gõ phím.
+
+- [ ] **Step 5: Màn đọc bài**
+
+`getCachedMarkdown(entry.path)` rồi render bằng `ArticleWebView`: markdown → HTML, nhúng CSS, dùng lại `highlight.js` và `mermaid`. Shell vẫn native.
+
+- [ ] **Step 6: Trạng thái lỗi theo spec mục 8**
+
+Mất mạng chưa có cache → empty state kèm nút thử lại. Có cache → dùng cache, banner "dữ liệu cũ". Markdown 404 → báo lỗi kèm nút mở `entry.url` trên web. `manifest.version` đổi → tải lại index chạy nền, không chặn UI.
+
+- [ ] **Step 7: Test**
+
+Test data layer sau khi đổi sang file: ghi rồi đọc lại một index đầy đủ của `vi` (2 MB) phải thành công — đây chính là bài test mà AsyncStorage sẽ trượt trên Android. Smoke test render một bài.
 
 ### Task 4: CI cho pull request — kiểm tra, chưa build app
 
