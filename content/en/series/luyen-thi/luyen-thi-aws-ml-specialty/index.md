@@ -7,7 +7,7 @@ description: >-
   (MLS-C01) exam. Master SageMaker, data engineering, modeling, and ML deployment
   on AWS at the expert level.
 
-featured_image: images/blog/aws-ml-specialty-series-banner.png
+featured_image: images/blog/aws-ml-specialty-series-banner.webp
 level: advanced
 duration_hours: 40
 lesson_count: 12

@@ -7,7 +7,7 @@ description: >-
   RAG Agents, Agentic AI đến LLM Evaluation & Fine-tuning. 10 bài học chuyên sâu có hands-on
   code, bài thi thử dạng coding assessment, và câu hỏi mẫu sát đề thi thật.
 
-featured_image: images/blog/nvidia-dli-genai-series-banner.png
+featured_image: images/blog/nvidia-dli-genai-series-banner.webp
 level: intermediate
 duration_hours: 40
 lesson_count: 10

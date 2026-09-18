@@ -6,7 +6,7 @@ description: >-
   A comprehensive course on VyOS — a powerful open-source network operating system.
   From installation and basic configuration to firewall, VPN, advanced routing
   (BGP/OSPF), High Availability, VLANs, WireGuard, and real-world production deployment.
-featured_image: images/blog/vyos-series-featured.png
+featured_image: images/blog/vyos-series-featured.webp
 level: beginner
 duration_hours: 40
 lesson_count: 15

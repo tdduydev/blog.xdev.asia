@@ -8,7 +8,7 @@ description: >-
   framework, managing multiple models, integrating APIs into applications, and
   optimizing GPU/RAM performance. All hands-on, privacy-first, no internet
   required.
-featured_image: images/blog/ollama-mlx-featured.png
+featured_image: images/blog/ollama-mlx-featured.webp
 level: beginner
 duration_hours: 12
 lesson_count: 12

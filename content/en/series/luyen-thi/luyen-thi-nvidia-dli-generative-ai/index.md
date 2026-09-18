@@ -7,7 +7,7 @@ description: >-
   RAG Agents, Agentic AI to LLM Evaluation & Fine-tuning. 10 in-depth lessons with hands-on
   code, coding assessment practice, and sample questions closely matching the real exam.
 
-featured_image: images/blog/nvidia-dli-genai-series-banner.png
+featured_image: images/blog/nvidia-dli-genai-series-banner.webp
 level: intermediate
 duration_hours: 40
 lesson_count: 10

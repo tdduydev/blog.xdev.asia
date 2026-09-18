@@ -5,7 +5,7 @@ slug: vyos-tu-co-ban-den-nang-cao
 description: >-
   關於 VyOS 的全面課程——強大的開源網路作業系統。從安裝、基本設定到防火牆、VPN、
   進階路由（BGP/OSPF）、高可用性、VLAN、WireGuard，以及實際正式環境部署。
-featured_image: images/blog/vyos-series-featured.png
+featured_image: images/blog/vyos-series-featured.webp
 level: beginner
 duration_hours: 40
 lesson_count: 15

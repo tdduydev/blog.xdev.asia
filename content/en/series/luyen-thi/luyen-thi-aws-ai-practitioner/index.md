@@ -7,7 +7,7 @@ description: >-
   Covers all 5 domains: AI/ML Fundamentals, Generative AI, Foundation Models,
   Responsible AI, Security & Governance. 12 in-depth lessons with English practice exams.
 
-featured_image: images/blog/aws-ai-practitioner-series-banner.png
+featured_image: images/blog/aws-ai-practitioner-series-banner.webp
 level: beginner
 duration_hours: 30
 lesson_count: 12

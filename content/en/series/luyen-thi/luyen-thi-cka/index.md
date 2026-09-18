@@ -8,7 +8,7 @@ description: >-
   Services & Networking (20%), Workloads & Scheduling (15%), Storage (10%).
   12 lessons with hands-on terminal exercises.
 
-featured_image: images/blog/luyen-thi-cka-banner.png
+featured_image: images/blog/luyen-thi-cka-banner.webp
 level: intermediate
 duration_hours: 35
 lesson_count: 12

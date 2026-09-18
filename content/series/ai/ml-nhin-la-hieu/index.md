@@ -7,7 +7,7 @@ description: >-
   hình và bằng số đo được. Không công thức trước rồi ví dụ sau — dữ liệu trước,
   câu hỏi trước, thuật toán sau. Kèm repo code chạy được tái tạo đúng từng con số
   xuất hiện trong video.
-featured_image: images/blog/ml-nhin-la-hieu/ep02_linear_regression.png
+featured_image: images/blog/ml-nhin-la-hieu/ep02_linear_regression.webp
 level: beginner
 duration_hours: 4
 lesson_count: 13

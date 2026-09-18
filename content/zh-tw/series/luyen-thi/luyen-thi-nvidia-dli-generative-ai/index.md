@@ -7,7 +7,7 @@ description: >-
   RAG Agents、Agentic AI到LLM評估與微調。10堂深入課程包含
   實作程式碼、編碼練習及貼近真實考試的模擬題目。
 
-featured_image: images/blog/nvidia-dli-genai-series-banner.png
+featured_image: images/blog/nvidia-dli-genai-series-banner.webp
 level: intermediate
 duration_hours: 40
 lesson_count: 10

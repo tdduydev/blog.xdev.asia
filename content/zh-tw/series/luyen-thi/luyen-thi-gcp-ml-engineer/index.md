@@ -6,7 +6,7 @@ description: >-
   Google Cloud Professional Machine Learning Engineer考試的全面學習路線圖。
   Vertex AI、BigQuery ML、TFX管線、GCP上的MLOps。
 
-featured_image: images/blog/gcp-ml-engineer-series-banner.png
+featured_image: images/blog/gcp-ml-engineer-series-banner.webp
 level: advanced
 duration_hours: 35
 lesson_count: 10

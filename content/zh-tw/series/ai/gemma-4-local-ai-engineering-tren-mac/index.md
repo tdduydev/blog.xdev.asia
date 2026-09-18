@@ -3,7 +3,7 @@ id: 01970001-aa11-7011-b011-aa1100001011
 title: Gemma 4 本地 AI 工程實戰 on Mac
 slug: gemma-4-local-ai-engineering-tren-mac
 description: 在 Apple Silicon 上使用 Gemma 4 建構本地 AI 技術棧的實戰系列。涵蓋 Ollama 設定、API 整合、RAG 管線、混合檢索，到內部環境的可觀測性與安全強化。
-featured_image: images/blog/gemma-4-local-ai-engineering-series.png
+featured_image: images/blog/gemma-4-local-ai-engineering-series.webp
 level: intermediate
 duration_hours: 14
 lesson_count: 8

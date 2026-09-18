@@ -6,7 +6,7 @@ description: >-
   Chữ "translation" trong .NET có hai nghĩa, và cả hai đều dẫn tới cùng một chỗ: SQL Server.
   Một là EF Core dịch cây biểu thức LINQ thành T-SQL. Hai là dịch nghĩa của phép so chuỗi giữa
   hai bên — chỗ mà cùng một dòng code cho hai kết quả khác nhau mà không ai báo lỗi.
-featured_image: images/blog/dotnet-10-sql-server-chuyen-dich/cover.png
+featured_image: images/blog/dotnet-10-sql-server-chuyen-dich/cover.webp
 level: intermediate
 duration_hours: 1
 lesson_count: 2

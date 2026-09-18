@@ -3,7 +3,7 @@ id: 01970001-aa11-7011-b011-aa1100001011
 title: Gemma 4 Local AI Engineering trên Mac
 slug: gemma-4-local-ai-engineering-tren-mac
 description: Series thực chiến xây dựng local AI stack với Gemma 4 trên Apple Silicon theo chuẩn engineering. Từ setup Ollama, API integration, RAG pipeline, hybrid retrieval, đến observability và hardening cho môi trường nội bộ.
-featured_image: images/blog/gemma-4-local-ai-engineering-series.png
+featured_image: images/blog/gemma-4-local-ai-engineering-series.webp
 level: intermediate
 duration_hours: 14
 lesson_count: 8

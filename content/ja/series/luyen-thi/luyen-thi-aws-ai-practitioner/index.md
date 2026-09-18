@@ -7,7 +7,7 @@ description: >-
   全5ドメインをカバー：AI/ML基礎、生成AI、基盤モデル、
   責任あるAI、セキュリティとガバナンス。12の詳細レッスンと日本語模擬試験付き。
 
-featured_image: images/blog/aws-ai-practitioner-series-banner.png
+featured_image: images/blog/aws-ai-practitioner-series-banner.webp
 level: beginner
 duration_hours: 30
 lesson_count: 12

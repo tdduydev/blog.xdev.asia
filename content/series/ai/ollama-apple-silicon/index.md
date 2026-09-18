@@ -3,7 +3,7 @@ id: 019c9619-aa11-7011-b011-aa1100000011
 title: Chạy AI Local với Ollama trên Apple Silicon
 slug: ollama-apple-silicon
 description: Hướng dẫn toàn diện chạy LLM local trên Mac Apple Silicon (M1/M2/M3/M4) với Ollama và MLX. Từ cài đặt ban đầu đến tăng tốc 3x với MLX framework, quản lý nhiều model, tích hợp API vào ứng dụng, và tối ưu hiệu năng GPU/RAM. Tất cả đều hands-on, privacy-first, không cần internet.
-featured_image: images/blog/ollama-mlx-featured.png
+featured_image: images/blog/ollama-mlx-featured.webp
 level: beginner
 duration_hours: 12
 lesson_count: 12

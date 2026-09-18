@@ -5,7 +5,7 @@ slug: ollama-apple-silicon
 description: >-
   使用 Ollama 和 MLX 在 Mac Apple Silicon (M1/M2/M3/M4) 上本地運行 LLM 的綜合指南。從初始安裝到使用 MLX
   框架進行 3 倍加速、管理多個模型、將 API 整合到應用程式以及優化 GPU/RAM 效能。全部親自動手，隱私第一，無需網路。
-featured_image: images/blog/ollama-mlx-featured.png
+featured_image: images/blog/ollama-mlx-featured.webp
 level: beginner
 duration_hours: 12
 lesson_count: 12

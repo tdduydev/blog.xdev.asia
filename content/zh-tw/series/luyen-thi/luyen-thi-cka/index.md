@@ -8,7 +8,7 @@ description: >-
   Workloads & Scheduling（15%）、Storage（10%）全部5個領域。
   12堂實作練習課程。
 
-featured_image: images/blog/luyen-thi-cka-banner.png
+featured_image: images/blog/luyen-thi-cka-banner.webp
 level: intermediate
 duration_hours: 35
 lesson_count: 12

@@ -5,7 +5,7 @@ slug: kubernetes-2026-nhin-la-hieu
 description: >-
   Mười bảy bài về Kubernetes, dựng lại theo đúng tình hình 2026 — vì ba mốc trong năm nay làm
   phần lớn giáo trình đang lưu hành trở thành sai. Mỗi bài đúng một chỗ "tưởng đúng mà sai".
-featured_image: images/blog/kubernetes-2026-nhin-la-hieu/cover.png
+featured_image: images/blog/kubernetes-2026-nhin-la-hieu/cover.webp
 level: intermediate
 duration_hours: 4
 lesson_count: 17

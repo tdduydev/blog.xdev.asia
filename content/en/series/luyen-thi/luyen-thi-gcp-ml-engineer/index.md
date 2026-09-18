@@ -6,7 +6,7 @@ description: >-
   Comprehensive study guide for the Google Cloud Professional Machine Learning
   Engineer exam. Vertex AI, BigQuery ML, TFX pipeline, MLOps on GCP.
 
-featured_image: images/blog/gcp-ml-engineer-series-banner.png
+featured_image: images/blog/gcp-ml-engineer-series-banner.webp
 level: advanced
 duration_hours: 35
 lesson_count: 10

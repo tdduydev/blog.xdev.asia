@@ -6,7 +6,7 @@ description: >-
   VyOS の総合コース——強力なオープンソースネットワーク OS を基礎から学べます。インストール・基本設定から
   ファイアウォール・VPN・高度なルーティング（BGP/OSPF）・高可用性・VLAN・WireGuard、
   そして実際のプロダクション環境への導入まで網羅します。
-featured_image: images/blog/vyos-series-featured.png
+featured_image: images/blog/vyos-series-featured.webp
 level: beginner
 duration_hours: 40
 lesson_count: 15

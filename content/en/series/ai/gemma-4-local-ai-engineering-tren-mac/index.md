@@ -3,7 +3,7 @@ id: 01970001-aa11-7011-b011-aa1100001011
 title: Gemma 4 Local AI Engineering on Mac
 slug: gemma-4-local-ai-engineering-tren-mac
 description: A hands-on series for building a local AI stack with Gemma 4 on Apple Silicon following engineering best practices. From Ollama setup, API integration, RAG pipeline, hybrid retrieval, to observability and hardening for internal environments.
-featured_image: images/blog/gemma-4-local-ai-engineering-series.png
+featured_image: images/blog/gemma-4-local-ai-engineering-series.webp
 level: intermediate
 duration_hours: 14
 lesson_count: 8

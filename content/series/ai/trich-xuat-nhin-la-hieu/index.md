@@ -6,7 +6,7 @@ description: >-
   Bảy bài về trích xuất thông tin từ văn bản tiếng Việt, NER là ca cụ thể. Mỗi bài một chỗ
   "tưởng đúng mà sai", và mọi con số đều đo được — kèm repo Python thuần chạy lại được từng
   con số xuất hiện trong video.
-featured_image: images/blog/trich-xuat-nhin-la-hieu/ep07_tran_cua_mo_hinh.png
+featured_image: images/blog/trich-xuat-nhin-la-hieu/ep07_tran_cua_mo_hinh.webp
 level: intermediate
 duration_hours: 2
 lesson_count: 7

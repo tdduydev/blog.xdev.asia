@@ -75,7 +75,18 @@ const KNOWN_MISSING = [
     "/storage/uploads/2026/05/his/bai-49-khung-phap-ly-2026-workflow.png",
 ];
 
-const IMAGE_REF = /\/(?:storage\/uploads|images\/blog|images\/og|avatars)\/[^\s)"'>\]]+?\.(?:png|jpe?g|webp|svg|gif)/g;
+// Khớp CẢ dạng có dấu `/` đầu lẫn dạng không có.
+//
+// Bài học đắt giá ngày 2026-09-18: bản đầu của regex này chỉ khớp dạng tuyệt
+// đối (`/images/blog/...`). Nhưng `featured_image` trong index.md của series
+// viết dạng tương đối (`images/blog/...`). Khi 894 ảnh PNG bị xoá để thay bằng
+// WebP, 14 đường dẫn dạng tương đối không được sửa theo — và test này vẫn XANH
+// trong khi 149 entry lesson trỏ tới file không còn tồn tại.
+//
+// Một test canh chỉ phủ một dạng cú pháp thì nó canh đúng dạng đó, không canh
+// bất biến mà ta tưởng.
+const IMAGE_REF =
+  /(?:^|[^a-zA-Z0-9._-])(\/?(?:storage\/uploads|images\/blog|images\/og|avatars)\/[^\s)"'>\]]+?\.(?:png|jpe?g|webp|svg|gif))/g;
 
 describe("ảnh được tham chiếu trong content", () => {
   const files = listFiles(CONTENT_ROOT, [".md"]);
@@ -89,9 +100,13 @@ describe("ảnh được tham chiếu trong content", () => {
 
     for (const file of files) {
       const source = fs.readFileSync(file, "utf-8");
-      for (const ref of source.match(IMAGE_REF) ?? []) {
-        if (KNOWN_MISSING.includes(ref)) continue;
-        if (!fs.existsSync(path.join(ROOT, "public", ref))) missing.add(ref);
+      for (const match of source.matchAll(IMAGE_REF)) {
+        const ref = match[1];
+        // So khớp danh sách miễn trừ theo dạng chuẩn hoá, để một mục không phải
+        // khai hai lần chỉ vì khác dấu `/` đầu.
+        const normalized = ref.startsWith("/") ? ref : `/${ref}`;
+        if (KNOWN_MISSING.includes(normalized)) continue;
+        if (!fs.existsSync(path.join(ROOT, "public", normalized))) missing.add(ref);
       }
     }
 

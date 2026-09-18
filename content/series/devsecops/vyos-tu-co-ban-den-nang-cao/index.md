@@ -6,7 +6,7 @@ description: >-
   Khóa học toàn diện về VyOS — hệ điều hành mạng mã nguồn mở mạnh mẽ. Từ cài đặt,
   cấu hình cơ bản đến firewall, VPN, routing nâng cao (BGP/OSPF), High Availability,
   VLANs, WireGuard, và triển khai production thực tế.
-featured_image: images/blog/vyos-series-featured.png
+featured_image: images/blog/vyos-series-featured.webp
 level: beginner
 duration_hours: 40
 lesson_count: 15

@@ -7,7 +7,7 @@ description: >-
   SageMaker、データエンジニアリング、モデリング、AWSでのML実装を
   エキスパートレベルで習得します。
 
-featured_image: images/blog/aws-ml-specialty-series-banner.png
+featured_image: images/blog/aws-ml-specialty-series-banner.webp
 level: advanced
 duration_hours: 40
 lesson_count: 12

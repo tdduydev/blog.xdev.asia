@@ -7,7 +7,7 @@ description: >-
   Bao phủ đầy đủ 5 domain: AI/ML Fundamentals, Generative AI, Foundation Models,
   Responsible AI, Security & Governance. 12 bài học chuyên sâu kèm thi thử tiếng Anh.
 
-featured_image: images/blog/aws-ai-practitioner-series-banner.png
+featured_image: images/blog/aws-ai-practitioner-series-banner.webp
 level: beginner
 duration_hours: 30
 lesson_count: 12

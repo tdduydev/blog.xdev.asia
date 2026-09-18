@@ -7,7 +7,7 @@ description: >-
   (MLS-C01). Nắm vững SageMaker, data engineering, modeling, triển khai ML trên AWS
   ở mức chuyên gia.
 
-featured_image: images/blog/aws-ml-specialty-series-banner.png
+featured_image: images/blog/aws-ml-specialty-series-banner.webp
 level: advanced
 duration_hours: 40
 lesson_count: 12

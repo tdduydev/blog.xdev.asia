@@ -7,7 +7,7 @@ description: >-
   RAG Agents、Agentic AIからLLM評価・ファインチューニングまで。10の詳細なレッスンに
   ハンズオンコード、コーディング演習、実試験に近い模擬問題を収録。
 
-featured_image: images/blog/nvidia-dli-genai-series-banner.png
+featured_image: images/blog/nvidia-dli-genai-series-banner.webp
 level: intermediate
 duration_hours: 40
 lesson_count: 10

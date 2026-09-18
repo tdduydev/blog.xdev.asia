@@ -6,7 +6,7 @@ description: >-
   Ollama と MLX を使用して Mac Apple Silicon (M1/M2/M3/M4) 上でローカルに LLM
   を実行するための包括的なガイド。初期インストールから MLX フレームワークによる 3 倍の高速化、複数のモデルの管理、アプリケーションへの API
   の統合、GPU/RAM パフォーマンスの最適化まで。すべて実践的、プライバシー最優先、インターネットは必要ありません。
-featured_image: images/blog/ollama-mlx-featured.png
+featured_image: images/blog/ollama-mlx-featured.webp
 level: beginner
 duration_hours: 12
 lesson_count: 12

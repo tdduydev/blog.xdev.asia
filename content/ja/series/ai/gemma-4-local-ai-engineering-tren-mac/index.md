@@ -3,7 +3,7 @@ id: 01970001-aa11-7011-b011-aa1100001011
 title: Gemma 4 ローカルAIエンジニアリング on Mac
 slug: gemma-4-local-ai-engineering-tren-mac
 description: Apple SiliconでGemma 4を使ったローカルAIスタックを構築するハンズオンシリーズ。Ollamaのセットアップ、API統合、RAGパイプライン、ハイブリッド検索から、内部環境向けのオブザーバビリティとハードニングまで。
-featured_image: images/blog/gemma-4-local-ai-engineering-series.png
+featured_image: images/blog/gemma-4-local-ai-engineering-series.webp
 level: intermediate
 duration_hours: 14
 lesson_count: 8

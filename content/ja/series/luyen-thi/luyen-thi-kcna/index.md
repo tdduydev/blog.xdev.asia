@@ -8,7 +8,7 @@ description: >-
   クラウドネイティブアーキテクチャ（16%）、オブザーバビリティ（8%）、アプリケーションデリバリー（8%）。
   練習問題付きの全9レッスン。
 
-featured_image: images/blog/luyen-thi-kcna-banner.png
+featured_image: images/blog/luyen-thi-kcna-banner.webp
 level: beginner
 duration_hours: 20
 lesson_count: 9

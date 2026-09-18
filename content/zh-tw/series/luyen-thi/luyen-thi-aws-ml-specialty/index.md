@@ -6,7 +6,7 @@ description: >-
   AWS Certified Machine Learning - Specialty (MLS-C01) 考試深度複習路線。
   精通SageMaker、數據工程、建模、在AWS上部署ML，達到專家級別。
 
-featured_image: images/blog/aws-ml-specialty-series-banner.png
+featured_image: images/blog/aws-ml-specialty-series-banner.webp
 level: advanced
 duration_hours: 40
 lesson_count: 12

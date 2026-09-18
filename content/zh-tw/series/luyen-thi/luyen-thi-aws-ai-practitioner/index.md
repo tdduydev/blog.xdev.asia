@@ -7,7 +7,7 @@ description: >-
   涵蓋全部5個領域：AI/ML基礎、生成式AI、基礎模型、
   負責任AI、安全性與治理。12堂深入課程，附繁體中文練習題。
 
-featured_image: images/blog/aws-ai-practitioner-series-banner.png
+featured_image: images/blog/aws-ai-practitioner-series-banner.webp
 level: beginner
 duration_hours: 30
 lesson_count: 12

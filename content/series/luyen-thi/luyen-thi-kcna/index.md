@@ -8,7 +8,7 @@ description: >-
   Cloud Native Architecture (16%), Observability (8%), Application Delivery (8%).
   9 bài học chuyên sâu kèm bài tập trắc nghiệm tiếng Anh.
 
-featured_image: images/blog/luyen-thi-kcna-banner.png
+featured_image: images/blog/luyen-thi-kcna-banner.webp
 level: beginner
 duration_hours: 20
 lesson_count: 9
