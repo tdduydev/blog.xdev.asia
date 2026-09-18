@@ -1,7 +1,7 @@
 ---
 id: 7263ef8f-d321-47bc-8991-059d4545e545
 title: 'Terminology Service'
-slug: terminology-service
+slug: terminology-service-mongodb
 description: 'Xây dựng Terminology Service cho Hệ thống Y tế FHIR R5 với MongoDB'
 duration_minutes: 26
 is_free: true

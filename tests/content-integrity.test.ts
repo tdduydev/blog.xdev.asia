@@ -71,7 +71,10 @@ describe("slug lesson trong cùng một series", () => {
   // Cặp trùng đã biết, chưa sửa vì đổi slug là phá URL cũ và cần quyết định về
   // redirect/SEO. Liệt kê ở đây để test vẫn chặn được cặp trùng MỚI thay vì bị
   // tắt hẳn. Xoá khỏi danh sách này khi cặp đó được xử lý.
-  const KNOWN_DUPLICATES = ["vi|architecture/hl7-fhir-r5-chuyen-sau|terminology-service"];
+  // Rỗng từ 2026-09-18: cặp trùng duy nhất đã được xử lý bằng cách đổi slug bài
+  // chương 12 thành "terminology-service-mongodb". Giữ lại cơ chế để lần sau có
+  // cặp trùng cần hoãn thì có chỗ khai báo, kèm lý do, thay vì tắt test.
+  const KNOWN_DUPLICATES: string[] = [];
 
   it("không có cặp trùng slug mới trong cùng một series", () => {
     const seen = new Map<string, string[]>();
@@ -96,18 +99,10 @@ describe("slug lesson trong cùng một series", () => {
     expect(duplicates).toEqual([]);
   });
 
-  it("cặp trùng đã biết vẫn còn đó — xoá khỏi KNOWN_DUPLICATES khi sửa xong", () => {
-    // Giữ danh sách miễn trừ khỏi bị bỏ quên: khi cặp này được sửa, test đỏ và
-    // nhắc người sửa dọn luôn danh sách.
-    const [locale, series, slug] = KNOWN_DUPLICATES[0].split("|");
-    const prefix = locale === "vi" ? "content/series/" : `content/${locale}/series/`;
-    const matches = markdownFiles.filter((filePath) => {
-      const relativePath = path.relative(process.cwd(), filePath).split(path.sep).join("/");
-      if (!relativePath.startsWith(`${prefix}${series}/`)) return false;
-      return matter(fs.readFileSync(filePath, "utf-8")).data?.slug === slug;
-    });
-
-    expect(matches.length).toBe(2);
+  it("danh sách miễn trừ rỗng — mọi cặp trùng đã biết đều đã được xử lý", () => {
+    // Khi thêm một mục vào KNOWN_DUPLICATES, hãy đổi test này thành kiểm rằng
+    // cặp đó thật sự còn tồn tại, để danh sách không mục ra khi content được sửa.
+    expect(KNOWN_DUPLICATES).toEqual([]);
   });
 });
 

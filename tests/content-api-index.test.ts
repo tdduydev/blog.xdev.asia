@@ -111,9 +111,9 @@ describe("url trong buildIndex", () => {
   // Mẫu miễn trừ giống hệt `KNOWN_DUPLICATES` trong
   // tests/content-integrity.test.ts:74-107: liệt kê cặp trùng đã biết để test
   // vẫn chặn được cặp trùng MỚI, thay vì tắt hẳn assertion.
-  const KNOWN_DUPLICATE_URLS = [
-    "https://blog.xdev.asia/lessons/hl7-fhir-r5-chuyen-sau/terminology-service/",
-  ];
+  // Rỗng từ 2026-09-18: xem tests/content-integrity.test.ts, cặp url trùng duy
+  // nhất đã hết sau khi đổi slug bài chương 12.
+  const KNOWN_DUPLICATE_URLS: string[] = [];
 
   it("không có cặp url trùng MỚI trong index của mỗi locale", () => {
     for (const locale of ["vi", "en", "ja", "zh-tw"] as const) {
@@ -132,12 +132,8 @@ describe("url trong buildIndex", () => {
     }
   });
 
-  it("cặp url trùng đã biết vẫn còn đó — xoá khỏi KNOWN_DUPLICATE_URLS khi sửa xong", () => {
-    const entries = buildIndex("vi");
-    for (const url of KNOWN_DUPLICATE_URLS) {
-      const matches = entries.filter((entry) => entry.url === url);
-      expect(matches.length).toBe(2);
-    }
+  it("danh sách miễn trừ url rỗng — mọi cặp trùng đã biết đều đã được xử lý", () => {
+    expect(KNOWN_DUPLICATE_URLS).toEqual([]);
   });
 });
 
