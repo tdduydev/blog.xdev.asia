@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { LOCALE_HTML_LANG, type Locale } from "@/lib/i18n/config";
 import type { Author, Post, PostIndex } from "@/lib/types";
 import { getValidImageUrl } from "@/utils/image";
+import { SITE_URL } from "@/lib/site";
 import { getLocalImageSize } from "./image-size";
 
-export const SITE_URL = "https://blog.xdev.asia";
+export { SITE_URL } from "@/lib/site";
 export const SITE_NAME = "xDev Asia";
 export const AUTHOR_PROFILE_URL = `${SITE_URL}/gioi-thieu/`;
 export const PUBLISHER_LOGO_URL = `${SITE_URL}/images/logo.png`;

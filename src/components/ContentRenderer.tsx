@@ -2,6 +2,8 @@
 
 import { useEffect, useRef } from "react";
 
+import { SITE_URL } from "@/lib/site";
+
 interface ContentRendererProps {
     html: string;
     className?: string;
@@ -23,7 +25,11 @@ export default function ContentRenderer({ html, className = "" }: ContentRendere
 
         const root = ref.current;
 
-        const productionAssetHost = "https://xdev.asia";
+        // Khi một ảnh /storage/ lỗi, thử lại trên host production. Trước đây hằng số
+        // này là "https://xdev.asia" — đo ngày 2026-09-18 thì domain đó trả 404 cho
+        // MỌI đường dẫn, kể cả trang chủ. Nên fallback cũ chỉ biến một ảnh lỗi thành
+        // một ảnh lỗi khác, cộng thêm một request đi vào hư không.
+        const productionAssetHost = SITE_URL;
 
         const repairContentImages = () => {
             const images = root.querySelectorAll("img");
