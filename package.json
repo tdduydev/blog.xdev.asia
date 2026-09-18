@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:ci": "next build",
+    "build": "node scripts/build-content-api.mjs && next build",
+    "build:ci": "node scripts/build-content-api.mjs && next build",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
