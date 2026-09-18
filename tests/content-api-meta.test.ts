@@ -42,6 +42,16 @@ describe("buildTaxonomy", () => {
     expect(taxonomy.tags.filter((t) => !usedTags.has(t.slug))).toEqual([]);
     expect(taxonomy.categories.filter((c) => !usedCategories.has(c.slug))).toEqual([]);
   });
+
+  it("mọi avatar đều cùng một dạng đường dẫn", () => {
+    const fromIndex = buildIndex("vi").map((entry) => entry.author.avatar);
+    const fromTaxonomy = buildTaxonomy("vi").authors.map((author) => author.avatar);
+
+    for (const avatar of [...fromIndex, ...fromTaxonomy]) {
+      if (avatar === null) continue;
+      expect(avatar.startsWith("/")).toBe(true);
+    }
+  });
 });
 
 describe("buildManifest", () => {

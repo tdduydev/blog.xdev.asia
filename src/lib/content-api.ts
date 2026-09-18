@@ -28,7 +28,7 @@ export interface ApiIndexEntry {
   featuredImage: string | null;
   readingTime: number | null;
   publishedAt: string | null;
-  author: { name: string; avatar: string | null };
+  author: { id: string; name: string; avatar: string | null };
   tags: string[];
   category: { slug: string; name: string } | null;
   series: { slug: string; chapter: string; order: number } | null;
@@ -39,6 +39,23 @@ export interface ApiIndexEntry {
 /** Đường dẫn tuyệt đối → đường dẫn tương đối kiểu "content/blog/ai/foo.md". */
 export function toApiPath(absoluteFilePath: string): string {
   return path.relative(process.cwd(), absoluteFilePath).split(path.sep).join("/");
+}
+
+/**
+ * Chuẩn hoá avatar path về một dạng duy nhất — luôn có dấu `/` đầu.
+ *
+ * Đã đo ngày 2026-09-18: frontmatter (blog lẫn series) lưu avatar KHÔNG có
+ * dấu `/` đầu (vd "avatars/7e8eb5c6-....jpeg"), còn `getAuthors()`
+ * (`src/lib/data.ts:527`) tự thêm dấu `/`. Hai nguồn cùng nuôi API này
+ * (`buildIndex` đọc frontmatter, `buildTaxonomy` đọc `getAuthors()`) mà phát
+ * ra hai dạng khác nhau cho cùng một tấm ảnh là lỗi hợp đồng của chính API —
+ * app ghép `SITE_URL + avatar` sẽ ra URL hỏng cho một trong hai. Dùng chung
+ * một hàm ở cả hai nơi để đường dẫn phát ra luôn nhất quán, thay vì chuẩn hoá
+ * rời rạc mỗi nơi một kiểu.
+ */
+function normalizeAvatarPath(avatar: string | null | undefined): string | null {
+  if (!avatar) return null;
+  return avatar.startsWith("/") ? avatar : `/${avatar}`;
 }
 
 /**
@@ -103,7 +120,11 @@ function buildPostEntries(locale: Locale): ApiIndexEntry[] {
       featuredImage: post.featured_image,
       readingTime: post.reading_time,
       publishedAt: post.published_at,
-      author: { name: post.author?.name ?? "", avatar: post.author?.avatar ?? null },
+      author: {
+        id: post.author?.id ?? "",
+        name: post.author?.name ?? "",
+        avatar: normalizeAvatarPath(post.author?.avatar),
+      },
       tags: (post.tags ?? []).map((tag) => tag.slug),
       category: post.category ? { slug: post.category.slug, name: post.category.name } : null,
       series: null,
@@ -157,7 +178,11 @@ function buildLessonEntries(locale: Locale): ApiIndexEntry[] {
           featuredImage: series.featured_image,
           readingTime: lesson.duration_minutes ?? null,
           publishedAt: series.published_at,
-          author: { name: series.author?.name ?? "", avatar: series.author?.avatar ?? null },
+          author: {
+            id: series.author?.id ?? "",
+            name: series.author?.name ?? "",
+            avatar: normalizeAvatarPath(series.author?.avatar),
+          },
           tags: (series.tags ?? []).map((tag) => tag.slug),
           category: series.category
             ? { slug: series.category.slug, name: series.category.name }
@@ -261,18 +286,15 @@ export function buildTaxonomy(locale: Locale): ApiTaxonomy {
   const usedCategories = new Set(
     entries.map((entry) => entry.category?.slug).filter((slug): slug is string => Boolean(slug))
   );
-  // Nối theo tên phải không phân biệt hoa/thường: đã đo ngày 2026-09-18 —
-  // `data/authors.json` lưu "DUY TRAN" (viết hoa toàn bộ), còn frontmatter
-  // (blog lẫn series) lưu "Duy Tran" — cùng một author (cùng id
-  // 019c9616-d2b4-713f-9b2c-40e2e92a05cf), chỉ khác cách viết hoa. Nối phân
-  // biệt hoa/thường sẽ khiến usedAuthors và getAuthors() không bao giờ khớp,
-  // taxonomy.authors luôn rỗng. `ApiIndexEntry.author` (Task 4) không mang
-  // `id` nên không nối theo id được ở đây; đổi shape của Task 4 nằm ngoài
-  // phạm vi Task 5.
-  const usedAuthors = new Set(
-    entries
-      .map((entry) => entry.author.name.trim().toLowerCase())
-      .filter((name) => name.length > 0)
+  // Nối theo `id`, không theo `name`: `name` là trường hiển thị, không phải
+  // khoá định danh — cùng loại lỗi lesson-join-theo-slug mà Task 4 đã gặp
+  // (xem `buildLessonEntries` phía trên). Đã đo ngày 2026-09-18:
+  // `data/authors.json` lưu "DUY TRAN", frontmatter lưu "Duy Tran", nhưng cả
+  // hai cùng `id` "019c9616-d2b4-713f-9b2c-40e2e92a05cf". Nối theo tên (kể cả
+  // không phân biệt hoa/thường) sẽ gộp nhầm hai tác giả khác nhau trót trùng
+  // tên, và vỡ ngay khi một tác giả đổi tên hiển thị; `id` không có rủi ro đó.
+  const usedAuthorIds = new Set(
+    entries.map((entry) => entry.author.id).filter((id) => id.length > 0)
   );
 
   return {
@@ -283,8 +305,8 @@ export function buildTaxonomy(locale: Locale): ApiTaxonomy {
       .filter((tag) => usedTags.has(tag.slug))
       .map((tag) => ({ slug: tag.slug, name: tag.name })),
     authors: getAuthors()
-      .filter((author) => usedAuthors.has(author.name.trim().toLowerCase()))
-      .map((author) => ({ name: author.name, avatar: author.avatar ?? null })),
+      .filter((author) => usedAuthorIds.has(author.id))
+      .map((author) => ({ name: author.name, avatar: normalizeAvatarPath(author.avatar) })),
   };
 }
 
