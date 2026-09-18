@@ -69,3 +69,31 @@ công bố của GitHub Pages là **1 GB** — vượt 7,4 lần. Phân tích ri
 cắt giảm nằm ở `docs/superpowers/notes/2026-09-18-pages-site-size-analysis.md`. Phương
 án A trong đó đã làm (commit `494984f7`, xoá `__next._full.txt` trùng lặp trước khi
 upload), giúp artifact thực tế đẩy lên Pages nhỏ hơn con số local khoảng 1,4 GB.
+
+
+## Kết quả deploy thật (cập nhật sau khi push)
+
+Push commit `ed28b545` ngày 2026-09-18, run `.github/workflows/deploy.yml`:
+
+| Job | Trước (run 32147932521) | Lần này | |
+|---|---|---|---|
+| `build` | 13 phút 21 | **12 phút 29** | giảm nhẹ |
+| `deploy` | 7 phút 02 | **3 phút 00** | **giảm 57%** |
+
+Rủi ro timeout 10 phút đã được gỡ, và theo hướng ngược với lo ngại ban đầu. Nguyên
+nhân: bước prune `__next._full.txt` (commit `494984f7`) xoá khoảng 8.975 file trùng
+lặp khỏi artifact, nhiều hơn phần Content API thêm vào. Dư địa so với timeout giờ là
+70%, trước đây là 30%.
+
+Xác minh API trên production:
+
+| Kiểm | Kết quả |
+|---|---|
+| `manifest.json` | 200, `version: ed28b54` khớp commit đã push |
+| `counts.vi` | `{posts: 130, lessons: 1525, series: 73}` |
+| Lấy `path` từ index live rồi fetch chính nó | 200, `text/markdown; charset=utf-8` |
+| Path tiếng Việt có dấu (`.../01-phần-1-vì-sao.../`) | **200** |
+| gzip | `vi/index.json` 2,07 MB → **283 KB** |
+
+Path có dấu là ẩn số duy nhất không đo được ở local — chỉ hành vi của chính GitHub
+Pages mới trả lời được. Nó phục vụ đúng.

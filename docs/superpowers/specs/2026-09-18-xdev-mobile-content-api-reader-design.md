@@ -156,8 +156,21 @@ phía app nên khai `featuredImage` là `nullable`, không phải `optional`.
 `index.json` sẽ trỏ sai domain. Đây là lý do S0 phụ thuộc S0.5 ở bảng mục 2, dù
 hai việc không liên quan về mặt code.
 
-Ước lượng: ~1600 entry/locale × ~400 byte ≈ 650 KB, còn ~170 KB sau gzip.
-GitHub Pages phục vụ gzip.
+**Đo thật trên production ngày 2026-09-18** (ước lượng cũ trong spec là ~650 KB thô /
+~170 KB gzip — sai khoảng 3×, giữ lại đây để không ai dùng lại con số đó):
+
+| File | Thô | Sau gzip |
+|---|---|---|
+| `vi/index.json` | **2,07 MB** | **283 KB** |
+| `vi/series.json` | — | 90 KB |
+| `manifest.json` | — | 177 byte |
+
+GitHub Pages có phục vụ gzip, nhưng chỉ khi client gửi `Accept-Encoding: gzip`. App
+phải bật nén — 2 MB so với 283 KB là khác biệt thật trên mạng di động.
+
+Hệ quả cho thiết kế app: tải index của MỘT locale tốn ~283 KB. Tải cả 4 locale sẽ hơn
+1 MB, nên quyết định ở mục 6.3 (chỉ tải locale đang chọn) là bắt buộc chứ không phải
+tối ưu cho vui.
 
 ### 4.4 Thực thi
 
