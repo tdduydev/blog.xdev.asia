@@ -371,3 +371,101 @@ Spec ghi App Check là việc của S3. App lên store thì nó thành bắt bu�
 ## Ngoài phạm vi plan này
 
 Auth, Firestore sync, AI chat, push notification, quiz/roadmap, on-device model. Mỗi cái một slice riêng theo bản đồ trong spec.
+
+
+---
+
+## Giai đoạn 2 — bốn tính năng người dùng yêu cầu ngày 2026-09-18
+
+Thứ tự dưới đây **không tuỳ tiện**. Xác minh trong `node_modules/@firebase` (SDK 12.11.0):
+
+- `getReactNativePersistence` có thật trong bản RN của `@firebase/auth`
+  (`dist/index.rn.d.ts` dòng 30) → **login chạy được trên Expo Go**.
+- App Check trong JS SDK chỉ có `CustomProvider` và `ReCaptchaEnterpriseProvider`.
+  **Không có App Attest, không có Play Integrity** — hai cái đó là native, chỉ có ở
+  `@react-native-firebase/app-check`.
+
+Nên bật App Check là **bước một chiều**: từ đó app cần development build, hết chạy
+được trên Expo Go, và mỗi vòng dev phải qua EAS Build (15 build/nền/tháng ở free tier).
+`CustomProvider` không cứu được vì nó cần server cấp token, mà site là static export.
+
+Kết luận: làm hết phần chạy được trên Expo Go trước, rồi mới bước sang dev build.
+
+### Task 10: Điều hướng bài trước / bài tiếp theo
+
+**Phạm vi:** chỉ repo app. Chạy trên Expo Go.
+
+Đây là lỗ hổng của spec chứ không phải của người làm: spec mục 6.2 liệt kê 4 tab và
+màn đọc bài, không ai viết "điều hướng bài trước/sau". Nhưng trong một app học, đọc
+xong bài 6 thì muốn sang bài 7 — quay ra danh sách là ma sát vô ích.
+
+Dữ liệu đã có sẵn: `series.json` cho cây `chapters[].lessons[]` kèm `order` và `id`.
+
+- [ ] Ở màn đọc bài, khi entry là `type: "lesson"`, tìm vị trí của nó trong series
+- [ ] Hiện nút bài trước / bài sau, kèm tiêu đề bài, ở cuối bài
+- [ ] Bài đầu chương không có "trước"; bài cuối series không có "sau" — nút phải ẩn
+      chứ không phải hiện rồi bấm không được
+- [ ] Vượt ranh giới chương: bài cuối chương 1 nối sang bài đầu chương 2
+- [ ] Test: bài giữa có cả hai nút; bài đầu tiên của series chỉ có "sau"; bài cuối
+      cùng chỉ có "trước"; bài `type: "blog"` không có nút nào
+
+### Task 11: Phơi quiz và roadmap qua Content API
+
+**Phạm vi:** chỉ repo blog. Chặn Task 12.
+
+Dữ liệu đã có: `data/quizzes.json` (10 đề, 110 câu), 7 file trong `data/quizzes/`, và
+`data/roadmaps.json`. API hiện **không phơi gì trong số đó**.
+
+- [ ] `src/app/api/v1/quizzes.json/route.ts` — danh sách đề, KHÔNG kèm câu hỏi
+- [ ] `src/app/api/v1/quiz/[slug].json/route.ts` — một đề đầy đủ kèm câu hỏi, qua
+      `generateStaticParams` trên `getQuizSlugs()`
+- [ ] `src/app/api/v1/roadmaps.json/route.ts`
+- [ ] Tách danh sách khỏi nội dung vì cùng lý do như `index.json` với markdown: app
+      không nên tải 98 KB câu hỏi chỉ để hiện danh sách đề
+- [ ] `data.ts` đã có `getAllQuizzes()`, `getQuiz(slug)`, `getQuizSlugs()` — dùng lại,
+      đừng parse lại JSON
+- [ ] Cập nhật `manifest.json` thêm số lượng quiz và roadmap
+- [ ] Test: mọi slug trong danh sách đều fetch được đề đầy đủ; số câu hỏi khớp
+      `questions_count` mà danh sách khai
+
+### Task 12: Màn thi thử
+
+**Phạm vi:** repo app. Phụ thuộc Task 11. Chạy trên Expo Go.
+
+- [ ] Tab mới hoặc mục trong Series: danh sách đề kèm số câu, thời lượng, điểm đạt
+- [ ] Màn làm bài: một câu mỗi lần, chọn đáp án, điều hướng tiến/lùi, đếm giờ
+- [ ] Màn kết quả: điểm, đạt/không đạt theo `passing_score`, xem lại từng câu kèm
+      `explanation`
+- [ ] **Chạy được khi chưa đăng nhập** — chỉ là không lưu kết quả. Đừng chặn sau login
+- [ ] Test: chấm điểm đúng; ranh giới đạt/không đạt; thoát giữa chừng không mất bài
+      đang làm
+
+### Task 13: Đăng nhập
+
+**Phạm vi:** repo app. Chạy trên Expo Go. Dùng chung Firebase project `xdev-asia`.
+
+`firestore.rules` đã viết sẵn cho `users/{uid}/progress`, `users/{uid}/bookmarks`,
+`quizResults/{uid}/attempts`, `reviews` — **không cần sửa rules**.
+
+- [ ] `initializeAuth(app, { persistence: getReactNativePersistence(AsyncStorage) })`
+      — bản `getAuth()` thường sẽ cảnh báo và không giữ phiên qua lần mở app sau
+- [ ] Đăng nhập Google, và Apple trên iOS (App Store yêu cầu Sign in with Apple nếu
+      app có đăng nhập bên thứ ba)
+- [ ] Sau khi đăng nhập: đồng bộ bookmark, tiến độ đọc, kết quả thi thử lên Firestore
+- [ ] Đăng xuất phải xoá cache cục bộ của dữ liệu cá nhân, không chỉ xoá phiên
+- [ ] Test: phiên còn sau khi khởi động lại app; rules từ chối đúng khi uid không khớp
+
+### Task 14: Chat AI — BƯỚC MỘT CHIỀU, làm sau cùng
+
+**Phạm vi:** repo app + Firebase Console. **Chấm dứt việc chạy trên Expo Go.**
+
+Trước khi bắt đầu task này, đọc lại đoạn đầu mục "Giai đoạn 2". Nó cần
+`@react-native-firebase/app-check` (native module) cho App Attest và Play Integrity,
+nên app phải chuyển sang development build. Mọi vòng dev sau đó tốn một lần EAS Build.
+
+- [ ] Xác nhận với chủ repo rằng họ chấp nhận đánh đổi này trước khi viết dòng nào
+- [ ] Bật App Check trong Firebase Console: App Attest (iOS), Play Integrity (Android)
+- [ ] Nạp App Check TRƯỚC lần gọi AI đầu tiên
+- [ ] Bật enforcement cho Firebase AI Logic
+- [ ] Chat theo ngữ cảnh bài đang đọc, dùng `gemini-2.5-flash` như web đang dùng
+- [ ] Kiểm: gọi AI từ một build không đăng ký phải bị từ chối
