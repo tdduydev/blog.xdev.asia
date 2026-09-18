@@ -1,6 +1,7 @@
 export const dynamic = "force-static";
 
 import { getAllPosts, getAllSeries, getSettings } from "@/lib/data";
+import { SITE_URL } from "@/lib/seo";
 
 // Map fine-grained category slugs to broad groups for LLM-friendly organization
 const SERIES_GROUPS: { name: string; categorySlugs: string[] }[] = [
@@ -12,7 +13,7 @@ const SERIES_GROUPS: { name: string; categorySlugs: string[] }[] = [
 
 export function GET() {
   const settings = getSettings();
-  const siteUrl = settings.site_url || "https://blog.xdev.asia";
+  const siteUrl = settings.site_url || SITE_URL;
   const siteName = settings.site_name || "xDev Asia";
   const siteDescription = settings.site_description || "";
 

@@ -6,8 +6,7 @@ import {
     getRoadmapBannerPath,
     getRoadmap,
 } from "@/lib/roadmaps";
-
-const SITE_URL = "https://blog.xdev.asia";
+import { SITE_URL } from "@/lib/seo";
 
 export function generateStaticParams() {
     return getAllRoadmapSlugs().map((slug) => ({ slug }));

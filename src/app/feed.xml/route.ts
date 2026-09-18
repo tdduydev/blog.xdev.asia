@@ -1,7 +1,7 @@
 export const dynamic = "force-static";
 
 import { getAllPosts, getSettings } from "@/lib/data";
-import { getPostImageUrl } from "@/lib/seo";
+import { getPostImageUrl, SITE_URL } from "@/lib/seo";
 
 function escapeXml(str: string): string {
   return str
@@ -14,7 +14,7 @@ function escapeXml(str: string): string {
 
 export function GET() {
   const settings = getSettings();
-  const siteUrl = settings.site_url || "https://blog.xdev.asia";
+  const siteUrl = settings.site_url || SITE_URL;
   const siteName = settings.site_name || "xDev Asia";
   const siteDescription = settings.site_description || "";
 

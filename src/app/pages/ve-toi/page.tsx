@@ -13,12 +13,13 @@ import {
     IconBrain,
     IconRocket,
 } from "@/components/Icons";
+import { SITE_URL } from "@/lib/seo";
 
 export const metadata: Metadata = {
     title: "Về tôi — Duy Tran | xDev Asia",
     description:
         "Solution Architect với 10+ năm kinh nghiệm thiết kế hệ thống enterprise, microservices, cloud và AI. Người xây dựng xDev.asia.",
-    alternates: { canonical: "https://blog.xdev.asia/pages/ve-toi/" },
+    alternates: { canonical: `${SITE_URL}/pages/ve-toi/` },
 };
 
 function MailIcon() {

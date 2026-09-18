@@ -1,6 +1,7 @@
 import { IconArrowRight, IconChevronRight, IconCode } from "@/components/Icons";
 import PostCard from "@/components/PostCard";
 import { getAllPosts, getAvailableTopics, getPostsByTopic } from "@/lib/data";
+import { SITE_URL } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -9,8 +10,6 @@ export const dynamicParams = false;
 export function generateStaticParams() {
     return getAvailableTopics().map((topic) => ({ topic: topic.slug }));
 }
-
-const SITE_URL = "https://blog.xdev.asia";
 
 export async function generateMetadata({ params }: { params: Promise<{ topic: string }> }): Promise<Metadata> {
     const { topic: topicSlug } = await params;

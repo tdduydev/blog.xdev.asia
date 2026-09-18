@@ -1,6 +1,7 @@
 import { getStaticPage, getStaticPageLanguageLinks } from "@/lib/data";
 import ContentLanguageSwitcher from "@/components/ContentLanguageSwitcher";
 import ContentRenderer from "@/components/ContentRenderer";
+import { SITE_URL } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -15,8 +16,6 @@ const KNOWN_SLUGS = [
     "xoa-du-lieu-nguoi-dung",
     "ve-toi",
 ];
-
-const SITE_URL = "https://blog.xdev.asia";
 
 export function generateStaticParams() {
     return KNOWN_SLUGS.map((slug) => ({ slug }));

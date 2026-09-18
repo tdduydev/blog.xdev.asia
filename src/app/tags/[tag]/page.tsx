@@ -7,13 +7,12 @@ import {
     getSeriesByTag,
     getTagBySlug,
 } from "@/lib/data";
+import { SITE_URL } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export const dynamicParams = false;
-
-const SITE_URL = "https://blog.xdev.asia";
 
 export function generateStaticParams() {
   return getActiveTagSlugs().map((tag) => ({ tag }));

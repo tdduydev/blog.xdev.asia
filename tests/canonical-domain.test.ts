@@ -32,4 +32,11 @@ describe("canonical domain", () => {
       .sort();
     expect(offenders).toEqual([]);
   });
+
+  it("không file nào trong src/app hardcode domain — phải import SITE_URL", () => {
+    const out = execSync("grep -rl 'blog\\.xdev\\.asia' src/app || true", {
+      encoding: "utf-8",
+    });
+    expect(out.split("\n").filter(Boolean).sort()).toEqual([]);
+  });
 });

@@ -9,6 +9,7 @@ import ShareButtons from "@/components/ShareButtons";
 import TableOfContents from "@/components/TableOfContents";
 import { getAuthorById, getSeries, getSeriesCategories, getSeriesLanguageLinks, getSeriesSlugsWithCategory } from "@/lib/data";
 import { getLocalImageSize } from "@/lib/image-size";
+import { SITE_URL } from "@/lib/seo";
 import { getValidImageUrl } from "@/utils/image";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -20,8 +21,6 @@ export const dynamicParams = false;
 export function generateStaticParams() {
     return getSeriesSlugsWithCategory().map(({ category, slug }) => ({ category, slug }));
 }
-
-const SITE_URL = "https://blog.xdev.asia";
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string; slug: string }> }): Promise<Metadata> {
     const { category, slug } = await params;

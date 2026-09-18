@@ -7,6 +7,7 @@ import {
   getSeries,
   getSettings,
 } from "@/lib/data";
+import { SITE_URL } from "@/lib/seo";
 
 function stripHtml(html: string): string {
   return html
@@ -31,7 +32,7 @@ const SERIES_GROUPS: { name: string; categorySlugs: string[] }[] = [
 
 export function GET() {
   const settings = getSettings();
-  const siteUrl = settings.site_url || "https://blog.xdev.asia";
+  const siteUrl = settings.site_url || SITE_URL;
   const siteName = settings.site_name || "xDev Asia";
   const siteDescription = settings.site_description || "";
 
