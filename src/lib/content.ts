@@ -256,3 +256,16 @@ export function renderMdxBodyToHtml(source: string): string {
     return result.replaceAll(`${host}/storage/`, "/storage/");
   }, html);
 }
+
+/** Đường dẫn tuyệt đối tới file markdown của một slug, hoặc null nếu không có. */
+export function getMdxFilePath(collection: string, slug: string): string | null {
+  return getCollectionIndex(collection).slugToFilePath.get(slug) ?? null;
+}
+
+/** Như trên nhưng tra theo relative path trong collection. */
+export function getMdxFilePathByRelativePath(
+  collection: string,
+  relativePath: string
+): string | null {
+  return getCollectionIndex(collection).relativePathToFilePath.get(relativePath) ?? null;
+}

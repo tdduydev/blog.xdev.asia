@@ -31,7 +31,7 @@ function fileExists(filePath: string): boolean {
   return fs.existsSync(path.join(dataDir, filePath));
 }
 
-function localizedCollection(collection: string, locale: Locale = DEFAULT_LOCALE): string {
+export function localizedCollection(collection: string, locale: Locale = DEFAULT_LOCALE): string {
   return locale === DEFAULT_LOCALE ? collection : `${locale}/${collection}`;
 }
 
