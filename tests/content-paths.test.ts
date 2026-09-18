@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import { describe, expect, it } from "vitest";
-import { getMdxFilePath, getMdxFilePathByRelativePath, listMdxRelativePaths } from "@/lib/content";
+import { getMdxFilePath, getMdxFilePathByRelativePath, listMdxRelativePaths, listMdxSlugs } from "@/lib/content";
 import { localizedCollection } from "@/lib/data";
 
 describe("content file paths", () => {
@@ -18,14 +18,29 @@ describe("content file paths", () => {
     // buildSlugMap (src/lib/content.ts:77) chỉ đăng ký:
     //   - File phẳng (không có /)
     //   - File kết thúc /index
-    // Nên slugToFilePath của collection "blog" luôn rỗng.
+    // Nên cả slugToFilePath và slugToRelativePath của collection "blog" luôn rỗng.
     // Để lấy đường dẫn bài blog, phải dùng getMdxFilePathByRelativePath + tra slug trong frontmatter.
 
+    // Khẳng định 1: listMdxSlugs("blog") rỗng
+    expect(listMdxSlugs("blog")).toEqual([]);
+
+    // Khẳng định 2: getMdxFilePath("blog", slug) trả null cho mọi slug
     const filePath = getMdxFilePath("blog", "ai-trong-y-te-healthcare");
     expect(filePath).toBeNull();
 
-    // Nhưng file thực sự tồn tại:
+    // Khẳng định 3: Nhưng file thực sự tồn tại trên đĩa
     expect(fs.existsSync("content/blog/ai/ai-trong-y-te-healthcare.md")).toBe(true);
+  });
+
+  it("trả null với slug không tồn tại trên collection có slug map", () => {
+    // Collection này có slug map thật sự có dữ liệu (files kết thúc /index)
+    const collection = localizedCollection("series/architecture/hl7-fhir-r5-chuyen-sau", "vi");
+
+    // Khẳng định 1: Slug map có dữ liệu (phân biệt với trường hợp map rỗng của blog)
+    expect(listMdxSlugs(collection).length).toBeGreaterThan(0);
+
+    // Khẳng định 2: Slug không tồn tại trả null
+    expect(getMdxFilePath(collection, "khong-ton-tai-dau")).toBeNull();
   });
 
   it("localizedCollection thêm prefix cho locale khác vi", () => {
