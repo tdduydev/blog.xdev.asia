@@ -71,7 +71,7 @@ Base: `https://blog.xdev.asia/api/v1/`
 | `manifest.json` | `version`, `generatedAt`, `locales[]`, `counts` theo locale |
 | `{locale}/index.json` | mọi post + lesson của locale, metadata đầy đủ |
 | `{locale}/series.json` | cây series → chapter → lesson (slug + title + order) |
-| `{locale}/taxonomy.json` | categories, tags, authors |
+| `{locale}/taxonomy.json` | categories, tags, authors — đã lọc xuống đúng những gì locale đó dùng |
 | `content/**/*.md` | markdown thô, mirror nguyên cấu trúc `content/` |
 
 `{locale}` ∈ `vi | en | ja | zh-tw`. Tổng 13 file JSON sinh lúc build, qua
