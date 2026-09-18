@@ -9,7 +9,14 @@ import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
 
 const contentRoot = path.join(process.cwd(), "content");
-const legacyContentHosts = ["https://x-lms.test", "http://x-lms.test", "https://xdev.asia", "http://xdev.asia"];
+const legacyContentHosts = [
+  "https://x-lms.test",
+  "http://x-lms.test",
+  "https://xdev.asia",
+  "http://xdev.asia",
+  "https://blog.xdev.asia",
+  "http://blog.xdev.asia",
+];
 const collectionDirs: Record<string, string> = {
   blog: path.join(contentRoot, "blog"),
   series: path.join(contentRoot, "series"),

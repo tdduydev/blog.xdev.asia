@@ -7,7 +7,7 @@ import {
     getRoadmap,
 } from "@/lib/roadmaps";
 
-const SITE_URL = "https://xdev.asia";
+const SITE_URL = "https://blog.xdev.asia";
 
 export function generateStaticParams() {
     return getAllRoadmapSlugs().map((slug) => ({ slug }));

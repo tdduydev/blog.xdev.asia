@@ -9,8 +9,8 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
     sitemap: [
-      "https://xdev.asia/sitemap.xml",
-      "https://xdev.asia/news-sitemap.xml",
+      "https://blog.xdev.asia/sitemap.xml",
+      "https://blog.xdev.asia/news-sitemap.xml",
     ],
   };
 }

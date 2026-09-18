@@ -12,7 +12,7 @@ const SERIES_GROUPS: { name: string; categorySlugs: string[] }[] = [
 
 export function GET() {
   const settings = getSettings();
-  const siteUrl = settings.site_url || "https://xdev.asia";
+  const siteUrl = settings.site_url || "https://blog.xdev.asia";
   const siteName = settings.site_name || "xDev Asia";
   const siteDescription = settings.site_description || "";
 

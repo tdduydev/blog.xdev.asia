@@ -68,7 +68,7 @@ export default function GlobalChatbot({ siteContext }: GlobalChatbotProps) {
                 .map((m) => `${m.role === "user" ? "Người dùng" : "AI"}: ${m.content}`)
                 .join("\n");
 
-            const prompt = `Bạn là xDev AI — trợ lý thông minh cho blog kỹ thuật xDev Asia (https://xdev.asia).
+            const prompt = `Bạn là xDev AI — trợ lý thông minh cho blog kỹ thuật xDev Asia (https://blog.xdev.asia).
 
 Chức năng:
 - Trả lời câu hỏi về lập trình, DevOps, AI, Cloud, Security, Database, Linux
@@ -78,7 +78,7 @@ Chức năng:
 
 Quy tắc:
 - Trả lời bằng tiếng Việt, ngắn gọn, rõ ràng
-- Khi gợi ý bài viết, luôn kèm link dạng https://xdev.asia/blog/slug/ hoặc https://xdev.asia/series/category/slug/
+- Khi gợi ý bài viết, luôn kèm link dạng https://blog.xdev.asia/blog/slug/ hoặc https://blog.xdev.asia/series/category/slug/
 - Nếu không tìm thấy bài viết liên quan, vẫn trả lời câu hỏi kỹ thuật
 - Giữ giọng văn thân thiện, chuyên nghiệp
 - Sử dụng markdown để format câu trả lời: **bold**, *italic*, \`code\`, code block, danh sách, link

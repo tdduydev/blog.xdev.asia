@@ -21,7 +21,7 @@ export function generateStaticParams() {
     return getSeriesSlugsWithCategory().map(({ category, slug }) => ({ category, slug }));
 }
 
-const SITE_URL = "https://xdev.asia";
+const SITE_URL = "https://blog.xdev.asia";
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string; slug: string }> }): Promise<Metadata> {
     const { category, slug } = await params;

@@ -7,7 +7,7 @@
 import https from "https";
 import { createGzip } from "zlib";
 
-const SITE_URL = "https://xdev.asia";
+const SITE_URL = "https://blog.xdev.asia";
 const RECENT_BLOG_POSTS = [
   "/blog/ban-tin-ai-06-04-2026/",
   "/blog/ban-tin-ai-05-04-2026/",

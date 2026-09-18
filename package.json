@@ -11,7 +11,9 @@
     "typecheck": "tsc --noEmit",
     "check:push": "npm run typecheck && npm run build:ci",
     "check:full": "npm run lint && npm run check:push",
-    "migrate:content": "node scripts/migrate-content.mjs"
+    "migrate:content": "node scripts/migrate-content.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
@@ -42,6 +44,8 @@
     "eslint-config-next": "16.2.1",
     "glob": "^13.0.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
   }
 }

@@ -16,7 +16,7 @@ const KNOWN_SLUGS = [
     "ve-toi",
 ];
 
-const SITE_URL = "https://xdev.asia";
+const SITE_URL = "https://blog.xdev.asia";
 
 export function generateStaticParams() {
     return KNOWN_SLUGS.map((slug) => ({ slug }));

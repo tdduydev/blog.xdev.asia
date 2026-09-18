@@ -13,7 +13,7 @@ import { notFound } from "next/navigation";
 
 export const dynamicParams = false;
 
-const SITE_URL = "https://xdev.asia";
+const SITE_URL = "https://blog.xdev.asia";
 
 export function generateStaticParams() {
   return getActiveTagSlugs().map((tag) => ({ tag }));

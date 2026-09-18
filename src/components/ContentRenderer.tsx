@@ -37,7 +37,8 @@ export default function ContentRenderer({ html, className = "" }: ContentRendere
 
                 const normalizedSrc = originalSrc
                     .replace(/^https?:\/\/x-lms\.test\/storage\//, "/storage/")
-                    .replace(/^https?:\/\/xdev\.asia\/storage\//, "/storage/");
+                    .replace(/^https?:\/\/xdev\.asia\/storage\//, "/storage/")
+                    .replace(/^https?:\/\/blog\.xdev\.asia\/storage\//, "/storage/");
 
                 if (normalizedSrc !== originalSrc) {
                     image.setAttribute("src", normalizedSrc);
